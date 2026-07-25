@@ -1,37 +1,37 @@
 {
-  "date": "2026-07-24",
-  "generatedAt": "2026-07-24T11:55:06.067482+00:00",
+  "date": "2026-07-25",
+  "generatedAt": "2026-07-25T09:59:32.715099+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Trump Administration Announces New Tariffs on 60 Countries",
-      "url": "https://www.wsj.com/podcasts/whats-news/trump-administration-announces-new-tariffs-on-60-countries/6869b83b-7ba4-4f20-b0e1-24804ec316bb",
-      "summary": "Trump administration imposes new tariffs on 60 countries, a major trade-policy shift with broad market impact.",
+      "title": "Trump Unveils New Tariffs Designed to Withstand Legal Scrutiny",
+      "url": "https://www.wsj.com/economy/trade/trump-unveils-new-tariffs-designed-to-withstand-legal-scrutiny-21ef4093",
+      "summary": "Trump unveiled new tariffs crafted to withstand legal challenges, escalating trade policy tensions affecting markets.",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Industry / Company / Transaction",
-      "title": "HSBC to Sell Singapore Insurance Business to Allianz for $2.1 Billion",
-      "url": "https://www.wsj.com/finance/hsbc-to-sell-singapore-insurance-business-to-allianz-for-2-1-billion-05318091",
-      "summary": "HSBC agrees to sell its Singapore insurance business to Allianz for $2.1 billion.",
+      "title": "Exclusive | Elon Musk’s Boring Company Eyes $20 Billion Valuation in New Funding Round",
+      "url": "https://www.wsj.com/business/elon-musks-boring-company-eyes-20-billion-valuation-in-new-funding-round-9b0b79ef",
+      "summary": "Elon Musk's Boring Company is reportedly seeking a $20 billion valuation in a new funding round.",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | The ‘Surprise Billing’ Racket",
-      "url": "https://www.wsj.com/opinion/surprise-billing-act-health-insurance-providers-15c1eadb",
-      "summary": "Op-ed argues against the \"surprise billing\" practices, a substantive healthcare economics policy critique.",
+      "title": "Opinion | Trump Tariffs, More Tariffs, and More . . .",
+      "url": "https://www.wsj.com/opinion/donald-trump-tariffs-301-canada-f3e90f13",
+      "summary": "Column argues Trump's tariff policies continue to expand, with more tariffs expected despite prior actions.",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Exclusive | AMD and Anthropic Sign Major Chips-and-Investment Deal",
-      "url": "https://www.wsj.com/tech/ai/amd-and-anthropic-sign-major-chips-and-investment-deal-4adfdc45",
-      "summary": "AMD and Anthropic sign a major chips-and-investment deal, a significant AI/chip industry development.",
+      "title": "A Rogue Hack and China at the Door Spark a Great AI Panic",
+      "url": "https://www.wsj.com/tech/ai/a-rogue-hack-and-china-at-the-door-spark-a-great-ai-panic-4e6d97a5",
+      "summary": "A rogue AI hack and rising China competition are sparking major panic across the AI industry.",
       "source": "WSJ"
     }
   ]
