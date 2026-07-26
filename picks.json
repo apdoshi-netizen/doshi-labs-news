@@ -1,13 +1,13 @@
 {
   "date": "2026-07-26",
-  "generatedAt": "2026-07-26T10:13:09.491764+00:00",
+  "generatedAt": "2026-07-26T11:36:01.743448+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
       "title": "What Trump’s Latest Tariffs Mean for the American Economy",
       "url": "https://www.wsj.com/economy/trade/what-trumps-latest-tariffs-mean-for-the-american-economy-0641c57b",
-      "summary": "Analysis of how Trump's newest tariffs could reshape the American economy and trade policy.",
+      "summary": "Analysis of how Trump's newest tariffs could affect broader U.S. economic growth and policy.",
       "source": "WSJ"
     },
     {
@@ -15,15 +15,15 @@
       "label": "Industry / Company / Transaction",
       "title": "Paramount Agrees to Pause Its Warner Bros. Merger",
       "url": "https://www.wsj.com/business/media/paramount-agrees-to-pause-its-warner-bros-merger-88ae1de1",
-      "summary": "Paramount agrees to pause its merger with Warner Bros., a major named corporate deal development.",
+      "summary": "Paramount agrees to pause its merger talks with Warner Bros, a major media deal development.",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Free-Market Health Reform in Bernie Sanders’s Vermont",
-      "url": "https://www.wsj.com/opinion/free-market-health-reform-in-bernie-sanderss-vermont-32a2ba68",
-      "summary": "Column examines free-market health reform efforts in Bernie Sanders's home state of Vermont.",
+      "title": "Opinion | The Economics of the World Cup",
+      "url": "https://www.wsj.com/opinion/the-economics-of-the-world-cup-c6c32092",
+      "summary": "Opinion piece examines the economic impact and business dynamics surrounding the World Cup.",
       "source": "WSJ"
     },
     {
@@ -31,7 +31,7 @@
       "label": "Tech",
       "title": "China’s Moonshot AI Releases Model to Challenge Top U.S. Systems",
       "url": "https://www.wsj.com/tech/ai/chinas-moonshot-ai-releases-model-to-challenge-top-u-s-systems-d84fe6e9",
-      "summary": "China's Moonshot AI releases a new model aiming to rival leading U.S. AI systems.",
+      "summary": "China's Moonshot AI unveils a new model aiming to rival top U.S. AI systems.",
       "source": "WSJ"
     }
   ]
