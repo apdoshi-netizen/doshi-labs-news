@@ -1,21 +1,21 @@
 {
   "date": "2026-07-27",
-  "generatedAt": "2026-07-27T11:37:37.134106+00:00",
+  "generatedAt": "2026-07-27T13:21:17.204139+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Big Tech Earnings and Fed Rate Decision Put Stock Rally to the Test",
-      "url": "https://www.wsj.com/finance/stocks/big-tech-earnings-and-fed-rate-decision-put-stock-rally-to-the-test-be602633",
-      "summary": "Big Tech earnings and the Fed's rate decision this week will test the ongoing stock market rally.",
+      "title": "Treasury Yields Fall as U.S.-Iran Hostilities Take a Break",
+      "url": "https://www.wsj.com/finance/investing/jgb-futures-rise-amid-falling-crude-oil-prices-2f1d5195",
+      "summary": "Treasury yields fall as U.S.-Iran hostilities pause, reflecting market relief and reduced geopolitical risk premium.",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Industry / Company / Transaction",
-      "title": "Argenx to Buy Forte Biosciences for $2.2 Billion",
-      "url": "https://www.wsj.com/tech/biotech/argenx-to-buy-forte-biosciences-for-2-2-billion-41653c87",
-      "summary": "Argenx agrees to acquire Forte Biosciences in a deal valued at $2.2 billion.",
+      "title": "KKR, Blackstone Sign $16 Billion Kuwait Oil Deal",
+      "url": "https://www.wsj.com/business/energy-oil/kkr-blackstone-sign-16-billion-kuwait-oil-deal-e864ed68",
+      "summary": "KKR and Blackstone sign a $16 billion oil deal in Kuwait, a major named transaction.",
       "source": "WSJ"
     },
     {
@@ -23,15 +23,15 @@
       "label": "Op-Ed",
       "title": "Opinion | Enjoy Your Free Time? Thank Capitalism",
       "url": "https://www.wsj.com/opinion/free-expression/enjoy-your-free-time-thank-capitalism-7d025773",
-      "summary": "Column argues that expanded leisure time in modern life is a direct benefit of capitalism.",
+      "summary": "Column argues capitalism, not other forces, is responsible for increased free time and leisure.",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Exclusive | Nvidia in Talks With OpenAI to Guarantee $250 Billion Financing for Data Center",
-      "url": "https://www.wsj.com/tech/ai/nvidia-in-talks-with-openai-to-guarantee-250-billion-financing-for-data-center-3dd6eae3",
-      "summary": "Nvidia reportedly in talks with OpenAI to guarantee $250 billion in data-center financing.",
+      "title": "AI Chatbots Know How to Make Deadly Biological Weapons. Some Will Teach You.",
+      "url": "https://www.wsj.com/tech/ai/openai-chatbot-biological-weapons-poison-3d808e6c",
+      "summary": "Nvidia reportedly in talks to guarantee $250 billion financing for OpenAI's data center buildout.",
       "source": "WSJ"
     }
   ]
