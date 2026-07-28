@@ -1,37 +1,37 @@
 {
-  "date": "2026-07-27",
-  "generatedAt": "2026-07-27T13:21:17.204139+00:00",
+  "date": "2026-07-28",
+  "generatedAt": "2026-07-28T10:44:57.413171+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Treasury Yields Fall as U.S.-Iran Hostilities Take a Break",
-      "url": "https://www.wsj.com/finance/investing/jgb-futures-rise-amid-falling-crude-oil-prices-2f1d5195",
-      "summary": "Treasury yields fall as U.S.-Iran hostilities pause, reflecting market relief and reduced geopolitical risk premium.",
+      "title": "2-Year Treasury Yield Highest In Over a Year",
+      "url": "https://www.wsj.com/finance/investing/jgb-futures-fall-tracking-declines-in-u-s-treasury-market-54cd45d8",
+      "summary": "Two-year Treasury yield hits highest level in over a year, signaling shifting rate expectations.",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Industry / Company / Transaction",
-      "title": "KKR, Blackstone Sign $16 Billion Kuwait Oil Deal",
-      "url": "https://www.wsj.com/business/energy-oil/kkr-blackstone-sign-16-billion-kuwait-oil-deal-e864ed68",
-      "summary": "KKR and Blackstone sign a $16 billion oil deal in Kuwait, a major named transaction.",
+      "title": "Johnson & Johnson Agrees to Pay $5.5 Billion to Settle Talc Lawsuits",
+      "url": "https://www.wsj.com/business/johnson-johnson-agrees-to-pay-up-to-5-5-billion-to-settle-talc-lawsuits-53d6db7f",
+      "summary": "Johnson & Johnson agrees to pay $5.5 billion to settle talc lawsuits.",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Enjoy Your Free Time? Thank Capitalism",
-      "url": "https://www.wsj.com/opinion/free-expression/enjoy-your-free-time-thank-capitalism-7d025773",
-      "summary": "Column argues capitalism, not other forces, is responsible for increased free time and leisure.",
+      "title": "Opinion | Socialism: Still Failing",
+      "url": "https://www.wsj.com/opinion/socialism-still-failing-e1468fc6",
+      "summary": "Opinion argues socialism continues to fail as an economic and policy model.",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "AI Chatbots Know How to Make Deadly Biological Weapons. Some Will Teach You.",
-      "url": "https://www.wsj.com/tech/ai/openai-chatbot-biological-weapons-poison-3d808e6c",
-      "summary": "Nvidia reportedly in talks to guarantee $250 billion financing for OpenAI's data center buildout.",
+      "title": "Exclusive | Nvidia in Talks With OpenAI to Guarantee $250 Billion Financing for Data Center",
+      "url": "https://www.wsj.com/tech/ai/nvidia-in-talks-with-openai-to-guarantee-250-billion-financing-for-data-center-3dd6eae3",
+      "summary": "Nvidia reportedly in talks to guarantee $250 billion financing for OpenAI data center.",
       "source": "WSJ"
     }
   ]
