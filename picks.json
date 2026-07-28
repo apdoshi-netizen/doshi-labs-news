@@ -1,13 +1,13 @@
 {
   "date": "2026-07-28",
-  "generatedAt": "2026-07-28T10:44:57.413171+00:00",
+  "generatedAt": "2026-07-28T12:11:11.633886+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "2-Year Treasury Yield Highest In Over a Year",
-      "url": "https://www.wsj.com/finance/investing/jgb-futures-fall-tracking-declines-in-u-s-treasury-market-54cd45d8",
-      "summary": "Two-year Treasury yield hits highest level in over a year, signaling shifting rate expectations.",
+      "title": "U.S. Treasury Yields Fall Amid Mideast Hopes; Dollar Rises Ahead of Fed",
+      "url": "https://www.wsj.com/finance/investing/jgbs-fall-on-worries-over-japans-fiscal-situation-e1d83f6e",
+      "summary": "",
       "source": "WSJ"
     },
     {
@@ -21,9 +21,9 @@
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Socialism: Still Failing",
-      "url": "https://www.wsj.com/opinion/socialism-still-failing-e1468fc6",
-      "summary": "Opinion argues socialism continues to fail as an economic and policy model.",
+      "title": "Opinion | AI Shouldn’t Require a Permission Slip",
+      "url": "https://www.wsj.com/opinion/ai-shouldnt-require-a-permission-slip-e8502aea",
+      "summary": "Opinion argues AI development shouldn't require government permission slips.",
       "source": "WSJ"
     },
     {
@@ -31,7 +31,7 @@
       "label": "Tech",
       "title": "Exclusive | Nvidia in Talks With OpenAI to Guarantee $250 Billion Financing for Data Center",
       "url": "https://www.wsj.com/tech/ai/nvidia-in-talks-with-openai-to-guarantee-250-billion-financing-for-data-center-3dd6eae3",
-      "summary": "Nvidia reportedly in talks to guarantee $250 billion financing for OpenAI data center.",
+      "summary": "Nvidia in talks with OpenAI to guarantee $250 billion data center financing.",
       "source": "WSJ"
     }
   ]
