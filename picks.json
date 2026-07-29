@@ -1,37 +1,37 @@
 {
-  "date": "2026-07-28",
-  "generatedAt": "2026-07-28T12:11:11.633886+00:00",
+  "date": "2026-07-29",
+  "generatedAt": "2026-07-29T10:48:25.491733+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "U.S. Treasury Yields Fall Amid Mideast Hopes; Dollar Rises Ahead of Fed",
-      "url": "https://www.wsj.com/finance/investing/jgbs-fall-on-worries-over-japans-fiscal-situation-e1d83f6e",
-      "summary": "",
+      "title": "10-Year Treasury Yield Rises to Highest Level Since Jan. 2025",
+      "url": "https://www.wsj.com/finance/investing/jgbs-fall-tracking-declines-in-u-s-treasurys-e9157d07",
+      "summary": "10-year Treasury yield climbs to highest level since January 2025, signaling shifting rate expectations ahead of Fed meeting.",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Industry / Company / Transaction",
-      "title": "Johnson & Johnson Agrees to Pay $5.5 Billion to Settle Talc Lawsuits",
-      "url": "https://www.wsj.com/business/johnson-johnson-agrees-to-pay-up-to-5-5-billion-to-settle-talc-lawsuits-53d6db7f",
-      "summary": "Johnson & Johnson agrees to pay $5.5 billion to settle talc lawsuits.",
+      "title": "Luxfer to Go Private in $463 Million Deal With Wynnchurch",
+      "url": "https://www.wsj.com/pro/private-equity/luxfer-to-go-private-in-463-million-deal-with-wynnchurch-6ad78be7",
+      "summary": "Luxfer Holdings to go private in $463 million deal with private-equity firm Wynnchurch Capital.",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | AI Shouldn’t Require a Permission Slip",
-      "url": "https://www.wsj.com/opinion/ai-shouldnt-require-a-permission-slip-e8502aea",
-      "summary": "Opinion argues AI development shouldn't require government permission slips.",
+      "title": "Opinion | The Paramount-Warner Merger Could Save Hollywood",
+      "url": "https://www.wsj.com/opinion/the-paramount-warner-merger-could-save-hollywood-f558ee4b",
+      "summary": "Column argues the proposed Paramount-Warner merger could help save the struggling Hollywood industry.",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Exclusive | Nvidia in Talks With OpenAI to Guarantee $250 Billion Financing for Data Center",
-      "url": "https://www.wsj.com/tech/ai/nvidia-in-talks-with-openai-to-guarantee-250-billion-financing-for-data-center-3dd6eae3",
-      "summary": "Nvidia in talks with OpenAI to guarantee $250 billion data center financing.",
+      "title": "Even $64 Billion in Quarterly Profit Is a Disappointment for Chip Investors",
+      "url": "https://www.wsj.com/tech/even-64-billion-in-quarterly-profit-is-a-disappointment-for-chip-investors-91dcb5c4",
+      "summary": "Despite $64 billion in quarterly profit, chip investors remain disappointed, reflecting high AI spending expectations.",
       "source": "WSJ"
     }
   ]
