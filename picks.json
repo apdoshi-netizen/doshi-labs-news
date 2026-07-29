@@ -1,21 +1,21 @@
 {
   "date": "2026-07-29",
-  "generatedAt": "2026-07-29T10:48:25.491733+00:00",
+  "generatedAt": "2026-07-29T12:18:30.103203+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "10-Year Treasury Yield Rises to Highest Level Since Jan. 2025",
-      "url": "https://www.wsj.com/finance/investing/jgbs-fall-tracking-declines-in-u-s-treasurys-e9157d07",
-      "summary": "10-year Treasury yield climbs to highest level since January 2025, signaling shifting rate expectations ahead of Fed meeting.",
+      "title": "Oil Surges as Fresh Middle East Strikes Threaten Fragile Diplomacy",
+      "url": "https://www.wsj.com/economy/oil-surges-as-fresh-middle-east-strikes-threaten-fragile-diplomacy-7fd2d4e8",
+      "summary": "Oil prices surge as new Middle East strikes threaten fragile diplomatic efforts, raising market volatility.",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Industry / Company / Transaction",
-      "title": "Luxfer to Go Private in $463 Million Deal With Wynnchurch",
-      "url": "https://www.wsj.com/pro/private-equity/luxfer-to-go-private-in-463-million-deal-with-wynnchurch-6ad78be7",
-      "summary": "Luxfer Holdings to go private in $463 million deal with private-equity firm Wynnchurch Capital.",
+      "title": "UBS Plans $3 Billion Buyback After Investment Bank, Wealth Units Lift Profit",
+      "url": "https://www.wsj.com/business/earnings/ubs-plans-new-3-billion-buyback-after-net-profit-rises-d2d4fca9",
+      "summary": "UBS plans $3 billion share buyback after investment bank and wealth units boost quarterly profit.",
       "source": "WSJ"
     },
     {
@@ -23,7 +23,7 @@
       "label": "Op-Ed",
       "title": "Opinion | The Paramount-Warner Merger Could Save Hollywood",
       "url": "https://www.wsj.com/opinion/the-paramount-warner-merger-could-save-hollywood-f558ee4b",
-      "summary": "Column argues the proposed Paramount-Warner merger could help save the struggling Hollywood industry.",
+      "summary": "Opinion argues the Paramount-Warner merger could help save Hollywood's struggling business model.",
       "source": "WSJ"
     },
     {
@@ -31,7 +31,7 @@
       "label": "Tech",
       "title": "Even $64 Billion in Quarterly Profit Is a Disappointment for Chip Investors",
       "url": "https://www.wsj.com/tech/even-64-billion-in-quarterly-profit-is-a-disappointment-for-chip-investors-91dcb5c4",
-      "summary": "Despite $64 billion in quarterly profit, chip investors remain disappointed, reflecting high AI spending expectations.",
+      "summary": "Chip investors underwhelmed despite $64 billion quarterly profit, highlighting high expectations in the sector.",
       "source": "WSJ"
     }
   ]
