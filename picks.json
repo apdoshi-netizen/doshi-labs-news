@@ -1,37 +1,37 @@
 {
-  "date": "2026-07-29",
-  "generatedAt": "2026-07-29T12:18:30.103203+00:00",
+  "date": "2026-07-30",
+  "generatedAt": "2026-07-30T12:03:17.325485+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Oil Surges as Fresh Middle East Strikes Threaten Fragile Diplomacy",
-      "url": "https://www.wsj.com/economy/oil-surges-as-fresh-middle-east-strikes-threaten-fragile-diplomacy-7fd2d4e8",
-      "summary": "Oil prices surge as new Middle East strikes threaten fragile diplomatic efforts, raising market volatility.",
+      "title": "U.S. Treasury Yields Soar as Market Struggles to Interpret Fed",
+      "url": "https://www.wsj.com/economy/central-banking/u-s-treasury-yields-soar-as-market-struggles-to-interpret-fed-16885819",
+      "summary": "U.S. Treasury yields soar as markets struggle to interpret the Fed's latest policy signals and rate decision.",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Industry / Company / Transaction",
-      "title": "UBS Plans $3 Billion Buyback After Investment Bank, Wealth Units Lift Profit",
-      "url": "https://www.wsj.com/business/earnings/ubs-plans-new-3-billion-buyback-after-net-profit-rises-d2d4fca9",
-      "summary": "UBS plans $3 billion share buyback after investment bank and wealth units boost quarterly profit.",
+      "title": "Microsoft Profit Jumps 31% as Azure Cloud Sales Surpass $100 Billion",
+      "url": "https://www.wsj.com/articles/microsoft-earnings-q4-fy26-msft-stock-dfd3843e",
+      "summary": "Microsoft's profit jumped 31% as Azure cloud sales surpassed $100 billion, showing robust cloud growth.",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | The Paramount-Warner Merger Could Save Hollywood",
-      "url": "https://www.wsj.com/opinion/the-paramount-warner-merger-could-save-hollywood-f558ee4b",
-      "summary": "Opinion argues the Paramount-Warner merger could help save Hollywood's struggling business model.",
+      "title": "Opinion | Warsh, the Fed and Market Signals",
+      "url": "https://www.wsj.com/opinion/kevin-warsh-federal-reserve-fomc-investors-f562d456",
+      "summary": "Opinion piece examines Kevin Warsh, Fed policy signals, and their impact on market interpretation and rates.",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Even $64 Billion in Quarterly Profit Is a Disappointment for Chip Investors",
-      "url": "https://www.wsj.com/tech/even-64-billion-in-quarterly-profit-is-a-disappointment-for-chip-investors-91dcb5c4",
-      "summary": "Chip investors underwhelmed despite $64 billion quarterly profit, highlighting high expectations in the sector.",
+      "title": "Meta’s Case for Its AI Spending Keeps Getting Weaker",
+      "url": "https://www.wsj.com/tech/ai/metas-case-for-its-ai-spending-keeps-getting-weaker-aa4b9a5c",
+      "summary": "Meta's justification for massive AI spending is weakening amid investor scrutiny over returns and costs.",
       "source": "WSJ"
     }
   ]
