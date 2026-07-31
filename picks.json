@@ -1,37 +1,37 @@
 {
-  "date": "2026-07-30",
-  "generatedAt": "2026-07-30T12:03:17.325485+00:00",
+  "date": "2026-07-31",
+  "generatedAt": "2026-07-31T10:50:31.946635+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "U.S. Treasury Yields Soar as Market Struggles to Interpret Fed",
-      "url": "https://www.wsj.com/economy/central-banking/u-s-treasury-yields-soar-as-market-struggles-to-interpret-fed-16885819",
-      "summary": "U.S. Treasury yields soar as markets struggle to interpret the Fed's latest policy signals and rate decision.",
+      "title": "Bank of Japan Stands Pat But Weak Yen Threatens Inflation Outlook",
+      "url": "https://www.wsj.com/economy/central-banking/bank-of-japan-stands-pat-continues-to-see-inflation-around-2-3b20439c",
+      "summary": "Bank of Japan holds rates steady while a weak yen raises risks to its inflation outlook.",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Industry / Company / Transaction",
-      "title": "Microsoft Profit Jumps 31% as Azure Cloud Sales Surpass $100 Billion",
-      "url": "https://www.wsj.com/articles/microsoft-earnings-q4-fy26-msft-stock-dfd3843e",
-      "summary": "Microsoft's profit jumped 31% as Azure cloud sales surpassed $100 billion, showing robust cloud growth.",
+      "title": "Couche-Tard Plans to Buy Poland’s Zabka for About $8.7 Billion",
+      "url": "https://www.wsj.com/business/deals/couche-tard-plans-to-buy-polands-zabka-for-about-8-7-billion-7fd37bbf",
+      "summary": "Couche-Tard agrees to acquire Poland's convenience-store chain Zabka for approximately $8.7 billion.",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Warsh, the Fed and Market Signals",
-      "url": "https://www.wsj.com/opinion/kevin-warsh-federal-reserve-fomc-investors-f562d456",
-      "summary": "Opinion piece examines Kevin Warsh, Fed policy signals, and their impact on market interpretation and rates.",
+      "title": "Opinion | Milton Friedman Was Right",
+      "url": "https://www.wsj.com/opinion/free-expression/milton-friedman-was-right-faeb46c6",
+      "summary": "Opinion piece argues Milton Friedman's economic views have been vindicated.",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Meta’s Case for Its AI Spending Keeps Getting Weaker",
-      "url": "https://www.wsj.com/tech/ai/metas-case-for-its-ai-spending-keeps-getting-weaker-aa4b9a5c",
-      "summary": "Meta's justification for massive AI spending is weakening amid investor scrutiny over returns and costs.",
+      "title": "Exclusive | Banks in Talks to Lend $15 Billion for Anthropic Data Center Backed by Google",
+      "url": "https://www.wsj.com/tech/banks-in-talks-to-lend-15-billion-for-anthropic-data-center-backed-by-google-606d7afd",
+      "summary": "Banks in talks to lend $15 billion for an Anthropic data center backed by Google.",
       "source": "WSJ"
     }
   ]
