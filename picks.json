@@ -1,13 +1,13 @@
 {
   "date": "2026-07-31",
-  "generatedAt": "2026-07-31T10:50:31.946635+00:00",
+  "generatedAt": "2026-07-31T12:14:38.493007+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Bank of Japan Stands Pat But Weak Yen Threatens Inflation Outlook",
-      "url": "https://www.wsj.com/economy/central-banking/bank-of-japan-stands-pat-continues-to-see-inflation-around-2-3b20439c",
-      "summary": "Bank of Japan holds rates steady while a weak yen raises risks to its inflation outlook.",
+      "title": "U.S. Economic Growth Slowed to 1.5% in Second Quarter",
+      "url": "https://www.wsj.com/economy/u-s-economic-growth-slowed-to-1-5-in-second-quarter-003c464f",
+      "summary": "U.S. economic growth slowed to 1.5% in the second quarter, a key data print with cross-asset market implications.",
       "source": "WSJ"
     },
     {
@@ -15,7 +15,7 @@
       "label": "Industry / Company / Transaction",
       "title": "Couche-Tard Plans to Buy Poland’s Zabka for About $8.7 Billion",
       "url": "https://www.wsj.com/business/deals/couche-tard-plans-to-buy-polands-zabka-for-about-8-7-billion-7fd37bbf",
-      "summary": "Couche-Tard agrees to acquire Poland's convenience-store chain Zabka for approximately $8.7 billion.",
+      "summary": "Couche-Tard plans to buy Poland's Zabka for approximately $8.7 billion in a major named acquisition.",
       "source": "WSJ"
     },
     {
@@ -23,7 +23,7 @@
       "label": "Op-Ed",
       "title": "Opinion | Milton Friedman Was Right",
       "url": "https://www.wsj.com/opinion/free-expression/milton-friedman-was-right-faeb46c6",
-      "summary": "Opinion piece argues Milton Friedman's economic views have been vindicated.",
+      "summary": "Op-ed argues Milton Friedman's economic views were correct, a substantive economics-focused policy argument.",
       "source": "WSJ"
     },
     {
@@ -31,7 +31,7 @@
       "label": "Tech",
       "title": "Exclusive | Banks in Talks to Lend $15 Billion for Anthropic Data Center Backed by Google",
       "url": "https://www.wsj.com/tech/banks-in-talks-to-lend-15-billion-for-anthropic-data-center-backed-by-google-606d7afd",
-      "summary": "Banks in talks to lend $15 billion for an Anthropic data center backed by Google.",
+      "summary": "Banks in talks to lend $15 billion for Anthropic data center backed by Google, major AI infrastructure financing.",
       "source": "WSJ"
     }
   ]
