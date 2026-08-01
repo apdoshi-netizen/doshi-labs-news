@@ -1,29 +1,29 @@
 {
   "date": "2026-08-01",
-  "generatedAt": "2026-08-01T10:09:24.359088+00:00",
+  "generatedAt": "2026-08-01T11:34:18.010396+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Exclusive | Fed’s Barkin Says It’s a ‘Close Call’ Whether Rates Are High Enough",
-      "url": "https://www.wsj.com/economy/central-banking/tom-barkin-fed-president-interest-rates-99f2b676",
-      "summary": "Fed’s Barkin says it’s a close call whether interest rates are currently high enough to curb inflation.",
+      "title": "Treasury Yields Rise in Month That Saw Inflation Fears Revive",
+      "url": "https://www.wsj.com/finance/jgbs-edge-lower-ahead-of-bojs-rate-decision-000cd87a",
+      "summary": "Treasury yields rose in July as month saw inflation fears revive across markets.",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Industry / Company / Transaction",
-      "title": "Rise of Bond E-Trading Underpins NYSE Owner’s $6 Billion MarketAxess Deal",
-      "url": "https://www.wsj.com/finance/investing/rise-of-bond-e-trading-underpins-nyse-owners-6-billion-marketaxess-deal-07f40706",
-      "summary": "NYSE owner’s $6 billion MarketAxess deal reflects rise of bond electronic trading.",
+      "title": "David Ellison’s Risky Courtroom Strategy to Save His $81 Billion Warner Deal",
+      "url": "https://www.wsj.com/business/media/david-ellison-paramount-warner-strategy-deal-39a4ba62",
+      "summary": "David Ellison pursues risky courtroom strategy to save his $81 billion Warner deal.",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Warsh Makes Markets Do Their Job",
-      "url": "https://www.wsj.com/opinion/federal-reserve-markets-guidance-kevin-warsh-03fb4432",
-      "summary": "Opinion piece argues Warsh is making markets do their job amid policy debates.",
+      "title": "Opinion | Where Sec. 232 Tariffs Undermine U.S. Industry",
+      "url": "https://www.wsj.com/opinion/where-sec-232-tariffs-undermine-u-s-industry-db12af7e",
+      "summary": "Op-ed argues Section 232 tariffs are undermining U.S. industry rather than protecting it.",
       "source": "WSJ"
     },
     {
@@ -31,7 +31,7 @@
       "label": "Tech",
       "title": "Microsoft’s One-Day Market-Cap Gain Makes History",
       "url": "https://www.wsj.com/tech/microsofts-one-day-market-cap-gain-makes-history-2b3a5cb3",
-      "summary": "Microsoft posts a historic one-day market-capitalization gain, underscoring major tech investor enthusiasm.",
+      "summary": "Microsoft posts historic one-day market-cap gain, underscoring AI-driven investor enthusiasm for big tech.",
       "source": "WSJ"
     }
   ]
