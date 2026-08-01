@@ -1,37 +1,37 @@
 {
-  "date": "2026-07-31",
-  "generatedAt": "2026-07-31T12:14:38.493007+00:00",
+  "date": "2026-08-01",
+  "generatedAt": "2026-08-01T10:09:24.359088+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "U.S. Economic Growth Slowed to 1.5% in Second Quarter",
-      "url": "https://www.wsj.com/economy/u-s-economic-growth-slowed-to-1-5-in-second-quarter-003c464f",
-      "summary": "U.S. economic growth slowed to 1.5% in the second quarter, a key data print with cross-asset market implications.",
+      "title": "Exclusive | Fed’s Barkin Says It’s a ‘Close Call’ Whether Rates Are High Enough",
+      "url": "https://www.wsj.com/economy/central-banking/tom-barkin-fed-president-interest-rates-99f2b676",
+      "summary": "Fed’s Barkin says it’s a close call whether interest rates are currently high enough to curb inflation.",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Industry / Company / Transaction",
-      "title": "Couche-Tard Plans to Buy Poland’s Zabka for About $8.7 Billion",
-      "url": "https://www.wsj.com/business/deals/couche-tard-plans-to-buy-polands-zabka-for-about-8-7-billion-7fd37bbf",
-      "summary": "Couche-Tard plans to buy Poland's Zabka for approximately $8.7 billion in a major named acquisition.",
+      "title": "Rise of Bond E-Trading Underpins NYSE Owner’s $6 Billion MarketAxess Deal",
+      "url": "https://www.wsj.com/finance/investing/rise-of-bond-e-trading-underpins-nyse-owners-6-billion-marketaxess-deal-07f40706",
+      "summary": "NYSE owner’s $6 billion MarketAxess deal reflects rise of bond electronic trading.",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Milton Friedman Was Right",
-      "url": "https://www.wsj.com/opinion/free-expression/milton-friedman-was-right-faeb46c6",
-      "summary": "Op-ed argues Milton Friedman's economic views were correct, a substantive economics-focused policy argument.",
+      "title": "Opinion | Warsh Makes Markets Do Their Job",
+      "url": "https://www.wsj.com/opinion/federal-reserve-markets-guidance-kevin-warsh-03fb4432",
+      "summary": "Opinion piece argues Warsh is making markets do their job amid policy debates.",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Exclusive | Banks in Talks to Lend $15 Billion for Anthropic Data Center Backed by Google",
-      "url": "https://www.wsj.com/tech/banks-in-talks-to-lend-15-billion-for-anthropic-data-center-backed-by-google-606d7afd",
-      "summary": "Banks in talks to lend $15 billion for Anthropic data center backed by Google, major AI infrastructure financing.",
+      "title": "Microsoft’s One-Day Market-Cap Gain Makes History",
+      "url": "https://www.wsj.com/tech/microsofts-one-day-market-cap-gain-makes-history-2b3a5cb3",
+      "summary": "Microsoft posts a historic one-day market-capitalization gain, underscoring major tech investor enthusiasm.",
       "source": "WSJ"
     }
   ]
