@@ -1,37 +1,37 @@
 {
-  "date": "2026-08-01",
-  "generatedAt": "2026-08-01T11:34:18.010396+00:00",
+  "date": "2026-08-02",
+  "generatedAt": "2026-08-02T10:06:51.928588+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Treasury Yields Rise in Month That Saw Inflation Fears Revive",
-      "url": "https://www.wsj.com/finance/jgbs-edge-lower-ahead-of-bojs-rate-decision-000cd87a",
-      "summary": "Treasury yields rose in July as month saw inflation fears revive across markets.",
+      "title": "Three Fed Officials Say Inflation Should Have Prompted Higher Rates",
+      "url": "https://www.wsj.com/economy/central-banking/two-fed-officials-say-inflation-should-have-prompted-higher-rates-e203c5ac",
+      "summary": "Three Fed officials say persistent inflation should have prompted higher interest rates, signaling policy debate.",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Industry / Company / Transaction",
-      "title": "David Ellison’s Risky Courtroom Strategy to Save His $81 Billion Warner Deal",
-      "url": "https://www.wsj.com/business/media/david-ellison-paramount-warner-strategy-deal-39a4ba62",
-      "summary": "David Ellison pursues risky courtroom strategy to save his $81 billion Warner deal.",
+      "title": "Exclusive | KKR Near Deal to Buy Integer Holdings",
+      "url": "https://www.wsj.com/business/deals/kkr-integer-holdings-deal-485461fa",
+      "summary": "KKR is near a deal to acquire Integer Holdings, a notable private-equity buyout.",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Where Sec. 232 Tariffs Undermine U.S. Industry",
-      "url": "https://www.wsj.com/opinion/where-sec-232-tariffs-undermine-u-s-industry-db12af7e",
-      "summary": "Op-ed argues Section 232 tariffs are undermining U.S. industry rather than protecting it.",
+      "title": "Opinion | Warsh Makes Markets Do Their Job",
+      "url": "https://www.wsj.com/opinion/federal-reserve-markets-guidance-kevin-warsh-03fb4432",
+      "summary": "Column argues Kevin Warsh's stance would make markets, not the Fed, do their job.",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Microsoft’s One-Day Market-Cap Gain Makes History",
-      "url": "https://www.wsj.com/tech/microsofts-one-day-market-cap-gain-makes-history-2b3a5cb3",
-      "summary": "Microsoft posts historic one-day market-cap gain, underscoring AI-driven investor enthusiasm for big tech.",
+      "title": "OpenAI Surpasses One Billion Users After Cutting Prices",
+      "url": "https://www.wsj.com/tech/ai/openai-surpasses-one-billion-users-after-cutting-prices-8a9943e4",
+      "summary": "OpenAI surpasses one billion users after cutting prices, marking major AI adoption milestone.",
       "source": "WSJ"
     }
   ]
