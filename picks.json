@@ -1,13 +1,13 @@
 {
   "date": "2026-08-02",
-  "generatedAt": "2026-08-02T10:06:51.928588+00:00",
+  "generatedAt": "2026-08-02T11:33:28.404948+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
       "title": "Three Fed Officials Say Inflation Should Have Prompted Higher Rates",
       "url": "https://www.wsj.com/economy/central-banking/two-fed-officials-say-inflation-should-have-prompted-higher-rates-e203c5ac",
-      "summary": "Three Fed officials say persistent inflation should have prompted higher interest rates, signaling policy debate.",
+      "summary": "Three Fed officials say inflation should have prompted higher interest rates, signaling hawkish policy debate.",
       "source": "WSJ"
     },
     {
@@ -15,7 +15,7 @@
       "label": "Industry / Company / Transaction",
       "title": "Exclusive | KKR Near Deal to Buy Integer Holdings",
       "url": "https://www.wsj.com/business/deals/kkr-integer-holdings-deal-485461fa",
-      "summary": "KKR is near a deal to acquire Integer Holdings, a notable private-equity buyout.",
+      "summary": "KKR nears deal to acquire Integer Holdings, a notable private-equity M&A transaction.",
       "source": "WSJ"
     },
     {
@@ -23,7 +23,7 @@
       "label": "Op-Ed",
       "title": "Opinion | Warsh Makes Markets Do Their Job",
       "url": "https://www.wsj.com/opinion/federal-reserve-markets-guidance-kevin-warsh-03fb4432",
-      "summary": "Column argues Kevin Warsh's stance would make markets, not the Fed, do their job.",
+      "summary": "Column argues Kevin Warsh's Fed reform ideas would make markets function more effectively.",
       "source": "WSJ"
     },
     {
@@ -31,7 +31,7 @@
       "label": "Tech",
       "title": "OpenAI Surpasses One Billion Users After Cutting Prices",
       "url": "https://www.wsj.com/tech/ai/openai-surpasses-one-billion-users-after-cutting-prices-8a9943e4",
-      "summary": "OpenAI surpasses one billion users after cutting prices, marking major AI adoption milestone.",
+      "summary": "OpenAI surpasses one billion users after cutting prices, marking major AI industry milestone.",
       "source": "WSJ"
     }
   ]
