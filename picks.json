@@ -1,37 +1,37 @@
 {
-  "date": "2026-08-02",
-  "generatedAt": "2026-08-02T11:33:28.404948+00:00",
+  "date": "2026-08-03",
+  "generatedAt": "2026-08-03T11:42:55.480933+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Three Fed Officials Say Inflation Should Have Prompted Higher Rates",
-      "url": "https://www.wsj.com/economy/central-banking/two-fed-officials-say-inflation-should-have-prompted-higher-rates-e203c5ac",
-      "summary": "Three Fed officials say inflation should have prompted higher interest rates, signaling hawkish policy debate.",
+      "title": "U.S. Stock Futures Rise, Oil Falls as U.S. Shifts Toward Diplomacy with Iran",
+      "url": "https://www.wsj.com/finance/stocks/u-s-stock-futures-rise-oil-falls-as-u-s-shifts-toward-diplomacy-with-iran-c88af013",
+      "summary": "U.S. stock futures rise and oil falls as U.S. shifts toward diplomacy with Iran, moving markets broadly.",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Industry / Company / Transaction",
-      "title": "Exclusive | KKR Near Deal to Buy Integer Holdings",
-      "url": "https://www.wsj.com/business/deals/kkr-integer-holdings-deal-485461fa",
-      "summary": "KKR nears deal to acquire Integer Holdings, a notable private-equity M&A transaction.",
+      "title": "Atkore Agrees to Be Bought by Prysmian for $3.8 Billion, Including Debt",
+      "url": "https://www.wsj.com/business/deals/atkore-agrees-to-be-bought-by-prysmian-for-3-8-billion-including-debt-c84b786d",
+      "summary": "Atkore agrees to be bought by Prysmian for $3.8 billion, including debt, in named M&A deal.",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Warsh Makes Markets Do Their Job",
-      "url": "https://www.wsj.com/opinion/federal-reserve-markets-guidance-kevin-warsh-03fb4432",
-      "summary": "Column argues Kevin Warsh's Fed reform ideas would make markets function more effectively.",
+      "title": "Opinion | A Brief History of Wealth Creation",
+      "url": "https://www.wsj.com/opinion/a-brief-history-of-wealth-creation-32bd917a",
+      "summary": "Opinion piece offers a brief history of wealth creation, a substantive economics-focused argument.",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "OpenAI Surpasses One Billion Users After Cutting Prices",
-      "url": "https://www.wsj.com/tech/ai/openai-surpasses-one-billion-users-after-cutting-prices-8a9943e4",
-      "summary": "OpenAI surpasses one billion users after cutting prices, marking major AI industry milestone.",
+      "title": "How OpenAI Lost Its AI Crown—and the Fight to Win It Back",
+      "url": "https://www.wsj.com/tech/ai/how-openai-lost-its-ai-crownand-the-fight-to-win-it-back-7d069695",
+      "summary": "In-depth look at how OpenAI lost its AI leadership and the fight to reclaim it.",
       "source": "WSJ"
     }
   ]
