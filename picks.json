@@ -1,37 +1,37 @@
 {
-  "date": "2026-08-03",
-  "generatedAt": "2026-08-03T13:18:55.952821+00:00",
+  "date": "2026-08-04",
+  "generatedAt": "2026-08-04T10:49:52.066573+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Treasury Yields, Dollar Fall as Talks to Reopen Hormuz Are Set to Restart",
-      "url": "https://www.wsj.com/finance/currencies/yen-weakens-slightly-on-likely-technical-correction-cda7c245",
-      "summary": "Treasury yields and dollar fall as U.S.-Iran talks to reopen Hormuz shipping route are set to resume.",
+      "title": "U.S. Treasury Yields Rise, Dollar Firm as Oil Prices Increase",
+      "url": "https://www.wsj.com/finance/currencies/dollar-rising-vs-yen-in-possible-corrective-pattern-technical-analysis-shows-d48a2527",
+      "summary": "U.S. Treasury yields rise and dollar firms as oil prices increase, reflecting cross-asset market moves.",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Industry / Company / Transaction",
-      "title": "KKR to Buy Integer Holdings for $4.3 Billion in Cash",
-      "url": "https://www.wsj.com/business/deals/kkr-to-buy-integer-holdings-for-4-3-billion-a80f2560",
-      "summary": "KKR agrees to acquire Integer Holdings in a $4.3 billion all-cash deal.",
+      "title": "Prologis to Buy U.K.’s Segro for $18.8 Billion",
+      "url": "https://www.wsj.com/business/deals/prologis-to-buy-u-k-s-segro-for-18-8-billion-50b0ddd5",
+      "summary": "Prologis agrees to buy U.K.’s Segro for $18.8 billion in major real estate M&A deal.",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | A Brief History of Wealth Creation",
-      "url": "https://www.wsj.com/opinion/a-brief-history-of-wealth-creation-32bd917a",
-      "summary": "Opinion column offers a brief history of how wealth is created, an economics-focused argument piece.",
+      "title": "Opinion | Can the U.S. Treasury Save the Yen?",
+      "url": "https://www.wsj.com/opinion/can-the-u-s-treasury-save-the-yen-22eef6ba",
+      "summary": "Opinion piece debates whether U.S. Treasury can stabilize the yen amid currency pressures.",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "How OpenAI Lost Its AI Crown—and the Fight to Win It Back",
-      "url": "https://www.wsj.com/tech/ai/how-openai-lost-its-ai-crownand-the-fight-to-win-it-back-7d069695",
-      "summary": "Feature examines how OpenAI lost its AI leadership position and its effort to reclaim dominance.",
+      "title": "Visa Is Slashing 2,600 Jobs as It Adapts to Changing Payments Industry",
+      "url": "https://www.wsj.com/tech/visa-slashing-2-600-jobs-as-it-adapts-to-changing-payments-industry-d99180dd",
+      "summary": "Visa cuts 2,600 jobs as it adapts to a changing digital payments industry.",
       "source": "WSJ"
     }
   ]
