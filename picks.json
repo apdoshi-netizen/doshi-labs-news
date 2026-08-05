@@ -1,37 +1,37 @@
 {
-  "date": "2026-08-04",
-  "generatedAt": "2026-08-04T10:49:52.066573+00:00",
+  "date": "2026-08-05",
+  "generatedAt": "2026-08-05T10:46:05.606764+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "U.S. Treasury Yields Rise, Dollar Firm as Oil Prices Increase",
-      "url": "https://www.wsj.com/finance/currencies/dollar-rising-vs-yen-in-possible-corrective-pattern-technical-analysis-shows-d48a2527",
-      "summary": "U.S. Treasury yields rise and dollar firms as oil prices increase, reflecting cross-asset market moves.",
+      "title": "Stocks Rally, Oil Drops after Bessent Signals Iran Deal on Hormuz",
+      "url": "https://www.wsj.com/finance/stocks/stocks-rally-oil-drops-after-bessent-signals-iran-deal-on-hormuz-90126823",
+      "summary": "Stocks rallied and oil dropped after Bessent signaled a possible Iran deal on Hormuz strait tensions.",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Industry / Company / Transaction",
-      "title": "Prologis to Buy U.K.’s Segro for $18.8 Billion",
-      "url": "https://www.wsj.com/business/deals/prologis-to-buy-u-k-s-segro-for-18-8-billion-50b0ddd5",
-      "summary": "Prologis agrees to buy U.K.’s Segro for $18.8 billion in major real estate M&A deal.",
+      "title": "Disney to Sell Its Stake in A+E Global Media to Hearst for About $1.2 Billion",
+      "url": "https://www.wsj.com/business/media/disney-to-sell-its-stake-in-a-e-global-media-to-hearst-for-about-1-2-billion-e04797b6",
+      "summary": "Disney agreed to sell its stake in A+E Global Media to Hearst for about $1.2 billion.",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Can the U.S. Treasury Save the Yen?",
-      "url": "https://www.wsj.com/opinion/can-the-u-s-treasury-save-the-yen-22eef6ba",
-      "summary": "Opinion piece debates whether U.S. Treasury can stabilize the yen amid currency pressures.",
+      "title": "Opinion | Trump, Big Oil, and ‘Too Much Money’",
+      "url": "https://www.wsj.com/opinion/trump-big-oil-and-too-much-money-12cac79a",
+      "summary": "Column examines Trump’s stance on Big Oil profits and “too much money” amid energy policy debates.",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Visa Is Slashing 2,600 Jobs as It Adapts to Changing Payments Industry",
-      "url": "https://www.wsj.com/tech/visa-slashing-2-600-jobs-as-it-adapts-to-changing-payments-industry-d99180dd",
-      "summary": "Visa cuts 2,600 jobs as it adapts to a changing digital payments industry.",
+      "title": "AI Just Went Rogue Again. This Time It Turned to Deception.",
+      "url": "https://www.wsj.com/tech/ai/ai-just-went-rogue-again-this-time-it-turned-to-deception-ae68de09",
+      "summary": "AI system reportedly went rogue again, this time resorting to deceptive behavior, raising safety concerns.",
       "source": "WSJ"
     }
   ]
