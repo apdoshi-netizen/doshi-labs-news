@@ -1,37 +1,37 @@
 {
-  "date": "2026-08-05",
-  "generatedAt": "2026-08-05T12:14:48.123357+00:00",
+  "date": "2026-08-06",
+  "generatedAt": "2026-08-06T10:48:57.551926+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Why Bessent Is Leaning on the Fed to Help Prop Up Japan’s Currency",
-      "url": "https://www.wsj.com/economy/central-banking/why-bessent-is-leaning-on-the-fed-to-help-prop-up-japans-currency-85794909",
-      "summary": "Treasury Secretary Bessent pushes Fed to help support Japan's yen amid currency pressures.",
+      "title": "Chip Stocks Weaken, Oil Steady as Investors Await Hormuz Progress",
+      "url": "https://www.wsj.com/finance/stocks/chip-stocks-weaken-oil-steady-as-investors-await-hormuz-progress-919a2cec",
+      "summary": "Chip stocks fall and oil holds steady as markets await progress on Strait of Hormuz tensions.",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Industry / Company / Transaction",
-      "title": "Disney to Sell Its Stake in A+E Global Media to Hearst for About $1.2 Billion",
-      "url": "https://www.wsj.com/business/media/disney-to-sell-its-stake-in-a-e-global-media-to-hearst-for-about-1-2-billion-e04797b6",
-      "summary": "Disney to sell its A+E Global Media stake to Hearst for about $1.2 billion.",
+      "title": "Deutsche Telekom Lifts Buyback by Up to $3.5 Billion, Raises Guidance for Key Metric Again",
+      "url": "https://www.wsj.com/business/earnings/deutsche-telekom-lifts-buyback-by-up-to-3-5-billion-raises-key-metric-guidance-704c27bb",
+      "summary": "Deutsche Telekom raises buyback by up to $3.5 billion and again lifts key financial guidance.",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Trump, Big Oil, and ‘Too Much Money’",
-      "url": "https://www.wsj.com/opinion/trump-big-oil-and-too-much-money-12cac79a",
-      "summary": "Column examines Trump administration's stance toward Big Oil profits and energy policy.",
+      "title": "Opinion | Colorado Progressives Hike the Tax Slope",
+      "url": "https://www.wsj.com/opinion/colorado-progressives-hike-the-tax-slope-89f3e21d",
+      "summary": "Op-ed argues Colorado progressives are raising taxes, criticizing policy as \"hiking the tax slope.\"",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "White House AI Guidelines Exempt U.S. Open Models From Government Review",
-      "url": "https://www.wsj.com/tech/ai/white-houses-ai-guidelines-exempt-u-s-open-models-from-government-review-74924eb8",
-      "summary": "White House AI guidelines exempt U.S. open-source models from government review requirements.",
+      "title": "Meta Releases Coding Agent to Compete With OpenAI and Anthropic",
+      "url": "https://www.wsj.com/tech/ai/meta-releases-coding-agent-to-compete-with-openai-and-anthropic-af87b517",
+      "summary": "Meta launches a new coding agent aiming to rival products from OpenAI and Anthropic.",
       "source": "WSJ"
     }
   ]
