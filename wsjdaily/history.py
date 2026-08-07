@@ -44,11 +44,10 @@ def norm_story_key(raw: str | None) -> str | None:
 def _window(hist: dict, today: str, days: int) -> Iterator[dict]:
     """Yield entries from the `days` days before `today`, excluding today.
 
-    `days` counts the trailing days inclusive of the boundary day, so
-    days=2 covers yesterday and the day before -- i.e. cutoff is
-    `today - (days - 1)`, not `today - days`.
+    Cutoff is `today - days`, so days=2 covers the two full prior days
+    (yesterday and the day before), days=7 covers the seven prior days, etc.
     """
-    cutoff = (datetime.date.fromisoformat(today) - datetime.timedelta(days=days - 1)).isoformat()
+    cutoff = (datetime.date.fromisoformat(today) - datetime.timedelta(days=days)).isoformat()
     for day, items in hist.items():
         if day == today or day < cutoff:
             continue

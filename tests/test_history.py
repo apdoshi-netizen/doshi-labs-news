@@ -35,6 +35,7 @@ def test_norm_story_key_returns_none_for_empty_or_missing() -> None:
 
 
 HIST = {
+    "2026-08-04": [{"title": "Older Story", "url": "u0", "storyKey": "ccc+ddd"}],
     "2026-08-05": [{"title": "Old Story", "url": "u1", "storyKey": "aaa+bbb"}],
     "2026-08-06": [{"title": "KKR Near Deal to Buy Integer", "url": "u2", "storyKey": "integer+kkr"}],
     "2026-08-07": [{"title": "Today Pick", "url": "u3", "storyKey": "zzz+yyy"}],
@@ -44,14 +45,22 @@ HIST = {
 def test_hard_block_covers_two_days_and_ignores_today() -> None:
     blocked = blocked_story_keys(HIST, "2026-08-07")
     assert "integer+kkr" in blocked      # yesterday -> hard blocked
-    assert "aaa+bbb" not in blocked      # 2 days back is outside the window
+    assert "aaa+bbb" in blocked          # two days back -> also hard blocked
     assert "zzz+yyy" not in blocked      # today's own entry never blocks itself
+
+
+def test_hard_block_does_not_reach_three_days_back() -> None:
+    blocked = blocked_story_keys(HIST, "2026-08-07")
+    covered = covered_story_keys(HIST, "2026-08-07")
+    assert "ccc+ddd" not in blocked      # three days back is outside the hard block
+    assert "ccc+ddd" in covered          # but still surfaced in the soft window
 
 
 def test_soft_window_surfaces_older_keys_for_model_judgment() -> None:
     covered = covered_story_keys(HIST, "2026-08-07")
     assert "aaa+bbb" in covered
     assert "integer+kkr" in covered
+    assert "ccc+ddd" in covered
     assert "zzz+yyy" not in covered
 
 
@@ -66,6 +75,16 @@ def test_prior_keys_ignores_today_and_respects_21_day_cutoff() -> None:
     assert norm_title("Old Story") in titles
     assert "u2" in urls
     assert "u3" not in urls  # today's own picks never exclude themselves
+
+
+def test_prior_keys_covers_the_full_21_day_window() -> None:
+    hist = {
+        "2026-07-17": [{"title": "Exactly 21 Days Back", "url": "u21", "storyKey": None}],
+        "2026-07-16": [{"title": "22 Days Back", "url": "u22", "storyKey": None}],
+    }
+    titles, urls = prior_keys(hist, "2026-08-07")
+    assert "u21" in urls   # 21 days back is still inside the window
+    assert "u22" not in urls  # 22 days back has aged out
 
 
 def test_save_writes_story_key_and_prunes_beyond_21_days(tmp_path) -> None:
