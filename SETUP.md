@@ -52,17 +52,30 @@ A daily 9:00 AM ET email with 4 curated, **direct-link** WSJ articles
 
 ## Part B — Google Apps Script (sending)
 
-1. <https://script.google.com> → **New project**, paste all of `mailer.gs`.
-2. In `CONFIG`, set **`PICKS_URL`** to your raw URL from A-5.
+> **Sender identity:** Apps Script sends as the Google account that *owns* the
+> project and authorized the trigger. There is no `from:` override without a
+> verified send-as alias. So this project must live under
+> **aaravpdoshi@gmail.com** — that is what puts it on the From line.
+
+1. Signed in as **aaravpdoshi@gmail.com**: <https://script.google.com> → **New
+   project**, name it `Doshi Labs: News`, paste all of `mailer.gs`.
+2. In `CONFIG`, confirm **`PICKS_URL`** matches your raw URL from A-5 and
+   **`RECIPIENTS`** lists who should get it.
 3. Project Settings (gear) → **Time zone** → `America/New_York`.
-4. Select **`sendTestNow`** → **Run**, authorize when prompted. Check your inbox
-   for `[TEST] WSJ — <date>` and click a link to confirm the WSJ article opens.
+4. Select **`sendTestNow`** → **Run**, authorize when prompted (you'll get an
+   "unverified app" warning → Advanced → Go to Doshi Labs: News). Check the inbox
+   for `[TEST] Doshi Labs: News — <date>`, **confirm the From line reads
+   aaravpdoshi@gmail.com**, and click a link to confirm the WSJ article opens.
 5. Select **`installTrigger`** → **Run**. Live — sends daily ~9:00 AM ET.
+6. **Delete the old `sendDaily` trigger** on any previous copy of this project
+   (the Wharton-owned one). Two live triggers = two emails a day. Leave the old
+   project itself in place, trigger-less, as a rollback.
 
 ## Everyday use
 
-- **Add/remove recipients:** edit the **WSJ-FT Recipients** Google Doc
-  (one email per line). Nothing else. (Doc is already wired into `mailer.gs`.)
+- **Add/remove recipients:** edit `CONFIG.RECIPIENTS` in `mailer.gs` (first
+  address is the To:, the rest are BCC'd) and save. Consumer Gmail allows 100
+  recipients/day via Apps Script.
 - **See today's picks without waiting:** open `picks.json` in the repo, or run
   the GitHub workflow manually.
 - **Pause:** Apps Script → Triggers (clock icon) → delete the `sendDaily`
@@ -71,8 +84,11 @@ A daily 9:00 AM ET email with 4 curated, **direct-link** WSJ articles
 
 ## Timing & reliability
 
-- Generation runs 11:30 UTC (~6:30 AM EST / 7:30 AM EDT); send is 9:00 AM ET —
-  a wide buffer even if GitHub's cron lags (it can start ~10–15 min late).
+- Generation runs at 08:17, 10:17, and 11:17 UTC; the 11:17 tick is RESCUE-only
+  (it regenerates only if the day's picks are still missing/empty, otherwise it
+  exits without spending an API call). Send is 9:00 AM ET (13:00 UTC EDT /
+  14:00 UTC EST) — a wide buffer even against GitHub's observed 45–110 min
+  scheduler lag.
 - If a morning's generation ever fails, `picks.json` keeps yesterday's date, and
   the mailer (which requires today's date) sends a one-line "no digest today"
   note instead of stale news.
@@ -81,6 +97,8 @@ A daily 9:00 AM ET email with 4 curated, **direct-link** WSJ articles
 
 ## Notes
 
-- The old **WSJ-FT Daily** Drive folder now only serves the **recipients Doc**;
-  any `picks-*.json` files still in it are unused (the mailer reads GitHub now).
+- The old **WSJ-FT Daily** Drive folder is fully unused now: the mailer reads
+  `picks.json` from GitHub, and recipients live in `CONFIG.RECIPIENTS` rather
+  than in the old **WSJ-FT Recipients** Doc. Dropping the Doc also dropped the
+  `DocumentApp` OAuth scope — the script now needs only Gmail + UrlFetch.
 - Your Anthropic API key lives only in the GitHub secret — not in Apps Script.

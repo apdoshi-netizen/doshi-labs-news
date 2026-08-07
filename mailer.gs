@@ -1,26 +1,36 @@
 /**
- * WSJ Daily — mailer (Google Apps Script)
- * ---------------------------------------
- * Trivial + bulletproof: reads the newest picks-*.json from the "WSJ-FT Daily"
- * Drive folder and emails a bare digest to everyone in the recipients Doc.
- * All fetching, curation, and link-resolution happen in a separate daily Claude
- * job (which runs from a normal IP and writes the picks file to Drive). This
- * script only touches Drive + Gmail, so Google can never CAPTCHA-block it.
+ * Doshi Labs: News — mailer (Google Apps Script)
+ * ---------------------------------------------
+ * Trivial + bulletproof: reads picks.json from the GitHub repo's raw URL and
+ * emails a bare digest to CONFIG.RECIPIENTS. All fetching, curation, and
+ * link-resolution happen in a separate daily job on GitHub Actions (a non-Google
+ * IP, which is required — see HANDOFF.md gotcha #1). This script only touches
+ * GitHub-raw + Gmail, so Google can never CAPTCHA-block it.
+ *
+ * SENDER: mail is sent as the Google account that OWNS this project and
+ * authorized the trigger. This project must live under aaravpdoshi@gmail.com so
+ * the From-address is aaravpdoshi@gmail.com. Do not run it from the Wharton
+ * account — there is no from: override without a verified send-as alias.
  *
  * ONE-TIME SETUP:
+ *   - Create the project under aaravpdoshi@gmail.com.
  *   - Project Settings → timezone America/New_York.
- *   - Run installTrigger() once and authorize.
+ *   - Run sendTestNow() and authorize, then run installTrigger() once.
+ *   - Delete the old sendDaily trigger on the Wharton account (else 2 emails/day).
  */
 
 // ---- CONFIG -----------------------------------------------------------------
 var CONFIG = {
   // Raw URL of picks.json in your GitHub repo (GitHub Actions commits it daily).
   PICKS_URL: 'https://raw.githubusercontent.com/apdoshi-netizen/wsj-daily/main/picks.json',
-  RECIPIENTS_DOC_ID: '1jbUFrqpKCN1TUfvJb5VCOKkNW6EkTMFa40FZsYA4YhA',
-  SEND_HOUR: 9,                  // 9 AM in the project timezone (set to ET)
-  SUBJECT_PREFIX: 'WSJ',
-  REQUIRE_FRESH: true,           // only send if the picks file is dated today
-  ALERT_ON_MISSING: true         // email recipient[0] if no fresh picks
+  // Who receives the digest. First address is the To:, the rest are BCC'd.
+  // Consumer Gmail allows 100 recipients/day via Apps Script.
+  RECIPIENTS: ['apdoshi@wharton.upenn.edu'],
+  SEND_HOUR: 9,                     // 9 AM in the project timezone (set to ET)
+  SUBJECT_PREFIX: 'Doshi Labs: News',
+  SENDER_NAME: 'Doshi Labs: News',  // display name on the From line
+  REQUIRE_FRESH: true,              // only send if the picks file is dated today
+  ALERT_ON_MISSING: true            // email recipient[0] if no fresh picks
 };
 // -----------------------------------------------------------------------------
 
@@ -36,14 +46,14 @@ function sendDaily() {
     if (CONFIG.ALERT_ON_MISSING) {
       GmailApp.sendEmail(recipients[0], CONFIG.SUBJECT_PREFIX + ' — no digest today',
         'No picks dated ' + today + ' were available (found: ' + (data ? data.date : 'none') +
-        '), so no digest was sent.');
+        '), so no digest was sent.', { name: CONFIG.SENDER_NAME });
     }
     return;
   }
 
   var email = buildEmail(data);
   GmailApp.sendEmail(recipients[0], email.subject, email.textBody, {
-    htmlBody: email.htmlBody, bcc: recipients.slice(1).join(','), name: 'WSJ Daily'
+    htmlBody: email.htmlBody, bcc: recipients.slice(1).join(','), name: CONFIG.SENDER_NAME
   });
   Logger.log('Sent to ' + recipients.length + ' recipient(s).');
 }
@@ -87,10 +97,10 @@ function buildEmail(data) {
 
 // ---- helpers ----------------------------------------------------------------
 
+/** Valid addresses from CONFIG.RECIPIENTS, in order. */
 function getRecipients() {
-  var text = DocumentApp.openById(CONFIG.RECIPIENTS_DOC_ID).getBody().getText();
   var re = /[^\s@]+@[^\s@]+\.[^\s@]+/;
-  return text.split(/\r?\n/).map(function (l) { return l.trim(); })
+  return (CONFIG.RECIPIENTS || []).map(function (l) { return String(l).trim(); })
     .filter(function (l) { return re.test(l); }).map(function (l) { return l.match(re)[0]; });
 }
 
@@ -111,13 +121,13 @@ function installTrigger() {
   Logger.log('Daily trigger installed for ~' + CONFIG.SEND_HOUR + ':00 (project timezone).');
 }
 
-/** Send right now to yourself, ignoring the freshness check — for testing. */
+/** Send right now, ignoring the freshness check — for testing. */
 function sendTestNow() {
   var data = getTodaysPicks();
-  if (!data) { Logger.log('No picks file found in Drive.'); return; }
+  if (!data) { Logger.log('No picks file fetched from ' + CONFIG.PICKS_URL); return; }
   var email = buildEmail(data);
   var me = getRecipients()[0] || Session.getActiveUser().getEmail();
   GmailApp.sendEmail(me, '[TEST] ' + email.subject, email.textBody,
-    { htmlBody: email.htmlBody, name: 'WSJ Daily' });
+    { htmlBody: email.htmlBody, name: CONFIG.SENDER_NAME });
   Logger.log('Test sent to ' + me + ' (picks dated ' + data.date + ')');
 }

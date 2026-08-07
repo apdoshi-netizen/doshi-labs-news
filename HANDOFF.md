@@ -1,0 +1,99 @@
+# WSJ Daily — handoff / current state
+
+A daily 9:00 AM ET email of 4 curated, direct-link WSJ articles
+(Macro / Industry-Company-Transaction / Op-Ed / Tech). **Live and running.**
+
+## Architecture (two halves)
+
+1. **GitHub Actions** (repo `apdoshi-netizen/wsj-daily`) — runs on GitHub's
+   non-Google IP (required; see gotcha #1). `generate.py`:
+   fetch live WSJ headlines from Google News RSS → filter/dedup → Claude API
+   (`claude-sonnet-5`) picks best per slot + one-line summary → resolve each to
+   its **direct wsj.com URL** → write `picks.json` + `history.json`, which the
+   workflow commits. Secret: `ANTHROPIC_API_KEY` (repo → Settings → Secrets).
+2. **Google Apps Script** (`mailer.gs`) — 9:00 AM ET trigger reads `picks.json`
+   from the repo's raw URL and emails everyone in `CONFIG.RECIPIENTS`. Touches
+   only GitHub-raw + Gmail; can't be CAPTCHA'd. **Project must be owned by
+   aaravpdoshi@gmail.com** — see gotcha #8.
+
+Data flow: GitHub cron → `generate.py` → commit `picks.json` →
+`raw.githubusercontent.com/apdoshi-netizen/wsj-daily/main/picks.json` →
+Apps Script `sendDaily` → email.
+
+## Files
+
+| File | What it is |
+|---|---|
+| `generate.py` | The generator (runs in CI). Fetch, dedup, curate, resolve. |
+| `.github/workflows/daily.yml` | Cron schedule + commit step. |
+| `mailer.gs` | Apps Script mailer (paste into script.google.com). |
+| `picks.json` | Latest generated picks (committed by CI). |
+| `history.json` | 21-day memory of sent articles, for dedup. |
+| `SETUP.md` | Full first-time setup runbook. |
+
+## Live config
+
+- **Schedule (UTC):** `17 8`, `17 10`, and `17 11` (the 11:17 run is
+  RESCUE-only — regenerates just when the day's picks are missing/empty).
+  GitHub delays ticks 45–110 min, so these sit well before the 13:00 UTC
+  (9 AM EDT) send.
+- **Model:** `claude-sonnet-5`. ~2 real API calls/day → est. **$1–3/month**
+  (check console.anthropic.com → Usage).
+- **From:** aaravpdoshi@gmail.com, display name `Doshi Labs: News`.
+- **Recipients:** `CONFIG.RECIPIENTS` in `mailer.gs` — currently just
+  apdoshi@wharton.upenn.edu. First address is To:, rest are BCC'd.
+- **Send time:** 9:00 AM ET (Apps Script trigger, `installTrigger`).
+
+## Key gotchas (hard-won — don't relearn these)
+
+1. **Only a non-Google IP can turn Google News links into direct wsj.com URLs.**
+   Google CAPTCHA-blocks its own datacenter IPs (Apps Script → 302
+   `google.com/sorry/`). That's the entire reason resolution lives in GitHub
+   Actions, not Apps Script.
+2. **The resolver is an unofficial Google endpoint** (`batchexecute`). Works,
+   but Google could change it. Also, individual GitHub runner IPs are sometimes
+   pre-flagged → a run resolves 0/4. Handled: a 0-resolved run writes nothing
+   and exits 1, so the mailer sends a compact "no digest" alert (not an empty
+   email) and a later tick retries on a fresh runner IP.
+3. **Resolve needs `curl -L` + `Cookie: CONSENT=YES+`**; without `-L` you get an
+   empty 302 body and no signature.
+4. **WSJ legacy RSS (`feeds.a.dj.com`) is dead** — frozen at Jan 2025. Live
+   source is Google News RSS.
+5. **Model reply is pipe-delimited** (`slot|id|summary`), not JSON — a Sonnet
+   JSON reply broke `json.loads` once. `parse_selections()` handles it.
+6. **`claude-sonnet-5` returns a thinking block first** — extract the first
+   `type=="text"` block, not `content[0]`.
+7. **Dedup keys history by date and ignores today's own entry**, so the 4×/day
+   runs don't exclude their own earlier picks. Matches article identity
+   (normalized title / resolved URL), so a *different* article on the same story
+   still passes — only literal repeats are blocked.
+8. **Apps Script sends as the account that OWNS the project** and authorized the
+   trigger. `GmailApp`'s `from:` option only accepts an address already verified
+   as a "Send mail as" alias in *that* account, and Penn Workspace may block
+   external aliases. That's why the project was re-homed from the Wharton account
+   to aaravpdoshi@gmail.com rather than aliased. If mail ever starts arriving
+   from the wrong address, check which account owns the live project.
+
+## Known limitations / backlog candidates
+
+- Links open only because the reader is logged into WSJ (UPenn access). If that
+  lapses, links hit a paywall.
+- Summaries are grounded in the **headline only** (article bodies are paywalled
+  to the fetcher), so they add context, not new facts.
+- Weekends: WSJ publishes less; some slots may be a day old.
+- No `sendNow` (clean one-off resend) yet — only `sendTestNow`, which prefixes
+  `[TEST]`.
+- Op-ed slot leans political some days; could add source/topic diversity rules.
+
+## Handy commands
+
+```bash
+# See today's picks (uncached):
+gh api repos/apdoshi-netizen/wsj-daily/contents/picks.json --jq '.content' | base64 -d
+
+# Manually run generation:
+gh workflow run daily.yml --repo apdoshi-netizen/wsj-daily
+
+# Local test (no key → heuristic curation):
+python3 generate.py
+```
