@@ -1,13 +1,13 @@
 {
   "date": "2026-08-07",
-  "generatedAt": "2026-08-07T09:14:38.451906+00:00",
+  "generatedAt": "2026-08-07T11:05:55.013278+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Elevated Oil Prices Pose Challenge For Major Central Banks",
-      "url": "https://www.wsj.com/finance/investing/jgb-futures-fall-tracking-declines-in-u-s-treasury-market-8e8ed0f7",
-      "summary": "Rising oil prices are creating fresh policy challenges for major central banks worldwide.",
+      "title": "Exclusive | Trump Has Called Warsh Repeatedly Since He Became Fed Chair",
+      "url": "https://www.wsj.com/politics/policy/trump-has-called-warsh-repeatedly-since-he-became-fed-chair-32804cf7",
+      "summary": "Trump has repeatedly called Kevin Warsh since becoming Fed chair, signaling potential shift in Fed leadership dynamics.",
       "source": "WSJ"
     },
     {
@@ -15,23 +15,23 @@
       "label": "Industry / Company / Transaction",
       "title": "Apollo to Buy European Budget Airline easyJet for $7.7 Billion",
       "url": "https://www.wsj.com/business/deals/budget-carrier-easyjet-agrees-to-7-68-billion-takeover-by-apollo-fbe3f046",
-      "summary": "Apollo agrees to acquire European budget carrier easyJet in a $7.7 billion deal.",
+      "summary": "Apollo agrees to buy European budget airline easyJet in a $7.7 billion deal.",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | America Needs to Go on Offense With AI",
-      "url": "https://www.wsj.com/opinion/america-needs-to-go-on-offense-with-ai-54744c02",
-      "summary": "Opinion argues the U.S. must aggressively push AI development to maintain global advantage.",
+      "title": "Opinion | Socialism Is Here—and It’s Serious",
+      "url": "https://www.wsj.com/opinion/socialism-is-hereand-its-serious-2b3fc422",
+      "summary": "Opinion piece argues socialism has arrived in America and warns it should be taken seriously as a political-economic threat.",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Meta Ordered to Pay $942 Million to Address Harm to Kids From Social Media",
-      "url": "https://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-address-harm-to-kids-from-social-media-8ba5aab7",
-      "summary": "Meta ordered to pay $942 million over harms to children from social media use.",
+      "title": "SK Hynix to Invest $38 Billion on Expansion of Chip Production Capacity",
+      "url": "https://www.wsj.com/tech/sk-hynix-to-invest-38-billion-on-expansion-of-chip-production-capacity-ea18ecd4",
+      "summary": "SK Hynix will invest $38 billion to expand chip production capacity amid surging AI-driven demand.",
       "source": "WSJ"
     }
   ]
