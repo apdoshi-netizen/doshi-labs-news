@@ -257,8 +257,15 @@ def dry_run(date: str) -> None:
     bit-exact replay, since the prompt itself changed.
     """
     hist = history.load()
-    raw = fetch_candidates_unfiltered()
-    filtered = {s.key: filters.reject(by_key(s.key), raw.get(s.key, [])) for s in SLOTS}
+    raw_pools = fetch_candidates_unfiltered()
+    filtered_pools = {s.key: filters.reject(by_key(s.key), raw_pools.get(s.key, [])) for s in SLOTS}
+    # filters.reject() returns a NEW list of the SAME dict objects -- it does not
+    # copy them. Reindexing raw and filtered in place would therefore reindex the
+    # shared dicts twice (once per pool), corrupting ids in whichever pool is
+    # touched first. Give each pool its own dict copies before reindexing so the
+    # two pools can never alias.
+    raw = {k: [dict(c) for c in v] for k, v in raw_pools.items()}
+    filtered = {k: [dict(c) for c in v] for k, v in filtered_pools.items()}
     for pool in (raw, filtered):
         for rows in pool.values():
             for i, c in enumerate(rows):

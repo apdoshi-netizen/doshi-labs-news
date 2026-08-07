@@ -55,21 +55,25 @@ Apps Script `sendDaily` → email.
    Actions, not Apps Script.
 2. **The resolver is an unofficial Google endpoint** (`batchexecute`). Works,
    but Google could change it. Also, individual GitHub runner IPs are sometimes
-   pre-flagged → a run resolves 0/4. Handled: a 0-resolved run writes nothing
+   pre-flagged → a run resolves 0/5. Handled: a 0-resolved run writes nothing
    and exits 1, so the mailer sends a compact "no digest" alert (not an empty
    email) and a later tick retries on a fresh runner IP.
 3. **Resolve needs `curl -L` + `Cookie: CONSENT=YES+`**; without `-L` you get an
    empty 302 body and no signature.
 4. **WSJ legacy RSS (`feeds.a.dj.com`) is dead** — frozen at Jan 2025. Live
    source is Google News RSS.
-5. **Model reply is pipe-delimited** (`slot|id|summary`), not JSON — a Sonnet
-   JSON reply broke `json.loads` once. `parse_selections()` handles it.
+5. **Model reply is pipe-delimited** (`slot|id|storykey|summary`), not JSON — a
+   Sonnet JSON reply broke `json.loads` once. Three-field lines
+   (`slot|id|summary`, no storyKey) are also accepted for backward
+   compatibility — `parse_selections()` handles both.
 6. **`claude-sonnet-5` returns a thinking block first** — extract the first
    `type=="text"` block, not `content[0]`.
-7. **Dedup keys history by date and ignores today's own entry**, so the 4×/day
-   runs don't exclude their own earlier picks. Matches article identity
-   (normalized title / resolved URL), so a *different* article on the same story
-   still passes — only literal repeats are blocked.
+7. **Dedup has two layers.** History keys by date and ignores today's own
+   entry, so the 3 scheduled ticks (`17 8`, `17 10`, `17 11` UTC) don't exclude
+   their own earlier picks. Layer one matches article identity (normalized
+   title / resolved URL) over 21 days — only literal repeats are blocked, so a
+   *different* article on the same story still passes. Layer two is the
+   storyline window described in gotcha #10.
 8. **Apps Script sends as the account that OWNS the project** and authorized the
    trigger. `GmailApp`'s `from:` option only accepts an address already verified
    as a "Send mail as" alias in *that* account, and Penn Workspace may block
