@@ -103,3 +103,23 @@ def reject(slot: Slot, rows: list[dict]) -> list[dict]:
             continue
         kept.append(r)
     return apply_keyword_filter(slot, kept)
+
+
+FRESH_MAX_HRS = 24  # candidates at or under this age are the preferred tier
+
+
+def tier(rows: list[dict]) -> tuple[list[dict], list[dict]]:
+    """Split candidates into (fresh, fallback) by age.
+
+    The model is instructed to choose from `fresh` unless it is empty or every
+    option in it fits the slot poorly. A row with no `ageHrs` is treated as
+    stale so a malformed entry can never be promoted into the fresh tier.
+    """
+    fresh, fallback = [], []
+    for r in rows:
+        age = r.get("ageHrs")
+        if age is not None and age <= FRESH_MAX_HRS:
+            fresh.append(r)
+        else:
+            fallback.append(r)
+    return fresh, fallback
