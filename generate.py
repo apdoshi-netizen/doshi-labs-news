@@ -208,6 +208,34 @@ def resolve_one(gn):
     return u[0] if u else None
 
 
+def url_section(url: str) -> str:
+    """First path segment of a wsj.com URL, e.g. 'tech' or 'pro'. '' if none."""
+    m = re.match(r"https?://(?:www\.)?wsj\.com/([^/?#]+)", url or "")
+    return m.group(1) if m else ""
+
+
+def is_claimable(url: str, story_key: str | None, blocked_keys: set, used_keys: set,
+                 used_urls: set, prior_urls: set) -> str:
+    """Return "" if this resolved candidate is usable, else a rejection reason.
+
+    Section blocking has to happen HERE rather than on the candidate pool:
+    candidates carry Google News URLs, and /pro/ (a separate paid WSJ tier) and
+    /podcasts/ (audio, not an article) are only visible once resolved.
+
+    `used_keys` is shared across slots and grows as slots resolve in
+    RESOLVE_ORDER, which is what makes Sports outrank Industry on a shared
+    story. A None story_key never blocks -- a missing dedup key must not cost
+    an article.
+    """
+    if url_section(url) in BLOCKED_SECTIONS:
+        return "section"
+    if url in used_urls or url in prior_urls:
+        return "dup-url"
+    if story_key and (story_key in blocked_keys or story_key in used_keys):
+        return "storyline"
+    return ""
+
+
 def main():
     date = datetime.datetime.now(ZoneInfo("America/New_York")).strftime("%Y-%m-%d")
 
@@ -225,6 +253,7 @@ def main():
 
     hist = history.load()
     prior_titles, prior_urls = history.prior_keys(hist, date)
+    blocked_keys = history.blocked_story_keys(hist, date)
     covered = history.covered_story_keys(hist, date)
 
     cands = fetch_candidates()
@@ -248,43 +277,59 @@ def main():
         print("curation: heuristic fallback (" + str(e)[:400] + ")", file=sys.stderr)
         selections = heuristic(cands)
 
-    picks = []
-    used_urls = set()
-    for key, _q, _m, _kw in SLOTS:              # keep canonical slot order
-        s = next((x for x in selections if x["slot"] == key), None)
-        lst = cands.get(key, [])
+    picks_by_slot: dict[str, dict] = {}
+    used_urls: set[str] = set()
+    used_story_keys: set[str] = set()
+
+    # Resolve in precedence order so the first slot to claim a story keeps it
+    # (Sports outranks Industry); the email still renders in CANONICAL_ORDER.
+    for slot_key in RESOLVE_ORDER:
+        sel = next((x for x in selections if x["slot"] == slot_key), None)
+        lst = cands.get(slot_key, [])
         chosen = None
-        if s and s.get("i", -1) >= 0:
-            chosen = next((c for c in lst if c["i"] == s["i"]), None)
-        # Try the model's pick first, then the rest as fallbacks. A candidate is
-        # rejected if it fails to resolve, or resolves to a URL already used
-        # (earlier day, or another slot today).
+        if sel and sel.get("i", -1) >= 0:
+            chosen = next((c for c in lst if c["i"] == sel["i"]), None)
+
+        # Try the model's pick first, then the rest as fallbacks.
         order = ([chosen] if chosen else []) + [c for c in lst if c is not chosen]
         picked = None
         for cand in order[:MAX_RESOLVE_TRIES]:
             direct = resolve_one(cand["url"])
             if not direct:
                 continue
-            if direct in prior_urls or direct in used_urls:
-                print("  skip dup: " + cand["title"][:55], file=sys.stderr)
+            # The storyKey describes the MODEL's pick, so it only applies when
+            # this candidate is that pick; fallbacks carry no key.
+            cand_key = sel.get("storyKey") if (sel and cand is chosen) else None
+            reason = is_claimable(direct, cand_key, blocked_keys, used_story_keys,
+                                  used_urls, prior_urls)
+            if reason:
+                print("  skip %s: %s" % (reason, cand["title"][:50]), file=sys.stderr)
                 continue
             picked = (cand, direct)
             break
 
         if not picked:
-            print("FAIL " + key + ": no usable candidate", file=sys.stderr)
-            picks.append({"slot": key, "label": key, "title": "", "url": "",
-                          "summary": "No WSJ pick today.", "source": "WSJ"})
+            print("FAIL " + slot_key + ": no usable candidate", file=sys.stderr)
+            picks_by_slot[slot_key] = {"slot": slot_key, "label": slot_key, "title": "",
+                                       "url": "", "summary": "No WSJ pick today.",
+                                       "storyKey": None, "source": "WSJ"}
             continue
 
         cand, direct = picked
         used_urls.add(direct)
-        # Only reuse the model's summary if we actually used the model's pick —
-        # otherwise it would describe a different article.
-        summary = (s.get("summary") or "")[:200] if (s and cand is chosen) else ""
-        print("OK   " + key + ": " + cand["title"][:55], file=sys.stderr)
-        picks.append({"slot": key, "label": key, "title": cand["title"], "url": direct,
-                      "summary": summary, "source": "WSJ"})
+        # Only carry the model's summary and storyKey if we used the model's
+        # pick -- otherwise they describe a different article.
+        is_model_pick = sel is not None and cand is chosen
+        story_key = sel.get("storyKey") if is_model_pick else None
+        if story_key:
+            used_story_keys.add(story_key)
+        summary = (sel.get("summary") or "")[:200] if is_model_pick else ""
+        print("OK   " + slot_key + ": " + cand["title"][:55], file=sys.stderr)
+        picks_by_slot[slot_key] = {"slot": slot_key, "label": slot_key, "title": cand["title"],
+                                   "url": direct, "summary": summary,
+                                   "storyKey": story_key, "source": "WSJ"}
+
+    picks = [picks_by_slot[k] for k in CANONICAL_ORDER]
 
     if not any(p["url"] for p in picks):
         # Almost always means Google CAPTCHA-flagged this runner's IP. Do NOT
