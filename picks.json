@@ -1,37 +1,37 @@
 {
-  "date": "2026-08-06",
-  "generatedAt": "2026-08-06T10:48:57.551926+00:00",
+  "date": "2026-08-07",
+  "generatedAt": "2026-08-07T09:14:38.451906+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Chip Stocks Weaken, Oil Steady as Investors Await Hormuz Progress",
-      "url": "https://www.wsj.com/finance/stocks/chip-stocks-weaken-oil-steady-as-investors-await-hormuz-progress-919a2cec",
-      "summary": "Chip stocks fall and oil holds steady as markets await progress on Strait of Hormuz tensions.",
+      "title": "Elevated Oil Prices Pose Challenge For Major Central Banks",
+      "url": "https://www.wsj.com/finance/investing/jgb-futures-fall-tracking-declines-in-u-s-treasury-market-8e8ed0f7",
+      "summary": "Rising oil prices are creating fresh policy challenges for major central banks worldwide.",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Industry / Company / Transaction",
-      "title": "Deutsche Telekom Lifts Buyback by Up to $3.5 Billion, Raises Guidance for Key Metric Again",
-      "url": "https://www.wsj.com/business/earnings/deutsche-telekom-lifts-buyback-by-up-to-3-5-billion-raises-key-metric-guidance-704c27bb",
-      "summary": "Deutsche Telekom raises buyback by up to $3.5 billion and again lifts key financial guidance.",
+      "title": "Apollo to Buy European Budget Airline easyJet for $7.7 Billion",
+      "url": "https://www.wsj.com/business/deals/budget-carrier-easyjet-agrees-to-7-68-billion-takeover-by-apollo-fbe3f046",
+      "summary": "Apollo agrees to acquire European budget carrier easyJet in a $7.7 billion deal.",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Colorado Progressives Hike the Tax Slope",
-      "url": "https://www.wsj.com/opinion/colorado-progressives-hike-the-tax-slope-89f3e21d",
-      "summary": "Op-ed argues Colorado progressives are raising taxes, criticizing policy as \"hiking the tax slope.\"",
+      "title": "Opinion | America Needs to Go on Offense With AI",
+      "url": "https://www.wsj.com/opinion/america-needs-to-go-on-offense-with-ai-54744c02",
+      "summary": "Opinion argues the U.S. must aggressively push AI development to maintain global advantage.",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Meta Releases Coding Agent to Compete With OpenAI and Anthropic",
-      "url": "https://www.wsj.com/tech/ai/meta-releases-coding-agent-to-compete-with-openai-and-anthropic-af87b517",
-      "summary": "Meta launches a new coding agent aiming to rival products from OpenAI and Anthropic.",
+      "title": "Meta Ordered to Pay $942 Million to Address Harm to Kids From Social Media",
+      "url": "https://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-address-harm-to-kids-from-social-media-8ba5aab7",
+      "summary": "Meta ordered to pay $942 million over harms to children from social media use.",
       "source": "WSJ"
     }
   ]
