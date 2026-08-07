@@ -1,5 +1,23 @@
 # Pick Algorithm Refinement Implementation Plan
 
+> **STATUS: EXECUTED.** This plan was implemented on branch `feat/pick-algorithm`
+> (17 commits, 81 tests). **Do not re-execute it, and do not copy code from it.**
+> Four snippets below are known-defective — they were caught in review and fixed
+> during implementation, but the text here was left as written so the review
+> history makes sense. The shipped code is the authority; the "As-built deltas"
+> section of `docs/superpowers/specs/2026-08-07-pick-algorithm-design.md` records
+> every divergence.
+>
+> Known-defective snippets in this document:
+> - **Task 3**, `apply_keyword_filter`: uses substring containment (`k in title`).
+>   Ships as a leading word-boundary regex — substring lets `ai` match "Sailing".
+> - **Task 5**, `_window`: its cutoff and its own test contradict each other.
+>   Ships as `cutoff = today - days`.
+> - **Task 6**, `fetch_candidates`: caps the feed at `rows[:20]` before filtering.
+>   Ships as `RAW_POOL_CAP = 60`, filtering the full feed as production did.
+> - **Task 8**, `dry_run`: its reindex loop aliases shared dicts and produces
+>   duplicate ids. Ships with independent per-pool copies.
+
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
 **Goal:** Make the daily digest reliably recent *and* relevant by filtering out market-wrap wire copy, tiering candidates by freshness, blocking storyline repeats, enforcing cross-slot diversity, and adding a fifth WSJ Sports slot.

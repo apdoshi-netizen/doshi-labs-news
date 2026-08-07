@@ -1,7 +1,9 @@
 # Pick algorithm refinement — design
 
 **Date:** 2026-08-07
-**Status:** Approved, not yet implemented
+**Status:** Implemented on branch `feat/pick-algorithm`, pending a dry-run
+sign-off before merge. See "As-built deltas" at the end of this document — that
+section is the authority where it disagrees with what follows.
 **Scope:** Step B of a four-step roadmap (A: sender change — done; **B: pick
 algorithm**; C: expand beyond WSJ to Goldman Sachs / JP Morgan / Morgan Stanley
 content and podcasts; D: Google Sheets consumption catalog).
@@ -249,3 +251,78 @@ the other four. If the dry run shows a thin pool, the remedy is a secondary quer
 on sports-business terms across all of `wsj.com` rather than the `/sports` path
 alone. This is to be confirmed empirically in the A/B run rather than guessed at
 now.
+
+---
+
+## As-built deltas (2026-08-07, post-implementation)
+
+The branch `feat/pick-algorithm` implements this spec with the following
+deviations, each found during implementation review and each deliberate. This
+section is the authority where it disagrees with the sections above.
+
+### 1. Sports uses preference ORDERING, not filtering
+
+The spec described a keyword filter with a fallback. As implemented, that
+discarded the non-matching candidates outright: a live pool measured
+`raw=7 filtered=1`, leaving the slot one candidate against six resolve
+attempts, so a single resolver failure or `/pro/` hit would empty it.
+
+`apply_keyword_filter` now returns matched rows FIRST and keeps the remainder
+behind them for `keyword_fallback` slots. The model still sees business stories
+at the top; the slot retains full resolve depth. Non-fallback slots are
+unchanged. Approved by the operator before merge.
+
+### 2. Keyword matching is leading-word-boundary, not substring
+
+Pre-existing production code matched keywords with plain substring containment.
+Because `TECH_KEYWORDS` contains the two-letter token `ai`, that matched inside
+unrelated words -- "S**ai**ling", "s**ai**d", "ch**ai**r", "camp**ai**gn" --
+polluting the Tech pool and inflating the `>= 3` threshold that decides whether
+the filter applies at all.
+
+Matching now uses a LEADING word boundary (`\bkeyword`). A trailing boundary was
+rejected: several keywords are deliberate prefix stems (`acqui`, `econom`,
+`bankrupt`, `unemploy`, `invest`) that both-sided boundaries kill entirely.
+Residual accepted: `ai` still matches "Aid"/"Air"/"Aim".
+
+**Expect the Tech slot to become stricter than it was in production.**
+
+### 3. Window cutoff is `today - days`
+
+The plan's `_window` code and its own test disagreed. Resolved toward this
+spec's "within 2 days" language: a 2-day block covers the two prior days, and
+the 21-day literal window covers 21 days, matching `save`'s pruning. The
+alternative (`days - 1`) silently narrowed the literal-repeat window to 20 days.
+
+### 4. Raw pool cap is 60, not 20
+
+The plan truncated the feed to 20 rows BEFORE filtering; pre-branch production
+filtered the whole feed and then took 15. The plan's version was a strict
+reduction that hit hardest on the slot with the most new rejection logic
+(Macro measured 5 surviving candidates against `MAX_RESOLVE_TRIES=6`).
+`RAW_POOL_CAP = 60` restores production-equivalent depth: Macro 5 -> 12,
+Sports 1 -> 7. `dry_run` caps both arms at 15 so the A/B stays comparable.
+
+### 5. In-run duplicate-story guard for fallback picks
+
+The spec's cross-slot diversity covered the model's picks but not fallbacks:
+a fallback carries no `storyKey`, so only URL matching applied, and two slots
+could email the same event under different URLs. `is_claimable` now also
+rejects a candidate whose normalized title was already claimed THIS run
+(reason `dup-story`). History semantics are unchanged -- a `None` storyKey still
+never blocks on history grounds, per this spec's error-handling section.
+
+Catches the same headline at different URLs, which is the reproduced case. It
+does not attempt semantic matching of the same story under different headlines.
+
+### Known follow-ups, not addressed here
+
+- **Op-Ed has no quality gate.** It has no keywords, so only noise and wrap
+  rejection apply; with the wider pool it saturates and is purely
+  recency-ranked. Pre-existing, surfaced by delta 4. Worth a rubric change.
+- **The wrap regex fires on 11 of 80 historical picks**, vs the ~8 targeted.
+  Two oil-geopolitics headlines are arguable false positives. A banned wrap
+  costs nothing; a banned real story costs an article. Watch the first live runs.
+- `generate.py` is 405 lines against a 400-line guideline. Splitting it now
+  would create a circular import; the step-C source-adapter work restructures
+  this file anyway.
