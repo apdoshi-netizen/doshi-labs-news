@@ -5,6 +5,8 @@ is testable without an API key or network access.
 """
 import re
 
+from wsjdaily.slots import Slot
+
 # Non-article junk the Google News feed returns.
 NOISE = re.compile(
     r"(Print Edition|News Archive|Exchange Rate|Roundup: Market Talk|"
@@ -47,3 +49,45 @@ def is_market_wrap(title: str) -> bool:
     "Mitie Shares Soar on $4.2 Billion Takeover by OCS".
     """
     return bool(MARKET_WRAP.search(title))
+
+
+MIN_KEYWORD_MATCHES = 3  # below this, a normal slot keeps its whole pool
+
+
+def apply_keyword_filter(slot: Slot, rows: list[dict]) -> list[dict]:
+    """Keep the keyword-matching subset of `rows`, or all of `rows`.
+
+    Normal slots keep the subset only when at least MIN_KEYWORD_MATCHES survive,
+    so a thin pool is not filtered down to nothing. Slots with
+    `keyword_fallback` (Sports) keep the subset whenever it is non-empty and
+    otherwise keep everything -- that is the top-headline fallback.
+    """
+    if not slot.keywords:
+        return list(rows)
+    # Word-boundary match, not substring: a naive `in` check lets short
+    # keywords like "ai" false-positive inside unrelated words (e.g.
+    # "Sailing" contains "ai").
+    patterns = [re.compile(r"\b" + re.escape(k) + r"\b", re.I) for k in slot.keywords]
+    matched = [r for r in rows if any(p.search(r["title"]) for p in patterns)]
+    if slot.keyword_fallback:
+        return matched if matched else list(rows)
+    return matched if len(matched) >= MIN_KEYWORD_MATCHES else list(rows)
+
+
+def reject(slot: Slot, rows: list[dict]) -> list[dict]:
+    """Drop noise, off-slot opinion pieces, and (for Macro) market wraps.
+
+    Returns a new list; never mutates `rows`.
+    """
+    kept = []
+    for r in rows:
+        title = r["title"]
+        if is_noise(title):
+            continue
+        # Opinion pieces belong only in the Op-Ed slot, which has no keywords.
+        if slot.keywords and title.lower().startswith("opinion"):
+            continue
+        if slot.reject_market_wraps and is_market_wrap(title):
+            continue
+        kept.append(r)
+    return apply_keyword_filter(slot, kept)
