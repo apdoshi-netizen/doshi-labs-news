@@ -78,3 +78,76 @@ def test_reject_does_not_mutate_input() -> None:
     before = list(rows)
     reject(by_key("Industry / Company / Transaction"), rows)
     assert rows == before
+
+
+def test_ai_does_not_match_sailing() -> None:
+    """Regression: the false positive found in fix round 1."""
+    rows = [
+        row("A Fine Day for Sailing on the Chesapeake"),
+        row("Meta Releases Coding Agent to Compete With OpenAI"),
+        row("SK Hynix to Invest $38 Billion on Chip Production"),
+        row("Google Fined $1 Billion Under EU Antitrust Rules"),
+    ]
+    kept = apply_keyword_filter(by_key("Tech"), rows)
+    assert all("Sailing" not in r["title"] for r in kept)
+
+
+# Non-fallback slots only keep the matched subset once >= MIN_KEYWORD_MATCHES
+# rows match (see test_tech_keeps_full_pool_when_too_few_match), so each stem
+# regression below pads the pool with two unrelated matching filler rows to
+# clear that threshold, plus one row that matches nothing at all -- proving
+# both that the stem matched (the target row and the filler rows survive)
+# and that the threshold logic still runs (the non-matching row is dropped).
+
+_UNEMPLOYMENT_NON_MATCH = row("Marathon Runner Sets Course Record")
+
+
+def test_acqui_matches_acquire_as_a_prefix_stem() -> None:
+    """Regression: 'acqui' must match inflected forms, not just the literal stem."""
+    target = row("Apollo to Acquire easyJet for $7.7 Billion")
+    filler_1 = row("Investor Group Buys Stake in Retailer")
+    filler_2 = row("Company Raises $10 Million in Funding Round")
+    rows = [target, filler_1, filler_2, _UNEMPLOYMENT_NON_MATCH]
+    kept = apply_keyword_filter(by_key("Industry / Company / Transaction"), rows)
+    assert target in kept
+    assert _UNEMPLOYMENT_NON_MATCH not in kept
+
+
+def test_econom_matches_economic_as_a_prefix_stem() -> None:
+    target = row("U.S. Economic Growth Slowed to 1.5% in Second Quarter")
+    filler_1 = row("Three Fed Officials Say Inflation Should Have Prompted Higher Rates")
+    filler_2 = row("Trump's Tariffs Enter New Phase, Ending Months of Calm")
+    rows = [target, filler_1, filler_2, _UNEMPLOYMENT_NON_MATCH]
+    kept = apply_keyword_filter(by_key("Macro"), rows)
+    assert target in kept
+    assert _UNEMPLOYMENT_NON_MATCH not in kept
+
+
+def test_bankrupt_matches_bankruptcy_as_a_prefix_stem() -> None:
+    target = row("Retailer Files for Bankruptcy Protection")
+    filler_1 = row("Company Raises $10 Million in Funding Round")
+    filler_2 = row("Investor Group Buys Stake in Retailer")
+    rows = [target, filler_1, filler_2, _UNEMPLOYMENT_NON_MATCH]
+    kept = apply_keyword_filter(by_key("Industry / Company / Transaction"), rows)
+    assert target in kept
+    assert _UNEMPLOYMENT_NON_MATCH not in kept
+
+
+def test_unemploy_matches_unemployment_as_a_prefix_stem() -> None:
+    target = row("Unemployment Rate Ticks Up")
+    filler_1 = row("Three Fed Officials Say Inflation Should Have Prompted Higher Rates")
+    filler_2 = row("Trump's Tariffs Enter New Phase, Ending Months of Calm")
+    rows = [target, filler_1, filler_2, row("Marathon Runner Sets Course Record")]
+    kept = apply_keyword_filter(by_key("Macro"), rows)
+    assert target in kept
+    assert row("Marathon Runner Sets Course Record") not in kept
+
+
+def test_invest_matches_investors_as_a_prefix_stem() -> None:
+    target = row("SoftBank Investors Push for Buyback")
+    filler_1 = row("Apollo to Acquire easyJet for $7.7 Billion")
+    filler_2 = row("Company Raises $10 Million in Funding Round")
+    rows = [target, filler_1, filler_2, _UNEMPLOYMENT_NON_MATCH]
+    kept = apply_keyword_filter(by_key("Industry / Company / Transaction"), rows)
+    assert target in kept
+    assert _UNEMPLOYMENT_NON_MATCH not in kept

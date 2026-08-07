@@ -64,10 +64,22 @@ def apply_keyword_filter(slot: Slot, rows: list[dict]) -> list[dict]:
     """
     if not slot.keywords:
         return list(rows)
-    # Word-boundary match, not substring: a naive `in` check lets short
-    # keywords like "ai" false-positive inside unrelated words (e.g.
-    # "Sailing" contains "ai").
-    patterns = [re.compile(r"\b" + re.escape(k) + r"\b", re.I) for k in slot.keywords]
+    # Leading word-boundary only, not substring and not a trailing boundary.
+    # A naive `in` check lets short keywords like "ai" false-positive
+    # mid-word (e.g. "Sailing" contains "ai"); a *leading* \b already fixes
+    # that, because "ai" in "Sailing" is not at the start of a word. A
+    # *trailing* \b would also be wrong: several keyword-tuple entries in
+    # slots.py are deliberate prefix stems, not whole words -- "acqui"
+    # (acquire/acquisition), "econom" (economic/economy), "bankrupt"
+    # (bankruptcy), "unemploy" (unemployment), "invest" (investor/investing)
+    # -- and a trailing \b would stop all of them from matching their own
+    # inflected forms. Leading-only accepts a residual: "ai" also matches
+    # "Aid"/"Air"/"Aim". That trade-off is deliberate -- correctly matching
+    # the prefix-stem keywords (which drive real slot categorization) is
+    # worth more than eliminating a rare short-token false positive, and the
+    # more specific "artificial intelligence" keyword already covers the
+    # intended AI-story case.
+    patterns = [re.compile(r"\b" + re.escape(k), re.I) for k in slot.keywords]
     matched = [r for r in rows if any(p.search(r["title"]) for p in patterns)]
     if slot.keyword_fallback:
         return matched if matched else list(rows)
