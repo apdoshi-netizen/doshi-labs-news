@@ -228,7 +228,8 @@ def url_section(url: str) -> str:
 
 
 def is_claimable(url: str, story_key: str | None, blocked_keys: set, used_keys: set,
-                 used_urls: set, prior_urls: set) -> str:
+                 used_urls: set, prior_urls: set, title: str = "",
+                 used_titles: set | frozenset = frozenset()) -> str:
     """Return "" if this resolved candidate is usable, else a rejection reason.
 
     Section blocking has to happen HERE rather than on the candidate pool:
@@ -237,8 +238,17 @@ def is_claimable(url: str, story_key: str | None, blocked_keys: set, used_keys: 
 
     `used_keys` is shared across slots and grows as slots resolve in
     RESOLVE_ORDER, which is what makes Sports outrank Industry on a shared
-    story. A None story_key never blocks -- a missing dedup key must not cost
-    an article.
+    story. A None story_key never blocks on HISTORY grounds -- a missing dedup
+    key must not cost an article, deliberately.
+
+    `used_titles` closes the remaining IN-RUN hole. Only the MODEL's pick
+    carries a storyKey; when a slot's pick is rejected the loop advances to a
+    fallback with story_key=None, which the storyline check then skips
+    entirely. Matching the normalized title against the titles already claimed
+    this run stops two slots emailing the same event under the same headline at
+    two different WSJ URLs. This is same-run only -- it never consults history,
+    so the None-key history semantics above are untouched. It catches the same
+    headline, not the same story told two ways; no fuzzy matching is attempted.
     """
     if url_section(url) in BLOCKED_SECTIONS:
         return "section"
@@ -246,6 +256,8 @@ def is_claimable(url: str, story_key: str | None, blocked_keys: set, used_keys: 
         return "dup-url"
     if story_key and (story_key in blocked_keys or story_key in used_keys):
         return "storyline"
+    if title and history.norm_title(title) in used_titles:
+        return "dup-story"
     return ""
 
 
@@ -341,6 +353,10 @@ def main():
     picks_by_slot: dict[str, dict] = {}
     used_urls: set[str] = set()
     used_story_keys: set[str] = set()
+    # Normalized titles claimed THIS run. Unlike used_story_keys this is
+    # populated for every claimed slot, including fallbacks that carry no
+    # storyKey, so a keyless fallback cannot duplicate a claimed story.
+    used_titles: set[str] = set()
 
     # Resolve in precedence order so the first slot to claim a story keeps it
     # (Sports outranks Industry); the email still renders in CANONICAL_ORDER.
@@ -362,7 +378,7 @@ def main():
             # this candidate is that pick; fallbacks carry no key.
             cand_key = sel.get("storyKey") if (sel and cand is chosen) else None
             reason = is_claimable(direct, cand_key, blocked_keys, used_story_keys,
-                                  used_urls, prior_urls)
+                                  used_urls, prior_urls, cand["title"], used_titles)
             if reason:
                 print("  skip %s: %s" % (reason, cand["title"][:50]), file=sys.stderr)
                 continue
@@ -378,6 +394,7 @@ def main():
 
         cand, direct = picked
         used_urls.add(direct)
+        used_titles.add(history.norm_title(cand["title"]))
         # Only carry the model's summary and storyKey if we used the model's
         # pick -- otherwise they describe a different article.
         is_model_pick = sel is not None and cand is chosen
