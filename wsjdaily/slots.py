@@ -1,0 +1,99 @@
+"""Slot definitions for the daily digest.
+
+Configuration data only, no logic. `filters` and `generate` consume these.
+"""
+from dataclasses import dataclass
+
+
+@dataclass(frozen=True)
+class Slot:
+    """One section of the daily email."""
+
+    key: str                            # canonical name; also the email label
+    query: str                          # Google News RSS search query
+    max_age_hrs: int                    # hard cutoff for candidate age
+    keywords: tuple[str, ...] | None    # title filter; None accepts anything
+    reject_market_wraps: bool = False   # drop daily price-move wire copy
+    keyword_fallback: bool = False      # keep whole pool when nothing matches
+
+
+MACRO_KEYWORDS = (
+    "econom", "inflation", "fed", "rate", "jobs", "unemploy", "gdp", "tariff",
+    "trade", "treasury", "yield", "bond", "central bank", "dollar", "currency",
+    "recession", "growth", "prices", "oil", "stimulus", "deficit",
+)
+
+INDUSTRY_KEYWORDS = (
+    "merger", "acqui", "deal", "takeover", "ipo", "bankrupt", "buyout", "bid",
+    "billion", "million", "stake", "shares", "earnings", "profit", "revenue",
+    "invest", "fund", "raise", "spinoff", "sells", "buys", "to buy",
+)
+
+TECH_KEYWORDS = (
+    "ai", "artificial intelligence", "chip", "semiconductor", "software",
+    "tech", "nvidia", "apple", "google", "microsoft", "openai", "meta",
+    "amazon", "tesla", "intel", "amd", "tsmc", "data center", "cloud", "cyber",
+    "robot", "quantum", "startup", "app", "internet", "silicon",
+)
+
+# Sports BUSINESS terms. When none match, the Sports slot keeps its whole pool
+# and falls back to the day's top headline (keyword_fallback=True).
+SPORTS_KEYWORDS = (
+    "valuation", "stake", "sale", "sells", "buys", "acqui", "investor",
+    "private equity", "media rights", "broadcast", "streaming rights",
+    "sponsorship", "revenue", "billion", "million", "franchise", "owner",
+    "betting", "sportsbook", "salary cap", "collective bargaining", "lockout",
+    "stadium", "arena", "expansion fee", "ipo", "fund", "deal", "contract",
+)
+
+SLOTS: tuple[Slot, ...] = (
+    Slot(
+        key="Macro",
+        query=(
+            '(economy OR inflation OR "Federal Reserve" OR "interest rates" OR jobs '
+            'OR GDP OR tariffs OR Treasury OR "central bank") site:wsj.com when:3d'
+        ),
+        max_age_hrs=72,
+        keywords=MACRO_KEYWORDS,
+        reject_market_wraps=True,
+    ),
+    Slot(
+        key="Industry / Company / Transaction",
+        query=(
+            "(merger OR acquisition OR deal OR earnings OR takeover OR IPO OR "
+            "bankruptcy OR buyout) site:wsj.com when:3d"
+        ),
+        max_age_hrs=72,
+        keywords=INDUSTRY_KEYWORDS,
+    ),
+    Slot(key="Op-Ed", query="site:wsj.com/opinion when:4d", max_age_hrs=96, keywords=None),
+    Slot(key="Tech", query="site:wsj.com/tech when:2d", max_age_hrs=48, keywords=TECH_KEYWORDS),
+    Slot(
+        key="Sports",
+        query="site:wsj.com/sports when:3d",
+        max_age_hrs=72,
+        keywords=SPORTS_KEYWORDS,
+        keyword_fallback=True,
+    ),
+)
+
+# Order the email renders in.
+CANONICAL_ORDER: tuple[str, ...] = tuple(s.key for s in SLOTS)
+
+# Order slots are RESOLVED in. The first slot to claim a story keeps it, so
+# Sports precedes Industry: a sports-business deal lands in Sports and Industry
+# advances to its next candidate.
+RESOLVE_ORDER: tuple[str, ...] = (
+    "Macro",
+    "Sports",
+    "Industry / Company / Transaction",
+    "Op-Ed",
+    "Tech",
+)
+
+_BY_KEY = {s.key: s for s in SLOTS}
+
+
+def by_key(key: str) -> Slot:
+    """Look up a slot by its canonical name. Raises KeyError if unknown."""
+    return _BY_KEY[key]
