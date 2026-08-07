@@ -2,7 +2,7 @@
 """
 WSJ Daily generator — runs in GitHub Actions.
 
-Fetch live WSJ headlines (Google News RSS) for 4 slots, ask the Claude API to
+Fetch live WSJ headlines (Google News RSS) for 5 slots, ask the Claude API to
 pick the best per slot + write a one-line summary, resolve each pick to its
 direct wsj.com URL, and write picks.json. The workflow then commits picks.json,
 and the Apps Script mailer reads it and emails at 9 AM ET.
@@ -10,7 +10,8 @@ and the Apps Script mailer reads it and emails at 9 AM ET.
 Uses curl (present on GitHub runners) for every HTTP call — the method verified
 to work against Google News' article/batchexecute endpoints. Requires env var
 ANTHROPIC_API_KEY. If the Claude call fails, falls back to a keyword heuristic
-so a picks.json is always produced.
+so a picks.json is always produced. `--dry-run` compares curation with filters
+on vs. off against one live pool, printing results without writing anything.
 """
 import os, sys, re, json, subprocess, urllib.parse, email.utils, datetime
 import xml.etree.ElementTree as ET
@@ -30,8 +31,12 @@ def curl(args):
                           capture_output=True, text=True).stdout
 
 
-def fetch_candidates() -> dict:
-    """Fetch and clean the candidate pool for every slot."""
+def fetch_candidates_unfiltered() -> dict:
+    """Fetch and clean the candidate pool for every slot, with no filters.reject applied.
+
+    Returns contiguously indexed rows, up to 20 per slot, so filtering
+    downstream operates on the wider pool rather than an already-truncated one.
+    """
     now = datetime.datetime.now(datetime.timezone.utc)
     out = {}
     for slot in SLOTS:
@@ -58,11 +63,19 @@ def fetch_candidates() -> dict:
             seen.add(title)
             rows.append((dt, title, it.findtext("link")))
         rows.sort(reverse=True)
-        cands = [
-            {"i": 0, "title": t, "ageHrs": round((now - dt).total_seconds() / 3600, 1), "url": u}
-            for dt, t, u in rows[:20]
+        out[slot.key] = [
+            {"i": i, "title": t, "ageHrs": round((now - dt).total_seconds() / 3600, 1), "url": u}
+            for i, (dt, t, u) in enumerate(rows[:20])
         ]
-        kept = filters.reject(slot, cands)[:15]
+    return out
+
+
+def fetch_candidates() -> dict:
+    """Fetch the unfiltered candidate pool, then apply filters.reject per slot."""
+    raw = fetch_candidates_unfiltered()
+    out = {}
+    for slot in SLOTS:
+        kept = filters.reject(slot, raw.get(slot.key, []))[:15]
         for i, c in enumerate(kept):
             c["i"] = i
         out[slot.key] = kept
@@ -236,8 +249,49 @@ def is_claimable(url: str, story_key: str | None, blocked_keys: set, used_keys: 
     return ""
 
 
+def dry_run(date: str) -> None:
+    """Fetch one live pool and curate it twice -- filters off, then on.
+
+    Prints both pick sets side by side and writes NOTHING. Costs 2 API calls.
+    The 'filters off' arm approximates the previous behaviour; it is not a
+    bit-exact replay, since the prompt itself changed.
+    """
+    hist = history.load()
+    raw = fetch_candidates_unfiltered()
+    filtered = {s.key: filters.reject(by_key(s.key), raw.get(s.key, [])) for s in SLOTS}
+    for pool in (raw, filtered):
+        for rows in pool.values():
+            for i, c in enumerate(rows):
+                c["i"] = i
+
+    print("=" * 78)
+    for label, pool, covered in (
+        ("BEFORE (filters off)", raw, []),
+        ("AFTER  (filters on)", filtered, history.covered_story_keys(hist, date)),
+    ):
+        print(label)
+        try:
+            sels = curate_with_claude(pool, covered)
+        except Exception as e:
+            print("  curation failed: " + str(e)[:200])
+            continue
+        for slot_key in CANONICAL_ORDER:
+            s = next((x for x in sels if x["slot"] == slot_key), None)
+            chosen = next((c for c in pool.get(slot_key, []) if s and c["i"] == s["i"]), None)
+            print("  %-34s %s" % (slot_key, chosen["title"][:60] if chosen else "(none)"))
+        print("-" * 78)
+
+    for slot in SLOTS:
+        print("pool %-34s raw=%-3d filtered=%d"
+              % (slot.key, len(raw.get(slot.key, [])), len(filtered.get(slot.key, []))))
+
+
 def main():
     date = datetime.datetime.now(ZoneInfo("America/New_York")).strftime("%Y-%m-%d")
+
+    if "--dry-run" in sys.argv:
+        dry_run(date)
+        return
 
     # Rescue mode (late cron tick): only regenerate if the day's picks are
     # missing, stale, or empty — otherwise exit without spending an API call.

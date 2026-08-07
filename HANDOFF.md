@@ -1,7 +1,7 @@
 # WSJ Daily — handoff / current state
 
-A daily 9:00 AM ET email of 4 curated, direct-link WSJ articles
-(Macro / Industry-Company-Transaction / Op-Ed / Tech). **Live and running.**
+A daily 9:00 AM ET email of 5 curated, direct-link WSJ articles
+(Macro / Industry-Company-Transaction / Op-Ed / Tech / Sports). **Live and running.**
 
 ## Architecture (two halves)
 
@@ -25,7 +25,10 @@ Apps Script `sendDaily` → email.
 | File | What it is |
 |---|---|
 | `generate.py` | The generator (runs in CI). Fetch, dedup, curate, resolve. |
+| `wsjdaily/` | Pure filter + history logic, unit-tested. |
+| `tests/` | pytest suite for `wsjdaily/`. |
 | `.github/workflows/daily.yml` | Cron schedule + commit step. |
+| `.github/workflows/tests.yml` | CI: runs `pytest tests/` on push/PR. |
 | `mailer.gs` | Apps Script mailer (paste into script.google.com). |
 | `picks.json` | Latest generated picks (committed by CI). |
 | `history.json` | 21-day memory of sent articles, for dedup. |
@@ -73,6 +76,15 @@ Apps Script `sendDaily` → email.
    external aliases. That's why the project was re-homed from the Wharton account
    to aaravpdoshi@gmail.com rather than aliased. If mail ever starts arriving
    from the wrong address, check which account owns the live project.
+9. **The market-wrap filter is Macro-only.** Applied globally it rejects real
+   deal stories -- "Mitie Shares Soar on $4.2 Billion Takeover by OCS" matches
+   the same shape. See `Slot.reject_market_wraps`.
+10. **Storyline dedup is hybrid:** exact storyKey match within 2 days is a hard
+    block; days 3-7 are shown to the model, which judges whether a development
+    is materially new. Keys are sorted token sets, so order does not matter.
+11. **Slots resolve in `RESOLVE_ORDER`, not `CANONICAL_ORDER`.** Sports resolves
+    before Industry so a sports-business deal lands in Sports. The email still
+    renders in canonical order.
 
 ## Known limitations / backlog candidates
 
@@ -96,4 +108,10 @@ gh workflow run daily.yml --repo apdoshi-netizen/wsj-daily
 
 # Local test (no key → heuristic curation):
 python3 generate.py
+
+# A/B the curation against one live pool without writing anything:
+ANTHROPIC_API_KEY=sk-ant-... python3 generate.py --dry-run
+
+# Run the unit tests (no API key needed):
+python3 -m pytest tests/ -v
 ```
