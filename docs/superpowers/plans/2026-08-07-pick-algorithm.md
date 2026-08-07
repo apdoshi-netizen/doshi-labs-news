@@ -54,6 +54,8 @@ Create `tests/__init__.py` as an empty file, then `tests/test_slots.py`:
 
 ```python
 """Slot configuration invariants."""
+import pytest
+
 from wsjdaily.slots import CANONICAL_ORDER, RESOLVE_ORDER, SLOTS, by_key
 
 
@@ -90,8 +92,6 @@ def test_op_ed_accepts_any_title() -> None:
 
 
 def test_by_key_raises_on_unknown_slot() -> None:
-    import pytest
-
     with pytest.raises(KeyError):
         by_key("Weather")
 ```
@@ -280,11 +280,13 @@ def test_keeps_substantive_macro_stories(title: str) -> None:
     assert is_market_wrap(title) is False
 
 
-def test_deal_story_mentioning_shares_is_not_a_wrap_for_other_slots() -> None:
-    """This one DOES match the shape, which is why the filter is Macro-only.
+def test_deal_story_matches_the_wrap_shape_hence_macro_only_scoping() -> None:
+    """A real Industry pick that matches the wrap SHAPE.
 
-    Documented here so the coupling to Slot.reject_market_wraps is deliberate
-    and visible rather than an accident.
+    This is exactly why wrap rejection is gated behind Slot.reject_market_wraps
+    instead of being applied to every slot: globally, this filter would discard
+    a legitimate $4.2B takeover story. Asserted here so the coupling is
+    deliberate and visible rather than an accident.
     """
     assert is_market_wrap("Mitie Shares Soar on $4.2 Billion Takeover by OCS") is True
 
