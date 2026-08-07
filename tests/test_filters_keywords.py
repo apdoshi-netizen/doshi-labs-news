@@ -30,21 +30,69 @@ def test_tech_keeps_full_pool_when_too_few_match() -> None:
     assert apply_keyword_filter(by_key("Tech"), rows) == rows
 
 
-def test_sports_keeps_business_stories_even_when_only_one_matches() -> None:
-    """Sports prefers business; one match is enough to filter on."""
+def test_sports_orders_business_stories_first_without_dropping_the_rest() -> None:
+    """Sports PREFERS business stories -- it ranks them first, it does not
+    discard the remainder. Dropping them left the slot with too few fallbacks
+    for the resolver, so one resolver failure emptied it entirely."""
     rows = [
         row("Knicks Beat Celtics in Overtime Thriller"),
         row("Silver Lake Buys Stake in Serie A for $2 Billion"),
         row("Marathon Runner Sets Course Record"),
     ]
     kept = apply_keyword_filter(by_key("Sports"), rows)
-    assert [r["title"] for r in kept] == ["Silver Lake Buys Stake in Serie A for $2 Billion"]
+    assert [r["title"] for r in kept] == [
+        "Silver Lake Buys Stake in Serie A for $2 Billion",   # matched, hoisted
+        "Knicks Beat Celtics in Overtime Thriller",           # retained, in order
+        "Marathon Runner Sets Course Record",
+    ]
+
+
+def test_sports_preserves_relative_order_within_each_group() -> None:
+    rows = [
+        row("Knicks Beat Celtics in Overtime Thriller"),
+        row("Silver Lake Buys Stake in Serie A for $2 Billion"),
+        row("Marathon Runner Sets Course Record"),
+        row("NFL Signs $10 Billion Media Rights Deal"),
+    ]
+    kept = apply_keyword_filter(by_key("Sports"), rows)
+    assert [r["title"] for r in kept] == [
+        "Silver Lake Buys Stake in Serie A for $2 Billion",
+        "NFL Signs $10 Billion Media Rights Deal",
+        "Knicks Beat Celtics in Overtime Thriller",
+        "Marathon Runner Sets Course Record",
+    ]
+
+
+def test_sports_never_loses_a_candidate() -> None:
+    """Ordering is a permutation: the pool size must be unchanged."""
+    rows = [
+        row("Knicks Beat Celtics in Overtime Thriller"),
+        row("Silver Lake Buys Stake in Serie A for $2 Billion"),
+        row("Marathon Runner Sets Course Record"),
+    ]
+    kept = apply_keyword_filter(by_key("Sports"), rows)
+    assert len(kept) == len(rows)
+    assert all(r in kept for r in rows)
 
 
 def test_sports_falls_back_to_whole_pool_when_no_business_story_exists() -> None:
     """The top-headline fallback. Must not starve the slot."""
     rows = [row("Knicks Beat Celtics in Overtime Thriller"), row("Marathon Runner Sets Record")]
     assert apply_keyword_filter(by_key("Sports"), rows) == rows
+
+
+def test_non_fallback_slots_still_discard_the_unmatched_remainder() -> None:
+    """Fix 3 is scoped to keyword_fallback slots only. Macro/Industry/Tech keep
+    their existing subset-only behaviour above MIN_KEYWORD_MATCHES."""
+    rows = [
+        row("Meta Releases Coding Agent to Compete With OpenAI"),
+        row("SK Hynix to Invest $38 Billion on Chip Production"),
+        row("Google Fined $1 Billion Under EU Antitrust Rules"),
+        row("A Fine Day for Sailing on the Chesapeake"),
+    ]
+    kept = apply_keyword_filter(by_key("Tech"), rows)
+    assert len(kept) == 3
+    assert "A Fine Day for Sailing on the Chesapeake" not in [r["title"] for r in kept]
 
 
 def test_reject_drops_wraps_only_for_macro() -> None:

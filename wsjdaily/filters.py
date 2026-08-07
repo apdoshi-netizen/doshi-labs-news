@@ -55,12 +55,21 @@ MIN_KEYWORD_MATCHES = 3  # below this, a normal slot keeps its whole pool
 
 
 def apply_keyword_filter(slot: Slot, rows: list[dict]) -> list[dict]:
-    """Keep the keyword-matching subset of `rows`, or all of `rows`.
+    """Keep the keyword-matching subset of `rows`, or reorder, or keep all.
 
     Normal slots keep the subset only when at least MIN_KEYWORD_MATCHES survive,
-    so a thin pool is not filtered down to nothing. Slots with
-    `keyword_fallback` (Sports) keep the subset whenever it is non-empty and
-    otherwise keep everything -- that is the top-headline fallback.
+    so a thin pool is not filtered down to nothing.
+
+    Slots with `keyword_fallback` (Sports) ORDER rather than discard: matching
+    rows first, then the rest, relative order preserved within each group. The
+    intent for Sports is a PREFERENCE -- "prefer sports business/finance; if the
+    day has none, take the top sports headline" -- and the model's rubric in
+    generate.py already states it. Enforcing it a second time here by deletion
+    threw away the very fallbacks the rubric exists to use: a measured day left
+    Sports with one candidate against MAX_RESOLVE_TRIES resolve attempts, so a
+    single resolver failure or /pro/ hit emptied the slot. Ordering keeps the
+    preference intact (the business story is still what the model sees first)
+    without starving the resolver.
     """
     if not slot.keywords:
         return list(rows)
@@ -80,10 +89,16 @@ def apply_keyword_filter(slot: Slot, rows: list[dict]) -> list[dict]:
     # more specific "artificial intelligence" keyword already covers the
     # intended AI-story case.
     patterns = [re.compile(r"\b" + re.escape(k), re.I) for k in slot.keywords]
-    matched = [r for r in rows if any(p.search(r["title"]) for p in patterns)]
+    # Track matched rows by INDEX, not by value. Rows are dicts, so a
+    # `r not in matched` membership test would compare by equality -- both slow
+    # and semantically wrong, since two distinct articles can compare equal.
+    matched_idx = {i for i, r in enumerate(rows) if any(p.search(r["title"]) for p in patterns)}
     if slot.keyword_fallback:
-        return matched if matched else list(rows)
-    return matched if len(matched) >= MIN_KEYWORD_MATCHES else list(rows)
+        return ([r for i, r in enumerate(rows) if i in matched_idx]
+                + [r for i, r in enumerate(rows) if i not in matched_idx])
+    if len(matched_idx) >= MIN_KEYWORD_MATCHES:
+        return [r for i, r in enumerate(rows) if i in matched_idx]
+    return list(rows)
 
 
 def reject(slot: Slot, rows: list[dict]) -> list[dict]:
