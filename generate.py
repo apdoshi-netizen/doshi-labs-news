@@ -24,6 +24,8 @@ MODEL = "claude-sonnet-5"
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
 MAX_RESOLVE_TRIES = 6          # more grounds for rejection than before
 BLOCKED_SECTIONS = {"pro", "podcasts"}
+RAW_POOL_CAP = 60              # pre-filter cap; filtering runs on a wide pool
+DRY_RUN_POOL_CAP = 15          # keeps both dry-run arms comparably sized
 
 
 def curl(args):
@@ -34,8 +36,12 @@ def curl(args):
 def fetch_candidates_unfiltered() -> dict:
     """Fetch and clean the candidate pool for every slot, with no filters.reject applied.
 
-    Returns contiguously indexed rows, up to 20 per slot, so filtering
-    downstream operates on the wider pool rather than an already-truncated one.
+    Returns contiguously indexed rows, up to RAW_POOL_CAP per slot, so
+    filtering downstream operates on the wider pool rather than an
+    already-truncated one. The cap is deliberately far above the post-filter
+    cap of 15: truncating BEFORE filtering is a strict reduction, and it lands
+    hardest on the slots carrying the most rejection logic, which were
+    measured falling below MAX_RESOLVE_TRIES fallbacks.
     """
     now = datetime.datetime.now(datetime.timezone.utc)
     out = {}
@@ -65,7 +71,7 @@ def fetch_candidates_unfiltered() -> dict:
         rows.sort(reverse=True)
         out[slot.key] = [
             {"i": i, "title": t, "ageHrs": round((now - dt).total_seconds() / 3600, 1), "url": u}
-            for i, (dt, t, u) in enumerate(rows[:20])
+            for i, (dt, t, u) in enumerate(rows[:RAW_POOL_CAP])
         ]
     return out
 
@@ -278,6 +284,17 @@ def dry_run(date: str) -> None:
     # two pools can never alias.
     raw = {k: [dict(c) for c in v] for k, v in raw_pools.items()}
     filtered = {k: [dict(c) for c in v] for k, v in filtered_pools.items()}
+    # Cap BOTH arms before reindexing. The raw pool is now fetched at
+    # RAW_POOL_CAP so that filtering runs wide, but feeding all of it to the
+    # BEFORE arm would hand it a far larger prompt than the AFTER arm, making
+    # the comparison unfair and the call needlessly expensive. Capping the
+    # AFTER arm at the same number also makes it match what production's
+    # fetch_candidates() actually sends. Slicing here -- after the copy, before
+    # the reindex -- keeps ids contiguous 0..n-1 within each pool, and the pools
+    # hold distinct dict objects so neither reindex can disturb the other.
+    for pool in (raw, filtered):
+        for k in pool:
+            pool[k] = pool[k][:DRY_RUN_POOL_CAP]
     for pool in (raw, filtered):
         for rows in pool.values():
             for i, c in enumerate(rows):
