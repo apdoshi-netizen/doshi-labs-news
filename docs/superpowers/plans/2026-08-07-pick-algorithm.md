@@ -361,7 +361,7 @@ def is_market_wrap(title: str) -> bool:
 - [ ] **Step 4: Run test to verify it passes**
 
 Run: `python3 -m pytest tests/test_filters_wrap.py -v`
-Expected: 23 passed
+Expected: 21 passed (10 wraps + 9 keepers + 1 shape-collision + 1 noise)
 
 - [ ] **Step 5: Commit**
 
