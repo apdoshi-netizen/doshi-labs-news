@@ -5,7 +5,13 @@ import pathlib
 import pytest
 
 from wsjdaily.sources import jpm_web
-from wsjdaily.sources.jpm_web import LISTING_URL, fetch, parse_article, parse_listing
+from wsjdaily.sources.jpm_web import (
+    LISTING_URL,
+    MAX_ARTICLES,
+    fetch,
+    parse_article,
+    parse_listing,
+)
 
 FIX = pathlib.Path(__file__).parent / "fixtures"
 LISTING = (FIX / "jpm_listing.html").read_text(encoding="utf-8", errors="ignore")
@@ -130,6 +136,32 @@ def test_one_bad_article_does_not_abort_the_batch(monkeypatch: pytest.MonkeyPatc
     assert items, "the surviving articles should still produce items"
     assert len(items) == len(urls) - 1
     assert all(i.url != broken_url for i in items)
+
+
+def test_article_fetches_are_capped_at_max_articles(monkeypatch: pytest.MonkeyPatch) -> None:
+    """Bounds worst-case runtime. Each curl is capped at 30s but the total is
+    not, and this runs BEFORE picks.json is written -- an unbounded fan-out
+    after a JPM markup change would stall the digest for tens of minutes.
+    """
+    oversized = "".join(
+        '<a href="/insights/markets-and-economy/markets/article-%d">a</a>' % n
+        for n in range(MAX_ARTICLES * 3)
+    )
+    assert len(parse_listing(oversized)) > MAX_ARTICLES, "listing must exceed the cap"
+    article_calls: list[str] = []
+
+    def fake_curl(args: list[str]) -> str:
+        (url,) = args
+        if url == LISTING_URL:
+            return oversized
+        article_calls.append(url)
+        return ARTICLE
+
+    monkeypatch.setattr(jpm_web, "curl", fake_curl)
+    items = fetch(NOW)
+
+    assert len(article_calls) == MAX_ARTICLES
+    assert len(items) == MAX_ARTICLES
 
 
 def test_requests_listing_first_then_each_article_in_listing_order(

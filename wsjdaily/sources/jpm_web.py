@@ -20,6 +20,16 @@ from wsjdaily.sources import Item
 LISTING_URL = "https://www.jpmorgan.com/insights/markets-and-economy/top-market-takeaways"
 BASE = "https://www.jpmorgan.com"
 SUMMARY_CHARS = 240
+# Bounds worst-case runtime. Each article is one curl capped at 30s, but the
+# TOTAL is otherwise unbounded and this runs BEFORE picks.json is written, so a
+# markup change (a mega-menu, a "more from Insights" index block) that pushes
+# the link count from the usual 8-9 to 80 would stall the digest for up to 40
+# minutes on a bad network day. Every other fetch in the project is capped
+# (RAW_POOL_CAP, [:15], MAX_RESOLVE_TRIES, Apple's limit=10); this matches.
+# NOTE: the cap is applied to the fetch list only. Seen-URL dedup must stay in
+# collect_research, AFTER the fetch -- pre-filtering here would reintroduce the
+# same-day suppression bug fixed in commit 55afdf4.
+MAX_ARTICLES = 15
 
 _LINK = re.compile(r'href="(/insights/markets-and-economy/[^"#?]+)"')
 _DATE = re.compile(r'<meta[^>]+name="publishDate"[^>]+content="([^"]+)"')
@@ -78,7 +88,7 @@ def parse_article(page: str, url: str) -> Item | None:
 
 
 def fetch(now: datetime.datetime) -> list[Item]:
-    """Fetch the listing, then each article page. Never raises.
+    """Fetch the listing, then each article page (up to MAX_ARTICLES). Never raises.
 
     `now` is accepted for interface symmetry; article pages carry absolute
     dates, so no relative-time arithmetic happens here.
@@ -89,7 +99,7 @@ def fetch(now: datetime.datetime) -> list[Item]:
     except Exception as e:                            # noqa: BLE001
         print("jpm_web: listing failed: %s" % str(e)[:120])
         return out
-    for url in urls:
+    for url in urls[:MAX_ARTICLES]:
         try:
             item = parse_article(curl([url]), url)
         except Exception as e:                        # noqa: BLE001
