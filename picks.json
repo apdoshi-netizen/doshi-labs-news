@@ -1,38 +1,73 @@
 {
-  "date": "2026-08-07",
-  "generatedAt": "2026-08-08T00:29:25.699167+00:00",
+  "date": "2026-08-08",
+  "generatedAt": "2026-08-08T04:03:55.958396+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Markets Rally on Surprise U.S. Job Losses, Airbnb Soars and Trade Desk Tanks | Markets P.M. for Aug. 7",
-      "url": "https://www.wsj.com/finance/stocks/markets-rally-on-surprise-u-s-job-losses-83ecb5e4",
-      "summary": "Markets rallied after surprise US job losses reduced rate-hike odds; Airbnb surged, Trade Desk tanked in broad market reaction.",
+      "title": "U.S. Lost 23,000 Jobs in July, While Unemployment Ticked Lower",
+      "url": "https://www.wsj.com/economy/jobs/july-jobs-report-unemployment-0d7c08a7",
+      "summary": "U.S. employment fell by 23,000 in July while unemployment rate ticked lower, key labor data.",
+      "storyKey": "jobs+report+us",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Industry / Company / Transaction",
-      "title": "Dream Finders to Buy Beazer for $915 Million",
-      "url": "https://www.wsj.com/business/deals/dream-finders-to-buy-beazer-for-915-million-d808be05",
-      "summary": "Dream Finders agrees to acquire homebuilder Beazer Homes in a deal valued at $915 million.",
+      "title": "Volkswagen Backer Porsche SE Calls for Faster Overhaul After $3.5 Billion Hit",
+      "url": "https://www.wsj.com/business/earnings/volkswagen-backer-porsche-se-calls-for-faster-overhaul-after-3-5-billion-hit-78a3138a",
+      "summary": "Porsche SE, VW's top backer, urges faster restructuring after posting a $3.5 billion writedown.",
+      "storyKey": "porsche+se+vw",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | America’s Low-Hire, Low-Fire Labor Market",
-      "url": "https://www.wsj.com/opinion/america-low-hire-fire-labor-market-jobs-unemployment-trump-05b33adf",
-      "summary": "Opinion piece examines America's unusual \"low-hire, low-fire\" labor market dynamics amid economic policy debates.",
+      "title": "Opinion | The Federal Reserve Status Quo vs. Kevin Warsh",
+      "url": "https://www.wsj.com/opinion/fed-status-quo-vs-kevin-warsh-inflation-hawk-trump-dove-a91be5e5",
+      "summary": "Opinion piece contrasts Federal Reserve's current policy stance with Kevin Warsh's alternative approach.",
+      "storyKey": "fed+kevin+warsh",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "SK Hynix to Invest $38 Billion on Expansion of Chip Production Capacity",
-      "url": "https://www.wsj.com/tech/sk-hynix-to-invest-38-billion-on-expansion-of-chip-production-capacity-ea18ecd4",
-      "summary": "SK Hynix commits $38 billion to expand chip production capacity, signaling major semiconductor industry investment.",
+      "title": "OpenAI Pauses Some Work on New AI Model Over Cybersecurity Concerns",
+      "url": "https://www.wsj.com/tech/ai/openai-pauses-some-work-on-new-ai-model-over-cybersecurity-concerns-8473a86f?mod",
+      "summary": "OpenAI halts work on a new AI model due to cybersecurity concerns before release.",
+      "storyKey": "model+openai+pause",
       "source": "WSJ"
+    },
+    {
+      "slot": "Sports",
+      "label": "Sports",
+      "title": "How FIFA’s $20 Billion Private-Equity Plan Nearly Broke Soccer",
+      "url": "https://www.wsj.com/sports/soccer/how-fifas-20-billion-private-equity-plan-nearly-broke-soccer-d78557cf",
+      "summary": "How FIFA's $20 billion private-equity plan nearly broke soccer, per new reporting.",
+      "storyKey": "equity+fifa+private",
+      "source": "WSJ"
+    }
+  ],
+  "research": [
+    {
+      "firm": "Morgan Stanley",
+      "show": "Thoughts on the Market",
+      "title": "AI’s New Rules of Engagement",
+      "url": "https://podcasts.apple.com/us/podcast/ais-new-rules-of-engagement/id1466686717?i=1000780942420&uo=4",
+      "published": "2026-08-07T20:00:00+00:00",
+      "kind": "podcast",
+      "duration": "5 min",
+      "summary": "Our Head of U.S. Public Policy Research Ariana Salvatore explains how U.S.-China tensions, export controls and domestic regulation are reshaping where AI is built, who controls it and what investors should watch.\nRead more insights from Mor"
+    },
+    {
+      "firm": "J.P. Morgan",
+      "show": "Making Sense",
+      "title": "July jobs report: How a big headline miss may be overstating weakness",
+      "url": "https://podcasts.apple.com/us/podcast/july-jobs-report-how-a-big-headline-miss-may-be/id1456184829?i=1000780933043&uo=4",
+      "published": "2026-08-07T18:43:17+00:00",
+      "kind": "podcast",
+      "duration": "11 min",
+      "summary": "What should we make of a weak payroll print alongside a lower unemployment rate? In this episode of Making Sense, Lauren Brice from the North America Rates Sales team sits down with Mike Feroli, Chief U.S. Economist at J.P. Morgan, to unpac"
     }
   ]
 }

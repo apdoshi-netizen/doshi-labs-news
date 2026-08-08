@@ -15,6 +15,14 @@ on:
 permissions:
   contents: write
 
+# Two ticks can otherwise overlap (the scheduler's 45-110 min drift means the
+# 08:17 run can still be going when 10:17 fires), and the later checkout's push
+# is then rejected. Queue instead of cancelling: a run that has already spent an
+# API call should be allowed to finish and commit.
+concurrency:
+  group: daily-picks
+  cancel-in-progress: false
+
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -47,5 +55,21 @@ jobs:
           git config user.name "wsj-daily-bot"
           git config user.email "actions@users.noreply.github.com"
           git add picks.json history.json
-          git diff --staged --quiet || git commit -m "picks: $(TZ=America/New_York date +%F)"
-          git push
+          if git diff --staged --quiet; then
+            echo "nothing to commit"
+            exit 0
+          fi
+          git commit -m "picks: $(TZ=America/New_York date +%F)"
+          # Retry with a rebase: anything landing on the branch between our
+          # checkout and our push (a manual commit, a queued sibling run) makes
+          # the first push fail. Observed in practice. The regenerated files are
+          # authoritative, so conflicts take our version -- and during a rebase
+          # "theirs" IS the commit being replayed, i.e. ours. Without this the
+          # digest is built, never published, and the mailer sends "no digest".
+          for attempt in 1 2 3; do
+            if git push; then exit 0; fi
+            echo "push rejected (attempt $attempt) - rebasing onto the new tip"
+            git pull --rebase -X theirs origin "${GITHUB_REF_NAME}" || exit 1
+          done
+          echo "push still failing after 3 attempts" >&2
+          exit 1
