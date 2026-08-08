@@ -104,3 +104,58 @@ def test_save_writes_story_key_and_prunes_beyond_21_days(tmp_path) -> None:
 
 def test_load_returns_empty_dict_when_file_is_missing(tmp_path) -> None:
     assert load(str(tmp_path / "nope.json")) == {}
+
+
+def test_non_date_keys_do_not_break_the_window() -> None:
+    """Regression: '_research' does NOT sort before the cutoff ('_' is 0x5F,
+    after the digits), so it lands inside the window. Without a date-shape
+    guard, iterating its inner dict yields strings and raises AttributeError
+    in prior_keys and blocked_story_keys -- taking down the WSJ section."""
+    from wsjdaily.history import RESEARCH_KEY, blocked_story_keys, prior_keys
+
+    hist = {
+        "2026-08-06": [{"title": "A", "url": "u", "storyKey": "a+b"}],
+        RESEARCH_KEY: {"2026-08-06": ["https://podcasts.apple.com/x"]},
+    }
+    # The premise: the key does NOT sort before a date cutoff, so it cannot be
+    # excluded by ordering alone and the guard is genuinely required.
+    assert not (RESEARCH_KEY < "2026-07-17")
+    titles, urls = prior_keys(hist, "2026-08-07")
+    assert "u" in urls
+    assert blocked_story_keys(hist, "2026-08-07") == {"a+b"}
+
+
+def test_research_urls_collects_across_days() -> None:
+    from wsjdaily.history import RESEARCH_KEY, research_urls
+
+    hist = {RESEARCH_KEY: {"2026-08-06": ["u1", "u2"], "2026-08-07": ["u2", "u3"]}}
+    assert research_urls(hist) == {"u1", "u2", "u3"}
+
+
+def test_research_urls_on_a_legacy_history_is_empty() -> None:
+    from wsjdaily.history import research_urls
+
+    assert research_urls({"2026-08-06": [{"title": "A", "url": "u"}]}) == set()
+
+
+def test_save_records_research_urls_and_prunes_them(tmp_path) -> None:
+    import json
+
+    from wsjdaily.history import RESEARCH_KEY, save
+
+    path = str(tmp_path / "history.json")
+    hist = {RESEARCH_KEY: {"2026-01-01": ["ancient"]}}
+    save(hist, "2026-08-07", [], path, research_urls=["https://podcasts.apple.com/new"])
+    written = json.loads(open(path).read())
+    assert written[RESEARCH_KEY] == {"2026-08-07": ["https://podcasts.apple.com/new"]}
+    assert "2026-01-01" not in written[RESEARCH_KEY], "pruned on the same 21-day cutoff"
+
+
+def test_save_without_research_leaves_the_key_absent(tmp_path) -> None:
+    import json
+
+    from wsjdaily.history import RESEARCH_KEY, save
+
+    path = str(tmp_path / "history.json")
+    save({}, "2026-08-07", [{"title": "T", "url": "https://wsj.com/a", "storyKey": None}], path)
+    assert RESEARCH_KEY not in json.loads(open(path).read())

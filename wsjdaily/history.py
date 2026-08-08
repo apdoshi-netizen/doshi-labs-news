@@ -17,6 +17,9 @@ STORY_HARD_BLOCK_DAYS = 2     # storyKey match here is auto-rejected
 STORY_SOFT_WINDOW_DAYS = 7    # storyKey match here is shown to the model
 MAX_STORY_TOKENS = 4
 
+RESEARCH_KEY = "_research"          # top-level bookkeeping key, not a date
+_DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+
 
 def norm_title(t: str) -> str:
     """Normalize a headline for identity matching (ignores prefixes/punctuation)."""
@@ -49,6 +52,12 @@ def _window(hist: dict, today: str, days: int) -> Iterator[dict]:
     """
     cutoff = (datetime.date.fromisoformat(today) - datetime.timedelta(days=days)).isoformat()
     for day, items in hist.items():
+        # Skip bookkeeping keys such as RESEARCH_KEY. Name-based ordering is
+        # NOT enough: "_research" > "2026-.." because "_" is 0x5F, so the key
+        # would otherwise pass the cutoff test and be iterated as if it were a
+        # list of picks.
+        if not _DATE_RE.match(day):
+            continue
         if day == today or day < cutoff:
             continue
         for item in items:
@@ -63,7 +72,13 @@ def load(path: str = "history.json") -> dict:
         return {}
 
 
-def save(hist: dict, today: str, picks: list[dict], path: str = "history.json") -> None:
+def save(
+    hist: dict,
+    today: str,
+    picks: list[dict],
+    path: str = "history.json",
+    research_urls: list[str] | None = None,
+) -> None:
     """Record today's picks and prune anything past the 21-day window."""
     hist = dict(hist)
     hist[today] = [
@@ -72,6 +87,12 @@ def save(hist: dict, today: str, picks: list[dict], path: str = "history.json") 
         if p.get("url")
     ]
     cutoff = (datetime.date.fromisoformat(today) - datetime.timedelta(days=HISTORY_DAYS)).isoformat()
+    if research_urls is not None:
+        research = dict(hist.get(RESEARCH_KEY) or {})
+        research[today] = list(research_urls)
+        hist[RESEARCH_KEY] = {
+            d: v for d, v in sorted(research.items()) if d >= cutoff
+        }
     hist = {d: v for d, v in hist.items() if d >= cutoff}
     with open(path, "w") as f:
         json.dump(dict(sorted(hist.items())), f, indent=2, ensure_ascii=False)
@@ -99,6 +120,14 @@ def blocked_story_keys(hist: dict, today: str) -> set[str]:
         for item in _window(hist, today, STORY_HARD_BLOCK_DAYS)
         if (key := norm_story_key(item.get("storyKey")))
     }
+
+
+def research_urls(hist: dict) -> set[str]:
+    """Every research URL previously emitted, across all retained days."""
+    out: set[str] = set()
+    for urls in (hist.get(RESEARCH_KEY) or {}).values():
+        out.update(u for u in (urls or []) if u)
+    return out
 
 
 def covered_story_keys(hist: dict, today: str) -> list[str]:
