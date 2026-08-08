@@ -36,6 +36,7 @@ SHOWS: tuple[Show, ...] = (
     # the 2026-08-07 "Why US Stocks May Grind Higher" episode lives under
     # /insights/the-markets/ and never reached the digest until this was added.
     Show("Goldman Sachs", "The Markets", 1683802600),
+    Show("Goldman Sachs", "Talks at GS", 1373320104),
     Show("J.P. Morgan", "Making Sense", 1456184829),
     Show("J.P. Morgan", "Eye on the Market", 1367963156),
 )

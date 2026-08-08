@@ -105,9 +105,10 @@ def test_malformed_payload_yields_no_items() -> None:
 
 
 def test_all_configured_shows_are_present() -> None:
-    assert len(SHOWS) == 5
+    assert len(SHOWS) == 6
     ids = {s.itunes_id for s in SHOWS}
-    assert ids == {1466686717, 948913991, 1683802600, 1456184829, 1367963156}
+    assert ids == {1466686717, 948913991, 1683802600, 1373320104,
+                   1456184829, 1367963156}
     assert {s.firm for s in SHOWS} == {"Morgan Stanley", "Goldman Sachs", "J.P. Morgan"}
 
 
@@ -115,7 +116,7 @@ def test_goldman_has_both_of_its_podcast_brands() -> None:
     """Regression: only Exchanges was configured, so the 2026-08-07 episode
     published under /insights/the-markets/ never reached the digest at all."""
     gs = {s.name for s in SHOWS if s.firm == "Goldman Sachs"}
-    assert gs == {"Exchanges", "The Markets"}
+    assert gs == {"Exchanges", "The Markets", "Talks at GS"}
 
 
 def _id_in_url(args: list[str]) -> int:
