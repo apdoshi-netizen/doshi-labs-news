@@ -288,7 +288,9 @@ def dry_run(date: str) -> None:
               % (slot.key, len(raw.get(slot.key, [])), len(filtered.get(slot.key, []))))
 
     now = datetime.datetime.now(datetime.timezone.utc)
-    research = collect_research(now, history.research_urls(hist))
+    # `exclude=date` mirrors main(): without it a dry run on a day a real run
+    # already fired shows zero research items and looks broken.
+    research = collect_research(now, history.research_urls(hist, exclude=date))
     print("\nSTREET RESEARCH (last %dh): %d item(s)" % (WINDOW_HOURS, len(research)))
     for i in research:
         print("  %s  %-16s %s" % (i.published.strftime("%Y-%m-%d %H:%M"),
