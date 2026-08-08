@@ -1,23 +1,23 @@
 {
   "date": "2026-08-08",
-  "generatedAt": "2026-08-08T04:03:55.958396+00:00",
+  "generatedAt": "2026-08-08T04:07:14.464767+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
       "title": "U.S. Lost 23,000 Jobs in July, While Unemployment Ticked Lower",
       "url": "https://www.wsj.com/economy/jobs/july-jobs-report-unemployment-0d7c08a7",
-      "summary": "U.S. employment fell by 23,000 in July while unemployment rate ticked lower, key labor data.",
+      "summary": "U.S. payrolls fell 23,000 in July while unemployment rate ticked lower, surprising markets.",
       "storyKey": "jobs+report+us",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Industry / Company / Transaction",
-      "title": "Volkswagen Backer Porsche SE Calls for Faster Overhaul After $3.5 Billion Hit",
-      "url": "https://www.wsj.com/business/earnings/volkswagen-backer-porsche-se-calls-for-faster-overhaul-after-3-5-billion-hit-78a3138a",
-      "summary": "Porsche SE, VW's top backer, urges faster restructuring after posting a $3.5 billion writedown.",
-      "storyKey": "porsche+se+vw",
+      "title": "Under Armour Lowers Revenue Outlook on Soft Demand",
+      "url": "https://www.wsj.com/business/earnings/under-armour-posts-lower-revenue-on-soft-demand-in-north-america-asia-pacific-02dd4f13",
+      "summary": "Under Armour cuts revenue outlook citing soft demand, signaling weaker sales ahead.",
+      "storyKey": "armour+under",
       "source": "WSJ"
     },
     {
@@ -25,17 +25,17 @@
       "label": "Op-Ed",
       "title": "Opinion | The Federal Reserve Status Quo vs. Kevin Warsh",
       "url": "https://www.wsj.com/opinion/fed-status-quo-vs-kevin-warsh-inflation-hawk-trump-dove-a91be5e5",
-      "summary": "Opinion piece contrasts Federal Reserve's current policy stance with Kevin Warsh's alternative approach.",
-      "storyKey": "fed+kevin+warsh",
+      "summary": "Opinion piece contrasts the Federal Reserve's current policy stance with Kevin Warsh's approach.",
+      "storyKey": "fed+warsh",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "OpenAI Pauses Some Work on New AI Model Over Cybersecurity Concerns",
-      "url": "https://www.wsj.com/tech/ai/openai-pauses-some-work-on-new-ai-model-over-cybersecurity-concerns-8473a86f?mod",
-      "summary": "OpenAI halts work on a new AI model due to cybersecurity concerns before release.",
-      "storyKey": "model+openai+pause",
+      "title": "Exclusive | Situational Awareness Bets $400 Million on Stealth Chip Startup After Crash",
+      "url": "https://www.wsj.com/tech/ai/situational-awareness-bets-400-million-on-stealth-chip-startup-after-crash-02c7374e",
+      "summary": "Situational Awareness invests $400 million in a stealth chip startup after a market crash.",
+      "storyKey": "awareness+chip+situational",
       "source": "WSJ"
     },
     {
@@ -43,7 +43,7 @@
       "label": "Sports",
       "title": "How FIFA’s $20 Billion Private-Equity Plan Nearly Broke Soccer",
       "url": "https://www.wsj.com/sports/soccer/how-fifas-20-billion-private-equity-plan-nearly-broke-soccer-d78557cf",
-      "summary": "How FIFA's $20 billion private-equity plan nearly broke soccer, per new reporting.",
+      "summary": "FIFA's $20 billion private-equity plan nearly upended global soccer governance and finances.",
       "storyKey": "equity+fifa+private",
       "source": "WSJ"
     }
