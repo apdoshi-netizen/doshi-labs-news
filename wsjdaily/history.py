@@ -94,9 +94,10 @@ def save(
         # in main(): a malformed history must not fail the run. A non-mapping
         # value here would either raise (int -> TypeError, str -> ValueError) or,
         # worse, silently corrupt further (dict(["u1", "u2"]) == {"u": "2"}).
-        # Either way generate.py would exit non-zero AFTER the WSJ picks were
-        # assembled, and the workflow's commit step -- which has no
-        # `if: always()` -- would never ship the digest already built on disk.
+        # The workflow's commit step now carries `if: always()`, so a raise here
+        # no longer costs the whole digest -- picks.json is written before this
+        # and would still ship. It would still cost a day of dedup, so the
+        # coercion stays.
         raw_research = hist.get(RESEARCH_KEY)
         research = dict(raw_research) if isinstance(raw_research, dict) else {}
         research[today] = list(research_urls)
