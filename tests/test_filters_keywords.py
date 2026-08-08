@@ -7,9 +7,27 @@ def row(title: str, age: float = 5.0) -> dict:
     return {"title": title, "ageHrs": age, "url": "https://news.google.com/x"}
 
 
-def test_op_ed_accepts_everything_since_it_has_no_keywords() -> None:
-    rows = [row("Opinion | Milton Friedman Was Right"), row("Opinion | The Everything Tax")]
-    assert apply_keyword_filter(by_key("Op-Ed"), rows) == rows
+def test_op_ed_ranks_relevant_columns_first_without_discarding_any() -> None:
+    """The relevance gate RANKS, it does not filter.
+
+    "Milton Friedman Was Right" matches no keyword but is squarely economics --
+    a hard filter would drop it. Ranking keeps it reachable behind the matches.
+    """
+    friedman = row("Opinion | Milton Friedman Was Right")
+    tax = row("Opinion | The Everything Tax")
+    filibuster = row("Opinion | America Needs the Filibuster")
+    kept = apply_keyword_filter(by_key("Op-Ed"), [friedman, filibuster, tax])
+    assert len(kept) == 3, "ranking must not discard candidates"
+    assert kept[0] is tax, "keyword-matching column ranks first"
+    assert set(id(r) for r in kept) == {id(friedman), id(filibuster), id(tax)}
+
+
+def test_op_ed_survives_the_opinion_prefix_rejection() -> None:
+    """Regression: Op-Ed now has keywords, and every Op-Ed title starts with
+    "Opinion |". Before `allow_opinion`, `reject()` keyed opinion-dropping off
+    `slot.keywords` and would have emptied the slot completely."""
+    rows = [row("Opinion | The Everything Tax"), row("Opinion | Milton Friedman Was Right")]
+    assert len(reject(by_key("Op-Ed"), rows)) == 2
 
 
 def test_tech_keeps_matching_subset_when_at_least_three_match() -> None:

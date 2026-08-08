@@ -118,8 +118,11 @@ def reject(slot: Slot, rows: list[dict]) -> list[dict]:
         title = r["title"]
         if is_noise(title):
             continue
-        # Opinion pieces belong only in the Op-Ed slot, which has no keywords.
-        if slot.keywords and title.lower().startswith("opinion"):
+        # Opinion pieces belong only in the Op-Ed slot. Keyed on an explicit
+        # flag, NOT on `slot.keywords`: Op-Ed now carries relevance keywords of
+        # its own, and every Op-Ed title starts with "Opinion |", so the old
+        # `slot.keywords` test would empty the slot entirely.
+        if not slot.allow_opinion and title.lower().startswith("opinion"):
             continue
         if slot.reject_market_wraps and is_market_wrap(title):
             continue

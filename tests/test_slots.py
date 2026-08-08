@@ -26,14 +26,33 @@ def test_market_wrap_rejection_is_macro_only() -> None:
     assert [s.key for s in SLOTS if s.reject_market_wraps] == ["Macro"]
 
 
-def test_sports_is_the_only_slot_with_keyword_fallback() -> None:
-    """Sports prefers business stories but falls back to the top headline."""
+def test_ranking_slots_are_exactly_sports_and_op_ed() -> None:
+    """Both prefer a topic but must never discard the remainder.
+
+    Sports prefers business stories and falls back to the top headline; Op-Ed
+    ranks economics/policy columns above the rest. Neither drops candidates.
+    """
     assert by_key("Sports").keyword_fallback is True
-    assert [s.key for s in SLOTS if s.keyword_fallback] == ["Sports"]
+    assert by_key("Op-Ed").keyword_fallback is True
+    assert [s.key for s in SLOTS if s.keyword_fallback] == ["Op-Ed", "Sports"]
 
 
-def test_op_ed_accepts_any_title() -> None:
-    assert by_key("Op-Ed").keywords is None
+def test_op_ed_is_the_only_slot_that_allows_opinion_titles() -> None:
+    """Every Op-Ed headline starts with "Opinion |".
+
+    This flag is what lets Op-Ed carry relevance keywords at all: `reject()`
+    used to key opinion-dropping off `slot.keywords`, so giving Op-Ed keywords
+    without this flag would empty the slot.
+    """
+    assert by_key("Op-Ed").allow_opinion is True
+    assert [s.key for s in SLOTS if s.allow_opinion] == ["Op-Ed"]
+
+
+def test_op_ed_has_relevance_keywords() -> None:
+    kw = by_key("Op-Ed").keywords
+    assert kw is not None
+    for expected in ("tariff", "econom", "market", "fed"):
+        assert expected in kw
 
 
 def test_by_key_raises_on_unknown_slot() -> None:
