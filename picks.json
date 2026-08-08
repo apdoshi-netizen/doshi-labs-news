@@ -1,23 +1,23 @@
 {
   "date": "2026-08-08",
-  "generatedAt": "2026-08-08T04:07:14.464767+00:00",
+  "generatedAt": "2026-08-08T08:58:55.325765+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
       "title": "U.S. Lost 23,000 Jobs in July, While Unemployment Ticked Lower",
       "url": "https://www.wsj.com/economy/jobs/july-jobs-report-unemployment-0d7c08a7",
-      "summary": "U.S. payrolls fell 23,000 in July while unemployment rate ticked lower, surprising markets.",
+      "summary": "US lost 23,000 jobs in July while unemployment ticked lower, key labor data print.",
       "storyKey": "jobs+report+us",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Industry / Company / Transaction",
-      "title": "Under Armour Lowers Revenue Outlook on Soft Demand",
-      "url": "https://www.wsj.com/business/earnings/under-armour-posts-lower-revenue-on-soft-demand-in-north-america-asia-pacific-02dd4f13",
-      "summary": "Under Armour cuts revenue outlook citing soft demand, signaling weaker sales ahead.",
-      "storyKey": "armour+under",
+      "title": "Shopify Signals Revenue Acceleration as AI Tools, Merchant Growth Drive Results",
+      "url": "https://www.wsj.com/business/earnings/shopify-profit-jumps-as-subscriptions-merchant-services-boost-revenues-73693ff6",
+      "summary": "Shopify signals revenue acceleration as AI tools and merchant growth drive strong results.",
+      "storyKey": "earnings+shopify",
       "source": "WSJ"
     },
     {
@@ -25,7 +25,7 @@
       "label": "Op-Ed",
       "title": "Opinion | The Federal Reserve Status Quo vs. Kevin Warsh",
       "url": "https://www.wsj.com/opinion/fed-status-quo-vs-kevin-warsh-inflation-hawk-trump-dove-a91be5e5",
-      "summary": "Opinion piece contrasts the Federal Reserve's current policy stance with Kevin Warsh's approach.",
+      "summary": "Opinion piece weighs Federal Reserve policy status quo against Kevin Warsh's approach.",
       "storyKey": "fed+warsh",
       "source": "WSJ"
     },
@@ -34,8 +34,8 @@
       "label": "Tech",
       "title": "Exclusive | Situational Awareness Bets $400 Million on Stealth Chip Startup After Crash",
       "url": "https://www.wsj.com/tech/ai/situational-awareness-bets-400-million-on-stealth-chip-startup-after-crash-02c7374e",
-      "summary": "Situational Awareness invests $400 million in a stealth chip startup after a market crash.",
-      "storyKey": "awareness+chip+situational",
+      "summary": "Situational Awareness bets $400 million on stealth chip startup after market crash.",
+      "storyKey": "awareness+chipstartup+situational",
       "source": "WSJ"
     },
     {
@@ -43,7 +43,7 @@
       "label": "Sports",
       "title": "How FIFA’s $20 Billion Private-Equity Plan Nearly Broke Soccer",
       "url": "https://www.wsj.com/sports/soccer/how-fifas-20-billion-private-equity-plan-nearly-broke-soccer-d78557cf",
-      "summary": "FIFA's $20 billion private-equity plan nearly upended global soccer governance and finances.",
+      "summary": "How FIFA's $20 billion private-equity plan nearly broke soccer, per WSJ exclusive.",
       "storyKey": "equity+fifa+private",
       "source": "WSJ"
     }
