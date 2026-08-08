@@ -122,10 +122,22 @@ def blocked_story_keys(hist: dict, today: str) -> set[str]:
     }
 
 
-def research_urls(hist: dict) -> set[str]:
-    """Every research URL previously emitted, across all retained days."""
+def research_urls(hist: dict, exclude: str | None = None) -> set[str]:
+    """Every research URL previously emitted, across all retained days.
+
+    `exclude` drops one date -- always today's -- from the result, mirroring
+    `_window`'s today-skip and for the same reason. The workflow fires two full
+    runs before the 09:00 ET send, and each run REGENERATES picks.json from
+    scratch rather than appending to it. Counting today's own entries as "seen"
+    would therefore make the later run suppress everything the earlier run
+    emitted, and the later run's picks.json is the one the mailer reads --
+    shipping an empty research section on a normal day. Cross-day dedup, the
+    case the overlapping-window rule actually exists for, is unaffected.
+    """
     out: set[str] = set()
-    for urls in (hist.get(RESEARCH_KEY) or {}).values():
+    for day, urls in (hist.get(RESEARCH_KEY) or {}).items():
+        if exclude is not None and day == exclude:
+            continue
         out.update(u for u in (urls or []) if u)
     return out
 

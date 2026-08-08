@@ -132,6 +132,34 @@ def test_research_urls_collects_across_days() -> None:
     assert research_urls(hist) == {"u1", "u2", "u3"}
 
 
+def test_research_urls_excludes_todays_own_entries() -> None:
+    """(a) The workflow runs main() twice before the 09:00 ET send and each run
+    regenerates picks.json from scratch. If today's own entries counted as
+    'seen', run 2 would suppress everything run 1 emitted -- and run 2's file is
+    the one that gets mailed."""
+    from wsjdaily.history import RESEARCH_KEY, research_urls
+
+    hist = {RESEARCH_KEY: {"2026-08-08": ["emitted-this-morning"]}}
+    assert research_urls(hist, exclude="2026-08-08") == set()
+
+
+def test_research_urls_still_suppresses_previous_days() -> None:
+    """(b) Cross-day dedup -- the case the overlapping-window rule exists for --
+    must survive the today-skip."""
+    from wsjdaily.history import RESEARCH_KEY, research_urls
+
+    hist = {RESEARCH_KEY: {"2026-08-07": ["yesterday"], "2026-08-08": ["today"]}}
+    assert research_urls(hist, exclude="2026-08-08") == {"yesterday"}
+
+
+def test_research_urls_without_exclude_keeps_every_day() -> None:
+    """The default stays non-destructive for callers that want the full set."""
+    from wsjdaily.history import RESEARCH_KEY, research_urls
+
+    hist = {RESEARCH_KEY: {"2026-08-07": ["yesterday"], "2026-08-08": ["today"]}}
+    assert research_urls(hist) == {"yesterday", "today"}
+
+
 def test_research_urls_on_a_legacy_history_is_empty() -> None:
     from wsjdaily.history import research_urls
 

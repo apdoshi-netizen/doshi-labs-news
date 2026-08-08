@@ -41,12 +41,20 @@ WINDOW_HOURS = 24            # trailing window; see the spec's timing analysis
 RESEARCH_SOURCES = (apple.fetch, jpm_web.fetch)
 
 
-def collect_research(now: datetime.datetime, seen_urls: set) -> list[Item]:
+def collect_research(now: datetime.datetime, seen_urls: set[str]) -> list[Item]:
     """Everything published in the trailing WINDOW_HOURS, newest first.
 
     No model call: the reader asked for an exhaustive listing, not a curated
     pick. Each adapter is isolated -- a failure costs its own items and never
     the run, which is the rule that keeps section 2 from breaking section 1.
+
+    That rule is total: this function must not raise for ANY input, including a
+    future adapter that returns something other than Items. Hence both the
+    isinstance filter (a bare dict would raise AttributeError on `.published`)
+    and the second try around the filter/sort stage (a duck type carrying a
+    naive datetime raises TypeError comparing it to an aware one). Neither is
+    reachable through today's two adapters; both sit on section 1's critical
+    path, so they are guarded rather than assumed.
     """
     window_start = now - datetime.timedelta(hours=WINDOW_HOURS)
     items: list[Item] = []
@@ -56,12 +64,17 @@ def collect_research(now: datetime.datetime, seen_urls: set) -> list[Item]:
         except Exception as e:                        # noqa: BLE001
             print("research: %s failed: %s" % (getattr(fetch, "__module__", "?"),
                                                str(e)[:120]), file=sys.stderr)
-    fresh = [i for i in items
-             if window_start < i.published <= now and i.url not in seen_urls]
-    return sorted(fresh, key=lambda i: i.published, reverse=True)
+    try:
+        fresh = [i for i in items
+                 if isinstance(i, Item)
+                 and window_start < i.published <= now and i.url not in seen_urls]
+        return sorted(fresh, key=lambda i: i.published, reverse=True)
+    except Exception as e:                            # noqa: BLE001
+        print("research: filtering failed: %s" % str(e)[:120], file=sys.stderr)
+        return []
 
 
-def research_payload(items: list[Item]) -> list[dict]:
+def research_payload(items: list[Item]) -> list[dict[str, str | None]]:
     """Serialise Items for picks.json."""
     return [{"firm": i.firm, "show": i.show, "title": i.title, "url": i.url,
              "published": i.published.isoformat(), "kind": i.kind,
@@ -392,11 +405,21 @@ def main():
     # without doing pointless network work. Nothing below may fail the run: an
     # empty research list is a normal Saturday, not an error.
     now = datetime.datetime.now(datetime.timezone.utc)
-    research = collect_research(now, history.research_urls(hist))
+    # `exclude=date` so the day's SECOND run does not suppress everything its
+    # first run emitted -- and the second run's picks.json is the one the 09:00
+    # ET mailer reads. Same rule the WSJ path applies via _window's today-skip.
+    # The lookup is guarded too: a malformed history must not fail the run.
+    try:
+        seen_research = history.research_urls(hist, exclude=date)
+    except Exception as e:                            # noqa: BLE001
+        print("research: history lookup failed: %s" % str(e)[:120], file=sys.stderr)
+        seen_research = set()
+    research = collect_research(now, seen_research)
     print("research: %d item(s) in the last %dh" % (len(research), WINDOW_HOURS),
           file=sys.stderr)
 
-    result = {"date": date, "generatedAt": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+    # One `now` for both the window anchor and generatedAt, so they cannot disagree.
+    result = {"date": date, "generatedAt": now.isoformat(),
               "picks": picks, "research": research_payload(research)}
     with open("picks.json", "w") as f:
         json.dump(result, f, indent=2, ensure_ascii=False)
