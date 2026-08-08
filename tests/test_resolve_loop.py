@@ -97,6 +97,9 @@ def picks(tmp_path, monkeypatch, capsys) -> dict:
     monkeypatch.setattr(generate, "resolve_one", lambda gn: RESOLVED.get(gn))
     monkeypatch.setattr(generate, "curate_with_claude",
                         lambda cands, covered: [dict(s) for s in SELECTIONS])
+    # Section 2 is wired into main() but is not what this file tests; stubbing
+    # the adapters out keeps the run hermetic (no live Apple/JPM fetches).
+    monkeypatch.setattr(generate, "RESEARCH_SOURCES", ())
 
     generate.main()
     capsys.readouterr()

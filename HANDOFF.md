@@ -1,7 +1,8 @@
 # WSJ Daily — handoff / current state
 
 A daily 9:00 AM ET email of 5 curated, direct-link WSJ articles
-(Macro / Industry-Company-Transaction / Op-Ed / Tech / Sports). **Live and running.**
+(Macro / Industry-Company-Transaction / Op-Ed / Tech / Sports) plus a Street
+Research section (Goldman Sachs / J.P. Morgan / Morgan Stanley). **Live and running.**
 
 ## Architecture (two halves)
 
@@ -26,6 +27,7 @@ Apps Script `sendDaily` → email.
 |---|---|
 | `generate.py` | The generator (runs in CI). Fetch, dedup, curate, resolve. |
 | `wsjdaily/` | Pure filter + history logic, unit-tested. |
+| `wsjdaily/sources/` | Source adapters: WSJ, Apple podcasts, JPM web. |
 | `tests/` | pytest suite for `wsjdaily/`. |
 | `.github/workflows/daily.yml` | Cron schedule + commit step. |
 | `.github/workflows/tests.yml` | CI: runs `pytest tests/` on push/PR. |
@@ -89,6 +91,16 @@ Apps Script `sendDaily` → email.
 11. **Slots resolve in `RESOLVE_ORDER`, not `CANONICAL_ORDER`.** Sports resolves
     before Industry so a sports-business deal lands in Sports. The email still
     renders in canonical order.
+12. **GS and MS podcast RSS feeds have no `<link>` element** -- only .mp3
+    enclosures -- and firm-site episode URLs cannot be built from titles (every
+    constructed slug 404s). Apple's lookup API is the only source of a stable
+    per-episode link, and it supplies clean ISO dates too.
+13. **The research window is trailing 24h, not the calendar day.** Morgan
+    Stanley publishes 16:00-17:30 ET, hours AFTER the 09:00 ET send, so a
+    same-day filter can never include the only daily publisher.
+14. **`_research` in history.json is not date-shaped and must be skipped by
+    `_window`.** "_research" > "2026-.." because "_" is 0x5F, so it passes the
+    cutoff test and would be iterated as if it were a list of picks.
 
 ## Known limitations / backlog candidates
 
@@ -113,7 +125,8 @@ gh workflow run daily.yml --repo apdoshi-netizen/wsj-daily
 # Local test (no key → heuristic curation):
 python3 generate.py
 
-# A/B the curation against one live pool without writing anything:
+# A/B the curation against one live pool without writing anything
+# (also previews the Street Research section):
 ANTHROPIC_API_KEY=sk-ant-... python3 generate.py --dry-run
 
 # Run the unit tests (no API key needed):

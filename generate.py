@@ -13,79 +13,72 @@ ANTHROPIC_API_KEY. If the Claude call fails, falls back to a keyword heuristic
 so a picks.json is always produced. `--dry-run` compares curation with filters
 on vs. off against one live pool, printing results without writing anything.
 """
-import os, sys, re, json, subprocess, urllib.parse, email.utils, datetime
-import xml.etree.ElementTree as ET
+import os, sys, json, datetime
 from zoneinfo import ZoneInfo
 
 from wsjdaily import filters, history
+from wsjdaily.http import curl
 from wsjdaily.slots import CANONICAL_ORDER, RESOLVE_ORDER, SLOTS, by_key
+from wsjdaily.sources import Item, apple, jpm_web
+from wsjdaily.sources import wsj  # noqa: F401  (documents the new home of the WSJ pipeline)
+# Re-exported so `generate.X` keeps working for existing callers and tests, and
+# so main()/dry_run() call these through module globals -- which is what makes
+# monkeypatching generate.fetch_candidates / generate.resolve_one effective.
+from wsjdaily.sources.wsj import (  # noqa: F401
+    BLOCKED_SECTIONS,
+    RAW_POOL_CAP,
+    fetch_candidates,
+    fetch_candidates_unfiltered,
+    resolve_one,
+    url_section,
+)
 
 MODEL = "claude-sonnet-5"
-UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
 MAX_RESOLVE_TRIES = 6          # more grounds for rejection than before
-BLOCKED_SECTIONS = {"pro", "podcasts"}
-RAW_POOL_CAP = 60              # pre-filter cap; filtering runs on a wide pool
 DRY_RUN_POOL_CAP = 15          # keeps both dry-run arms comparably sized
 
-
-def curl(args):
-    return subprocess.run(["curl", "-sL", "--max-time", "30", "-A", UA] + args,
-                          capture_output=True, text=True).stdout
+WINDOW_HOURS = 24            # trailing window; see the spec's timing analysis
+RESEARCH_SOURCES = (apple.fetch, jpm_web.fetch)
 
 
-def fetch_candidates_unfiltered() -> dict:
-    """Fetch and clean the candidate pool for every slot, with no filters.reject applied.
+def collect_research(now: datetime.datetime, seen_urls: set[str]) -> list[Item]:
+    """Everything published in the trailing WINDOW_HOURS, newest first.
 
-    Returns contiguously indexed rows, up to RAW_POOL_CAP per slot, so
-    filtering downstream operates on the wider pool rather than an
-    already-truncated one. The cap is deliberately far above the post-filter
-    cap of 15: truncating BEFORE filtering is a strict reduction, and it lands
-    hardest on the slots carrying the most rejection logic, which were
-    measured falling below MAX_RESOLVE_TRIES fallbacks.
+    No model call: the reader asked for an exhaustive listing, not a curated
+    pick. Each adapter is isolated -- a failure costs its own items and never
+    the run, which is the rule that keeps section 2 from breaking section 1.
+
+    That rule is total: this function must not raise for ANY input, including a
+    future adapter that returns something other than Items. Hence both the
+    isinstance filter (a bare dict would raise AttributeError on `.published`)
+    and the second try around the filter/sort stage (a duck type carrying a
+    naive datetime raises TypeError comparing it to an aware one). Neither is
+    reachable through today's two adapters; both sit on section 1's critical
+    path, so they are guarded rather than assumed.
     """
-    now = datetime.datetime.now(datetime.timezone.utc)
-    out = {}
-    for slot in SLOTS:
-        url = ("https://news.google.com/rss/search?q="
-               + urllib.parse.quote(slot.query) + "&hl=en-US&gl=US&ceid=US:en")
+    window_start = now - datetime.timedelta(hours=WINDOW_HOURS)
+    items: list[Item] = []
+    for fetch in RESEARCH_SOURCES:
         try:
-            root = ET.fromstring(curl([url]))
-        except Exception:
-            out[slot.key] = []
-            continue
-        rows, seen = [], set()
-        for it in root.find("channel").findall("item"):
-            if (it.findtext("source") or "").strip() != "WSJ":
-                continue
-            title = re.sub(r"\s*-\s*WSJ\s*$", "", (it.findtext("title") or "").strip())
-            if not title or title in seen:
-                continue
-            try:
-                dt = email.utils.parsedate_to_datetime(it.findtext("pubDate"))
-            except Exception:
-                continue
-            if (now - dt).total_seconds() > slot.max_age_hrs * 3600:
-                continue
-            seen.add(title)
-            rows.append((dt, title, it.findtext("link")))
-        rows.sort(reverse=True)
-        out[slot.key] = [
-            {"i": i, "title": t, "ageHrs": round((now - dt).total_seconds() / 3600, 1), "url": u}
-            for i, (dt, t, u) in enumerate(rows[:RAW_POOL_CAP])
-        ]
-    return out
+            items.extend(fetch(now))
+        except Exception as e:                        # noqa: BLE001
+            print("research: %s failed: %s" % (getattr(fetch, "__module__", "?"),
+                                               str(e)[:120]), file=sys.stderr)
+    try:
+        fresh = [i for i in items
+                 if isinstance(i, Item)
+                 and window_start < i.published <= now and i.url not in seen_urls]
+        return sorted(fresh, key=lambda i: i.published, reverse=True)
+    except Exception as e:                            # noqa: BLE001
+        print("research: filtering failed: %s" % str(e)[:120], file=sys.stderr)
+        return []
 
 
-def fetch_candidates() -> dict:
-    """Fetch the unfiltered candidate pool, then apply filters.reject per slot."""
-    raw = fetch_candidates_unfiltered()
-    out = {}
-    for slot in SLOTS:
-        kept = filters.reject(slot, raw.get(slot.key, []))[:15]
-        for i, c in enumerate(kept):
-            c["i"] = i
-        out[slot.key] = kept
-    return out
+def research_payload(items: list[Item]) -> list[dict[str, str | None]]:
+    """Serialise Items for picks.json."""
+    return [{"firm": i.firm, "show": i.show, "title": i.title, "url": i.url,
+             "published": i.published.isoformat(), "kind": i.kind,
+             "duration": i.duration, "summary": i.summary} for i in items]
 
 
 def curate_with_claude(cands: dict, covered: list[str]) -> list[dict]:
@@ -206,33 +199,6 @@ def heuristic(cands: dict) -> list[dict]:
     return picks
 
 
-def resolve_one(gn):
-    m = re.search(r'/articles/([^?]+)', gn)
-    if not m:
-        return None
-    aid = m.group(1)
-    page = curl(["-H", "Cookie: CONSENT=YES+", "https://news.google.com/articles/" + aid])
-    sg = (re.search(r'data-n-a-sg="([^"]+)"', page) or [None, None])[1]
-    ts = (re.search(r'data-n-a-ts="([^"]+)"', page) or [None, None])[1]
-    nid = (re.search(r'data-n-a-id="([^"]+)"', page) or [None, None])[1] or aid
-    if not (sg and ts):
-        return None
-    inner = ('["garturlreq",[["X","X",["X","X"],null,null,1,1,"US:en",null,1,null,null,null,'
-             'null,null,0,1],"X","X",1,[1,1,1],1,1,null,0,0,null,0],"%s",%s,"%s"]' % (nid, ts, sg))
-    freq = json.dumps([[["Fbv4je", inner, None, "generic"]]])
-    resp = curl(["-H", "Content-Type: application/x-www-form-urlencoded;charset=UTF-8", "-H", "Cookie: CONSENT=YES+",
-                 "--data", "f.req=" + urllib.parse.quote(freq),
-                 "https://news.google.com/_/DotsSplashUi/data/batchexecute"])
-    u = re.findall(r'https?://[^"\\]*wsj\.com[^"\\]*', resp)
-    return u[0] if u else None
-
-
-def url_section(url: str) -> str:
-    """First path segment of a wsj.com URL, e.g. 'tech' or 'pro'. '' if none."""
-    m = re.match(r"https?://(?:www\.)?wsj\.com/([^/?#]+)", url or "")
-    return m.group(1) if m else ""
-
-
 def is_claimable(url: str, story_key: str | None, blocked_keys: set, used_keys: set,
                  used_urls: set, prior_urls: set, title: str = "",
                  used_titles: set | frozenset = frozenset()) -> str:
@@ -320,6 +286,15 @@ def dry_run(date: str) -> None:
     for slot in SLOTS:
         print("pool %-34s raw=%-3d filtered=%d"
               % (slot.key, len(raw.get(slot.key, [])), len(filtered.get(slot.key, []))))
+
+    now = datetime.datetime.now(datetime.timezone.utc)
+    # `exclude=date` mirrors main(): without it a dry run on a day a real run
+    # already fired shows zero research items and looks broken.
+    research = collect_research(now, history.research_urls(hist, exclude=date))
+    print("\nSTREET RESEARCH (last %dh): %d item(s)" % (WINDOW_HOURS, len(research)))
+    for i in research:
+        print("  %s  %-16s %s" % (i.published.strftime("%Y-%m-%d %H:%M"),
+                                  i.firm[:16], i.title[:56]))
 
 
 def main():
@@ -435,10 +410,29 @@ def main():
               "picks.json in place and failing so a later run retries", file=sys.stderr)
         sys.exit(1)
 
-    result = {"date": date, "generatedAt": datetime.datetime.now(datetime.timezone.utc).isoformat(), "picks": picks}
+    # Section 2. Wired in AFTER the guard above so a blocked-runner run exits
+    # without doing pointless network work. Nothing below may fail the run: an
+    # empty research list is a normal Saturday, not an error.
+    now = datetime.datetime.now(datetime.timezone.utc)
+    # `exclude=date` so the day's SECOND run does not suppress everything its
+    # first run emitted -- and the second run's picks.json is the one the 09:00
+    # ET mailer reads. Same rule the WSJ path applies via _window's today-skip.
+    # The lookup is guarded too: a malformed history must not fail the run.
+    try:
+        seen_research = history.research_urls(hist, exclude=date)
+    except Exception as e:                            # noqa: BLE001
+        print("research: history lookup failed: %s" % str(e)[:120], file=sys.stderr)
+        seen_research = set()
+    research = collect_research(now, seen_research)
+    print("research: %d item(s) in the last %dh" % (len(research), WINDOW_HOURS),
+          file=sys.stderr)
+
+    # One `now` for both the window anchor and generatedAt, so they cannot disagree.
+    result = {"date": date, "generatedAt": now.isoformat(),
+              "picks": picks, "research": research_payload(research)}
     with open("picks.json", "w") as f:
         json.dump(result, f, indent=2, ensure_ascii=False)
-    history.save(hist, date, picks)
+    history.save(hist, date, picks, research_urls=[i.url for i in research])
     print(json.dumps(result, indent=2, ensure_ascii=False))
 
 

@@ -1,6 +1,8 @@
 """Storyline identity, coverage windows, and history persistence."""
 import json
 
+import pytest
+
 from wsjdaily.history import (
     blocked_story_keys,
     covered_story_keys,
@@ -104,3 +106,117 @@ def test_save_writes_story_key_and_prunes_beyond_21_days(tmp_path) -> None:
 
 def test_load_returns_empty_dict_when_file_is_missing(tmp_path) -> None:
     assert load(str(tmp_path / "nope.json")) == {}
+
+
+def test_non_date_keys_do_not_break_the_window() -> None:
+    """Regression: '_research' does NOT sort before the cutoff ('_' is 0x5F,
+    after the digits), so it lands inside the window. Without a date-shape
+    guard, iterating its inner dict yields strings and raises AttributeError
+    in prior_keys and blocked_story_keys -- taking down the WSJ section."""
+    from wsjdaily.history import RESEARCH_KEY, blocked_story_keys, prior_keys
+
+    hist = {
+        "2026-08-06": [{"title": "A", "url": "u", "storyKey": "a+b"}],
+        RESEARCH_KEY: {"2026-08-06": ["https://podcasts.apple.com/x"]},
+    }
+    # The premise: the key does NOT sort before a date cutoff, so it cannot be
+    # excluded by ordering alone and the guard is genuinely required.
+    assert not (RESEARCH_KEY < "2026-07-17")
+    titles, urls = prior_keys(hist, "2026-08-07")
+    assert "u" in urls
+    assert blocked_story_keys(hist, "2026-08-07") == {"a+b"}
+
+
+def test_research_urls_collects_across_days() -> None:
+    from wsjdaily.history import RESEARCH_KEY, research_urls
+
+    hist = {RESEARCH_KEY: {"2026-08-06": ["u1", "u2"], "2026-08-07": ["u2", "u3"]}}
+    assert research_urls(hist) == {"u1", "u2", "u3"}
+
+
+def test_research_urls_excludes_todays_own_entries() -> None:
+    """(a) The workflow runs main() twice before the 09:00 ET send and each run
+    regenerates picks.json from scratch. If today's own entries counted as
+    'seen', run 2 would suppress everything run 1 emitted -- and run 2's file is
+    the one that gets mailed."""
+    from wsjdaily.history import RESEARCH_KEY, research_urls
+
+    hist = {RESEARCH_KEY: {"2026-08-08": ["emitted-this-morning"]}}
+    assert research_urls(hist, exclude="2026-08-08") == set()
+
+
+def test_research_urls_still_suppresses_previous_days() -> None:
+    """(b) Cross-day dedup -- the case the overlapping-window rule exists for --
+    must survive the today-skip."""
+    from wsjdaily.history import RESEARCH_KEY, research_urls
+
+    hist = {RESEARCH_KEY: {"2026-08-07": ["yesterday"], "2026-08-08": ["today"]}}
+    assert research_urls(hist, exclude="2026-08-08") == {"yesterday"}
+
+
+def test_research_urls_without_exclude_keeps_every_day() -> None:
+    """The default stays non-destructive for callers that want the full set."""
+    from wsjdaily.history import RESEARCH_KEY, research_urls
+
+    hist = {RESEARCH_KEY: {"2026-08-07": ["yesterday"], "2026-08-08": ["today"]}}
+    assert research_urls(hist) == {"yesterday", "today"}
+
+
+def test_research_urls_on_a_legacy_history_is_empty() -> None:
+    from wsjdaily.history import research_urls
+
+    assert research_urls({"2026-08-06": [{"title": "A", "url": "u"}]}) == set()
+
+
+def test_save_records_research_urls_and_prunes_them(tmp_path) -> None:
+    import json
+
+    from wsjdaily.history import RESEARCH_KEY, save
+
+    path = str(tmp_path / "history.json")
+    hist = {RESEARCH_KEY: {"2026-01-01": ["ancient"]}}
+    save(hist, "2026-08-07", [], path, research_urls=["https://podcasts.apple.com/new"])
+    written = json.loads(open(path).read())
+    assert written[RESEARCH_KEY] == {"2026-08-07": ["https://podcasts.apple.com/new"]}
+    assert "2026-01-01" not in written[RESEARCH_KEY], "pruned on the same 21-day cutoff"
+
+
+@pytest.mark.parametrize(
+    "corrupt",
+    [["u1", "u2"], "not-a-dict", 7],
+    ids=["list", "string", "int"],
+)
+def test_save_survives_a_corrupt_research_key(tmp_path, corrupt) -> None:
+    """A malformed `_research` must not fail the run.
+
+    The READ side is already wrapped in try/except by main(); the WRITE side had
+    no equivalent. An int raised TypeError and a string raised ValueError, either
+    of which exits generate.py non-zero AFTER the WSJ picks are assembled -- and
+    the workflow's commit step has no `if: always()`, so an already-good digest
+    would never ship. A LIST was worse: dict(["u1", "u2"]) == {"u": "2"} raised
+    nothing and wrote the corruption back.
+    """
+    import json
+
+    from wsjdaily.history import RESEARCH_KEY, save
+
+    path = str(tmp_path / "history.json")
+    save(
+        {RESEARCH_KEY: corrupt},
+        "2026-08-07",
+        [],
+        path,
+        research_urls=["https://www.jpmorgan.com/a"],
+    )
+    written = json.loads(open(path).read())
+    assert written[RESEARCH_KEY] == {"2026-08-07": ["https://www.jpmorgan.com/a"]}
+
+
+def test_save_without_research_leaves_the_key_absent(tmp_path) -> None:
+    import json
+
+    from wsjdaily.history import RESEARCH_KEY, save
+
+    path = str(tmp_path / "history.json")
+    save({}, "2026-08-07", [{"title": "T", "url": "https://wsj.com/a", "storyKey": None}], path)
+    assert RESEARCH_KEY not in json.loads(open(path).read())
