@@ -1,29 +1,29 @@
 {
   "date": "2026-08-07",
-  "generatedAt": "2026-08-07T11:05:55.013278+00:00",
+  "generatedAt": "2026-08-08T00:29:25.699167+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Exclusive | Trump Has Called Warsh Repeatedly Since He Became Fed Chair",
-      "url": "https://www.wsj.com/politics/policy/trump-has-called-warsh-repeatedly-since-he-became-fed-chair-32804cf7",
-      "summary": "Trump has repeatedly called Kevin Warsh since becoming Fed chair, signaling potential shift in Fed leadership dynamics.",
+      "title": "Markets Rally on Surprise U.S. Job Losses, Airbnb Soars and Trade Desk Tanks | Markets P.M. for Aug. 7",
+      "url": "https://www.wsj.com/finance/stocks/markets-rally-on-surprise-u-s-job-losses-83ecb5e4",
+      "summary": "Markets rallied after surprise US job losses reduced rate-hike odds; Airbnb surged, Trade Desk tanked in broad market reaction.",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Industry / Company / Transaction",
-      "title": "Apollo to Buy European Budget Airline easyJet for $7.7 Billion",
-      "url": "https://www.wsj.com/business/deals/budget-carrier-easyjet-agrees-to-7-68-billion-takeover-by-apollo-fbe3f046",
-      "summary": "Apollo agrees to buy European budget airline easyJet in a $7.7 billion deal.",
+      "title": "Dream Finders to Buy Beazer for $915 Million",
+      "url": "https://www.wsj.com/business/deals/dream-finders-to-buy-beazer-for-915-million-d808be05",
+      "summary": "Dream Finders agrees to acquire homebuilder Beazer Homes in a deal valued at $915 million.",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Socialism Is Here—and It’s Serious",
-      "url": "https://www.wsj.com/opinion/socialism-is-hereand-its-serious-2b3fc422",
-      "summary": "Opinion piece argues socialism has arrived in America and warns it should be taken seriously as a political-economic threat.",
+      "title": "Opinion | America’s Low-Hire, Low-Fire Labor Market",
+      "url": "https://www.wsj.com/opinion/america-low-hire-fire-labor-market-jobs-unemployment-trump-05b33adf",
+      "summary": "Opinion piece examines America's unusual \"low-hire, low-fire\" labor market dynamics amid economic policy debates.",
       "source": "WSJ"
     },
     {
@@ -31,7 +31,7 @@
       "label": "Tech",
       "title": "SK Hynix to Invest $38 Billion on Expansion of Chip Production Capacity",
       "url": "https://www.wsj.com/tech/sk-hynix-to-invest-38-billion-on-expansion-of-chip-production-capacity-ea18ecd4",
-      "summary": "SK Hynix will invest $38 billion to expand chip production capacity amid surging AI-driven demand.",
+      "summary": "SK Hynix commits $38 billion to expand chip production capacity, signaling major semiconductor industry investment.",
       "source": "WSJ"
     }
   ]
