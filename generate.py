@@ -410,7 +410,8 @@ def main():
 
         if not picked:
             print("FAIL " + slot_key + ": no usable candidate", file=sys.stderr)
-            picks_by_slot[slot_key] = {"slot": slot_key, "label": slot_key, "title": "",
+            picks_by_slot[slot_key] = {"slot": slot_key, "label": by_key(slot_key).label,
+                                       "title": "",
                                        "url": "", "summary": "No WSJ pick today.",
                                        "storyKey": None, "source": "WSJ"}
             continue
@@ -426,7 +427,8 @@ def main():
             used_story_keys.add(story_key)
         summary = (sel.get("summary") or "")[:200] if is_model_pick else ""
         print("OK   " + slot_key + ": " + cand["title"][:55], file=sys.stderr)
-        picks_by_slot[slot_key] = {"slot": slot_key, "label": slot_key, "title": cand["title"],
+        picks_by_slot[slot_key] = {"slot": slot_key, "label": by_key(slot_key).label,
+                                   "title": cand["title"],
                                    "url": direct, "summary": summary,
                                    "storyKey": story_key, "source": "WSJ"}
 

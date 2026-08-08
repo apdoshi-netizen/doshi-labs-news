@@ -9,12 +9,22 @@ from dataclasses import dataclass
 class Slot:
     """One section of the daily email."""
 
-    key: str                            # canonical name; also the email label
+    key: str                            # canonical name; the model's slot name
     query: str                          # Google News RSS search query
     max_age_hrs: int                    # hard cutoff for candidate age
     keywords: tuple[str, ...] | None    # title filter; None accepts anything
     reject_market_wraps: bool = False   # drop daily price-move wire copy
     keyword_fallback: bool = False      # rank matches first, keep the rest
+    # What the EMAIL shows. Kept separate from `key` on purpose: `key` is the
+    # name the model must echo back, the dedup history is written against it,
+    # and RESOLVE_ORDER/CANONICAL_ORDER are built from it. Renaming a heading
+    # should not ripple into any of that. Defaults to `key`.
+    display: str | None = None
+
+    @property
+    def label(self) -> str:
+        """Heading shown in the email."""
+        return self.display or self.key
     allow_opinion: bool = False         # keep "Opinion | ..." titles
 
 
@@ -84,6 +94,7 @@ SLOTS: tuple[Slot, ...] = (
         ),
         max_age_hrs=72,
         keywords=INDUSTRY_KEYWORDS,
+        display="Micro",   # email heading; `key` stays the model-facing name
     ),
     Slot(
         key="Op-Ed",

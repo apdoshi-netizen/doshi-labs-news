@@ -96,12 +96,16 @@ function buildEmail(data) {
   var researchBody = research ||
     '<p style="margin:0;color:#888;">No GS/JPM/MS publications today.</p>';
 
+  // Both section headings share one style. The WSJ one omits the top rule and
+  // the top margin, since nothing sits above it.
+  var HEAD = 'font-size:15px;text-transform:uppercase;letter-spacing:.05em;color:#444;';
+
   var htmlBody =
     '<div style="font-family:Arial,Helvetica,sans-serif;font-size:16px;color:#111;line-height:1.4;">' +
+      '<h3 style="' + HEAD + 'margin:0 0 14px 0;">Wall Street Journal</h3>' +
       rows +
-      '<h3 style="font-size:15px;text-transform:uppercase;letter-spacing:.05em;' +
-        'color:#444;border-top:1px solid #ddd;padding-top:16px;margin:28px 0 14px 0;">' +
-        'Street Research</h3>' +
+      '<h3 style="' + HEAD + 'border-top:1px solid #ddd;padding-top:16px;' +
+        'margin:28px 0 14px 0;">Podcasts</h3>' +
       researchBody +
     '</div>';
 
@@ -110,11 +114,11 @@ function buildEmail(data) {
     return meta + '\n' + r.title + ' — ' + r.url + (r.summary ? '\n' + r.summary : '');
   }).join('\n\n') || 'No GS/JPM/MS publications today.';
 
-  var textBody = data.picks.map(function (p) {
+  var textBody = 'WALL STREET JOURNAL\n\n' + data.picks.map(function (p) {
     var line = p.label + ': ' + (p.url ? p.title + ' — ' + p.url : 'No WSJ pick today.');
     if (p.summary && p.url) line += '\n' + p.summary;
     return line;
-  }).join('\n\n') + '\n\nSTREET RESEARCH\n\n' + researchText;
+  }).join('\n\n') + '\n\nPODCASTS\n\n' + researchText;
 
   return { subject: subject, htmlBody: htmlBody, textBody: textBody };
 }
