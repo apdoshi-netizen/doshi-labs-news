@@ -1,6 +1,6 @@
 {
   "date": "2026-08-08",
-  "generatedAt": "2026-08-08T15:05:02.466692+00:00",
+  "generatedAt": "2026-08-08T15:22:54.032714+00:00",
   "picks": [
     {
       "slot": "Macro",
@@ -14,10 +14,10 @@
     {
       "slot": "Industry / Company / Transaction",
       "label": "Industry / Company / Transaction",
-      "title": "Singapore Billionaire Sues Brookfield for Allegedly Aborting Planned Real-Estate Joint Venture",
-      "url": "https://www.wsj.com/business/deals/singapore-billionaire-sues-brookfield-for-allegedly-aborting-planned-real-estate-joint-venture-51066f8c",
-      "summary": "Singapore billionaire sues Brookfield alleging it improperly aborted a planned real-estate joint venture.",
-      "storyKey": "brookfield+lawsuit",
+      "title": "Under Armour Lowers Revenue Outlook on Soft Demand",
+      "url": "https://www.wsj.com/business/earnings/under-armour-posts-lower-revenue-on-soft-demand-in-north-america-asia-pacific-02dd4f13",
+      "summary": "Under Armour lowers revenue outlook citing soft demand, a material earnings guidance cut.",
+      "storyKey": "armour+earnings+under",
       "source": "WSJ"
     },
     {
@@ -25,17 +25,17 @@
       "label": "Op-Ed",
       "title": "Opinion | The Federal Reserve Status Quo vs. Kevin Warsh",
       "url": "https://www.wsj.com/opinion/fed-status-quo-vs-kevin-warsh-inflation-hawk-trump-dove-a91be5e5",
-      "summary": "Opinion piece contrasts Federal Reserve policy status quo against Kevin Warsh's potential approach.",
+      "summary": "Op-ed compares Federal Reserve status quo against Kevin Warsh's potential leadership approach.",
       "storyKey": "fed+warsh",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Exclusive | Situational Awareness Bets $400 Million on Stealth Chip Startup After Crash",
-      "url": "https://www.wsj.com/tech/ai/situational-awareness-bets-400-million-on-stealth-chip-startup-after-crash-02c7374e",
-      "summary": "Situational Awareness invests $400 million in a stealth chip startup after a market crash.",
-      "storyKey": "awareness+chip+situational",
+      "title": "OpenAI Pauses Some Work on New AI Model Over Cybersecurity Concerns",
+      "url": "https://www.wsj.com/tech/ai/openai-pauses-some-work-on-new-ai-model-over-cybersecurity-concerns-8473a86f?mod",
+      "summary": "OpenAI pauses work on a new AI model over cybersecurity concerns.",
+      "storyKey": "model+openai+pause",
       "source": "WSJ"
     },
     {
@@ -43,7 +43,7 @@
       "label": "Sports",
       "title": "How FIFA’s $20 Billion Private-Equity Plan Nearly Broke Soccer",
       "url": "https://www.wsj.com/sports/soccer/how-fifas-20-billion-private-equity-plan-nearly-broke-soccer-d78557cf",
-      "summary": "FIFA's $20 billion private-equity plan nearly broke soccer, exposing governance and financial strains.",
+      "summary": "FIFA's $20 billion private-equity plan nearly broke soccer, per exclusive report.",
       "storyKey": "equity+fifa+private",
       "source": "WSJ"
     }
@@ -68,76 +68,6 @@
       "kind": "podcast",
       "duration": "11 min",
       "summary": "What should we make of a weak payroll print alongside a lower unemployment rate? In this episode of Making Sense, Lauren Brice from the North America Rates Sales team sits down with Mike Feroli, Chief U.S. Economist at J.P. Morgan, to unpac"
-    },
-    {
-      "firm": "Goldman Sachs",
-      "show": "Exchanges",
-      "title": "Steven Tananbaum: The Evolution of Credit Investing and AI Opportunities",
-      "url": "https://podcasts.apple.com/us/podcast/steven-tananbaum-the-evolution-of-credit-investing/id948913991?i=1000780386141&uo=4",
-      "published": "2026-08-07T04:00:00+00:00",
-      "kind": "podcast",
-      "duration": "29 min",
-      "summary": "Goldman Sachs President John Waldron speaks with Steven Tananbaum, CIO of GoldenTree Asset Management, about how GoldenTree became a credit-focused asset manager overseeing $70 billion. They discuss how credit markets have evolved during Ta"
-    },
-    {
-      "firm": "Goldman Sachs",
-      "show": "The Markets",
-      "title": "Why US Stocks May ‘Grind Higher’",
-      "url": "https://podcasts.apple.com/us/podcast/why-us-stocks-may-grind-higher/id1683802600?i=1000780384831&uo=4",
-      "published": "2026-08-07T04:00:00+00:00",
-      "kind": "podcast",
-      "duration": "8 min",
-      "summary": "Ashok Varadhan, co-head of Global Banking & Markets at Goldman Sachs, shares his outlook on assets from credit and stocks to oil. This episode also covers recent moves in AI-led stocks and currency markets, and why Varadhan does not expect "
-    },
-    {
-      "firm": "J.P. Morgan",
-      "show": null,
-      "title": "AI’s Next Act Doesn’t Have To Choose",
-      "url": "https://www.jpmorgan.com/insights/markets-and-economy/top-market-takeaways/tmt-ais-next-act-doesnt-have-to-choose",
-      "published": "2026-08-06T18:51:39.480000-04:00",
-      "kind": "article",
-      "duration": null,
-      "summary": "A rare shift is underway as semiconductor and hyperscaler stocks rally together, reflecting a broadening belief in AI’s commercial viability and multiyear growth prospects."
-    },
-    {
-      "firm": "Morgan Stanley",
-      "show": "Thoughts on the Market",
-      "title": "Why Brick and Mortar Banking Still Matters",
-      "url": "https://podcasts.apple.com/us/podcast/why-brick-and-mortar-banking-still-matters/id1466686717?i=1000780307953&uo=4",
-      "published": "2026-08-06T20:00:00+00:00",
-      "kind": "podcast",
-      "duration": "4 min",
-      "summary": "America’s biggest banks are opening more local branches. Our Head of U.S. Large Cap and Mid Cap Banks Research Manan Gosalia looks at the merits of physical locations.\nRead more insights from Morgan Stanley.\n\n----- Transcript -----\n\nManan G"
-    },
-    {
-      "firm": "Goldman Sachs",
-      "show": "Exchanges",
-      "title": "How AI Debt Is Reshaping Credit Markets",
-      "url": "https://podcasts.apple.com/us/podcast/how-ai-debt-is-reshaping-credit-markets/id948913991?i=1000780123273&uo=4",
-      "published": "2026-08-05T20:40:00+00:00",
-      "kind": "podcast",
-      "duration": "25 min",
-      "summary": "Credit markets are playing a growing role in the buildout of artificial intelligence, with nearly $500 billion of AI-related debt issuance so far in 2026, according to estimates from Goldman Sachs Research. Amanda Lynam, head of credit stra"
-    },
-    {
-      "firm": "Morgan Stanley",
-      "show": "Thoughts on the Market",
-      "title": "How Long Can the Fed Hold On?",
-      "url": "https://podcasts.apple.com/us/podcast/how-long-can-the-fed-hold-on/id1466686717?i=1000780117024&uo=4",
-      "published": "2026-08-05T20:00:00+00:00",
-      "kind": "podcast",
-      "duration": "4 min",
-      "summary": "From short-term interest rates to long-term bond yields, the Fed's credibility is being tested. Global Head of Fixed Income Research Andrew Sheets discussed inflation, Federal Reserve Chair Kevin Warsh's outlook, and the options ahead.\nRead"
-    },
-    {
-      "firm": "J.P. Morgan",
-      "show": null,
-      "title": "Will the Fed Hike Rates in September? A 25-Basis-Point Move Is Now Expected: Why July’s Hold Has ‘Lowered the Bar’",
-      "url": "https://www.jpmorgan.com/insights/markets-and-economy/economy/september-2026-rate-hike-now-expected-amid-energy-shocks",
-      "published": "2026-08-05T11:19:09.671000-04:00",
-      "kind": "article",
-      "duration": null,
-      "summary": "A 0.25-percentage-point hike is now expected at the September Fed meeting as Iran-related supply shocks keep energy costs high and markets question the Fed’s inflation credibility."
     }
   ]
 }

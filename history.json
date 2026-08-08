@@ -366,9 +366,9 @@
       "storyKey": "jobs+report+us"
     },
     {
-      "title": "Singapore Billionaire Sues Brookfield for Allegedly Aborting Planned Real-Estate Joint Venture",
-      "url": "https://www.wsj.com/business/deals/singapore-billionaire-sues-brookfield-for-allegedly-aborting-planned-real-estate-joint-venture-51066f8c",
-      "storyKey": "brookfield+lawsuit"
+      "title": "Under Armour Lowers Revenue Outlook on Soft Demand",
+      "url": "https://www.wsj.com/business/earnings/under-armour-posts-lower-revenue-on-soft-demand-in-north-america-asia-pacific-02dd4f13",
+      "storyKey": "armour+earnings+under"
     },
     {
       "title": "Opinion | The Federal Reserve Status Quo vs. Kevin Warsh",
@@ -376,9 +376,9 @@
       "storyKey": "fed+warsh"
     },
     {
-      "title": "Exclusive | Situational Awareness Bets $400 Million on Stealth Chip Startup After Crash",
-      "url": "https://www.wsj.com/tech/ai/situational-awareness-bets-400-million-on-stealth-chip-startup-after-crash-02c7374e",
-      "storyKey": "awareness+chip+situational"
+      "title": "OpenAI Pauses Some Work on New AI Model Over Cybersecurity Concerns",
+      "url": "https://www.wsj.com/tech/ai/openai-pauses-some-work-on-new-ai-model-over-cybersecurity-concerns-8473a86f?mod",
+      "storyKey": "model+openai+pause"
     },
     {
       "title": "How FIFA’s $20 Billion Private-Equity Plan Nearly Broke Soccer",
@@ -389,14 +389,7 @@
   "_research": {
     "2026-08-08": [
       "https://podcasts.apple.com/us/podcast/ais-new-rules-of-engagement/id1466686717?i=1000780942420&uo=4",
-      "https://podcasts.apple.com/us/podcast/july-jobs-report-how-a-big-headline-miss-may-be/id1456184829?i=1000780933043&uo=4",
-      "https://podcasts.apple.com/us/podcast/steven-tananbaum-the-evolution-of-credit-investing/id948913991?i=1000780386141&uo=4",
-      "https://podcasts.apple.com/us/podcast/why-us-stocks-may-grind-higher/id1683802600?i=1000780384831&uo=4",
-      "https://www.jpmorgan.com/insights/markets-and-economy/top-market-takeaways/tmt-ais-next-act-doesnt-have-to-choose",
-      "https://podcasts.apple.com/us/podcast/why-brick-and-mortar-banking-still-matters/id1466686717?i=1000780307953&uo=4",
-      "https://podcasts.apple.com/us/podcast/how-ai-debt-is-reshaping-credit-markets/id948913991?i=1000780123273&uo=4",
-      "https://podcasts.apple.com/us/podcast/how-long-can-the-fed-hold-on/id1466686717?i=1000780117024&uo=4",
-      "https://www.jpmorgan.com/insights/markets-and-economy/economy/september-2026-rate-hike-now-expected-amid-energy-shocks"
+      "https://podcasts.apple.com/us/podcast/july-jobs-report-how-a-big-headline-miss-may-be/id1456184829?i=1000780933043&uo=4"
     ]
   }
 }
