@@ -226,26 +226,28 @@ def test_multiple_items_from_one_firm_and_one_show_all_survive(monkeypatch) -> N
     assert [i.title for i in got] == ["gs-markets", "gs-exchanges-a", "gs-exchanges-b"]
 
 
-def test_items_just_outside_the_window_are_dropped_the_accepted_tradeoff() -> None:
-    """Documents a known, operator-accepted risk rather than asserting a value.
+def test_the_lookback_carries_a_margin_over_its_intended_coverage() -> None:
+    """The window is anchored to generation time, so it needs slack.
 
-    WINDOW_HOURS is measured back from generation time, so it carries no margin
-    for the scheduler's 45-110 min drift. When a run lands later than the
-    previous day's it opens a gap of exactly that drift, and an item published
-    inside the gap is NOT deferred to a later day -- it is lost permanently,
-    because dedup only suppresses repeats and the window never reaches back.
+    Intended coverage is one day. The extra hours absorb GitHub's scheduler
+    drift (observed 45-110 min): at exactly 24h, a run landing later than the
+    previous day's opens a gap of that size, and an item published inside it is
+    lost permanently rather than deferred -- dedup only suppresses repeats, and
+    the window never reaches back. Goldman's Tananbaum episode was missed by
+    seven minutes exactly this way.
 
-    This happened: Goldman's Tananbaum episode published 04:00 UTC, the next run
-    began 04:07 UTC, and it fell 7 minutes outside. The lookback was widened to
-    72h, then reverted to 24h by operator preference for current-only content.
-
-    Raising WINDOW_HOURS to 26 would keep that property and close the gap. This
-    test asserts the CURRENT behaviour so the trade-off stays visible in the
-    suite instead of living only in a commit message.
+    Asserted as a property, not a literal, so tuning the value does not break
+    the test while dropping below a safe margin does.
     """
-    assert generate.WINDOW_HOURS == 24, (
-        "if this changes, revisit the drift-gap trade-off documented here"
+    INTENDED_COVERAGE_H = 24
+    WORST_OBSERVED_DRIFT_H = 110 / 60
+    margin = generate.WINDOW_HOURS - INTENDED_COVERAGE_H
+    assert margin >= WORST_OBSERVED_DRIFT_H, (
+        "WINDOW_HOURS=%s leaves only %.2fh of margin; the scheduler has drifted "
+        "%.2fh, which would silently drop anything published in the gap"
+        % (generate.WINDOW_HOURS, margin, WORST_OBSERVED_DRIFT_H)
     )
+    assert generate.WINDOW_HOURS <= 36, "margin should not become a second day"
 
 
 def test_the_lookback_still_has_an_edge(monkeypatch) -> None:

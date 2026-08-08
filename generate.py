@@ -39,19 +39,20 @@ DRY_RUN_POOL_CAP = 15          # keeps both dry-run arms comparably sized
 
 # Lookback for the research section, measured back from generation time.
 #
-# Set to 24 by operator preference: the section should carry current content,
-# and across a normal week the same items arrive either way, just on the day
-# they were published rather than up to three days later.
+# 26 = 24h of intended coverage plus a 2h safety margin. The section is meant to
+# carry current content, so the coverage itself is one day; the margin exists
+# because the lookback is anchored to generation time and GitHub's scheduler
+# drifts 45-110 min. At exactly 24h, a run landing later than the previous day's
+# opens a gap of precisely that drift, and an item published inside the gap is
+# not deferred to tomorrow -- it is lost permanently, because dedup only
+# suppresses repeats and the window never reaches back for it.
 #
-# KNOWN TRADE-OFF, since this was widened to 72 for a reason and then reverted.
-# A lookback of exactly 24h has no margin for the scheduler's 45-110 min drift.
-# When a run lands later than the previous day's, it opens a gap of exactly that
-# drift, and anything published inside the gap is not deferred -- it is lost
-# permanently, because dedup only prevents repeats and the window never reaches
-# back. Observed live: Goldman's Tananbaum episode published 04:00 UTC, the next
-# run began 04:07 UTC, and it fell 7 minutes outside. Raising this to 26 would
-# keep the "current content" property while absorbing the drift.
-WINDOW_HOURS = 24
+# That is not hypothetical: Goldman's Tananbaum episode published at 04:00 UTC,
+# the next run began 04:07 UTC, and it fell 7 minutes outside a 24h window.
+# 2h comfortably exceeds the observed 110-minute worst case. Items surfacing up
+# to 2h "late" are still same-day reading; the repeat risk is nil because
+# `seen_urls` guarantees each URL is emitted at most once.
+WINDOW_HOURS = 26
 
 # Render order for the research section: Goldman, then Morgan Stanley, then
 # J.P. Morgan; newest first within each firm. Operator preference -- a stable
