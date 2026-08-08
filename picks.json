@@ -1,23 +1,23 @@
 {
   "date": "2026-08-08",
-  "generatedAt": "2026-08-08T15:36:04.974725+00:00",
+  "generatedAt": "2026-08-08T15:45:09.668349+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "U.S. Lost 23,000 Jobs in July, While Unemployment Ticked Lower",
-      "url": "https://www.wsj.com/economy/jobs/july-jobs-report-unemployment-0d7c08a7",
-      "summary": "U.S. lost 23,000 jobs in July while unemployment ticked lower, signaling labor market cooling.",
-      "storyKey": "jobs+report+us",
+      "title": "Trump to Impose 15% Tariff, Set Minimum Prices on Solar Panels and Components",
+      "url": "https://www.wsj.com/economy/trade/trump-to-impose-15-tariff-set-minimum-prices-on-solar-panels-and-components-dd7cd9d9",
+      "summary": "Trump to impose 15% tariff and set minimum prices on solar panels and components.",
+      "storyKey": "solar+tariff+trump",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Under Armour Lowers Revenue Outlook on Soft Demand",
-      "url": "https://www.wsj.com/business/earnings/under-armour-posts-lower-revenue-on-soft-demand-in-north-america-asia-pacific-02dd4f13",
-      "summary": "Under Armour cuts revenue outlook citing soft demand, a material earnings guidance change.",
-      "storyKey": "armour+outlook+under",
+      "title": "Singapore Billionaire Sues Brookfield for Allegedly Aborting Planned Real-Estate Joint Venture",
+      "url": "https://www.wsj.com/business/deals/singapore-billionaire-sues-brookfield-for-allegedly-aborting-planned-real-estate-joint-venture-51066f8c",
+      "summary": "Singapore billionaire sues Brookfield over allegedly aborted real-estate joint venture.",
+      "storyKey": "brookfield+lawsuit",
       "source": "WSJ"
     },
     {
@@ -25,7 +25,7 @@
       "label": "Op-Ed",
       "title": "Opinion | The Federal Reserve Status Quo vs. Kevin Warsh",
       "url": "https://www.wsj.com/opinion/fed-status-quo-vs-kevin-warsh-inflation-hawk-trump-dove-a91be5e5",
-      "summary": "Opinion piece contrasts Federal Reserve status quo policy with Kevin Warsh's alternative approach.",
+      "summary": "Op-ed weighs Federal Reserve status quo against Kevin Warsh's potential leadership.",
       "storyKey": "fed+warsh",
       "source": "WSJ"
     },
@@ -34,7 +34,7 @@
       "label": "Tech",
       "title": "OpenAI Pauses Some Work on New AI Model Over Cybersecurity Concerns",
       "url": "https://www.wsj.com/tech/ai/openai-pauses-some-work-on-new-ai-model-over-cybersecurity-concerns-8473a86f?mod",
-      "summary": "OpenAI pauses development on new AI model due to cybersecurity concerns.",
+      "summary": "OpenAI pauses work on new AI model due to cybersecurity concerns.",
       "storyKey": "model+openai+pause",
       "source": "WSJ"
     },
@@ -43,7 +43,7 @@
       "label": "Sports",
       "title": "How FIFA’s $20 Billion Private-Equity Plan Nearly Broke Soccer",
       "url": "https://www.wsj.com/sports/soccer/how-fifas-20-billion-private-equity-plan-nearly-broke-soccer-d78557cf",
-      "summary": "FIFA's $20 billion private-equity plan nearly broke soccer, per report on financial fallout.",
+      "summary": "How FIFA's $20 billion private-equity plan nearly broke soccer.",
       "storyKey": "equity+fifa+private",
       "source": "WSJ"
     }
@@ -57,7 +57,7 @@
       "published": "2026-08-07T20:00:00+00:00",
       "kind": "podcast",
       "duration": "5 min",
-      "summary": "Our Head of U.S. Public Policy Research Ariana Salvatore explains how U.S.-China tensions, export controls and domestic regulation are reshaping where AI is built, who controls it and what investors should watch.\nRead more insights from Mor"
+      "summary": "Our Head of U.S. Public Policy Research Ariana Salvatore explains how U.S.-China tensions, export controls and domestic regulation are reshaping where AI is built, who controls it and what investors should watch. Read more insights from Morgan Stanley."
     },
     {
       "firm": "J.P. Morgan",
@@ -67,7 +67,7 @@
       "published": "2026-08-07T18:43:17+00:00",
       "kind": "podcast",
       "duration": "11 min",
-      "summary": "What should we make of a weak payroll print alongside a lower unemployment rate? In this episode of Making Sense, Lauren Brice from the North America Rates Sales team sits down with Mike Feroli, Chief U.S. Economist at J.P. Morgan, to unpac"
+      "summary": "What should we make of a weak payroll print alongside a lower unemployment rate? In this episode of Making Sense, Lauren Brice from the North America Rates Sales team sits down with Mike Feroli, Chief U.S. Economist at J.P. Morgan, to unpack the July jobs report and what it implies for U.S. growth momentum in 2026. They discuss why the headline miss may overstate weakness, what steady-but-low private hiring says about layoffs and labor market “dynamism” and how participation and wage growth are shifting the inflation outlook. The conversation also covers sector signals like leisure and hospitality, the latest read-through from JOLTS, where (if anywhere) AI is showing up in the hard data and what upcoming CPI reports could mean for the next Fed move."
     }
   ]
 }
