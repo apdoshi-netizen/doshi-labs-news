@@ -358,5 +358,38 @@
       "title": "SK Hynix to Invest $38 Billion on Expansion of Chip Production Capacity",
       "url": "https://www.wsj.com/tech/sk-hynix-to-invest-38-billion-on-expansion-of-chip-production-capacity-ea18ecd4"
     }
-  ]
+  ],
+  "2026-08-08": [
+    {
+      "title": "U.S. Lost 23,000 Jobs in July, While Unemployment Ticked Lower",
+      "url": "https://www.wsj.com/economy/jobs/july-jobs-report-unemployment-0d7c08a7",
+      "storyKey": "jobs+report+us"
+    },
+    {
+      "title": "Volkswagen Backer Porsche SE Calls for Faster Overhaul After $3.5 Billion Hit",
+      "url": "https://www.wsj.com/business/earnings/volkswagen-backer-porsche-se-calls-for-faster-overhaul-after-3-5-billion-hit-78a3138a",
+      "storyKey": "porsche+se+vw"
+    },
+    {
+      "title": "Opinion | The Federal Reserve Status Quo vs. Kevin Warsh",
+      "url": "https://www.wsj.com/opinion/fed-status-quo-vs-kevin-warsh-inflation-hawk-trump-dove-a91be5e5",
+      "storyKey": "fed+kevin+warsh"
+    },
+    {
+      "title": "OpenAI Pauses Some Work on New AI Model Over Cybersecurity Concerns",
+      "url": "https://www.wsj.com/tech/ai/openai-pauses-some-work-on-new-ai-model-over-cybersecurity-concerns-8473a86f?mod",
+      "storyKey": "model+openai+pause"
+    },
+    {
+      "title": "How FIFA’s $20 Billion Private-Equity Plan Nearly Broke Soccer",
+      "url": "https://www.wsj.com/sports/soccer/how-fifas-20-billion-private-equity-plan-nearly-broke-soccer-d78557cf",
+      "storyKey": "equity+fifa+private"
+    }
+  ],
+  "_research": {
+    "2026-08-08": [
+      "https://podcasts.apple.com/us/podcast/ais-new-rules-of-engagement/id1466686717?i=1000780942420&uo=4",
+      "https://podcasts.apple.com/us/podcast/july-jobs-report-how-a-big-headline-miss-may-be/id1456184829?i=1000780933043&uo=4"
+    ]
+  }
 }
