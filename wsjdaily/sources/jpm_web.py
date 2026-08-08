@@ -25,14 +25,16 @@ _LINK = re.compile(r'href="(/insights/markets-and-economy/[^"#?]+)"')
 _DATE = re.compile(r'<meta[^>]+name="publishDate"[^>]+content="([^"]+)"')
 _TITLE = re.compile(r"<title>(.*?)</title>", re.S)
 _DESC = re.compile(r'<meta[^>]+name="description"[^>]+content="([^"]*)"')
-_MIN_PATH_DEPTH = 3          # /insights/markets-and-economy/<section>/<slug>
+# Required slash count in the stripped path "insights/markets-and-economy/<section>/<slug>".
+# A bare section page (e.g. ".../markets", 2 slashes) falls below this and is skipped.
+_MIN_PATH_DEPTH = 3
 
 
 def parse_listing(page: str) -> list[str]:
     """Absolute article URLs from the listing, deduped, order preserved."""
     seen, out = set(), []
     for path in _LINK.findall(page or ""):
-        if path.strip("/").count("/") < _MIN_PATH_DEPTH - 1:
+        if path.strip("/").count("/") < _MIN_PATH_DEPTH:
             continue                                  # section page, not an article
         url = BASE + path
         if url not in seen:
