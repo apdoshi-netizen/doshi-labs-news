@@ -13,79 +13,28 @@ ANTHROPIC_API_KEY. If the Claude call fails, falls back to a keyword heuristic
 so a picks.json is always produced. `--dry-run` compares curation with filters
 on vs. off against one live pool, printing results without writing anything.
 """
-import os, sys, re, json, subprocess, urllib.parse, email.utils, datetime
-import xml.etree.ElementTree as ET
+import os, sys, json, datetime
 from zoneinfo import ZoneInfo
 
 from wsjdaily import filters, history
+from wsjdaily.http import curl
 from wsjdaily.slots import CANONICAL_ORDER, RESOLVE_ORDER, SLOTS, by_key
+from wsjdaily.sources import wsj  # noqa: F401  (documents the new home of the WSJ pipeline)
+# Re-exported so `generate.X` keeps working for existing callers and tests, and
+# so main()/dry_run() call these through module globals -- which is what makes
+# monkeypatching generate.fetch_candidates / generate.resolve_one effective.
+from wsjdaily.sources.wsj import (  # noqa: F401
+    BLOCKED_SECTIONS,
+    RAW_POOL_CAP,
+    fetch_candidates,
+    fetch_candidates_unfiltered,
+    resolve_one,
+    url_section,
+)
 
 MODEL = "claude-sonnet-5"
-UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
 MAX_RESOLVE_TRIES = 6          # more grounds for rejection than before
-BLOCKED_SECTIONS = {"pro", "podcasts"}
-RAW_POOL_CAP = 60              # pre-filter cap; filtering runs on a wide pool
 DRY_RUN_POOL_CAP = 15          # keeps both dry-run arms comparably sized
-
-
-def curl(args):
-    return subprocess.run(["curl", "-sL", "--max-time", "30", "-A", UA] + args,
-                          capture_output=True, text=True).stdout
-
-
-def fetch_candidates_unfiltered() -> dict:
-    """Fetch and clean the candidate pool for every slot, with no filters.reject applied.
-
-    Returns contiguously indexed rows, up to RAW_POOL_CAP per slot, so
-    filtering downstream operates on the wider pool rather than an
-    already-truncated one. The cap is deliberately far above the post-filter
-    cap of 15: truncating BEFORE filtering is a strict reduction, and it lands
-    hardest on the slots carrying the most rejection logic, which were
-    measured falling below MAX_RESOLVE_TRIES fallbacks.
-    """
-    now = datetime.datetime.now(datetime.timezone.utc)
-    out = {}
-    for slot in SLOTS:
-        url = ("https://news.google.com/rss/search?q="
-               + urllib.parse.quote(slot.query) + "&hl=en-US&gl=US&ceid=US:en")
-        try:
-            root = ET.fromstring(curl([url]))
-        except Exception:
-            out[slot.key] = []
-            continue
-        rows, seen = [], set()
-        for it in root.find("channel").findall("item"):
-            if (it.findtext("source") or "").strip() != "WSJ":
-                continue
-            title = re.sub(r"\s*-\s*WSJ\s*$", "", (it.findtext("title") or "").strip())
-            if not title or title in seen:
-                continue
-            try:
-                dt = email.utils.parsedate_to_datetime(it.findtext("pubDate"))
-            except Exception:
-                continue
-            if (now - dt).total_seconds() > slot.max_age_hrs * 3600:
-                continue
-            seen.add(title)
-            rows.append((dt, title, it.findtext("link")))
-        rows.sort(reverse=True)
-        out[slot.key] = [
-            {"i": i, "title": t, "ageHrs": round((now - dt).total_seconds() / 3600, 1), "url": u}
-            for i, (dt, t, u) in enumerate(rows[:RAW_POOL_CAP])
-        ]
-    return out
-
-
-def fetch_candidates() -> dict:
-    """Fetch the unfiltered candidate pool, then apply filters.reject per slot."""
-    raw = fetch_candidates_unfiltered()
-    out = {}
-    for slot in SLOTS:
-        kept = filters.reject(slot, raw.get(slot.key, []))[:15]
-        for i, c in enumerate(kept):
-            c["i"] = i
-        out[slot.key] = kept
-    return out
 
 
 def curate_with_claude(cands: dict, covered: list[str]) -> list[dict]:
@@ -204,33 +153,6 @@ def heuristic(cands: dict) -> list[dict]:
         picks.append({"slot": slot.key, "i": chosen["i"] if chosen else -1,
                       "storyKey": None, "summary": ""})
     return picks
-
-
-def resolve_one(gn):
-    m = re.search(r'/articles/([^?]+)', gn)
-    if not m:
-        return None
-    aid = m.group(1)
-    page = curl(["-H", "Cookie: CONSENT=YES+", "https://news.google.com/articles/" + aid])
-    sg = (re.search(r'data-n-a-sg="([^"]+)"', page) or [None, None])[1]
-    ts = (re.search(r'data-n-a-ts="([^"]+)"', page) or [None, None])[1]
-    nid = (re.search(r'data-n-a-id="([^"]+)"', page) or [None, None])[1] or aid
-    if not (sg and ts):
-        return None
-    inner = ('["garturlreq",[["X","X",["X","X"],null,null,1,1,"US:en",null,1,null,null,null,'
-             'null,null,0,1],"X","X",1,[1,1,1],1,1,null,0,0,null,0],"%s",%s,"%s"]' % (nid, ts, sg))
-    freq = json.dumps([[["Fbv4je", inner, None, "generic"]]])
-    resp = curl(["-H", "Content-Type: application/x-www-form-urlencoded;charset=UTF-8", "-H", "Cookie: CONSENT=YES+",
-                 "--data", "f.req=" + urllib.parse.quote(freq),
-                 "https://news.google.com/_/DotsSplashUi/data/batchexecute"])
-    u = re.findall(r'https?://[^"\\]*wsj\.com[^"\\]*', resp)
-    return u[0] if u else None
-
-
-def url_section(url: str) -> str:
-    """First path segment of a wsj.com URL, e.g. 'tech' or 'pro'. '' if none."""
-    m = re.match(r"https?://(?:www\.)?wsj\.com/([^/?#]+)", url or "")
-    return m.group(1) if m else ""
 
 
 def is_claimable(url: str, story_key: str | None, blocked_keys: set, used_keys: set,
