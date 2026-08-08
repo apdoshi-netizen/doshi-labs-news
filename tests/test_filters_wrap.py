@@ -15,6 +15,10 @@ WRAPS = [
     "Treasury Yields, Dollar Fall as Talks to Reopen Hormuz Are Set to Restart",
     "U.S. Treasury Yields Rise, Dollar Firm as Oil Prices Increase",
     "Chip Stocks Weaken, Oil Steady as Investors Await Hormuz Progress",
+    # Picked live for the Macro slot on 2026-08-07 by the pre-fix pattern.
+    # "Markets" (plural) was missing from the subject list; the same headline
+    # with "Stocks" was already caught.
+    "Markets Rally on Surprise U.S. Job Losses, Airbnb Soars",
 ]
 
 # Substantive Macro stories from the same window. A false positive here costs

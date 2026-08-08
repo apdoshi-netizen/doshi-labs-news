@@ -16,12 +16,19 @@ NOISE = re.compile(
 
 # Daily price-move wire copy. Matches the SHAPE of a wrap headline: a
 # market-state subject within the first three words, then a price-move verb
-# within ~40 characters. Deliberately excludes "prices", "rates", and "market"
-# as subjects -- each would swallow a verified must-survive headline such as
+# within ~40 characters. Deliberately excludes "prices" and "rates" as
+# subjects -- each would swallow a verified must-survive headline such as
 # "U.S. Import Prices Unexpectedly Rise in June".
+#
+# "markets" is PLURAL-ONLY on purpose. Singular "market" would swallow
+# "Microsoft's One-Day Market-Cap Gain Makes History", since \b matches at the
+# hyphen. The plural was added after a live 2026-08-07 run picked "Markets
+# Rally on Surprise U.S. Job Losses, Airbnb Soars" for the Macro slot -- a wrap
+# the pattern missed, though the same headline with "Stocks" was caught.
+# Verified: adding it changes nothing across all 80 historical picks.
 _SUBJ = (
     r"(?:treasur(?:y|ys|ies)|yields?|stocks?|shares|oil|crude|dollar|bonds?|"
-    r"futures|gold|yen|euro)"
+    r"futures|gold|yen|euro|markets)"
 )
 _VERB = (
     r"(?:rise|rises|rose|fall|falls|fell|slip|slips|climb|climbs|ease|eases|"
