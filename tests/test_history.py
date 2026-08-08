@@ -1,6 +1,8 @@
 """Storyline identity, coverage windows, and history persistence."""
 import json
 
+import pytest
+
 from wsjdaily.history import (
     blocked_story_keys,
     covered_story_keys,
@@ -177,6 +179,37 @@ def test_save_records_research_urls_and_prunes_them(tmp_path) -> None:
     written = json.loads(open(path).read())
     assert written[RESEARCH_KEY] == {"2026-08-07": ["https://podcasts.apple.com/new"]}
     assert "2026-01-01" not in written[RESEARCH_KEY], "pruned on the same 21-day cutoff"
+
+
+@pytest.mark.parametrize(
+    "corrupt",
+    [["u1", "u2"], "not-a-dict", 7],
+    ids=["list", "string", "int"],
+)
+def test_save_survives_a_corrupt_research_key(tmp_path, corrupt) -> None:
+    """A malformed `_research` must not fail the run.
+
+    The READ side is already wrapped in try/except by main(); the WRITE side had
+    no equivalent. An int raised TypeError and a string raised ValueError, either
+    of which exits generate.py non-zero AFTER the WSJ picks are assembled -- and
+    the workflow's commit step has no `if: always()`, so an already-good digest
+    would never ship. A LIST was worse: dict(["u1", "u2"]) == {"u": "2"} raised
+    nothing and wrote the corruption back.
+    """
+    import json
+
+    from wsjdaily.history import RESEARCH_KEY, save
+
+    path = str(tmp_path / "history.json")
+    save(
+        {RESEARCH_KEY: corrupt},
+        "2026-08-07",
+        [],
+        path,
+        research_urls=["https://www.jpmorgan.com/a"],
+    )
+    written = json.loads(open(path).read())
+    assert written[RESEARCH_KEY] == {"2026-08-07": ["https://www.jpmorgan.com/a"]}
 
 
 def test_save_without_research_leaves_the_key_absent(tmp_path) -> None:

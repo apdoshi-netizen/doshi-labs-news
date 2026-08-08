@@ -88,7 +88,15 @@ def save(
     ]
     cutoff = (datetime.date.fromisoformat(today) - datetime.timedelta(days=HISTORY_DAYS)).isoformat()
     if research_urls is not None:
-        research = dict(hist.get(RESEARCH_KEY) or {})
+        # Defensive coercion, mirroring the try/except the READ side already has
+        # in main(): a malformed history must not fail the run. A non-mapping
+        # value here would either raise (int -> TypeError, str -> ValueError) or,
+        # worse, silently corrupt further (dict(["u1", "u2"]) == {"u": "2"}).
+        # Either way generate.py would exit non-zero AFTER the WSJ picks were
+        # assembled, and the workflow's commit step -- which has no
+        # `if: always()` -- would never ship the digest already built on disk.
+        raw_research = hist.get(RESEARCH_KEY)
+        research = dict(raw_research) if isinstance(raw_research, dict) else {}
         research[today] = list(research_urls)
         hist[RESEARCH_KEY] = {
             d: v for d, v in sorted(research.items()) if d >= cutoff
