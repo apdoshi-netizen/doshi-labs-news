@@ -67,8 +67,11 @@ def apply_keyword_filter(slot: Slot, rows: list[dict]) -> list[dict]:
     Normal slots keep the subset only when at least MIN_KEYWORD_MATCHES survive,
     so a thin pool is not filtered down to nothing.
 
-    Slots with `keyword_fallback` (Sports) ORDER rather than discard: matching
-    rows first, then the rest, relative order preserved within each group. The
+    Slots with `keyword_fallback` (Sports, Op-Ed) ORDER rather than discard:
+    matching rows first, then the rest, relative order preserved within each
+    group. Op-Ed uses it as a relevance gate -- economics/policy columns sort up
+    without a lexical miss costing a good one, and the caller's truncation does
+    the actual gating. The
     intent for Sports is a PREFERENCE -- "prefer sports business/finance; if the
     day has none, take the top sports headline" -- and the model's rubric in
     generate.py already states it. Enforcing it a second time here by deletion

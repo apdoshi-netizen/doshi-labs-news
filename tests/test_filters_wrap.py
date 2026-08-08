@@ -33,6 +33,11 @@ KEEPERS = [
     "Trump Unveils New Tariffs Designed to Withstand Legal Scrutiny",
     "ECB to Hold Rates Steady as Rebound in Energy Prices Threatens to Revive Inflation",
     "Exclusive | Trump Has Called Warsh Repeatedly Since He Became Fed Chair",
+    # Guards the plural-only "markets" subject. Singular "market" would match
+    # here, because \b matches at the hyphen in "Market-Cap". Without this
+    # fixture, changing _SUBJ's "markets" to "markets?" passes the whole suite
+    # while silently dropping real articles.
+    "Microsoft’s One-Day Market-Cap Gain Makes History",
 ]
 
 
