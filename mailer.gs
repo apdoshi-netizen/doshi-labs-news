@@ -27,8 +27,8 @@ var CONFIG = {
   // Consumer Gmail allows 100 recipients/day via Apps Script.
   RECIPIENTS: ['apdoshi@wharton.upenn.edu'],
   SEND_HOUR: 9,                     // 9 AM in the project timezone (set to ET)
-  SUBJECT_PREFIX: 'Doshi Labs: News',
-  SENDER_NAME: 'Doshi Labs: News',  // display name on the From line
+  SUBJECT_PREFIX: 'News',           // subject reads "News: 8/8/2026"
+  SENDER_NAME: 'Doshi Labs',        // display name on the From line
   REQUIRE_FRESH: true,              // only send if the picks file is dated today
   ALERT_ON_MISSING: true            // email recipient[0] if no fresh picks
 };
@@ -44,7 +44,7 @@ function sendDaily() {
   if (!data || (CONFIG.REQUIRE_FRESH && data.date !== today)) {
     Logger.log('No fresh picks for ' + today + ' (found: ' + (data ? data.date : 'none') + ').');
     if (CONFIG.ALERT_ON_MISSING) {
-      GmailApp.sendEmail(recipients[0], CONFIG.SUBJECT_PREFIX + ' — no digest today',
+      GmailApp.sendEmail(recipients[0], CONFIG.SUBJECT_PREFIX + ': no digest today',
         'No picks dated ' + today + ' were available (found: ' + (data ? data.date : 'none') +
         '), so no digest was sent.', { name: CONFIG.SENDER_NAME });
     }
@@ -71,7 +71,7 @@ function getTodaysPicks() {
 function buildEmail(data) {
   var pretty = Utilities.formatDate(new Date(data.date + 'T12:00:00'),
     Session.getScriptTimeZone(), 'M/d/yyyy');
-  var subject = CONFIG.SUBJECT_PREFIX + ' — ' + pretty;
+  var subject = CONFIG.SUBJECT_PREFIX + ': ' + pretty;
 
   var rows = data.picks.map(function (p) {
     var link = p.url

@@ -44,7 +44,9 @@ Apps Script `sendDaily` → email.
   (9 AM EDT) send.
 - **Model:** `claude-sonnet-5`. ~2 real API calls/day → est. **$1–3/month**
   (check console.anthropic.com → Usage).
-- **From:** aaravpdoshi@gmail.com, display name `Doshi Labs: News`.
+- **From:** aaravpdoshi@gmail.com, display name `Doshi Labs`.
+- **Subject:** `News: M/D/YYYY` (`CONFIG.SUBJECT_PREFIX` + `': '`). The
+  no-digest alert uses the same prefix, so both read `News: ...`.
 - **Recipients:** `CONFIG.RECIPIENTS` in `mailer.gs` — currently just
   apdoshi@wharton.upenn.edu. First address is To:, rest are BCC'd.
 - **Send time:** 9:00 AM ET (Apps Script trigger, `installTrigger`).
