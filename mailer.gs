@@ -75,7 +75,7 @@ function buildEmail(data) {
 
   var rows = data.picks.map(function (p) {
     var link = p.url
-      ? '<a href="' + p.url + '" style="color:#0b57d0;text-decoration:none;">' + escapeHtml(p.title) + '</a>'
+      ? '<a href="' + escapeHtml(p.url) + '" style="color:#0b57d0;text-decoration:none;">' + escapeHtml(p.title) + '</a>'
       : '<span style="color:#888;">No WSJ pick today.</span>';
     var sum = (p.summary && p.url)
       ? '<div style="color:#555;font-size:14px;margin-top:2px;">' + escapeHtml(p.summary) + '</div>' : '';
@@ -89,7 +89,7 @@ function buildEmail(data) {
       : '';
     return '<p style="margin:0 0 20px 0;">' +
       '<span style="color:#888;font-size:13px;">' + escapeHtml(meta) + '</span><br>' +
-      '<a href="' + r.url + '" style="color:#0b57d0;text-decoration:none;">' +
+      '<a href="' + escapeHtml(r.url) + '" style="color:#0b57d0;text-decoration:none;">' +
       escapeHtml(r.title) + '</a>' + sum + '</p>';
   }).join('\n');
 
