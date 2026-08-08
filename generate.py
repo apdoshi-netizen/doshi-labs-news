@@ -19,6 +19,7 @@ from zoneinfo import ZoneInfo
 from wsjdaily import filters, history
 from wsjdaily.http import curl
 from wsjdaily.slots import CANONICAL_ORDER, RESOLVE_ORDER, SLOTS, by_key
+from wsjdaily.sources import Item, apple, jpm_web
 from wsjdaily.sources import wsj  # noqa: F401  (documents the new home of the WSJ pipeline)
 # Re-exported so `generate.X` keeps working for existing callers and tests, and
 # so main()/dry_run() call these through module globals -- which is what makes
@@ -35,6 +36,36 @@ from wsjdaily.sources.wsj import (  # noqa: F401
 MODEL = "claude-sonnet-5"
 MAX_RESOLVE_TRIES = 6          # more grounds for rejection than before
 DRY_RUN_POOL_CAP = 15          # keeps both dry-run arms comparably sized
+
+WINDOW_HOURS = 24            # trailing window; see the spec's timing analysis
+RESEARCH_SOURCES = (apple.fetch, jpm_web.fetch)
+
+
+def collect_research(now: datetime.datetime, seen_urls: set) -> list[Item]:
+    """Everything published in the trailing WINDOW_HOURS, newest first.
+
+    No model call: the reader asked for an exhaustive listing, not a curated
+    pick. Each adapter is isolated -- a failure costs its own items and never
+    the run, which is the rule that keeps section 2 from breaking section 1.
+    """
+    window_start = now - datetime.timedelta(hours=WINDOW_HOURS)
+    items: list[Item] = []
+    for fetch in RESEARCH_SOURCES:
+        try:
+            items.extend(fetch(now))
+        except Exception as e:                        # noqa: BLE001
+            print("research: %s failed: %s" % (getattr(fetch, "__module__", "?"),
+                                               str(e)[:120]), file=sys.stderr)
+    fresh = [i for i in items
+             if window_start < i.published <= now and i.url not in seen_urls]
+    return sorted(fresh, key=lambda i: i.published, reverse=True)
+
+
+def research_payload(items: list[Item]) -> list[dict]:
+    """Serialise Items for picks.json."""
+    return [{"firm": i.firm, "show": i.show, "title": i.title, "url": i.url,
+             "published": i.published.isoformat(), "kind": i.kind,
+             "duration": i.duration, "summary": i.summary} for i in items]
 
 
 def curate_with_claude(cands: dict, covered: list[str]) -> list[dict]:
@@ -357,10 +388,19 @@ def main():
               "picks.json in place and failing so a later run retries", file=sys.stderr)
         sys.exit(1)
 
-    result = {"date": date, "generatedAt": datetime.datetime.now(datetime.timezone.utc).isoformat(), "picks": picks}
+    # Section 2. Wired in AFTER the guard above so a blocked-runner run exits
+    # without doing pointless network work. Nothing below may fail the run: an
+    # empty research list is a normal Saturday, not an error.
+    now = datetime.datetime.now(datetime.timezone.utc)
+    research = collect_research(now, history.research_urls(hist))
+    print("research: %d item(s) in the last %dh" % (len(research), WINDOW_HOURS),
+          file=sys.stderr)
+
+    result = {"date": date, "generatedAt": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+              "picks": picks, "research": research_payload(research)}
     with open("picks.json", "w") as f:
         json.dump(result, f, indent=2, ensure_ascii=False)
-    history.save(hist, date, picks)
+    history.save(hist, date, picks, research_urls=[i.url for i in research])
     print(json.dumps(result, indent=2, ensure_ascii=False))
 
 
