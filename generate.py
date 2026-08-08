@@ -37,20 +37,38 @@ MODEL = "claude-sonnet-5"
 MAX_RESOLVE_TRIES = 6          # more grounds for rejection than before
 DRY_RUN_POOL_CAP = 15          # keeps both dry-run arms comparably sized
 
-# Lookback for the research section. NOT "since the last run" -- a window
-# measured from generation time silently drops anything published in the gap
-# between two runs, and GitHub's scheduler drifts 45-110 min, so that gap opens
-# whenever a run lands later than the previous day's. Observed live: Goldman's
-# 2026-08-07 Tananbaum episode published at 04:00 UTC, the next run began at
-# 04:07 UTC, and the item fell 7 minutes outside a 24h window -- lost for good.
+# Lookback for the research section, measured back from generation time.
 #
-# 72h with URL dedup is gap-proof instead: `seen_urls` guarantees an item is
-# emitted at most once, so the lookback only has to be comfortably longer than
-# the worst plausible drift, not exactly the inter-run interval. It also means a
-# day of failed runs (a CAPTCHA-blocked runner) catches up rather than losing
-# that day's publications entirely.
-WINDOW_HOURS = 72
+# Set to 24 by operator preference: the section should carry current content,
+# and across a normal week the same items arrive either way, just on the day
+# they were published rather than up to three days later.
+#
+# KNOWN TRADE-OFF, since this was widened to 72 for a reason and then reverted.
+# A lookback of exactly 24h has no margin for the scheduler's 45-110 min drift.
+# When a run lands later than the previous day's, it opens a gap of exactly that
+# drift, and anything published inside the gap is not deferred -- it is lost
+# permanently, because dedup only prevents repeats and the window never reaches
+# back. Observed live: Goldman's Tananbaum episode published 04:00 UTC, the next
+# run began 04:07 UTC, and it fell 7 minutes outside. Raising this to 26 would
+# keep the "current content" property while absorbing the drift.
+WINDOW_HOURS = 24
+
+# Render order for the research section: Goldman, then Morgan Stanley, then
+# J.P. Morgan; newest first within each firm. Operator preference -- a stable
+# firm order is easier to scan than pure reverse-chronological, where the same
+# firm jumps around day to day. Any firm not listed sorts last, so adding a
+# source without updating this degrades gracefully instead of raising.
+FIRM_ORDER = ("Goldman Sachs", "Morgan Stanley", "J.P. Morgan")
 RESEARCH_SOURCES = (apple.fetch, jpm_web.fetch)
+
+
+def _render_order(item: Item) -> tuple[int, float]:
+    """Sort key: firm rank per FIRM_ORDER, then newest first within the firm."""
+    try:
+        rank = FIRM_ORDER.index(item.firm)
+    except ValueError:
+        rank = len(FIRM_ORDER)          # unlisted firms sort last, never raise
+    return (rank, -item.published.timestamp())
 
 
 def collect_research(now: datetime.datetime, seen_urls: set[str]) -> list[Item]:
@@ -80,7 +98,7 @@ def collect_research(now: datetime.datetime, seen_urls: set[str]) -> list[Item]:
         fresh = [i for i in items
                  if isinstance(i, Item)
                  and window_start < i.published <= now and i.url not in seen_urls]
-        return sorted(fresh, key=lambda i: i.published, reverse=True)
+        return sorted(fresh, key=_render_order)
     except Exception as e:                            # noqa: BLE001
         print("research: filtering failed: %s" % str(e)[:120], file=sys.stderr)
         return []

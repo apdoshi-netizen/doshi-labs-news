@@ -49,7 +49,7 @@ def test_drops_urls_already_emitted(monkeypatch) -> None:
     assert [i.title for i in got] == ["new"]
 
 
-def test_sorts_newest_first(monkeypatch) -> None:
+def test_sorts_newest_first_within_a_firm(monkeypatch) -> None:
     monkeypatch.setattr(generate, "RESEARCH_SOURCES",
                         (lambda now: [item(10, "older"), item(1, "newer")],))
     assert [i.title for i in generate.collect_research(NOW, set())] == ["newer", "older"]
@@ -226,21 +226,26 @@ def test_multiple_items_from_one_firm_and_one_show_all_survive(monkeypatch) -> N
     assert [i.title for i in got] == ["gs-markets", "gs-exchanges-a", "gs-exchanges-b"]
 
 
-def test_an_item_just_beyond_24h_is_still_emitted(monkeypatch) -> None:
-    """The drift-gap regression.
+def test_items_just_outside_the_window_are_dropped_the_accepted_tradeoff() -> None:
+    """Documents a known, operator-accepted risk rather than asserting a value.
 
-    A 24h lookback measured from generation time loses anything published in
-    the gap between two runs, and GitHub's scheduler drifts 45-110 min. Goldman's
-    Tananbaum episode fell 7 minutes outside such a window and was lost for good.
-    The lookback must comfortably exceed that drift; URL dedup, not the window,
-    is what prevents repeats.
+    WINDOW_HOURS is measured back from generation time, so it carries no margin
+    for the scheduler's 45-110 min drift. When a run lands later than the
+    previous day's it opens a gap of exactly that drift, and an item published
+    inside the gap is NOT deferred to a later day -- it is lost permanently,
+    because dedup only suppresses repeats and the window never reaches back.
+
+    This happened: Goldman's Tananbaum episode published 04:00 UTC, the next run
+    began 04:07 UTC, and it fell 7 minutes outside. The lookback was widened to
+    72h, then reverted to 24h by operator preference for current-only content.
+
+    Raising WINDOW_HOURS to 26 would keep that property and close the gap. This
+    test asserts the CURRENT behaviour so the trade-off stays visible in the
+    suite instead of living only in a commit message.
     """
-    assert generate.WINDOW_HOURS >= 48, "must absorb worst-case scheduler drift"
-    monkeypatch.setattr(generate, "RESEARCH_SOURCES", (lambda now: [
-        item(24.2, "seven-minutes-late"), item(26, "two-hours-late"),
-    ],))
-    got = generate.collect_research(NOW, set())
-    assert [i.title for i in got] == ["seven-minutes-late", "two-hours-late"]
+    assert generate.WINDOW_HOURS == 24, (
+        "if this changes, revisit the drift-gap trade-off documented here"
+    )
 
 
 def test_the_lookback_still_has_an_edge(monkeypatch) -> None:
@@ -257,3 +262,45 @@ def test_dedup_not_the_window_is_what_prevents_repeats(monkeypatch) -> None:
     seen = {"https://podcasts.apple.com/sent"}
     got = generate.collect_research(NOW, seen)
     assert [i.title for i in got] == ["new"]
+
+
+def _firm_item(firm: str, hours_ago: float, title: str) -> Item:
+    return Item(firm=firm, show="S", title=title,
+                url="https://podcasts.apple.com/%s" % title,
+                published=NOW - datetime.timedelta(hours=hours_ago), kind="podcast")
+
+
+def test_firms_render_in_the_configured_order(monkeypatch) -> None:
+    """Goldman, then Morgan Stanley, then J.P. Morgan -- regardless of recency.
+
+    A stable firm order is easier to scan than pure reverse-chronological,
+    where the same firm jumps position day to day.
+    """
+    monkeypatch.setattr(generate, "RESEARCH_SOURCES", (lambda now: [
+        _firm_item("J.P. Morgan", 1, "jpm-newest"),
+        _firm_item("Morgan Stanley", 5, "ms"),
+        _firm_item("Goldman Sachs", 20, "gs-oldest"),
+    ],))
+    got = generate.collect_research(NOW, set())
+    assert [i.firm for i in got] == ["Goldman Sachs", "Morgan Stanley", "J.P. Morgan"]
+    assert got[0].title == "gs-oldest", "firm order beats recency across firms"
+
+
+def test_newest_first_within_each_firm(monkeypatch) -> None:
+    monkeypatch.setattr(generate, "RESEARCH_SOURCES", (lambda now: [
+        _firm_item("Goldman Sachs", 9, "gs-old"),
+        _firm_item("J.P. Morgan", 3, "jpm-old"),
+        _firm_item("Goldman Sachs", 2, "gs-new"),
+        _firm_item("J.P. Morgan", 1, "jpm-new"),
+    ],))
+    assert [i.title for i in generate.collect_research(NOW, set())] == [
+        "gs-new", "gs-old", "jpm-new", "jpm-old"]
+
+
+def test_an_unlisted_firm_sorts_last_and_does_not_raise(monkeypatch) -> None:
+    """Adding a source without updating FIRM_ORDER must degrade, not crash."""
+    monkeypatch.setattr(generate, "RESEARCH_SOURCES", (lambda now: [
+        _firm_item("Some New Bank", 1, "newcomer"),
+        _firm_item("Goldman Sachs", 20, "gs"),
+    ],))
+    assert [i.title for i in generate.collect_research(NOW, set())] == ["gs", "newcomer"]
