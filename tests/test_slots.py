@@ -58,3 +58,23 @@ def test_op_ed_has_relevance_keywords() -> None:
 def test_by_key_raises_on_unknown_slot() -> None:
     with pytest.raises(KeyError):
         by_key("Weather")
+
+
+def test_industry_slot_displays_as_micro_without_changing_its_key() -> None:
+    """The email heading and the model-facing slot name are deliberately split.
+
+    `key` is what the model must echo back in its reply, what the dedup history
+    is written against, and what RESOLVE_ORDER/CANONICAL_ORDER are built from.
+    Renaming a heading must not ripple into any of that.
+    """
+    slot = by_key("Industry / Company / Transaction")
+    assert slot.label == "Micro"
+    assert slot.key == "Industry / Company / Transaction"
+    assert "Industry / Company / Transaction" in CANONICAL_ORDER
+    assert "Micro" not in CANONICAL_ORDER
+
+
+def test_every_other_slot_labels_itself_by_key() -> None:
+    for slot in SLOTS:
+        if slot.key != "Industry / Company / Transaction":
+            assert slot.label == slot.key, "only Industry overrides its display name"
