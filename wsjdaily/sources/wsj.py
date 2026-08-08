@@ -40,13 +40,20 @@ def fetch_candidates_unfiltered() -> dict:
     for slot in SLOTS:
         url = ("https://news.google.com/rss/search?q="
                + urllib.parse.quote(slot.query) + "&hl=en-US&gl=US&ceid=US:en")
+        # The channel lookup belongs INSIDE this try. XML-valid RSS with no
+        # <channel> element makes find() return None, and .findall() on None
+        # raises AttributeError -- which would escape fetch_candidates and
+        # main() entirely, aborting all five slots instead of emptying one and
+        # (the workflow's commit step has no `if: always()`) destroying a digest
+        # that may already have been built. One bad response costs its own slot.
         try:
-            root = ET.fromstring(curl([url]))
+            channel = ET.fromstring(curl([url])).find("channel")
+            items = channel.findall("item") if channel is not None else []
         except Exception:
             out[slot.key] = []
             continue
         rows, seen = [], set()
-        for it in root.find("channel").findall("item"):
+        for it in items:
             if (it.findtext("source") or "").strip() != "WSJ":
                 continue
             title = re.sub(r"\s*-\s*WSJ\s*$", "", (it.findtext("title") or "").strip())
