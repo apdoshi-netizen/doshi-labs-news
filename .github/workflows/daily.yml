@@ -28,7 +28,21 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           RESCUE_ONLY: ${{ github.event.schedule == '17 11 * * *' && '1' || '' }}
         run: python3 generate.py
+      # Commit whatever was successfully written even when the generate step
+      # exited non-zero. Without this, ANY late failure (a crash after the picks
+      # were assembled, a malformed history file) discards a correct digest
+      # already sitting on disk, and the mailer sends "no digest today" instead.
+      #
+      # Safe because picks.json and history.json are written atomically
+      # (wsjdaily/jsonio.py), so a partial file can never be on disk to commit,
+      # and because a zero-resolved run writes nothing at all -- leaving the tree
+      # clean, so the `git diff --staged --quiet` check below finds nothing to
+      # commit. The failed generate step still marks the run red either way.
+      #
+      # !cancelled() rather than always(): on a cancel or timeout there is
+      # nothing worth salvaging, and this avoids a pointless push attempt.
       - name: Commit picks.json + history.json if changed
+        if: ${{ !cancelled() }}
         run: |
           git config user.name "wsj-daily-bot"
           git config user.email "actions@users.noreply.github.com"

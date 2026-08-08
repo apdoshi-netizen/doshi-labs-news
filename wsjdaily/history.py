@@ -12,6 +12,8 @@ import json
 import re
 from typing import Iterator
 
+from wsjdaily import jsonio
+
 HISTORY_DAYS = 21             # literal title/URL repeat window
 STORY_HARD_BLOCK_DAYS = 2     # storyKey match here is auto-rejected
 STORY_SOFT_WINDOW_DAYS = 7    # storyKey match here is shown to the model
@@ -92,9 +94,10 @@ def save(
         # in main(): a malformed history must not fail the run. A non-mapping
         # value here would either raise (int -> TypeError, str -> ValueError) or,
         # worse, silently corrupt further (dict(["u1", "u2"]) == {"u": "2"}).
-        # Either way generate.py would exit non-zero AFTER the WSJ picks were
-        # assembled, and the workflow's commit step -- which has no
-        # `if: always()` -- would never ship the digest already built on disk.
+        # The workflow's commit step now carries `if: always()`, so a raise here
+        # no longer costs the whole digest -- picks.json is written before this
+        # and would still ship. It would still cost a day of dedup, so the
+        # coercion stays.
         raw_research = hist.get(RESEARCH_KEY)
         research = dict(raw_research) if isinstance(raw_research, dict) else {}
         research[today] = list(research_urls)
@@ -102,8 +105,9 @@ def save(
             d: v for d, v in sorted(research.items()) if d >= cutoff
         }
     hist = {d: v for d, v in hist.items() if d >= cutoff}
-    with open(path, "w") as f:
-        json.dump(dict(sorted(hist.items())), f, indent=2, ensure_ascii=False)
+    # Atomic: the workflow commits whatever is on disk. A truncated history
+    # would silently disable dedup rather than fail loudly.
+    jsonio.write_json(path, dict(sorted(hist.items())))
 
 
 def prior_keys(hist: dict, today: str) -> tuple[set[str], set[str]]:
