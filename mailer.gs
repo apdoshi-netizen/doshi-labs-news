@@ -105,7 +105,7 @@ function buildEmail(data) {
       '<h3 style="' + HEAD + 'margin:0 0 14px 0;">Wall Street Journal</h3>' +
       rows +
       '<h3 style="' + HEAD + 'border-top:1px solid #ddd;padding-top:16px;' +
-        'margin:28px 0 14px 0;">Podcasts</h3>' +
+        'margin:28px 0 14px 0;">Banks</h3>' +
       researchBody +
     '</div>';
 
@@ -118,7 +118,7 @@ function buildEmail(data) {
     var line = p.label + ': ' + (p.url ? p.title + ' — ' + p.url : 'No WSJ pick today.');
     if (p.summary && p.url) line += '\n' + p.summary;
     return line;
-  }).join('\n\n') + '\n\nPODCASTS\n\n' + researchText;
+  }).join('\n\n') + '\n\nBANKS\n\n' + researchText;
 
   return { subject: subject, htmlBody: htmlBody, textBody: textBody };
 }
