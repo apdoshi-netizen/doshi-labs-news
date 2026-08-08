@@ -15,11 +15,10 @@ import html
 import re
 
 from wsjdaily.http import curl
-from wsjdaily.sources import Item
+from wsjdaily.sources import Item, clean_summary
 
 LISTING_URL = "https://www.jpmorgan.com/insights/markets-and-economy/top-market-takeaways"
 BASE = "https://www.jpmorgan.com"
-SUMMARY_CHARS = 240
 # Bounds worst-case runtime. Each article is one curl capped at 30s, but the
 # TOTAL is otherwise unbounded and this runs BEFORE picks.json is written, so a
 # markup change (a mega-menu, a "more from Insights" index block) that pushes
@@ -83,7 +82,7 @@ def parse_article(page: str, url: str) -> Item | None:
         published=published,
         kind="article",
         duration=None,
-        summary=html.unescape(desc.group(1)).strip()[:SUMMARY_CHARS] if desc else "",
+        summary=clean_summary(html.unescape(desc.group(1))) if desc else "",
     )
 
 

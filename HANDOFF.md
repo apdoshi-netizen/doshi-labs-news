@@ -1,4 +1,4 @@
-# WSJ Daily — handoff / current state
+# Doshi Labs: News — handoff / current state
 
 A daily 9:00 AM ET email of 5 curated, direct-link WSJ articles
 (Macro / Industry-Company-Transaction / Op-Ed / Tech / Sports) plus a Street

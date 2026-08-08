@@ -13,10 +13,9 @@ import json
 from dataclasses import dataclass
 
 from wsjdaily.http import curl
-from wsjdaily.sources import Item
+from wsjdaily.sources import Item, clean_summary
 
 LOOKUP = "https://itunes.apple.com/lookup?id={id}&entity=podcastEpisode&limit=10"
-SUMMARY_CHARS = 240
 
 
 @dataclass(frozen=True)
@@ -83,7 +82,7 @@ def parse(payload: dict, show: Show) -> list[Item]:
             published=published,
             kind="podcast",
             duration=_duration(r.get("trackTimeMillis")),
-            summary=(r.get("description") or "").strip()[:SUMMARY_CHARS],
+            summary=clean_summary(r.get("description")),
         ))
     return items
 
