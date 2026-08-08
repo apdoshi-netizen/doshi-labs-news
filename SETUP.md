@@ -1,4 +1,4 @@
-# WSJ Daily — setup
+# Doshi Labs: News — setup
 
 A daily 9:00 AM ET email with 5 curated, **direct-link** WSJ articles
 (Macro / Industry-Company-Transaction / Op-Ed / Tech / Sports), plus a second
@@ -42,7 +42,7 @@ and Morgan Stanley publications.
    - Value: `sk-ant-...` (from console.anthropic.com; you have credit)
 
 4. **Run it once manually.** Repo → **Actions** tab → enable workflows if
-   prompted → "WSJ Daily picks" → **Run workflow**. After ~1 min a `picks.json`
+   prompted → "Doshi Labs News picks" → **Run workflow**. After ~1 min a `picks.json`
    commit appears in the repo. Open it — you should see today's date and 5
    `wsj.com` links.
    - In the run log, the generate step prints `curation: Claude` (good) or

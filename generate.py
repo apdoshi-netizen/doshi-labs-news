@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-WSJ Daily generator — runs in GitHub Actions.
+Doshi Labs: News generator — runs in GitHub Actions.
 
 Fetch live WSJ headlines (Google News RSS) for 5 slots, ask the Claude API to
 pick the best per slot + write a one-line summary, resolve each pick to its
