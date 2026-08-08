@@ -1,7 +1,7 @@
 # WSJ Daily — handoff / current state
 
-A daily 9:00 AM ET email of 4 curated, direct-link WSJ articles
-(Macro / Industry-Company-Transaction / Op-Ed / Tech). **Live and running.**
+A daily 9:00 AM ET email of 5 curated, direct-link WSJ articles
+(Macro / Industry-Company-Transaction / Op-Ed / Tech / Sports). **Live and running.**
 
 ## Architecture (two halves)
 
@@ -25,7 +25,10 @@ Apps Script `sendDaily` → email.
 | File | What it is |
 |---|---|
 | `generate.py` | The generator (runs in CI). Fetch, dedup, curate, resolve. |
+| `wsjdaily/` | Pure filter + history logic, unit-tested. |
+| `tests/` | pytest suite for `wsjdaily/`. |
 | `.github/workflows/daily.yml` | Cron schedule + commit step. |
+| `.github/workflows/tests.yml` | CI: runs `pytest tests/` on push/PR. |
 | `mailer.gs` | Apps Script mailer (paste into script.google.com). |
 | `picks.json` | Latest generated picks (committed by CI). |
 | `history.json` | 21-day memory of sent articles, for dedup. |
@@ -52,27 +55,40 @@ Apps Script `sendDaily` → email.
    Actions, not Apps Script.
 2. **The resolver is an unofficial Google endpoint** (`batchexecute`). Works,
    but Google could change it. Also, individual GitHub runner IPs are sometimes
-   pre-flagged → a run resolves 0/4. Handled: a 0-resolved run writes nothing
+   pre-flagged → a run resolves 0/5. Handled: a 0-resolved run writes nothing
    and exits 1, so the mailer sends a compact "no digest" alert (not an empty
    email) and a later tick retries on a fresh runner IP.
 3. **Resolve needs `curl -L` + `Cookie: CONSENT=YES+`**; without `-L` you get an
    empty 302 body and no signature.
 4. **WSJ legacy RSS (`feeds.a.dj.com`) is dead** — frozen at Jan 2025. Live
    source is Google News RSS.
-5. **Model reply is pipe-delimited** (`slot|id|summary`), not JSON — a Sonnet
-   JSON reply broke `json.loads` once. `parse_selections()` handles it.
+5. **Model reply is pipe-delimited** (`slot|id|storykey|summary`), not JSON — a
+   Sonnet JSON reply broke `json.loads` once. Three-field lines
+   (`slot|id|summary`, no storyKey) are also accepted for backward
+   compatibility — `parse_selections()` handles both.
 6. **`claude-sonnet-5` returns a thinking block first** — extract the first
    `type=="text"` block, not `content[0]`.
-7. **Dedup keys history by date and ignores today's own entry**, so the 4×/day
-   runs don't exclude their own earlier picks. Matches article identity
-   (normalized title / resolved URL), so a *different* article on the same story
-   still passes — only literal repeats are blocked.
+7. **Dedup has two layers.** History keys by date and ignores today's own
+   entry, so the 3 scheduled ticks (`17 8`, `17 10`, `17 11` UTC) don't exclude
+   their own earlier picks. Layer one matches article identity (normalized
+   title / resolved URL) over 21 days — only literal repeats are blocked, so a
+   *different* article on the same story still passes. Layer two is the
+   storyline window described in gotcha #10.
 8. **Apps Script sends as the account that OWNS the project** and authorized the
    trigger. `GmailApp`'s `from:` option only accepts an address already verified
    as a "Send mail as" alias in *that* account, and Penn Workspace may block
    external aliases. That's why the project was re-homed from the Wharton account
    to aaravpdoshi@gmail.com rather than aliased. If mail ever starts arriving
    from the wrong address, check which account owns the live project.
+9. **The market-wrap filter is Macro-only.** Applied globally it rejects real
+   deal stories -- "Mitie Shares Soar on $4.2 Billion Takeover by OCS" matches
+   the same shape. See `Slot.reject_market_wraps`.
+10. **Storyline dedup is hybrid:** exact storyKey match within 2 days is a hard
+    block; days 3-7 are shown to the model, which judges whether a development
+    is materially new. Keys are sorted token sets, so order does not matter.
+11. **Slots resolve in `RESOLVE_ORDER`, not `CANONICAL_ORDER`.** Sports resolves
+    before Industry so a sports-business deal lands in Sports. The email still
+    renders in canonical order.
 
 ## Known limitations / backlog candidates
 
@@ -96,4 +112,10 @@ gh workflow run daily.yml --repo apdoshi-netizen/wsj-daily
 
 # Local test (no key → heuristic curation):
 python3 generate.py
+
+# A/B the curation against one live pool without writing anything:
+ANTHROPIC_API_KEY=sk-ant-... python3 generate.py --dry-run
+
+# Run the unit tests (no API key needed):
+python3 -m pytest tests/ -v
 ```

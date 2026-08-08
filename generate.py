@@ -2,7 +2,7 @@
 """
 WSJ Daily generator — runs in GitHub Actions.
 
-Fetch live WSJ headlines (Google News RSS) for 4 slots, ask the Claude API to
+Fetch live WSJ headlines (Google News RSS) for 5 slots, ask the Claude API to
 pick the best per slot + write a one-line summary, resolve each pick to its
 direct wsj.com URL, and write picks.json. The workflow then commits picks.json,
 and the Apps Script mailer reads it and emails at 9 AM ET.
@@ -10,75 +10,22 @@ and the Apps Script mailer reads it and emails at 9 AM ET.
 Uses curl (present on GitHub runners) for every HTTP call — the method verified
 to work against Google News' article/batchexecute endpoints. Requires env var
 ANTHROPIC_API_KEY. If the Claude call fails, falls back to a keyword heuristic
-so a picks.json is always produced.
+so a picks.json is always produced. `--dry-run` compares curation with filters
+on vs. off against one live pool, printing results without writing anything.
 """
 import os, sys, re, json, subprocess, urllib.parse, email.utils, datetime
 import xml.etree.ElementTree as ET
 from zoneinfo import ZoneInfo
 
+from wsjdaily import filters, history
+from wsjdaily.slots import CANONICAL_ORDER, RESOLVE_ORDER, SLOTS, by_key
+
 MODEL = "claude-sonnet-5"
-# Per slot: (label, Google News query, max age hrs, title-keyword filter).
-# The keyword filter is applied to candidate titles (except Op-Ed) so off-topic
-# items the fuzzy feed returns (e.g. a box-office story in the deal feed) are
-# dropped before curation. Wider windows let weekend runs still see the week's
-# real stories; the prompt tells the model to prefer fresher.
-SLOTS = [
-    ("Macro", '(economy OR inflation OR "Federal Reserve" OR "interest rates" OR jobs OR GDP OR tariffs OR Treasury OR "central bank") site:wsj.com when:3d', 72,
-     ["econom", "inflation", "fed", "rate", "jobs", "unemploy", "gdp", "tariff", "trade", "treasury", "yield", "bond",
-      "central bank", "dollar", "currency", "recession", "growth", "prices", "oil", "stimulus", "deficit"]),
-    ("Industry / Company / Transaction", '(merger OR acquisition OR deal OR earnings OR takeover OR IPO OR bankruptcy OR buyout) site:wsj.com when:3d', 72,
-     ["merger", "acqui", "deal", "takeover", "ipo", "bankrupt", "buyout", "bid", "billion", "million", "stake",
-      "shares", "earnings", "profit", "revenue", "invest", "fund", "raise", "spinoff", "sells", "buys", "to buy"]),
-    ("Op-Ed", 'site:wsj.com/opinion when:4d', 96, None),
-    ("Tech", 'site:wsj.com/tech when:2d', 48,
-     ["ai", "artificial intelligence", "chip", "semiconductor", "software", "tech", "nvidia", "apple", "google",
-      "microsoft", "openai", "meta", "amazon", "tesla", "intel", "amd", "tsmc", "data center", "cloud", "cyber",
-      "robot", "quantum", "startup", "app", "internet", "silicon"]),
-]
-NOISE = re.compile(r'(Print Edition|News Archive|Exchange Rate|Roundup: Market Talk|What to Read|WSJ Dollar Index|Latest News and Forecasts)', re.I)
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
-
-HISTORY_FILE = "history.json"   # {date: [{title, url}, ...]} — what was picked each day
-HISTORY_DAYS = 21               # how far back to block repeats
-MAX_RESOLVE_TRIES = 4           # candidates to try per slot before giving up
-
-
-def norm_title(t):
-    """Normalize a headline for identity matching (ignores prefixes/punctuation)."""
-    t = re.sub(r'^\s*(exclusive|opinion|analysis|review|live|updated)\s*\|\s*', '', t.strip(), flags=re.I)
-    return re.sub(r'[^a-z0-9]+', '', t.lower())
-
-
-def load_history():
-    try:
-        with open(HISTORY_FILE) as f:
-            return json.load(f)
-    except Exception:
-        return {}
-
-
-def prior_keys(hist, today):
-    """Titles + URLs picked on PREVIOUS days (today's entry is ignored so the
-    day's later runs don't exclude their own earlier picks)."""
-    cutoff = (datetime.date.fromisoformat(today) - datetime.timedelta(days=HISTORY_DAYS)).isoformat()
-    titles, urls = set(), set()
-    for day, items in hist.items():
-        if day == today or day < cutoff:
-            continue
-        for it in items:
-            titles.add(norm_title(it.get("title", "")))
-            urls.add(it.get("url", ""))
-    titles.discard("")
-    urls.discard("")
-    return titles, urls
-
-
-def save_history(hist, today, picks):
-    hist[today] = [{"title": p["title"], "url": p["url"]} for p in picks if p["url"]]
-    cutoff = (datetime.date.fromisoformat(today) - datetime.timedelta(days=HISTORY_DAYS)).isoformat()
-    hist = {d: v for d, v in hist.items() if d >= cutoff}
-    with open(HISTORY_FILE, "w") as f:
-        json.dump(dict(sorted(hist.items())), f, indent=2, ensure_ascii=False)
+MAX_RESOLVE_TRIES = 6          # more grounds for rejection than before
+BLOCKED_SECTIONS = {"pro", "podcasts"}
+RAW_POOL_CAP = 60              # pre-filter cap; filtering runs on a wide pool
+DRY_RUN_POOL_CAP = 15          # keeps both dry-run arms comparably sized
 
 
 def curl(args):
@@ -86,74 +33,115 @@ def curl(args):
                           capture_output=True, text=True).stdout
 
 
-def fetch_candidates():
+def fetch_candidates_unfiltered() -> dict:
+    """Fetch and clean the candidate pool for every slot, with no filters.reject applied.
+
+    Returns contiguously indexed rows, up to RAW_POOL_CAP per slot, so
+    filtering downstream operates on the wider pool rather than an
+    already-truncated one. The cap is deliberately far above the post-filter
+    cap of 15: truncating BEFORE filtering is a strict reduction, and it lands
+    hardest on the slots carrying the most rejection logic, which were
+    measured falling below MAX_RESOLVE_TRIES fallbacks.
+    """
     now = datetime.datetime.now(datetime.timezone.utc)
     out = {}
-    for key, query, maxage, kw in SLOTS:
-        url = "https://news.google.com/rss/search?q=" + urllib.parse.quote(query) + "&hl=en-US&gl=US&ceid=US:en"
+    for slot in SLOTS:
+        url = ("https://news.google.com/rss/search?q="
+               + urllib.parse.quote(slot.query) + "&hl=en-US&gl=US&ceid=US:en")
         try:
             root = ET.fromstring(curl([url]))
         except Exception:
-            out[key] = []; continue
+            out[slot.key] = []
+            continue
         rows, seen = [], set()
         for it in root.find("channel").findall("item"):
             if (it.findtext("source") or "").strip() != "WSJ":
                 continue
             title = re.sub(r"\s*-\s*WSJ\s*$", "", (it.findtext("title") or "").strip())
-            if not title or title in seen or NOISE.search(title):
-                continue
-            # Opinion pieces belong only in the Op-Ed slot (kw is None there).
-            if kw and title.lower().startswith("opinion"):
+            if not title or title in seen:
                 continue
             try:
                 dt = email.utils.parsedate_to_datetime(it.findtext("pubDate"))
             except Exception:
                 continue
-            if (now - dt).total_seconds() > maxage * 3600:
+            if (now - dt).total_seconds() > slot.max_age_hrs * 3600:
                 continue
             seen.add(title)
             rows.append((dt, title, it.findtext("link")))
         rows.sort(reverse=True)
-        # Drop off-topic titles (the fuzzy feed leaks general news); keep the
-        # keyword-matching subset unless that leaves too few to choose from.
-        if kw:
-            filt = [r for r in rows if any(k in r[1].lower() for k in kw)]
-            if len(filt) >= 3:
-                rows = filt
-        out[key] = [{"i": i, "title": t, "ageHrs": round((now - dt).total_seconds() / 3600, 1), "url": u}
-                    for i, (dt, t, u) in enumerate(rows[:15])]
+        out[slot.key] = [
+            {"i": i, "title": t, "ageHrs": round((now - dt).total_seconds() / 3600, 1), "url": u}
+            for i, (dt, t, u) in enumerate(rows[:RAW_POOL_CAP])
+        ]
     return out
 
 
-def curate_with_claude(cands):
+def fetch_candidates() -> dict:
+    """Fetch the unfiltered candidate pool, then apply filters.reject per slot."""
+    raw = fetch_candidates_unfiltered()
+    out = {}
+    for slot in SLOTS:
+        kept = filters.reject(slot, raw.get(slot.key, []))[:15]
+        for i, c in enumerate(kept):
+            c["i"] = i
+        out[slot.key] = kept
+    return out
+
+
+def curate_with_claude(cands: dict, covered: list[str]) -> list[dict]:
     key = os.environ.get("ANTHROPIC_API_KEY")
     if not key:
         raise RuntimeError("ANTHROPIC_API_KEY not set")
-    slim = {k: [{"i": c["i"], "title": c["title"], "ageHrs": c["ageHrs"]} for c in v] for k, v in cands.items()}
+
+    tiered = {}
+    for slot in SLOTS:
+        fresh, fallback = filters.tier(cands.get(slot.key, []))
+        tiered[slot.key] = {
+            "fresh": [{"i": c["i"], "title": c["title"], "ageHrs": c["ageHrs"]} for c in fresh],
+            "older": [{"i": c["i"], "title": c["title"], "ageHrs": c["ageHrs"]} for c in fallback],
+        }
+
     rubric = (
         "Macro: the story with the broadest cross-asset, market-moving significance "
-        "(central banks, major data prints like CPI/jobs/GDP, fiscal/tariff/policy, big rate/FX/oil moves). "
-        "NOT voter sentiment, polling, or general political color unless it is clearly moving markets. "
-        "Industry/Company/Transaction: one concrete corporate story — a NAMED deal/M&A, financing, IPO, "
-        "material earnings, or major regulatory/legal/product event, ideally with a dollar figure or named parties. "
-        "NOT box-office/entertainment reviews, sports, lifestyle, or human-interest pieces. "
-        "Op-Ed: one substantive argument column (prefer economics/business/policy over pure culture-war). "
-        "Tech: one consequential tech-industry development (AI, chips, big-tech strategy, major product, regulation, "
-        "notable research). NOT gadget reviews or lifestyle-tech.")
+        "(central banks, major data prints like CPI/jobs/GDP, fiscal/tariff/policy). "
+        "NOT daily price roundups, voter sentiment, or political color. "
+        "Industry/Company/Transaction: one concrete corporate story -- a NAMED deal/M&A, "
+        "financing, IPO, material earnings, or major regulatory/legal event, ideally with a "
+        "dollar figure or named parties. NOT box-office, sports, lifestyle, or human interest. "
+        "Op-Ed: one substantive argument column (prefer economics/business/policy). "
+        "Tech: one consequential tech-industry development (AI, chips, big-tech strategy, "
+        "major product, regulation, notable research). NOT gadget reviews or lifestyle-tech. "
+        "Sports: PREFER sports business/finance/economics -- franchise sales and valuations, "
+        "media-rights deals, private-equity or sovereign money in leagues, stadium financing, "
+        "league/CBA economics, betting, athlete investing. If and only if the candidates "
+        "contain no such story, pick the single most important sports headline instead.")
+
     user = (
-        "Candidate WSJ headlines by slot (newest first; ageHrs = hours old):\n"
-        + json.dumps(slim, ensure_ascii=False) +
-        "\n\nFor EACH slot pick the ONE headline that best fits that slot's topic per the rubric. "
-        "Topical fit is the FIRST filter — a fresh but off-topic headline must NOT be chosen; only after "
-        "topical fit, prefer the fresher/more significant option. If a slot's candidates are all weak fits, "
-        "pick the least-bad one. The 4 picks must be 4 distinct stories. "
-        "Reply with EXACTLY four lines and nothing else, one per slot, each formatted:\n"
-        "slot name|chosen id|summary of <=25 words grounded only in the headline\n"
-        "Slot names exactly: Macro, Industry / Company / Transaction, Op-Ed, Tech. "
-        "If a slot has no candidates use id -1 and summary: No WSJ pick today.")
-    payload = json.dumps({"model": MODEL, "max_tokens": 1024,
-                          "system": "You are a financial news editor. Follow the rubric and return only JSON.\n\n" + rubric,
-                          "messages": [{"role": "user", "content": user}]})
+        "Candidate WSJ headlines by slot. Each slot has a 'fresh' list (<=24h old) and an "
+        "'older' list. ageHrs = hours old.\n"
+        + json.dumps(tiered, ensure_ascii=False)
+        + "\n\nStorylines already emailed in the last 7 days (do NOT repeat one unless the "
+          "candidate is a materially NEW development, e.g. a deal closing or collapsing, not "
+          "a restatement):\n" + json.dumps(covered, ensure_ascii=False)
+        + "\n\nFor EACH slot pick the ONE headline that best fits that slot per the rubric.\n"
+          "RECENCY: choose from 'fresh' unless it is empty or every option in it fits the slot "
+          "poorly; only then fall back to 'older'.\n"
+          "TOPICAL FIT comes first for every slot except Sports, whose fallback rule is in the "
+          "rubric. A fresh but off-topic headline must NOT be chosen.\n"
+          "DIVERSITY: the 5 picks must be 5 distinct stories about distinct subjects. Do not "
+          "let two slots cover the same underlying event.\n"
+          "Reply with EXACTLY five lines and nothing else, one per slot, each formatted:\n"
+          "slot name|chosen id|storykey|summary of <=25 words grounded only in the headline\n"
+          "storykey = 2-4 lowercase entity words joined by '+' identifying the underlying "
+          "story, e.g. kkr+integer or apollo+easyjet.\n"
+          "Slot names exactly: " + ", ".join(CANONICAL_ORDER) + ". "
+          "If a slot has no candidates use id -1, storykey -, and summary: No WSJ pick today.")
+
+    payload = json.dumps({
+        "model": MODEL, "max_tokens": 1024,
+        "system": "You are a financial news editor. Follow the rubric exactly.\n\n" + rubric,
+        "messages": [{"role": "user", "content": user}],
+    })
     resp = curl(["-H", "x-api-key: " + key, "-H", "anthropic-version: 2023-06-01",
                  "-H", "content-type: application/json", "--data", payload,
                  "https://api.anthropic.com/v1/messages"])
@@ -170,36 +158,51 @@ def curate_with_claude(cands):
     return parse_selections(text)
 
 
-def parse_selections(text):
-    """Parse pipe-delimited selection lines: 'slot|id|summary'. Line-based on
-    purpose — immune to the quote/JSON-escaping breakage LLM JSON is prone to."""
-    valid = {k for k, _q, _m, _kw in SLOTS}
-    sels = []
+def parse_selections(text: str) -> list[dict]:
+    """Parse 'slot|id|storykey|summary' lines.
+
+    Line-based on purpose — immune to the quote/JSON-escaping breakage LLM JSON
+    is prone to. Three-field lines are still accepted with storyKey=None, so a
+    model format regression degrades to the previous behaviour instead of
+    failing the run.
+    """
+    valid = set(CANONICAL_ORDER)
+    sels: list[dict] = []
     for line in text.strip().splitlines():
-        parts = line.split("|", 2)
-        if len(parts) != 3:
+        parts = [p.strip().strip("*`") for p in line.split("|", 3)]
+        if len(parts) == 4:
+            slot, idx, raw_key, summary = parts
+        elif len(parts) == 3:
+            slot, idx, summary = parts
+            raw_key = None
+        else:
             continue
-        slot, idx, summary = (p.strip().strip("*`") for p in parts)
         try:
             idx = int(idx)
         except ValueError:
             continue
         if slot in valid and slot not in {s["slot"] for s in sels}:
-            sels.append({"slot": slot, "i": idx, "summary": summary})
+            sels.append({"slot": slot, "i": idx,
+                         "storyKey": history.norm_story_key(raw_key), "summary": summary})
     if len(sels) != len(SLOTS):
         raise RuntimeError("parsed %d/%d selections; raw=%r" % (len(sels), len(SLOTS), text[:300]))
     return sels
 
 
-def heuristic(cands):
+def heuristic(cands: dict) -> list[dict]:
+    """Offline fallback. Consumes the SAME filtered, tiered pool the model sees,
+    so an API outage cannot reintroduce the market wraps we filter out.
+
+    Summary is left empty on purpose: using the headline as the summary printed
+    the title twice in the email.
+    """
     picks = []
-    for key, _q, _m, kw in SLOTS:
-        lst = cands.get(key, [])
-        chosen = None
-        if kw:
-            chosen = next((c for c in lst if any(k in c["title"].lower() for k in kw)), None)
-        chosen = chosen or (lst[0] if lst else None)
-        picks.append({"slot": key, "i": chosen["i"] if chosen else -1, "summary": chosen["title"] if chosen else ""})
+    for slot in SLOTS:
+        fresh, fallback = filters.tier(cands.get(slot.key, []))
+        pool = fresh or fallback
+        chosen = pool[0] if pool else None
+        picks.append({"slot": slot.key, "i": chosen["i"] if chosen else -1,
+                      "storyKey": None, "summary": ""})
     return picks
 
 
@@ -224,8 +227,107 @@ def resolve_one(gn):
     return u[0] if u else None
 
 
+def url_section(url: str) -> str:
+    """First path segment of a wsj.com URL, e.g. 'tech' or 'pro'. '' if none."""
+    m = re.match(r"https?://(?:www\.)?wsj\.com/([^/?#]+)", url or "")
+    return m.group(1) if m else ""
+
+
+def is_claimable(url: str, story_key: str | None, blocked_keys: set, used_keys: set,
+                 used_urls: set, prior_urls: set, title: str = "",
+                 used_titles: set | frozenset = frozenset()) -> str:
+    """Return "" if this resolved candidate is usable, else a rejection reason.
+
+    Section blocking has to happen HERE rather than on the candidate pool:
+    candidates carry Google News URLs, and /pro/ (a separate paid WSJ tier) and
+    /podcasts/ (audio, not an article) are only visible once resolved.
+
+    `used_keys` is shared across slots and grows as slots resolve in
+    RESOLVE_ORDER, which is what makes Sports outrank Industry on a shared
+    story. A None story_key never blocks on HISTORY grounds -- a missing dedup
+    key must not cost an article, deliberately.
+
+    `used_titles` closes the remaining IN-RUN hole. Only the MODEL's pick
+    carries a storyKey; when a slot's pick is rejected the loop advances to a
+    fallback with story_key=None, which the storyline check then skips
+    entirely. Matching the normalized title against the titles already claimed
+    this run stops two slots emailing the same event under the same headline at
+    two different WSJ URLs. This is same-run only -- it never consults history,
+    so the None-key history semantics above are untouched. It catches the same
+    headline, not the same story told two ways; no fuzzy matching is attempted.
+    """
+    if url_section(url) in BLOCKED_SECTIONS:
+        return "section"
+    if url in used_urls or url in prior_urls:
+        return "dup-url"
+    if story_key and (story_key in blocked_keys or story_key in used_keys):
+        return "storyline"
+    if title and history.norm_title(title) in used_titles:
+        return "dup-story"
+    return ""
+
+
+def dry_run(date: str) -> None:
+    """Fetch one live pool and curate it twice -- filters off, then on.
+
+    Prints both pick sets side by side and writes NOTHING. Costs 2 API calls.
+    The 'filters off' arm approximates the previous behaviour; it is not a
+    bit-exact replay, since the prompt itself changed.
+    """
+    hist = history.load()
+    raw_pools = fetch_candidates_unfiltered()
+    filtered_pools = {s.key: filters.reject(by_key(s.key), raw_pools.get(s.key, [])) for s in SLOTS}
+    # filters.reject() returns a NEW list of the SAME dict objects -- it does not
+    # copy them. Reindexing raw and filtered in place would therefore reindex the
+    # shared dicts twice (once per pool), corrupting ids in whichever pool is
+    # touched first. Give each pool its own dict copies before reindexing so the
+    # two pools can never alias.
+    raw = {k: [dict(c) for c in v] for k, v in raw_pools.items()}
+    filtered = {k: [dict(c) for c in v] for k, v in filtered_pools.items()}
+    # Cap BOTH arms before reindexing. The raw pool is now fetched at
+    # RAW_POOL_CAP so that filtering runs wide, but feeding all of it to the
+    # BEFORE arm would hand it a far larger prompt than the AFTER arm, making
+    # the comparison unfair and the call needlessly expensive. Capping the
+    # AFTER arm at the same number also makes it match what production's
+    # fetch_candidates() actually sends. Slicing here -- after the copy, before
+    # the reindex -- keeps ids contiguous 0..n-1 within each pool, and the pools
+    # hold distinct dict objects so neither reindex can disturb the other.
+    for pool in (raw, filtered):
+        for k in pool:
+            pool[k] = pool[k][:DRY_RUN_POOL_CAP]
+    for pool in (raw, filtered):
+        for rows in pool.values():
+            for i, c in enumerate(rows):
+                c["i"] = i
+
+    print("=" * 78)
+    for label, pool, covered in (
+        ("BEFORE (filters off)", raw, []),
+        ("AFTER  (filters on)", filtered, history.covered_story_keys(hist, date)),
+    ):
+        print(label)
+        try:
+            sels = curate_with_claude(pool, covered)
+        except Exception as e:
+            print("  curation failed: " + str(e)[:200])
+            continue
+        for slot_key in CANONICAL_ORDER:
+            s = next((x for x in sels if x["slot"] == slot_key), None)
+            chosen = next((c for c in pool.get(slot_key, []) if s and c["i"] == s["i"]), None)
+            print("  %-34s %s" % (slot_key, chosen["title"][:60] if chosen else "(none)"))
+        print("-" * 78)
+
+    for slot in SLOTS:
+        print("pool %-34s raw=%-3d filtered=%d"
+              % (slot.key, len(raw.get(slot.key, [])), len(filtered.get(slot.key, []))))
+
+
 def main():
     date = datetime.datetime.now(ZoneInfo("America/New_York")).strftime("%Y-%m-%d")
+
+    if "--dry-run" in sys.argv:
+        dry_run(date)
+        return
 
     # Rescue mode (late cron tick): only regenerate if the day's picks are
     # missing, stale, or empty — otherwise exit without spending an API call.
@@ -239,8 +341,10 @@ def main():
             pass
         print("rescue: today's picks missing/empty — regenerating", file=sys.stderr)
 
-    hist = load_history()
-    prior_titles, prior_urls = prior_keys(hist, date)
+    hist = history.load()
+    prior_titles, prior_urls = history.prior_keys(hist, date)
+    blocked_keys = history.blocked_story_keys(hist, date)
+    covered = history.covered_story_keys(hist, date)
 
     cands = fetch_candidates()
 
@@ -248,7 +352,7 @@ def main():
     # cannot pick a repeat. Reindex so ids stay contiguous.
     dropped = 0
     for key, lst in cands.items():
-        kept = [c for c in lst if norm_title(c["title"]) not in prior_titles]
+        kept = [c for c in lst if history.norm_title(c["title"]) not in prior_titles]
         dropped += len(lst) - len(kept)
         for i, c in enumerate(kept):
             c["i"] = i
@@ -257,49 +361,70 @@ def main():
           % (dropped, len(hist)), file=sys.stderr)
 
     try:
-        selections = curate_with_claude(cands)
+        selections = curate_with_claude(cands, covered)
         print("curation: Claude", file=sys.stderr)
     except Exception as e:
         print("curation: heuristic fallback (" + str(e)[:400] + ")", file=sys.stderr)
         selections = heuristic(cands)
 
-    picks = []
-    used_urls = set()
-    for key, _q, _m, _kw in SLOTS:              # keep canonical slot order
-        s = next((x for x in selections if x["slot"] == key), None)
-        lst = cands.get(key, [])
+    picks_by_slot: dict[str, dict] = {}
+    used_urls: set[str] = set()
+    used_story_keys: set[str] = set()
+    # Normalized titles claimed THIS run. Unlike used_story_keys this is
+    # populated for every claimed slot, including fallbacks that carry no
+    # storyKey, so a keyless fallback cannot duplicate a claimed story.
+    used_titles: set[str] = set()
+
+    # Resolve in precedence order so the first slot to claim a story keeps it
+    # (Sports outranks Industry); the email still renders in CANONICAL_ORDER.
+    for slot_key in RESOLVE_ORDER:
+        sel = next((x for x in selections if x["slot"] == slot_key), None)
+        lst = cands.get(slot_key, [])
         chosen = None
-        if s and s.get("i", -1) >= 0:
-            chosen = next((c for c in lst if c["i"] == s["i"]), None)
-        # Try the model's pick first, then the rest as fallbacks. A candidate is
-        # rejected if it fails to resolve, or resolves to a URL already used
-        # (earlier day, or another slot today).
+        if sel and sel.get("i", -1) >= 0:
+            chosen = next((c for c in lst if c["i"] == sel["i"]), None)
+
+        # Try the model's pick first, then the rest as fallbacks.
         order = ([chosen] if chosen else []) + [c for c in lst if c is not chosen]
         picked = None
         for cand in order[:MAX_RESOLVE_TRIES]:
             direct = resolve_one(cand["url"])
             if not direct:
                 continue
-            if direct in prior_urls or direct in used_urls:
-                print("  skip dup: " + cand["title"][:55], file=sys.stderr)
+            # The storyKey describes the MODEL's pick, so it only applies when
+            # this candidate is that pick; fallbacks carry no key.
+            cand_key = sel.get("storyKey") if (sel and cand is chosen) else None
+            reason = is_claimable(direct, cand_key, blocked_keys, used_story_keys,
+                                  used_urls, prior_urls, cand["title"], used_titles)
+            if reason:
+                print("  skip %s: %s" % (reason, cand["title"][:50]), file=sys.stderr)
                 continue
             picked = (cand, direct)
             break
 
         if not picked:
-            print("FAIL " + key + ": no usable candidate", file=sys.stderr)
-            picks.append({"slot": key, "label": key, "title": "", "url": "",
-                          "summary": "No WSJ pick today.", "source": "WSJ"})
+            print("FAIL " + slot_key + ": no usable candidate", file=sys.stderr)
+            picks_by_slot[slot_key] = {"slot": slot_key, "label": slot_key, "title": "",
+                                       "url": "", "summary": "No WSJ pick today.",
+                                       "storyKey": None, "source": "WSJ"}
             continue
 
         cand, direct = picked
         used_urls.add(direct)
-        # Only reuse the model's summary if we actually used the model's pick —
-        # otherwise it would describe a different article.
-        summary = (s.get("summary") or "")[:200] if (s and cand is chosen) else ""
-        print("OK   " + key + ": " + cand["title"][:55], file=sys.stderr)
-        picks.append({"slot": key, "label": key, "title": cand["title"], "url": direct,
-                      "summary": summary, "source": "WSJ"})
+        used_titles.add(history.norm_title(cand["title"]))
+        # Only carry the model's summary and storyKey if we used the model's
+        # pick -- otherwise they describe a different article.
+        is_model_pick = sel is not None and cand is chosen
+        story_key = sel.get("storyKey") if is_model_pick else None
+        if story_key:
+            used_story_keys.add(story_key)
+        summary = (sel.get("summary") or "")[:200] if is_model_pick else ""
+        print("OK   " + slot_key + ": " + cand["title"][:55], file=sys.stderr)
+        picks_by_slot[slot_key] = {"slot": slot_key, "label": slot_key, "title": cand["title"],
+                                   "url": direct, "summary": summary,
+                                   "storyKey": story_key, "source": "WSJ"}
+
+    picks = [picks_by_slot[k] for k in CANONICAL_ORDER]
 
     if not any(p["url"] for p in picks):
         # Almost always means Google CAPTCHA-flagged this runner's IP. Do NOT
@@ -313,7 +438,7 @@ def main():
     result = {"date": date, "generatedAt": datetime.datetime.now(datetime.timezone.utc).isoformat(), "picks": picks}
     with open("picks.json", "w") as f:
         json.dump(result, f, indent=2, ensure_ascii=False)
-    save_history(hist, date, picks)
+    history.save(hist, date, picks)
     print(json.dumps(result, indent=2, ensure_ascii=False))
 
 

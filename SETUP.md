@@ -1,7 +1,7 @@
 # WSJ Daily — setup
 
-A daily 9:00 AM ET email with 4 curated, **direct-link** WSJ articles
-(Macro / Industry-Company-Transaction / Op-Ed / Tech).
+A daily 9:00 AM ET email with 5 curated, **direct-link** WSJ articles
+(Macro / Industry-Company-Transaction / Op-Ed / Tech / Sports).
 
 ## How it works
 
@@ -41,7 +41,7 @@ A daily 9:00 AM ET email with 4 curated, **direct-link** WSJ articles
 
 4. **Run it once manually.** Repo → **Actions** tab → enable workflows if
    prompted → "WSJ Daily picks" → **Run workflow**. After ~1 min a `picks.json`
-   commit appears in the repo. Open it — you should see today's date and 4
+   commit appears in the repo. Open it — you should see today's date and 5
    `wsj.com` links.
    - In the run log, the generate step prints `curation: Claude` (good) or
      `curation: heuristic fallback (...)` — if it says heuristic, the API key or

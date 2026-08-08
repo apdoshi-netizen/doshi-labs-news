@@ -1,0 +1,2 @@
+# requirements-dev.txt — test tooling only. Runtime has zero dependencies.
+pytest>=8.0

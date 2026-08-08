@@ -1,5 +1,23 @@
 # Pick Algorithm Refinement Implementation Plan
 
+> **STATUS: EXECUTED.** This plan was implemented on branch `feat/pick-algorithm`
+> (17 commits, 81 tests). **Do not re-execute it, and do not copy code from it.**
+> Four snippets below are known-defective — they were caught in review and fixed
+> during implementation, but the text here was left as written so the review
+> history makes sense. The shipped code is the authority; the "As-built deltas"
+> section of `docs/superpowers/specs/2026-08-07-pick-algorithm-design.md` records
+> every divergence.
+>
+> Known-defective snippets in this document:
+> - **Task 3**, `apply_keyword_filter`: uses substring containment (`k in title`).
+>   Ships as a leading word-boundary regex — substring lets `ai` match "Sailing".
+> - **Task 5**, `_window`: its cutoff and its own test contradict each other.
+>   Ships as `cutoff = today - days`.
+> - **Task 6**, `fetch_candidates`: caps the feed at `rows[:20]` before filtering.
+>   Ships as `RAW_POOL_CAP = 60`, filtering the full feed as production did.
+> - **Task 8**, `dry_run`: its reindex loop aliases shared dicts and produces
+>   duplicate ids. Ships with independent per-pool copies.
+
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
 **Goal:** Make the daily digest reliably recent *and* relevant by filtering out market-wrap wire copy, tiering candidates by freshness, blocking storyline repeats, enforcing cross-slot diversity, and adding a fifth WSJ Sports slot.
@@ -54,6 +72,8 @@ Create `tests/__init__.py` as an empty file, then `tests/test_slots.py`:
 
 ```python
 """Slot configuration invariants."""
+import pytest
+
 from wsjdaily.slots import CANONICAL_ORDER, RESOLVE_ORDER, SLOTS, by_key
 
 
@@ -90,8 +110,6 @@ def test_op_ed_accepts_any_title() -> None:
 
 
 def test_by_key_raises_on_unknown_slot() -> None:
-    import pytest
-
     with pytest.raises(KeyError):
         by_key("Weather")
 ```
@@ -280,11 +298,13 @@ def test_keeps_substantive_macro_stories(title: str) -> None:
     assert is_market_wrap(title) is False
 
 
-def test_deal_story_mentioning_shares_is_not_a_wrap_for_other_slots() -> None:
-    """This one DOES match the shape, which is why the filter is Macro-only.
+def test_deal_story_matches_the_wrap_shape_hence_macro_only_scoping() -> None:
+    """A real Industry pick that matches the wrap SHAPE.
 
-    Documented here so the coupling to Slot.reject_market_wraps is deliberate
-    and visible rather than an accident.
+    This is exactly why wrap rejection is gated behind Slot.reject_market_wraps
+    instead of being applied to every slot: globally, this filter would discard
+    a legitimate $4.2B takeover story. Asserted here so the coupling is
+    deliberate and visible rather than an accident.
     """
     assert is_market_wrap("Mitie Shares Soar on $4.2 Billion Takeover by OCS") is True
 
@@ -359,7 +379,7 @@ def is_market_wrap(title: str) -> bool:
 - [ ] **Step 4: Run test to verify it passes**
 
 Run: `python3 -m pytest tests/test_filters_wrap.py -v`
-Expected: 23 passed
+Expected: 21 passed (10 wraps + 9 keepers + 1 shape-collision + 1 noise)
 
 - [ ] **Step 5: Commit**
 
