@@ -1,22 +1,22 @@
 {
   "date": "2026-08-08",
-  "generatedAt": "2026-08-08T15:28:44.264618+00:00",
+  "generatedAt": "2026-08-08T15:36:04.974725+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
       "title": "U.S. Lost 23,000 Jobs in July, While Unemployment Ticked Lower",
       "url": "https://www.wsj.com/economy/jobs/july-jobs-report-unemployment-0d7c08a7",
-      "summary": "U.S. lost 23,000 jobs in July while unemployment rate ticked lower, signaling labor market cooling.",
+      "summary": "U.S. lost 23,000 jobs in July while unemployment ticked lower, signaling labor market cooling.",
       "storyKey": "jobs+report+us",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
-      "label": "Industry / Company / Transaction",
+      "label": "Micro",
       "title": "Under Armour Lowers Revenue Outlook on Soft Demand",
       "url": "https://www.wsj.com/business/earnings/under-armour-posts-lower-revenue-on-soft-demand-in-north-america-asia-pacific-02dd4f13",
-      "summary": "Under Armour lowered its revenue outlook, citing soft demand for its apparel and footwear.",
+      "summary": "Under Armour cuts revenue outlook citing soft demand, a material earnings guidance change.",
       "storyKey": "armour+outlook+under",
       "source": "WSJ"
     },
@@ -25,8 +25,8 @@
       "label": "Op-Ed",
       "title": "Opinion | The Federal Reserve Status Quo vs. Kevin Warsh",
       "url": "https://www.wsj.com/opinion/fed-status-quo-vs-kevin-warsh-inflation-hawk-trump-dove-a91be5e5",
-      "summary": "Op-ed weighs the Federal Reserve status quo against Kevin Warsh as a potential leadership alternative.",
-      "storyKey": "fed+kevin+warsh",
+      "summary": "Opinion piece contrasts Federal Reserve status quo policy with Kevin Warsh's alternative approach.",
+      "storyKey": "fed+warsh",
       "source": "WSJ"
     },
     {
@@ -34,7 +34,7 @@
       "label": "Tech",
       "title": "OpenAI Pauses Some Work on New AI Model Over Cybersecurity Concerns",
       "url": "https://www.wsj.com/tech/ai/openai-pauses-some-work-on-new-ai-model-over-cybersecurity-concerns-8473a86f?mod",
-      "summary": "OpenAI paused work on a new AI model due to cybersecurity concerns.",
+      "summary": "OpenAI pauses development on new AI model due to cybersecurity concerns.",
       "storyKey": "model+openai+pause",
       "source": "WSJ"
     },
@@ -43,7 +43,7 @@
       "label": "Sports",
       "title": "How FIFA’s $20 Billion Private-Equity Plan Nearly Broke Soccer",
       "url": "https://www.wsj.com/sports/soccer/how-fifas-20-billion-private-equity-plan-nearly-broke-soccer-d78557cf",
-      "summary": "FIFA's $20 billion private-equity plan nearly broke soccer, highlighting sports finance turmoil.",
+      "summary": "FIFA's $20 billion private-equity plan nearly broke soccer, per report on financial fallout.",
       "storyKey": "equity+fifa+private",
       "source": "WSJ"
     }
