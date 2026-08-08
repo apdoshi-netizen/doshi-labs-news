@@ -26,8 +26,10 @@ def test_keeps_items_inside_the_24h_window(monkeypatch) -> None:
 
 
 def test_drops_items_older_than_the_window(monkeypatch) -> None:
+    """Anchored to WINDOW_HOURS rather than a hardcoded age, so widening the
+    lookback cannot silently turn this into a test of nothing."""
     monkeypatch.setattr(generate, "RESEARCH_SOURCES",
-                        (lambda now: [item(24.1, "stale")],))
+                        (lambda now: [item(generate.WINDOW_HOURS + 0.1, "stale")],))
     assert generate.collect_research(NOW, set()) == []
 
 
@@ -203,3 +205,55 @@ def test_a_second_run_the_same_day_re_emits_the_first_runs_research(
 
     assert [r["url"] for r in first["research"]] == ["https://podcasts.apple.com/same"]
     assert [r["url"] for r in second["research"]] == ["https://podcasts.apple.com/same"]
+
+
+# --- coverage regressions (2026-08-08) -------------------------------------
+# Two Goldman podcasts published 2026-08-07 reached nobody. Two independent
+# causes, both pinned below.
+
+
+def test_multiple_items_from_one_firm_and_one_show_all_survive(monkeypatch) -> None:
+    """There is no per-firm or per-show cap, and there must not be one.
+
+    Goldman publishes under two brands (Exchanges and The Markets) and either
+    can post twice in a day. The reader asked for an exhaustive listing, so
+    nothing may be silently dropped for coming from a firm already represented.
+    """
+    monkeypatch.setattr(generate, "RESEARCH_SOURCES", (lambda now: [
+        item(1, "gs-markets"), item(2, "gs-exchanges-a"), item(3, "gs-exchanges-b"),
+    ],))
+    got = generate.collect_research(NOW, set())
+    assert [i.title for i in got] == ["gs-markets", "gs-exchanges-a", "gs-exchanges-b"]
+
+
+def test_an_item_just_beyond_24h_is_still_emitted(monkeypatch) -> None:
+    """The drift-gap regression.
+
+    A 24h lookback measured from generation time loses anything published in
+    the gap between two runs, and GitHub's scheduler drifts 45-110 min. Goldman's
+    Tananbaum episode fell 7 minutes outside such a window and was lost for good.
+    The lookback must comfortably exceed that drift; URL dedup, not the window,
+    is what prevents repeats.
+    """
+    assert generate.WINDOW_HOURS >= 48, "must absorb worst-case scheduler drift"
+    monkeypatch.setattr(generate, "RESEARCH_SOURCES", (lambda now: [
+        item(24.2, "seven-minutes-late"), item(26, "two-hours-late"),
+    ],))
+    got = generate.collect_research(NOW, set())
+    assert [i.title for i in got] == ["seven-minutes-late", "two-hours-late"]
+
+
+def test_the_lookback_still_has_an_edge(monkeypatch) -> None:
+    """Gap-proof must not mean unbounded -- genuinely stale items stay out."""
+    monkeypatch.setattr(generate, "RESEARCH_SOURCES",
+                        (lambda now: [item(generate.WINDOW_HOURS + 1, "ancient")],))
+    assert generate.collect_research(NOW, set()) == []
+
+
+def test_dedup_not_the_window_is_what_prevents_repeats(monkeypatch) -> None:
+    """With a wider lookback, an already-sent item must still not reappear."""
+    monkeypatch.setattr(generate, "RESEARCH_SOURCES",
+                        (lambda now: [item(2, "sent"), item(3, "new")],))
+    seen = {"https://podcasts.apple.com/sent"}
+    got = generate.collect_research(NOW, seen)
+    assert [i.title for i in got] == ["new"]

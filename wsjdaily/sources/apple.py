@@ -31,6 +31,11 @@ class Show:
 SHOWS: tuple[Show, ...] = (
     Show("Morgan Stanley", "Thoughts on the Market", 1466686717),
     Show("Goldman Sachs", "Exchanges", 948913991),
+    # Goldman publishes under TWO podcast brands, both surfacing on
+    # goldmansachs.com/insights. Exchanges alone misses roughly half of it --
+    # the 2026-08-07 "Why US Stocks May Grind Higher" episode lives under
+    # /insights/the-markets/ and never reached the digest until this was added.
+    Show("Goldman Sachs", "The Markets", 1683802600),
     Show("J.P. Morgan", "Making Sense", 1456184829),
     Show("J.P. Morgan", "Eye on the Market", 1367963156),
 )

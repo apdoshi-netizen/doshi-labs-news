@@ -37,7 +37,19 @@ MODEL = "claude-sonnet-5"
 MAX_RESOLVE_TRIES = 6          # more grounds for rejection than before
 DRY_RUN_POOL_CAP = 15          # keeps both dry-run arms comparably sized
 
-WINDOW_HOURS = 24            # trailing window; see the spec's timing analysis
+# Lookback for the research section. NOT "since the last run" -- a window
+# measured from generation time silently drops anything published in the gap
+# between two runs, and GitHub's scheduler drifts 45-110 min, so that gap opens
+# whenever a run lands later than the previous day's. Observed live: Goldman's
+# 2026-08-07 Tananbaum episode published at 04:00 UTC, the next run began at
+# 04:07 UTC, and the item fell 7 minutes outside a 24h window -- lost for good.
+#
+# 72h with URL dedup is gap-proof instead: `seen_urls` guarantees an item is
+# emitted at most once, so the lookback only has to be comfortably longer than
+# the worst plausible drift, not exactly the inter-run interval. It also means a
+# day of failed runs (a CAPTCHA-blocked runner) catches up rather than losing
+# that day's publications entirely.
+WINDOW_HOURS = 72
 RESEARCH_SOURCES = (apple.fetch, jpm_web.fetch)
 
 
