@@ -1,7 +1,9 @@
 # WSJ Daily — setup
 
 A daily 9:00 AM ET email with 5 curated, **direct-link** WSJ articles
-(Macro / Industry-Company-Transaction / Op-Ed / Tech / Sports).
+(Macro / Industry-Company-Transaction / Op-Ed / Tech / Sports), plus a second
+Street Research section pulling the last 24h of Goldman Sachs, J.P. Morgan,
+and Morgan Stanley publications.
 
 ## How it works
 
@@ -66,8 +68,11 @@ A daily 9:00 AM ET email with 5 curated, **direct-link** WSJ articles
    "unverified app" warning → Advanced → Go to Doshi Labs: News). Check the inbox
    for `[TEST] Doshi Labs: News — <date>`, **confirm the From line reads
    aaravpdoshi@gmail.com**, and click a link to confirm the WSJ article opens.
-5. Select **`installTrigger`** → **Run**. Live — sends daily ~9:00 AM ET.
-6. **Delete the old `sendDaily` trigger** on any previous copy of this project
+5. **Any time you paste an updated `mailer.gs`, re-run `sendTestNow`** and
+   check the test email before trusting the live send — the schema is
+   additive, so a stale copy will silently keep showing only the WSJ five.
+6. Select **`installTrigger`** → **Run**. Live — sends daily ~9:00 AM ET.
+7. **Delete the old `sendDaily` trigger** on any previous copy of this project
    (the Wharton-owned one). Two live triggers = two emails a day. Leave the old
    project itself in place, trigger-less, as a rollback.
 

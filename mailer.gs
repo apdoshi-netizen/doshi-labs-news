@@ -82,15 +82,39 @@ function buildEmail(data) {
     return '<p style="margin:0 0 20px 0;"><strong>' + escapeHtml(p.label) + ':</strong> ' + link + sum + '</p>';
   }).join('\n');
 
+  var research = (data.research || []).map(function (r) {
+    var meta = [r.firm, r.show, r.duration].filter(function (x) { return x; }).join(' · ');
+    var sum = r.summary
+      ? '<div style="color:#555;font-size:14px;margin-top:2px;">' + escapeHtml(r.summary) + '</div>'
+      : '';
+    return '<p style="margin:0 0 20px 0;">' +
+      '<span style="color:#888;font-size:13px;">' + escapeHtml(meta) + '</span><br>' +
+      '<a href="' + r.url + '" style="color:#0b57d0;text-decoration:none;">' +
+      escapeHtml(r.title) + '</a>' + sum + '</p>';
+  }).join('\n');
+
+  var researchBody = research ||
+    '<p style="margin:0;color:#888;">No GS/JPM/MS publications today.</p>';
+
   var htmlBody =
     '<div style="font-family:Arial,Helvetica,sans-serif;font-size:16px;color:#111;line-height:1.4;">' +
-      rows + '</div>';
+      rows +
+      '<h3 style="font-size:15px;text-transform:uppercase;letter-spacing:.05em;' +
+        'color:#444;border-top:1px solid #ddd;padding-top:16px;margin:28px 0 14px 0;">' +
+        'Street Research</h3>' +
+      researchBody +
+    '</div>';
+
+  var researchText = (data.research || []).map(function (r) {
+    var meta = [r.firm, r.show, r.duration].filter(function (x) { return x; }).join(' · ');
+    return meta + '\n' + r.title + ' — ' + r.url + (r.summary ? '\n' + r.summary : '');
+  }).join('\n\n') || 'No GS/JPM/MS publications today.';
 
   var textBody = data.picks.map(function (p) {
     var line = p.label + ': ' + (p.url ? p.title + ' — ' + p.url : 'No WSJ pick today.');
     if (p.summary && p.url) line += '\n' + p.summary;
     return line;
-  }).join('\n\n');
+  }).join('\n\n') + '\n\nSTREET RESEARCH\n\n' + researchText;
 
   return { subject: subject, htmlBody: htmlBody, textBody: textBody };
 }

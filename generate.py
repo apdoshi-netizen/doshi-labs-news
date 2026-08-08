@@ -287,6 +287,13 @@ def dry_run(date: str) -> None:
         print("pool %-34s raw=%-3d filtered=%d"
               % (slot.key, len(raw.get(slot.key, [])), len(filtered.get(slot.key, []))))
 
+    now = datetime.datetime.now(datetime.timezone.utc)
+    research = collect_research(now, history.research_urls(hist))
+    print("\nSTREET RESEARCH (last %dh): %d item(s)" % (WINDOW_HOURS, len(research)))
+    for i in research:
+        print("  %s  %-16s %s" % (i.published.strftime("%Y-%m-%d %H:%M"),
+                                  i.firm[:16], i.title[:56]))
+
 
 def main():
     date = datetime.datetime.now(ZoneInfo("America/New_York")).strftime("%Y-%m-%d")
