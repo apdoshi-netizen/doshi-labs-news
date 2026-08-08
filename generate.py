@@ -16,7 +16,7 @@ on vs. off against one live pool, printing results without writing anything.
 import os, sys, json, datetime
 from zoneinfo import ZoneInfo
 
-from wsjdaily import filters, history
+from wsjdaily import filters, history, jsonio
 from wsjdaily.http import curl
 from wsjdaily.slots import CANONICAL_ORDER, RESOLVE_ORDER, SLOTS, by_key
 from wsjdaily.sources import Item, apple, jpm_web
@@ -430,8 +430,9 @@ def main():
     # One `now` for both the window anchor and generatedAt, so they cannot disagree.
     result = {"date": date, "generatedAt": now.isoformat(),
               "picks": picks, "research": research_payload(research)}
-    with open("picks.json", "w") as f:
-        json.dump(result, f, indent=2, ensure_ascii=False)
+    # Atomic: the workflow commits whatever is on disk, so a truncated file
+    # from a crashed write would be published over a good one.
+    jsonio.write_json("picks.json", result)
     history.save(hist, date, picks, research_urls=[i.url for i in research])
     print(json.dumps(result, indent=2, ensure_ascii=False))
 

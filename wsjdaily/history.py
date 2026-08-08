@@ -12,6 +12,8 @@ import json
 import re
 from typing import Iterator
 
+from wsjdaily import jsonio
+
 HISTORY_DAYS = 21             # literal title/URL repeat window
 STORY_HARD_BLOCK_DAYS = 2     # storyKey match here is auto-rejected
 STORY_SOFT_WINDOW_DAYS = 7    # storyKey match here is shown to the model
@@ -102,8 +104,9 @@ def save(
             d: v for d, v in sorted(research.items()) if d >= cutoff
         }
     hist = {d: v for d, v in hist.items() if d >= cutoff}
-    with open(path, "w") as f:
-        json.dump(dict(sorted(hist.items())), f, indent=2, ensure_ascii=False)
+    # Atomic: the workflow commits whatever is on disk. A truncated history
+    # would silently disable dedup rather than fail loudly.
+    jsonio.write_json(path, dict(sorted(hist.items())))
 
 
 def prior_keys(hist: dict, today: str) -> tuple[set[str], set[str]]:
