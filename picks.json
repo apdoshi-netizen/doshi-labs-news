@@ -1,23 +1,23 @@
 {
   "date": "2026-08-08",
-  "generatedAt": "2026-08-08T08:58:55.325765+00:00",
+  "generatedAt": "2026-08-08T10:49:47.049655+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
       "title": "U.S. Lost 23,000 Jobs in July, While Unemployment Ticked Lower",
       "url": "https://www.wsj.com/economy/jobs/july-jobs-report-unemployment-0d7c08a7",
-      "summary": "US lost 23,000 jobs in July while unemployment ticked lower, key labor data print.",
+      "summary": "U.S. jobs report showed 23,000 lost in July, unemployment ticks lower, market-moving data.",
       "storyKey": "jobs+report+us",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Industry / Company / Transaction",
-      "title": "Shopify Signals Revenue Acceleration as AI Tools, Merchant Growth Drive Results",
-      "url": "https://www.wsj.com/business/earnings/shopify-profit-jumps-as-subscriptions-merchant-services-boost-revenues-73693ff6",
-      "summary": "Shopify signals revenue acceleration as AI tools and merchant growth drive strong results.",
-      "storyKey": "earnings+shopify",
+      "title": "Shopping App Whatnot Valued at $20 Billion in New Funding",
+      "url": "https://www.wsj.com/business/retail/the-hottest-app-in-retail-is-now-worth-20-billion-c98f0897",
+      "summary": "Shopping app Whatnot raises new funding round, valued at $20 billion.",
+      "storyKey": "funding+whatnot",
       "source": "WSJ"
     },
     {
@@ -25,17 +25,17 @@
       "label": "Op-Ed",
       "title": "Opinion | The Federal Reserve Status Quo vs. Kevin Warsh",
       "url": "https://www.wsj.com/opinion/fed-status-quo-vs-kevin-warsh-inflation-hawk-trump-dove-a91be5e5",
-      "summary": "Opinion piece weighs Federal Reserve policy status quo against Kevin Warsh's approach.",
+      "summary": "Opinion column debates Federal Reserve status quo versus Kevin Warsh's proposed policy changes.",
       "storyKey": "fed+warsh",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Exclusive | Situational Awareness Bets $400 Million on Stealth Chip Startup After Crash",
-      "url": "https://www.wsj.com/tech/ai/situational-awareness-bets-400-million-on-stealth-chip-startup-after-crash-02c7374e",
-      "summary": "Situational Awareness bets $400 million on stealth chip startup after market crash.",
-      "storyKey": "awareness+chipstartup+situational",
+      "title": "Move 37 Is the Moment AI Changes Everything. It’s Suddenly Happening Everywhere.",
+      "url": "https://www.wsj.com/tech/ai/move-37-ai-demis-hassabis-google-deepmind-alphago-ec832a41",
+      "summary": "Opinion/analysis piece argues \"Move 37\" marks a turning point where AI capabilities surge everywhere.",
+      "storyKey": "ai+move37",
       "source": "WSJ"
     },
     {
@@ -43,7 +43,7 @@
       "label": "Sports",
       "title": "How FIFA’s $20 Billion Private-Equity Plan Nearly Broke Soccer",
       "url": "https://www.wsj.com/sports/soccer/how-fifas-20-billion-private-equity-plan-nearly-broke-soccer-d78557cf",
-      "summary": "How FIFA's $20 billion private-equity plan nearly broke soccer, per WSJ exclusive.",
+      "summary": "Feature on how FIFA's $20 billion private-equity plan nearly broke global soccer finances.",
       "storyKey": "equity+fifa+private",
       "source": "WSJ"
     }
