@@ -22,7 +22,7 @@
 // ---- CONFIG -----------------------------------------------------------------
 var CONFIG = {
   // Raw URL of picks.json in your GitHub repo (GitHub Actions commits it daily).
-  PICKS_URL: 'https://raw.githubusercontent.com/apdoshi-netizen/wsj-daily/main/picks.json',
+  PICKS_URL: 'https://raw.githubusercontent.com/apdoshi-netizen/doshi-labs-news/main/picks.json',
   // Who receives the digest. First address is the To:, the rest are BCC'd.
   // Consumer Gmail allows 100 recipients/day via Apps Script.
   RECIPIENTS: ['apdoshi@wharton.upenn.edu'],

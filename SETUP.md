@@ -28,7 +28,7 @@ and Morgan Stanley publications.
 
 ## Part A — GitHub (generation)
 
-1. **Create a repo.** On github.com → New repository, e.g. `wsj-daily`.
+1. **Create a repo.** On github.com → New repository, e.g. `doshi-labs-news`.
    **Public** is simplest (contents are just headlines + links). If you want it
    private, tell me — Apps Script then needs a token to read the raw file.
 

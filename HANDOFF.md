@@ -6,7 +6,7 @@ Research section (Goldman Sachs / J.P. Morgan / Morgan Stanley). **Live and runn
 
 ## Architecture (two halves)
 
-1. **GitHub Actions** (repo `apdoshi-netizen/wsj-daily`) — runs on GitHub's
+1. **GitHub Actions** (repo `apdoshi-netizen/doshi-labs-news`) — runs on GitHub's
    non-Google IP (required; see gotcha #1). `generate.py`:
    fetch live WSJ headlines from Google News RSS → filter/dedup → Claude API
    (`claude-sonnet-5`) picks best per slot + one-line summary → resolve each to
@@ -18,7 +18,7 @@ Research section (Goldman Sachs / J.P. Morgan / Morgan Stanley). **Live and runn
    aaravpdoshi@gmail.com** — see gotcha #8.
 
 Data flow: GitHub cron → `generate.py` → commit `picks.json` →
-`raw.githubusercontent.com/apdoshi-netizen/wsj-daily/main/picks.json` →
+`raw.githubusercontent.com/apdoshi-netizen/doshi-labs-news/main/picks.json` →
 Apps Script `sendDaily` → email.
 
 ## Files
@@ -119,10 +119,10 @@ Apps Script `sendDaily` → email.
 
 ```bash
 # See today's picks (uncached):
-gh api repos/apdoshi-netizen/wsj-daily/contents/picks.json --jq '.content' | base64 -d
+gh api repos/apdoshi-netizen/doshi-labs-news/contents/picks.json --jq '.content' | base64 -d
 
 # Manually run generation:
-gh workflow run daily.yml --repo apdoshi-netizen/wsj-daily
+gh workflow run daily.yml --repo apdoshi-netizen/doshi-labs-news
 
 # Local test (no key → heuristic curation):
 python3 generate.py
