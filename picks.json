@@ -1,73 +1,52 @@
 {
-  "date": "2026-08-08",
-  "generatedAt": "2026-08-08T15:45:09.668349+00:00",
+  "date": "2026-08-09",
+  "generatedAt": "2026-08-09T05:42:00.444632+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Trump to Impose 15% Tariff, Set Minimum Prices on Solar Panels and Components",
-      "url": "https://www.wsj.com/economy/trade/trump-to-impose-15-tariff-set-minimum-prices-on-solar-panels-and-components-dd7cd9d9",
-      "summary": "Trump to impose 15% tariff and set minimum prices on solar panels and components.",
-      "storyKey": "solar+tariff+trump",
+      "title": "Exclusive | Ratings Firm Accused of Grade Inflation Vouched for $40 Billion of Insurer Debt",
+      "url": "https://www.wsj.com/finance/ratings-firm-accused-of-grade-inflation-vouched-for-40-billion-of-insurer-debt-f26600a7",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Singapore Billionaire Sues Brookfield for Allegedly Aborting Planned Real-Estate Joint Venture",
-      "url": "https://www.wsj.com/business/deals/singapore-billionaire-sues-brookfield-for-allegedly-aborting-planned-real-estate-joint-venture-51066f8c",
-      "summary": "Singapore billionaire sues Brookfield over allegedly aborted real-estate joint venture.",
-      "storyKey": "brookfield+lawsuit",
+      "title": "Naver Posts Resilient Second-Quarter Profit Despite Higher AI Costs",
+      "url": "https://www.wsj.com/business/earnings/naver-posts-resilient-second-quarter-profit-despite-higher-ai-costs-75aa03be",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | The Federal Reserve Status Quo vs. Kevin Warsh",
-      "url": "https://www.wsj.com/opinion/fed-status-quo-vs-kevin-warsh-inflation-hawk-trump-dove-a91be5e5",
-      "summary": "Op-ed weighs Federal Reserve status quo against Kevin Warsh's potential leadership.",
-      "storyKey": "fed+warsh",
+      "title": "A Breath of Fresh Air",
+      "url": "https://www.wsj.com/opinion/free-expression/a-breath-of-fresh-air-0ce5ec31",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "OpenAI Pauses Some Work on New AI Model Over Cybersecurity Concerns",
-      "url": "https://www.wsj.com/tech/ai/openai-pauses-some-work-on-new-ai-model-over-cybersecurity-concerns-8473a86f?mod",
-      "summary": "OpenAI pauses work on new AI model due to cybersecurity concerns.",
-      "storyKey": "model+openai+pause",
+      "title": "AI and the Blurring of Reality",
+      "url": "https://www.wsj.com/tech/ai/ai-and-the-blurring-of-reality-480c24da",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "How FIFA’s $20 Billion Private-Equity Plan Nearly Broke Soccer",
-      "url": "https://www.wsj.com/sports/soccer/how-fifas-20-billion-private-equity-plan-nearly-broke-soccer-d78557cf",
-      "summary": "How FIFA's $20 billion private-equity plan nearly broke soccer.",
-      "storyKey": "equity+fifa+private",
+      "title": "Horse Racing’s Triple Crown May No Longer Be Worth Chasing",
+      "url": "https://www.wsj.com/sports/horse-racing-triple-crown-kentucky-derby-preakness-belmont-8b4d0b78",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     }
   ],
-  "research": [
-    {
-      "firm": "Morgan Stanley",
-      "show": "Thoughts on the Market",
-      "title": "AI’s New Rules of Engagement",
-      "url": "https://podcasts.apple.com/us/podcast/ais-new-rules-of-engagement/id1466686717?i=1000780942420&uo=4",
-      "published": "2026-08-07T20:00:00+00:00",
-      "kind": "podcast",
-      "duration": "5 min",
-      "summary": "Our Head of U.S. Public Policy Research Ariana Salvatore explains how U.S.-China tensions, export controls and domestic regulation are reshaping where AI is built, who controls it and what investors should watch. Read more insights from Morgan Stanley."
-    },
-    {
-      "firm": "J.P. Morgan",
-      "show": "Making Sense",
-      "title": "July jobs report: How a big headline miss may be overstating weakness",
-      "url": "https://podcasts.apple.com/us/podcast/july-jobs-report-how-a-big-headline-miss-may-be/id1456184829?i=1000780933043&uo=4",
-      "published": "2026-08-07T18:43:17+00:00",
-      "kind": "podcast",
-      "duration": "11 min",
-      "summary": "What should we make of a weak payroll print alongside a lower unemployment rate? In this episode of Making Sense, Lauren Brice from the North America Rates Sales team sits down with Mike Feroli, Chief U.S. Economist at J.P. Morgan, to unpack the July jobs report and what it implies for U.S. growth momentum in 2026. They discuss why the headline miss may overstate weakness, what steady-but-low private hiring says about layoffs and labor market “dynamism” and how participation and wage growth are shifting the inflation outlook. The conversation also covers sector signals like leisure and hospitality, the latest read-through from JOLTS, where (if anywhere) AI is showing up in the hard data and what upcoming CPI reports could mean for the next Fed move."
-    }
-  ]
+  "research": []
 }

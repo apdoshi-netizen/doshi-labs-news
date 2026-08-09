@@ -386,10 +386,38 @@
       "storyKey": "equity+fifa+private"
     }
   ],
+  "2026-08-09": [
+    {
+      "title": "Exclusive | Ratings Firm Accused of Grade Inflation Vouched for $40 Billion of Insurer Debt",
+      "url": "https://www.wsj.com/finance/ratings-firm-accused-of-grade-inflation-vouched-for-40-billion-of-insurer-debt-f26600a7",
+      "storyKey": null
+    },
+    {
+      "title": "Naver Posts Resilient Second-Quarter Profit Despite Higher AI Costs",
+      "url": "https://www.wsj.com/business/earnings/naver-posts-resilient-second-quarter-profit-despite-higher-ai-costs-75aa03be",
+      "storyKey": null
+    },
+    {
+      "title": "A Breath of Fresh Air",
+      "url": "https://www.wsj.com/opinion/free-expression/a-breath-of-fresh-air-0ce5ec31",
+      "storyKey": null
+    },
+    {
+      "title": "AI and the Blurring of Reality",
+      "url": "https://www.wsj.com/tech/ai/ai-and-the-blurring-of-reality-480c24da",
+      "storyKey": null
+    },
+    {
+      "title": "Horse Racing’s Triple Crown May No Longer Be Worth Chasing",
+      "url": "https://www.wsj.com/sports/horse-racing-triple-crown-kentucky-derby-preakness-belmont-8b4d0b78",
+      "storyKey": null
+    }
+  ],
   "_research": {
     "2026-08-08": [
       "https://podcasts.apple.com/us/podcast/ais-new-rules-of-engagement/id1466686717?i=1000780942420&uo=4",
       "https://podcasts.apple.com/us/podcast/july-jobs-report-how-a-big-headline-miss-may-be/id1456184829?i=1000780933043&uo=4"
-    ]
+    ],
+    "2026-08-09": []
   }
 }
