@@ -1,22 +1,4 @@
 {
-  "2026-07-19": [
-    {
-      "title": "U.S. Import Prices Unexpectedly Rise in June",
-      "url": "https://www.wsj.com/economy/trade/u-s-import-prices-unexpectedly-rise-in-june-d41a0908"
-    },
-    {
-      "title": "Fifth Third Profit Boosted by Comerica Acquisition",
-      "url": "https://www.wsj.com/business/earnings/fifth-third-profit-boosted-by-comerica-acquisition-bae8e106"
-    },
-    {
-      "title": "Opinion | America Needs the Filibuster",
-      "url": "https://www.wsj.com/opinion/free-expression/america-needs-the-filibuster-78964724"
-    },
-    {
-      "title": "Exclusive | AI Chip Startup Etched Is in Talks for $20 Billion Valuation",
-      "url": "https://www.wsj.com/tech/ai/ai-chip-startup-etched-is-in-talks-for-20-billion-valuation-caf1787d"
-    }
-  ],
   "2026-07-20": [
     {
       "title": "ECB to Hold Rates Steady as Rebound in Energy Prices Threatens to Revive Inflation",
@@ -413,11 +395,39 @@
       "storyKey": null
     }
   ],
+  "2026-08-10": [
+    {
+      "title": "Gold Holds Above $4,400 Ahead of U.S. Inflation Data",
+      "url": "https://www.wsj.com/finance/commodities-futures/gold-flat-focus-on-u-s-july-payrolls-7759613a",
+      "storyKey": "gold+inflation"
+    },
+    {
+      "title": "P&G Agrees to Buy Supplements Maker for $3.8 Billion",
+      "url": "https://www.wsj.com/business/retail/p-g-agrees-to-buy-supplements-maker-for-3-8-billion-1f52e7bf",
+      "storyKey": "pg+supplements"
+    },
+    {
+      "title": "Opinion | China Presses a Weakness in America’s Tech Policy",
+      "url": "https://www.wsj.com/opinion/china-presses-a-weakness-in-americas-tech-policy-2391ed0e",
+      "storyKey": "china+policy+tech"
+    },
+    {
+      "title": "Mark Zuckerberg Lays Out New AI Vision in 6,500-Word Essay",
+      "url": "https://www.wsj.com/tech/ai/mark-zuckerberg-lays-out-new-ai-vision-in-6-500-word-essay-966e9a56",
+      "storyKey": "ai+essay+zuckerberg"
+    },
+    {
+      "title": "Is an Average NFL Quarterback Worth $50 Million a Year?",
+      "url": "https://www.wsj.com/sports/football/baker-mayfield-contract-buccaneers-121927d0",
+      "storyKey": "nfl+qb+salary"
+    }
+  ],
   "_research": {
     "2026-08-08": [
       "https://podcasts.apple.com/us/podcast/ais-new-rules-of-engagement/id1466686717?i=1000780942420&uo=4",
       "https://podcasts.apple.com/us/podcast/july-jobs-report-how-a-big-headline-miss-may-be/id1456184829?i=1000780933043&uo=4"
     ],
-    "2026-08-09": []
+    "2026-08-09": [],
+    "2026-08-10": []
   }
 }
