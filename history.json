@@ -406,29 +406,29 @@
   ],
   "2026-08-11": [
     {
-      "title": "Low Volatility in Euro Vs Dollar Could Persist",
-      "url": "https://www.wsj.com/articles/yen-strengthens-slightly-amid-prospects-of-coordinated-intervention-09589883",
-      "storyKey": null
+      "title": "Dollar Hits 7-Week Low After Weak U.S. Jobs Data",
+      "url": "https://www.wsj.com/finance/currencies/nikkei-falls-0-7-dragged-by-chip-related-stocks-f3f924b2",
+      "storyKey": "data+dollar+jobs"
     },
     {
-      "title": "Was His Home Connecticut or Florida? The Difference Is a $13 Million Tax Bill",
-      "url": "https://www.wsj.com/real-estate/luxury-homes/taxes-connecticut-texas-billionaire-estate-anderson-d168a577",
-      "storyKey": null
+      "title": "Nvidia, Wall Street Firms Strike AI Financing Deal Targeting $500 Billion",
+      "url": "https://www.wsj.com/business/deals/nvidia-wall-street-firms-strike-ai-financing-deal-targeting-500-billion-c50377db",
+      "storyKey": "ai+financing+nvidia"
     },
     {
-      "title": "Opinion | The Next ‘Lab Leak’ Could Be AI",
-      "url": "https://www.wsj.com/opinion/the-next-lab-leak-could-be-ai-a774e763?mod",
-      "storyKey": null
+      "title": "Opinion | Lower Drug Prices Without Killing Innovation",
+      "url": "https://www.wsj.com/opinion/lower-drug-prices-without-killing-innovation-303dd329",
+      "storyKey": "drug+innovation+pricing"
     },
     {
       "title": "Intel Increases Size of Stock Offering to Raise $20 Billion",
       "url": "https://www.wsj.com/tech/intel-increases-size-of-stock-offering-to-raise-20-billion-0a32a534",
-      "storyKey": null
+      "storyKey": "intel+offering+stock"
     },
     {
-      "title": "Can Infantino Survive the Latest FIFA Crisis?",
-      "url": "https://www.wsj.com/sports/soccer/can-infantino-survive-the-latest-fifa-crisis-70eae1ff",
-      "storyKey": null
+      "title": "Global Soccer Is Now Openly at War With Itself",
+      "url": "https://www.wsj.com/sports/soccer/fifa-gianni-infantino-c3cefd26",
+      "storyKey": "conflict+global+soccer"
     }
   ],
   "_research": {
