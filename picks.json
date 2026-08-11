@@ -1,52 +1,73 @@
 {
-  "date": "2026-08-10",
-  "generatedAt": "2026-08-10T11:20:00.486379+00:00",
+  "date": "2026-08-11",
+  "generatedAt": "2026-08-11T09:12:49.880511+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Gold Holds Above $4,400 Ahead of U.S. Inflation Data",
-      "url": "https://www.wsj.com/finance/commodities-futures/gold-flat-focus-on-u-s-july-payrolls-7759613a",
-      "summary": "Gold holds above $4,400 as markets await key U.S. inflation data release.",
-      "storyKey": "gold+inflation",
+      "title": "Low Volatility in Euro Vs Dollar Could Persist",
+      "url": "https://www.wsj.com/articles/yen-strengthens-slightly-amid-prospects-of-coordinated-intervention-09589883",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "P&G Agrees to Buy Supplements Maker for $3.8 Billion",
-      "url": "https://www.wsj.com/business/retail/p-g-agrees-to-buy-supplements-maker-for-3-8-billion-1f52e7bf",
-      "summary": "P&G agrees to buy a supplements maker for $3.8 billion.",
-      "storyKey": "pg+supplements",
+      "title": "Was His Home Connecticut or Florida? The Difference Is a $13 Million Tax Bill",
+      "url": "https://www.wsj.com/real-estate/luxury-homes/taxes-connecticut-texas-billionaire-estate-anderson-d168a577",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | China Presses a Weakness in America’s Tech Policy",
-      "url": "https://www.wsj.com/opinion/china-presses-a-weakness-in-americas-tech-policy-2391ed0e",
-      "summary": "Opinion argues China is exploiting a weakness in America's tech policy strategy.",
-      "storyKey": "china+policy+tech",
+      "title": "Opinion | The Next ‘Lab Leak’ Could Be AI",
+      "url": "https://www.wsj.com/opinion/the-next-lab-leak-could-be-ai-a774e763?mod",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Mark Zuckerberg Lays Out New AI Vision in 6,500-Word Essay",
-      "url": "https://www.wsj.com/tech/ai/mark-zuckerberg-lays-out-new-ai-vision-in-6-500-word-essay-966e9a56",
-      "summary": "Mark Zuckerberg lays out a new AI vision in a 6,500-word essay.",
-      "storyKey": "ai+essay+zuckerberg",
+      "title": "Intel Increases Size of Stock Offering to Raise $20 Billion",
+      "url": "https://www.wsj.com/tech/intel-increases-size-of-stock-offering-to-raise-20-billion-0a32a534",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "Is an Average NFL Quarterback Worth $50 Million a Year?",
-      "url": "https://www.wsj.com/sports/football/baker-mayfield-contract-buccaneers-121927d0",
-      "summary": "Column examines whether an average NFL quarterback is worth $50 million annually.",
-      "storyKey": "nfl+qb+salary",
+      "title": "Can Infantino Survive the Latest FIFA Crisis?",
+      "url": "https://www.wsj.com/sports/soccer/can-infantino-survive-the-latest-fifa-crisis-70eae1ff",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     }
   ],
-  "research": []
+  "research": [
+    {
+      "firm": "Morgan Stanley",
+      "show": "Thoughts on the Market",
+      "title": "How AI Could Simplify the Mortgage Market",
+      "url": "https://podcasts.apple.com/us/podcast/how-ai-could-simplify-the-mortgage-market/id1466686717?i=1000782049966&uo=4",
+      "published": "2026-08-10T20:30:00+00:00",
+      "kind": "podcast",
+      "duration": "8 min",
+      "summary": "Our U.S. Consumer Finance Analyst Jay Bacow and our Co-Head of Securitized Product Research Jay Bacow explain why AI can transform the way Americans shop for, manage and refinance their mortgages. Read more insights from Morgan Stanley."
+    },
+    {
+      "firm": "J.P. Morgan",
+      "show": "Making Sense",
+      "title": "Inside Blackstone’s hedge fund investing platform",
+      "url": "https://podcasts.apple.com/us/podcast/inside-blackstones-hedge-fund-investing-platform/id1456184829?i=1000782116637&uo=4",
+      "published": "2026-08-11T05:00:00+00:00",
+      "kind": "podcast",
+      "duration": "32 min",
+      "summary": "Hedge funds are back in focus as elevated stock-bond correlations challenge traditional portfolio construction. In this episode, Kumar Panja, EMEA head of Capital Advisory Group at J.P. Morgan, sits down with Joe Dowling, global head of Blackstone’s Multi-Asset Investing business (BXMA), and Riad Abrahams, head of Strategy, Risk and Quant Analytics in BXMA. Together, they discuss how Blackstone evaluates and partners with hedge fund managers, how they think about diversification versus “di-worsification” and why drawdown correlation matters as much as headline performance. They also explore the rise of managed accounts and seeding, the role of leverage and crowded positioning and how data and AI could reshape the next era of hedge fund edge."
+    }
+  ]
 }

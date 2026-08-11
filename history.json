@@ -1,22 +1,4 @@
 {
-  "2026-07-20": [
-    {
-      "title": "ECB to Hold Rates Steady as Rebound in Energy Prices Threatens to Revive Inflation",
-      "url": "https://www.wsj.com/pro/central-banking/ecb-to-hold-rates-steady-as-rebound-in-energy-prices-threatens-to-revive-inflation-5fd3d2be"
-    },
-    {
-      "title": "Koch-Owned Molex Agrees to $6.29 Billion Data-Center Cable Deal With Prysmian",
-      "url": "https://www.wsj.com/business/deals/koch-owned-molex-agrees-to-6-29-billion-data-center-cable-deal-with-prysmian-0f0c3d7e"
-    },
-    {
-      "title": "Opinion | The Tariff Danger in Graham’s Russia Sanctions Bill",
-      "url": "https://www.wsj.com/opinion/the-tariff-danger-in-grahams-russia-sanctions-bill-d1ea743c"
-    },
-    {
-      "title": "IBM CEO Arvind Krishna Has Nowhere to Hide From AI",
-      "url": "https://www.wsj.com/tech/ibm-ceo-arvind-krishna-has-nowhere-to-hide-from-ai-c9ff290f"
-    }
-  ],
   "2026-07-21": [
     {
       "title": "Oil Eases as Mediators Push for New U.S.-Iran Ceasefire",
@@ -422,12 +404,43 @@
       "storyKey": "nfl+qb+salary"
     }
   ],
+  "2026-08-11": [
+    {
+      "title": "Low Volatility in Euro Vs Dollar Could Persist",
+      "url": "https://www.wsj.com/articles/yen-strengthens-slightly-amid-prospects-of-coordinated-intervention-09589883",
+      "storyKey": null
+    },
+    {
+      "title": "Was His Home Connecticut or Florida? The Difference Is a $13 Million Tax Bill",
+      "url": "https://www.wsj.com/real-estate/luxury-homes/taxes-connecticut-texas-billionaire-estate-anderson-d168a577",
+      "storyKey": null
+    },
+    {
+      "title": "Opinion | The Next ‘Lab Leak’ Could Be AI",
+      "url": "https://www.wsj.com/opinion/the-next-lab-leak-could-be-ai-a774e763?mod",
+      "storyKey": null
+    },
+    {
+      "title": "Intel Increases Size of Stock Offering to Raise $20 Billion",
+      "url": "https://www.wsj.com/tech/intel-increases-size-of-stock-offering-to-raise-20-billion-0a32a534",
+      "storyKey": null
+    },
+    {
+      "title": "Can Infantino Survive the Latest FIFA Crisis?",
+      "url": "https://www.wsj.com/sports/soccer/can-infantino-survive-the-latest-fifa-crisis-70eae1ff",
+      "storyKey": null
+    }
+  ],
   "_research": {
     "2026-08-08": [
       "https://podcasts.apple.com/us/podcast/ais-new-rules-of-engagement/id1466686717?i=1000780942420&uo=4",
       "https://podcasts.apple.com/us/podcast/july-jobs-report-how-a-big-headline-miss-may-be/id1456184829?i=1000780933043&uo=4"
     ],
     "2026-08-09": [],
-    "2026-08-10": []
+    "2026-08-10": [],
+    "2026-08-11": [
+      "https://podcasts.apple.com/us/podcast/how-ai-could-simplify-the-mortgage-market/id1466686717?i=1000782049966&uo=4",
+      "https://podcasts.apple.com/us/podcast/inside-blackstones-hedge-fund-investing-platform/id1456184829?i=1000782116637&uo=4"
+    ]
   }
 }
