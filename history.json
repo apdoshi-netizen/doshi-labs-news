@@ -1,22 +1,4 @@
 {
-  "2026-07-21": [
-    {
-      "title": "Oil Eases as Mediators Push for New U.S.-Iran Ceasefire",
-      "url": "https://www.wsj.com/finance/commodities-futures/oil-edges-lower-amid-hopes-of-new-u-s-iran-ceasefire-892b1c0a"
-    },
-    {
-      "title": "Mitie Shares Soar on $4.2 Billion Takeover by OCS",
-      "url": "https://www.wsj.com/business/deals/mitie-group-agrees-to-be-acquired-by-ocs-in-4-2-billion-cash-deal-781236a1"
-    },
-    {
-      "title": "Opinion | The Everything Tax",
-      "url": "https://www.wsj.com/opinion/the-everything-tax-1bfa72fd"
-    },
-    {
-      "title": "Top American AI Execs Sound Alarm on Chinese Models",
-      "url": "https://www.wsj.com/tech/ai/top-american-ai-execs-sound-alarm-on-chinese-models-3c74f8c1"
-    }
-  ],
   "2026-07-22": [
     {
       "title": "Trump’s Tariffs Enter New Phase, Ending Months of Calm",
@@ -431,6 +413,33 @@
       "storyKey": "conflict+global+soccer"
     }
   ],
+  "2026-08-12": [
+    {
+      "title": "Hormuz Standoff Derails Oil Supply Recovery and Deepens Demand Slump, IEA Says",
+      "url": "https://www.wsj.com/business/energy-oil/hormuz-standoff-derails-oil-supply-recovery-and-deepens-demand-slump-iea-says-9c38e21b",
+      "storyKey": "hormuz+oil"
+    },
+    {
+      "title": "Blackstone, La Caisse to Buy 25% of Air Canada’s Aeroplan Loyalty Program",
+      "url": "https://www.wsj.com/business/blackstone-la-caisse-to-buy-25-of-air-canadas-aeroplan-loyalty-program-8831ca72",
+      "storyKey": "aeroplan+blackstone"
+    },
+    {
+      "title": "Opinion | The GAO Precedent for Fed Independence",
+      "url": "https://www.wsj.com/opinion/the-gao-precedent-for-fed-independence-b7b37cc4",
+      "storyKey": "fed+gao"
+    },
+    {
+      "title": "Sony Group, TSMC to Form $4.7 Billion Image-Sensor Joint Venture",
+      "url": "https://www.wsj.com/tech/sony-group-tsmc-to-form-4-7-billion-image-sensor-joint-venture-e6509c29",
+      "storyKey": "sony+tsmc"
+    },
+    {
+      "title": "He’s College Football’s Biggest Villain—and Also Its Biggest Gamble",
+      "url": "https://www.wsj.com/sports/football/lane-kiffin-lsu-77198334",
+      "storyKey": "college+football+villain"
+    }
+  ],
   "_research": {
     "2026-08-08": [
       "https://podcasts.apple.com/us/podcast/ais-new-rules-of-engagement/id1466686717?i=1000780942420&uo=4",
@@ -441,6 +450,10 @@
     "2026-08-11": [
       "https://podcasts.apple.com/us/podcast/how-ai-could-simplify-the-mortgage-market/id1466686717?i=1000782049966&uo=4",
       "https://podcasts.apple.com/us/podcast/inside-blackstones-hedge-fund-investing-platform/id1456184829?i=1000782116637&uo=4"
+    ],
+    "2026-08-12": [
+      "https://podcasts.apple.com/us/podcast/show-me-the-money-market-tells-companies/id1466686717?i=1000782808452&uo=4",
+      "https://www.jpmorgan.com/insights/markets-and-economy/economy/fewer-federal-reserve-meetings-under-kevin-warsh-what-it-could-mean-for-investors"
     ]
   }
 }

@@ -1,50 +1,50 @@
 {
-  "date": "2026-08-11",
-  "generatedAt": "2026-08-11T11:03:05.702358+00:00",
+  "date": "2026-08-12",
+  "generatedAt": "2026-08-12T11:09:26.217571+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Dollar Hits 7-Week Low After Weak U.S. Jobs Data",
-      "url": "https://www.wsj.com/finance/currencies/nikkei-falls-0-7-dragged-by-chip-related-stocks-f3f924b2",
-      "summary": "Dollar hits seven-week low after weak U.S. jobs data raises Fed rate-cut expectations.",
-      "storyKey": "data+dollar+jobs",
+      "title": "Hormuz Standoff Derails Oil Supply Recovery and Deepens Demand Slump, IEA Says",
+      "url": "https://www.wsj.com/business/energy-oil/hormuz-standoff-derails-oil-supply-recovery-and-deepens-demand-slump-iea-says-9c38e21b",
+      "summary": "IEA warns Hormuz Strait standoff derails oil supply recovery and deepens global demand slump.",
+      "storyKey": "hormuz+oil",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Nvidia, Wall Street Firms Strike AI Financing Deal Targeting $500 Billion",
-      "url": "https://www.wsj.com/business/deals/nvidia-wall-street-firms-strike-ai-financing-deal-targeting-500-billion-c50377db",
-      "summary": "Nvidia and Wall Street firms strike AI financing deal targeting $500 billion in investment.",
-      "storyKey": "ai+financing+nvidia",
+      "title": "Blackstone, La Caisse to Buy 25% of Air Canada’s Aeroplan Loyalty Program",
+      "url": "https://www.wsj.com/business/blackstone-la-caisse-to-buy-25-of-air-canadas-aeroplan-loyalty-program-8831ca72",
+      "summary": "Blackstone and La Caisse to acquire 25% stake in Air Canada’s Aeroplan loyalty program.",
+      "storyKey": "aeroplan+blackstone",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Lower Drug Prices Without Killing Innovation",
-      "url": "https://www.wsj.com/opinion/lower-drug-prices-without-killing-innovation-303dd329",
-      "summary": "Opinion argues for lowering drug prices without stifling pharmaceutical innovation.",
-      "storyKey": "drug+innovation+pricing",
+      "title": "Opinion | The GAO Precedent for Fed Independence",
+      "url": "https://www.wsj.com/opinion/the-gao-precedent-for-fed-independence-b7b37cc4",
+      "summary": "Column argues GAO precedent supports preserving Federal Reserve’s independence from political interference.",
+      "storyKey": "fed+gao",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Intel Increases Size of Stock Offering to Raise $20 Billion",
-      "url": "https://www.wsj.com/tech/intel-increases-size-of-stock-offering-to-raise-20-billion-0a32a534",
-      "summary": "Intel increases size of stock offering to raise $20 billion for expansion.",
-      "storyKey": "intel+offering+stock",
+      "title": "Sony Group, TSMC to Form $4.7 Billion Image-Sensor Joint Venture",
+      "url": "https://www.wsj.com/tech/sony-group-tsmc-to-form-4-7-billion-image-sensor-joint-venture-e6509c29",
+      "summary": "Sony Group and TSMC form $4.7 billion joint venture to produce image sensors.",
+      "storyKey": "sony+tsmc",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "Global Soccer Is Now Openly at War With Itself",
-      "url": "https://www.wsj.com/sports/soccer/fifa-gianni-infantino-c3cefd26",
-      "summary": "Global soccer faces internal war amid governance clashes and power struggles.",
-      "storyKey": "conflict+global+soccer",
+      "title": "He’s College Football’s Biggest Villain—and Also Its Biggest Gamble",
+      "url": "https://www.wsj.com/sports/football/lane-kiffin-lsu-77198334",
+      "summary": "Profile of college football’s biggest villain, framed as also its biggest gamble.",
+      "storyKey": "college+football+villain",
       "source": "WSJ"
     }
   ],
@@ -52,22 +52,22 @@
     {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
-      "title": "How AI Could Simplify the Mortgage Market",
-      "url": "https://podcasts.apple.com/us/podcast/how-ai-could-simplify-the-mortgage-market/id1466686717?i=1000782049966&uo=4",
-      "published": "2026-08-10T20:30:00+00:00",
+      "title": "‘Show Me the Money,’ Market Tells Companies",
+      "url": "https://podcasts.apple.com/us/podcast/show-me-the-money-market-tells-companies/id1466686717?i=1000782808452&uo=4",
+      "published": "2026-08-11T20:00:00+00:00",
       "kind": "podcast",
-      "duration": "8 min",
-      "summary": "Our U.S. Consumer Finance Analyst Jay Bacow and our Co-Head of Securitized Product Research Jay Bacow explain why AI can transform the way Americans shop for, manage and refinance their mortgages. Read more insights from Morgan Stanley."
+      "duration": "5 min",
+      "summary": "Our CIO and Chief U.S. Equity Strategist Mike Wilson discusses a new market cycle, in which investors are demanding more than just growth from companies. Read more insights from Morgan Stanley."
     },
     {
       "firm": "J.P. Morgan",
-      "show": "Making Sense",
-      "title": "Inside Blackstone’s hedge fund investing platform",
-      "url": "https://podcasts.apple.com/us/podcast/inside-blackstones-hedge-fund-investing-platform/id1456184829?i=1000782116637&uo=4",
-      "published": "2026-08-11T05:00:00+00:00",
-      "kind": "podcast",
-      "duration": "32 min",
-      "summary": "Hedge funds are back in focus as elevated stock-bond correlations challenge traditional portfolio construction. In this episode, Kumar Panja, EMEA head of Capital Advisory Group at J.P. Morgan, sits down with Joe Dowling, global head of Blackstone’s Multi-Asset Investing business (BXMA), and Riad Abrahams, head of Strategy, Risk and Quant Analytics in BXMA. Together, they discuss how Blackstone evaluates and partners with hedge fund managers, how they think about diversification versus “di-worsification” and why drawdown correlation matters as much as headline performance. They also explore the rise of managed accounts and seeding, the role of leverage and crowded positioning and how data and AI could reshape the next era of hedge fund edge."
+      "show": null,
+      "title": "Fewer Fed Meetings Under Kevin Warsh? What a Reduced FOMC Calendar Could Mean for Investors",
+      "url": "https://www.jpmorgan.com/insights/markets-and-economy/economy/fewer-federal-reserve-meetings-under-kevin-warsh-what-it-could-mean-for-investors",
+      "published": "2026-08-11T15:14:13.003000-04:00",
+      "kind": "article",
+      "duration": null,
+      "summary": "Reports say Fed Chair Kevin Warsh is considering fewer FOMC meetings. Here’s what that could mean for Fed communication, market volatility and investor portfolios."
     }
   ]
 }
