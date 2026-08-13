@@ -1,22 +1,4 @@
 {
-  "2026-07-22": [
-    {
-      "title": "Trump’s Tariffs Enter New Phase, Ending Months of Calm",
-      "url": "https://www.wsj.com/economy/trade/trumps-tariffs-enter-new-phase-ending-months-of-calm-65f33e3e"
-    },
-    {
-      "title": "Prologis Makes Final $18.7 Billion Bid to Take Over U.K.’s Segro",
-      "url": "https://www.wsj.com/business/prologis-makes-final-18-7-billion-bid-to-take-over-segro-e6de3ed5"
-    },
-    {
-      "title": "Opinion | Trade Deficit Derangement Syndrome",
-      "url": "https://www.wsj.com/opinion/trade-deficit-derangement-syndrome-fe3f37d6"
-    },
-    {
-      "title": "Exclusive | OpenAI’s Planned Cloud Spending Hits $750 Billion as Computing Efforts Ramp Up",
-      "url": "https://www.wsj.com/tech/openais-planned-cloud-spending-hits-750-billion-as-computing-efforts-ramp-up-6ac3f58a"
-    }
-  ],
   "2026-07-23": [
     {
       "title": "Global Bond Yields Jump as Oil Prices Surge, Inflation Fears Mount",
@@ -440,6 +422,33 @@
       "storyKey": "college+football+villain"
     }
   ],
+  "2026-08-13": [
+    {
+      "title": "Exclusive | Mexico Pushes for Lower Auto Tariffs in Trade Talks",
+      "url": "https://www.wsj.com/economy/trade/mexico-pushes-for-lower-auto-tariffs-in-trade-talks-c7ade480",
+      "storyKey": null
+    },
+    {
+      "title": "America’s Mortgage King Lost $600 Million and Needed a Rescue",
+      "url": "https://www.wsj.com/finance/americas-mortgage-king-lost-600-million-and-needed-a-rescue-ab39465f",
+      "storyKey": null
+    },
+    {
+      "title": "Opinion | Zhu Rongji, and What China Might Have Been",
+      "url": "https://www.wsj.com/opinion/zhu-rongji-china-reform-economy-93b0a8f1",
+      "storyKey": null
+    },
+    {
+      "title": "German Robotics Startup Agile Robots Set to Double Revenue This Year",
+      "url": "https://www.wsj.com/tech/ai/german-robotics-startup-agile-robots-set-to-double-revenue-this-year-6d0a27dc",
+      "storyKey": null
+    },
+    {
+      "title": "Bob Iger and Joshua Kushner Are Buying the Lakers in a Record $12.5 Billion Deal",
+      "url": "https://www.wsj.com/sports/basketball/lakers-iger-kushner-walter-d63f33ad",
+      "storyKey": null
+    }
+  ],
   "_research": {
     "2026-08-08": [
       "https://podcasts.apple.com/us/podcast/ais-new-rules-of-engagement/id1466686717?i=1000780942420&uo=4",
@@ -454,6 +463,11 @@
     "2026-08-12": [
       "https://podcasts.apple.com/us/podcast/show-me-the-money-market-tells-companies/id1466686717?i=1000782808452&uo=4",
       "https://www.jpmorgan.com/insights/markets-and-economy/economy/fewer-federal-reserve-meetings-under-kevin-warsh-what-it-could-mean-for-investors"
+    ],
+    "2026-08-13": [
+      "https://podcasts.apple.com/us/podcast/what-the-us-japan-currency-intervention-means-for-the/id948913991?i=1000783047586&uo=4",
+      "https://podcasts.apple.com/us/podcast/the-potential-way-forward-for-the-u-s-iran-standoff/id1466686717?i=1000783024828&uo=4",
+      "https://podcasts.apple.com/us/podcast/the-year-of-the-trojan-fire-horse/id1367963156?i=1000782963865&uo=4"
     ]
   }
 }
