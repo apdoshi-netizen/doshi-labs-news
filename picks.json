@@ -1,41 +1,41 @@
 {
   "date": "2026-08-13",
-  "generatedAt": "2026-08-13T09:32:36.134960+00:00",
+  "generatedAt": "2026-08-13T11:09:58.429388+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
       "title": "Exclusive | Mexico Pushes for Lower Auto Tariffs in Trade Talks",
       "url": "https://www.wsj.com/economy/trade/mexico-pushes-for-lower-auto-tariffs-in-trade-talks-c7ade480",
-      "summary": "",
-      "storyKey": null,
+      "summary": "Mexico pushes for lower auto tariffs in ongoing U.S. trade talks, a fresh policy development.",
+      "storyKey": "auto+mexico+tariffs",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "America’s Mortgage King Lost $600 Million and Needed a Rescue",
-      "url": "https://www.wsj.com/finance/americas-mortgage-king-lost-600-million-and-needed-a-rescue-ab39465f",
-      "summary": "",
-      "storyKey": null,
+      "title": "Cisco Reports Sharp Jump in Profit as AI Orders Roll In",
+      "url": "https://www.wsj.com/business/earnings/cisco-csco-earnings-report-4q-2026-e82db3b4",
+      "summary": "Cisco reports sharp profit jump driven by surging AI-related orders.",
+      "storyKey": "cisco+earnings",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Zhu Rongji, and What China Might Have Been",
-      "url": "https://www.wsj.com/opinion/zhu-rongji-china-reform-economy-93b0a8f1",
-      "summary": "",
-      "storyKey": null,
+      "title": "Opinion | What Problems Should AI Be Solving?",
+      "url": "https://www.wsj.com/opinion/what-problems-should-ai-be-solving-5ec7240c",
+      "summary": "Op-ed argues about which real-world problems AI technology should actually solve.",
+      "storyKey": "ai+policy+problems",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "German Robotics Startup Agile Robots Set to Double Revenue This Year",
-      "url": "https://www.wsj.com/tech/ai/german-robotics-startup-agile-robots-set-to-double-revenue-this-year-6d0a27dc",
-      "summary": "",
-      "storyKey": null,
+      "title": "Exclusive | DeepMind’s Hassabis Pitched AI-Oversight Body Before Shake-Up",
+      "url": "https://www.wsj.com/tech/ai/deepminds-hassabis-pitched-ai-oversight-body-before-shake-up-e25b3f71",
+      "summary": "DeepMind's Hassabis had pitched an AI-oversight body before a recent leadership shake-up.",
+      "storyKey": "deepmind+oversight",
       "source": "WSJ"
     },
     {
@@ -43,8 +43,8 @@
       "label": "Sports",
       "title": "Bob Iger and Joshua Kushner Are Buying the Lakers in a Record $12.5 Billion Deal",
       "url": "https://www.wsj.com/sports/basketball/lakers-iger-kushner-walter-d63f33ad",
-      "summary": "",
-      "storyKey": null,
+      "summary": "Bob Iger and Joshua Kushner buy the Lakers in a record $12.5 billion deal.",
+      "storyKey": "lakers+sale",
       "source": "WSJ"
     }
   ],
