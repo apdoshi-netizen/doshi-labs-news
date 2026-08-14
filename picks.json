@@ -1,83 +1,73 @@
 {
-  "date": "2026-08-13",
-  "generatedAt": "2026-08-13T11:09:58.429388+00:00",
+  "date": "2026-08-14",
+  "generatedAt": "2026-08-14T09:19:52.037659+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Exclusive | Mexico Pushes for Lower Auto Tariffs in Trade Talks",
-      "url": "https://www.wsj.com/economy/trade/mexico-pushes-for-lower-auto-tariffs-in-trade-talks-c7ade480",
-      "summary": "Mexico pushes for lower auto tariffs in ongoing U.S. trade talks, a fresh policy development.",
-      "storyKey": "auto+mexico+tariffs",
+      "title": "Cool Inflation Data Propels Stocks to Fresh Records",
+      "url": "https://www.wsj.com/finance/stocks/cool-inflation-data-propels-stocks-to-fresh-records-cf7e46a9",
+      "summary": "Cooler-than-expected inflation data pushed stocks to record highs, easing rate-hike worries across markets.",
+      "storyKey": "cpi+inflation+rally",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Cisco Reports Sharp Jump in Profit as AI Orders Roll In",
-      "url": "https://www.wsj.com/business/earnings/cisco-csco-earnings-report-4q-2026-e82db3b4",
-      "summary": "Cisco reports sharp profit jump driven by surging AI-related orders.",
-      "storyKey": "cisco+earnings",
+      "title": "Charter Gets Final State Approval for $21.9 Billion Cox Deal",
+      "url": "https://www.wsj.com/business/telecom/charter-gets-final-state-approval-for-21-9-billion-cox-deal-ee47bd7c",
+      "summary": "Charter Communications received final state approval for its $21.9 billion acquisition of Cox's cable assets.",
+      "storyKey": "charter+cox",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | What Problems Should AI Be Solving?",
-      "url": "https://www.wsj.com/opinion/what-problems-should-ai-be-solving-5ec7240c",
-      "summary": "Op-ed argues about which real-world problems AI technology should actually solve.",
-      "storyKey": "ai+policy+problems",
+      "title": "Opinion | Bond Investors Want the Fed to Raise Rates",
+      "url": "https://www.wsj.com/opinion/bond-investors-want-the-fed-to-raise-rates-0f2ac040",
+      "summary": "Column argues bond investors actually want the Fed to raise interest rates, not cut them.",
+      "storyKey": "bond+fed+rates",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Exclusive | DeepMind’s Hassabis Pitched AI-Oversight Body Before Shake-Up",
-      "url": "https://www.wsj.com/tech/ai/deepminds-hassabis-pitched-ai-oversight-body-before-shake-up-e25b3f71",
-      "summary": "DeepMind's Hassabis had pitched an AI-oversight body before a recent leadership shake-up.",
-      "storyKey": "deepmind+oversight",
+      "title": "DeepSeek Lifts AI Model Prices Fourfold",
+      "url": "https://www.wsj.com/tech/ai/deepseek-lifts-ai-model-prices-fourfold-fbe893e7",
+      "summary": "DeepSeek raised prices for its AI models fourfold, signaling shifting economics in AI competition.",
+      "storyKey": "deepseek+pricing",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "Bob Iger and Joshua Kushner Are Buying the Lakers in a Record $12.5 Billion Deal",
-      "url": "https://www.wsj.com/sports/basketball/lakers-iger-kushner-walter-d63f33ad",
-      "summary": "Bob Iger and Joshua Kushner buy the Lakers in a record $12.5 billion deal.",
-      "storyKey": "lakers+sale",
+      "title": "How the WNBA Season Spiraled Into Absolute Chaos",
+      "url": "https://www.wsj.com/sports/basketball/how-the-wnba-season-spiraled-into-absolute-chaos-0c555e5d",
+      "summary": "Column examines how the WNBA season descended into turmoil amid mounting off-court controversies.",
+      "storyKey": "chaos+wnba",
       "source": "WSJ"
     }
   ],
   "research": [
     {
       "firm": "Goldman Sachs",
-      "show": "Exchanges",
-      "title": "What the US-Japan Currency Intervention Means for the Yen, Rates, and the Dollar",
-      "url": "https://podcasts.apple.com/us/podcast/what-the-us-japan-currency-intervention-means-for-the/id948913991?i=1000783047586&uo=4",
-      "published": "2026-08-13T01:00:00+00:00",
+      "show": "The Markets",
+      "title": "How Inflation and Fiscal Policy Are Driving US Treasury Markets",
+      "url": "https://podcasts.apple.com/us/podcast/how-inflation-and-fiscal-policy-are-driving-us/id1683802600?i=1000783245502&uo=4",
+      "published": "2026-08-14T04:00:00+00:00",
       "kind": "podcast",
-      "duration": "27 min",
-      "summary": "The US and Japan coordinated on the biggest currency market intervention in 15 years, helping to stabilize a weakening yen. Karen Fishman, senior FX strategist in Goldman Sachs Research, and Praneet Shah, global head of FX options trading in Global Banking & Markets, discuss why the US joined the action, why the yen still appears undervalued, and whether another intervention might follow."
+      "duration": "12 min",
+      "summary": "With a month to go until the Federal Reserve’s next rate decision, inflation is increasingly in focus for the US bond market, says Mike Mitchell, head of US Treasury and Inflation Trading in Goldman Sachs Global Banking & Markets. He explains why recent inflation data suggests the Fed could continue to hold rates steady in September, and how Treasury market supply, corporate credit issuance, and fiscal policy concerns are keeping pressure on longer-maturity Treasuries."
     },
     {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
-      "title": "The Potential Way Forward for the U.S.-Iran Standoff",
-      "url": "https://podcasts.apple.com/us/podcast/the-potential-way-forward-for-the-u-s-iran-standoff/id1466686717?i=1000783024828&uo=4",
-      "published": "2026-08-12T20:30:00+00:00",
+      "title": "Robotaxis’ $1 Trillion Opportunity",
+      "url": "https://podcasts.apple.com/us/podcast/robotaxis-%241-trillion-opportunity/id1466686717?i=1000783199920&uo=4",
+      "published": "2026-08-13T20:30:00+00:00",
       "kind": "podcast",
-      "duration": "4 min",
-      "summary": "The potential path to a durable U.S.–Iran agreement has twists and obstacles ahead. Our Head of U.S. Public Policy Research Ariana Salvatore discusses current negotiations and the impact of recent developments for investors. Disclaimer: Important note regarding economic sanctions. This report references jurisdictions which may be the subject of economic sanctions. Readers are solely responsible for ensuring that their investment activities are carried out in compliance with applicable laws. Read more insights from Morgan Stanley."
-    },
-    {
-      "firm": "J.P. Morgan",
-      "show": "Eye on the Market",
-      "title": "The Year of the Trojan Fire Horse",
-      "url": "https://podcasts.apple.com/us/podcast/the-year-of-the-trojan-fire-horse/id1367963156?i=1000782963865&uo=4",
-      "published": "2026-08-12T13:11:50+00:00",
-      "kind": "podcast",
-      "duration": "20 min",
-      "summary": "The Year of the Trojan Fire Horse: China’s imbalanced economy and unrelenting mercantilism"
+      "duration": "13 min",
+      "summary": "Robotaxis are accelerating along the road to commercial viability. Auto and Shared Mobility Analysts Andrew Percoco and Tim Hsiao discuss what this rapid development means for global investors. Read more insights from Morgan Stanley."
     }
   ]
 }

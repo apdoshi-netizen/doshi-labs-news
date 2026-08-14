@@ -1,22 +1,4 @@
 {
-  "2026-07-23": [
-    {
-      "title": "Global Bond Yields Jump as Oil Prices Surge, Inflation Fears Mount",
-      "url": "https://www.wsj.com/economy/central-banking/global-bond-yields-jump-as-oil-prices-surge-inflation-fears-mount-10715801"
-    },
-    {
-      "title": "Nestle Sells Half of Waters Unit to Platinum Equity in $3.4 Billion Joint-Venture Deal",
-      "url": "https://www.wsj.com/business/deals/nestle-to-offload-half-of-waters-business-in-joint-venture-with-platinum-equity-4dfd3da6"
-    },
-    {
-      "title": "Opinion | The FDA Discovers the Power of Peptides",
-      "url": "https://www.wsj.com/opinion/the-fda-discovers-the-power-of-peptides-b153f39a"
-    },
-    {
-      "title": "Google Fined $1 Billion Under EU’s Tech Antitrust Rules",
-      "url": "https://www.wsj.com/tech/google-fined-1-02-billion-under-eus-tech-antitrust-rules-7e8ae1fb"
-    }
-  ],
   "2026-07-24": [
     {
       "title": "Trump Administration Announces New Tariffs on 60 Countries",
@@ -449,6 +431,33 @@
       "storyKey": "lakers+sale"
     }
   ],
+  "2026-08-14": [
+    {
+      "title": "Cool Inflation Data Propels Stocks to Fresh Records",
+      "url": "https://www.wsj.com/finance/stocks/cool-inflation-data-propels-stocks-to-fresh-records-cf7e46a9",
+      "storyKey": "cpi+inflation+rally"
+    },
+    {
+      "title": "Charter Gets Final State Approval for $21.9 Billion Cox Deal",
+      "url": "https://www.wsj.com/business/telecom/charter-gets-final-state-approval-for-21-9-billion-cox-deal-ee47bd7c",
+      "storyKey": "charter+cox"
+    },
+    {
+      "title": "Opinion | Bond Investors Want the Fed to Raise Rates",
+      "url": "https://www.wsj.com/opinion/bond-investors-want-the-fed-to-raise-rates-0f2ac040",
+      "storyKey": "bond+fed+rates"
+    },
+    {
+      "title": "DeepSeek Lifts AI Model Prices Fourfold",
+      "url": "https://www.wsj.com/tech/ai/deepseek-lifts-ai-model-prices-fourfold-fbe893e7",
+      "storyKey": "deepseek+pricing"
+    },
+    {
+      "title": "How the WNBA Season Spiraled Into Absolute Chaos",
+      "url": "https://www.wsj.com/sports/basketball/how-the-wnba-season-spiraled-into-absolute-chaos-0c555e5d",
+      "storyKey": "chaos+wnba"
+    }
+  ],
   "_research": {
     "2026-08-08": [
       "https://podcasts.apple.com/us/podcast/ais-new-rules-of-engagement/id1466686717?i=1000780942420&uo=4",
@@ -468,6 +477,10 @@
       "https://podcasts.apple.com/us/podcast/what-the-us-japan-currency-intervention-means-for-the/id948913991?i=1000783047586&uo=4",
       "https://podcasts.apple.com/us/podcast/the-potential-way-forward-for-the-u-s-iran-standoff/id1466686717?i=1000783024828&uo=4",
       "https://podcasts.apple.com/us/podcast/the-year-of-the-trojan-fire-horse/id1367963156?i=1000782963865&uo=4"
+    ],
+    "2026-08-14": [
+      "https://podcasts.apple.com/us/podcast/how-inflation-and-fiscal-policy-are-driving-us/id1683802600?i=1000783245502&uo=4",
+      "https://podcasts.apple.com/us/podcast/robotaxis-%241-trillion-opportunity/id1466686717?i=1000783199920&uo=4"
     ]
   }
 }
