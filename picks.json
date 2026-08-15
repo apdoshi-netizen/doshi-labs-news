@@ -1,73 +1,52 @@
 {
-  "date": "2026-08-14",
-  "generatedAt": "2026-08-14T11:07:33.897389+00:00",
+  "date": "2026-08-15",
+  "generatedAt": "2026-08-15T08:44:23.226379+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "BP, XRG Partner on Venezuelan Offshore Gas Development as Oil Majors Tentatively Return",
-      "url": "https://www.wsj.com/business/energy-oil/bp-xrg-partner-on-venezuelan-offshore-gas-development-97559444",
-      "summary": "",
-      "storyKey": null,
+      "title": "Inflation Cooled in July but Remains Above Fed Target",
+      "url": "https://www.wsj.com/video/inflation-cooled-in-july-but-remains-above-fed-target/616CA2E0-02B1-4F42-9DAF-4B08C66E649B",
+      "summary": "July CPI cooled but stayed above Fed's target, shaping rate-cut expectations ahead of Fed minutes.",
+      "storyKey": "cpi+fed+inflation",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Exclusive | A Waterfront Home in a Gated Miami Beach Community Sells for $51.5 Million",
-      "url": "https://www.wsj.com/real-estate/luxury-homes/hibiscus-island-miami-beach-home-4ee1699f",
-      "summary": "",
-      "storyKey": null,
+      "title": "Exclusive | Charlie Ergen Agrees to Take Controlling Stake in MobileX",
+      "url": "https://www.wsj.com/business/telecom/charlie-ergen-agrees-to-take-controlling-stake-in-mobilex-aedbc60f",
+      "summary": "Charlie Ergen agrees to take a controlling stake in wireless carrier MobileX, a new named deal.",
+      "storyKey": "ergen+mobilex",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Teddy Roosevelt and the NCAA Monopoly",
-      "url": "https://www.wsj.com/opinion/teddy-roosevelt-and-the-ncaa-monopoly-95cd658e?mod",
-      "summary": "",
-      "storyKey": null,
+      "title": "Opinion | Why Britain Is Shedding Millionaires",
+      "url": "https://www.wsj.com/opinion/why-britain-is-shedding-millionaires-c8c2b7cd",
+      "summary": "Op-ed examines why Britain is losing millionaires, a substantive economic policy argument.",
+      "storyKey": "britain+millionaires",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "DeepSeek Lifts AI Model Prices Fourfold",
-      "url": "https://www.wsj.com/tech/ai/deepseek-lifts-ai-model-prices-fourfold-fbe893e7",
-      "summary": "",
-      "storyKey": null,
+      "title": "Exclusive | Nvidia Downsizes Plans for $250 Billion Guarantee of OpenAI Data Center",
+      "url": "https://www.wsj.com/tech/nvidia-downsizes-plans-for-250-billion-guarantee-of-openai-data-center-b56c38d3",
+      "summary": "Nvidia downsizes its planned $250 billion guarantee for OpenAI's data center buildout.",
+      "storyKey": "datacenter+nvidia+openai",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The Lakers’ Owner Needed Cash. Then Came a $12.5 Billion Offer to Buy the Team.",
-      "url": "https://www.wsj.com/sports/basketball/lakers-mark-walter-joshua-kushner-bob-iger-0ceeea23",
-      "summary": "",
-      "storyKey": null,
+      "title": "The Baseball Season’s Greatest Mystery: What’s Wrong With Paul Skenes?",
+      "url": "https://www.wsj.com/sports/baseball/paul-skenes-pirates-efa97935",
+      "summary": "Feature investigates what's gone wrong with Pirates pitcher Paul Skenes this season.",
+      "storyKey": "baseball+skenes",
       "source": "WSJ"
     }
   ],
-  "research": [
-    {
-      "firm": "Goldman Sachs",
-      "show": "The Markets",
-      "title": "How Inflation and Fiscal Policy Are Driving US Treasury Markets",
-      "url": "https://podcasts.apple.com/us/podcast/how-inflation-and-fiscal-policy-are-driving-us/id1683802600?i=1000783245502&uo=4",
-      "published": "2026-08-14T04:00:00+00:00",
-      "kind": "podcast",
-      "duration": "12 min",
-      "summary": "With a month to go until the Federal Reserve’s next rate decision, inflation is increasingly in focus for the US bond market, says Mike Mitchell, head of US Treasury and Inflation Trading in Goldman Sachs Global Banking & Markets. He explains why recent inflation data suggests the Fed could continue to hold rates steady in September, and how Treasury market supply, corporate credit issuance, and fiscal policy concerns are keeping pressure on longer-maturity Treasuries."
-    },
-    {
-      "firm": "Morgan Stanley",
-      "show": "Thoughts on the Market",
-      "title": "Robotaxis’ $1 Trillion Opportunity",
-      "url": "https://podcasts.apple.com/us/podcast/robotaxis-%241-trillion-opportunity/id1466686717?i=1000783199920&uo=4",
-      "published": "2026-08-13T20:30:00+00:00",
-      "kind": "podcast",
-      "duration": "13 min",
-      "summary": "Robotaxis are accelerating along the road to commercial viability. Auto and Shared Mobility Analysts Andrew Percoco and Tim Hsiao discuss what this rapid development means for global investors. Read more insights from Morgan Stanley."
-    }
-  ]
+  "research": []
 }

@@ -1,22 +1,4 @@
 {
-  "2026-07-24": [
-    {
-      "title": "Trump Administration Announces New Tariffs on 60 Countries",
-      "url": "https://www.wsj.com/podcasts/whats-news/trump-administration-announces-new-tariffs-on-60-countries/6869b83b-7ba4-4f20-b0e1-24804ec316bb"
-    },
-    {
-      "title": "HSBC to Sell Singapore Insurance Business to Allianz for $2.1 Billion",
-      "url": "https://www.wsj.com/finance/hsbc-to-sell-singapore-insurance-business-to-allianz-for-2-1-billion-05318091"
-    },
-    {
-      "title": "Opinion | The ‘Surprise Billing’ Racket",
-      "url": "https://www.wsj.com/opinion/surprise-billing-act-health-insurance-providers-15c1eadb"
-    },
-    {
-      "title": "Exclusive | AMD and Anthropic Sign Major Chips-and-Investment Deal",
-      "url": "https://www.wsj.com/tech/ai/amd-and-anthropic-sign-major-chips-and-investment-deal-4adfdc45"
-    }
-  ],
   "2026-07-25": [
     {
       "title": "Trump Unveils New Tariffs Designed to Withstand Legal Scrutiny",
@@ -458,6 +440,33 @@
       "storyKey": null
     }
   ],
+  "2026-08-15": [
+    {
+      "title": "Inflation Cooled in July but Remains Above Fed Target",
+      "url": "https://www.wsj.com/video/inflation-cooled-in-july-but-remains-above-fed-target/616CA2E0-02B1-4F42-9DAF-4B08C66E649B",
+      "storyKey": "cpi+fed+inflation"
+    },
+    {
+      "title": "Exclusive | Charlie Ergen Agrees to Take Controlling Stake in MobileX",
+      "url": "https://www.wsj.com/business/telecom/charlie-ergen-agrees-to-take-controlling-stake-in-mobilex-aedbc60f",
+      "storyKey": "ergen+mobilex"
+    },
+    {
+      "title": "Opinion | Why Britain Is Shedding Millionaires",
+      "url": "https://www.wsj.com/opinion/why-britain-is-shedding-millionaires-c8c2b7cd",
+      "storyKey": "britain+millionaires"
+    },
+    {
+      "title": "Exclusive | Nvidia Downsizes Plans for $250 Billion Guarantee of OpenAI Data Center",
+      "url": "https://www.wsj.com/tech/nvidia-downsizes-plans-for-250-billion-guarantee-of-openai-data-center-b56c38d3",
+      "storyKey": "datacenter+nvidia+openai"
+    },
+    {
+      "title": "The Baseball Season’s Greatest Mystery: What’s Wrong With Paul Skenes?",
+      "url": "https://www.wsj.com/sports/baseball/paul-skenes-pirates-efa97935",
+      "storyKey": "baseball+skenes"
+    }
+  ],
   "_research": {
     "2026-08-08": [
       "https://podcasts.apple.com/us/podcast/ais-new-rules-of-engagement/id1466686717?i=1000780942420&uo=4",
@@ -481,6 +490,7 @@
     "2026-08-14": [
       "https://podcasts.apple.com/us/podcast/how-inflation-and-fiscal-policy-are-driving-us/id1683802600?i=1000783245502&uo=4",
       "https://podcasts.apple.com/us/podcast/robotaxis-%241-trillion-opportunity/id1466686717?i=1000783199920&uo=4"
-    ]
+    ],
+    "2026-08-15": []
   }
 }
