@@ -1,41 +1,41 @@
 {
   "date": "2026-08-15",
-  "generatedAt": "2026-08-15T08:44:23.226379+00:00",
+  "generatedAt": "2026-08-15T10:36:49.953757+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Inflation Cooled in July but Remains Above Fed Target",
-      "url": "https://www.wsj.com/video/inflation-cooled-in-july-but-remains-above-fed-target/616CA2E0-02B1-4F42-9DAF-4B08C66E649B",
-      "summary": "July CPI cooled but stayed above Fed's target, shaping rate-cut expectations ahead of Fed minutes.",
-      "storyKey": "cpi+fed+inflation",
+      "title": "The Iran War Is Now About Who Blinks First Under Economic Pressure",
+      "url": "https://www.wsj.com/world/middle-east/iran-war-economic-pressure-738b52cf",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Exclusive | Charlie Ergen Agrees to Take Controlling Stake in MobileX",
-      "url": "https://www.wsj.com/business/telecom/charlie-ergen-agrees-to-take-controlling-stake-in-mobilex-aedbc60f",
-      "summary": "Charlie Ergen agrees to take a controlling stake in wireless carrier MobileX, a new named deal.",
-      "storyKey": "ergen+mobilex",
+      "title": "Why Is Hunter Biden on a Media Blitz?",
+      "url": "https://www.wsj.com/politics/hunter-biden-online-public-presence-e45b5b4c",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Why Britain Is Shedding Millionaires",
-      "url": "https://www.wsj.com/opinion/why-britain-is-shedding-millionaires-c8c2b7cd",
-      "summary": "Op-ed examines why Britain is losing millionaires, a substantive economic policy argument.",
-      "storyKey": "britain+millionaires",
+      "title": "Opinion | Want Concierge Medicine? AI Can Deliver It",
+      "url": "https://www.wsj.com/opinion/want-concierge-medicine-ai-can-deliver-it-102e731a",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Exclusive | Nvidia Downsizes Plans for $250 Billion Guarantee of OpenAI Data Center",
-      "url": "https://www.wsj.com/tech/nvidia-downsizes-plans-for-250-billion-guarantee-of-openai-data-center-b56c38d3",
-      "summary": "Nvidia downsizes its planned $250 billion guarantee for OpenAI's data center buildout.",
-      "storyKey": "datacenter+nvidia+openai",
+      "title": "Exclusive | U.S. Urges Apple Not to Buy Chinese Memory Chips",
+      "url": "https://www.wsj.com/tech/apple-china-memory-chip-plan-57773a83",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
@@ -43,10 +43,31 @@
       "label": "Sports",
       "title": "The Baseball Season’s Greatest Mystery: What’s Wrong With Paul Skenes?",
       "url": "https://www.wsj.com/sports/baseball/paul-skenes-pirates-efa97935",
-      "summary": "Feature investigates what's gone wrong with Pirates pitcher Paul Skenes this season.",
-      "storyKey": "baseball+skenes",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     }
   ],
-  "research": []
+  "research": [
+    {
+      "firm": "Morgan Stanley",
+      "show": "Thoughts on the Market",
+      "title": "The UK Has a Better Story to Tell",
+      "url": "https://podcasts.apple.com/us/podcast/the-uk-has-a-better-story-to-tell/id1466686717?i=1000783367763&uo=4",
+      "published": "2026-08-14T20:30:00+00:00",
+      "kind": "podcast",
+      "duration": "5 min",
+      "summary": "Our Global Head of Fixed Income Research Andrew Sheets examines why investors might be overlooking the stability and performance of UK assets, despite persistent negative sentiment. Read more insights from Morgan Stanley."
+    },
+    {
+      "firm": "J.P. Morgan",
+      "show": "Making Sense",
+      "title": "CPI, inflation & IMAX: Why “fun” still feels expensive",
+      "url": "https://podcasts.apple.com/us/podcast/cpi-inflation-imax-why-fun-still-feels-expensive/id1456184829?i=1000783346568&uo=4",
+      "published": "2026-08-14T16:50:21+00:00",
+      "kind": "podcast",
+      "duration": "21 min",
+      "summary": "Inflation is cooling — at least on paper — so why does a night out still feel shockingly expensive? In this episode of J.P. Morgan’s Making Sense, U.S. rates strategist Harry Downie is joined by senior economist Mike Hanson and David Karnovsky, head of the U.S. Media, Entertainment and Advertising research team, to unpack the latest CPI report through the lens of “funflation” — rising costs tied to leisure and entertainment. They discuss what the CPI print says about the broader inflation trend, why prices can remain high even as inflation slows and why services inflation is still sticky. The conversation then shifts to premium entertainment, using IMAX and the current blockbuster hit The Odyssey to explore what’s driving leisure pricing trends today."
+    }
+  ]
 }
