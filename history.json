@@ -1,22 +1,4 @@
 {
-  "2026-07-25": [
-    {
-      "title": "Trump Unveils New Tariffs Designed to Withstand Legal Scrutiny",
-      "url": "https://www.wsj.com/economy/trade/trump-unveils-new-tariffs-designed-to-withstand-legal-scrutiny-21ef4093"
-    },
-    {
-      "title": "Exclusive | Elon Musk’s Boring Company Eyes $20 Billion Valuation in New Funding Round",
-      "url": "https://www.wsj.com/business/elon-musks-boring-company-eyes-20-billion-valuation-in-new-funding-round-9b0b79ef"
-    },
-    {
-      "title": "Opinion | Trump Tariffs, More Tariffs, and More . . .",
-      "url": "https://www.wsj.com/opinion/donald-trump-tariffs-301-canada-f3e90f13"
-    },
-    {
-      "title": "A Rogue Hack and China at the Door Spark a Great AI Panic",
-      "url": "https://www.wsj.com/tech/ai/a-rogue-hack-and-china-at-the-door-spark-a-great-ai-panic-4e6d97a5"
-    }
-  ],
   "2026-07-26": [
     {
       "title": "What Trump’s Latest Tariffs Mean for the American Economy",
@@ -467,6 +449,33 @@
       "storyKey": null
     }
   ],
+  "2026-08-16": [
+    {
+      "title": "Stocks Hit New Highs on Inflation Relief",
+      "url": "https://www.wsj.com/finance/stocks/stocks-hit-new-highs-on-inflation-relief-2049c5d4",
+      "storyKey": "inflation+stocks"
+    },
+    {
+      "title": "Hanwha Offers to Buy Builder of U.S. Navy Ships",
+      "url": "https://www.wsj.com/logistics-report/hanwha-offers-to-buy-builder-of-u-s-navy-ships-4152fa0e",
+      "storyKey": "hanwha+shipbuilder"
+    },
+    {
+      "title": "Opinion | Bond Investors Want the Fed to Raise Rates",
+      "url": "https://www.wsj.com/opinion/bond-investors-want-the-fed-to-raise-rates-0f2ac040",
+      "storyKey": "bonds+fed+rates"
+    },
+    {
+      "title": "Open-Weight AI Won’t Crimp Demand for Picks and Shovels",
+      "url": "https://www.wsj.com/tech/ai/open-weight-ai-wont-crimp-demand-for-picks-and-shovels-523e6410",
+      "storyKey": "ai+picks+shovels"
+    },
+    {
+      "title": "How the WNBA Season Spiraled Into Absolute Chaos",
+      "url": "https://www.wsj.com/sports/basketball/how-the-wnba-season-spiraled-into-absolute-chaos-0c555e5d",
+      "storyKey": "chaos+wnba"
+    }
+  ],
   "_research": {
     "2026-08-08": [
       "https://podcasts.apple.com/us/podcast/ais-new-rules-of-engagement/id1466686717?i=1000780942420&uo=4",
@@ -494,6 +503,7 @@
     "2026-08-15": [
       "https://podcasts.apple.com/us/podcast/the-uk-has-a-better-story-to-tell/id1466686717?i=1000783367763&uo=4",
       "https://podcasts.apple.com/us/podcast/cpi-inflation-imax-why-fun-still-feels-expensive/id1456184829?i=1000783346568&uo=4"
-    ]
+    ],
+    "2026-08-16": []
   }
 }
