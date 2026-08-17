@@ -1,50 +1,50 @@
 {
-  "date": "2026-08-16",
-  "generatedAt": "2026-08-16T10:37:36.276175+00:00",
+  "date": "2026-08-17",
+  "generatedAt": "2026-08-17T08:59:50.851677+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Stocks Hit New Highs on Inflation Relief",
-      "url": "https://www.wsj.com/finance/stocks/stocks-hit-new-highs-on-inflation-relief-2049c5d4",
-      "summary": "Stocks hit new highs on inflation relief, signaling market optimism from cooling price data.",
-      "storyKey": "inflation+stocks",
+      "title": "China’s Economic Activity Weakened in July",
+      "url": "https://www.wsj.com/economy/chinas-economic-activity-weakened-in-july-0ce9bde7",
+      "summary": "China's economic activity weakened in July, signaling slower growth in key data print.",
+      "storyKey": "china+economy",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Hanwha Offers to Buy Builder of U.S. Navy Ships",
-      "url": "https://www.wsj.com/logistics-report/hanwha-offers-to-buy-builder-of-u-s-navy-ships-4152fa0e",
-      "summary": "Hanwha offers to acquire U.S. Navy shipbuilder, a named deal in defense/industrial sector.",
-      "storyKey": "hanwha+shipbuilder",
+      "title": "Alibaba to Sell Videogame Business for at Least $1.5 Billion",
+      "url": "https://www.wsj.com/tech/alibaba-to-sell-videogame-business-for-at-least-1-5-billion-8a547332",
+      "summary": "Alibaba to sell its videogame business for at least $1.5 billion.",
+      "storyKey": "alibaba+videogame",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Bond Investors Want the Fed to Raise Rates",
-      "url": "https://www.wsj.com/opinion/bond-investors-want-the-fed-to-raise-rates-0f2ac040",
-      "summary": "Bond investors argue the Fed should raise rates, a substantive economic policy argument.",
-      "storyKey": "bonds+fed+rates",
+      "title": "Opinion | Republicans Can End an Inflation Tax",
+      "url": "https://www.wsj.com/opinion/art-laffer-inflation-capital-gains-taxes-republicans-52f6ac64",
+      "summary": "Op-ed argues Republicans can act to end an inflation tax on Americans.",
+      "storyKey": "inflation+tax",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Open-Weight AI Won’t Crimp Demand for Picks and Shovels",
-      "url": "https://www.wsj.com/tech/ai/open-weight-ai-wont-crimp-demand-for-picks-and-shovels-523e6410",
-      "summary": "Open-weight AI models won't reduce demand for underlying AI infrastructure (\"picks and shovels\").",
-      "storyKey": "ai+picks+shovels",
+      "title": "Why Big Tech’s AI Spending Is $3 Trillion Higher Than It Seems",
+      "url": "https://www.wsj.com/tech/ai/why-big-techs-ai-spending-is-3-trillion-higher-than-it-seems-e1067bb2",
+      "summary": "Analysis finds Big Tech's AI spending is $3 trillion higher than it appears.",
+      "storyKey": "ai+spending",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "How the WNBA Season Spiraled Into Absolute Chaos",
-      "url": "https://www.wsj.com/sports/basketball/how-the-wnba-season-spiraled-into-absolute-chaos-0c555e5d",
-      "summary": "WNBA season descends into chaos, the most significant sports story among limited options.",
-      "storyKey": "chaos+wnba",
+      "title": "Three at-Bats, Three Home Runs, and the Greatest Debut in MLB History",
+      "url": "https://www.wsj.com/sports/baseball/joshua-baez-cardinals-mlb-debut-91f2744c",
+      "summary": "Player hits three home runs in three at-bats for greatest MLB debut ever.",
+      "storyKey": "debut+mlb",
       "source": "WSJ"
     }
   ],

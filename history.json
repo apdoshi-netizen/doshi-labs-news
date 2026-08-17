@@ -1,22 +1,4 @@
 {
-  "2026-07-26": [
-    {
-      "title": "What Trump’s Latest Tariffs Mean for the American Economy",
-      "url": "https://www.wsj.com/economy/trade/what-trumps-latest-tariffs-mean-for-the-american-economy-0641c57b"
-    },
-    {
-      "title": "Paramount Agrees to Pause Its Warner Bros. Merger",
-      "url": "https://www.wsj.com/business/media/paramount-agrees-to-pause-its-warner-bros-merger-88ae1de1"
-    },
-    {
-      "title": "Opinion | The Economics of the World Cup",
-      "url": "https://www.wsj.com/opinion/the-economics-of-the-world-cup-c6c32092"
-    },
-    {
-      "title": "China’s Moonshot AI Releases Model to Challenge Top U.S. Systems",
-      "url": "https://www.wsj.com/tech/ai/chinas-moonshot-ai-releases-model-to-challenge-top-u-s-systems-d84fe6e9"
-    }
-  ],
   "2026-07-27": [
     {
       "title": "Treasury Yields Fall as U.S.-Iran Hostilities Take a Break",
@@ -476,6 +458,33 @@
       "storyKey": "chaos+wnba"
     }
   ],
+  "2026-08-17": [
+    {
+      "title": "China’s Economic Activity Weakened in July",
+      "url": "https://www.wsj.com/economy/chinas-economic-activity-weakened-in-july-0ce9bde7",
+      "storyKey": "china+economy"
+    },
+    {
+      "title": "Alibaba to Sell Videogame Business for at Least $1.5 Billion",
+      "url": "https://www.wsj.com/tech/alibaba-to-sell-videogame-business-for-at-least-1-5-billion-8a547332",
+      "storyKey": "alibaba+videogame"
+    },
+    {
+      "title": "Opinion | Republicans Can End an Inflation Tax",
+      "url": "https://www.wsj.com/opinion/art-laffer-inflation-capital-gains-taxes-republicans-52f6ac64",
+      "storyKey": "inflation+tax"
+    },
+    {
+      "title": "Why Big Tech’s AI Spending Is $3 Trillion Higher Than It Seems",
+      "url": "https://www.wsj.com/tech/ai/why-big-techs-ai-spending-is-3-trillion-higher-than-it-seems-e1067bb2",
+      "storyKey": "ai+spending"
+    },
+    {
+      "title": "Three at-Bats, Three Home Runs, and the Greatest Debut in MLB History",
+      "url": "https://www.wsj.com/sports/baseball/joshua-baez-cardinals-mlb-debut-91f2744c",
+      "storyKey": "debut+mlb"
+    }
+  ],
   "_research": {
     "2026-08-08": [
       "https://podcasts.apple.com/us/podcast/ais-new-rules-of-engagement/id1466686717?i=1000780942420&uo=4",
@@ -504,6 +513,7 @@
       "https://podcasts.apple.com/us/podcast/the-uk-has-a-better-story-to-tell/id1466686717?i=1000783367763&uo=4",
       "https://podcasts.apple.com/us/podcast/cpi-inflation-imax-why-fun-still-feels-expensive/id1456184829?i=1000783346568&uo=4"
     ],
-    "2026-08-16": []
+    "2026-08-16": [],
+    "2026-08-17": []
   }
 }
