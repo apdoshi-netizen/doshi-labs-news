@@ -460,24 +460,24 @@
   ],
   "2026-08-17": [
     {
-      "title": "China’s Economic Activity Weakened in July",
+      "title": "China’s Economy Weakens on Several Fronts as Property Bust Worsens",
       "url": "https://www.wsj.com/economy/chinas-economic-activity-weakened-in-july-0ce9bde7",
-      "storyKey": "china+economy"
+      "storyKey": "china+property"
     },
     {
-      "title": "Alibaba to Sell Videogame Business for at Least $1.5 Billion",
-      "url": "https://www.wsj.com/tech/alibaba-to-sell-videogame-business-for-at-least-1-5-billion-8a547332",
-      "storyKey": "alibaba+videogame"
+      "title": "Charter Gets Final State Approval for $21.9 Billion Cox Deal",
+      "url": "https://www.wsj.com/business/telecom/charter-gets-final-state-approval-for-21-9-billion-cox-deal-ee47bd7c",
+      "storyKey": "charter+cox"
     },
     {
       "title": "Opinion | Republicans Can End an Inflation Tax",
       "url": "https://www.wsj.com/opinion/art-laffer-inflation-capital-gains-taxes-republicans-52f6ac64",
-      "storyKey": "inflation+tax"
+      "storyKey": "gop+inflation+tax"
     },
     {
       "title": "Why Big Tech’s AI Spending Is $3 Trillion Higher Than It Seems",
       "url": "https://www.wsj.com/tech/ai/why-big-techs-ai-spending-is-3-trillion-higher-than-it-seems-e1067bb2",
-      "storyKey": "ai+spending"
+      "storyKey": "ai+bigtech+spending"
     },
     {
       "title": "Three at-Bats, Three Home Runs, and the Greatest Debut in MLB History",

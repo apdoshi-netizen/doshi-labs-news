@@ -1,23 +1,23 @@
 {
   "date": "2026-08-17",
-  "generatedAt": "2026-08-17T08:59:50.851677+00:00",
+  "generatedAt": "2026-08-17T10:47:02.042354+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "China’s Economic Activity Weakened in July",
+      "title": "China’s Economy Weakens on Several Fronts as Property Bust Worsens",
       "url": "https://www.wsj.com/economy/chinas-economic-activity-weakened-in-july-0ce9bde7",
-      "summary": "China's economic activity weakened in July, signaling slower growth in key data print.",
-      "storyKey": "china+economy",
+      "summary": "China’s economy weakens further as property bust deepens, hitting growth across multiple fronts.",
+      "storyKey": "china+property",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Alibaba to Sell Videogame Business for at Least $1.5 Billion",
-      "url": "https://www.wsj.com/tech/alibaba-to-sell-videogame-business-for-at-least-1-5-billion-8a547332",
-      "summary": "Alibaba to sell its videogame business for at least $1.5 billion.",
-      "storyKey": "alibaba+videogame",
+      "title": "Charter Gets Final State Approval for $21.9 Billion Cox Deal",
+      "url": "https://www.wsj.com/business/telecom/charter-gets-final-state-approval-for-21-9-billion-cox-deal-ee47bd7c",
+      "summary": "Charter receives final state approval for its $21.9 billion acquisition of Cox.",
+      "storyKey": "charter+cox",
       "source": "WSJ"
     },
     {
@@ -25,8 +25,8 @@
       "label": "Op-Ed",
       "title": "Opinion | Republicans Can End an Inflation Tax",
       "url": "https://www.wsj.com/opinion/art-laffer-inflation-capital-gains-taxes-republicans-52f6ac64",
-      "summary": "Op-ed argues Republicans can act to end an inflation tax on Americans.",
-      "storyKey": "inflation+tax",
+      "summary": "Op-ed argues Republicans can act to end an inflation-driving tax policy.",
+      "storyKey": "gop+inflation+tax",
       "source": "WSJ"
     },
     {
@@ -34,8 +34,8 @@
       "label": "Tech",
       "title": "Why Big Tech’s AI Spending Is $3 Trillion Higher Than It Seems",
       "url": "https://www.wsj.com/tech/ai/why-big-techs-ai-spending-is-3-trillion-higher-than-it-seems-e1067bb2",
-      "summary": "Analysis finds Big Tech's AI spending is $3 trillion higher than it appears.",
-      "storyKey": "ai+spending",
+      "summary": "Analysis finds Big Tech’s AI spending is $3 trillion higher than it appears.",
+      "storyKey": "ai+bigtech+spending",
       "source": "WSJ"
     },
     {
@@ -43,7 +43,7 @@
       "label": "Sports",
       "title": "Three at-Bats, Three Home Runs, and the Greatest Debut in MLB History",
       "url": "https://www.wsj.com/sports/baseball/joshua-baez-cardinals-mlb-debut-91f2744c",
-      "summary": "Player hits three home runs in three at-bats for greatest MLB debut ever.",
+      "summary": "Player hits three home runs in three at-bats, marking MLB’s greatest debut.",
       "storyKey": "debut+mlb",
       "source": "WSJ"
     }
