@@ -1,22 +1,4 @@
 {
-  "2026-07-27": [
-    {
-      "title": "Treasury Yields Fall as U.S.-Iran Hostilities Take a Break",
-      "url": "https://www.wsj.com/finance/investing/jgb-futures-rise-amid-falling-crude-oil-prices-2f1d5195"
-    },
-    {
-      "title": "KKR, Blackstone Sign $16 Billion Kuwait Oil Deal",
-      "url": "https://www.wsj.com/business/energy-oil/kkr-blackstone-sign-16-billion-kuwait-oil-deal-e864ed68"
-    },
-    {
-      "title": "Opinion | Enjoy Your Free Time? Thank Capitalism",
-      "url": "https://www.wsj.com/opinion/free-expression/enjoy-your-free-time-thank-capitalism-7d025773"
-    },
-    {
-      "title": "AI Chatbots Know How to Make Deadly Biological Weapons. Some Will Teach You.",
-      "url": "https://www.wsj.com/tech/ai/openai-chatbot-biological-weapons-poison-3d808e6c"
-    }
-  ],
   "2026-07-28": [
     {
       "title": "U.S. Treasury Yields Fall Amid Mideast Hopes; Dollar Rises Ahead of Fed",
@@ -485,6 +467,33 @@
       "storyKey": "debut+mlb"
     }
   ],
+  "2026-08-18": [
+    {
+      "title": "Canada Inflation Heats Up to 3% in July",
+      "url": "https://www.wsj.com/economy/central-banking/canada-inflation-heats-up-to-3-in-july-1c8548f3",
+      "storyKey": "canada+inflation"
+    },
+    {
+      "title": "Madison Air to Buy Airflow-Technologies Company for $5.4 Billon",
+      "url": "https://www.wsj.com/business/deals/madison-air-to-buy-airflow-technologies-company-for-5-4-billon-56adf8e2",
+      "storyKey": "airflow+madison"
+    },
+    {
+      "title": "Opinion | How to Cure What Ails American Capitalism",
+      "url": "https://www.wsj.com/opinion/how-to-cure-what-ails-american-capitalism-52d97161",
+      "storyKey": "american+capitalism"
+    },
+    {
+      "title": "Why Open-Weight AI Models Matter and Meta Benefits from Them",
+      "url": "https://www.wsj.com/tech/ai/why-open-weight-ai-models-matter-and-meta-benefits-from-them-2989ef09",
+      "storyKey": "meta+openweight"
+    },
+    {
+      "title": "The Sixth-Year College Quarterback Who Sued to Stay in School",
+      "url": "https://www.wsj.com/sports/football/trinidad-chambliss-ole-miss-ac8c81f4",
+      "storyKey": "eligibility+lawsuit+ncaa"
+    }
+  ],
   "_research": {
     "2026-08-08": [
       "https://podcasts.apple.com/us/podcast/ais-new-rules-of-engagement/id1466686717?i=1000780942420&uo=4",
@@ -514,6 +523,11 @@
       "https://podcasts.apple.com/us/podcast/cpi-inflation-imax-why-fun-still-feels-expensive/id1456184829?i=1000783346568&uo=4"
     ],
     "2026-08-16": [],
-    "2026-08-17": []
+    "2026-08-17": [],
+    "2026-08-18": [
+      "https://podcasts.apple.com/us/podcast/wellingtons-jean-hynes-on-the-art-of-investing/id948913991?i=1000783982164&uo=4",
+      "https://podcasts.apple.com/us/podcast/when-ai-takes-over-shopping-carts/id1466686717?i=1000783935339&uo=4",
+      "https://podcasts.apple.com/us/podcast/global-equities-check-in-europe-strong-asia-rebuilding/id1456184829?i=1000783994953&uo=4"
+    ]
   }
 }

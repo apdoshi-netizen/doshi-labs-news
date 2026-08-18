@@ -1,52 +1,83 @@
 {
-  "date": "2026-08-17",
-  "generatedAt": "2026-08-17T10:47:02.042354+00:00",
+  "date": "2026-08-18",
+  "generatedAt": "2026-08-18T08:52:16.032330+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "China’s Economy Weakens on Several Fronts as Property Bust Worsens",
-      "url": "https://www.wsj.com/economy/chinas-economic-activity-weakened-in-july-0ce9bde7",
-      "summary": "China’s economy weakens further as property bust deepens, hitting growth across multiple fronts.",
-      "storyKey": "china+property",
+      "title": "Canada Inflation Heats Up to 3% in July",
+      "url": "https://www.wsj.com/economy/central-banking/canada-inflation-heats-up-to-3-in-july-1c8548f3",
+      "summary": "Canada's July inflation rose to 3%, exceeding expectations and pressuring central bank rate outlook.",
+      "storyKey": "canada+inflation",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Charter Gets Final State Approval for $21.9 Billion Cox Deal",
-      "url": "https://www.wsj.com/business/telecom/charter-gets-final-state-approval-for-21-9-billion-cox-deal-ee47bd7c",
-      "summary": "Charter receives final state approval for its $21.9 billion acquisition of Cox.",
-      "storyKey": "charter+cox",
+      "title": "Madison Air to Buy Airflow-Technologies Company for $5.4 Billon",
+      "url": "https://www.wsj.com/business/deals/madison-air-to-buy-airflow-technologies-company-for-5-4-billon-56adf8e2",
+      "summary": "Madison Air agrees to buy Airflow-Technologies company for $5.4 billion.",
+      "storyKey": "airflow+madison",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Republicans Can End an Inflation Tax",
-      "url": "https://www.wsj.com/opinion/art-laffer-inflation-capital-gains-taxes-republicans-52f6ac64",
-      "summary": "Op-ed argues Republicans can act to end an inflation-driving tax policy.",
-      "storyKey": "gop+inflation+tax",
+      "title": "Opinion | How to Cure What Ails American Capitalism",
+      "url": "https://www.wsj.com/opinion/how-to-cure-what-ails-american-capitalism-52d97161",
+      "summary": "Opinion argues for reforms to address problems facing American capitalism.",
+      "storyKey": "american+capitalism",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Why Big Tech’s AI Spending Is $3 Trillion Higher Than It Seems",
-      "url": "https://www.wsj.com/tech/ai/why-big-techs-ai-spending-is-3-trillion-higher-than-it-seems-e1067bb2",
-      "summary": "Analysis finds Big Tech’s AI spending is $3 trillion higher than it appears.",
-      "storyKey": "ai+bigtech+spending",
+      "title": "Why Open-Weight AI Models Matter and Meta Benefits from Them",
+      "url": "https://www.wsj.com/tech/ai/why-open-weight-ai-models-matter-and-meta-benefits-from-them-2989ef09",
+      "summary": "Open-weight AI models gain traction, with Meta positioned to benefit strategically.",
+      "storyKey": "meta+openweight",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "Three at-Bats, Three Home Runs, and the Greatest Debut in MLB History",
-      "url": "https://www.wsj.com/sports/baseball/joshua-baez-cardinals-mlb-debut-91f2744c",
-      "summary": "Player hits three home runs in three at-bats, marking MLB’s greatest debut.",
-      "storyKey": "debut+mlb",
+      "title": "The Sixth-Year College Quarterback Who Sued to Stay in School",
+      "url": "https://www.wsj.com/sports/football/trinidad-chambliss-ole-miss-ac8c81f4",
+      "summary": "Sixth-year college quarterback sues NCAA for right to remain eligible to play.",
+      "storyKey": "eligibility+lawsuit+ncaa",
       "source": "WSJ"
     }
   ],
-  "research": []
+  "research": [
+    {
+      "firm": "Goldman Sachs",
+      "show": "Exchanges",
+      "title": "Wellington’s Jean Hynes on the Art of Investing and Finding New Markets",
+      "url": "https://podcasts.apple.com/us/podcast/wellingtons-jean-hynes-on-the-art-of-investing/id948913991?i=1000783982164&uo=4",
+      "published": "2026-08-18T04:00:00+00:00",
+      "kind": "podcast",
+      "duration": "44 min",
+      "summary": "Jean Hynes, CEO of Wellington Management, has more than 35 years of experience at the firm. But she spends most of her time looking ahead, trying to envision what the world might look like in a decade and building portfolios around nascent opportunities. In an interview with Goldman Sachs’ Alison Mass on the Great Investors podcast, Hynes discusses innovation in the biopharma sector, how Wellington is using AI, and her path to the C-Suite."
+    },
+    {
+      "firm": "Morgan Stanley",
+      "show": "Thoughts on the Market",
+      "title": "When AI Takes Over Shopping Carts",
+      "url": "https://podcasts.apple.com/us/podcast/when-ai-takes-over-shopping-carts/id1466686717?i=1000783935339&uo=4",
+      "published": "2026-08-17T20:30:00+00:00",
+      "kind": "podcast",
+      "duration": "9 min",
+      "summary": "Our analysts Andrew Ruben and Nathan Feather discuss how AI shopping agents could transform how consumers discover, compare and buy products and the implications for eCommerce. Read more insights from Morgan Stanley."
+    },
+    {
+      "firm": "J.P. Morgan",
+      "show": "Making Sense",
+      "title": "Global equities check-in: Europe strong, Asia rebuilding",
+      "url": "https://podcasts.apple.com/us/podcast/global-equities-check-in-europe-strong-asia-rebuilding/id1456184829?i=1000783994953&uo=4",
+      "published": "2026-08-18T06:00:00+00:00",
+      "kind": "podcast",
+      "duration": "14 min",
+      "summary": "Can international equities keep leading as the rally broadens? In this episode of Making Sense, Edwina Lowe from J.P. Morgan's Data Assets and Alpha Group sits down with Federico Manicardi, head of International Market Intelligence, and Jigar Vakharia from the Positioning Intelligence team to unpack the landscape. They look at what’s driving Europe’s strength, why APAC is moving from stabilization to accumulation and how investor positioning is evolving across regions. They also discuss the key themes in play — from AI and semiconductors to miners and banks — as well as what risks could disrupt the path ahead, including rates, geopolitics and the fragility of investor conviction."
+    }
+  ]
 }
