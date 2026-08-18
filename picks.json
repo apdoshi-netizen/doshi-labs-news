@@ -1,13 +1,13 @@
 {
   "date": "2026-08-18",
-  "generatedAt": "2026-08-18T08:52:16.032330+00:00",
+  "generatedAt": "2026-08-18T10:44:49.361343+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
       "title": "Canada Inflation Heats Up to 3% in July",
       "url": "https://www.wsj.com/economy/central-banking/canada-inflation-heats-up-to-3-in-july-1c8548f3",
-      "summary": "Canada's July inflation rose to 3%, exceeding expectations and pressuring central bank rate outlook.",
+      "summary": "Canada's inflation rate rose to 3% in July, signaling persistent price pressures for policymakers.",
       "storyKey": "canada+inflation",
       "source": "WSJ"
     },
@@ -16,7 +16,7 @@
       "label": "Micro",
       "title": "Madison Air to Buy Airflow-Technologies Company for $5.4 Billon",
       "url": "https://www.wsj.com/business/deals/madison-air-to-buy-airflow-technologies-company-for-5-4-billon-56adf8e2",
-      "summary": "Madison Air agrees to buy Airflow-Technologies company for $5.4 billion.",
+      "summary": "Madison Air agrees to buy Airflow-Technologies Company for $5.4 billion in a major industrial deal.",
       "storyKey": "airflow+madison",
       "source": "WSJ"
     },
@@ -25,7 +25,7 @@
       "label": "Op-Ed",
       "title": "Opinion | How to Cure What Ails American Capitalism",
       "url": "https://www.wsj.com/opinion/how-to-cure-what-ails-american-capitalism-52d97161",
-      "summary": "Opinion argues for reforms to address problems facing American capitalism.",
+      "summary": "Op-ed argues for reforms to address structural problems afflicting American capitalism.",
       "storyKey": "american+capitalism",
       "source": "WSJ"
     },
@@ -34,7 +34,7 @@
       "label": "Tech",
       "title": "Why Open-Weight AI Models Matter and Meta Benefits from Them",
       "url": "https://www.wsj.com/tech/ai/why-open-weight-ai-models-matter-and-meta-benefits-from-them-2989ef09",
-      "summary": "Open-weight AI models gain traction, with Meta positioned to benefit strategically.",
+      "summary": "Analysis explains why open-weight AI models matter and how Meta benefits from adopting them.",
       "storyKey": "meta+openweight",
       "source": "WSJ"
     },
@@ -43,8 +43,8 @@
       "label": "Sports",
       "title": "The Sixth-Year College Quarterback Who Sued to Stay in School",
       "url": "https://www.wsj.com/sports/football/trinidad-chambliss-ole-miss-ac8c81f4",
-      "summary": "Sixth-year college quarterback sues NCAA for right to remain eligible to play.",
-      "storyKey": "eligibility+lawsuit+ncaa",
+      "summary": "A sixth-year college quarterback sued to remain eligible, highlighting NCAA eligibility rule disputes.",
+      "storyKey": "eligibility+lawsuit+qb",
       "source": "WSJ"
     }
   ],
