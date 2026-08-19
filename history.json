@@ -485,12 +485,12 @@
     {
       "title": "Exclusive | KKR Makes $9 Billion Takeover Bid for Natural-Gas and Electricity Distributor",
       "url": "https://www.wsj.com/business/deals/kkr-makes-9-billion-takeover-bid-for-natural-gas-and-electricity-distributor-94d47760",
-      "storyKey": "gas+kkr+utility"
+      "storyKey": "kkr+utility"
     },
     {
-      "title": "Opinion | High Anxiety in the Bond Market",
-      "url": "https://www.wsj.com/opinion/bond-market-interest-rates-investing-economy-59c092c1",
-      "storyKey": "anxiety+bond+market"
+      "title": "Opinion | The Economic Case for European Air Conditioning",
+      "url": "https://www.wsj.com/opinion/economic-case-for-european-ac-air-conditioning-4fb2215e",
+      "storyKey": "aircon+europe"
     },
     {
       "title": "China’s Unitree Soars in Debut as Investors Bet Big on Robotics",
@@ -498,9 +498,9 @@
       "storyKey": "robotics+unitree"
     },
     {
-      "title": "Soccer’s ‘Special One’ Is Plotting One Last Coup",
-      "url": "https://www.wsj.com/sports/soccer/mourinho-real-madrid-9907e636",
-      "storyKey": "comeback+mourinho"
+      "title": "He Only Throws Fastballs. Hitters Still Can’t Guess What’s Coming.",
+      "url": "https://www.wsj.com/sports/baseball/cam-schlittler-fastballs-yankees-65a018bf",
+      "storyKey": "fastball+pitcher"
     }
   ],
   "_research": {
