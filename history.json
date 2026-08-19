@@ -1,22 +1,4 @@
 {
-  "2026-07-28": [
-    {
-      "title": "U.S. Treasury Yields Fall Amid Mideast Hopes; Dollar Rises Ahead of Fed",
-      "url": "https://www.wsj.com/finance/investing/jgbs-fall-on-worries-over-japans-fiscal-situation-e1d83f6e"
-    },
-    {
-      "title": "Johnson & Johnson Agrees to Pay $5.5 Billion to Settle Talc Lawsuits",
-      "url": "https://www.wsj.com/business/johnson-johnson-agrees-to-pay-up-to-5-5-billion-to-settle-talc-lawsuits-53d6db7f"
-    },
-    {
-      "title": "Opinion | AI Shouldn’t Require a Permission Slip",
-      "url": "https://www.wsj.com/opinion/ai-shouldnt-require-a-permission-slip-e8502aea"
-    },
-    {
-      "title": "Exclusive | Nvidia in Talks With OpenAI to Guarantee $250 Billion Financing for Data Center",
-      "url": "https://www.wsj.com/tech/ai/nvidia-in-talks-with-openai-to-guarantee-250-billion-financing-for-data-center-3dd6eae3"
-    }
-  ],
   "2026-07-29": [
     {
       "title": "Oil Surges as Fresh Middle East Strikes Threaten Fragile Diplomacy",
@@ -494,6 +476,33 @@
       "storyKey": "eligibility+lawsuit+qb"
     }
   ],
+  "2026-08-19": [
+    {
+      "title": "Global Government Bond Yields Hit Multiyear Highs",
+      "url": "https://www.wsj.com/finance/investing/global-government-bond-yields-hit-multiyear-highs-2b47888a",
+      "storyKey": "bond+yields"
+    },
+    {
+      "title": "Exclusive | KKR Makes $9 Billion Takeover Bid for Natural-Gas and Electricity Distributor",
+      "url": "https://www.wsj.com/business/deals/kkr-makes-9-billion-takeover-bid-for-natural-gas-and-electricity-distributor-94d47760",
+      "storyKey": "gas+kkr+utility"
+    },
+    {
+      "title": "Opinion | High Anxiety in the Bond Market",
+      "url": "https://www.wsj.com/opinion/bond-market-interest-rates-investing-economy-59c092c1",
+      "storyKey": "anxiety+bond+market"
+    },
+    {
+      "title": "China’s Unitree Soars in Debut as Investors Bet Big on Robotics",
+      "url": "https://www.wsj.com/tech/chinas-unitree-soars-in-debut-as-investors-bet-big-on-robotics-d2d73c08",
+      "storyKey": "robotics+unitree"
+    },
+    {
+      "title": "Soccer’s ‘Special One’ Is Plotting One Last Coup",
+      "url": "https://www.wsj.com/sports/soccer/mourinho-real-madrid-9907e636",
+      "storyKey": "comeback+mourinho"
+    }
+  ],
   "_research": {
     "2026-08-08": [
       "https://podcasts.apple.com/us/podcast/ais-new-rules-of-engagement/id1466686717?i=1000780942420&uo=4",
@@ -528,6 +537,9 @@
       "https://podcasts.apple.com/us/podcast/wellingtons-jean-hynes-on-the-art-of-investing/id948913991?i=1000783982164&uo=4",
       "https://podcasts.apple.com/us/podcast/when-ai-takes-over-shopping-carts/id1466686717?i=1000783935339&uo=4",
       "https://podcasts.apple.com/us/podcast/global-equities-check-in-europe-strong-asia-rebuilding/id1456184829?i=1000783994953&uo=4"
+    ],
+    "2026-08-19": [
+      "https://podcasts.apple.com/us/podcast/korean-stocks-from-correction-to-a-healthy-recovery/id1466686717?i=1000784196533&uo=4"
     ]
   }
 }

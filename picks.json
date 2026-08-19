@@ -1,83 +1,63 @@
 {
-  "date": "2026-08-18",
-  "generatedAt": "2026-08-18T10:44:49.361343+00:00",
+  "date": "2026-08-19",
+  "generatedAt": "2026-08-19T08:53:24.768019+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Canada Inflation Heats Up to 3% in July",
-      "url": "https://www.wsj.com/economy/central-banking/canada-inflation-heats-up-to-3-in-july-1c8548f3",
-      "summary": "Canada's inflation rate rose to 3% in July, signaling persistent price pressures for policymakers.",
-      "storyKey": "canada+inflation",
+      "title": "Global Government Bond Yields Hit Multiyear Highs",
+      "url": "https://www.wsj.com/finance/investing/global-government-bond-yields-hit-multiyear-highs-2b47888a",
+      "summary": "Global government bond yields hit multiyear highs, signaling broad market repricing across asset classes.",
+      "storyKey": "bond+yields",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Madison Air to Buy Airflow-Technologies Company for $5.4 Billon",
-      "url": "https://www.wsj.com/business/deals/madison-air-to-buy-airflow-technologies-company-for-5-4-billon-56adf8e2",
-      "summary": "Madison Air agrees to buy Airflow-Technologies Company for $5.4 billion in a major industrial deal.",
-      "storyKey": "airflow+madison",
+      "title": "Exclusive | KKR Makes $9 Billion Takeover Bid for Natural-Gas and Electricity Distributor",
+      "url": "https://www.wsj.com/business/deals/kkr-makes-9-billion-takeover-bid-for-natural-gas-and-electricity-distributor-94d47760",
+      "summary": "KKR makes a $9 billion takeover bid for a natural-gas and electricity distributor.",
+      "storyKey": "gas+kkr+utility",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | How to Cure What Ails American Capitalism",
-      "url": "https://www.wsj.com/opinion/how-to-cure-what-ails-american-capitalism-52d97161",
-      "summary": "Op-ed argues for reforms to address structural problems afflicting American capitalism.",
-      "storyKey": "american+capitalism",
+      "title": "Opinion | High Anxiety in the Bond Market",
+      "url": "https://www.wsj.com/opinion/bond-market-interest-rates-investing-economy-59c092c1",
+      "summary": "Opinion piece explores rising anxiety in the bond market amid yield surges.",
+      "storyKey": "anxiety+bond+market",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Why Open-Weight AI Models Matter and Meta Benefits from Them",
-      "url": "https://www.wsj.com/tech/ai/why-open-weight-ai-models-matter-and-meta-benefits-from-them-2989ef09",
-      "summary": "Analysis explains why open-weight AI models matter and how Meta benefits from adopting them.",
-      "storyKey": "meta+openweight",
+      "title": "China’s Unitree Soars in Debut as Investors Bet Big on Robotics",
+      "url": "https://www.wsj.com/tech/chinas-unitree-soars-in-debut-as-investors-bet-big-on-robotics-d2d73c08",
+      "summary": "China's Unitree robotics firm soars in its market debut as investors bet on robotics.",
+      "storyKey": "robotics+unitree",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The Sixth-Year College Quarterback Who Sued to Stay in School",
-      "url": "https://www.wsj.com/sports/football/trinidad-chambliss-ole-miss-ac8c81f4",
-      "summary": "A sixth-year college quarterback sued to remain eligible, highlighting NCAA eligibility rule disputes.",
-      "storyKey": "eligibility+lawsuit+qb",
+      "title": "Soccer’s ‘Special One’ Is Plotting One Last Coup",
+      "url": "https://www.wsj.com/sports/soccer/mourinho-real-madrid-9907e636",
+      "summary": "Profile on a soccer manager plotting one more major coaching move.",
+      "storyKey": "comeback+mourinho",
       "source": "WSJ"
     }
   ],
   "research": [
     {
-      "firm": "Goldman Sachs",
-      "show": "Exchanges",
-      "title": "Wellington’s Jean Hynes on the Art of Investing and Finding New Markets",
-      "url": "https://podcasts.apple.com/us/podcast/wellingtons-jean-hynes-on-the-art-of-investing/id948913991?i=1000783982164&uo=4",
-      "published": "2026-08-18T04:00:00+00:00",
-      "kind": "podcast",
-      "duration": "44 min",
-      "summary": "Jean Hynes, CEO of Wellington Management, has more than 35 years of experience at the firm. But she spends most of her time looking ahead, trying to envision what the world might look like in a decade and building portfolios around nascent opportunities. In an interview with Goldman Sachs’ Alison Mass on the Great Investors podcast, Hynes discusses innovation in the biopharma sector, how Wellington is using AI, and her path to the C-Suite."
-    },
-    {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
-      "title": "When AI Takes Over Shopping Carts",
-      "url": "https://podcasts.apple.com/us/podcast/when-ai-takes-over-shopping-carts/id1466686717?i=1000783935339&uo=4",
-      "published": "2026-08-17T20:30:00+00:00",
+      "title": "Korean Stocks: From Correction to a Healthy Recovery",
+      "url": "https://podcasts.apple.com/us/podcast/korean-stocks-from-correction-to-a-healthy-recovery/id1466686717?i=1000784196533&uo=4",
+      "published": "2026-08-19T00:30:00+00:00",
       "kind": "podcast",
-      "duration": "9 min",
-      "summary": "Our analysts Andrew Ruben and Nathan Feather discuss how AI shopping agents could transform how consumers discover, compare and buy products and the implications for eCommerce. Read more insights from Morgan Stanley."
-    },
-    {
-      "firm": "J.P. Morgan",
-      "show": "Making Sense",
-      "title": "Global equities check-in: Europe strong, Asia rebuilding",
-      "url": "https://podcasts.apple.com/us/podcast/global-equities-check-in-europe-strong-asia-rebuilding/id1456184829?i=1000783994953&uo=4",
-      "published": "2026-08-18T06:00:00+00:00",
-      "kind": "podcast",
-      "duration": "14 min",
-      "summary": "Can international equities keep leading as the rally broadens? In this episode of Making Sense, Edwina Lowe from J.P. Morgan's Data Assets and Alpha Group sits down with Federico Manicardi, head of International Market Intelligence, and Jigar Vakharia from the Positioning Intelligence team to unpack the landscape. They look at what’s driving Europe’s strength, why APAC is moving from stabilization to accumulation and how investor positioning is evolving across regions. They also discuss the key themes in play — from AI and semiconductors to miners and banks — as well as what risks could disrupt the path ahead, including rates, geopolitics and the fragility of investor conviction."
+      "duration": "5 min",
+      "summary": "After a historic rally and a sharp correction, South Korea’s equity market may be approaching a turning point. Our Chief Korea Equity Strategist, Joon Seok, explains that the next cycle will need stronger foundations and more sectors joining in. Read more insights from Morgan Stanley."
     }
   ]
 }
