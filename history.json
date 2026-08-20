@@ -1,22 +1,4 @@
 {
-  "2026-07-29": [
-    {
-      "title": "Oil Surges as Fresh Middle East Strikes Threaten Fragile Diplomacy",
-      "url": "https://www.wsj.com/economy/oil-surges-as-fresh-middle-east-strikes-threaten-fragile-diplomacy-7fd2d4e8"
-    },
-    {
-      "title": "UBS Plans $3 Billion Buyback After Investment Bank, Wealth Units Lift Profit",
-      "url": "https://www.wsj.com/business/earnings/ubs-plans-new-3-billion-buyback-after-net-profit-rises-d2d4fca9"
-    },
-    {
-      "title": "Opinion | The Paramount-Warner Merger Could Save Hollywood",
-      "url": "https://www.wsj.com/opinion/the-paramount-warner-merger-could-save-hollywood-f558ee4b"
-    },
-    {
-      "title": "Even $64 Billion in Quarterly Profit Is a Disappointment for Chip Investors",
-      "url": "https://www.wsj.com/tech/even-64-billion-in-quarterly-profit-is-a-disappointment-for-chip-investors-91dcb5c4"
-    }
-  ],
   "2026-07-30": [
     {
       "title": "U.S. Treasury Yields Soar as Market Struggles to Interpret Fed",
@@ -503,6 +485,33 @@
       "storyKey": "fastball+pitcher"
     }
   ],
+  "2026-08-20": [
+    {
+      "title": "See How Europe’s Rivers Are Drying Up and Threatening Its Economy",
+      "url": "https://www.wsj.com/world/europe/see-how-europes-rivers-are-drying-up-and-threatening-its-economy-8447228a",
+      "storyKey": null
+    },
+    {
+      "title": "CK Hutchison Files Arbitration Against Panama, Seeking $1.5 Billion in Damages",
+      "url": "https://www.wsj.com/business/logistics/ck-hutchison-files-arbitration-against-panama-seeking-1-5-billion-in-damages-8ce50114",
+      "storyKey": null
+    },
+    {
+      "title": "Opinion | Trump, Canada Tariffs and USMCA",
+      "url": "https://www.wsj.com/opinion/donald-trump-usmca-trade-agreement-mexico-canada-69d2b4d3",
+      "storyKey": null
+    },
+    {
+      "title": "The Hidden Debt That Apple Owes to the CIA",
+      "url": "https://www.wsj.com/tech/steve-jobs-apple-next-cia-161b65f9",
+      "storyKey": null
+    },
+    {
+      "title": "The Lakers Heiress at the Center of the NBA’s Nastiest Succession Drama",
+      "url": "https://www.wsj.com/sports/basketball/lakers-sale-buss-family-15f0ec28",
+      "storyKey": null
+    }
+  ],
   "_research": {
     "2026-08-08": [
       "https://podcasts.apple.com/us/podcast/ais-new-rules-of-engagement/id1466686717?i=1000780942420&uo=4",
@@ -540,6 +549,10 @@
     ],
     "2026-08-19": [
       "https://podcasts.apple.com/us/podcast/korean-stocks-from-correction-to-a-healthy-recovery/id1466686717?i=1000784196533&uo=4"
+    ],
+    "2026-08-20": [
+      "https://podcasts.apple.com/us/podcast/el-ni%C3%B1os-ripple-effects-on-markets/id1466686717?i=1000784409661&uo=4",
+      "https://www.jpmorgan.com/insights/markets-and-economy/outlook/software-market-trends-outlook-and-industry-analysis"
     ]
   }
 }
