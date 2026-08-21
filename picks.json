@@ -1,73 +1,73 @@
 {
-  "date": "2026-08-20",
-  "generatedAt": "2026-08-20T10:45:24.583402+00:00",
+  "date": "2026-08-21",
+  "generatedAt": "2026-08-21T08:57:19.581034+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Global Government Bond Yields Stabilize Ahead of Fed Minutes",
-      "url": "https://www.wsj.com/economy/central-banking/global-government-bond-yields-stabilize-ahead-of-fed-minutes-c674e938",
-      "summary": "",
-      "storyKey": null,
+      "title": "Japan Inflation Picks Up as Rate-Boost Bets Firm",
+      "url": "https://www.wsj.com/economy/japan-inflation-picks-up-as-rate-boost-bets-firm-1d63fed4",
+      "summary": "Japan inflation accelerated, firming bets the central bank will raise interest rates soon.",
+      "storyKey": "inflation+japan",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Danone’s $1.2 Billion Huel Deal Gets U.K. Competition Clearance",
-      "url": "https://www.wsj.com/business/deals/danones-1-2-billion-huel-deal-gets-u-k-competition-clearance-ca76b73d",
-      "summary": "",
-      "storyKey": null,
+      "title": "James Hardie Selling European Fermacell Business for $980 Million to Holcim",
+      "url": "https://www.wsj.com/business/deals/james-hardie-selling-european-fermacell-business-for-980-million-to-holcim-dc6e1c24",
+      "summary": "James Hardie sells European Fermacell business to Holcim for $980 million.",
+      "storyKey": "hardie+holcim",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "‘Late Capitalism’ Is Marxist Nonsense",
-      "url": "https://www.wsj.com/opinion/free-expression/late-capitalism-is-nonsense-ddd762a9",
-      "summary": "",
-      "storyKey": null,
+      "title": "Opinion | How the U.S. Went $40 Trillion in Debt",
+      "url": "https://www.wsj.com/opinion/u-s-national-debt-40-trillion-spending-6f856ca1",
+      "summary": "Opinion column examines how the United States accumulated $40 trillion in national debt.",
+      "storyKey": "debt+us",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Inside Big Tech’s Frantic Race to Quell the Growing Backlash to AI",
-      "url": "https://www.wsj.com/tech/inside-big-techs-frantic-race-to-quell-the-growing-backlash-to-ai-2a717339",
-      "summary": "",
-      "storyKey": null,
+      "title": "The Brains Who Powered China’s Surprising AI Leap",
+      "url": "https://www.wsj.com/tech/ai/ai-china-scientists-race-us-cd9732e3",
+      "summary": "Profile of the researchers behind China's surprising leap forward in AI technology.",
+      "storyKey": "ai+brains+china",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The Lakers Heiress at the Center of the NBA’s Nastiest Succession Drama",
-      "url": "https://www.wsj.com/sports/basketball/lakers-sale-buss-family-15f0ec28",
-      "summary": "",
-      "storyKey": null,
+      "title": "Soccer’s ‘Special One’ Is Plotting One Last Coup",
+      "url": "https://www.wsj.com/sports/soccer/mourinho-real-madrid-9907e636",
+      "summary": "Feature on Mourinho, soccer's \"Special One,\" plotting one more major coaching coup.",
+      "storyKey": "coup+mourinho",
       "source": "WSJ"
     }
   ],
   "research": [
     {
-      "firm": "Morgan Stanley",
-      "show": "Thoughts on the Market",
-      "title": "El Niño’s Ripple Effects on Markets",
-      "url": "https://podcasts.apple.com/us/podcast/el-ni%C3%B1os-ripple-effects-on-markets/id1466686717?i=1000784409661&uo=4",
-      "published": "2026-08-19T20:00:00+00:00",
+      "firm": "Goldman Sachs",
+      "show": "The Markets",
+      "title": "Why US Equity Returns Are Broadening Beyond AI Stocks",
+      "url": "https://podcasts.apple.com/us/podcast/why-us-equity-returns-are-broadening-beyond-ai-stocks/id1683802600?i=1000784715588&uo=4",
+      "published": "2026-08-21T04:02:00+00:00",
       "kind": "podcast",
-      "duration": "5 min",
-      "summary": "From chocolate and sugar prices to energy markets and inflation, El Niño’s impacts may soon reach far beyond the weather forecast. Our Latin America Agribusiness Analyst Julia Rizzo maps out where the pressure could emerge first. Read more insights from Morgan Stanley."
+      "duration": "13 min",
+      "summary": "While artificial intelligence (AI) has been a key driver of US stocks, a wider range of sectors is starting to power the S&P 500, says Shawn Tuteja, head of ETF and Custom Basket Volatility Trading in Goldman Sachs Global Banking & Markets, on The Markets podcast. Tuteja also discusses the robust strength in earnings across 9 of 11 sectors in the S&P 500, elevated volatility among AI-related themes, and the interplay between oil prices, longer-maturity bond yields, and Federal Reserve policy."
     },
     {
-      "firm": "J.P. Morgan",
-      "show": null,
-      "title": "2026 Software Market Trends, Outlook and Industry Analysis",
-      "url": "https://www.jpmorgan.com/insights/markets-and-economy/outlook/software-market-trends-outlook-and-industry-analysis",
-      "published": "2026-08-19T11:22:16.047000-04:00",
-      "kind": "article",
-      "duration": null,
-      "summary": "Explore key software industry trends shaping the market in 2026, including AI's impact on SaaS, venture investment shifts and software M&A activity."
+      "firm": "Morgan Stanley",
+      "show": "Thoughts on the Market",
+      "title": "The New Map of AI Power",
+      "url": "https://podcasts.apple.com/us/podcast/the-new-map-of-ai-power/id1466686717?i=1000784662514&uo=4",
+      "published": "2026-08-20T20:30:00+00:00",
+      "kind": "podcast",
+      "duration": "8 min",
+      "summary": "AI is becoming a matter of national strategy, as countries seek more control over their own technology. Our Heads of U.S. Public Policy Ariana Salvatore and Global Thematic Research Stephen Byrd look at the race for AI sovereignty and its implications for investors. Read more insights from Morgan Stanley."
     }
   ]
 }

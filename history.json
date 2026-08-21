@@ -1,22 +1,4 @@
 {
-  "2026-07-30": [
-    {
-      "title": "U.S. Treasury Yields Soar as Market Struggles to Interpret Fed",
-      "url": "https://www.wsj.com/economy/central-banking/u-s-treasury-yields-soar-as-market-struggles-to-interpret-fed-16885819"
-    },
-    {
-      "title": "Microsoft Profit Jumps 31% as Azure Cloud Sales Surpass $100 Billion",
-      "url": "https://www.wsj.com/articles/microsoft-earnings-q4-fy26-msft-stock-dfd3843e"
-    },
-    {
-      "title": "Opinion | Warsh, the Fed and Market Signals",
-      "url": "https://www.wsj.com/opinion/kevin-warsh-federal-reserve-fomc-investors-f562d456"
-    },
-    {
-      "title": "Meta’s Case for Its AI Spending Keeps Getting Weaker",
-      "url": "https://www.wsj.com/tech/ai/metas-case-for-its-ai-spending-keeps-getting-weaker-aa4b9a5c"
-    }
-  ],
   "2026-07-31": [
     {
       "title": "U.S. Economic Growth Slowed to 1.5% in Second Quarter",
@@ -512,6 +494,33 @@
       "storyKey": null
     }
   ],
+  "2026-08-21": [
+    {
+      "title": "Japan Inflation Picks Up as Rate-Boost Bets Firm",
+      "url": "https://www.wsj.com/economy/japan-inflation-picks-up-as-rate-boost-bets-firm-1d63fed4",
+      "storyKey": "inflation+japan"
+    },
+    {
+      "title": "James Hardie Selling European Fermacell Business for $980 Million to Holcim",
+      "url": "https://www.wsj.com/business/deals/james-hardie-selling-european-fermacell-business-for-980-million-to-holcim-dc6e1c24",
+      "storyKey": "hardie+holcim"
+    },
+    {
+      "title": "Opinion | How the U.S. Went $40 Trillion in Debt",
+      "url": "https://www.wsj.com/opinion/u-s-national-debt-40-trillion-spending-6f856ca1",
+      "storyKey": "debt+us"
+    },
+    {
+      "title": "The Brains Who Powered China’s Surprising AI Leap",
+      "url": "https://www.wsj.com/tech/ai/ai-china-scientists-race-us-cd9732e3",
+      "storyKey": "ai+brains+china"
+    },
+    {
+      "title": "Soccer’s ‘Special One’ Is Plotting One Last Coup",
+      "url": "https://www.wsj.com/sports/soccer/mourinho-real-madrid-9907e636",
+      "storyKey": "coup+mourinho"
+    }
+  ],
   "_research": {
     "2026-08-08": [
       "https://podcasts.apple.com/us/podcast/ais-new-rules-of-engagement/id1466686717?i=1000780942420&uo=4",
@@ -553,6 +562,10 @@
     "2026-08-20": [
       "https://podcasts.apple.com/us/podcast/el-ni%C3%B1os-ripple-effects-on-markets/id1466686717?i=1000784409661&uo=4",
       "https://www.jpmorgan.com/insights/markets-and-economy/outlook/software-market-trends-outlook-and-industry-analysis"
+    ],
+    "2026-08-21": [
+      "https://podcasts.apple.com/us/podcast/why-us-equity-returns-are-broadening-beyond-ai-stocks/id1683802600?i=1000784715588&uo=4",
+      "https://podcasts.apple.com/us/podcast/the-new-map-of-ai-power/id1466686717?i=1000784662514&uo=4"
     ]
   }
 }
