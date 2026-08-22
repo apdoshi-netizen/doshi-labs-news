@@ -1,74 +1,54 @@
 {
   "date": "2026-08-22",
-  "generatedAt": "2026-08-22T08:46:40.226480+00:00",
+  "generatedAt": "2026-08-22T10:38:23.998444+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Week Ahead for FX, Bonds: Warsh Speech at Jackson Hole, U.S. PCE Data in Focus",
-      "url": "https://www.wsj.com/economy/central-banking/week-ahead-for-fx-bonds-warsh-speech-at-jackson-hole-u-s-pce-data-in-focus-1b33f004",
-      "summary": "Week ahead previews Warsh's Jackson Hole speech and U.S. PCE data, key inputs for Fed rate outlook.",
-      "storyKey": "hole+jackson+pce",
+      "title": "See How China Weathered the Iran Oil Shock",
+      "url": "https://www.wsj.com/business/energy-oil/see-how-china-weathered-the-iran-oil-shock-2c367cd8",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Exclusive | Nvidia in Talks to Invest in Data-Center Power Developer Cloverleaf Infrastructure",
-      "url": "https://www.wsj.com/business/deals/nvidia-in-talks-to-invest-in-data-center-power-developer-cloverleaf-infrastructure-ff94c556",
-      "summary": "Nvidia reportedly in talks to invest in data-center power developer Cloverleaf Infrastructure.",
-      "storyKey": "cloverleaf+nvidia",
+      "title": "Why a Payments Giant Is Paying $7 Billion for the ‘Stripe of AI’",
+      "url": "https://www.wsj.com/tech/ai/why-a-payments-giant-is-paying-7-billion-for-the-stripe-of-ai-f5832e54",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | The Lindsey Graham Act’s Dangerous Tariff Provision",
-      "url": "https://www.wsj.com/opinion/the-lindsey-graham-acts-dangerous-tariff-provision-5f79969d",
-      "summary": "Op-ed warns the Lindsey Graham Act contains a dangerous tariff provision affecting trade policy.",
-      "storyKey": "act+graham+tariff",
+      "title": "Opinion | Trump Has a Beef With Tariffs",
+      "url": "https://www.wsj.com/opinion/donald-trump-lifts-beef-tariffs-trade-imports-d3048c6a",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "AI’s Next Big Leap Is Into the Real World",
-      "url": "https://www.wsj.com/tech/ai/ai-world-models-robotics-33ab46cb",
-      "summary": "Column argues AI's next major advance will move beyond software into physical, real-world applications.",
-      "storyKey": "ai+real+world",
+      "title": "Private Equity Is Deploying an Army of AI Wonks to Embed in the Firms They Back",
+      "url": "https://www.wsj.com/tech/ai/private-equity-is-deploying-an-army-of-ai-wonks-to-embed-in-the-firms-they-back-96d279ec",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The Most Punishing Job Market in Sports Is on an English Soccer Sideline",
-      "url": "https://www.wsj.com/sports/soccer/english-premier-league-arsenal-man-city-arteta-34c99b30",
-      "summary": "English soccer's sideline described as sports' most punishing job market, highlighting managerial turnover pressures.",
-      "storyKey": "managers+market+soccer",
+      "title": "Did Carlos Alcaraz Just Save the U.S. Open?",
+      "url": "https://www.wsj.com/sports/tennis/carlos-alcaraz-us-open-a7b00e59",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     }
   ],
   "research": [
-    {
-      "firm": "Morgan Stanley",
-      "show": "Thoughts on the Market",
-      "title": "Shifts in Credit Markets for the AI Buildout",
-      "url": "https://podcasts.apple.com/us/podcast/shifts-in-credit-markets-for-the-ai-buildout/id1466686717?i=1000784915225&uo=4",
-      "published": "2026-08-21T20:00:00+00:00",
-      "kind": "podcast",
-      "duration": "5 min",
-      "summary": "AI’s enormous capital requirements are reshaping the way companies tap credit markets. Our Chief Fixed Income Strategist Vishy Tirupattur takes stock of this summer’s key financing developments. Read more insights from Morgan Stanley."
-    },
-    {
-      "firm": "J.P. Morgan",
-      "show": "Making Sense",
-      "title": "The new defense playbook: Partnerships, capital, capability",
-      "url": "https://podcasts.apple.com/us/podcast/the-new-defense-playbook-partnerships-capital-capability/id1456184829?i=1000784882484&uo=4",
-      "published": "2026-08-21T17:49:40+00:00",
-      "kind": "podcast",
-      "duration": "9 min",
-      "summary": "In this episode of J.P. Morgan’s Making Sense, Mark Marengo, head of Diversified Industries Investment Banking, sits down with Derek Chollet, head of the JPMorganChase Center for Geopolitics, to unpack what’s changing across defense and aerospace. They discuss where investment is flowing, how emerging technologies are reshaping capability and military readiness and why deeper public-private partnerships are becoming essential to move the sector forward in the U.S., Europe and beyond."
-    },
     {
       "firm": "J.P. Morgan",
       "show": null,
