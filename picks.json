@@ -1,73 +1,83 @@
 {
-  "date": "2026-08-21",
-  "generatedAt": "2026-08-21T10:45:08.887595+00:00",
+  "date": "2026-08-22",
+  "generatedAt": "2026-08-22T08:46:40.226480+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Consumer Warning Lights Flash, Oil and Treasury Yields Rise | Markets P.M. For August 14",
-      "url": "https://www.wsj.com/finance/investing/consumer-warning-lights-f1df8c6d",
-      "summary": "",
-      "storyKey": null,
+      "title": "Week Ahead for FX, Bonds: Warsh Speech at Jackson Hole, U.S. PCE Data in Focus",
+      "url": "https://www.wsj.com/economy/central-banking/week-ahead-for-fx-bonds-warsh-speech-at-jackson-hole-u-s-pce-data-in-focus-1b33f004",
+      "summary": "Week ahead previews Warsh's Jackson Hole speech and U.S. PCE data, key inputs for Fed rate outlook.",
+      "storyKey": "hole+jackson+pce",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Italy’s Monte dei Paschi Makes $40 Billion Move to Buy Rival Banks",
-      "url": "https://www.wsj.com/business/deals/monte-dei-paschi-makes-40-billion-move-to-buy-italian-peers-banco-bpm-banca-generali-711620fd",
-      "summary": "",
-      "storyKey": null,
+      "title": "Exclusive | Nvidia in Talks to Invest in Data-Center Power Developer Cloverleaf Infrastructure",
+      "url": "https://www.wsj.com/business/deals/nvidia-in-talks-to-invest-in-data-center-power-developer-cloverleaf-infrastructure-ff94c556",
+      "summary": "Nvidia reportedly in talks to invest in data-center power developer Cloverleaf Infrastructure.",
+      "storyKey": "cloverleaf+nvidia",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | American Socialists Are ‘Chinamaxxing’ Now",
-      "url": "https://www.wsj.com/opinion/free-expression/american-socialists-are-chinamaxxing-now-5d2beb8b",
-      "summary": "",
-      "storyKey": null,
+      "title": "Opinion | The Lindsey Graham Act’s Dangerous Tariff Provision",
+      "url": "https://www.wsj.com/opinion/the-lindsey-graham-acts-dangerous-tariff-provision-5f79969d",
+      "summary": "Op-ed warns the Lindsey Graham Act contains a dangerous tariff provision affecting trade policy.",
+      "storyKey": "act+graham+tariff",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "The Brains Who Powered China’s Surprising AI Leap",
-      "url": "https://www.wsj.com/tech/ai/ai-china-scientists-race-us-cd9732e3",
-      "summary": "",
-      "storyKey": null,
+      "title": "AI’s Next Big Leap Is Into the Real World",
+      "url": "https://www.wsj.com/tech/ai/ai-world-models-robotics-33ab46cb",
+      "summary": "Column argues AI's next major advance will move beyond software into physical, real-world applications.",
+      "storyKey": "ai+real+world",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "Youth Sports Are Completely Bonkers. How to Survive Another Crazy Season.",
-      "url": "https://www.wsj.com/sports/youth-sports-how-to-survive-another-crazy-season-63e79b93",
-      "summary": "",
-      "storyKey": null,
+      "title": "The Most Punishing Job Market in Sports Is on an English Soccer Sideline",
+      "url": "https://www.wsj.com/sports/soccer/english-premier-league-arsenal-man-city-arteta-34c99b30",
+      "summary": "English soccer's sideline described as sports' most punishing job market, highlighting managerial turnover pressures.",
+      "storyKey": "managers+market+soccer",
       "source": "WSJ"
     }
   ],
   "research": [
     {
-      "firm": "Goldman Sachs",
-      "show": "The Markets",
-      "title": "Why US Equity Returns Are Broadening Beyond AI Stocks",
-      "url": "https://podcasts.apple.com/us/podcast/why-us-equity-returns-are-broadening-beyond-ai-stocks/id1683802600?i=1000784715588&uo=4",
-      "published": "2026-08-21T04:02:00+00:00",
-      "kind": "podcast",
-      "duration": "13 min",
-      "summary": "While artificial intelligence (AI) has been a key driver of US stocks, a wider range of sectors is starting to power the S&P 500, says Shawn Tuteja, head of ETF and Custom Basket Volatility Trading in Goldman Sachs Global Banking & Markets, on The Markets podcast. Tuteja also discusses the robust strength in earnings across 9 of 11 sectors in the S&P 500, elevated volatility among AI-related themes, and the interplay between oil prices, longer-maturity bond yields, and Federal Reserve policy."
-    },
-    {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
-      "title": "The New Map of AI Power",
-      "url": "https://podcasts.apple.com/us/podcast/the-new-map-of-ai-power/id1466686717?i=1000784662514&uo=4",
-      "published": "2026-08-20T20:30:00+00:00",
+      "title": "Shifts in Credit Markets for the AI Buildout",
+      "url": "https://podcasts.apple.com/us/podcast/shifts-in-credit-markets-for-the-ai-buildout/id1466686717?i=1000784915225&uo=4",
+      "published": "2026-08-21T20:00:00+00:00",
       "kind": "podcast",
-      "duration": "8 min",
-      "summary": "AI is becoming a matter of national strategy, as countries seek more control over their own technology. Our Heads of U.S. Public Policy Ariana Salvatore and Global Thematic Research Stephen Byrd look at the race for AI sovereignty and its implications for investors. Read more insights from Morgan Stanley."
+      "duration": "5 min",
+      "summary": "AI’s enormous capital requirements are reshaping the way companies tap credit markets. Our Chief Fixed Income Strategist Vishy Tirupattur takes stock of this summer’s key financing developments. Read more insights from Morgan Stanley."
+    },
+    {
+      "firm": "J.P. Morgan",
+      "show": "Making Sense",
+      "title": "The new defense playbook: Partnerships, capital, capability",
+      "url": "https://podcasts.apple.com/us/podcast/the-new-defense-playbook-partnerships-capital-capability/id1456184829?i=1000784882484&uo=4",
+      "published": "2026-08-21T17:49:40+00:00",
+      "kind": "podcast",
+      "duration": "9 min",
+      "summary": "In this episode of J.P. Morgan’s Making Sense, Mark Marengo, head of Diversified Industries Investment Banking, sits down with Derek Chollet, head of the JPMorganChase Center for Geopolitics, to unpack what’s changing across defense and aerospace. They discuss where investment is flowing, how emerging technologies are reshaping capability and military readiness and why deeper public-private partnerships are becoming essential to move the sector forward in the U.S., Europe and beyond."
+    },
+    {
+      "firm": "J.P. Morgan",
+      "show": null,
+      "title": "From Tokyo to London to Washington, Debt is in the Doghouse",
+      "url": "https://www.jpmorgan.com/insights/markets-and-economy/top-market-takeaways/tmt-from-tokyo-to-london-to-washington-debt-is-in-the-doghouse",
+      "published": "2026-08-21T09:11:51.864000-04:00",
+      "kind": "article",
+      "duration": null,
+      "summary": "Global bond yields are climbing as the era of exceptionally low long-term rates becomes harder to justify."
     }
   ]
 }
