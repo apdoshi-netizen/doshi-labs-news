@@ -1,23 +1,23 @@
 {
   "date": "2026-08-23",
-  "generatedAt": "2026-08-23T08:47:18.835548+00:00",
+  "generatedAt": "2026-08-23T10:37:45.453251+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "U.S., Canada Spiral Toward Trade War",
-      "url": "https://www.wsj.com/economy/trade/canada-announces-new-post-labor-day-tariffs-ef1de8e1",
-      "summary": "US and Canada escalate trade dispute with new tariffs, threatening broader cross-border economic fallout.",
-      "storyKey": "canada+tariffs+us",
+      "title": "The Hidden Financial Deals That Put the Dodgers Owner in the Crosshairs of the Feds | The 10-Point for August 18",
+      "url": "https://www.wsj.com/finance/investing/the-hidden-financial-deals-that-put-the-dodgers-owner-in-the-crosshairs-of-the-feds-3a54ebc1",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Heirs to the Jack Daniel’s Fortune Are Fending Off a Takeover—and a Rogue Cousin",
-      "url": "https://www.wsj.com/business/retail/brown-forman-heirs-feud-jack-daniels-takeover-4ecdfba9",
-      "summary": "Heirs to the Jack Daniel’s fortune battle a rogue cousin and fend off a takeover attempt.",
-      "storyKey": "daniels+heirs+jack",
+      "title": "MacKenzie Scott, Billionaire Philanthropist, Returns to Her First Love: Fiction",
+      "url": "https://www.wsj.com/arts-culture/books/mackenzie-scott-substack-last-days-bezos-3f712734",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
@@ -25,17 +25,17 @@
       "label": "Op-Ed",
       "title": "Opinion | A Wokester’s Opening Argument for the U.S. Senate",
       "url": "https://www.wsj.com/opinion/a-wokesters-opening-argument-for-the-u-s-senate-09963782",
-      "summary": "Opinion piece presents a progressive candidate’s opening argument for a U.S. Senate run.",
-      "storyKey": "senate+wokester",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Nvidia Is Spending $6 Billion to Build a Powerful U.S. Alternative to Chinese AI",
-      "url": "https://www.wsj.com/tech/ai/nvidia-is-spending-6-billion-to-build-a-powerful-u-s-alternative-to-chinese-ai-c51c38cc",
-      "summary": "Nvidia commits $6 billion to build a U.S. alternative to Chinese AI technology.",
-      "storyKey": "ai+alternative+nvidia",
+      "title": "Job Seekers Are Racing to AI-Proof Their Résumés",
+      "url": "https://www.wsj.com/tech/ai/job-seekers-are-racing-to-ai-proof-their-resumes-f310f43c",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
@@ -43,8 +43,8 @@
       "label": "Sports",
       "title": "The Final Days of LIV Golf: Unpaid Bills and a Scramble for Cash",
       "url": "https://www.wsj.com/sports/golf/liv-golf-money-bf4d05f2",
-      "summary": "LIV Golf faces unpaid bills and scrambles for cash in its final days.",
-      "storyKey": "finances+golf+liv",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     }
   ],
