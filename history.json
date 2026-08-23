@@ -1,22 +1,4 @@
 {
-  "2026-08-01": [
-    {
-      "title": "Treasury Yields Rise in Month That Saw Inflation Fears Revive",
-      "url": "https://www.wsj.com/finance/jgbs-edge-lower-ahead-of-bojs-rate-decision-000cd87a"
-    },
-    {
-      "title": "David Ellison’s Risky Courtroom Strategy to Save His $81 Billion Warner Deal",
-      "url": "https://www.wsj.com/business/media/david-ellison-paramount-warner-strategy-deal-39a4ba62"
-    },
-    {
-      "title": "Opinion | Where Sec. 232 Tariffs Undermine U.S. Industry",
-      "url": "https://www.wsj.com/opinion/where-sec-232-tariffs-undermine-u-s-industry-db12af7e"
-    },
-    {
-      "title": "Microsoft’s One-Day Market-Cap Gain Makes History",
-      "url": "https://www.wsj.com/tech/microsofts-one-day-market-cap-gain-makes-history-2b3a5cb3"
-    }
-  ],
   "2026-08-02": [
     {
       "title": "Three Fed Officials Say Inflation Should Have Prompted Higher Rates",
@@ -530,6 +512,33 @@
       "storyKey": null
     }
   ],
+  "2026-08-23": [
+    {
+      "title": "U.S., Canada Spiral Toward Trade War",
+      "url": "https://www.wsj.com/economy/trade/canada-announces-new-post-labor-day-tariffs-ef1de8e1",
+      "storyKey": "canada+tariffs+us"
+    },
+    {
+      "title": "Heirs to the Jack Daniel’s Fortune Are Fending Off a Takeover—and a Rogue Cousin",
+      "url": "https://www.wsj.com/business/retail/brown-forman-heirs-feud-jack-daniels-takeover-4ecdfba9",
+      "storyKey": "daniels+heirs+jack"
+    },
+    {
+      "title": "Opinion | A Wokester’s Opening Argument for the U.S. Senate",
+      "url": "https://www.wsj.com/opinion/a-wokesters-opening-argument-for-the-u-s-senate-09963782",
+      "storyKey": "senate+wokester"
+    },
+    {
+      "title": "Nvidia Is Spending $6 Billion to Build a Powerful U.S. Alternative to Chinese AI",
+      "url": "https://www.wsj.com/tech/ai/nvidia-is-spending-6-billion-to-build-a-powerful-u-s-alternative-to-chinese-ai-c51c38cc",
+      "storyKey": "ai+alternative+nvidia"
+    },
+    {
+      "title": "The Final Days of LIV Golf: Unpaid Bills and a Scramble for Cash",
+      "url": "https://www.wsj.com/sports/golf/liv-golf-money-bf4d05f2",
+      "storyKey": "finances+golf+liv"
+    }
+  ],
   "_research": {
     "2026-08-08": [
       "https://podcasts.apple.com/us/podcast/ais-new-rules-of-engagement/id1466686717?i=1000780942420&uo=4",
@@ -578,6 +587,7 @@
     ],
     "2026-08-22": [
       "https://www.jpmorgan.com/insights/markets-and-economy/top-market-takeaways/tmt-from-tokyo-to-london-to-washington-debt-is-in-the-doghouse"
-    ]
+    ],
+    "2026-08-23": []
   }
 }

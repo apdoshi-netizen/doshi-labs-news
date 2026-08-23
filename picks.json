@@ -1,63 +1,52 @@
 {
-  "date": "2026-08-22",
-  "generatedAt": "2026-08-22T10:38:23.998444+00:00",
+  "date": "2026-08-23",
+  "generatedAt": "2026-08-23T08:47:18.835548+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "See How China Weathered the Iran Oil Shock",
-      "url": "https://www.wsj.com/business/energy-oil/see-how-china-weathered-the-iran-oil-shock-2c367cd8",
-      "summary": "",
-      "storyKey": null,
+      "title": "U.S., Canada Spiral Toward Trade War",
+      "url": "https://www.wsj.com/economy/trade/canada-announces-new-post-labor-day-tariffs-ef1de8e1",
+      "summary": "US and Canada escalate trade dispute with new tariffs, threatening broader cross-border economic fallout.",
+      "storyKey": "canada+tariffs+us",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Why a Payments Giant Is Paying $7 Billion for the ‘Stripe of AI’",
-      "url": "https://www.wsj.com/tech/ai/why-a-payments-giant-is-paying-7-billion-for-the-stripe-of-ai-f5832e54",
-      "summary": "",
-      "storyKey": null,
+      "title": "Heirs to the Jack Daniel’s Fortune Are Fending Off a Takeover—and a Rogue Cousin",
+      "url": "https://www.wsj.com/business/retail/brown-forman-heirs-feud-jack-daniels-takeover-4ecdfba9",
+      "summary": "Heirs to the Jack Daniel’s fortune battle a rogue cousin and fend off a takeover attempt.",
+      "storyKey": "daniels+heirs+jack",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Trump Has a Beef With Tariffs",
-      "url": "https://www.wsj.com/opinion/donald-trump-lifts-beef-tariffs-trade-imports-d3048c6a",
-      "summary": "",
-      "storyKey": null,
+      "title": "Opinion | A Wokester’s Opening Argument for the U.S. Senate",
+      "url": "https://www.wsj.com/opinion/a-wokesters-opening-argument-for-the-u-s-senate-09963782",
+      "summary": "Opinion piece presents a progressive candidate’s opening argument for a U.S. Senate run.",
+      "storyKey": "senate+wokester",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Private Equity Is Deploying an Army of AI Wonks to Embed in the Firms They Back",
-      "url": "https://www.wsj.com/tech/ai/private-equity-is-deploying-an-army-of-ai-wonks-to-embed-in-the-firms-they-back-96d279ec",
-      "summary": "",
-      "storyKey": null,
+      "title": "Nvidia Is Spending $6 Billion to Build a Powerful U.S. Alternative to Chinese AI",
+      "url": "https://www.wsj.com/tech/ai/nvidia-is-spending-6-billion-to-build-a-powerful-u-s-alternative-to-chinese-ai-c51c38cc",
+      "summary": "Nvidia commits $6 billion to build a U.S. alternative to Chinese AI technology.",
+      "storyKey": "ai+alternative+nvidia",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "Did Carlos Alcaraz Just Save the U.S. Open?",
-      "url": "https://www.wsj.com/sports/tennis/carlos-alcaraz-us-open-a7b00e59",
-      "summary": "",
-      "storyKey": null,
+      "title": "The Final Days of LIV Golf: Unpaid Bills and a Scramble for Cash",
+      "url": "https://www.wsj.com/sports/golf/liv-golf-money-bf4d05f2",
+      "summary": "LIV Golf faces unpaid bills and scrambles for cash in its final days.",
+      "storyKey": "finances+golf+liv",
       "source": "WSJ"
     }
   ],
-  "research": [
-    {
-      "firm": "J.P. Morgan",
-      "show": null,
-      "title": "From Tokyo to London to Washington, Debt is in the Doghouse",
-      "url": "https://www.jpmorgan.com/insights/markets-and-economy/top-market-takeaways/tmt-from-tokyo-to-london-to-washington-debt-is-in-the-doghouse",
-      "published": "2026-08-21T09:11:51.864000-04:00",
-      "kind": "article",
-      "duration": null,
-      "summary": "Global bond yields are climbing as the era of exceptionally low long-term rates becomes harder to justify."
-    }
-  ]
+  "research": []
 }
