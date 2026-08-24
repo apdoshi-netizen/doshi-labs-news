@@ -1,12 +1,12 @@
 {
-  "date": "2026-08-23",
-  "generatedAt": "2026-08-23T10:37:45.453251+00:00",
+  "date": "2026-08-24",
+  "generatedAt": "2026-08-24T09:03:25.562408+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "The Hidden Financial Deals That Put the Dodgers Owner in the Crosshairs of the Feds | The 10-Point for August 18",
-      "url": "https://www.wsj.com/finance/investing/the-hidden-financial-deals-that-put-the-dodgers-owner-in-the-crosshairs-of-the-feds-3a54ebc1",
+      "title": "Gold Above $4,700 Ahead of Inflation Data, Fed Chair Speech",
+      "url": "https://www.wsj.com/finance/commodities-futures/gold-rises-appeal-grows-amid-uneasy-u-s-fiscal-outlook-868ddd14",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -14,8 +14,8 @@
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "MacKenzie Scott, Billionaire Philanthropist, Returns to Her First Love: Fiction",
-      "url": "https://www.wsj.com/arts-culture/books/mackenzie-scott-substack-last-days-bezos-3f712734",
+      "title": "Chinese Chip Maker YMTC Seeks $4.9 Billion IPO",
+      "url": "https://www.wsj.com/tech/chinese-chip-maker-ymtc-seeks-4-9-billion-ipo-7e0e6daf",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -23,8 +23,8 @@
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | A Wokester’s Opening Argument for the U.S. Senate",
-      "url": "https://www.wsj.com/opinion/a-wokesters-opening-argument-for-the-u-s-senate-09963782",
+      "title": "Opinion | Trump Seeks a Tariff Do-Over in Court",
+      "url": "https://www.wsj.com/opinion/trump-seeks-a-tariff-do-over-in-court-f73b493d",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -32,8 +32,8 @@
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Job Seekers Are Racing to AI-Proof Their Résumés",
-      "url": "https://www.wsj.com/tech/ai/job-seekers-are-racing-to-ai-proof-their-resumes-f310f43c",
+      "title": "Alibaba to Raise $10.20 Billion for AI Investment With Share Placement",
+      "url": "https://www.wsj.com/tech/alibaba-to-bulk-up-ai-investment-via-10-20-billion-share-placement-72b9bdac",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -41,8 +41,8 @@
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The Final Days of LIV Golf: Unpaid Bills and a Scramble for Cash",
-      "url": "https://www.wsj.com/sports/golf/liv-golf-money-bf4d05f2",
+      "title": "If You Haven’t Seen ‘The Spectacle,’ You’re Missing the WNBA’s Top Rookie",
+      "url": "https://www.wsj.com/sports/basketball/olivia-miles-the-spectacle-wnba-lynx-3bdd0059",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
