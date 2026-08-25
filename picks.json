@@ -1,52 +1,83 @@
 {
-  "date": "2026-08-24",
-  "generatedAt": "2026-08-24T10:51:41.666073+00:00",
+  "date": "2026-08-25",
+  "generatedAt": "2026-08-25T08:59:01.238851+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "U.S., Canada Spiral Toward Trade War",
-      "url": "https://www.wsj.com/economy/trade/canada-announces-new-post-labor-day-tariffs-ef1de8e1",
-      "summary": "U.S. and Canada's trade dispute escalates further into full-blown trade war, macro market implications.",
-      "storyKey": "canada+tradewar+us",
+      "title": "Bessent Launches ‘Operation Economic Outcast’ to Isolate and Squeeze Iran",
+      "url": "https://www.wsj.com/world/middle-east/bessent-launches-operation-economic-outcast-to-isolate-iran-0e4db091",
+      "summary": "Treasury Secretary Bessent launches \"Operation Economic Outcast\" to isolate and squeeze Iran economically.",
+      "storyKey": "bessent+iran+sanctions",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Shein Targets $27 Billion Valuation in Long-Awaited Hong Kong IPO",
-      "url": "https://www.wsj.com/business/shein-looks-to-raise-up-to-1-77-billion-in-long-awaited-hong-kong-offering-e7883ec6",
-      "summary": "Shein targets a $27 billion valuation in its long-awaited Hong Kong IPO listing.",
-      "storyKey": "ipo+shein",
+      "title": "James Hardie Selling European Fermacell Business for $980 Million to Holcim",
+      "url": "https://www.wsj.com/business/deals/james-hardie-selling-european-fermacell-business-for-980-million-to-holcim-dc6e1c24",
+      "summary": "James Hardie sells European Fermacell business to Holcim for $980 million.",
+      "storyKey": "fermacell+hardie+holcim",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | What Does Mark Carney Think He’s Doing?",
-      "url": "https://www.wsj.com/opinion/free-expression/what-does-mark-carney-think-hes-doing-67075dfd",
-      "summary": "Opinion questions Bank of England's Mark Carney and his current policy strategy.",
-      "storyKey": "carney+policy",
+      "title": "Opinion | The Dumbest Trade War Revisited",
+      "url": "https://www.wsj.com/opinion/the-dumbest-trade-war-revisited-57c9fe81",
+      "summary": "Opinion column revisits and critiques the \"dumbest trade war\" policy decisions.",
+      "storyKey": "opinion+trade+war",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Alibaba to Raise $10.20 Billion for AI Investment With Share Placement",
-      "url": "https://www.wsj.com/tech/alibaba-to-bulk-up-ai-investment-via-10-20-billion-share-placement-72b9bdac",
-      "summary": "Alibaba to raise $10.20 billion via share placement to fund AI investment push.",
-      "storyKey": "ai+alibaba+raise",
+      "title": "Taiwan Charges Nine in Connection With Smuggling of AI Servers to China",
+      "url": "https://www.wsj.com/tech/taiwan-charges-nine-in-connection-with-smuggling-of-ai-servers-to-china-d1f72f47",
+      "summary": "Taiwan charges nine people for allegedly smuggling AI servers to China.",
+      "storyKey": "ai+smuggling+taiwan",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "English Soccer’s Richest Club Begins Its Great Succession Experiment",
-      "url": "https://www.wsj.com/sports/soccer/manchester-city-enzo-maresca-pep-guardiola-bc02c7cf",
-      "summary": "English soccer's richest club begins ownership succession experiment, a sports business story.",
-      "storyKey": "manutd+succession",
+      "title": "The Major Leaguer Who Went to Wharton—and Learned to Run a Baseball Team",
+      "url": "https://www.wsj.com/sports/baseball/sam-fuld-wharton-phillies-460a9768",
+      "summary": "Major League player who attended Wharton learns to run a baseball team.",
+      "storyKey": "baseball+exec+wharton",
       "source": "WSJ"
     }
   ],
-  "research": []
+  "research": [
+    {
+      "firm": "Goldman Sachs",
+      "show": "Exchanges",
+      "title": "Building AI Systems for Capital Markets",
+      "url": "https://podcasts.apple.com/us/podcast/building-ai-systems-for-capital-markets/id948913991?i=1000785557673&uo=4",
+      "published": "2026-08-24T15:00:00+00:00",
+      "kind": "podcast",
+      "duration": "27 min",
+      "summary": "Key takeaways:"
+    },
+    {
+      "firm": "Morgan Stanley",
+      "show": "Thoughts on the Market",
+      "title": "Markets Faces Hotter, Shorter Cycles",
+      "url": "https://podcasts.apple.com/us/podcast/markets-faces-hotter-shorter-cycles/id1466686717?i=1000785612799&uo=4",
+      "published": "2026-08-24T20:30:00+00:00",
+      "kind": "podcast",
+      "duration": "5 min",
+      "summary": "Bonds may no longer provide the shelter investors have expected. Our CIO and Chief U.S. Equity Strategist Mike Wilson talks about the changing relationship between inflation, yields and risk. Read more insights from Morgan Stanley."
+    },
+    {
+      "firm": "J.P. Morgan",
+      "show": "Making Sense",
+      "title": "Power surge: The US electricity derivatives boom, with ElectronX",
+      "url": "https://podcasts.apple.com/us/podcast/power-surge-the-us-electricity-derivatives-boom/id1456184829?i=1000785683358&uo=4",
+      "published": "2026-08-25T06:00:00+00:00",
+      "kind": "podcast",
+      "duration": "15 min",
+      "summary": "In this episode of J.P. Morgan’s Making Sense, Bryan Long, Power Trading and Origination at J.P. Morgan, is joined by Sam Tegel, CEO of ElectronX, to explore why US power has become an increasingly attractive and tradable product for a growing wave of global market participants. Against a backdrop of surging data center demand, renewable penetration, and grid complexity, they discuss how short-term electricity derivatives are unlocking new risk management tools and drawing in liquidity from proprietary trading firms, crypto miners, and institutional investors worldwide. The conversation also covers the convergence of power and compute costs, and what deeper market liquidity means for private capital deployment in US energy infrastructure."
+    }
+  ]
 }

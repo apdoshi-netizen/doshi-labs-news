@@ -1,22 +1,4 @@
 {
-  "2026-08-03": [
-    {
-      "title": "Treasury Yields, Dollar Fall as Talks to Reopen Hormuz Are Set to Restart",
-      "url": "https://www.wsj.com/finance/currencies/yen-weakens-slightly-on-likely-technical-correction-cda7c245"
-    },
-    {
-      "title": "KKR to Buy Integer Holdings for $4.3 Billion in Cash",
-      "url": "https://www.wsj.com/business/deals/kkr-to-buy-integer-holdings-for-4-3-billion-a80f2560"
-    },
-    {
-      "title": "Opinion | A Brief History of Wealth Creation",
-      "url": "https://www.wsj.com/opinion/a-brief-history-of-wealth-creation-32bd917a"
-    },
-    {
-      "title": "How OpenAI Lost Its AI Crown—and the Fight to Win It Back",
-      "url": "https://www.wsj.com/tech/ai/how-openai-lost-its-ai-crownand-the-fight-to-win-it-back-7d069695"
-    }
-  ],
   "2026-08-04": [
     {
       "title": "U.S. Treasury Yields Rise, Dollar Firm as Oil Prices Increase",
@@ -548,6 +530,33 @@
       "storyKey": "manutd+succession"
     }
   ],
+  "2026-08-25": [
+    {
+      "title": "Bessent Launches ‘Operation Economic Outcast’ to Isolate and Squeeze Iran",
+      "url": "https://www.wsj.com/world/middle-east/bessent-launches-operation-economic-outcast-to-isolate-iran-0e4db091",
+      "storyKey": "bessent+iran+sanctions"
+    },
+    {
+      "title": "James Hardie Selling European Fermacell Business for $980 Million to Holcim",
+      "url": "https://www.wsj.com/business/deals/james-hardie-selling-european-fermacell-business-for-980-million-to-holcim-dc6e1c24",
+      "storyKey": "fermacell+hardie+holcim"
+    },
+    {
+      "title": "Opinion | The Dumbest Trade War Revisited",
+      "url": "https://www.wsj.com/opinion/the-dumbest-trade-war-revisited-57c9fe81",
+      "storyKey": "opinion+trade+war"
+    },
+    {
+      "title": "Taiwan Charges Nine in Connection With Smuggling of AI Servers to China",
+      "url": "https://www.wsj.com/tech/taiwan-charges-nine-in-connection-with-smuggling-of-ai-servers-to-china-d1f72f47",
+      "storyKey": "ai+smuggling+taiwan"
+    },
+    {
+      "title": "The Major Leaguer Who Went to Wharton—and Learned to Run a Baseball Team",
+      "url": "https://www.wsj.com/sports/baseball/sam-fuld-wharton-phillies-460a9768",
+      "storyKey": "baseball+exec+wharton"
+    }
+  ],
   "_research": {
     "2026-08-08": [
       "https://podcasts.apple.com/us/podcast/ais-new-rules-of-engagement/id1466686717?i=1000780942420&uo=4",
@@ -598,6 +607,11 @@
       "https://www.jpmorgan.com/insights/markets-and-economy/top-market-takeaways/tmt-from-tokyo-to-london-to-washington-debt-is-in-the-doghouse"
     ],
     "2026-08-23": [],
-    "2026-08-24": []
+    "2026-08-24": [],
+    "2026-08-25": [
+      "https://podcasts.apple.com/us/podcast/building-ai-systems-for-capital-markets/id948913991?i=1000785557673&uo=4",
+      "https://podcasts.apple.com/us/podcast/markets-faces-hotter-shorter-cycles/id1466686717?i=1000785612799&uo=4",
+      "https://podcasts.apple.com/us/podcast/power-surge-the-us-electricity-derivatives-boom/id1456184829?i=1000785683358&uo=4"
+    ]
   }
 }
