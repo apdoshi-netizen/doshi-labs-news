@@ -1,22 +1,4 @@
 {
-  "2026-08-04": [
-    {
-      "title": "U.S. Treasury Yields Rise, Dollar Firm as Oil Prices Increase",
-      "url": "https://www.wsj.com/finance/currencies/dollar-rising-vs-yen-in-possible-corrective-pattern-technical-analysis-shows-d48a2527"
-    },
-    {
-      "title": "Prologis to Buy U.K.’s Segro for $18.8 Billion",
-      "url": "https://www.wsj.com/business/deals/prologis-to-buy-u-k-s-segro-for-18-8-billion-50b0ddd5"
-    },
-    {
-      "title": "Opinion | Can the U.S. Treasury Save the Yen?",
-      "url": "https://www.wsj.com/opinion/can-the-u-s-treasury-save-the-yen-22eef6ba"
-    },
-    {
-      "title": "Visa Is Slashing 2,600 Jobs as It Adapts to Changing Payments Industry",
-      "url": "https://www.wsj.com/tech/visa-slashing-2-600-jobs-as-it-adapts-to-changing-payments-industry-d99180dd"
-    }
-  ],
   "2026-08-05": [
     {
       "title": "Why Bessent Is Leaning on the Fed to Help Prop Up Japan’s Currency",
@@ -557,6 +539,33 @@
       "storyKey": null
     }
   ],
+  "2026-08-26": [
+    {
+      "title": "SoftBank Plans Record Retail Bond Issuance Amid AI Push",
+      "url": "https://www.wsj.com/business/softbank-plans-record-retail-bond-issuance-amid-ai-push-b8ebd7b8",
+      "storyKey": null
+    },
+    {
+      "title": "A $1 Million Renovation Revitalized Their Revolutionary War-Era Home",
+      "url": "https://www.wsj.com/real-estate/luxury-homes/a-1-million-renovation-revitalized-their-revolutionary-war-era-home-7c6904e4",
+      "storyKey": null
+    },
+    {
+      "title": "Opinion | Maryland’s Digital Tax Fiasco",
+      "url": "https://www.wsj.com/opinion/marylands-digital-tax-fiasco-04361d89",
+      "storyKey": null
+    },
+    {
+      "title": "Three Takeaways From Bill Gates’s 5,784-Word Warning on AI: ‘There Is No Plan’",
+      "url": "https://www.wsj.com/tech/ai/three-takeaways-from-bill-gatess-5-784-word-warning-on-ai-there-is-no-plan-aa0c3441",
+      "storyKey": null
+    },
+    {
+      "title": "Some Players Block Shots. Victor Wembanyama Makes Them Completely Disappear.",
+      "url": "https://www.wsj.com/sports/some-players-block-shots-victor-wembanyama-makes-them-completely-disappear-581925cc?mod",
+      "storyKey": null
+    }
+  ],
   "_research": {
     "2026-08-08": [
       "https://podcasts.apple.com/us/podcast/ais-new-rules-of-engagement/id1466686717?i=1000780942420&uo=4",
@@ -612,6 +621,9 @@
       "https://podcasts.apple.com/us/podcast/building-ai-systems-for-capital-markets/id948913991?i=1000785557673&uo=4",
       "https://podcasts.apple.com/us/podcast/markets-faces-hotter-shorter-cycles/id1466686717?i=1000785612799&uo=4",
       "https://podcasts.apple.com/us/podcast/power-surge-the-us-electricity-derivatives-boom/id1456184829?i=1000785683358&uo=4"
+    ],
+    "2026-08-26": [
+      "https://podcasts.apple.com/us/podcast/measuring-the-markets-megatrends/id1466686717?i=1000785828462&uo=4"
     ]
   }
 }

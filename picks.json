@@ -1,12 +1,12 @@
 {
-  "date": "2026-08-25",
-  "generatedAt": "2026-08-25T10:48:02.700590+00:00",
+  "date": "2026-08-26",
+  "generatedAt": "2026-08-26T09:01:14.283448+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "U.S. Stocks Up as Treasury Buybacks Calm Bond Yields; Moderna Surges",
-      "url": "https://www.wsj.com/finance/stocks/u-s-stocks-gain-as-treasury-buybacks-calm-bond-yields-moderna-surges-402249fb",
+      "title": "SoftBank Plans Record Retail Bond Issuance Amid AI Push",
+      "url": "https://www.wsj.com/business/softbank-plans-record-retail-bond-issuance-amid-ai-push-b8ebd7b8",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -14,8 +14,8 @@
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "U.S. Considers Tariff Cuts on Metals, Autos in Canada Deal",
-      "url": "https://www.wsj.com/logistics-report/u-s-considers-tariff-cuts-on-metals-autos-in-canada-deal-e4ec3909",
+      "title": "A $1 Million Renovation Revitalized Their Revolutionary War-Era Home",
+      "url": "https://www.wsj.com/real-estate/luxury-homes/a-1-million-renovation-revitalized-their-revolutionary-war-era-home-7c6904e4",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -23,8 +23,8 @@
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | The Dumbest Trade War Revisited",
-      "url": "https://www.wsj.com/opinion/the-dumbest-trade-war-revisited-57c9fe81",
+      "title": "Opinion | Maryland’s Digital Tax Fiasco",
+      "url": "https://www.wsj.com/opinion/marylands-digital-tax-fiasco-04361d89",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -32,8 +32,8 @@
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Nvidia Has Become a Banker to the AI Boom, Putting It on Dangerous Ground",
-      "url": "https://www.wsj.com/tech/ai/nvidia-has-become-a-banker-to-the-ai-boom-putting-it-on-dangerous-ground-94c03545",
+      "title": "Three Takeaways From Bill Gates’s 5,784-Word Warning on AI: ‘There Is No Plan’",
+      "url": "https://www.wsj.com/tech/ai/three-takeaways-from-bill-gatess-5-784-word-warning-on-ai-there-is-no-plan-aa0c3441",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -41,8 +41,8 @@
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The Major Leaguer Who Went to Wharton—and Learned to Run a Baseball Team",
-      "url": "https://www.wsj.com/sports/baseball/sam-fuld-wharton-phillies-460a9768",
+      "title": "Some Players Block Shots. Victor Wembanyama Makes Them Completely Disappear.",
+      "url": "https://www.wsj.com/sports/some-players-block-shots-victor-wembanyama-makes-them-completely-disappear-581925cc?mod",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -50,34 +50,14 @@
   ],
   "research": [
     {
-      "firm": "Goldman Sachs",
-      "show": "Exchanges",
-      "title": "Building AI Systems for Capital Markets",
-      "url": "https://podcasts.apple.com/us/podcast/building-ai-systems-for-capital-markets/id948913991?i=1000785557673&uo=4",
-      "published": "2026-08-24T15:00:00+00:00",
-      "kind": "podcast",
-      "duration": "27 min",
-      "summary": "Key takeaways:"
-    },
-    {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
-      "title": "Markets Faces Hotter, Shorter Cycles",
-      "url": "https://podcasts.apple.com/us/podcast/markets-faces-hotter-shorter-cycles/id1466686717?i=1000785612799&uo=4",
-      "published": "2026-08-24T20:30:00+00:00",
+      "title": "Measuring the Market’s Megatrends",
+      "url": "https://podcasts.apple.com/us/podcast/measuring-the-markets-megatrends/id1466686717?i=1000785828462&uo=4",
+      "published": "2026-08-25T20:30:00+00:00",
       "kind": "podcast",
-      "duration": "5 min",
-      "summary": "Bonds may no longer provide the shelter investors have expected. Our CIO and Chief U.S. Equity Strategist Mike Wilson talks about the changing relationship between inflation, yields and risk. Read more insights from Morgan Stanley."
-    },
-    {
-      "firm": "J.P. Morgan",
-      "show": "Making Sense",
-      "title": "Power surge: The US electricity derivatives boom, with ElectronX",
-      "url": "https://podcasts.apple.com/us/podcast/power-surge-the-us-electricity-derivatives-boom/id1456184829?i=1000785683358&uo=4",
-      "published": "2026-08-25T06:00:00+00:00",
-      "kind": "podcast",
-      "duration": "15 min",
-      "summary": "In this episode of J.P. Morgan’s Making Sense, Bryan Long, Power Trading and Origination at J.P. Morgan, is joined by Sam Tegel, CEO of ElectronX, to explore why US power has become an increasingly attractive and tradable product for a growing wave of global market participants. Against a backdrop of surging data center demand, renewable penetration, and grid complexity, they discuss how short-term electricity derivatives are unlocking new risk management tools and drawing in liquidity from proprietary trading firms, crypto miners, and institutional investors worldwide. The conversation also covers the convergence of power and compute costs, and what deeper market liquidity means for private capital deployment in US energy infrastructure."
+      "duration": "9 min",
+      "summary": "Paul Walsh, Michelle Weaver and Daniel Blake discuss how thematic mapping can help investors separate true beneficiaries from market hype and identify risks hiding beneath the surface. Read more insights from Morgan Stanley."
     }
   ]
 }
