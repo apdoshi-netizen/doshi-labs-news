@@ -2,21 +2,41 @@ name: Doshi Labs News picks
 
 on:
   schedule:
-    # Shots before the 9 AM ET send (13:00 UTC EDT / 14:00 UTC EST). Observed
-    # GitHub scheduler delay is 45-110 min, so these are set early. The last
-    # tick is a RESCUE run: it regenerates only if the day's picks are still
-    # missing/empty (e.g. a run drew a Google-blocked runner IP) — otherwise it
-    # exits without spending an API call.
-    - cron: '17 8 * * *'
-    - cron: '17 10 * * *'
-    - cron: '17 11 * * *'   # rescue-only
+    # Four ticks across four SEPARATE hour blocks, before the 9 AM ET send
+    # (13:00 UTC EDT / 14:00 UTC EST).
+    #
+    # Spread matters more than count. GitHub's `schedule` trigger is best-effort:
+    # it drifts 45-110 min under load and can be skipped entirely. On 2026-08-27
+    # it fired ZERO times all day, and because the old ticks sat inside a single
+    # 3-hour window (08:17/10:17/11:17) they were not three independent attempts
+    # — they were three samples of one bad block. No digest went out.
+    #
+    # EARLIEST SAFE TICK IS 05:17 UTC. picks.json is stamped with the ET date at
+    # generation, and the mailer refuses anything not dated today. ET midnight is
+    # 04:00 UTC under EDT but 05:00 UTC under EST, so an earlier tick would stamp
+    # YESTERDAY for four months of the year and be rejected as stale.
+    #
+    # Two full runs (05:17, 09:17) and two rescues. The second full run is not
+    # redundant: it re-picks against four more hours of WSJ output, so the digest
+    # reflects the morning rather than the small hours. Rescues regenerate only
+    # when the day's picks are missing or empty, so they cost nothing on a
+    # healthy day. Net API spend is unchanged at ~2 calls/day.
+    #
+    # The last tick is 10:17, not 11:17: with worst-case drift (110 min) an
+    # 11:17 tick lands 13:07 UTC, seven minutes AFTER the 13:00 EDT send, so the
+    # last-chance rescue would arrive too late to matter. 10:17 + 110 min =
+    # 12:07, comfortably inside the window in both EDT and EST.
+    - cron: '17 5 * * *'
+    - cron: '17 7 * * *'    # rescue-only
+    - cron: '17 9 * * *'
+    - cron: '17 10 * * *'   # rescue-only, last chance before the send
   workflow_dispatch: {}   # lets you run it manually from the Actions tab
 
 permissions:
   contents: write
 
 # Two ticks can otherwise overlap (the scheduler's 45-110 min drift means the
-# 08:17 run can still be going when 10:17 fires), and the later checkout's push
+# 05:17 run can still be going when 07:17 fires), and the later checkout's push
 # is then rejected. Queue instead of cancelling: a run that has already spent an
 # API call should be allowed to finish and commit.
 concurrency:
@@ -34,7 +54,7 @@ jobs:
       - name: Generate picks.json
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          RESCUE_ONLY: ${{ github.event.schedule == '17 11 * * *' && '1' || '' }}
+          RESCUE_ONLY: ${{ (github.event.schedule == '17 7 * * *' || github.event.schedule == '17 10 * * *') && '1' || '' }}
         run: python3 generate.py
       # Commit whatever was successfully written even when the generate step
       # exited non-zero. Without this, ANY late failure (a crash after the picks
