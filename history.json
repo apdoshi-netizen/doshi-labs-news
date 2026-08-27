@@ -1,22 +1,4 @@
 {
-  "2026-08-05": [
-    {
-      "title": "Why Bessent Is Leaning on the Fed to Help Prop Up Japan’s Currency",
-      "url": "https://www.wsj.com/economy/central-banking/why-bessent-is-leaning-on-the-fed-to-help-prop-up-japans-currency-85794909"
-    },
-    {
-      "title": "Disney to Sell Its Stake in A+E Global Media to Hearst for About $1.2 Billion",
-      "url": "https://www.wsj.com/business/media/disney-to-sell-its-stake-in-a-e-global-media-to-hearst-for-about-1-2-billion-e04797b6"
-    },
-    {
-      "title": "Opinion | Trump, Big Oil, and ‘Too Much Money’",
-      "url": "https://www.wsj.com/opinion/trump-big-oil-and-too-much-money-12cac79a"
-    },
-    {
-      "title": "White House AI Guidelines Exempt U.S. Open Models From Government Review",
-      "url": "https://www.wsj.com/tech/ai/white-houses-ai-guidelines-exempt-u-s-open-models-from-government-review-74924eb8"
-    }
-  ],
   "2026-08-06": [
     {
       "title": "Chip Stocks Weaken, Oil Steady as Investors Await Hormuz Progress",
@@ -566,6 +548,33 @@
       "storyKey": null
     }
   ],
+  "2026-08-27": [
+    {
+      "title": "Bessent’s Moves Test Boundaries Between Treasury and Fed",
+      "url": "https://www.wsj.com/economy/central-banking/bessents-moves-test-boundaries-between-treasury-and-fed-8db4af4a",
+      "storyKey": "bessent+fed"
+    },
+    {
+      "title": "Kioxia, Sandisk to Invest More Than $31 Billion in Memory Chips",
+      "url": "https://www.wsj.com/tech/kioxia-sandisk-to-invest-more-than-31-billion-in-memory-chips-bb6bddbf",
+      "storyKey": "kioxia+sandisk"
+    },
+    {
+      "title": "Opinion | A Car-Market Lesson for Housing",
+      "url": "https://www.wsj.com/opinion/free-expression/a-car-market-lesson-for-housing-f39fc187",
+      "storyKey": "car+housing+market"
+    },
+    {
+      "title": "Nvidia Reports Blowout Quarter, Says Demand for AI Chips Is Getting Even Hotter",
+      "url": "https://www.wsj.com/tech/nvidia-earnings-q2-2027-nvda-stock-8983c8d1",
+      "storyKey": "earnings+nvidia"
+    },
+    {
+      "title": "European Officials Seek Subpoena for Joshua Kushner on Infantino’s FIFA Selloff Plan",
+      "url": "https://www.wsj.com/sports/soccer/fifa-infantino-uefa-kushner-thrive-capital-b612b1b0",
+      "storyKey": "fifa+infantino+kushner"
+    }
+  ],
   "_research": {
     "2026-08-08": [
       "https://podcasts.apple.com/us/podcast/ais-new-rules-of-engagement/id1466686717?i=1000780942420&uo=4",
@@ -624,6 +633,9 @@
     ],
     "2026-08-26": [
       "https://podcasts.apple.com/us/podcast/measuring-the-markets-megatrends/id1466686717?i=1000785828462&uo=4"
+    ],
+    "2026-08-27": [
+      "https://podcasts.apple.com/us/podcast/when-does-higher-u-s-debt-start-to-matter/id1466686717?i=1000786106351&uo=4"
     ]
   }
 }

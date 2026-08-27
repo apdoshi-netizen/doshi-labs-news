@@ -1,50 +1,50 @@
 {
-  "date": "2026-08-26",
-  "generatedAt": "2026-08-26T10:50:13.598498+00:00",
+  "date": "2026-08-27",
+  "generatedAt": "2026-08-27T18:22:22.162062+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "U.S. Says Oil Is Pouring Through Hormuz. Trackers Can’t Find It.",
-      "url": "https://www.wsj.com/business/energy-oil/u-s-says-oil-is-pouring-through-hormuz-trackers-cant-find-it-306faebd",
-      "summary": "",
-      "storyKey": null,
+      "title": "Bessent’s Moves Test Boundaries Between Treasury and Fed",
+      "url": "https://www.wsj.com/economy/central-banking/bessents-moves-test-boundaries-between-treasury-and-fed-8db4af4a",
+      "summary": "Bessent’s Treasury actions raise questions about boundaries between Treasury Dept and Federal Reserve independence.",
+      "storyKey": "bessent+fed",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "European Chip Stocks Mixed Ahead of Nvidia Earnings",
-      "url": "https://www.wsj.com/finance/stocks/nikkei-falls-0-4-dragged-by-chip-related-stocks-472365b8",
-      "summary": "",
-      "storyKey": null,
+      "title": "Kioxia, Sandisk to Invest More Than $31 Billion in Memory Chips",
+      "url": "https://www.wsj.com/tech/kioxia-sandisk-to-invest-more-than-31-billion-in-memory-chips-bb6bddbf",
+      "summary": "Kioxia and Sandisk to invest over $31 billion in memory chip production expansion.",
+      "storyKey": "kioxia+sandisk",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Maryland’s Digital Tax Fiasco",
-      "url": "https://www.wsj.com/opinion/marylands-digital-tax-fiasco-04361d89",
-      "summary": "",
-      "storyKey": null,
+      "title": "Opinion | A Car-Market Lesson for Housing",
+      "url": "https://www.wsj.com/opinion/free-expression/a-car-market-lesson-for-housing-f39fc187",
+      "summary": "Op-ed draws lessons from car-market dynamics to explain housing market challenges.",
+      "storyKey": "car+housing+market",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "The $1.5 Trillion Question Nvidia’s Earnings Can’t Answer",
-      "url": "https://www.wsj.com/tech/ai/the-1-5-trillion-question-nvidias-earnings-cant-answer-a3a951c3",
-      "summary": "",
-      "storyKey": null,
+      "title": "Nvidia Reports Blowout Quarter, Says Demand for AI Chips Is Getting Even Hotter",
+      "url": "https://www.wsj.com/tech/nvidia-earnings-q2-2027-nvda-stock-8983c8d1",
+      "summary": "Nvidia reports blowout quarter with AI chip demand described as getting even hotter.",
+      "storyKey": "earnings+nvidia",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "He Was in the NFL. Then He Got a Better Offer to Play College Football Again.",
-      "url": "https://www.wsj.com/sports/football/daequan-wright-lsu-nfl-lawsuits-eccef757",
-      "summary": "",
-      "storyKey": null,
+      "title": "European Officials Seek Subpoena for Joshua Kushner on Infantino’s FIFA Selloff Plan",
+      "url": "https://www.wsj.com/sports/soccer/fifa-infantino-uefa-kushner-thrive-capital-b612b1b0",
+      "summary": "European officials seek subpoena for Joshua Kushner over Infantino’s FIFA stake selloff plan.",
+      "storyKey": "fifa+infantino+kushner",
       "source": "WSJ"
     }
   ],
@@ -52,12 +52,12 @@
     {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
-      "title": "Measuring the Market’s Megatrends",
-      "url": "https://podcasts.apple.com/us/podcast/measuring-the-markets-megatrends/id1466686717?i=1000785828462&uo=4",
-      "published": "2026-08-25T20:30:00+00:00",
+      "title": "When Does Higher U.S. Debt Start to Matter?",
+      "url": "https://podcasts.apple.com/us/podcast/when-does-higher-u-s-debt-start-to-matter/id1466686717?i=1000786106351&uo=4",
+      "published": "2026-08-26T20:00:00+00:00",
       "kind": "podcast",
-      "duration": "9 min",
-      "summary": "Paul Walsh, Michelle Weaver and Daniel Blake discuss how thematic mapping can help investors separate true beneficiaries from market hype and identify risks hiding beneath the surface. Read more insights from Morgan Stanley."
+      "duration": "4 min",
+      "summary": "Our Global Head of Fixed Income Research Andrew Sheets discusses when and how higher yields and mounting U.S. debt could become more than abstract concerns. Read more insights from Morgan Stanley."
     }
   ]
 }
