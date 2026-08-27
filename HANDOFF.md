@@ -38,10 +38,14 @@ Apps Script `sendDaily` → email.
 
 ## Live config
 
-- **Schedule (UTC):** `17 8`, `17 10`, and `17 11` (the 11:17 run is
-  RESCUE-only — regenerates just when the day's picks are missing/empty).
-  GitHub delays ticks 45–110 min, so these sit well before the 13:00 UTC
-  (9 AM EDT) send.
+- **Schedule (UTC):** `17 5`, `17 7`, `17 9`, `17 10` — four SEPARATE hour
+  blocks. `17 7` and `17 10` are RESCUE-only (regenerate just when the day's
+  picks are missing/empty, so they cost nothing on a healthy day). Two full
+  runs keep API spend at ~2 calls/day.
+  Nothing earlier than 05:17 UTC: picks.json is stamped with the ET date at
+  generation, ET midnight is 05:00 UTC under EST, and an earlier tick would
+  stamp YESTERDAY for four months of the year. Nothing later than 10:17:
+  worst-case drift (110 min) on an 11:17 tick lands after the 13:00 UTC send.
 - **Model:** `claude-sonnet-5`. ~2 real API calls/day → est. **$1–3/month**
   (check console.anthropic.com → Usage).
 - **From:** aaravpdoshi@gmail.com, display name `Doshi Labs`.
@@ -73,7 +77,7 @@ Apps Script `sendDaily` → email.
 6. **`claude-sonnet-5` returns a thinking block first** — extract the first
    `type=="text"` block, not `content[0]`.
 7. **Dedup has two layers.** History keys by date and ignores today's own
-   entry, so the 3 scheduled ticks (`17 8`, `17 10`, `17 11` UTC) don't exclude
+   entry, so the 4 scheduled ticks (`17 5`, `17 7`, `17 9`, `17 10` UTC) don't exclude
    their own earlier picks. Layer one matches article identity (normalized
    title / resolved URL) over 21 days — only literal repeats are blocked, so a
    *different* article on the same story still passes. Layer two is the

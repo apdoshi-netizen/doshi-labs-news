@@ -89,9 +89,9 @@ and Morgan Stanley publications.
 
 ## Timing & reliability
 
-- Generation runs at 08:17, 10:17, and 11:17 UTC; the 11:17 tick is RESCUE-only
-  (it regenerates only if the day's picks are still missing/empty, otherwise it
-  exits without spending an API call). Send is 9:00 AM ET (13:00 UTC EDT /
+- Generation runs at 05:17, 07:17, 09:17, and 10:17 UTC; the 07:17 and 10:17
+  ticks are RESCUE-only (they regenerate only if the day's picks are still
+  missing/empty, otherwise they exit without spending an API call). Send is 9:00 AM ET (13:00 UTC EDT /
   14:00 UTC EST) — a wide buffer even against GitHub's observed 45–110 min
   scheduler lag.
 - If a morning's generation ever fails, `picks.json` keeps yesterday's date, and
