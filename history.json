@@ -559,24 +559,24 @@
   ],
   "2026-08-28": [
     {
-      "title": "Warsh Says the Fed May Not Be Done Fighting Inflation",
-      "url": "https://www.wsj.com/economy/central-banking/warsh-says-the-fed-may-not-be-done-fighting-inflation-c60a0b51",
-      "storyKey": "fed+inflation+warsh"
+      "title": "The U.S. Created 79,000 Fewer Jobs Than Previously Reported, New Revisions Suggest",
+      "url": "https://www.wsj.com/economy/jobs/job-growth-bls-revision-5a632dc9",
+      "storyKey": "jobs+revisions"
     },
     {
-      "title": "Generali Mulling Monte dei Paschi’s $10 Billion Takeover Bid for Banca Generali",
-      "url": "https://www.wsj.com/business/deals/banca-generali-mulling-monte-di-paschis-10-billion-takeover-bid-6f17eaf5",
-      "storyKey": "bankagenerali+generali+mps"
+      "title": "Exclusive | Chevron, Other U.S. Firms Near Deal to Invest Billions in Venezuelan Oil Fields",
+      "url": "https://www.wsj.com/business/energy-oil/chevron-other-u-s-firms-near-deal-to-invest-billions-in-venezuelan-oil-fields-55739e38",
+      "storyKey": "chevron+venezuela"
     },
     {
-      "title": "Opinion | Beware the Coming Consumption-Tax Storm in America",
-      "url": "https://www.wsj.com/opinion/beware-the-coming-consumption-tax-storm-in-america-45d975de",
-      "storyKey": "consumption+policy+tax"
+      "title": "Opinion | Gag Treasury, You Gag the Market, Too",
+      "url": "https://www.wsj.com/opinion/gag-treasury-you-gag-the-market-too-c1fbb45e?mod",
+      "storyKey": "fed+independence+treasury"
     },
     {
-      "title": "Meta Reaches $18 Billion Settlement With 48 States Over Child-Safety Claims",
-      "url": "https://www.wsj.com/tech/meta-reaches-18-billion-settlement-with-48-states-over-child-safety-claims-cf725a2b",
-      "storyKey": "cloud+nvidia+revenue"
+      "title": "Exclusive | Nvidia Pauses Revenue-Sharing Deals With AI Cloud Companies",
+      "url": "https://www.wsj.com/tech/nvidia-pauses-revenue-sharing-deals-with-ai-cloud-companies-9c71454e",
+      "storyKey": "cloud+deals+nvidia"
     },
     {
       "title": "The Contrarian Who Built the NFL’s Best Team by Investing Like Warren Buffett",
@@ -649,9 +649,9 @@
     "2026-08-28": [
       "https://podcasts.apple.com/us/podcast/what-is-the-outlook-for-diesel-and-gasoline-supplies/id1683802600?i=1000786403025&uo=4",
       "https://podcasts.apple.com/us/podcast/jackson-hole-tests-the-feds-framework/id1466686717?i=1000786345990&uo=4",
+      "https://www.jpmorgan.com/insights/markets-and-economy/top-market-takeaways/tmt-us-earnings-are-exceptional-stocks-are-playing-catch-up",
       "https://podcasts.apple.com/us/podcast/the-capital-required-for-critical-supply-chains/id1456184829?i=1000786526655&uo=4",
-      "https://www.jpmorgan.com/insights/markets-and-economy/markets/the-certainty-of-uncertainty",
-      "https://www.jpmorgan.com/insights/markets-and-economy/top-market-takeaways/tmt-us-earnings-are-exceptional-stocks-are-playing-catch-up"
+      "https://www.jpmorgan.com/insights/markets-and-economy/markets/the-certainty-of-uncertainty"
     ]
   }
 }
