@@ -30,7 +30,26 @@ var CONFIG = {
   SUBJECT_PREFIX: 'News',           // subject reads "News: 8/8/2026"
   SENDER_NAME: 'Doshi Labs',        // display name on the From line
   REQUIRE_FRESH: true,              // only send if the picks file is dated today
-  ALERT_ON_MISSING: true            // email recipient[0] if no fresh picks
+  ALERT_ON_MISSING: true,           // email recipient[0] if no fresh picks
+
+  // ---- self-heal ------------------------------------------------------------
+  // GitHub's `schedule` trigger is best-effort and has no SLA. On 2026-08-27 and
+  // 2026-08-28 it fired ZERO times (one stray run ten hours late), so no digest
+  // went out either day. This trigger, by contrast, has fired correctly at 09:00
+  // ET every single day -- including both failure days, which is how the alerts
+  // arrived. So when picks are stale we dispatch the generator ourselves rather
+  // than hope GitHub did: the reliable scheduler drives the unreliable one.
+  //
+  // Requires a fine-grained GitHub PAT with Actions:write on the repo, stored in
+  // Project Settings -> Script Properties as GITHUB_TOKEN. Never put it here --
+  // this file lives in a public repo.
+  SELF_HEAL: true,
+  GITHUB_OWNER: 'apdoshi-netizen',
+  GITHUB_REPO: 'doshi-labs-news',
+  WORKFLOW_FILE: 'daily.yml',
+  GITHUB_REF: 'main',
+  GENERATE_WAIT_SECONDS: 210,       // total poll budget; Apps Script caps at 360
+  POLL_SECONDS: 15                  // generation takes ~60-90s end to end
 };
 // -----------------------------------------------------------------------------
 
@@ -39,14 +58,27 @@ function sendDaily() {
   var recipients = getRecipients();
   if (recipients.length === 0) { Logger.log('No recipients; nothing sent.'); return; }
 
-  var data = getTodaysPicks();
   var today = Utilities.formatDate(new Date(), Session.getScriptTimeZone(), 'yyyy-MM-dd');
+  var data = getTodaysPicks();
+  var healNote = '';
+
+  // Stale picks used to mean "give up and alert". GitHub's cron skipping a day
+  // is common enough that we now try to fix it before conceding.
+  if (CONFIG.SELF_HEAL && CONFIG.REQUIRE_FRESH && (!data || data.date !== today)) {
+    var heal = regenerate(today);
+    healNote = heal.message;
+    Logger.log('self-heal: ' + healNote);
+    if (heal.data) data = heal.data;
+  }
+
   if (!data || (CONFIG.REQUIRE_FRESH && data.date !== today)) {
     Logger.log('No fresh picks for ' + today + ' (found: ' + (data ? data.date : 'none') + ').');
     if (CONFIG.ALERT_ON_MISSING) {
       GmailApp.sendEmail(recipients[0], CONFIG.SUBJECT_PREFIX + ': no digest today',
         'No picks dated ' + today + ' were available (found: ' + (data ? data.date : 'none') +
-        '), so no digest was sent.', { name: CONFIG.SENDER_NAME });
+        '), so no digest was sent.' +
+        (healNote ? '\n\nSelf-heal attempt: ' + healNote : ''),
+        { name: CONFIG.SENDER_NAME });
     }
     return;
   }
@@ -65,6 +97,82 @@ function getTodaysPicks() {
     if (resp.getResponseCode() !== 200) { Logger.log('picks fetch HTTP ' + resp.getResponseCode()); return null; }
     return JSON.parse(resp.getContentText());
   } catch (e) { Logger.log('picks fetch/parse failed: ' + e); return null; }
+}
+
+/**
+ * Ask GitHub Actions to regenerate picks.json, then wait for it to appear.
+ *
+ * Returns {data, message}. `data` is the fresh picks object, or null if we
+ * could not get one; `message` always explains what happened, and is included
+ * in the failure alert so a bad token or a broken workflow is diagnosable from
+ * the inbox rather than requiring someone to open the Apps Script logs.
+ *
+ * The token is read from Script Properties, never from this file -- mailer.gs
+ * lives in a public repo.
+ */
+function regenerate(today) {
+  var token = PropertiesService.getScriptProperties().getProperty('GITHUB_TOKEN');
+  if (!token) {
+    return { data: null, message: 'no GITHUB_TOKEN script property, so no self-heal was attempted' };
+  }
+
+  var url = 'https://api.github.com/repos/' + CONFIG.GITHUB_OWNER + '/' + CONFIG.GITHUB_REPO +
+            '/actions/workflows/' + CONFIG.WORKFLOW_FILE + '/dispatches';
+  var resp;
+  try {
+    resp = UrlFetchApp.fetch(url, {
+      method: 'post',
+      contentType: 'application/json',
+      headers: {
+        Authorization: 'Bearer ' + token,
+        Accept: 'application/vnd.github+json',
+        'X-GitHub-Api-Version': '2022-11-28'
+      },
+      payload: JSON.stringify({ ref: CONFIG.GITHUB_REF }),
+      muteHttpExceptions: true
+    });
+  } catch (e) {
+    return { data: null, message: 'dispatch request threw: ' + e };
+  }
+
+  // GitHub answers 204 No Content on success. Anything else is actionable:
+  // 401 bad token, 403 missing Actions:write, 404 wrong repo/workflow name.
+  var code = resp.getResponseCode();
+  if (code !== 204) {
+    return { data: null, message: 'dispatch returned HTTP ' + code + ' (expected 204)' };
+  }
+
+  // Poll rather than sleep once: generation is usually 60-90s but the runner
+  // queue is variable, and finishing early is worth the extra requests.
+  var waited = 0;
+  while (waited < CONFIG.GENERATE_WAIT_SECONDS) {
+    Utilities.sleep(CONFIG.POLL_SECONDS * 1000);
+    waited += CONFIG.POLL_SECONDS;
+    var fresh = getTodaysPicks();
+    if (fresh && fresh.date === today) {
+      return { data: fresh, message: 'dispatched and picks arrived after ~' + waited + 's' };
+    }
+  }
+  return {
+    data: null,
+    message: 'dispatched OK but no picks dated ' + today + ' within ' +
+             CONFIG.GENERATE_WAIT_SECONDS + 's (check the Actions tab)'
+  };
+}
+
+/**
+ * Verify the self-heal path without sending mail. Run this once after storing
+ * GITHUB_TOKEN, and any time the token is rotated.
+ *
+ * It performs a REAL dispatch, because a read-only check cannot prove the token
+ * carries Actions:write -- the permission that actually matters here.
+ */
+function checkSelfHeal() {
+  var today = Utilities.formatDate(new Date(), Session.getScriptTimeZone(), 'yyyy-MM-dd');
+  var out = regenerate(today);
+  Logger.log('checkSelfHeal: ' + out.message);
+  Logger.log(out.data ? 'picks now dated ' + out.data.date : 'no fresh picks retrieved');
+  return out.message;
 }
 
 /** Bare digest email (matches the plain WSJ layout). */

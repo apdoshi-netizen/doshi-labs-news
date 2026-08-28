@@ -107,6 +107,16 @@ Apps Script `sendDaily` → email.
 14. **`_research` in history.json is not date-shaped and must be skipped by
     `_window`.** "_research" > "2026-.." because "_" is 0x5F, so it passes the
     cutoff test and would be iterated as if it were a list of picks.
+15. **GitHub's cron is best-effort and HAS skipped entire days.** On 2026-08-27
+    and 2026-08-28 the scheduler fired zero times (one stray run ten hours
+    late), so no digest went out either day. Spreading the ticks did not help,
+    because the problem was not a bad time window — GitHub simply stopped
+    servicing the schedule. The Apps Script trigger, by contrast, has fired at
+    09:00 ET every single day. So `sendDaily` now SELF-HEALS: on finding stale
+    picks it dispatches the workflow itself, polls for the fresh file, then
+    sends. GitHub cron is the happy path; Apps Script is the guarantee.
+    Needs `GITHUB_TOKEN` (fine-grained PAT, Actions:write) in Apps Script
+    Script Properties. Run `checkSelfHeal()` to verify it without sending mail.
 
 ## Known limitations / backlog candidates
 
