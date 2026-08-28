@@ -1,63 +1,83 @@
 {
-  "date": "2026-08-27",
-  "generatedAt": "2026-08-27T18:22:22.162062+00:00",
+  "date": "2026-08-28",
+  "generatedAt": "2026-08-28T15:21:56.564320+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Bessent’s Moves Test Boundaries Between Treasury and Fed",
-      "url": "https://www.wsj.com/economy/central-banking/bessents-moves-test-boundaries-between-treasury-and-fed-8db4af4a",
-      "summary": "Bessent’s Treasury actions raise questions about boundaries between Treasury Dept and Federal Reserve independence.",
-      "storyKey": "bessent+fed",
+      "title": "Warsh Says the Fed May Not Be Done Fighting Inflation",
+      "url": "https://www.wsj.com/economy/central-banking/warsh-says-the-fed-may-not-be-done-fighting-inflation-c60a0b51",
+      "summary": "Fed's Warsh says further inflation-fighting rate hikes may still be necessary.",
+      "storyKey": "fed+warsh",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Kioxia, Sandisk to Invest More Than $31 Billion in Memory Chips",
-      "url": "https://www.wsj.com/tech/kioxia-sandisk-to-invest-more-than-31-billion-in-memory-chips-bb6bddbf",
-      "summary": "Kioxia and Sandisk to invest over $31 billion in memory chip production expansion.",
-      "storyKey": "kioxia+sandisk",
+      "title": "PayPal Shares Dive Premarket on Report of Advent, Stripe Abandoning Takeover Plan",
+      "url": "https://www.wsj.com/business/deals/paypal-shares-dive-premarket-on-report-of-advent-stripe-abandoning-takeover-plan-ffeaabf2",
+      "summary": "PayPal shares fall after report Advent, Stripe scrap takeover plan.",
+      "storyKey": "advent+paypal+stripe",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | A Car-Market Lesson for Housing",
-      "url": "https://www.wsj.com/opinion/free-expression/a-car-market-lesson-for-housing-f39fc187",
-      "summary": "Op-ed draws lessons from car-market dynamics to explain housing market challenges.",
-      "storyKey": "car+housing+market",
+      "title": "Opinion | Beware the Coming Consumption-Tax Storm in America",
+      "url": "https://www.wsj.com/opinion/beware-the-coming-consumption-tax-storm-in-america-45d975de",
+      "summary": "Opinion warns of a looming consumption-tax shift in America's fiscal policy.",
+      "storyKey": "consumption+tax",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Nvidia Reports Blowout Quarter, Says Demand for AI Chips Is Getting Even Hotter",
-      "url": "https://www.wsj.com/tech/nvidia-earnings-q2-2027-nvda-stock-8983c8d1",
-      "summary": "Nvidia reports blowout quarter with AI chip demand described as getting even hotter.",
-      "storyKey": "earnings+nvidia",
+      "title": "Nvidia Reports Record Sales (Again)",
+      "url": "https://www.wsj.com/tech/ai/nvidia-reports-record-sales-again-6bd8461c",
+      "summary": "Nvidia reportedly pauses revenue-sharing deals with AI cloud computing partners.",
+      "storyKey": "cloud+nvidia+revenue",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "European Officials Seek Subpoena for Joshua Kushner on Infantino’s FIFA Selloff Plan",
-      "url": "https://www.wsj.com/sports/soccer/fifa-infantino-uefa-kushner-thrive-capital-b612b1b0",
-      "summary": "European officials seek subpoena for Joshua Kushner over Infantino’s FIFA stake selloff plan.",
-      "storyKey": "fifa+infantino+kushner",
+      "title": "The Contrarian Who Built the NFL’s Best Team by Investing Like Warren Buffett",
+      "url": "https://www.wsj.com/sports/football/nfl-rams-les-snead-the-playbook-06146155",
+      "summary": "Profile of NFL team built using Warren Buffett-style investment philosophy.",
+      "storyKey": "investing+nfl+strategy",
       "source": "WSJ"
     }
   ],
   "research": [
     {
+      "firm": "Goldman Sachs",
+      "show": "The Markets",
+      "title": "What Is the Outlook for Diesel and Gasoline Supplies?",
+      "url": "https://podcasts.apple.com/us/podcast/what-is-the-outlook-for-diesel-and-gasoline-supplies/id1683802600?i=1000786403025&uo=4",
+      "published": "2026-08-28T04:00:00+00:00",
+      "kind": "podcast",
+      "duration": "8 min",
+      "summary": "Energy markets have been surprisingly resilient amid the disruption to shipping through the Strait of Hormuz. However, there are few signs of relief in markets for refined products such as diesel, gasoline, and jet fuel, says Nitin Jindal, head of Global Commodities in Goldman Sachs FICC and Equities, on The Markets podcast. Jindal also discusses China’s remarkable adjustment to the disruption in energy supplies and the outlook for natural gas prices in Europe as winter approaches."
+    },
+    {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
-      "title": "When Does Higher U.S. Debt Start to Matter?",
-      "url": "https://podcasts.apple.com/us/podcast/when-does-higher-u-s-debt-start-to-matter/id1466686717?i=1000786106351&uo=4",
-      "published": "2026-08-26T20:00:00+00:00",
+      "title": "Jackson Hole Tests the Fed’s Framework",
+      "url": "https://podcasts.apple.com/us/podcast/jackson-hole-tests-the-feds-framework/id1466686717?i=1000786345990&uo=4",
+      "published": "2026-08-27T21:00:00+00:00",
       "kind": "podcast",
-      "duration": "4 min",
-      "summary": "Our Global Head of Fixed Income Research Andrew Sheets discusses when and how higher yields and mounting U.S. debt could become more than abstract concerns. Read more insights from Morgan Stanley."
+      "duration": "12 min",
+      "summary": "Investors are keeping a close eye on Jackson Hole for signals on the economic outlook and the path for rates. Our Chief U.S. economist Michael Gapen joins Global Head of Macro Strategy Matthew Hornbach to discuss whether markets get what they want—or what the Fed needs. Read more insights from Morgan Stanley."
+    },
+    {
+      "firm": "J.P. Morgan",
+      "show": null,
+      "title": "U.S. Earnings Are Exceptional. Stocks Are Playing Catch-Up",
+      "url": "https://www.jpmorgan.com/insights/markets-and-economy/top-market-takeaways/tmt-us-earnings-are-exceptional-stocks-are-playing-catch-up",
+      "published": "2026-08-27T15:53:21.826000-04:00",
+      "kind": "article",
+      "duration": null,
+      "summary": "Corporate profits are on a tear, but stocks haven’t fully reflected them. We unpack the forces capping valuations: yields, oil and the artificial intelligence cycle’s proof point."
     }
   ]
 }

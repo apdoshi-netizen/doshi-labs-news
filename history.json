@@ -1,22 +1,4 @@
 {
-  "2026-08-06": [
-    {
-      "title": "Chip Stocks Weaken, Oil Steady as Investors Await Hormuz Progress",
-      "url": "https://www.wsj.com/finance/stocks/chip-stocks-weaken-oil-steady-as-investors-await-hormuz-progress-919a2cec"
-    },
-    {
-      "title": "Deutsche Telekom Lifts Buyback by Up to $3.5 Billion, Raises Guidance for Key Metric Again",
-      "url": "https://www.wsj.com/business/earnings/deutsche-telekom-lifts-buyback-by-up-to-3-5-billion-raises-key-metric-guidance-704c27bb"
-    },
-    {
-      "title": "Opinion | Colorado Progressives Hike the Tax Slope",
-      "url": "https://www.wsj.com/opinion/colorado-progressives-hike-the-tax-slope-89f3e21d"
-    },
-    {
-      "title": "Meta Releases Coding Agent to Compete With OpenAI and Anthropic",
-      "url": "https://www.wsj.com/tech/ai/meta-releases-coding-agent-to-compete-with-openai-and-anthropic-af87b517"
-    }
-  ],
   "2026-08-07": [
     {
       "title": "Markets Rally on Surprise U.S. Job Losses, Airbnb Soars and Trade Desk Tanks | Markets P.M. for Aug. 7",
@@ -575,6 +557,33 @@
       "storyKey": "fifa+infantino+kushner"
     }
   ],
+  "2026-08-28": [
+    {
+      "title": "Warsh Says the Fed May Not Be Done Fighting Inflation",
+      "url": "https://www.wsj.com/economy/central-banking/warsh-says-the-fed-may-not-be-done-fighting-inflation-c60a0b51",
+      "storyKey": "fed+warsh"
+    },
+    {
+      "title": "PayPal Shares Dive Premarket on Report of Advent, Stripe Abandoning Takeover Plan",
+      "url": "https://www.wsj.com/business/deals/paypal-shares-dive-premarket-on-report-of-advent-stripe-abandoning-takeover-plan-ffeaabf2",
+      "storyKey": "advent+paypal+stripe"
+    },
+    {
+      "title": "Opinion | Beware the Coming Consumption-Tax Storm in America",
+      "url": "https://www.wsj.com/opinion/beware-the-coming-consumption-tax-storm-in-america-45d975de",
+      "storyKey": "consumption+tax"
+    },
+    {
+      "title": "Nvidia Reports Record Sales (Again)",
+      "url": "https://www.wsj.com/tech/ai/nvidia-reports-record-sales-again-6bd8461c",
+      "storyKey": "cloud+nvidia+revenue"
+    },
+    {
+      "title": "The Contrarian Who Built the NFL’s Best Team by Investing Like Warren Buffett",
+      "url": "https://www.wsj.com/sports/football/nfl-rams-les-snead-the-playbook-06146155",
+      "storyKey": "investing+nfl+strategy"
+    }
+  ],
   "_research": {
     "2026-08-08": [
       "https://podcasts.apple.com/us/podcast/ais-new-rules-of-engagement/id1466686717?i=1000780942420&uo=4",
@@ -636,6 +645,11 @@
     ],
     "2026-08-27": [
       "https://podcasts.apple.com/us/podcast/when-does-higher-u-s-debt-start-to-matter/id1466686717?i=1000786106351&uo=4"
+    ],
+    "2026-08-28": [
+      "https://podcasts.apple.com/us/podcast/what-is-the-outlook-for-diesel-and-gasoline-supplies/id1683802600?i=1000786403025&uo=4",
+      "https://podcasts.apple.com/us/podcast/jackson-hole-tests-the-feds-framework/id1466686717?i=1000786345990&uo=4",
+      "https://www.jpmorgan.com/insights/markets-and-economy/top-market-takeaways/tmt-us-earnings-are-exceptional-stocks-are-playing-catch-up"
     ]
   }
 }
