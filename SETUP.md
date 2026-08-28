@@ -76,6 +76,24 @@ and Morgan Stanley publications.
    (the Wharton-owned one). Two live triggers = two emails a day. Leave the old
    project itself in place, trigger-less, as a rollback.
 
+## Self-heal (GitHub cron is unreliable)
+
+GitHub's `schedule` trigger has no SLA and has skipped whole days. `sendDaily`
+therefore dispatches the generator itself when it finds stale picks. To enable:
+
+1. GitHub → Settings → Developer settings → **Fine-grained personal access
+   tokens** → Generate new token. Repository access: only `doshi-labs-news`.
+   Permissions: **Actions: Read and write** (nothing else is needed).
+2. Apps Script → **Project Settings → Script Properties** → Add property.
+   Name `GITHUB_TOKEN`, value the token. It lives only there — never in
+   `mailer.gs`, which is public.
+3. Run **`checkSelfHeal()`** once. It performs a real dispatch (a read-only
+   check cannot prove the token has write access) and logs the outcome. You
+   want "dispatched and picks arrived after ~Ns".
+
+Without the token the digest still works whenever GitHub's cron does; you just
+lose the fallback, and the alert will say the token is missing.
+
 ## Everyday use
 
 - **Add/remove recipients:** edit `CONFIG.RECIPIENTS` in `mailer.gs` (first
