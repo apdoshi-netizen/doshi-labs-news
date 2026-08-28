@@ -1,23 +1,23 @@
 {
   "date": "2026-08-28",
-  "generatedAt": "2026-08-28T15:21:56.564320+00:00",
+  "generatedAt": "2026-08-28T17:26:13.478438+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
       "title": "Warsh Says the Fed May Not Be Done Fighting Inflation",
       "url": "https://www.wsj.com/economy/central-banking/warsh-says-the-fed-may-not-be-done-fighting-inflation-c60a0b51",
-      "summary": "Fed's Warsh says further inflation-fighting rate hikes may still be necessary.",
-      "storyKey": "fed+warsh",
+      "summary": "Fed Chair Warsh signals fight against inflation isn't over in his first Jackson Hole keynote.",
+      "storyKey": "fed+inflation+warsh",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "PayPal Shares Dive Premarket on Report of Advent, Stripe Abandoning Takeover Plan",
-      "url": "https://www.wsj.com/business/deals/paypal-shares-dive-premarket-on-report-of-advent-stripe-abandoning-takeover-plan-ffeaabf2",
-      "summary": "PayPal shares fall after report Advent, Stripe scrap takeover plan.",
-      "storyKey": "advent+paypal+stripe",
+      "title": "Generali Mulling Monte dei Paschi’s $10 Billion Takeover Bid for Banca Generali",
+      "url": "https://www.wsj.com/business/deals/banca-generali-mulling-monte-di-paschis-10-billion-takeover-bid-6f17eaf5",
+      "summary": "Generali weighs Monte dei Paschi's $10 billion takeover bid for Banca Generali.",
+      "storyKey": "bankagenerali+generali+mps",
       "source": "WSJ"
     },
     {
@@ -25,16 +25,16 @@
       "label": "Op-Ed",
       "title": "Opinion | Beware the Coming Consumption-Tax Storm in America",
       "url": "https://www.wsj.com/opinion/beware-the-coming-consumption-tax-storm-in-america-45d975de",
-      "summary": "Opinion warns of a looming consumption-tax shift in America's fiscal policy.",
-      "storyKey": "consumption+tax",
+      "summary": "Op-ed warns of a coming consumption-tax storm threatening U.S. economic policy.",
+      "storyKey": "consumption+policy+tax",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Nvidia Reports Record Sales (Again)",
-      "url": "https://www.wsj.com/tech/ai/nvidia-reports-record-sales-again-6bd8461c",
-      "summary": "Nvidia reportedly pauses revenue-sharing deals with AI cloud computing partners.",
+      "title": "Meta Reaches $18 Billion Settlement With 48 States Over Child-Safety Claims",
+      "url": "https://www.wsj.com/tech/meta-reaches-18-billion-settlement-with-48-states-over-child-safety-claims-cf725a2b",
+      "summary": "Nvidia pauses revenue-sharing deals with AI cloud companies, a new shift in its strategy.",
       "storyKey": "cloud+nvidia+revenue",
       "source": "WSJ"
     },
@@ -43,8 +43,8 @@
       "label": "Sports",
       "title": "The Contrarian Who Built the NFL’s Best Team by Investing Like Warren Buffett",
       "url": "https://www.wsj.com/sports/football/nfl-rams-les-snead-the-playbook-06146155",
-      "summary": "Profile of NFL team built using Warren Buffett-style investment philosophy.",
-      "storyKey": "investing+nfl+strategy",
+      "summary": "Profile of NFL team builder who invests like Warren Buffett, emphasizing sports finance strategy.",
+      "storyKey": "buffett+investing+nfl",
       "source": "WSJ"
     }
   ],
@@ -68,6 +68,26 @@
       "kind": "podcast",
       "duration": "12 min",
       "summary": "Investors are keeping a close eye on Jackson Hole for signals on the economic outlook and the path for rates. Our Chief U.S. economist Michael Gapen joins Global Head of Macro Strategy Matthew Hornbach to discuss whether markets get what they want—or what the Fed needs. Read more insights from Morgan Stanley."
+    },
+    {
+      "firm": "J.P. Morgan",
+      "show": "Making Sense",
+      "title": "The capital required for critical supply chains",
+      "url": "https://podcasts.apple.com/us/podcast/the-capital-required-for-critical-supply-chains/id1456184829?i=1000786526655&uo=4",
+      "published": "2026-08-28T16:03:40+00:00",
+      "kind": "podcast",
+      "duration": "12 min",
+      "summary": "In this episode of J.P. Morgan’s Making Sense, Michael Johnson, Security and Resiliency Initiative lead for Energy and the U.S. Government, sits down with Ben Wilson, Co-head of North American Mergers & Acquisitions, and Andrew Castaldo, Co-head of Mid-Cap Mergers & Acquisitions, to weigh in on the future of global supply chains. Over the course of the conversation, they cover critical mineral supply chains, manufacturing bottlenecks, and the shift from just-in-time to just-in-case inventory."
+    },
+    {
+      "firm": "J.P. Morgan",
+      "show": null,
+      "title": "Volatility is no longer the exception",
+      "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/the-certainty-of-uncertainty",
+      "published": "2026-08-27T17:18:14.381000-04:00",
+      "kind": "article",
+      "duration": null,
+      "summary": "Geopolitical shocks, commodity swings, retail flows, and rapid reversals are changing how markets move. Explore how institutional traders are managing volatility as an ongoing condition—using data, technology, and judgment to respond faster and think further ahead."
     },
     {
       "firm": "J.P. Morgan",

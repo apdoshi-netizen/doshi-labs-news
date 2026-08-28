@@ -561,27 +561,27 @@
     {
       "title": "Warsh Says the Fed May Not Be Done Fighting Inflation",
       "url": "https://www.wsj.com/economy/central-banking/warsh-says-the-fed-may-not-be-done-fighting-inflation-c60a0b51",
-      "storyKey": "fed+warsh"
+      "storyKey": "fed+inflation+warsh"
     },
     {
-      "title": "PayPal Shares Dive Premarket on Report of Advent, Stripe Abandoning Takeover Plan",
-      "url": "https://www.wsj.com/business/deals/paypal-shares-dive-premarket-on-report-of-advent-stripe-abandoning-takeover-plan-ffeaabf2",
-      "storyKey": "advent+paypal+stripe"
+      "title": "Generali Mulling Monte dei Paschi’s $10 Billion Takeover Bid for Banca Generali",
+      "url": "https://www.wsj.com/business/deals/banca-generali-mulling-monte-di-paschis-10-billion-takeover-bid-6f17eaf5",
+      "storyKey": "bankagenerali+generali+mps"
     },
     {
       "title": "Opinion | Beware the Coming Consumption-Tax Storm in America",
       "url": "https://www.wsj.com/opinion/beware-the-coming-consumption-tax-storm-in-america-45d975de",
-      "storyKey": "consumption+tax"
+      "storyKey": "consumption+policy+tax"
     },
     {
-      "title": "Nvidia Reports Record Sales (Again)",
-      "url": "https://www.wsj.com/tech/ai/nvidia-reports-record-sales-again-6bd8461c",
+      "title": "Meta Reaches $18 Billion Settlement With 48 States Over Child-Safety Claims",
+      "url": "https://www.wsj.com/tech/meta-reaches-18-billion-settlement-with-48-states-over-child-safety-claims-cf725a2b",
       "storyKey": "cloud+nvidia+revenue"
     },
     {
       "title": "The Contrarian Who Built the NFL’s Best Team by Investing Like Warren Buffett",
       "url": "https://www.wsj.com/sports/football/nfl-rams-les-snead-the-playbook-06146155",
-      "storyKey": "investing+nfl+strategy"
+      "storyKey": "buffett+investing+nfl"
     }
   ],
   "_research": {
@@ -649,6 +649,8 @@
     "2026-08-28": [
       "https://podcasts.apple.com/us/podcast/what-is-the-outlook-for-diesel-and-gasoline-supplies/id1683802600?i=1000786403025&uo=4",
       "https://podcasts.apple.com/us/podcast/jackson-hole-tests-the-feds-framework/id1466686717?i=1000786345990&uo=4",
+      "https://podcasts.apple.com/us/podcast/the-capital-required-for-critical-supply-chains/id1456184829?i=1000786526655&uo=4",
+      "https://www.jpmorgan.com/insights/markets-and-economy/markets/the-certainty-of-uncertainty",
       "https://www.jpmorgan.com/insights/markets-and-economy/top-market-takeaways/tmt-us-earnings-are-exceptional-stocks-are-playing-catch-up"
     ]
   }
