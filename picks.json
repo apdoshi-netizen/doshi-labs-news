@@ -1,63 +1,52 @@
 {
   "date": "2026-08-29",
-  "generatedAt": "2026-08-29T11:39:28.754906+00:00",
+  "generatedAt": "2026-08-29T14:28:22.273336+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Markets Brace for Possible Rate Hike After Kevin Warsh’s Hawkish Turn",
-      "url": "https://www.wsj.com/finance/investing/markets-brace-for-possible-rate-hike-after-kevin-warshs-hawkish-turn-f2611e6f",
-      "summary": "Markets brace for possible rate hike after Kevin Warsh's hawkish Jackson Hole turn as Fed chair.",
-      "storyKey": "fed+hawkish+warsh",
+      "title": "Reserve Bank of Australia Remains Jittery About Inflation Risks",
+      "url": "https://www.wsj.com/economy/central-banking/reserve-bank-of-australia-remains-jittery-about-inflation-risks-3d673939",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "PayPal Shares Dive Premarket on Report of Advent, Stripe Abandoning Takeover Plan",
-      "url": "https://www.wsj.com/business/deals/paypal-shares-dive-premarket-on-report-of-advent-stripe-abandoning-takeover-plan-ffeaabf2",
-      "summary": "PayPal shares dive after report Advent, Stripe abandoned takeover plan for the company.",
-      "storyKey": "advent+paypal+stripe",
+      "title": "Nvidia’s Earnings Will Test Wall Street’s Faith in the AI Boom",
+      "url": "https://www.wsj.com/articles/nvidias-earnings-will-test-wall-streets-faith-in-the-ai-boom-09865fea",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | The Meta Settlement Makes Big Tech Bigger",
-      "url": "https://www.wsj.com/opinion/the-meta-settlement-makes-big-tech-bigger-874a3e05",
-      "summary": "Opinion argues Meta's regulatory settlement paradoxically strengthens Big Tech's market dominance.",
-      "storyKey": "antitrust+meta+settlement",
+      "title": "Opinion | Trump’s Texas Tariff Stakes",
+      "url": "https://www.wsj.com/opinion/donald-trump-tariffs-unpopular-texas-poll-644bac44",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Chinese Chip Maker CXMT Cashes In on AI-Fueled Memory Crunch",
-      "url": "https://www.wsj.com/tech/chip-maker-cxmts-revenue-surges-on-ai-driven-memory-shortage-5f808e03",
-      "summary": "Chinese chip maker CXMT profits from AI-driven memory chip supply crunch.",
-      "storyKey": "ai+cxmt+memory",
+      "title": "South Korea’s ‘AI for All’ Push Gives Free Access to Every Citizen",
+      "url": "https://www.wsj.com/tech/ai/south-koreas-ai-for-all-push-gives-free-access-to-every-citizen-451f6b2c",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The Two-Time Major Champion Who Could Decide the Fate of LIV Golf",
-      "url": "https://www.wsj.com/sports/golf/jon-rahm-liv-golf-future-f722521c",
-      "summary": "Two-time major champion's decision could determine the future fate of LIV Golf.",
-      "storyKey": "golf+liv+major",
+      "title": "There’s a U.S.-Canada Border War—in Bass Fishing",
+      "url": "https://www.wsj.com/sports/theres-a-us-canada-border-warin-bass-fishing-86afbfe3",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     }
   ],
-  "research": [
-    {
-      "firm": "Morgan Stanley",
-      "show": "Thoughts on the Market",
-      "title": "The Politics Behind the Rising U.S. Debt",
-      "url": "https://podcasts.apple.com/us/podcast/the-politics-behind-the-rising-u-s-debt/id1466686717?i=1000786555663&uo=4",
-      "published": "2026-08-28T20:00:00+00:00",
-      "kind": "podcast",
-      "duration": "5 min",
-      "summary": "Our Head of U.S. Public Policy Research Ariana Salvatore looks at what the midterms may reveal about politician’s appetite for tackling the faster-than-expected increase in the U.S. debt. Read more insights from Morgan Stanley."
-    }
-  ]
+  "research": []
 }
