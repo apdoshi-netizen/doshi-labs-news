@@ -1,22 +1,4 @@
 {
-  "2026-08-07": [
-    {
-      "title": "Markets Rally on Surprise U.S. Job Losses, Airbnb Soars and Trade Desk Tanks | Markets P.M. for Aug. 7",
-      "url": "https://www.wsj.com/finance/stocks/markets-rally-on-surprise-u-s-job-losses-83ecb5e4"
-    },
-    {
-      "title": "Dream Finders to Buy Beazer for $915 Million",
-      "url": "https://www.wsj.com/business/deals/dream-finders-to-buy-beazer-for-915-million-d808be05"
-    },
-    {
-      "title": "Opinion | America’s Low-Hire, Low-Fire Labor Market",
-      "url": "https://www.wsj.com/opinion/america-low-hire-fire-labor-market-jobs-unemployment-trump-05b33adf"
-    },
-    {
-      "title": "SK Hynix to Invest $38 Billion on Expansion of Chip Production Capacity",
-      "url": "https://www.wsj.com/tech/sk-hynix-to-invest-38-billion-on-expansion-of-chip-production-capacity-ea18ecd4"
-    }
-  ],
   "2026-08-08": [
     {
       "title": "Trump to Impose 15% Tariff, Set Minimum Prices on Solar Panels and Components",
@@ -584,6 +566,33 @@
       "storyKey": "buffett+investing+nfl"
     }
   ],
+  "2026-08-29": [
+    {
+      "title": "Markets Brace for Possible Rate Hike After Kevin Warsh’s Hawkish Turn",
+      "url": "https://www.wsj.com/finance/investing/markets-brace-for-possible-rate-hike-after-kevin-warshs-hawkish-turn-f2611e6f",
+      "storyKey": "fed+hawkish+warsh"
+    },
+    {
+      "title": "PayPal Shares Dive Premarket on Report of Advent, Stripe Abandoning Takeover Plan",
+      "url": "https://www.wsj.com/business/deals/paypal-shares-dive-premarket-on-report-of-advent-stripe-abandoning-takeover-plan-ffeaabf2",
+      "storyKey": "advent+paypal+stripe"
+    },
+    {
+      "title": "Opinion | The Meta Settlement Makes Big Tech Bigger",
+      "url": "https://www.wsj.com/opinion/the-meta-settlement-makes-big-tech-bigger-874a3e05",
+      "storyKey": "antitrust+meta+settlement"
+    },
+    {
+      "title": "Chinese Chip Maker CXMT Cashes In on AI-Fueled Memory Crunch",
+      "url": "https://www.wsj.com/tech/chip-maker-cxmts-revenue-surges-on-ai-driven-memory-shortage-5f808e03",
+      "storyKey": "ai+cxmt+memory"
+    },
+    {
+      "title": "The Two-Time Major Champion Who Could Decide the Fate of LIV Golf",
+      "url": "https://www.wsj.com/sports/golf/jon-rahm-liv-golf-future-f722521c",
+      "storyKey": "golf+liv+major"
+    }
+  ],
   "_research": {
     "2026-08-08": [
       "https://podcasts.apple.com/us/podcast/ais-new-rules-of-engagement/id1466686717?i=1000780942420&uo=4",
@@ -652,6 +661,9 @@
       "https://www.jpmorgan.com/insights/markets-and-economy/top-market-takeaways/tmt-us-earnings-are-exceptional-stocks-are-playing-catch-up",
       "https://podcasts.apple.com/us/podcast/the-capital-required-for-critical-supply-chains/id1456184829?i=1000786526655&uo=4",
       "https://www.jpmorgan.com/insights/markets-and-economy/markets/the-certainty-of-uncertainty"
+    ],
+    "2026-08-29": [
+      "https://podcasts.apple.com/us/podcast/the-politics-behind-the-rising-u-s-debt/id1466686717?i=1000786555663&uo=4"
     ]
   }
 }

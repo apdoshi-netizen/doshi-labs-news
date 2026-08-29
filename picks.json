@@ -1,103 +1,63 @@
 {
-  "date": "2026-08-28",
-  "generatedAt": "2026-08-28T20:50:12.657310+00:00",
+  "date": "2026-08-29",
+  "generatedAt": "2026-08-29T11:39:28.754906+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "The U.S. Created 79,000 Fewer Jobs Than Previously Reported, New Revisions Suggest",
-      "url": "https://www.wsj.com/economy/jobs/job-growth-bls-revision-5a632dc9",
-      "summary": "US payrolls revised down 79,000 fewer than previously reported, signaling weaker labor market.",
-      "storyKey": "jobs+revisions",
+      "title": "Markets Brace for Possible Rate Hike After Kevin Warsh’s Hawkish Turn",
+      "url": "https://www.wsj.com/finance/investing/markets-brace-for-possible-rate-hike-after-kevin-warshs-hawkish-turn-f2611e6f",
+      "summary": "Markets brace for possible rate hike after Kevin Warsh's hawkish Jackson Hole turn as Fed chair.",
+      "storyKey": "fed+hawkish+warsh",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Exclusive | Chevron, Other U.S. Firms Near Deal to Invest Billions in Venezuelan Oil Fields",
-      "url": "https://www.wsj.com/business/energy-oil/chevron-other-u-s-firms-near-deal-to-invest-billions-in-venezuelan-oil-fields-55739e38",
-      "summary": "Chevron and other US firms near deal to invest billions in Venezuelan oil fields.",
-      "storyKey": "chevron+venezuela",
+      "title": "PayPal Shares Dive Premarket on Report of Advent, Stripe Abandoning Takeover Plan",
+      "url": "https://www.wsj.com/business/deals/paypal-shares-dive-premarket-on-report-of-advent-stripe-abandoning-takeover-plan-ffeaabf2",
+      "summary": "PayPal shares dive after report Advent, Stripe abandoned takeover plan for the company.",
+      "storyKey": "advent+paypal+stripe",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Gag Treasury, You Gag the Market, Too",
-      "url": "https://www.wsj.com/opinion/gag-treasury-you-gag-the-market-too-c1fbb45e?mod",
-      "summary": "Column argues muzzling Treasury commentary would also gag market signals and transparency.",
-      "storyKey": "fed+independence+treasury",
+      "title": "Opinion | The Meta Settlement Makes Big Tech Bigger",
+      "url": "https://www.wsj.com/opinion/the-meta-settlement-makes-big-tech-bigger-874a3e05",
+      "summary": "Opinion argues Meta's regulatory settlement paradoxically strengthens Big Tech's market dominance.",
+      "storyKey": "antitrust+meta+settlement",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Exclusive | Nvidia Pauses Revenue-Sharing Deals With AI Cloud Companies",
-      "url": "https://www.wsj.com/tech/nvidia-pauses-revenue-sharing-deals-with-ai-cloud-companies-9c71454e",
-      "summary": "Nvidia reportedly pauses revenue-sharing deals with AI cloud companies amid boom scrutiny.",
-      "storyKey": "cloud+deals+nvidia",
+      "title": "Chinese Chip Maker CXMT Cashes In on AI-Fueled Memory Crunch",
+      "url": "https://www.wsj.com/tech/chip-maker-cxmts-revenue-surges-on-ai-driven-memory-shortage-5f808e03",
+      "summary": "Chinese chip maker CXMT profits from AI-driven memory chip supply crunch.",
+      "storyKey": "ai+cxmt+memory",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The Contrarian Who Built the NFL’s Best Team by Investing Like Warren Buffett",
-      "url": "https://www.wsj.com/sports/football/nfl-rams-les-snead-the-playbook-06146155",
-      "summary": "Profile of NFL executive who built league's best team using Warren Buffett-style investing principles.",
-      "storyKey": "buffett+investing+nfl",
+      "title": "The Two-Time Major Champion Who Could Decide the Fate of LIV Golf",
+      "url": "https://www.wsj.com/sports/golf/jon-rahm-liv-golf-future-f722521c",
+      "summary": "Two-time major champion's decision could determine the future fate of LIV Golf.",
+      "storyKey": "golf+liv+major",
       "source": "WSJ"
     }
   ],
   "research": [
     {
-      "firm": "Goldman Sachs",
-      "show": "The Markets",
-      "title": "What Is the Outlook for Diesel and Gasoline Supplies?",
-      "url": "https://podcasts.apple.com/us/podcast/what-is-the-outlook-for-diesel-and-gasoline-supplies/id1683802600?i=1000786403025&uo=4",
-      "published": "2026-08-28T04:00:00+00:00",
-      "kind": "podcast",
-      "duration": "8 min",
-      "summary": "Energy markets have been surprisingly resilient amid the disruption to shipping through the Strait of Hormuz. However, there are few signs of relief in markets for refined products such as diesel, gasoline, and jet fuel, says Nitin Jindal, head of Global Commodities in Goldman Sachs FICC and Equities, on The Markets podcast. Jindal also discusses China’s remarkable adjustment to the disruption in energy supplies and the outlook for natural gas prices in Europe as winter approaches."
-    },
-    {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
-      "title": "Jackson Hole Tests the Fed’s Framework",
-      "url": "https://podcasts.apple.com/us/podcast/jackson-hole-tests-the-feds-framework/id1466686717?i=1000786345990&uo=4",
-      "published": "2026-08-27T21:00:00+00:00",
+      "title": "The Politics Behind the Rising U.S. Debt",
+      "url": "https://podcasts.apple.com/us/podcast/the-politics-behind-the-rising-u-s-debt/id1466686717?i=1000786555663&uo=4",
+      "published": "2026-08-28T20:00:00+00:00",
       "kind": "podcast",
-      "duration": "12 min",
-      "summary": "Investors are keeping a close eye on Jackson Hole for signals on the economic outlook and the path for rates. Our Chief U.S. economist Michael Gapen joins Global Head of Macro Strategy Matthew Hornbach to discuss whether markets get what they want—or what the Fed needs. Read more insights from Morgan Stanley."
-    },
-    {
-      "firm": "J.P. Morgan",
-      "show": null,
-      "title": "U.S. Earnings Are Exceptional. Stocks Are Playing Catch-Up",
-      "url": "https://www.jpmorgan.com/insights/markets-and-economy/top-market-takeaways/tmt-us-earnings-are-exceptional-stocks-are-playing-catch-up",
-      "published": "2026-08-28T14:03:19.603000-04:00",
-      "kind": "article",
-      "duration": null,
-      "summary": "Corporate profits are on a tear, but stocks haven’t fully reflected them. We unpack the forces capping valuations: yields, oil and the artificial intelligence cycle’s proof point."
-    },
-    {
-      "firm": "J.P. Morgan",
-      "show": "Making Sense",
-      "title": "The capital required for critical supply chains",
-      "url": "https://podcasts.apple.com/us/podcast/the-capital-required-for-critical-supply-chains/id1456184829?i=1000786526655&uo=4",
-      "published": "2026-08-28T16:03:40+00:00",
-      "kind": "podcast",
-      "duration": "12 min",
-      "summary": "In this episode of J.P. Morgan’s Making Sense, Michael Johnson, Security and Resiliency Initiative lead for Energy and the U.S. Government, sits down with Ben Wilson, Co-head of North American Mergers & Acquisitions, and Andrew Castaldo, Co-head of Mid-Cap Mergers & Acquisitions, to weigh in on the future of global supply chains. Over the course of the conversation, they cover critical mineral supply chains, manufacturing bottlenecks, and the shift from just-in-time to just-in-case inventory."
-    },
-    {
-      "firm": "J.P. Morgan",
-      "show": null,
-      "title": "Volatility is no longer the exception",
-      "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/the-certainty-of-uncertainty",
-      "published": "2026-08-27T17:18:14.381000-04:00",
-      "kind": "article",
-      "duration": null,
-      "summary": "Geopolitical shocks, commodity swings, retail flows, and rapid reversals are changing how markets move. Explore how institutional traders are managing volatility as an ongoing condition—using data, technology, and judgment to respond faster and think further ahead."
+      "duration": "5 min",
+      "summary": "Our Head of U.S. Public Policy Research Ariana Salvatore looks at what the midterms may reveal about politician’s appetite for tackling the faster-than-expected increase in the U.S. debt. Read more insights from Morgan Stanley."
     }
   ]
 }
