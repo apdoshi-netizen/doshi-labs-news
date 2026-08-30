@@ -1,31 +1,4 @@
 {
-  "2026-08-08": [
-    {
-      "title": "Trump to Impose 15% Tariff, Set Minimum Prices on Solar Panels and Components",
-      "url": "https://www.wsj.com/economy/trade/trump-to-impose-15-tariff-set-minimum-prices-on-solar-panels-and-components-dd7cd9d9",
-      "storyKey": "solar+tariff+trump"
-    },
-    {
-      "title": "Singapore Billionaire Sues Brookfield for Allegedly Aborting Planned Real-Estate Joint Venture",
-      "url": "https://www.wsj.com/business/deals/singapore-billionaire-sues-brookfield-for-allegedly-aborting-planned-real-estate-joint-venture-51066f8c",
-      "storyKey": "brookfield+lawsuit"
-    },
-    {
-      "title": "Opinion | The Federal Reserve Status Quo vs. Kevin Warsh",
-      "url": "https://www.wsj.com/opinion/fed-status-quo-vs-kevin-warsh-inflation-hawk-trump-dove-a91be5e5",
-      "storyKey": "fed+warsh"
-    },
-    {
-      "title": "OpenAI Pauses Some Work on New AI Model Over Cybersecurity Concerns",
-      "url": "https://www.wsj.com/tech/ai/openai-pauses-some-work-on-new-ai-model-over-cybersecurity-concerns-8473a86f?mod",
-      "storyKey": "model+openai+pause"
-    },
-    {
-      "title": "How FIFA’s $20 Billion Private-Equity Plan Nearly Broke Soccer",
-      "url": "https://www.wsj.com/sports/soccer/how-fifas-20-billion-private-equity-plan-nearly-broke-soccer-d78557cf",
-      "storyKey": "equity+fifa+private"
-    }
-  ],
   "2026-08-09": [
     {
       "title": "Week Ahead for FX, Bonds: U.S. Inflation Data in Focus",
@@ -593,11 +566,34 @@
       "storyKey": null
     }
   ],
+  "2026-08-30": [
+    {
+      "title": "Markets Brace for Possible Rate Hike After Kevin Warsh’s Hawkish Turn",
+      "url": "https://www.wsj.com/finance/investing/markets-brace-for-possible-rate-hike-after-kevin-warshs-hawkish-turn-f2611e6f",
+      "storyKey": null
+    },
+    {
+      "title": "Generali Mulling Monte dei Paschi’s $10 Billion Takeover Bid for Banca Generali",
+      "url": "https://www.wsj.com/business/deals/banca-generali-mulling-monte-di-paschis-10-billion-takeover-bid-6f17eaf5",
+      "storyKey": null
+    },
+    {
+      "title": "Opinion | The Meta Settlement Makes Big Tech Bigger",
+      "url": "https://www.wsj.com/opinion/the-meta-settlement-makes-big-tech-bigger-874a3e05",
+      "storyKey": null
+    },
+    {
+      "title": "Nvidia Insists It Can Keep Printing Money to Fund the AI Boom",
+      "url": "https://www.wsj.com/tech/ai/nvidia-insists-it-can-keep-printing-money-to-fund-the-ai-boom-195e7d5e",
+      "storyKey": null
+    },
+    {
+      "title": "Alex Eala Is the 21-Year-Old Tennis Sensation With 120 Million Fans",
+      "url": "https://www.wsj.com/sports/tennis/alex-eala-philippines-us-open-dabbf436",
+      "storyKey": null
+    }
+  ],
   "_research": {
-    "2026-08-08": [
-      "https://podcasts.apple.com/us/podcast/ais-new-rules-of-engagement/id1466686717?i=1000780942420&uo=4",
-      "https://podcasts.apple.com/us/podcast/july-jobs-report-how-a-big-headline-miss-may-be/id1456184829?i=1000780933043&uo=4"
-    ],
     "2026-08-09": [],
     "2026-08-10": [],
     "2026-08-11": [
@@ -662,6 +658,7 @@
       "https://podcasts.apple.com/us/podcast/the-capital-required-for-critical-supply-chains/id1456184829?i=1000786526655&uo=4",
       "https://www.jpmorgan.com/insights/markets-and-economy/markets/the-certainty-of-uncertainty"
     ],
-    "2026-08-29": []
+    "2026-08-29": [],
+    "2026-08-30": []
   }
 }

@@ -1,12 +1,12 @@
 {
-  "date": "2026-08-29",
-  "generatedAt": "2026-08-29T14:28:22.273336+00:00",
+  "date": "2026-08-30",
+  "generatedAt": "2026-08-30T10:28:45.833208+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Reserve Bank of Australia Remains Jittery About Inflation Risks",
-      "url": "https://www.wsj.com/economy/central-banking/reserve-bank-of-australia-remains-jittery-about-inflation-risks-3d673939",
+      "title": "Markets Brace for Possible Rate Hike After Kevin Warsh’s Hawkish Turn",
+      "url": "https://www.wsj.com/finance/investing/markets-brace-for-possible-rate-hike-after-kevin-warshs-hawkish-turn-f2611e6f",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -14,8 +14,8 @@
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Nvidia’s Earnings Will Test Wall Street’s Faith in the AI Boom",
-      "url": "https://www.wsj.com/articles/nvidias-earnings-will-test-wall-streets-faith-in-the-ai-boom-09865fea",
+      "title": "Generali Mulling Monte dei Paschi’s $10 Billion Takeover Bid for Banca Generali",
+      "url": "https://www.wsj.com/business/deals/banca-generali-mulling-monte-di-paschis-10-billion-takeover-bid-6f17eaf5",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -23,8 +23,8 @@
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Trump’s Texas Tariff Stakes",
-      "url": "https://www.wsj.com/opinion/donald-trump-tariffs-unpopular-texas-poll-644bac44",
+      "title": "Opinion | The Meta Settlement Makes Big Tech Bigger",
+      "url": "https://www.wsj.com/opinion/the-meta-settlement-makes-big-tech-bigger-874a3e05",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -32,8 +32,8 @@
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "South Korea’s ‘AI for All’ Push Gives Free Access to Every Citizen",
-      "url": "https://www.wsj.com/tech/ai/south-koreas-ai-for-all-push-gives-free-access-to-every-citizen-451f6b2c",
+      "title": "Nvidia Insists It Can Keep Printing Money to Fund the AI Boom",
+      "url": "https://www.wsj.com/tech/ai/nvidia-insists-it-can-keep-printing-money-to-fund-the-ai-boom-195e7d5e",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -41,8 +41,8 @@
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "There’s a U.S.-Canada Border War—in Bass Fishing",
-      "url": "https://www.wsj.com/sports/theres-a-us-canada-border-warin-bass-fishing-86afbfe3",
+      "title": "Alex Eala Is the 21-Year-Old Tennis Sensation With 120 Million Fans",
+      "url": "https://www.wsj.com/sports/tennis/alex-eala-philippines-us-open-dabbf436",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
