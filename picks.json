@@ -1,50 +1,50 @@
 {
   "date": "2026-08-30",
-  "generatedAt": "2026-08-30T10:28:45.833208+00:00",
+  "generatedAt": "2026-08-30T14:24:59.283560+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Markets Brace for Possible Rate Hike After Kevin Warsh’s Hawkish Turn",
-      "url": "https://www.wsj.com/finance/investing/markets-brace-for-possible-rate-hike-after-kevin-warshs-hawkish-turn-f2611e6f",
-      "summary": "",
-      "storyKey": null,
+      "title": "Warsh Makes the Case for Higher Rates and Raises the Bar for Standing Pat",
+      "url": "https://www.wsj.com/economy/central-banking/warsh-makes-the-case-for-higher-rates-and-raises-the-bar-for-standing-pat-3cc1b306",
+      "summary": "Warsh argues for higher interest rates, raising bar for Fed to hold steady on policy.",
+      "storyKey": "fed+rates+warsh",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Generali Mulling Monte dei Paschi’s $10 Billion Takeover Bid for Banca Generali",
-      "url": "https://www.wsj.com/business/deals/banca-generali-mulling-monte-di-paschis-10-billion-takeover-bid-6f17eaf5",
-      "summary": "",
-      "storyKey": null,
+      "title": "Gold Fields Returns More Cash to Shareholders as Earnings Jump on Higher Prices",
+      "url": "https://www.wsj.com/business/earnings/gold-fields-returns-more-cash-to-shareholders-as-earnings-jump-on-higher-prices-d164eb2e",
+      "summary": "Gold Fields boosts shareholder returns as earnings surge on higher gold prices.",
+      "storyKey": "earnings+fields+gold",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | The Meta Settlement Makes Big Tech Bigger",
-      "url": "https://www.wsj.com/opinion/the-meta-settlement-makes-big-tech-bigger-874a3e05",
-      "summary": "",
-      "storyKey": null,
+      "title": "Opinion | Trump Seeks a Tariff Do-Over in Court",
+      "url": "https://www.wsj.com/opinion/trump-seeks-a-tariff-do-over-in-court-f73b493d",
+      "summary": "Opinion argues Trump seeks a redo of tariff policy through court action.",
+      "storyKey": "court+tariff+trump",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Nvidia Insists It Can Keep Printing Money to Fund the AI Boom",
-      "url": "https://www.wsj.com/tech/ai/nvidia-insists-it-can-keep-printing-money-to-fund-the-ai-boom-195e7d5e",
-      "summary": "",
-      "storyKey": null,
+      "title": "Nvidia Wants to Run the World’s Robots. China Is an Eager Customer.",
+      "url": "https://www.wsj.com/tech/ai/nvidia-wants-to-run-the-worlds-robots-china-is-an-eager-customer-bdf46169",
+      "summary": "Nvidia aims to power global robotics market, finding eager customer in China.",
+      "storyKey": "china+nvidia+robots",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "Alex Eala Is the 21-Year-Old Tennis Sensation With 120 Million Fans",
-      "url": "https://www.wsj.com/sports/tennis/alex-eala-philippines-us-open-dabbf436",
-      "summary": "",
-      "storyKey": null,
+      "title": "Good Good Was Golf’s Hottest Company—Until an Ad Went Badly, Badly Wrong",
+      "url": "https://www.wsj.com/sports/golf/good-good-golf-video-controversy-5874e6af",
+      "summary": "Golf apparel company Good Good faces backlash after an ad campaign goes wrong.",
+      "storyKey": "golf+good",
       "source": "WSJ"
     }
   ],
