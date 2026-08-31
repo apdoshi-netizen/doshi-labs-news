@@ -1,31 +1,4 @@
 {
-  "2026-08-09": [
-    {
-      "title": "Week Ahead for FX, Bonds: U.S. Inflation Data in Focus",
-      "url": "https://www.wsj.com/economy/week-ahead-for-fx-bonds-u-s-inflation-data-in-focus-ffd3ae8a",
-      "storyKey": null
-    },
-    {
-      "title": "This Fashion IPO’s Growth Story Looks Flimsy",
-      "url": "https://www.wsj.com/business/retail/this-fashion-ipos-growth-story-looks-flimsy-c78849d1",
-      "storyKey": null
-    },
-    {
-      "title": "A Breath of Fresh Air",
-      "url": "https://www.wsj.com/opinion/free-expression/a-breath-of-fresh-air-0ce5ec31",
-      "storyKey": null
-    },
-    {
-      "title": "The AI Therapist: A WSJ Podcast Series",
-      "url": "https://www.wsj.com/tech/ai/the-ai-therapist-a-wsj-podcast-series-7b1b8fea?mod",
-      "storyKey": null
-    },
-    {
-      "title": "Horse Racing’s Triple Crown May No Longer Be Worth Chasing",
-      "url": "https://www.wsj.com/sports/horse-racing-triple-crown-kentucky-derby-preakness-belmont-8b4d0b78",
-      "storyKey": null
-    }
-  ],
   "2026-08-10": [
     {
       "title": "Gold Holds Above $4,400 Ahead of U.S. Inflation Data",
@@ -593,8 +566,34 @@
       "storyKey": "golf+good"
     }
   ],
+  "2026-08-31": [
+    {
+      "title": "Companies Plow Tariff Refunds Into Price Cuts, Appealing to Stretched Consumers",
+      "url": "https://www.wsj.com/cfo-journal/companies-plow-tariff-refunds-into-price-cuts-appealing-to-stretched-consumers-c5f683b1",
+      "storyKey": "prices+refunds+tariff"
+    },
+    {
+      "title": "Aon Strikes Roughly $17 Billion Deal for Insurance Brokerage USI",
+      "url": "https://www.wsj.com/finance/aon-nears-roughly-17-billion-deal-for-insurance-brokerage-usi-fcc9fba9",
+      "storyKey": "aon+usi"
+    },
+    {
+      "title": "Opinion | Washington Can’t Spend Its Way to Prosperity",
+      "url": "https://www.wsj.com/opinion/washington-cant-spend-its-way-to-prosperity-e3e5e2aa",
+      "storyKey": "prosperity+spending"
+    },
+    {
+      "title": "G20 Warned Of Growing Threat to Financial Stability Posed By New AI Models",
+      "url": "https://www.wsj.com/tech/ai/g20-warned-of-growing-threat-to-financial-stability-posed-by-new-ai-models-e9e501da",
+      "storyKey": "ai+g20+risk"
+    },
+    {
+      "title": "Novak Djokovic Crashes Out Early at the U.S. Open. Could This Be It?",
+      "url": "https://www.wsj.com/sports/tennis/novak-djokovic-us-open-a898a702",
+      "storyKey": "djokovic+usopen"
+    }
+  ],
   "_research": {
-    "2026-08-09": [],
     "2026-08-10": [],
     "2026-08-11": [
       "https://podcasts.apple.com/us/podcast/how-ai-could-simplify-the-mortgage-market/id1466686717?i=1000782049966&uo=4",
@@ -659,6 +658,7 @@
       "https://www.jpmorgan.com/insights/markets-and-economy/markets/the-certainty-of-uncertainty"
     ],
     "2026-08-29": [],
-    "2026-08-30": []
+    "2026-08-30": [],
+    "2026-08-31": []
   }
 }

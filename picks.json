@@ -1,50 +1,50 @@
 {
-  "date": "2026-08-30",
-  "generatedAt": "2026-08-30T14:24:59.283560+00:00",
+  "date": "2026-08-31",
+  "generatedAt": "2026-08-31T11:35:28.253058+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Warsh Makes the Case for Higher Rates and Raises the Bar for Standing Pat",
-      "url": "https://www.wsj.com/economy/central-banking/warsh-makes-the-case-for-higher-rates-and-raises-the-bar-for-standing-pat-3cc1b306",
-      "summary": "Warsh argues for higher interest rates, raising bar for Fed to hold steady on policy.",
-      "storyKey": "fed+rates+warsh",
+      "title": "Companies Plow Tariff Refunds Into Price Cuts, Appealing to Stretched Consumers",
+      "url": "https://www.wsj.com/cfo-journal/companies-plow-tariff-refunds-into-price-cuts-appealing-to-stretched-consumers-c5f683b1",
+      "summary": "Companies use tariff refunds to fund price cuts, easing pressure on financially stretched U.S. consumers.",
+      "storyKey": "prices+refunds+tariff",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Gold Fields Returns More Cash to Shareholders as Earnings Jump on Higher Prices",
-      "url": "https://www.wsj.com/business/earnings/gold-fields-returns-more-cash-to-shareholders-as-earnings-jump-on-higher-prices-d164eb2e",
-      "summary": "Gold Fields boosts shareholder returns as earnings surge on higher gold prices.",
-      "storyKey": "earnings+fields+gold",
+      "title": "Aon Strikes Roughly $17 Billion Deal for Insurance Brokerage USI",
+      "url": "https://www.wsj.com/finance/aon-nears-roughly-17-billion-deal-for-insurance-brokerage-usi-fcc9fba9",
+      "summary": "Aon strikes roughly $17 billion deal to acquire insurance brokerage USI Insurance Services.",
+      "storyKey": "aon+usi",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Trump Seeks a Tariff Do-Over in Court",
-      "url": "https://www.wsj.com/opinion/trump-seeks-a-tariff-do-over-in-court-f73b493d",
-      "summary": "Opinion argues Trump seeks a redo of tariff policy through court action.",
-      "storyKey": "court+tariff+trump",
+      "title": "Opinion | Washington Can’t Spend Its Way to Prosperity",
+      "url": "https://www.wsj.com/opinion/washington-cant-spend-its-way-to-prosperity-e3e5e2aa",
+      "summary": "Opinion argues Washington cannot spend its way to economic prosperity, critiquing federal fiscal policy approach.",
+      "storyKey": "prosperity+spending",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Nvidia Wants to Run the World’s Robots. China Is an Eager Customer.",
-      "url": "https://www.wsj.com/tech/ai/nvidia-wants-to-run-the-worlds-robots-china-is-an-eager-customer-bdf46169",
-      "summary": "Nvidia aims to power global robotics market, finding eager customer in China.",
-      "storyKey": "china+nvidia+robots",
+      "title": "G20 Warned Of Growing Threat to Financial Stability Posed By New AI Models",
+      "url": "https://www.wsj.com/tech/ai/g20-warned-of-growing-threat-to-financial-stability-posed-by-new-ai-models-e9e501da",
+      "summary": "G20 warns new AI models pose growing threat to global financial stability.",
+      "storyKey": "ai+g20+risk",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "Good Good Was Golf’s Hottest Company—Until an Ad Went Badly, Badly Wrong",
-      "url": "https://www.wsj.com/sports/golf/good-good-golf-video-controversy-5874e6af",
-      "summary": "Golf apparel company Good Good faces backlash after an ad campaign goes wrong.",
-      "storyKey": "golf+good",
+      "title": "Novak Djokovic Crashes Out Early at the U.S. Open. Could This Be It?",
+      "url": "https://www.wsj.com/sports/tennis/novak-djokovic-us-open-a898a702",
+      "summary": "Novak Djokovic suffers early U.S. Open exit, raising questions about his tennis future.",
+      "storyKey": "djokovic+usopen",
       "source": "WSJ"
     }
   ],
