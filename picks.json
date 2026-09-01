@@ -1,12 +1,12 @@
 {
   "date": "2026-09-01",
-  "generatedAt": "2026-09-01T10:05:16.071756+00:00",
+  "generatedAt": "2026-09-01T14:09:04.348955+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Jackson Hole Highlights New Tug-of-War for the Treasury and Fed",
-      "url": "https://www.wsj.com/cfo-journal/jackson-hole-highlights-new-tug-of-war-for-the-treasury-and-fed-ba257a82",
+      "title": "Pulpwood Market Collapse Hits South’s Forest Economy",
+      "url": "https://www.wsj.com/logistics-report/pulpwood-market-collapse-hits-souths-forest-economy-2fa73ff8",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -14,8 +14,8 @@
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "A Dog’s New York ‘Retreat’ Hits the Market for $2.9 Million",
-      "url": "https://www.wsj.com/real-estate/luxury-homes/a-dogs-new-york-retreat-hits-the-market-for-2-9-million-e725d22f",
+      "title": "Keurig Dr Pepper to Sell Chobani Stake, Pennsylvania Campus for $925 Million",
+      "url": "https://www.wsj.com/business/keurig-dr-pepper-to-sell-chobani-stake-pennsylvania-campus-for-925-million-767c7999",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -32,8 +32,8 @@
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "How Big Tech Blinded Itself to the Grassroots AI Revolt",
-      "url": "https://www.wsj.com/tech/ai/how-big-tech-blinded-itself-to-the-grassroots-ai-revolt-cb6f5715",
+      "title": "Meta’s Day of Reckoning",
+      "url": "https://www.wsj.com/tech/ai/metas-day-of-reckoning-aec1f826",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -41,8 +41,8 @@
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "Novak Djokovic Crashes Out Early at the U.S. Open. Could This Be It?",
-      "url": "https://www.wsj.com/sports/tennis/novak-djokovic-us-open-a898a702",
+      "title": "The Novel Solution Powering Baseball’s Biggest Turnaround: Swinging Harder",
+      "url": "https://www.wsj.com/sports/baseball/white-sox-bat-speed-vargas-murakami-565fd781",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -68,6 +68,26 @@
       "kind": "podcast",
       "duration": "5 min",
       "summary": "Younger generations are reshaping caffeine consumption. Our U.S. Household Products and Beverage Analyst Dara Mohsenian discusses how the growing appetite for energy drinks could influence beverage habits for years to come. Read more insights from Morgan Stanley."
+    },
+    {
+      "firm": "J.P. Morgan",
+      "show": "Eye on the Market",
+      "title": "Rear Window",
+      "url": "https://podcasts.apple.com/us/podcast/rear-window/id1367963156?i=1000787188929&uo=4",
+      "published": "2026-09-01T13:28:41+00:00",
+      "kind": "podcast",
+      "duration": "32 min",
+      "summary": "Over the last year, the Eye on the Market included views on sectors, rates and currencies. For this back-to-school piece, I prepared a rear window post-mortem on each."
+    },
+    {
+      "firm": "J.P. Morgan",
+      "show": "Making Sense",
+      "title": "Innovate to simplify: Structuring for modern markets",
+      "url": "https://podcasts.apple.com/us/podcast/innovate-to-simplify-structuring-for-modern-markets/id1456184829?i=1000787186302&uo=4",
+      "published": "2026-09-01T13:10:23+00:00",
+      "kind": "podcast",
+      "duration": "23 min",
+      "summary": "In this episode of J.P. Morgan’s Making Sense, Gurps Kharaud, head of Equities, Structuring and Financing Digital Markets, sits down with Rui Fernandes, head of Global Structuring, to unpack how structuring is evolving in today’s markets. They discuss what clients are asking for (more leverage, financing, protection and tailored exposures), as well as the need to keep solutions as implementable as possible — in other words, innovate to simplify. The conversation also explores how AI is starting to accelerate speed-to-market, improve customization and enhance long-dated post-trade servicing across complex structured transactions."
     }
   ]
 }
