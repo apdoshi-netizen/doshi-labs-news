@@ -1,31 +1,4 @@
 {
-  "2026-08-10": [
-    {
-      "title": "Gold Holds Above $4,400 Ahead of U.S. Inflation Data",
-      "url": "https://www.wsj.com/finance/commodities-futures/gold-flat-focus-on-u-s-july-payrolls-7759613a",
-      "storyKey": "gold+inflation"
-    },
-    {
-      "title": "P&G Agrees to Buy Supplements Maker for $3.8 Billion",
-      "url": "https://www.wsj.com/business/retail/p-g-agrees-to-buy-supplements-maker-for-3-8-billion-1f52e7bf",
-      "storyKey": "pg+supplements"
-    },
-    {
-      "title": "Opinion | China Presses a Weakness in America’s Tech Policy",
-      "url": "https://www.wsj.com/opinion/china-presses-a-weakness-in-americas-tech-policy-2391ed0e",
-      "storyKey": "china+policy+tech"
-    },
-    {
-      "title": "Mark Zuckerberg Lays Out New AI Vision in 6,500-Word Essay",
-      "url": "https://www.wsj.com/tech/ai/mark-zuckerberg-lays-out-new-ai-vision-in-6-500-word-essay-966e9a56",
-      "storyKey": "ai+essay+zuckerberg"
-    },
-    {
-      "title": "Is an Average NFL Quarterback Worth $50 Million a Year?",
-      "url": "https://www.wsj.com/sports/football/baker-mayfield-contract-buccaneers-121927d0",
-      "storyKey": "nfl+qb+salary"
-    }
-  ],
   "2026-08-11": [
     {
       "title": "Dollar Hits 7-Week Low After Weak U.S. Jobs Data",
@@ -593,8 +566,34 @@
       "storyKey": "fedex+golf+payday"
     }
   ],
+  "2026-09-01": [
+    {
+      "title": "Jackson Hole Highlights New Tug-of-War for the Treasury and Fed",
+      "url": "https://www.wsj.com/cfo-journal/jackson-hole-highlights-new-tug-of-war-for-the-treasury-and-fed-ba257a82",
+      "storyKey": null
+    },
+    {
+      "title": "A Dog’s New York ‘Retreat’ Hits the Market for $2.9 Million",
+      "url": "https://www.wsj.com/real-estate/luxury-homes/a-dogs-new-york-retreat-hits-the-market-for-2-9-million-e725d22f",
+      "storyKey": null
+    },
+    {
+      "title": "Opinion | You Need to Invest in AI, but Don’t Expect a Return",
+      "url": "https://www.wsj.com/opinion/you-need-to-invest-in-ai-but-dont-expect-a-return-401b16d4",
+      "storyKey": null
+    },
+    {
+      "title": "How Big Tech Blinded Itself to the Grassroots AI Revolt",
+      "url": "https://www.wsj.com/tech/ai/how-big-tech-blinded-itself-to-the-grassroots-ai-revolt-cb6f5715",
+      "storyKey": null
+    },
+    {
+      "title": "Novak Djokovic Crashes Out Early at the U.S. Open. Could This Be It?",
+      "url": "https://www.wsj.com/sports/tennis/novak-djokovic-us-open-a898a702",
+      "storyKey": null
+    }
+  ],
   "_research": {
-    "2026-08-10": [],
     "2026-08-11": [
       "https://podcasts.apple.com/us/podcast/how-ai-could-simplify-the-mortgage-market/id1466686717?i=1000782049966&uo=4",
       "https://podcasts.apple.com/us/podcast/inside-blackstones-hedge-fund-investing-platform/id1456184829?i=1000782116637&uo=4"
@@ -659,6 +658,10 @@
     ],
     "2026-08-29": [],
     "2026-08-30": [],
-    "2026-08-31": []
+    "2026-08-31": [],
+    "2026-09-01": [
+      "https://podcasts.apple.com/us/podcast/the-outlook-for-data-center-power-demand-as-ai-token/id948913991?i=1000787108752&uo=4",
+      "https://podcasts.apple.com/us/podcast/from-coffee-to-cans-a-u-s-caffeine-shift/id1466686717?i=1000787055456&uo=4"
+    ]
   }
 }
