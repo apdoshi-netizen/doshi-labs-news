@@ -1,41 +1,41 @@
 {
   "date": "2026-09-02",
-  "generatedAt": "2026-09-02T09:36:35.641496+00:00",
+  "generatedAt": "2026-09-02T13:39:37.980735+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "European Equities Mixed in Muted Trade",
-      "url": "https://www.wsj.com/finance/stocks/nikkei-falls-2-2-dragged-by-chip-related-stocks-f002ef39",
-      "summary": "",
-      "storyKey": null,
+      "title": "Oil Hovers Close to $95 as Middle East Conflict Further Pressures Bonds",
+      "url": "https://www.wsj.com/finance/investing/oil-hovers-close-to-95-as-middle-east-conflict-further-pressures-bonds-877d8321",
+      "summary": "Oil near $95 as Middle East conflict intensifies, further pressuring global bond markets.",
+      "storyKey": "bonds+mideast+oil",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Exclusive | Freedom Mortgage CEO Asks $59.95 Million for Oceanfront Florida Home",
-      "url": "https://www.wsj.com/real-estate/luxury-homes/freedom-mortgage-ceo-palm-beach-county-fl-14def9b9",
-      "summary": "",
-      "storyKey": null,
+      "title": "Dell Technologies Boosts Fiscal Year Outlook by $25 Billion as Server Revenue Surges",
+      "url": "https://www.wsj.com/business/earnings/dell-technologies-boosts-fiscal-year-outlook-by-25-billion-as-server-revenue-surges-378fc240",
+      "summary": "Dell raises fiscal-year outlook by $25 billion as AI-driven server revenue surges.",
+      "storyKey": "ai+dell+earnings",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Hurray for the Bond Market",
-      "url": "https://www.wsj.com/opinion/bond-market-yields-rise-government-debt-b7941611",
-      "summary": "",
-      "storyKey": null,
+      "title": "Opinion | The Meta Settlement Makes Big Tech Bigger",
+      "url": "https://www.wsj.com/opinion/the-meta-settlement-makes-big-tech-bigger-874a3e05",
+      "summary": "Opinion argues Meta's regulatory settlement paradoxically strengthens Big Tech's dominance.",
+      "storyKey": "bigtech+meta+settlement",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "See the New Building Techniques Turbocharging the Data-Center Boom",
-      "url": "https://www.wsj.com/tech/ai/see-the-new-building-techniques-turbocharging-the-data-center-boom-5020b8f6",
-      "summary": "",
-      "storyKey": null,
+      "title": "Exclusive | The $5.5 Billion Perk SoftBank’s Data-Center Venture Offered to Land OpenAI",
+      "url": "https://www.wsj.com/tech/ai/the-5-5-billion-perk-softbanks-data-center-venture-offered-to-land-openai-a5c7fb5e",
+      "summary": "SoftBank's data-center venture offered OpenAI a $5.5 billion perk to secure partnership.",
+      "storyKey": "datacenter+openai+softbank",
       "source": "WSJ"
     },
     {
@@ -43,8 +43,8 @@
       "label": "Sports",
       "title": "Stan Kroenke Expands His Sports Empire With $4 Billion Angels Purchase",
       "url": "https://www.wsj.com/sports/baseball/stan-kroenke-los-angeles-angels-arte-moreno-a09c93b6",
-      "summary": "",
-      "storyKey": null,
+      "summary": "Stan Kroenke expands sports empire with a $4 billion purchase of the Angels.",
+      "storyKey": "angels+kroenke+mlb",
       "source": "WSJ"
     }
   ],
