@@ -1,12 +1,12 @@
 {
-  "date": "2026-09-01",
-  "generatedAt": "2026-09-01T14:09:04.348955+00:00",
+  "date": "2026-09-02",
+  "generatedAt": "2026-09-02T09:36:35.641496+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Pulpwood Market Collapse Hits South’s Forest Economy",
-      "url": "https://www.wsj.com/logistics-report/pulpwood-market-collapse-hits-souths-forest-economy-2fa73ff8",
+      "title": "European Equities Mixed in Muted Trade",
+      "url": "https://www.wsj.com/finance/stocks/nikkei-falls-2-2-dragged-by-chip-related-stocks-f002ef39",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -14,8 +14,8 @@
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Keurig Dr Pepper to Sell Chobani Stake, Pennsylvania Campus for $925 Million",
-      "url": "https://www.wsj.com/business/keurig-dr-pepper-to-sell-chobani-stake-pennsylvania-campus-for-925-million-767c7999",
+      "title": "Exclusive | Freedom Mortgage CEO Asks $59.95 Million for Oceanfront Florida Home",
+      "url": "https://www.wsj.com/real-estate/luxury-homes/freedom-mortgage-ceo-palm-beach-county-fl-14def9b9",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -23,8 +23,8 @@
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | You Need to Invest in AI, but Don’t Expect a Return",
-      "url": "https://www.wsj.com/opinion/you-need-to-invest-in-ai-but-dont-expect-a-return-401b16d4",
+      "title": "Opinion | Hurray for the Bond Market",
+      "url": "https://www.wsj.com/opinion/bond-market-yields-rise-government-debt-b7941611",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -32,8 +32,8 @@
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Meta’s Day of Reckoning",
-      "url": "https://www.wsj.com/tech/ai/metas-day-of-reckoning-aec1f826",
+      "title": "See the New Building Techniques Turbocharging the Data-Center Boom",
+      "url": "https://www.wsj.com/tech/ai/see-the-new-building-techniques-turbocharging-the-data-center-boom-5020b8f6",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -41,8 +41,8 @@
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The Novel Solution Powering Baseball’s Biggest Turnaround: Swinging Harder",
-      "url": "https://www.wsj.com/sports/baseball/white-sox-bat-speed-vargas-murakami-565fd781",
+      "title": "Stan Kroenke Expands His Sports Empire With $4 Billion Angels Purchase",
+      "url": "https://www.wsj.com/sports/baseball/stan-kroenke-los-angeles-angels-arte-moreno-a09c93b6",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -50,44 +50,24 @@
   ],
   "research": [
     {
-      "firm": "Goldman Sachs",
-      "show": "Exchanges",
-      "title": "The Outlook for Data Center Power Demand as AI Token Use Grows",
-      "url": "https://podcasts.apple.com/us/podcast/the-outlook-for-data-center-power-demand-as-ai-token/id948913991?i=1000787108752&uo=4",
-      "published": "2026-09-01T04:00:00+00:00",
-      "kind": "podcast",
-      "duration": "32 min",
-      "summary": "Global data center power demand could rise 170% by 2030 from 2025 levels according to Goldman Sachs Research’s Brian Singer and Carly Davenport. They joined hosts Allison Nathan and George Lee on the Goldman Sachs Exchanges podcast to discuss how data centers will source that power, the key bottlenecks, and the impact of growing pushback from some local communities."
-    },
-    {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
-      "title": "From Coffee to Cans: A U.S. Caffeine Shift",
-      "url": "https://podcasts.apple.com/us/podcast/from-coffee-to-cans-a-u-s-caffeine-shift/id1466686717?i=1000787055456&uo=4",
-      "published": "2026-08-31T21:00:00+00:00",
+      "title": "The $33 Billion AI Security Opportunity",
+      "url": "https://podcasts.apple.com/us/podcast/the-%2433-billion-ai-security-opportunity/id1466686717?i=1000787244906&uo=4",
+      "published": "2026-09-01T20:00:00+00:00",
       "kind": "podcast",
-      "duration": "5 min",
-      "summary": "Younger generations are reshaping caffeine consumption. Our U.S. Household Products and Beverage Analyst Dara Mohsenian discusses how the growing appetite for energy drinks could influence beverage habits for years to come. Read more insights from Morgan Stanley."
+      "duration": "4 min",
+      "summary": "As AI agents gain access to sensitive enterprise systems, companies need new ways to control what they can do. Meta Marshall breaks down the emerging market for agentic identity security. Read more insights from Morgan Stanley."
     },
     {
       "firm": "J.P. Morgan",
-      "show": "Eye on the Market",
-      "title": "Rear Window",
-      "url": "https://podcasts.apple.com/us/podcast/rear-window/id1367963156?i=1000787188929&uo=4",
-      "published": "2026-09-01T13:28:41+00:00",
-      "kind": "podcast",
-      "duration": "32 min",
-      "summary": "Over the last year, the Eye on the Market included views on sectors, rates and currencies. For this back-to-school piece, I prepared a rear window post-mortem on each."
-    },
-    {
-      "firm": "J.P. Morgan",
-      "show": "Making Sense",
-      "title": "Innovate to simplify: Structuring for modern markets",
-      "url": "https://podcasts.apple.com/us/podcast/innovate-to-simplify-structuring-for-modern-markets/id1456184829?i=1000787186302&uo=4",
-      "published": "2026-09-01T13:10:23+00:00",
-      "kind": "podcast",
-      "duration": "23 min",
-      "summary": "In this episode of J.P. Morgan’s Making Sense, Gurps Kharaud, head of Equities, Structuring and Financing Digital Markets, sits down with Rui Fernandes, head of Global Structuring, to unpack how structuring is evolving in today’s markets. They discuss what clients are asking for (more leverage, financing, protection and tailored exposures), as well as the need to keep solutions as implementable as possible — in other words, innovate to simplify. The conversation also explores how AI is starting to accelerate speed-to-market, improve customization and enhance long-dated post-trade servicing across complex structured transactions."
+      "show": null,
+      "title": "Machine Learning in Private Credit",
+      "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/machine-learning-in-private-credit",
+      "published": "2026-09-01T10:53:16.392000-04:00",
+      "kind": "article",
+      "duration": null,
+      "summary": "The new modeling frontier driven by cutting-edge tech."
     }
   ]
 }
