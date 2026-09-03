@@ -568,29 +568,19 @@
   ],
   "2026-09-03": [
     {
-      "title": "U.S. Says It’s Fed Up With China’s Overcapacity—and More Countries Agree",
-      "url": "https://www.wsj.com/world/china/u-s-says-its-fed-up-with-chinas-overcapacityand-more-countries-agree-ec6cc8e5",
-      "storyKey": "china+overcapacity+trade"
+      "title": "Bank of Canada Expected to Remain On Hold as Trade Conflict With U.S. Escalates",
+      "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-expected-to-remain-on-hold-as-trade-conflict-with-u-s-escalates-fcf9659c",
+      "storyKey": "boc+rates"
     },
     {
-      "title": "Uber’s $15 Billion Takeover Bid Gets Delivery Hero Board Backing",
-      "url": "https://www.wsj.com/business/ubers-15-billion-takeover-bid-gets-delivery-hero-board-backing-2f6c992e",
-      "storyKey": "delivery+hero+uber"
+      "title": "Boeing’s $8.4 Billion Deal Is Bleeding Red Ink",
+      "url": "https://www.wsj.com/business/boeings-8-4-billion-deal-is-bleeding-red-ink-6a7bfb69",
+      "storyKey": "boeing+deal"
     },
     {
-      "title": "Opinion | Hurray for the Bond Market",
-      "url": "https://www.wsj.com/opinion/bond-market-yields-rise-government-debt-b7941611",
-      "storyKey": "bond+market+rally"
-    },
-    {
-      "title": "Brain Drain Hits OpenAI and Google, But the Impact Isn’t Equal",
-      "url": "https://www.wsj.com/tech/ai/brain-drain-hits-openai-and-google-but-the-impact-isnt-equal-dedea586",
-      "storyKey": "brain+drain+google+openai"
-    },
-    {
-      "title": "NBA Imposes Historic Punishment on the Clippers and Steve Ballmer in Salary Cap Scandal",
-      "url": "https://www.wsj.com/sports/basketball/nba-clippers-ballmer-kawhi-leonard-salary-cap-4f9c69bf",
-      "storyKey": "ballmer+clippers+nba"
+      "title": "Nvidia Agrees to Buy Hugging Face for $13 Billion",
+      "url": "https://www.wsj.com/tech/ai/nvidia-agrees-to-buy-hugging-face-for-13-billion-11929060",
+      "storyKey": "huggingface+nvidia"
     }
   ],
   "_research": {

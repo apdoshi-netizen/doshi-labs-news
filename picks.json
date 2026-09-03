@@ -1,50 +1,50 @@
 {
   "date": "2026-09-03",
-  "generatedAt": "2026-09-03T09:47:54.509435+00:00",
+  "generatedAt": "2026-09-03T13:35:06.683142+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "U.S. Says It’s Fed Up With China’s Overcapacity—and More Countries Agree",
-      "url": "https://www.wsj.com/world/china/u-s-says-its-fed-up-with-chinas-overcapacityand-more-countries-agree-ec6cc8e5",
-      "summary": "U.S. says it's \"fed up\" with China's industrial overcapacity, with more countries now agreeing on the issue.",
-      "storyKey": "china+overcapacity+trade",
+      "title": "Bank of Canada Expected to Remain On Hold as Trade Conflict With U.S. Escalates",
+      "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-expected-to-remain-on-hold-as-trade-conflict-with-u-s-escalates-fcf9659c",
+      "summary": "Bank of Canada expected to hold rates as trade conflict with U.S. intensifies, per report.",
+      "storyKey": "boc+rates",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Uber’s $15 Billion Takeover Bid Gets Delivery Hero Board Backing",
-      "url": "https://www.wsj.com/business/ubers-15-billion-takeover-bid-gets-delivery-hero-board-backing-2f6c992e",
-      "summary": "Uber's $15 billion takeover bid for Delivery Hero secures backing from Delivery Hero's board.",
-      "storyKey": "delivery+hero+uber",
+      "title": "Boeing’s $8.4 Billion Deal Is Bleeding Red Ink",
+      "url": "https://www.wsj.com/business/boeings-8-4-billion-deal-is-bleeding-red-ink-6a7bfb69",
+      "summary": "Boeing’s $8.4 billion deal is generating significant financial losses, WSJ reports.",
+      "storyKey": "boeing+deal",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Hurray for the Bond Market",
-      "url": "https://www.wsj.com/opinion/bond-market-yields-rise-government-debt-b7941611",
-      "summary": "Opinion column argues in favor of recent strength in the bond market.",
-      "storyKey": "bond+market+rally",
+      "title": "",
+      "url": "",
+      "summary": "No WSJ pick today.",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Brain Drain Hits OpenAI and Google, But the Impact Isn’t Equal",
-      "url": "https://www.wsj.com/tech/ai/brain-drain-hits-openai-and-google-but-the-impact-isnt-equal-dedea586",
-      "summary": "Talent brain drain hits both OpenAI and Google, but with unequal impact on each firm.",
-      "storyKey": "brain+drain+google+openai",
+      "title": "Nvidia Agrees to Buy Hugging Face for $13 Billion",
+      "url": "https://www.wsj.com/tech/ai/nvidia-agrees-to-buy-hugging-face-for-13-billion-11929060",
+      "summary": "Nvidia agrees to acquire AI platform Hugging Face for $13 billion, per report.",
+      "storyKey": "huggingface+nvidia",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "NBA Imposes Historic Punishment on the Clippers and Steve Ballmer in Salary Cap Scandal",
-      "url": "https://www.wsj.com/sports/basketball/nba-clippers-ballmer-kawhi-leonard-salary-cap-4f9c69bf",
-      "summary": "NBA imposes historic punishment on Clippers and owner Steve Ballmer in a salary cap scandal.",
-      "storyKey": "ballmer+clippers+nba",
+      "title": "",
+      "url": "",
+      "summary": "No WSJ pick today.",
+      "storyKey": null,
       "source": "WSJ"
     }
   ],
