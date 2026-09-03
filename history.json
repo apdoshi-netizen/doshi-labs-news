@@ -1,31 +1,4 @@
 {
-  "2026-08-12": [
-    {
-      "title": "Hormuz Standoff Derails Oil Supply Recovery and Deepens Demand Slump, IEA Says",
-      "url": "https://www.wsj.com/business/energy-oil/hormuz-standoff-derails-oil-supply-recovery-and-deepens-demand-slump-iea-says-9c38e21b",
-      "storyKey": "hormuz+oil"
-    },
-    {
-      "title": "Blackstone, La Caisse to Buy 25% of Air Canada’s Aeroplan Loyalty Program",
-      "url": "https://www.wsj.com/business/blackstone-la-caisse-to-buy-25-of-air-canadas-aeroplan-loyalty-program-8831ca72",
-      "storyKey": "aeroplan+blackstone"
-    },
-    {
-      "title": "Opinion | The GAO Precedent for Fed Independence",
-      "url": "https://www.wsj.com/opinion/the-gao-precedent-for-fed-independence-b7b37cc4",
-      "storyKey": "fed+gao"
-    },
-    {
-      "title": "Sony Group, TSMC to Form $4.7 Billion Image-Sensor Joint Venture",
-      "url": "https://www.wsj.com/tech/sony-group-tsmc-to-form-4-7-billion-image-sensor-joint-venture-e6509c29",
-      "storyKey": "sony+tsmc"
-    },
-    {
-      "title": "He’s College Football’s Biggest Villain—and Also Its Biggest Gamble",
-      "url": "https://www.wsj.com/sports/football/lane-kiffin-lsu-77198334",
-      "storyKey": "college+football+villain"
-    }
-  ],
   "2026-08-13": [
     {
       "title": "Exclusive | Mexico Pushes for Lower Auto Tariffs in Trade Talks",
@@ -593,11 +566,34 @@
       "storyKey": "angels+kroenke+mlb"
     }
   ],
+  "2026-09-03": [
+    {
+      "title": "U.S. Says It’s Fed Up With China’s Overcapacity—and More Countries Agree",
+      "url": "https://www.wsj.com/world/china/u-s-says-its-fed-up-with-chinas-overcapacityand-more-countries-agree-ec6cc8e5",
+      "storyKey": "china+overcapacity+trade"
+    },
+    {
+      "title": "Uber’s $15 Billion Takeover Bid Gets Delivery Hero Board Backing",
+      "url": "https://www.wsj.com/business/ubers-15-billion-takeover-bid-gets-delivery-hero-board-backing-2f6c992e",
+      "storyKey": "delivery+hero+uber"
+    },
+    {
+      "title": "Opinion | Hurray for the Bond Market",
+      "url": "https://www.wsj.com/opinion/bond-market-yields-rise-government-debt-b7941611",
+      "storyKey": "bond+market+rally"
+    },
+    {
+      "title": "Brain Drain Hits OpenAI and Google, But the Impact Isn’t Equal",
+      "url": "https://www.wsj.com/tech/ai/brain-drain-hits-openai-and-google-but-the-impact-isnt-equal-dedea586",
+      "storyKey": "brain+drain+google+openai"
+    },
+    {
+      "title": "NBA Imposes Historic Punishment on the Clippers and Steve Ballmer in Salary Cap Scandal",
+      "url": "https://www.wsj.com/sports/basketball/nba-clippers-ballmer-kawhi-leonard-salary-cap-4f9c69bf",
+      "storyKey": "ballmer+clippers+nba"
+    }
+  ],
   "_research": {
-    "2026-08-12": [
-      "https://podcasts.apple.com/us/podcast/show-me-the-money-market-tells-companies/id1466686717?i=1000782808452&uo=4",
-      "https://www.jpmorgan.com/insights/markets-and-economy/economy/fewer-federal-reserve-meetings-under-kevin-warsh-what-it-could-mean-for-investors"
-    ],
     "2026-08-13": [
       "https://podcasts.apple.com/us/podcast/what-the-us-japan-currency-intervention-means-for-the/id948913991?i=1000783047586&uo=4",
       "https://podcasts.apple.com/us/podcast/the-potential-way-forward-for-the-u-s-iran-standoff/id1466686717?i=1000783024828&uo=4",
@@ -664,6 +660,10 @@
     "2026-09-02": [
       "https://podcasts.apple.com/us/podcast/the-%2433-billion-ai-security-opportunity/id1466686717?i=1000787244906&uo=4",
       "https://www.jpmorgan.com/insights/markets-and-economy/markets/machine-learning-in-private-credit"
+    ],
+    "2026-09-03": [
+      "https://podcasts.apple.com/us/podcast/3-policy-catalysts-to-watch-this-fall/id1466686717?i=1000787511750&uo=4",
+      "https://www.jpmorgan.com/insights/markets-and-economy/economy/us-canada-tariffs-why-autos-and-oil-matter"
     ]
   }
 }

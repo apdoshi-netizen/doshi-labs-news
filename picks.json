@@ -1,50 +1,50 @@
 {
-  "date": "2026-09-02",
-  "generatedAt": "2026-09-02T13:39:37.980735+00:00",
+  "date": "2026-09-03",
+  "generatedAt": "2026-09-03T09:47:54.509435+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Oil Hovers Close to $95 as Middle East Conflict Further Pressures Bonds",
-      "url": "https://www.wsj.com/finance/investing/oil-hovers-close-to-95-as-middle-east-conflict-further-pressures-bonds-877d8321",
-      "summary": "Oil near $95 as Middle East conflict intensifies, further pressuring global bond markets.",
-      "storyKey": "bonds+mideast+oil",
+      "title": "U.S. Says It’s Fed Up With China’s Overcapacity—and More Countries Agree",
+      "url": "https://www.wsj.com/world/china/u-s-says-its-fed-up-with-chinas-overcapacityand-more-countries-agree-ec6cc8e5",
+      "summary": "U.S. says it's \"fed up\" with China's industrial overcapacity, with more countries now agreeing on the issue.",
+      "storyKey": "china+overcapacity+trade",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Dell Technologies Boosts Fiscal Year Outlook by $25 Billion as Server Revenue Surges",
-      "url": "https://www.wsj.com/business/earnings/dell-technologies-boosts-fiscal-year-outlook-by-25-billion-as-server-revenue-surges-378fc240",
-      "summary": "Dell raises fiscal-year outlook by $25 billion as AI-driven server revenue surges.",
-      "storyKey": "ai+dell+earnings",
+      "title": "Uber’s $15 Billion Takeover Bid Gets Delivery Hero Board Backing",
+      "url": "https://www.wsj.com/business/ubers-15-billion-takeover-bid-gets-delivery-hero-board-backing-2f6c992e",
+      "summary": "Uber's $15 billion takeover bid for Delivery Hero secures backing from Delivery Hero's board.",
+      "storyKey": "delivery+hero+uber",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | The Meta Settlement Makes Big Tech Bigger",
-      "url": "https://www.wsj.com/opinion/the-meta-settlement-makes-big-tech-bigger-874a3e05",
-      "summary": "Opinion argues Meta's regulatory settlement paradoxically strengthens Big Tech's dominance.",
-      "storyKey": "bigtech+meta+settlement",
+      "title": "Opinion | Hurray for the Bond Market",
+      "url": "https://www.wsj.com/opinion/bond-market-yields-rise-government-debt-b7941611",
+      "summary": "Opinion column argues in favor of recent strength in the bond market.",
+      "storyKey": "bond+market+rally",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Exclusive | The $5.5 Billion Perk SoftBank’s Data-Center Venture Offered to Land OpenAI",
-      "url": "https://www.wsj.com/tech/ai/the-5-5-billion-perk-softbanks-data-center-venture-offered-to-land-openai-a5c7fb5e",
-      "summary": "SoftBank's data-center venture offered OpenAI a $5.5 billion perk to secure partnership.",
-      "storyKey": "datacenter+openai+softbank",
+      "title": "Brain Drain Hits OpenAI and Google, But the Impact Isn’t Equal",
+      "url": "https://www.wsj.com/tech/ai/brain-drain-hits-openai-and-google-but-the-impact-isnt-equal-dedea586",
+      "summary": "Talent brain drain hits both OpenAI and Google, but with unequal impact on each firm.",
+      "storyKey": "brain+drain+google+openai",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "Stan Kroenke Expands His Sports Empire With $4 Billion Angels Purchase",
-      "url": "https://www.wsj.com/sports/baseball/stan-kroenke-los-angeles-angels-arte-moreno-a09c93b6",
-      "summary": "Stan Kroenke expands sports empire with a $4 billion purchase of the Angels.",
-      "storyKey": "angels+kroenke+mlb",
+      "title": "NBA Imposes Historic Punishment on the Clippers and Steve Ballmer in Salary Cap Scandal",
+      "url": "https://www.wsj.com/sports/basketball/nba-clippers-ballmer-kawhi-leonard-salary-cap-4f9c69bf",
+      "summary": "NBA imposes historic punishment on Clippers and owner Steve Ballmer in a salary cap scandal.",
+      "storyKey": "ballmer+clippers+nba",
       "source": "WSJ"
     }
   ],
@@ -52,22 +52,22 @@
     {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
-      "title": "The $33 Billion AI Security Opportunity",
-      "url": "https://podcasts.apple.com/us/podcast/the-%2433-billion-ai-security-opportunity/id1466686717?i=1000787244906&uo=4",
-      "published": "2026-09-01T20:00:00+00:00",
+      "title": "3 Policy Catalysts to Watch This Fall",
+      "url": "https://podcasts.apple.com/us/podcast/3-policy-catalysts-to-watch-this-fall/id1466686717?i=1000787511750&uo=4",
+      "published": "2026-09-02T21:00:00+00:00",
       "kind": "podcast",
-      "duration": "4 min",
-      "summary": "As AI agents gain access to sensitive enterprise systems, companies need new ways to control what they can do. Meta Marshall breaks down the emerging market for agentic identity security. Read more insights from Morgan Stanley."
+      "duration": "10 min",
+      "summary": "Midterm elections, backlash against data centers and a U.S.-China summit. Michael Zezas and Ariana Salvatore discuss themes that could test investor confidence in the coming months. Read more insights from Morgan Stanley."
     },
     {
       "firm": "J.P. Morgan",
       "show": null,
-      "title": "Machine Learning in Private Credit",
-      "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/machine-learning-in-private-credit",
-      "published": "2026-09-01T10:53:16.392000-04:00",
+      "title": "US-Canada Trade Escalation: Why Autos and Oil Matter More Than Today's Tariffs",
+      "url": "https://www.jpmorgan.com/insights/markets-and-economy/economy/us-canada-tariffs-why-autos-and-oil-matter",
+      "published": "2026-09-02T10:12:07.885000-04:00",
       "kind": "article",
       "duration": null,
-      "summary": "The new modeling frontier driven by cutting-edge tech."
+      "summary": "U.S.–Canada tariffs may have limited near-term economic impacts, but a further shift in policy – especially in autos or energy – could complicate the inflation and growth outlook."
     }
   ]
 }
