@@ -1,14 +1,14 @@
 {
   "date": "2026-09-04",
-  "generatedAt": "2026-09-04T09:38:13.022380+00:00",
+  "generatedAt": "2026-09-04T13:32:15.048027+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "U.S. Trade Deficit Widened in July",
-      "url": "https://www.wsj.com/economy/trade/u-s-trade-deficit-widened-in-july-51cae4a2",
-      "summary": "U.S. trade deficit widened in July, a key macro data print affecting cross-asset outlook.",
-      "storyKey": "deficit+trade",
+      "title": "Norway’s Massive Oil Fund Proposes Selling Roughly $80 Billion in U.S. Treasurys",
+      "url": "https://www.wsj.com/finance/investing/norways-oil-fund-proposes-cut-to-government-bond-holdings-d930893f",
+      "summary": "Norway's sovereign wealth fund proposes selling ~$80B in U.S. Treasurys, a major cross-asset bond market move.",
+      "storyKey": "norway+treasurys",
       "source": "WSJ"
     },
     {
@@ -16,7 +16,7 @@
       "label": "Micro",
       "title": "Broadcom Third-Quarter Profit Soars on Growing Custom Chip Demand",
       "url": "https://www.wsj.com/business/earnings/broadcom-third-quarter-profit-soars-on-ai-driven-revenue-growth-c5add826",
-      "summary": "Broadcom's Q3 profit soared on growing custom chip demand, a major named-company earnings report.",
+      "summary": "Broadcom's Q3 profit soared on rising demand for custom AI chips, boosting its outlook.",
       "storyKey": "broadcom+earnings",
       "source": "WSJ"
     },
@@ -25,7 +25,7 @@
       "label": "Op-Ed",
       "title": "Opinion | Aluminum Tariffs Harm U.S. Manufacturers",
       "url": "https://www.wsj.com/opinion/aluminum-tariffs-harm-u-s-manufacturers-04803203",
-      "summary": "Op-ed argues aluminum tariffs are harming U.S. manufacturers, a substantive economic policy critique.",
+      "summary": "Opinion argues aluminum tariffs are harming U.S. manufacturers, a policy and economics critique.",
       "storyKey": "aluminum+tariffs",
       "source": "WSJ"
     },
@@ -34,7 +34,7 @@
       "label": "Tech",
       "title": "Adobe Names Anil Chakravarthy as Chief Executive Amid AI Transformation",
       "url": "https://www.wsj.com/tech/adobe-names-anil-chakravarthy-as-chief-executive-amid-ai-transformation-e5196c3e",
-      "summary": "Adobe names Anil Chakravarthy as CEO amid its AI transformation, a consequential leadership shift.",
+      "summary": "Adobe names Anil Chakravarthy as CEO as the company undergoes an AI-driven transformation.",
       "storyKey": "adobe+ceo",
       "source": "WSJ"
     },
@@ -43,7 +43,7 @@
       "label": "Sports",
       "title": "Steve Ballmer and the Clippers Get the NBA’s Doomsday Hammer",
       "url": "https://www.wsj.com/sports/basketball/steve-ballmer-clippers-kawhi-leonard-3c86d8da",
-      "summary": "Steve Ballmer and the Clippers hit with the NBA's historic salary-cap scandal punishment.",
+      "summary": "NBA hits Steve Ballmer and the Clippers with a historic penalty in a salary-cap scandal.",
       "storyKey": "ballmer+clippers",
       "source": "WSJ"
     }
@@ -68,6 +68,16 @@
       "kind": "podcast",
       "duration": "6 min",
       "summary": "Our Global Commodities Strategist Martijn Rats explains how tightening supply and shrinking buffers are pushing Brent prices up again, and what that would mean for fuel costs and energy markets. Read more insights from Morgan Stanley."
+    },
+    {
+      "firm": "J.P. Morgan",
+      "show": "Making Sense",
+      "title": "What's next for tech equity capital markets in a record year for mega-cap IPOs?",
+      "url": "https://podcasts.apple.com/us/podcast/whats-next-for-tech-equity-capital-markets-in-a/id1456184829?i=1000787862366&uo=4",
+      "published": "2026-09-04T13:19:55+00:00",
+      "kind": "podcast",
+      "duration": "17 min",
+      "summary": "2026 continues to be a record year for equity capital markets globally — and the tech issuance calendar isn't showing signs of slowing down. In this episode of J.P. Morgan’s Making Sense, Eddie Byun, global head of Technology Equity Capital Markets (ECM), sits down with Jack Atherton, head of EMEA ECM Market Intelligence, to unpack what's driving this year's spike in activity, why investor demand is staying strong across blockbuster deals and how issuers are thinking about private versus public market access. They also explore two of the dominant narratives — AI and rates — that continue to shape markets into the second half of this year, share insights from recent mega deals on market depth and investor discipline and discuss what it all means as we head closer to year-end."
     },
     {
       "firm": "J.P. Morgan",
