@@ -1,31 +1,4 @@
 {
-  "2026-08-13": [
-    {
-      "title": "Exclusive | Mexico Pushes for Lower Auto Tariffs in Trade Talks",
-      "url": "https://www.wsj.com/economy/trade/mexico-pushes-for-lower-auto-tariffs-in-trade-talks-c7ade480",
-      "storyKey": "auto+mexico+tariffs"
-    },
-    {
-      "title": "Cisco Reports Sharp Jump in Profit as AI Orders Roll In",
-      "url": "https://www.wsj.com/business/earnings/cisco-csco-earnings-report-4q-2026-e82db3b4",
-      "storyKey": "cisco+earnings"
-    },
-    {
-      "title": "Opinion | What Problems Should AI Be Solving?",
-      "url": "https://www.wsj.com/opinion/what-problems-should-ai-be-solving-5ec7240c",
-      "storyKey": "ai+policy+problems"
-    },
-    {
-      "title": "Exclusive | DeepMind’s Hassabis Pitched AI-Oversight Body Before Shake-Up",
-      "url": "https://www.wsj.com/tech/ai/deepminds-hassabis-pitched-ai-oversight-body-before-shake-up-e25b3f71",
-      "storyKey": "deepmind+oversight"
-    },
-    {
-      "title": "Bob Iger and Joshua Kushner Are Buying the Lakers in a Record $12.5 Billion Deal",
-      "url": "https://www.wsj.com/sports/basketball/lakers-iger-kushner-walter-d63f33ad",
-      "storyKey": "lakers+sale"
-    }
-  ],
   "2026-08-14": [
     {
       "title": "BP, XRG Partner on Venezuelan Offshore Gas Development as Oil Majors Tentatively Return",
@@ -583,12 +556,34 @@
       "storyKey": "huggingface+nvidia"
     }
   ],
+  "2026-09-04": [
+    {
+      "title": "U.S. Trade Deficit Widened in July",
+      "url": "https://www.wsj.com/economy/trade/u-s-trade-deficit-widened-in-july-51cae4a2",
+      "storyKey": "deficit+trade"
+    },
+    {
+      "title": "Broadcom Third-Quarter Profit Soars on Growing Custom Chip Demand",
+      "url": "https://www.wsj.com/business/earnings/broadcom-third-quarter-profit-soars-on-ai-driven-revenue-growth-c5add826",
+      "storyKey": "broadcom+earnings"
+    },
+    {
+      "title": "Opinion | Aluminum Tariffs Harm U.S. Manufacturers",
+      "url": "https://www.wsj.com/opinion/aluminum-tariffs-harm-u-s-manufacturers-04803203",
+      "storyKey": "aluminum+tariffs"
+    },
+    {
+      "title": "Adobe Names Anil Chakravarthy as Chief Executive Amid AI Transformation",
+      "url": "https://www.wsj.com/tech/adobe-names-anil-chakravarthy-as-chief-executive-amid-ai-transformation-e5196c3e",
+      "storyKey": "adobe+ceo"
+    },
+    {
+      "title": "Steve Ballmer and the Clippers Get the NBA’s Doomsday Hammer",
+      "url": "https://www.wsj.com/sports/basketball/steve-ballmer-clippers-kawhi-leonard-3c86d8da",
+      "storyKey": "ballmer+clippers"
+    }
+  ],
   "_research": {
-    "2026-08-13": [
-      "https://podcasts.apple.com/us/podcast/what-the-us-japan-currency-intervention-means-for-the/id948913991?i=1000783047586&uo=4",
-      "https://podcasts.apple.com/us/podcast/the-potential-way-forward-for-the-u-s-iran-standoff/id1466686717?i=1000783024828&uo=4",
-      "https://podcasts.apple.com/us/podcast/the-year-of-the-trojan-fire-horse/id1367963156?i=1000782963865&uo=4"
-    ],
     "2026-08-14": [
       "https://podcasts.apple.com/us/podcast/how-inflation-and-fiscal-policy-are-driving-us/id1683802600?i=1000783245502&uo=4",
       "https://podcasts.apple.com/us/podcast/robotaxis-%241-trillion-opportunity/id1466686717?i=1000783199920&uo=4"
@@ -654,6 +649,12 @@
     "2026-09-03": [
       "https://podcasts.apple.com/us/podcast/3-policy-catalysts-to-watch-this-fall/id1466686717?i=1000787511750&uo=4",
       "https://www.jpmorgan.com/insights/markets-and-economy/economy/us-canada-tariffs-why-autos-and-oil-matter"
+    ],
+    "2026-09-04": [
+      "https://podcasts.apple.com/us/podcast/dipan-patel-on-permiras-artisanal-approach-to-private/id948913991?i=1000787773009&uo=4",
+      "https://podcasts.apple.com/us/podcast/why-oil-prices-could-rise-to-%24100-again/id1466686717?i=1000787717714&uo=4",
+      "https://www.jpmorgan.com/insights/markets-and-economy/markets/financial-sponsors-global-credit-markets",
+      "https://www.jpmorgan.com/insights/markets-and-economy/markets/the-rush-for-resources"
     ]
   }
 }

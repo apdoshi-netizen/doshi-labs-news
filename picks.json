@@ -1,73 +1,93 @@
 {
-  "date": "2026-09-03",
-  "generatedAt": "2026-09-03T13:35:06.683142+00:00",
+  "date": "2026-09-04",
+  "generatedAt": "2026-09-04T09:38:13.022380+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Bank of Canada Expected to Remain On Hold as Trade Conflict With U.S. Escalates",
-      "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-expected-to-remain-on-hold-as-trade-conflict-with-u-s-escalates-fcf9659c",
-      "summary": "Bank of Canada expected to hold rates as trade conflict with U.S. intensifies, per report.",
-      "storyKey": "boc+rates",
+      "title": "U.S. Trade Deficit Widened in July",
+      "url": "https://www.wsj.com/economy/trade/u-s-trade-deficit-widened-in-july-51cae4a2",
+      "summary": "U.S. trade deficit widened in July, a key macro data print affecting cross-asset outlook.",
+      "storyKey": "deficit+trade",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Boeing’s $8.4 Billion Deal Is Bleeding Red Ink",
-      "url": "https://www.wsj.com/business/boeings-8-4-billion-deal-is-bleeding-red-ink-6a7bfb69",
-      "summary": "Boeing’s $8.4 billion deal is generating significant financial losses, WSJ reports.",
-      "storyKey": "boeing+deal",
+      "title": "Broadcom Third-Quarter Profit Soars on Growing Custom Chip Demand",
+      "url": "https://www.wsj.com/business/earnings/broadcom-third-quarter-profit-soars-on-ai-driven-revenue-growth-c5add826",
+      "summary": "Broadcom's Q3 profit soared on growing custom chip demand, a major named-company earnings report.",
+      "storyKey": "broadcom+earnings",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "",
-      "url": "",
-      "summary": "No WSJ pick today.",
-      "storyKey": null,
+      "title": "Opinion | Aluminum Tariffs Harm U.S. Manufacturers",
+      "url": "https://www.wsj.com/opinion/aluminum-tariffs-harm-u-s-manufacturers-04803203",
+      "summary": "Op-ed argues aluminum tariffs are harming U.S. manufacturers, a substantive economic policy critique.",
+      "storyKey": "aluminum+tariffs",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Nvidia Agrees to Buy Hugging Face for $13 Billion",
-      "url": "https://www.wsj.com/tech/ai/nvidia-agrees-to-buy-hugging-face-for-13-billion-11929060",
-      "summary": "Nvidia agrees to acquire AI platform Hugging Face for $13 billion, per report.",
-      "storyKey": "huggingface+nvidia",
+      "title": "Adobe Names Anil Chakravarthy as Chief Executive Amid AI Transformation",
+      "url": "https://www.wsj.com/tech/adobe-names-anil-chakravarthy-as-chief-executive-amid-ai-transformation-e5196c3e",
+      "summary": "Adobe names Anil Chakravarthy as CEO amid its AI transformation, a consequential leadership shift.",
+      "storyKey": "adobe+ceo",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "",
-      "url": "",
-      "summary": "No WSJ pick today.",
-      "storyKey": null,
+      "title": "Steve Ballmer and the Clippers Get the NBA’s Doomsday Hammer",
+      "url": "https://www.wsj.com/sports/basketball/steve-ballmer-clippers-kawhi-leonard-3c86d8da",
+      "summary": "Steve Ballmer and the Clippers hit with the NBA's historic salary-cap scandal punishment.",
+      "storyKey": "ballmer+clippers",
       "source": "WSJ"
     }
   ],
   "research": [
     {
+      "firm": "Goldman Sachs",
+      "show": "Exchanges",
+      "title": "Dipan Patel on Permira’s ‘Artisanal’ Approach to Private Equity",
+      "url": "https://podcasts.apple.com/us/podcast/dipan-patel-on-permiras-artisanal-approach-to-private/id948913991?i=1000787773009&uo=4",
+      "published": "2026-09-04T04:00:00+00:00",
+      "kind": "podcast",
+      "duration": "34 min",
+      "summary": "Dipan Patel, co-CEO of Permira, joins Goldman Sachs Exchanges: Great Investors to discuss how Permira’s sector-specialized investment approach and private partnership structure differs from firms which have grown through platform scale and breadth. He also discusses Permira’s strategy for transforming portfolio companies and what has made those assets attractive to strategic buyers, and he shares how Permira assesses technology risk in its portfolio."
+    },
+    {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
-      "title": "3 Policy Catalysts to Watch This Fall",
-      "url": "https://podcasts.apple.com/us/podcast/3-policy-catalysts-to-watch-this-fall/id1466686717?i=1000787511750&uo=4",
-      "published": "2026-09-02T21:00:00+00:00",
+      "title": "Why Oil Prices Could Rise to $100 Again",
+      "url": "https://podcasts.apple.com/us/podcast/why-oil-prices-could-rise-to-%24100-again/id1466686717?i=1000787717714&uo=4",
+      "published": "2026-09-03T20:30:00+00:00",
       "kind": "podcast",
-      "duration": "10 min",
-      "summary": "Midterm elections, backlash against data centers and a U.S.-China summit. Michael Zezas and Ariana Salvatore discuss themes that could test investor confidence in the coming months. Read more insights from Morgan Stanley."
+      "duration": "6 min",
+      "summary": "Our Global Commodities Strategist Martijn Rats explains how tightening supply and shrinking buffers are pushing Brent prices up again, and what that would mean for fuel costs and energy markets. Read more insights from Morgan Stanley."
     },
     {
       "firm": "J.P. Morgan",
       "show": null,
-      "title": "US-Canada Trade Escalation: Why Autos and Oil Matter More Than Today's Tariffs",
-      "url": "https://www.jpmorgan.com/insights/markets-and-economy/economy/us-canada-tariffs-why-autos-and-oil-matter",
-      "published": "2026-09-02T10:12:07.885000-04:00",
+      "title": "How financial sponsors are reshaping global credit markets",
+      "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/financial-sponsors-global-credit-markets",
+      "published": "2026-09-03T16:49:49.004000-04:00",
       "kind": "article",
       "duration": null,
-      "summary": "U.S.–Canada tariffs may have limited near-term economic impacts, but a further shift in policy – especially in autos or energy – could complicate the inflation and growth outlook."
+      "summary": "Financial sponsors now operate across public and private credit markets simultaneously — reshaping how companies borrow, how capital is distributed and how credit stress surfaces."
+    },
+    {
+      "firm": "J.P. Morgan",
+      "show": null,
+      "title": "The Rush for Resources",
+      "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/the-rush-for-resources",
+      "published": "2026-09-03T14:58:30.601000-04:00",
+      "kind": "article",
+      "duration": null,
+      "summary": "How rising geopolitical tensions are driving the strategic control of commodities and rewriting the playbook"
     }
   ]
 }
