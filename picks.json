@@ -1,52 +1,73 @@
 {
   "date": "2026-09-05",
-  "generatedAt": "2026-09-05T09:03:55.645385+00:00",
+  "generatedAt": "2026-09-05T12:42:44.615808+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "U.S. Adds a Whopping 162,000 Jobs in a Bright Spot for the Economy",
-      "url": "https://www.wsj.com/economy/jobs/august-jobs-report-unemployment-c9da2f0c",
-      "summary": "U.S. added 162,000 jobs in August, a bright spot signaling labor market resilience.",
-      "storyKey": "jobs+report",
+      "title": "A Core Egyptian Bank Gets Caught Up in Treasury’s Iran Crackdown",
+      "url": "https://www.wsj.com/world/middle-east/a-core-egyptian-bank-gets-caught-up-in-treasurys-iran-crackdown-bb867772",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "EQT to Buy Insurance Broker McGill in $2 Billion Deal",
-      "url": "https://www.wsj.com/finance/investing/eqt-to-buy-insurance-broker-mcgill-in-2-billion-deal-439b3cb8",
-      "summary": "EQT agrees to buy insurance broker McGill in a $2 billion acquisition deal.",
-      "storyKey": "eqt+mcgill",
+      "title": "Exclusive | Musk’s Boring Co. Pushes Investors for Recruiting, Business Help",
+      "url": "https://www.wsj.com/tech/musks-boring-co-pushes-investors-for-recruiting-business-help-6cff1c78",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | The New U.S. Tax on ‘Brilliant People’",
-      "url": "https://www.wsj.com/opinion/the-new-u-s-tax-on-brilliant-people-5a6a6baf",
-      "summary": "Opinion argues new U.S. tax policy targets high-earning, highly skilled individuals unfairly.",
-      "storyKey": "brilliant+people+tax",
+      "title": "Opinion | Newsom’s Minimum Wage Whitewash",
+      "url": "https://www.wsj.com/opinion/california-minimum-wage-gavin-newsom-jobs-865a99c2",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Big Tech Can Build Data Centers People Won’t Hate",
-      "url": "https://www.wsj.com/tech/ai/data-center-deals-community-cf92390f",
-      "summary": "Big Tech seeks data center designs that avoid public backlash amid AI expansion.",
-      "storyKey": "bigtech+datacenters",
+      "title": "Vance Called AI Satanic. He Struck a Chord Among Christian Republicans.",
+      "url": "https://www.wsj.com/tech/ai/vance-called-ai-satanic-he-struck-a-chord-among-christian-republicans-dcc34048",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The NFL’s $230 Million Bust Is Now Its Bargain Reclamation Project",
-      "url": "https://www.wsj.com/sports/football/kyler-murray-vikings-5e279723",
-      "summary": "A $230 million NFL draft bust becomes a bargain reclamation project for new team.",
-      "storyKey": "bust+contract+nfl",
+      "title": "The Hush-Hush Demands and Phony Endorsements That Rocked the NBA",
+      "url": "https://www.wsj.com/sports/basketball/the-hush-hush-demands-and-phony-endorsements-that-rocked-the-nba-9dc92f31",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     }
   ],
-  "research": []
+  "research": [
+    {
+      "firm": "Goldman Sachs",
+      "show": "The Markets",
+      "title": "Why Gold Is Expected to Rise to Record Highs",
+      "url": "https://podcasts.apple.com/us/podcast/why-gold-is-expected-to-rise-to-record-highs/id1683802600?i=1000787906587&uo=4",
+      "published": "2026-09-04T18:56:00+00:00",
+      "kind": "podcast",
+      "duration": "12 min",
+      "summary": "Gold set a record high in January, but uncertainty about US interest rates and disruption from the Iran war have led to an “elongated pause” in the rally, according to Tony Kim, global head of Metals Trading in Goldman Sachs FICC and Equities. Ultimately, Kim expects strong central bank demand for the yellow metal to help drive gold to new highs, he says on The Markets podcast. Kim also discusses whether fiscal sustainability concerns could spur a rotation into gold, how reduced investment demand from Asia is impacting gold markets, and why silver has been volatile in 2026."
+    },
+    {
+      "firm": "Morgan Stanley",
+      "show": "Thoughts on the Market",
+      "title": "What Could Shake Up Markets in September?",
+      "url": "https://podcasts.apple.com/us/podcast/what-could-shake-up-markets-in-september/id1466686717?i=1000787921721&uo=4",
+      "published": "2026-09-04T21:00:00+00:00",
+      "kind": "podcast",
+      "duration": "4 min",
+      "summary": "Investors have plenty to digest this month, from economic data to central-bank decisions. Our Global Head of Fixed Income Research Andrew Sheets outlines what could drive the next bout of volatility. Read more insights from Morgan Stanley."
+    }
+  ]
 }

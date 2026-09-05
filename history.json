@@ -558,29 +558,29 @@
   ],
   "2026-09-05": [
     {
-      "title": "U.S. Adds a Whopping 162,000 Jobs in a Bright Spot for the Economy",
-      "url": "https://www.wsj.com/economy/jobs/august-jobs-report-unemployment-c9da2f0c",
-      "storyKey": "jobs+report"
+      "title": "A Core Egyptian Bank Gets Caught Up in Treasury’s Iran Crackdown",
+      "url": "https://www.wsj.com/world/middle-east/a-core-egyptian-bank-gets-caught-up-in-treasurys-iran-crackdown-bb867772",
+      "storyKey": null
     },
     {
-      "title": "EQT to Buy Insurance Broker McGill in $2 Billion Deal",
-      "url": "https://www.wsj.com/finance/investing/eqt-to-buy-insurance-broker-mcgill-in-2-billion-deal-439b3cb8",
-      "storyKey": "eqt+mcgill"
+      "title": "Exclusive | Musk’s Boring Co. Pushes Investors for Recruiting, Business Help",
+      "url": "https://www.wsj.com/tech/musks-boring-co-pushes-investors-for-recruiting-business-help-6cff1c78",
+      "storyKey": null
     },
     {
-      "title": "Opinion | The New U.S. Tax on ‘Brilliant People’",
-      "url": "https://www.wsj.com/opinion/the-new-u-s-tax-on-brilliant-people-5a6a6baf",
-      "storyKey": "brilliant+people+tax"
+      "title": "Opinion | Newsom’s Minimum Wage Whitewash",
+      "url": "https://www.wsj.com/opinion/california-minimum-wage-gavin-newsom-jobs-865a99c2",
+      "storyKey": null
     },
     {
-      "title": "Big Tech Can Build Data Centers People Won’t Hate",
-      "url": "https://www.wsj.com/tech/ai/data-center-deals-community-cf92390f",
-      "storyKey": "bigtech+datacenters"
+      "title": "Vance Called AI Satanic. He Struck a Chord Among Christian Republicans.",
+      "url": "https://www.wsj.com/tech/ai/vance-called-ai-satanic-he-struck-a-chord-among-christian-republicans-dcc34048",
+      "storyKey": null
     },
     {
-      "title": "The NFL’s $230 Million Bust Is Now Its Bargain Reclamation Project",
-      "url": "https://www.wsj.com/sports/football/kyler-murray-vikings-5e279723",
-      "storyKey": "bust+contract+nfl"
+      "title": "The Hush-Hush Demands and Phony Endorsements That Rocked the NBA",
+      "url": "https://www.wsj.com/sports/basketball/the-hush-hush-demands-and-phony-endorsements-that-rocked-the-nba-9dc92f31",
+      "storyKey": null
     }
   ],
   "_research": {
@@ -653,6 +653,9 @@
       "https://www.jpmorgan.com/insights/markets-and-economy/markets/financial-sponsors-global-credit-markets",
       "https://www.jpmorgan.com/insights/markets-and-economy/markets/the-rush-for-resources"
     ],
-    "2026-09-05": []
+    "2026-09-05": [
+      "https://podcasts.apple.com/us/podcast/why-gold-is-expected-to-rise-to-record-highs/id1683802600?i=1000787906587&uo=4",
+      "https://podcasts.apple.com/us/podcast/what-could-shake-up-markets-in-september/id1466686717?i=1000787921721&uo=4"
+    ]
   }
 }
