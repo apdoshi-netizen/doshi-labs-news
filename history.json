@@ -1,31 +1,4 @@
 {
-  "2026-08-14": [
-    {
-      "title": "BP, XRG Partner on Venezuelan Offshore Gas Development as Oil Majors Tentatively Return",
-      "url": "https://www.wsj.com/business/energy-oil/bp-xrg-partner-on-venezuelan-offshore-gas-development-97559444",
-      "storyKey": null
-    },
-    {
-      "title": "Exclusive | A Waterfront Home in a Gated Miami Beach Community Sells for $51.5 Million",
-      "url": "https://www.wsj.com/real-estate/luxury-homes/hibiscus-island-miami-beach-home-4ee1699f",
-      "storyKey": null
-    },
-    {
-      "title": "Opinion | Teddy Roosevelt and the NCAA Monopoly",
-      "url": "https://www.wsj.com/opinion/teddy-roosevelt-and-the-ncaa-monopoly-95cd658e?mod",
-      "storyKey": null
-    },
-    {
-      "title": "DeepSeek Lifts AI Model Prices Fourfold",
-      "url": "https://www.wsj.com/tech/ai/deepseek-lifts-ai-model-prices-fourfold-fbe893e7",
-      "storyKey": null
-    },
-    {
-      "title": "The Lakers’ Owner Needed Cash. Then Came a $12.5 Billion Offer to Buy the Team.",
-      "url": "https://www.wsj.com/sports/basketball/lakers-mark-walter-joshua-kushner-bob-iger-0ceeea23",
-      "storyKey": null
-    }
-  ],
   "2026-08-15": [
     {
       "title": "The Iran War Is Now About Who Blinks First Under Economic Pressure",
@@ -583,11 +556,34 @@
       "storyKey": "ballmer+clippers"
     }
   ],
+  "2026-09-05": [
+    {
+      "title": "U.S. Adds a Whopping 162,000 Jobs in a Bright Spot for the Economy",
+      "url": "https://www.wsj.com/economy/jobs/august-jobs-report-unemployment-c9da2f0c",
+      "storyKey": "jobs+report"
+    },
+    {
+      "title": "EQT to Buy Insurance Broker McGill in $2 Billion Deal",
+      "url": "https://www.wsj.com/finance/investing/eqt-to-buy-insurance-broker-mcgill-in-2-billion-deal-439b3cb8",
+      "storyKey": "eqt+mcgill"
+    },
+    {
+      "title": "Opinion | The New U.S. Tax on ‘Brilliant People’",
+      "url": "https://www.wsj.com/opinion/the-new-u-s-tax-on-brilliant-people-5a6a6baf",
+      "storyKey": "brilliant+people+tax"
+    },
+    {
+      "title": "Big Tech Can Build Data Centers People Won’t Hate",
+      "url": "https://www.wsj.com/tech/ai/data-center-deals-community-cf92390f",
+      "storyKey": "bigtech+datacenters"
+    },
+    {
+      "title": "The NFL’s $230 Million Bust Is Now Its Bargain Reclamation Project",
+      "url": "https://www.wsj.com/sports/football/kyler-murray-vikings-5e279723",
+      "storyKey": "bust+contract+nfl"
+    }
+  ],
   "_research": {
-    "2026-08-14": [
-      "https://podcasts.apple.com/us/podcast/how-inflation-and-fiscal-policy-are-driving-us/id1683802600?i=1000783245502&uo=4",
-      "https://podcasts.apple.com/us/podcast/robotaxis-%241-trillion-opportunity/id1466686717?i=1000783199920&uo=4"
-    ],
     "2026-08-15": [
       "https://podcasts.apple.com/us/podcast/the-uk-has-a-better-story-to-tell/id1466686717?i=1000783367763&uo=4",
       "https://podcasts.apple.com/us/podcast/cpi-inflation-imax-why-fun-still-feels-expensive/id1456184829?i=1000783346568&uo=4"
@@ -656,6 +652,7 @@
       "https://podcasts.apple.com/us/podcast/whats-next-for-tech-equity-capital-markets-in-a/id1456184829?i=1000787862366&uo=4",
       "https://www.jpmorgan.com/insights/markets-and-economy/markets/financial-sponsors-global-credit-markets",
       "https://www.jpmorgan.com/insights/markets-and-economy/markets/the-rush-for-resources"
-    ]
+    ],
+    "2026-09-05": []
   }
 }

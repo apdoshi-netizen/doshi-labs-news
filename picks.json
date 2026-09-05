@@ -1,103 +1,52 @@
 {
-  "date": "2026-09-04",
-  "generatedAt": "2026-09-04T13:32:15.048027+00:00",
+  "date": "2026-09-05",
+  "generatedAt": "2026-09-05T09:03:55.645385+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Norway’s Massive Oil Fund Proposes Selling Roughly $80 Billion in U.S. Treasurys",
-      "url": "https://www.wsj.com/finance/investing/norways-oil-fund-proposes-cut-to-government-bond-holdings-d930893f",
-      "summary": "Norway's sovereign wealth fund proposes selling ~$80B in U.S. Treasurys, a major cross-asset bond market move.",
-      "storyKey": "norway+treasurys",
+      "title": "U.S. Adds a Whopping 162,000 Jobs in a Bright Spot for the Economy",
+      "url": "https://www.wsj.com/economy/jobs/august-jobs-report-unemployment-c9da2f0c",
+      "summary": "U.S. added 162,000 jobs in August, a bright spot signaling labor market resilience.",
+      "storyKey": "jobs+report",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Broadcom Third-Quarter Profit Soars on Growing Custom Chip Demand",
-      "url": "https://www.wsj.com/business/earnings/broadcom-third-quarter-profit-soars-on-ai-driven-revenue-growth-c5add826",
-      "summary": "Broadcom's Q3 profit soared on rising demand for custom AI chips, boosting its outlook.",
-      "storyKey": "broadcom+earnings",
+      "title": "EQT to Buy Insurance Broker McGill in $2 Billion Deal",
+      "url": "https://www.wsj.com/finance/investing/eqt-to-buy-insurance-broker-mcgill-in-2-billion-deal-439b3cb8",
+      "summary": "EQT agrees to buy insurance broker McGill in a $2 billion acquisition deal.",
+      "storyKey": "eqt+mcgill",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Aluminum Tariffs Harm U.S. Manufacturers",
-      "url": "https://www.wsj.com/opinion/aluminum-tariffs-harm-u-s-manufacturers-04803203",
-      "summary": "Opinion argues aluminum tariffs are harming U.S. manufacturers, a policy and economics critique.",
-      "storyKey": "aluminum+tariffs",
+      "title": "Opinion | The New U.S. Tax on ‘Brilliant People’",
+      "url": "https://www.wsj.com/opinion/the-new-u-s-tax-on-brilliant-people-5a6a6baf",
+      "summary": "Opinion argues new U.S. tax policy targets high-earning, highly skilled individuals unfairly.",
+      "storyKey": "brilliant+people+tax",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Adobe Names Anil Chakravarthy as Chief Executive Amid AI Transformation",
-      "url": "https://www.wsj.com/tech/adobe-names-anil-chakravarthy-as-chief-executive-amid-ai-transformation-e5196c3e",
-      "summary": "Adobe names Anil Chakravarthy as CEO as the company undergoes an AI-driven transformation.",
-      "storyKey": "adobe+ceo",
+      "title": "Big Tech Can Build Data Centers People Won’t Hate",
+      "url": "https://www.wsj.com/tech/ai/data-center-deals-community-cf92390f",
+      "summary": "Big Tech seeks data center designs that avoid public backlash amid AI expansion.",
+      "storyKey": "bigtech+datacenters",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "Steve Ballmer and the Clippers Get the NBA’s Doomsday Hammer",
-      "url": "https://www.wsj.com/sports/basketball/steve-ballmer-clippers-kawhi-leonard-3c86d8da",
-      "summary": "NBA hits Steve Ballmer and the Clippers with a historic penalty in a salary-cap scandal.",
-      "storyKey": "ballmer+clippers",
+      "title": "The NFL’s $230 Million Bust Is Now Its Bargain Reclamation Project",
+      "url": "https://www.wsj.com/sports/football/kyler-murray-vikings-5e279723",
+      "summary": "A $230 million NFL draft bust becomes a bargain reclamation project for new team.",
+      "storyKey": "bust+contract+nfl",
       "source": "WSJ"
     }
   ],
-  "research": [
-    {
-      "firm": "Goldman Sachs",
-      "show": "Exchanges",
-      "title": "Dipan Patel on Permira’s ‘Artisanal’ Approach to Private Equity",
-      "url": "https://podcasts.apple.com/us/podcast/dipan-patel-on-permiras-artisanal-approach-to-private/id948913991?i=1000787773009&uo=4",
-      "published": "2026-09-04T04:00:00+00:00",
-      "kind": "podcast",
-      "duration": "34 min",
-      "summary": "Dipan Patel, co-CEO of Permira, joins Goldman Sachs Exchanges: Great Investors to discuss how Permira’s sector-specialized investment approach and private partnership structure differs from firms which have grown through platform scale and breadth. He also discusses Permira’s strategy for transforming portfolio companies and what has made those assets attractive to strategic buyers, and he shares how Permira assesses technology risk in its portfolio."
-    },
-    {
-      "firm": "Morgan Stanley",
-      "show": "Thoughts on the Market",
-      "title": "Why Oil Prices Could Rise to $100 Again",
-      "url": "https://podcasts.apple.com/us/podcast/why-oil-prices-could-rise-to-%24100-again/id1466686717?i=1000787717714&uo=4",
-      "published": "2026-09-03T20:30:00+00:00",
-      "kind": "podcast",
-      "duration": "6 min",
-      "summary": "Our Global Commodities Strategist Martijn Rats explains how tightening supply and shrinking buffers are pushing Brent prices up again, and what that would mean for fuel costs and energy markets. Read more insights from Morgan Stanley."
-    },
-    {
-      "firm": "J.P. Morgan",
-      "show": "Making Sense",
-      "title": "What's next for tech equity capital markets in a record year for mega-cap IPOs?",
-      "url": "https://podcasts.apple.com/us/podcast/whats-next-for-tech-equity-capital-markets-in-a/id1456184829?i=1000787862366&uo=4",
-      "published": "2026-09-04T13:19:55+00:00",
-      "kind": "podcast",
-      "duration": "17 min",
-      "summary": "2026 continues to be a record year for equity capital markets globally — and the tech issuance calendar isn't showing signs of slowing down. In this episode of J.P. Morgan’s Making Sense, Eddie Byun, global head of Technology Equity Capital Markets (ECM), sits down with Jack Atherton, head of EMEA ECM Market Intelligence, to unpack what's driving this year's spike in activity, why investor demand is staying strong across blockbuster deals and how issuers are thinking about private versus public market access. They also explore two of the dominant narratives — AI and rates — that continue to shape markets into the second half of this year, share insights from recent mega deals on market depth and investor discipline and discuss what it all means as we head closer to year-end."
-    },
-    {
-      "firm": "J.P. Morgan",
-      "show": null,
-      "title": "How financial sponsors are reshaping global credit markets",
-      "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/financial-sponsors-global-credit-markets",
-      "published": "2026-09-03T16:49:49.004000-04:00",
-      "kind": "article",
-      "duration": null,
-      "summary": "Financial sponsors now operate across public and private credit markets simultaneously — reshaping how companies borrow, how capital is distributed and how credit stress surfaces."
-    },
-    {
-      "firm": "J.P. Morgan",
-      "show": null,
-      "title": "The Rush for Resources",
-      "url": "https://www.jpmorgan.com/insights/markets-and-economy/markets/the-rush-for-resources",
-      "published": "2026-09-03T14:58:30.601000-04:00",
-      "kind": "article",
-      "duration": null,
-      "summary": "How rising geopolitical tensions are driving the strategic control of commodities and rewriting the playbook"
-    }
-  ]
+  "research": []
 }
