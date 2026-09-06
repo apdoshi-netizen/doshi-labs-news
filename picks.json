@@ -1,73 +1,52 @@
 {
-  "date": "2026-09-05",
-  "generatedAt": "2026-09-05T12:42:44.615808+00:00",
+  "date": "2026-09-06",
+  "generatedAt": "2026-09-06T09:25:47.590910+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "A Core Egyptian Bank Gets Caught Up in Treasury’s Iran Crackdown",
-      "url": "https://www.wsj.com/world/middle-east/a-core-egyptian-bank-gets-caught-up-in-treasurys-iran-crackdown-bb867772",
-      "summary": "",
-      "storyKey": null,
+      "title": "BOE’s Chief Economist Sees Need for Rate Rise as War’s Course Remains Uncertain",
+      "url": "https://www.wsj.com/economy/central-banking/boes-chief-economist-sees-need-for-rate-rise-as-wars-course-remains-uncertain-3a2976f4",
+      "summary": "BOE chief economist signals need for rate rise amid uncertain war outlook, a major central-bank policy shift.",
+      "storyKey": "boe+hike+rate",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Exclusive | Musk’s Boring Co. Pushes Investors for Recruiting, Business Help",
-      "url": "https://www.wsj.com/tech/musks-boring-co-pushes-investors-for-recruiting-business-help-6cff1c78",
-      "summary": "",
-      "storyKey": null,
+      "title": "Exclusive | Mac-and-Cheese Disruptor Goodles to Be Acquired by Barilla",
+      "url": "https://www.wsj.com/cmo-today/mac-and-cheese-disruptor-goodles-to-be-acquired-by-barilla-1804a40e",
+      "summary": "Barilla to acquire mac-and-cheese startup Goodles, a named M&A deal in food industry.",
+      "storyKey": "barilla+goodles",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Newsom’s Minimum Wage Whitewash",
-      "url": "https://www.wsj.com/opinion/california-minimum-wage-gavin-newsom-jobs-865a99c2",
-      "summary": "",
-      "storyKey": null,
+      "title": "Opinion | A Better Way to Reform Head Start",
+      "url": "https://www.wsj.com/opinion/a-better-way-to-reform-head-start-f1ec0a5c",
+      "summary": "Opinion argues for a better approach to reforming the Head Start early education program.",
+      "storyKey": "head+reform+start",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Vance Called AI Satanic. He Struck a Chord Among Christian Republicans.",
-      "url": "https://www.wsj.com/tech/ai/vance-called-ai-satanic-he-struck-a-chord-among-christian-republicans-dcc34048",
-      "summary": "",
-      "storyKey": null,
+      "title": "AI Spending Is Up. So Is the Guesswork.",
+      "url": "https://www.wsj.com/tech/ai/ai-spending-is-up-so-is-the-guesswork-93cf1f36",
+      "summary": "Analysis says AI spending is rising even as forecasting and measurement remain highly uncertain.",
+      "storyKey": "ai+guesswork+spending",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The Hush-Hush Demands and Phony Endorsements That Rocked the NBA",
-      "url": "https://www.wsj.com/sports/basketball/the-hush-hush-demands-and-phony-endorsements-that-rocked-the-nba-9dc92f31",
-      "summary": "",
-      "storyKey": null,
+      "title": "The NFL’s $230 Million Bust Is Now Its Bargain Reclamation Project",
+      "url": "https://www.wsj.com/sports/football/kyler-murray-vikings-5e279723",
+      "summary": "NFL’s $230 million draft bust becomes a bargain reclamation project, a sports business turnaround story.",
+      "storyKey": "bust+nfl+reclamation",
       "source": "WSJ"
     }
   ],
-  "research": [
-    {
-      "firm": "Goldman Sachs",
-      "show": "The Markets",
-      "title": "Why Gold Is Expected to Rise to Record Highs",
-      "url": "https://podcasts.apple.com/us/podcast/why-gold-is-expected-to-rise-to-record-highs/id1683802600?i=1000787906587&uo=4",
-      "published": "2026-09-04T18:56:00+00:00",
-      "kind": "podcast",
-      "duration": "12 min",
-      "summary": "Gold set a record high in January, but uncertainty about US interest rates and disruption from the Iran war have led to an “elongated pause” in the rally, according to Tony Kim, global head of Metals Trading in Goldman Sachs FICC and Equities. Ultimately, Kim expects strong central bank demand for the yellow metal to help drive gold to new highs, he says on The Markets podcast. Kim also discusses whether fiscal sustainability concerns could spur a rotation into gold, how reduced investment demand from Asia is impacting gold markets, and why silver has been volatile in 2026."
-    },
-    {
-      "firm": "Morgan Stanley",
-      "show": "Thoughts on the Market",
-      "title": "What Could Shake Up Markets in September?",
-      "url": "https://podcasts.apple.com/us/podcast/what-could-shake-up-markets-in-september/id1466686717?i=1000787921721&uo=4",
-      "published": "2026-09-04T21:00:00+00:00",
-      "kind": "podcast",
-      "duration": "4 min",
-      "summary": "Investors have plenty to digest this month, from economic data to central-bank decisions. Our Global Head of Fixed Income Research Andrew Sheets outlines what could drive the next bout of volatility. Read more insights from Morgan Stanley."
-    }
-  ]
+  "research": []
 }

@@ -1,31 +1,4 @@
 {
-  "2026-08-15": [
-    {
-      "title": "The Iran War Is Now About Who Blinks First Under Economic Pressure",
-      "url": "https://www.wsj.com/world/middle-east/iran-war-economic-pressure-738b52cf",
-      "storyKey": null
-    },
-    {
-      "title": "Why Is Hunter Biden on a Media Blitz?",
-      "url": "https://www.wsj.com/politics/hunter-biden-online-public-presence-e45b5b4c",
-      "storyKey": null
-    },
-    {
-      "title": "Opinion | Want Concierge Medicine? AI Can Deliver It",
-      "url": "https://www.wsj.com/opinion/want-concierge-medicine-ai-can-deliver-it-102e731a",
-      "storyKey": null
-    },
-    {
-      "title": "Exclusive | U.S. Urges Apple Not to Buy Chinese Memory Chips",
-      "url": "https://www.wsj.com/tech/apple-china-memory-chip-plan-57773a83",
-      "storyKey": null
-    },
-    {
-      "title": "The Baseball Season’s Greatest Mystery: What’s Wrong With Paul Skenes?",
-      "url": "https://www.wsj.com/sports/baseball/paul-skenes-pirates-efa97935",
-      "storyKey": null
-    }
-  ],
   "2026-08-16": [
     {
       "title": "Stocks Hit New Highs on Inflation Relief",
@@ -583,11 +556,34 @@
       "storyKey": null
     }
   ],
+  "2026-09-06": [
+    {
+      "title": "BOE’s Chief Economist Sees Need for Rate Rise as War’s Course Remains Uncertain",
+      "url": "https://www.wsj.com/economy/central-banking/boes-chief-economist-sees-need-for-rate-rise-as-wars-course-remains-uncertain-3a2976f4",
+      "storyKey": "boe+hike+rate"
+    },
+    {
+      "title": "Exclusive | Mac-and-Cheese Disruptor Goodles to Be Acquired by Barilla",
+      "url": "https://www.wsj.com/cmo-today/mac-and-cheese-disruptor-goodles-to-be-acquired-by-barilla-1804a40e",
+      "storyKey": "barilla+goodles"
+    },
+    {
+      "title": "Opinion | A Better Way to Reform Head Start",
+      "url": "https://www.wsj.com/opinion/a-better-way-to-reform-head-start-f1ec0a5c",
+      "storyKey": "head+reform+start"
+    },
+    {
+      "title": "AI Spending Is Up. So Is the Guesswork.",
+      "url": "https://www.wsj.com/tech/ai/ai-spending-is-up-so-is-the-guesswork-93cf1f36",
+      "storyKey": "ai+guesswork+spending"
+    },
+    {
+      "title": "The NFL’s $230 Million Bust Is Now Its Bargain Reclamation Project",
+      "url": "https://www.wsj.com/sports/football/kyler-murray-vikings-5e279723",
+      "storyKey": "bust+nfl+reclamation"
+    }
+  ],
   "_research": {
-    "2026-08-15": [
-      "https://podcasts.apple.com/us/podcast/the-uk-has-a-better-story-to-tell/id1466686717?i=1000783367763&uo=4",
-      "https://podcasts.apple.com/us/podcast/cpi-inflation-imax-why-fun-still-feels-expensive/id1456184829?i=1000783346568&uo=4"
-    ],
     "2026-08-16": [],
     "2026-08-17": [],
     "2026-08-18": [
@@ -656,6 +652,7 @@
     "2026-09-05": [
       "https://podcasts.apple.com/us/podcast/why-gold-is-expected-to-rise-to-record-highs/id1683802600?i=1000787906587&uo=4",
       "https://podcasts.apple.com/us/podcast/what-could-shake-up-markets-in-september/id1466686717?i=1000787921721&uo=4"
-    ]
+    ],
+    "2026-09-06": []
   }
 }
