@@ -1,32 +1,32 @@
 {
   "date": "2026-09-06",
-  "generatedAt": "2026-09-06T09:25:47.590910+00:00",
+  "generatedAt": "2026-09-06T12:53:33.393862+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "BOE’s Chief Economist Sees Need for Rate Rise as War’s Course Remains Uncertain",
-      "url": "https://www.wsj.com/economy/central-banking/boes-chief-economist-sees-need-for-rate-rise-as-wars-course-remains-uncertain-3a2976f4",
-      "summary": "BOE chief economist signals need for rate rise amid uncertain war outlook, a major central-bank policy shift.",
-      "storyKey": "boe+hike+rate",
+      "title": "German Inflation Rises But Few Signs of Energy-Shock Spillover",
+      "url": "https://www.wsj.com/economy/global/german-inflation-rises-but-few-signs-of-energy-shock-spillover-e22ff3b0",
+      "summary": "German inflation data rises but shows few signs of broader energy-shock spillover across Eurozone.",
+      "storyKey": "german+inflation",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Exclusive | Mac-and-Cheese Disruptor Goodles to Be Acquired by Barilla",
-      "url": "https://www.wsj.com/cmo-today/mac-and-cheese-disruptor-goodles-to-be-acquired-by-barilla-1804a40e",
-      "summary": "Barilla to acquire mac-and-cheese startup Goodles, a named M&A deal in food industry.",
-      "storyKey": "barilla+goodles",
+      "title": "SB Energy Files for IPO With Nvidia Backing",
+      "url": "https://www.wsj.com/finance/investing/sb-energy-files-for-ipo-with-nvidia-backing-b17bd1fc",
+      "summary": "SB Energy files for IPO with Nvidia backing, a named renewable energy company transaction.",
+      "storyKey": "ipo+sbenergy",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | A Better Way to Reform Head Start",
-      "url": "https://www.wsj.com/opinion/a-better-way-to-reform-head-start-f1ec0a5c",
-      "summary": "Opinion argues for a better approach to reforming the Head Start early education program.",
-      "storyKey": "head+reform+start",
+      "title": "Opinion | Israel and Ireland’s Inextricable History",
+      "url": "https://www.wsj.com/opinion/free-expression/israel-and-irelands-inextricable-history-8d8be904",
+      "summary": "Opinion piece explores the historical ties and tensions between Israel and Ireland.",
+      "storyKey": "ireland+israel",
       "source": "WSJ"
     },
     {
@@ -34,17 +34,17 @@
       "label": "Tech",
       "title": "AI Spending Is Up. So Is the Guesswork.",
       "url": "https://www.wsj.com/tech/ai/ai-spending-is-up-so-is-the-guesswork-93cf1f36",
-      "summary": "Analysis says AI spending is rising even as forecasting and measurement remain highly uncertain.",
+      "summary": "AI spending continues rising even as uncertainty over returns and strategy grows.",
       "storyKey": "ai+guesswork+spending",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The NFL’s $230 Million Bust Is Now Its Bargain Reclamation Project",
-      "url": "https://www.wsj.com/sports/football/kyler-murray-vikings-5e279723",
-      "summary": "NFL’s $230 million draft bust becomes a bargain reclamation project, a sports business turnaround story.",
-      "storyKey": "bust+nfl+reclamation",
+      "title": "Michigan Loses! Wait, Michigan Wins! College Football Rages Over Last Second Flip-Flop",
+      "url": "https://www.wsj.com/sports/football/michigan-western-michigan-clock-hail-mary-08af1dbf",
+      "summary": "College football uproar as Michigan’s game result flips in last-second controversy.",
+      "storyKey": "cfb+michigan",
       "source": "WSJ"
     }
   ],
