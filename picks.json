@@ -1,50 +1,50 @@
 {
-  "date": "2026-09-06",
-  "generatedAt": "2026-09-06T12:53:33.393862+00:00",
+  "date": "2026-09-07",
+  "generatedAt": "2026-09-07T10:15:58.445193+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "German Inflation Rises But Few Signs of Energy-Shock Spillover",
-      "url": "https://www.wsj.com/economy/global/german-inflation-rises-but-few-signs-of-energy-shock-spillover-e22ff3b0",
-      "summary": "German inflation data rises but shows few signs of broader energy-shock spillover across Eurozone.",
-      "storyKey": "german+inflation",
+      "title": "Beijing to Inject More Than $50 Billion Into Banks, Insurers to Boost Growth",
+      "url": "https://www.wsj.com/finance/beijing-to-inject-billions-into-banks-insurers-to-boost-growth-35d7a011",
+      "summary": "Beijing to inject over $50 billion into banks and insurers to boost economic growth.",
+      "storyKey": "china+stimulus",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "SB Energy Files for IPO With Nvidia Backing",
-      "url": "https://www.wsj.com/finance/investing/sb-energy-files-for-ipo-with-nvidia-backing-b17bd1fc",
-      "summary": "SB Energy files for IPO with Nvidia backing, a named renewable energy company transaction.",
-      "storyKey": "ipo+sbenergy",
+      "title": "Trump Administration Reaches Drug Pricing Deals With 9 Companies",
+      "url": "https://www.wsj.com/health/pharma/trump-administration-reaches-drug-pricing-deals-with-9-companies-4705d926",
+      "summary": "Trump administration reaches drug pricing deals with nine pharmaceutical companies.",
+      "storyKey": "drugpricing+trump",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Israel and Ireland’s Inextricable History",
-      "url": "https://www.wsj.com/opinion/free-expression/israel-and-irelands-inextricable-history-8d8be904",
-      "summary": "Opinion piece explores the historical ties and tensions between Israel and Ireland.",
-      "storyKey": "ireland+israel",
+      "title": "Opinion | A Better Way to Reform Head Start",
+      "url": "https://www.wsj.com/opinion/a-better-way-to-reform-head-start-f1ec0a5c",
+      "summary": "Opinion argues for a better way to reform the Head Start program.",
+      "storyKey": "headstart+reform",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "AI Spending Is Up. So Is the Guesswork.",
-      "url": "https://www.wsj.com/tech/ai/ai-spending-is-up-so-is-the-guesswork-93cf1f36",
-      "summary": "AI spending continues rising even as uncertainty over returns and strategy grows.",
-      "storyKey": "ai+guesswork+spending",
+      "title": "Uber, Wayve Bring Robotaxis to London",
+      "url": "https://www.wsj.com/tech/uber-wayve-bring-robotaxis-to-london-ba450297",
+      "summary": "Uber and Wayve bring autonomous robotaxi service to London streets.",
+      "storyKey": "uber+wayve",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "Michigan Loses! Wait, Michigan Wins! College Football Rages Over Last Second Flip-Flop",
-      "url": "https://www.wsj.com/sports/football/michigan-western-michigan-clock-hail-mary-08af1dbf",
-      "summary": "College football uproar as Michigan’s game result flips in last-second controversy.",
-      "storyKey": "cfb+michigan",
+      "title": "The NFL’s $230 Million Bust Is Now Its Bargain Reclamation Project",
+      "url": "https://www.wsj.com/sports/football/kyler-murray-vikings-5e279723",
+      "summary": "NFL's $230 million bust becomes a bargain reclamation project for its team.",
+      "storyKey": "bust+nfl",
       "source": "WSJ"
     }
   ],

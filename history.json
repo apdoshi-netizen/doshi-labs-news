@@ -1,31 +1,4 @@
 {
-  "2026-08-16": [
-    {
-      "title": "Stocks Hit New Highs on Inflation Relief",
-      "url": "https://www.wsj.com/finance/stocks/stocks-hit-new-highs-on-inflation-relief-2049c5d4",
-      "storyKey": "inflation+stocks"
-    },
-    {
-      "title": "Hanwha Offers to Buy Builder of U.S. Navy Ships",
-      "url": "https://www.wsj.com/logistics-report/hanwha-offers-to-buy-builder-of-u-s-navy-ships-4152fa0e",
-      "storyKey": "hanwha+shipbuilder"
-    },
-    {
-      "title": "Opinion | Bond Investors Want the Fed to Raise Rates",
-      "url": "https://www.wsj.com/opinion/bond-investors-want-the-fed-to-raise-rates-0f2ac040",
-      "storyKey": "bonds+fed+rates"
-    },
-    {
-      "title": "Open-Weight AI Won’t Crimp Demand for Picks and Shovels",
-      "url": "https://www.wsj.com/tech/ai/open-weight-ai-wont-crimp-demand-for-picks-and-shovels-523e6410",
-      "storyKey": "ai+picks+shovels"
-    },
-    {
-      "title": "How the WNBA Season Spiraled Into Absolute Chaos",
-      "url": "https://www.wsj.com/sports/basketball/how-the-wnba-season-spiraled-into-absolute-chaos-0c555e5d",
-      "storyKey": "chaos+wnba"
-    }
-  ],
   "2026-08-17": [
     {
       "title": "China’s Economy Weakens on Several Fronts as Property Bust Worsens",
@@ -583,8 +556,34 @@
       "storyKey": "cfb+michigan"
     }
   ],
+  "2026-09-07": [
+    {
+      "title": "Beijing to Inject More Than $50 Billion Into Banks, Insurers to Boost Growth",
+      "url": "https://www.wsj.com/finance/beijing-to-inject-billions-into-banks-insurers-to-boost-growth-35d7a011",
+      "storyKey": "china+stimulus"
+    },
+    {
+      "title": "Trump Administration Reaches Drug Pricing Deals With 9 Companies",
+      "url": "https://www.wsj.com/health/pharma/trump-administration-reaches-drug-pricing-deals-with-9-companies-4705d926",
+      "storyKey": "drugpricing+trump"
+    },
+    {
+      "title": "Opinion | A Better Way to Reform Head Start",
+      "url": "https://www.wsj.com/opinion/a-better-way-to-reform-head-start-f1ec0a5c",
+      "storyKey": "headstart+reform"
+    },
+    {
+      "title": "Uber, Wayve Bring Robotaxis to London",
+      "url": "https://www.wsj.com/tech/uber-wayve-bring-robotaxis-to-london-ba450297",
+      "storyKey": "uber+wayve"
+    },
+    {
+      "title": "The NFL’s $230 Million Bust Is Now Its Bargain Reclamation Project",
+      "url": "https://www.wsj.com/sports/football/kyler-murray-vikings-5e279723",
+      "storyKey": "bust+nfl"
+    }
+  ],
   "_research": {
-    "2026-08-16": [],
     "2026-08-17": [],
     "2026-08-18": [
       "https://podcasts.apple.com/us/podcast/wellingtons-jean-hynes-on-the-art-of-investing/id948913991?i=1000783982164&uo=4",
@@ -653,6 +652,7 @@
       "https://podcasts.apple.com/us/podcast/why-gold-is-expected-to-rise-to-record-highs/id1683802600?i=1000787906587&uo=4",
       "https://podcasts.apple.com/us/podcast/what-could-shake-up-markets-in-september/id1466686717?i=1000787921721&uo=4"
     ],
-    "2026-09-06": []
+    "2026-09-06": [],
+    "2026-09-07": []
   }
 }
