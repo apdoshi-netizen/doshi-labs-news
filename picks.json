@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "generatedAt": "2026-09-07T10:15:58.445193+00:00",
+  "generatedAt": "2026-09-07T15:03:01.943351+00:00",
   "picks": [
     {
       "slot": "Macro",
@@ -8,43 +8,43 @@
       "title": "Beijing to Inject More Than $50 Billion Into Banks, Insurers to Boost Growth",
       "url": "https://www.wsj.com/finance/beijing-to-inject-billions-into-banks-insurers-to-boost-growth-35d7a011",
       "summary": "Beijing to inject over $50 billion into banks and insurers to boost economic growth.",
-      "storyKey": "china+stimulus",
+      "storyKey": "bank+china+injection",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Trump Administration Reaches Drug Pricing Deals With 9 Companies",
-      "url": "https://www.wsj.com/health/pharma/trump-administration-reaches-drug-pricing-deals-with-9-companies-4705d926",
-      "summary": "Trump administration reaches drug pricing deals with nine pharmaceutical companies.",
-      "storyKey": "drugpricing+trump",
+      "title": "Volkswagen Factory to Become Defense Plant in Deal With Israel’s Aurelius",
+      "url": "https://www.wsj.com/business/autos/volkswagen-to-sell-german-site-to-israels-aurelius-state-of-lower-saxony-c622b1ff",
+      "summary": "Volkswagen factory to become defense plant in deal with Israel's Aurelius.",
+      "storyKey": "aurelius+volkswagen",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | A Better Way to Reform Head Start",
-      "url": "https://www.wsj.com/opinion/a-better-way-to-reform-head-start-f1ec0a5c",
-      "summary": "Opinion argues for a better way to reform the Head Start program.",
-      "storyKey": "headstart+reform",
+      "title": "Opinion | Data Centers: National Necessity or Nuisance?",
+      "url": "https://www.wsj.com/opinion/data-centers-national-necessity-or-nuisance-2eefed76",
+      "summary": "Opinion piece debates whether data centers are a national necessity or a nuisance.",
+      "storyKey": "datacenters+policy",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Uber, Wayve Bring Robotaxis to London",
-      "url": "https://www.wsj.com/tech/uber-wayve-bring-robotaxis-to-london-ba450297",
-      "summary": "Uber and Wayve bring autonomous robotaxi service to London streets.",
-      "storyKey": "uber+wayve",
+      "title": "CXMT Highlights Smartphone, AI Advances as Market Share Climbs",
+      "url": "https://www.wsj.com/tech/cxmt-highlights-smartphone-ai-advances-as-market-share-climbs-1d777648",
+      "summary": "CXMT highlights smartphone and AI advances as its market share climbs.",
+      "storyKey": "ai+cxmt+smartphone",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The NFL’s $230 Million Bust Is Now Its Bargain Reclamation Project",
-      "url": "https://www.wsj.com/sports/football/kyler-murray-vikings-5e279723",
-      "summary": "NFL's $230 million bust becomes a bargain reclamation project for its team.",
-      "storyKey": "bust+nfl",
+      "title": "College Football Kickers Were Underpaid. Then They Started Texting.",
+      "url": "https://www.wsj.com/sports/football/college-football-kickers-pay-96cb881c",
+      "summary": "College football kickers were underpaid, then started texting for better deals.",
+      "storyKey": "cfb+kickers+pay",
       "source": "WSJ"
     }
   ],
