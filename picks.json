@@ -1,52 +1,63 @@
 {
-  "date": "2026-09-07",
-  "generatedAt": "2026-09-07T15:03:01.943351+00:00",
+  "date": "2026-09-08",
+  "generatedAt": "2026-09-08T09:39:44.685958+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Beijing to Inject More Than $50 Billion Into Banks, Insurers to Boost Growth",
-      "url": "https://www.wsj.com/finance/beijing-to-inject-billions-into-banks-insurers-to-boost-growth-35d7a011",
-      "summary": "Beijing to inject over $50 billion into banks and insurers to boost economic growth.",
-      "storyKey": "bank+china+injection",
+      "title": "Treasury Yields Decline From Multi-Year Highs",
+      "url": "https://www.wsj.com/finance/jgbs-edge-lower-tracking-declines-in-u-s-treasurys-999492da",
+      "summary": "Treasury yields fell from multi-year highs, a broad market-moving shift affecting bonds, equities and currencies.",
+      "storyKey": "treasury+yields",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Volkswagen Factory to Become Defense Plant in Deal With Israel’s Aurelius",
-      "url": "https://www.wsj.com/business/autos/volkswagen-to-sell-german-site-to-israels-aurelius-state-of-lower-saxony-c622b1ff",
-      "summary": "Volkswagen factory to become defense plant in deal with Israel's Aurelius.",
-      "storyKey": "aurelius+volkswagen",
+      "title": "Uber’s $15 Billion Takeover Bid Gets Delivery Hero Board Backing",
+      "url": "https://www.wsj.com/business/ubers-15-billion-takeover-bid-gets-delivery-hero-board-backing-2f6c992e",
+      "summary": "Uber's $15 billion takeover bid for Delivery Hero secures board backing, a major named M&A deal.",
+      "storyKey": "delivery+hero+uber",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Data Centers: National Necessity or Nuisance?",
-      "url": "https://www.wsj.com/opinion/data-centers-national-necessity-or-nuisance-2eefed76",
-      "summary": "Opinion piece debates whether data centers are a national necessity or a nuisance.",
-      "storyKey": "datacenters+policy",
+      "title": "Opinion | Trump Aligns With Hamilton on Trade Policy",
+      "url": "https://www.wsj.com/opinion/trump-aligns-with-hamilton-on-trade-policy-451957a2",
+      "summary": "Opinion argues Trump's trade policy echoes Hamilton's historical protectionist economic philosophy.",
+      "storyKey": "hamilton+tariffs+trump",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "CXMT Highlights Smartphone, AI Advances as Market Share Climbs",
-      "url": "https://www.wsj.com/tech/cxmt-highlights-smartphone-ai-advances-as-market-share-climbs-1d777648",
-      "summary": "CXMT highlights smartphone and AI advances as its market share climbs.",
-      "storyKey": "ai+cxmt+smartphone",
+      "title": "AI Is Disrupting Software Companies—but Not as Fast as Many Feared",
+      "url": "https://www.wsj.com/tech/ai/ai-is-disrupting-software-companiesbut-not-as-fast-as-many-feared-a380443a",
+      "summary": "AI is disrupting software companies more slowly than feared, a key tech industry trend.",
+      "storyKey": "ai+disruption+software",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "College Football Kickers Were Underpaid. Then They Started Texting.",
-      "url": "https://www.wsj.com/sports/football/college-football-kickers-pay-96cb881c",
-      "summary": "College football kickers were underpaid, then started texting for better deals.",
-      "storyKey": "cfb+kickers+pay",
+      "title": "The Latest Act From Lane Kiffin’s College Circus: Winning Actual Football Games",
+      "url": "https://www.wsj.com/sports/football/lane-kiffin-lsu-clemson-57a44e3f",
+      "summary": "Lane Kiffin's Ole Miss program wins actual football games amid college sports drama.",
+      "storyKey": "football+kiffin+lane",
       "source": "WSJ"
     }
   ],
-  "research": []
+  "research": [
+    {
+      "firm": "J.P. Morgan",
+      "show": "Making Sense",
+      "title": "How is automation shaping emerging markets?",
+      "url": "https://podcasts.apple.com/us/podcast/how-is-automation-shaping-emerging-markets/id1456184829?i=1000788397230&uo=4",
+      "published": "2026-09-08T04:00:00+00:00",
+      "kind": "podcast",
+      "duration": "15 min",
+      "summary": "In this episode of J.P. Morgan's Making Sense, Meridy Cleary from the FICC Market Structure and Liquidity Strategy team sits down with Carlos Gomez-Gascón, head of EM Rates e-Trading, to explore how automation is reshaping emerging market rates trading. They unpack the key difference between electronification and true automation and discuss how automated pricing and workflows can improve speed, transparency and scalability across EM bonds, interest rate swaps and FX swaps. The conversation also covers regional market-structure nuances (including repo and futures market dynamics), the rise of systematic funds, behavior during volatility and how trading workflows evolve through benchmark reform transitions."
+    }
+  ]
 }

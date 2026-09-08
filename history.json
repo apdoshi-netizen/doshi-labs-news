@@ -1,31 +1,4 @@
 {
-  "2026-08-17": [
-    {
-      "title": "China’s Economy Weakens on Several Fronts as Property Bust Worsens",
-      "url": "https://www.wsj.com/economy/chinas-economic-activity-weakened-in-july-0ce9bde7",
-      "storyKey": "china+property"
-    },
-    {
-      "title": "Charter Gets Final State Approval for $21.9 Billion Cox Deal",
-      "url": "https://www.wsj.com/business/telecom/charter-gets-final-state-approval-for-21-9-billion-cox-deal-ee47bd7c",
-      "storyKey": "charter+cox"
-    },
-    {
-      "title": "Opinion | Republicans Can End an Inflation Tax",
-      "url": "https://www.wsj.com/opinion/art-laffer-inflation-capital-gains-taxes-republicans-52f6ac64",
-      "storyKey": "gop+inflation+tax"
-    },
-    {
-      "title": "Why Big Tech’s AI Spending Is $3 Trillion Higher Than It Seems",
-      "url": "https://www.wsj.com/tech/ai/why-big-techs-ai-spending-is-3-trillion-higher-than-it-seems-e1067bb2",
-      "storyKey": "ai+bigtech+spending"
-    },
-    {
-      "title": "Three at-Bats, Three Home Runs, and the Greatest Debut in MLB History",
-      "url": "https://www.wsj.com/sports/baseball/joshua-baez-cardinals-mlb-debut-91f2744c",
-      "storyKey": "debut+mlb"
-    }
-  ],
   "2026-08-18": [
     {
       "title": "Canada Inflation Heats Up to 3% in July",
@@ -583,8 +556,34 @@
       "storyKey": "cfb+kickers+pay"
     }
   ],
+  "2026-09-08": [
+    {
+      "title": "Treasury Yields Decline From Multi-Year Highs",
+      "url": "https://www.wsj.com/finance/jgbs-edge-lower-tracking-declines-in-u-s-treasurys-999492da",
+      "storyKey": "treasury+yields"
+    },
+    {
+      "title": "Uber’s $15 Billion Takeover Bid Gets Delivery Hero Board Backing",
+      "url": "https://www.wsj.com/business/ubers-15-billion-takeover-bid-gets-delivery-hero-board-backing-2f6c992e",
+      "storyKey": "delivery+hero+uber"
+    },
+    {
+      "title": "Opinion | Trump Aligns With Hamilton on Trade Policy",
+      "url": "https://www.wsj.com/opinion/trump-aligns-with-hamilton-on-trade-policy-451957a2",
+      "storyKey": "hamilton+tariffs+trump"
+    },
+    {
+      "title": "AI Is Disrupting Software Companies—but Not as Fast as Many Feared",
+      "url": "https://www.wsj.com/tech/ai/ai-is-disrupting-software-companiesbut-not-as-fast-as-many-feared-a380443a",
+      "storyKey": "ai+disruption+software"
+    },
+    {
+      "title": "The Latest Act From Lane Kiffin’s College Circus: Winning Actual Football Games",
+      "url": "https://www.wsj.com/sports/football/lane-kiffin-lsu-clemson-57a44e3f",
+      "storyKey": "football+kiffin+lane"
+    }
+  ],
   "_research": {
-    "2026-08-17": [],
     "2026-08-18": [
       "https://podcasts.apple.com/us/podcast/wellingtons-jean-hynes-on-the-art-of-investing/id948913991?i=1000783982164&uo=4",
       "https://podcasts.apple.com/us/podcast/when-ai-takes-over-shopping-carts/id1466686717?i=1000783935339&uo=4",
@@ -653,6 +652,9 @@
       "https://podcasts.apple.com/us/podcast/what-could-shake-up-markets-in-september/id1466686717?i=1000787921721&uo=4"
     ],
     "2026-09-06": [],
-    "2026-09-07": []
+    "2026-09-07": [],
+    "2026-09-08": [
+      "https://podcasts.apple.com/us/podcast/how-is-automation-shaping-emerging-markets/id1456184829?i=1000788397230&uo=4"
+    ]
   }
 }
