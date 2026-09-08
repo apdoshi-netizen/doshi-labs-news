@@ -1,14 +1,14 @@
 {
   "date": "2026-09-08",
-  "generatedAt": "2026-09-08T09:39:44.685958+00:00",
+  "generatedAt": "2026-09-08T13:37:21.224854+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Treasury Yields Decline From Multi-Year Highs",
-      "url": "https://www.wsj.com/finance/jgbs-edge-lower-tracking-declines-in-u-s-treasurys-999492da",
-      "summary": "Treasury yields fell from multi-year highs, a broad market-moving shift affecting bonds, equities and currencies.",
-      "storyKey": "treasury+yields",
+      "title": "Investors Brace for a Choppier Fall as the Fed, Inflation Return to Center Stage",
+      "url": "https://www.wsj.com/finance/investing/investors-brace-for-a-choppier-fall-as-the-fed-inflation-return-to-center-stage-81f6f11f",
+      "summary": "Investors brace for volatile fall as Fed policy and inflation data return to market focus.",
+      "storyKey": "fed+inflation+markets",
       "source": "WSJ"
     },
     {
@@ -16,8 +16,8 @@
       "label": "Micro",
       "title": "Uber’s $15 Billion Takeover Bid Gets Delivery Hero Board Backing",
       "url": "https://www.wsj.com/business/ubers-15-billion-takeover-bid-gets-delivery-hero-board-backing-2f6c992e",
-      "summary": "Uber's $15 billion takeover bid for Delivery Hero secures board backing, a major named M&A deal.",
-      "storyKey": "delivery+hero+uber",
+      "summary": "Uber's $15 billion takeover bid for Delivery Hero wins board backing.",
+      "storyKey": "deliveryhero+uber",
       "source": "WSJ"
     },
     {
@@ -25,17 +25,17 @@
       "label": "Op-Ed",
       "title": "Opinion | Trump Aligns With Hamilton on Trade Policy",
       "url": "https://www.wsj.com/opinion/trump-aligns-with-hamilton-on-trade-policy-451957a2",
-      "summary": "Opinion argues Trump's trade policy echoes Hamilton's historical protectionist economic philosophy.",
-      "storyKey": "hamilton+tariffs+trump",
+      "summary": "Op-ed argues Trump's trade policy echoes Hamiltonian economic nationalism.",
+      "storyKey": "hamilton+trade+trump",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "AI Is Disrupting Software Companies—but Not as Fast as Many Feared",
-      "url": "https://www.wsj.com/tech/ai/ai-is-disrupting-software-companiesbut-not-as-fast-as-many-feared-a380443a",
-      "summary": "AI is disrupting software companies more slowly than feared, a key tech industry trend.",
-      "storyKey": "ai+disruption+software",
+      "title": "U.S. Gets Minority Stakes in D-Wave, Rigetti, Quantinuum in $300 Million CHIPS Act Funding Deal",
+      "url": "https://www.wsj.com/tech/u-s-gets-minority-stakes-in-d-wave-rigetti-quantinuum-in-300-million-chips-act-funding-deal-a7bad600",
+      "summary": "U.S. takes minority stakes in D-Wave, Rigetti, Quantinuum via $300M CHIPS Act deal.",
+      "storyKey": "chips+funding+quantum",
       "source": "WSJ"
     },
     {
@@ -43,8 +43,8 @@
       "label": "Sports",
       "title": "The Latest Act From Lane Kiffin’s College Circus: Winning Actual Football Games",
       "url": "https://www.wsj.com/sports/football/lane-kiffin-lsu-clemson-57a44e3f",
-      "summary": "Lane Kiffin's Ole Miss program wins actual football games amid college sports drama.",
-      "storyKey": "football+kiffin+lane",
+      "summary": "Lane Kiffin's Ole Miss program shifts from circus to actual winning football.",
+      "storyKey": "kiffin+lane+miss+ole",
       "source": "WSJ"
     }
   ],

@@ -558,29 +558,29 @@
   ],
   "2026-09-08": [
     {
-      "title": "Treasury Yields Decline From Multi-Year Highs",
-      "url": "https://www.wsj.com/finance/jgbs-edge-lower-tracking-declines-in-u-s-treasurys-999492da",
-      "storyKey": "treasury+yields"
+      "title": "Investors Brace for a Choppier Fall as the Fed, Inflation Return to Center Stage",
+      "url": "https://www.wsj.com/finance/investing/investors-brace-for-a-choppier-fall-as-the-fed-inflation-return-to-center-stage-81f6f11f",
+      "storyKey": "fed+inflation+markets"
     },
     {
       "title": "Uber’s $15 Billion Takeover Bid Gets Delivery Hero Board Backing",
       "url": "https://www.wsj.com/business/ubers-15-billion-takeover-bid-gets-delivery-hero-board-backing-2f6c992e",
-      "storyKey": "delivery+hero+uber"
+      "storyKey": "deliveryhero+uber"
     },
     {
       "title": "Opinion | Trump Aligns With Hamilton on Trade Policy",
       "url": "https://www.wsj.com/opinion/trump-aligns-with-hamilton-on-trade-policy-451957a2",
-      "storyKey": "hamilton+tariffs+trump"
+      "storyKey": "hamilton+trade+trump"
     },
     {
-      "title": "AI Is Disrupting Software Companies—but Not as Fast as Many Feared",
-      "url": "https://www.wsj.com/tech/ai/ai-is-disrupting-software-companiesbut-not-as-fast-as-many-feared-a380443a",
-      "storyKey": "ai+disruption+software"
+      "title": "U.S. Gets Minority Stakes in D-Wave, Rigetti, Quantinuum in $300 Million CHIPS Act Funding Deal",
+      "url": "https://www.wsj.com/tech/u-s-gets-minority-stakes-in-d-wave-rigetti-quantinuum-in-300-million-chips-act-funding-deal-a7bad600",
+      "storyKey": "chips+funding+quantum"
     },
     {
       "title": "The Latest Act From Lane Kiffin’s College Circus: Winning Actual Football Games",
       "url": "https://www.wsj.com/sports/football/lane-kiffin-lsu-clemson-57a44e3f",
-      "storyKey": "football+kiffin+lane"
+      "storyKey": "kiffin+lane+miss+ole"
     }
   ],
   "_research": {
