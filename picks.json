@@ -1,41 +1,41 @@
 {
   "date": "2026-09-09",
-  "generatedAt": "2026-09-09T09:44:16.209977+00:00",
+  "generatedAt": "2026-09-09T13:42:38.690772+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
       "title": "Oil Near $100 Threatens U.S. Stocks’ Stellar Run",
       "url": "https://www.wsj.com/finance/stocks/oil-near-100-threatens-u-s-stocks-stellar-run-cabbaf0c",
-      "summary": "Oil price nearing $100 threatens to end U.S. stock market's strong run, cross-asset risk.",
-      "storyKey": "oil+selloff+stocks",
+      "summary": "Oil approaching $100 a barrel threatens to derail U.S. stock market's strong 2024 rally.",
+      "storyKey": "correction+oil+stocks",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Exclusive | EverBank to Combine With WaFd to Create $75 Billion Bank",
-      "url": "https://www.wsj.com/business/deals/everbank-to-combine-with-wafd-to-create-75-billion-bank-e71d023c",
-      "summary": "EverBank to merge with WaFd, creating a $75 billion combined bank.",
-      "storyKey": "everbank+wafd",
+      "title": "Canada Picks Alstom to Build Passenger Railcars in Multibilllion-Dollar Deal",
+      "url": "https://www.wsj.com/world/americas/canada-picks-alstom-to-build-passenger-railcars-in-multibilllion-dollar-deal-c203f4cf",
+      "summary": "Canada selects Alstom for multibillion-dollar deal to build passenger railcars.",
+      "storyKey": "alstom+canada+railcars",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Maybe Not the Moment for a Millionaire’s Tax",
-      "url": "https://www.wsj.com/opinion/maybe-not-the-moment-for-a-millionaires-tax-52317f27",
-      "summary": "Op-ed argues now is not the right time for a millionaire's wealth tax.",
-      "storyKey": "millionaires+tax",
+      "title": "Opinion | The New U.S. Tax on ‘Brilliant People’",
+      "url": "https://www.wsj.com/opinion/the-new-u-s-tax-on-brilliant-people-5a6a6baf",
+      "summary": "Opinion column argues new U.S. tax policy targets high-earning \"brilliant people.\"",
+      "storyKey": "brilliant+people+tax",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Meta Launches a Personal AI Agent Designed to Be Easy to Use",
-      "url": "https://www.wsj.com/tech/ai/meta-launches-a-personal-ai-agent-designed-to-be-easy-to-use-3eb5cfac",
-      "summary": "Meta launches a new personal AI agent designed for easy everyday use.",
-      "storyKey": "agent+ai+meta",
+      "title": "Analog Devices to Acquire Alif Semiconductor for $1.35 Billion",
+      "url": "https://www.wsj.com/tech/analog-devices-to-acquire-alif-semiconductor-for-1-35-billion-1b31d6fe",
+      "summary": "Analog Devices to acquire chipmaker Alif Semiconductor for $1.35 billion.",
+      "storyKey": "alif+analog+devices",
       "source": "WSJ"
     },
     {
@@ -43,7 +43,7 @@
       "label": "Sports",
       "title": "LIV Golf Files for Bankruptcy—and Owes Top Golfers Millions",
       "url": "https://www.wsj.com/sports/golf/liv-golf-bankruptcy-2b33c886",
-      "summary": "LIV Golf files for bankruptcy, reportedly owing top golfers millions of dollars.",
+      "summary": "LIV Golf files for bankruptcy, reportedly owing top golfers millions in unpaid money.",
       "storyKey": "bankruptcy+golf+liv",
       "source": "WSJ"
     }
