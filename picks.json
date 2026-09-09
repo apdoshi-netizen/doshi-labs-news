@@ -1,63 +1,63 @@
 {
-  "date": "2026-09-08",
-  "generatedAt": "2026-09-08T13:37:21.224854+00:00",
+  "date": "2026-09-09",
+  "generatedAt": "2026-09-09T09:44:16.209977+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Investors Brace for a Choppier Fall as the Fed, Inflation Return to Center Stage",
-      "url": "https://www.wsj.com/finance/investing/investors-brace-for-a-choppier-fall-as-the-fed-inflation-return-to-center-stage-81f6f11f",
-      "summary": "Investors brace for volatile fall as Fed policy and inflation data return to market focus.",
-      "storyKey": "fed+inflation+markets",
+      "title": "Oil Near $100 Threatens U.S. Stocks’ Stellar Run",
+      "url": "https://www.wsj.com/finance/stocks/oil-near-100-threatens-u-s-stocks-stellar-run-cabbaf0c",
+      "summary": "Oil price nearing $100 threatens to end U.S. stock market's strong run, cross-asset risk.",
+      "storyKey": "oil+selloff+stocks",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Uber’s $15 Billion Takeover Bid Gets Delivery Hero Board Backing",
-      "url": "https://www.wsj.com/business/ubers-15-billion-takeover-bid-gets-delivery-hero-board-backing-2f6c992e",
-      "summary": "Uber's $15 billion takeover bid for Delivery Hero wins board backing.",
-      "storyKey": "deliveryhero+uber",
+      "title": "Exclusive | EverBank to Combine With WaFd to Create $75 Billion Bank",
+      "url": "https://www.wsj.com/business/deals/everbank-to-combine-with-wafd-to-create-75-billion-bank-e71d023c",
+      "summary": "EverBank to merge with WaFd, creating a $75 billion combined bank.",
+      "storyKey": "everbank+wafd",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Trump Aligns With Hamilton on Trade Policy",
-      "url": "https://www.wsj.com/opinion/trump-aligns-with-hamilton-on-trade-policy-451957a2",
-      "summary": "Op-ed argues Trump's trade policy echoes Hamiltonian economic nationalism.",
-      "storyKey": "hamilton+trade+trump",
+      "title": "Opinion | Maybe Not the Moment for a Millionaire’s Tax",
+      "url": "https://www.wsj.com/opinion/maybe-not-the-moment-for-a-millionaires-tax-52317f27",
+      "summary": "Op-ed argues now is not the right time for a millionaire's wealth tax.",
+      "storyKey": "millionaires+tax",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "U.S. Gets Minority Stakes in D-Wave, Rigetti, Quantinuum in $300 Million CHIPS Act Funding Deal",
-      "url": "https://www.wsj.com/tech/u-s-gets-minority-stakes-in-d-wave-rigetti-quantinuum-in-300-million-chips-act-funding-deal-a7bad600",
-      "summary": "U.S. takes minority stakes in D-Wave, Rigetti, Quantinuum via $300M CHIPS Act deal.",
-      "storyKey": "chips+funding+quantum",
+      "title": "Meta Launches a Personal AI Agent Designed to Be Easy to Use",
+      "url": "https://www.wsj.com/tech/ai/meta-launches-a-personal-ai-agent-designed-to-be-easy-to-use-3eb5cfac",
+      "summary": "Meta launches a new personal AI agent designed for easy everyday use.",
+      "storyKey": "agent+ai+meta",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The Latest Act From Lane Kiffin’s College Circus: Winning Actual Football Games",
-      "url": "https://www.wsj.com/sports/football/lane-kiffin-lsu-clemson-57a44e3f",
-      "summary": "Lane Kiffin's Ole Miss program shifts from circus to actual winning football.",
-      "storyKey": "kiffin+lane+miss+ole",
+      "title": "LIV Golf Files for Bankruptcy—and Owes Top Golfers Millions",
+      "url": "https://www.wsj.com/sports/golf/liv-golf-bankruptcy-2b33c886",
+      "summary": "LIV Golf files for bankruptcy, reportedly owing top golfers millions of dollars.",
+      "storyKey": "bankruptcy+golf+liv",
       "source": "WSJ"
     }
   ],
   "research": [
     {
-      "firm": "J.P. Morgan",
-      "show": "Making Sense",
-      "title": "How is automation shaping emerging markets?",
-      "url": "https://podcasts.apple.com/us/podcast/how-is-automation-shaping-emerging-markets/id1456184829?i=1000788397230&uo=4",
-      "published": "2026-09-08T04:00:00+00:00",
+      "firm": "Morgan Stanley",
+      "show": "Thoughts on the Market",
+      "title": "AI Debt Starts Moving the U.S. Treasurys Market",
+      "url": "https://podcasts.apple.com/us/podcast/ai-debt-starts-moving-the-u-s-treasurys-market/id1466686717?i=1000788527236&uo=4",
+      "published": "2026-09-08T20:00:00+00:00",
       "kind": "podcast",
-      "duration": "15 min",
-      "summary": "In this episode of J.P. Morgan's Making Sense, Meridy Cleary from the FICC Market Structure and Liquidity Strategy team sits down with Carlos Gomez-Gascón, head of EM Rates e-Trading, to explore how automation is reshaping emerging market rates trading. They unpack the key difference between electronification and true automation and discuss how automated pricing and workflows can improve speed, transparency and scalability across EM bonds, interest rate swaps and FX swaps. The conversation also covers regional market-structure nuances (including repo and futures market dynamics), the rise of systematic funds, behavior during volatility and how trading workflows evolve through benchmark reform transitions."
+      "duration": "9 min",
+      "summary": "U.S. Treasurys are the foundation of the bond market. But our strategists Matthew Hornbach and Vishy Tirupattur explain the growing impact of corporate credit as AI financing accelerates. Read more insights from Morgan Stanley."
     }
   ]
 }

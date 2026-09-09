@@ -1,31 +1,4 @@
 {
-  "2026-08-18": [
-    {
-      "title": "Canada Inflation Heats Up to 3% in July",
-      "url": "https://www.wsj.com/economy/central-banking/canada-inflation-heats-up-to-3-in-july-1c8548f3",
-      "storyKey": "canada+inflation"
-    },
-    {
-      "title": "Madison Air to Buy Airflow-Technologies Company for $5.4 Billon",
-      "url": "https://www.wsj.com/business/deals/madison-air-to-buy-airflow-technologies-company-for-5-4-billon-56adf8e2",
-      "storyKey": "airflow+madison"
-    },
-    {
-      "title": "Opinion | How to Cure What Ails American Capitalism",
-      "url": "https://www.wsj.com/opinion/how-to-cure-what-ails-american-capitalism-52d97161",
-      "storyKey": "american+capitalism"
-    },
-    {
-      "title": "Why Open-Weight AI Models Matter and Meta Benefits from Them",
-      "url": "https://www.wsj.com/tech/ai/why-open-weight-ai-models-matter-and-meta-benefits-from-them-2989ef09",
-      "storyKey": "meta+openweight"
-    },
-    {
-      "title": "The Sixth-Year College Quarterback Who Sued to Stay in School",
-      "url": "https://www.wsj.com/sports/football/trinidad-chambliss-ole-miss-ac8c81f4",
-      "storyKey": "eligibility+lawsuit+qb"
-    }
-  ],
   "2026-08-19": [
     {
       "title": "Global Government Bond Yields Hit Multiyear Highs",
@@ -583,12 +556,34 @@
       "storyKey": "kiffin+lane+miss+ole"
     }
   ],
+  "2026-09-09": [
+    {
+      "title": "Oil Near $100 Threatens U.S. Stocks’ Stellar Run",
+      "url": "https://www.wsj.com/finance/stocks/oil-near-100-threatens-u-s-stocks-stellar-run-cabbaf0c",
+      "storyKey": "oil+selloff+stocks"
+    },
+    {
+      "title": "Exclusive | EverBank to Combine With WaFd to Create $75 Billion Bank",
+      "url": "https://www.wsj.com/business/deals/everbank-to-combine-with-wafd-to-create-75-billion-bank-e71d023c",
+      "storyKey": "everbank+wafd"
+    },
+    {
+      "title": "Opinion | Maybe Not the Moment for a Millionaire’s Tax",
+      "url": "https://www.wsj.com/opinion/maybe-not-the-moment-for-a-millionaires-tax-52317f27",
+      "storyKey": "millionaires+tax"
+    },
+    {
+      "title": "Meta Launches a Personal AI Agent Designed to Be Easy to Use",
+      "url": "https://www.wsj.com/tech/ai/meta-launches-a-personal-ai-agent-designed-to-be-easy-to-use-3eb5cfac",
+      "storyKey": "agent+ai+meta"
+    },
+    {
+      "title": "LIV Golf Files for Bankruptcy—and Owes Top Golfers Millions",
+      "url": "https://www.wsj.com/sports/golf/liv-golf-bankruptcy-2b33c886",
+      "storyKey": "bankruptcy+golf+liv"
+    }
+  ],
   "_research": {
-    "2026-08-18": [
-      "https://podcasts.apple.com/us/podcast/wellingtons-jean-hynes-on-the-art-of-investing/id948913991?i=1000783982164&uo=4",
-      "https://podcasts.apple.com/us/podcast/when-ai-takes-over-shopping-carts/id1466686717?i=1000783935339&uo=4",
-      "https://podcasts.apple.com/us/podcast/global-equities-check-in-europe-strong-asia-rebuilding/id1456184829?i=1000783994953&uo=4"
-    ],
     "2026-08-19": [
       "https://podcasts.apple.com/us/podcast/korean-stocks-from-correction-to-a-healthy-recovery/id1466686717?i=1000784196533&uo=4"
     ],
@@ -655,6 +650,9 @@
     "2026-09-07": [],
     "2026-09-08": [
       "https://podcasts.apple.com/us/podcast/how-is-automation-shaping-emerging-markets/id1456184829?i=1000788397230&uo=4"
+    ],
+    "2026-09-09": [
+      "https://podcasts.apple.com/us/podcast/ai-debt-starts-moving-the-u-s-treasurys-market/id1466686717?i=1000788527236&uo=4"
     ]
   }
 }
