@@ -1,63 +1,63 @@
 {
-  "date": "2026-09-09",
-  "generatedAt": "2026-09-09T13:42:38.690772+00:00",
+  "date": "2026-09-10",
+  "generatedAt": "2026-09-10T09:42:37.747639+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Oil Near $100 Threatens U.S. Stocks’ Stellar Run",
-      "url": "https://www.wsj.com/finance/stocks/oil-near-100-threatens-u-s-stocks-stellar-run-cabbaf0c",
-      "summary": "Oil approaching $100 a barrel threatens to derail U.S. stock market's strong 2024 rally.",
-      "storyKey": "correction+oil+stocks",
+      "title": "A Tiny Shift in the Inflation Rate Could Decide the Fed’s Next Move",
+      "url": "https://www.wsj.com/economy/central-banking/inflation-report-fed-interest-rate-decision-e98331d9",
+      "summary": "A tiny shift in inflation data could determine the Fed's next interest rate move.",
+      "storyKey": "decision+fed+inflation",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Canada Picks Alstom to Build Passenger Railcars in Multibilllion-Dollar Deal",
-      "url": "https://www.wsj.com/world/americas/canada-picks-alstom-to-build-passenger-railcars-in-multibilllion-dollar-deal-c203f4cf",
-      "summary": "Canada selects Alstom for multibillion-dollar deal to build passenger railcars.",
-      "storyKey": "alstom+canada+railcars",
+      "title": "Independence Realty Trust and Centerspace Agree to $8.1 Billion Merger",
+      "url": "https://www.wsj.com/business/deals/independence-realty-trust-and-centerspace-agree-to-8-1-billion-merger-f495671b",
+      "summary": "Independence Realty Trust and Centerspace agree to $8.1 billion merger deal.",
+      "storyKey": "centerspace+independence+merger",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | The New U.S. Tax on ‘Brilliant People’",
-      "url": "https://www.wsj.com/opinion/the-new-u-s-tax-on-brilliant-people-5a6a6baf",
-      "summary": "Opinion column argues new U.S. tax policy targets high-earning \"brilliant people.\"",
-      "storyKey": "brilliant+people+tax",
+      "title": "Opinion | AI May Become the Third Superpower",
+      "url": "https://www.wsj.com/opinion/ai-may-become-the-third-superpower-1f7700dc",
+      "summary": "Opinion argues AI could emerge as a third global superpower alongside nations.",
+      "storyKey": "ai+superpower",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Analog Devices to Acquire Alif Semiconductor for $1.35 Billion",
-      "url": "https://www.wsj.com/tech/analog-devices-to-acquire-alif-semiconductor-for-1-35-billion-1b31d6fe",
-      "summary": "Analog Devices to acquire chipmaker Alif Semiconductor for $1.35 billion.",
-      "storyKey": "alif+analog+devices",
+      "title": "Apple Debuts New Foldable iPhone Duo, New CEO and New (Higher) Prices",
+      "url": "https://www.wsj.com/tech/apple-to-debut-new-foldable-iphone-new-ceo-and-new-prices-b2485b9f",
+      "summary": "Apple debuts new foldable iPhone duo, names new CEO, raises prices.",
+      "storyKey": "apple+foldable+iphone",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "LIV Golf Files for Bankruptcy—and Owes Top Golfers Millions",
-      "url": "https://www.wsj.com/sports/golf/liv-golf-bankruptcy-2b33c886",
-      "summary": "LIV Golf files for bankruptcy, reportedly owing top golfers millions in unpaid money.",
-      "storyKey": "bankruptcy+golf+liv",
+      "title": "The Radical Experiments for the NFL’s Global Expansion to Australia",
+      "url": "https://www.wsj.com/sports/football/nfl-travel-49ers-rams-australia-ea2b4bc9",
+      "summary": "NFL tests radical experiments for its global expansion push into Australia.",
+      "storyKey": "australia+expansion+nfl",
       "source": "WSJ"
     }
   ],
   "research": [
     {
-      "firm": "Morgan Stanley",
-      "show": "Thoughts on the Market",
-      "title": "AI Debt Starts Moving the U.S. Treasurys Market",
-      "url": "https://podcasts.apple.com/us/podcast/ai-debt-starts-moving-the-u-s-treasurys-market/id1466686717?i=1000788527236&uo=4",
-      "published": "2026-09-08T20:00:00+00:00",
-      "kind": "podcast",
-      "duration": "9 min",
-      "summary": "U.S. Treasurys are the foundation of the bond market. But our strategists Matthew Hornbach and Vishy Tirupattur explain the growing impact of corporate credit as AI financing accelerates. Read more insights from Morgan Stanley."
+      "firm": "J.P. Morgan",
+      "show": null,
+      "title": "Kevin Warsh Says There's Still 'Work to Do' to Fight Inflation. Will the Fed Hike Rates at the September Meeting?",
+      "url": "https://www.jpmorgan.com/insights/markets-and-economy/economy/kevin-warsh-work-to-do-fighting-inflation-what-to-expect-september-2026-federal-reserve-meeting",
+      "published": "2026-09-09T09:52:41.823000-04:00",
+      "kind": "article",
+      "duration": null,
+      "summary": "The next Fed meeting on September 15–16 comes with a big question: Hike or hold rates? The decision ultimately hinges on inflation and the labor market."
     }
   ]
 }
