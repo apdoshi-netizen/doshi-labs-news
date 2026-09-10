@@ -1,32 +1,32 @@
 {
   "date": "2026-09-10",
-  "generatedAt": "2026-09-10T09:42:37.747639+00:00",
+  "generatedAt": "2026-09-10T13:35:55.035362+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "A Tiny Shift in the Inflation Rate Could Decide the Fed’s Next Move",
-      "url": "https://www.wsj.com/economy/central-banking/inflation-report-fed-interest-rate-decision-e98331d9",
-      "summary": "A tiny shift in inflation data could determine the Fed's next interest rate move.",
-      "storyKey": "decision+fed+inflation",
+      "title": "The ECB Just Raised Interest Rates. Here’s What to Know.",
+      "url": "https://www.wsj.com/economy/central-banking/the-ecb-just-raised-interest-rates-heres-what-to-know-c03f9bb0",
+      "summary": "ECB raised interest rates today, a major cross-asset policy move ahead of key U.S. inflation data.",
+      "storyKey": "decision+ecb+rate",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Independence Realty Trust and Centerspace Agree to $8.1 Billion Merger",
-      "url": "https://www.wsj.com/business/deals/independence-realty-trust-and-centerspace-agree-to-8-1-billion-merger-f495671b",
-      "summary": "Independence Realty Trust and Centerspace agree to $8.1 billion merger deal.",
-      "storyKey": "centerspace+independence+merger",
+      "title": "Porsche AG Eyes Wider Margins After $1.2 Billion Sale of Bugatti, Rimac Stakes",
+      "url": "https://www.wsj.com/business/autos/porsche-ag-eyes-wider-margins-after-1-2-billion-sale-of-bugatti-rimac-stakes-a2c316a6",
+      "summary": "Porsche AG sold Bugatti and Rimac stakes for $1.2 billion, aiming to widen profit margins.",
+      "storyKey": "bugatti+porsche+rimac",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | AI May Become the Third Superpower",
-      "url": "https://www.wsj.com/opinion/ai-may-become-the-third-superpower-1f7700dc",
-      "summary": "Opinion argues AI could emerge as a third global superpower alongside nations.",
-      "storyKey": "ai+superpower",
+      "title": "Against the Stay-at-Home-Mom Subsidy",
+      "url": "https://www.wsj.com/opinion/free-expression/against-the-stay-at-home-mom-subsidy-0984080c",
+      "summary": "Op-ed argues against proposed government subsidy for stay-at-home mothers, a policy economics debate.",
+      "storyKey": "at+home+mom+stay",
       "source": "WSJ"
     },
     {
@@ -34,21 +34,41 @@
       "label": "Tech",
       "title": "Apple Debuts New Foldable iPhone Duo, New CEO and New (Higher) Prices",
       "url": "https://www.wsj.com/tech/apple-to-debut-new-foldable-iphone-new-ceo-and-new-prices-b2485b9f",
-      "summary": "Apple debuts new foldable iPhone duo, names new CEO, raises prices.",
+      "summary": "Apple debuted a new foldable iPhone duo alongside a new CEO and higher pricing.",
       "storyKey": "apple+foldable+iphone",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The Radical Experiments for the NFL’s Global Expansion to Australia",
-      "url": "https://www.wsj.com/sports/football/nfl-travel-49ers-rams-australia-ea2b4bc9",
-      "summary": "NFL tests radical experiments for its global expansion push into Australia.",
-      "storyKey": "australia+expansion+nfl",
+      "title": "The Stunning Mistake That Decided the NFL’s Super Bowl Rematch",
+      "url": "https://www.wsj.com/sports/football/seahawks-patriots-drake-maye-interception-6828c9a9",
+      "summary": "A stunning officiating mistake decided the NFL's Super Bowl rematch, the day's top sports headline.",
+      "storyKey": "nfl+rematch+superbowl",
       "source": "WSJ"
     }
   ],
   "research": [
+    {
+      "firm": "Goldman Sachs",
+      "show": "Exchanges",
+      "title": "How Will Less Fed Transparency Affect Markets and the Economy?",
+      "url": "https://podcasts.apple.com/us/podcast/how-will-less-fed-transparency-affect-markets-and/id948913991?i=1000788710424&uo=4",
+      "published": "2026-09-09T16:06:00+00:00",
+      "kind": "podcast",
+      "duration": "22 min",
+      "summary": "Federal Reserve Chairman Kevin Warsh has steered the central bank into an era of less transparency. Former Fed governors Donald Kohn and Stephen Miran, as well as Goldman Sachs Chief Economist and Head of Goldman Sachs Research Jan Hatzius, discuss on the Goldman Sachs Exchanges podcast the merits of Fed communication and how it affects financial markets. The episode is based on the latest Top of Mind report."
+    },
+    {
+      "firm": "Morgan Stanley",
+      "show": "Thoughts on the Market",
+      "title": "Can the AI Spending Boom Pay Off?",
+      "url": "https://podcasts.apple.com/us/podcast/can-the-ai-spending-boom-pay-off/id1466686717?i=1000788740055&uo=4",
+      "published": "2026-09-09T20:00:00+00:00",
+      "kind": "podcast",
+      "duration": "5 min",
+      "summary": "Big Tech is pouring more than $1.4 trillion into AI, prompting investors to ask: Is it worth it? Our U.S. Internet analyst Brian Nowak looks at three business models that could earn 25 to 50 percent returns for Gen-AI-enabled technologies. Read more insights from Morgan Stanley."
+    },
     {
       "firm": "J.P. Morgan",
       "show": null,
