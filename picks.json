@@ -1,23 +1,23 @@
 {
   "date": "2026-09-11",
-  "generatedAt": "2026-09-11T09:40:03.090990+00:00",
+  "generatedAt": "2026-09-11T13:34:13.277413+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
       "title": "U.S. 10-Year Treasury Yield Nears 5% as Oil Fuels Inflation Fears",
       "url": "https://www.wsj.com/finance/investing/bond-yields-edge-up-as-investors-await-ecb-rate-hike-u-s-treasury-buybacks-4cd2e9f3",
-      "summary": "10-year Treasury yield nears 5% as oil price surge stokes inflation fears.",
+      "summary": "US 10-year Treasury yield nears 5% as oil price surge stokes inflation fears, roiling markets.",
       "storyKey": "oil+treasury+yield",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Oracle Posts Higher Profit, Revenue on Continued Cloud Infrastructure Strength",
-      "url": "https://www.wsj.com/business/earnings/oracle-orcl-q1-earnings-report-stock-5158944b",
-      "summary": "Oracle reports higher profit and revenue on continued cloud infrastructure strength.",
-      "storyKey": "earnings+oracle",
+      "title": "India’s National Stock Exchange Seeks $46 Billion Valuation in IPO",
+      "url": "https://www.wsj.com/business/national-stock-exchange-of-india-seeks-2-36-billion-in-pared-back-ipo-19cf72eb",
+      "summary": "India's National Stock Exchange seeks $46 billion valuation in upcoming IPO.",
+      "storyKey": "ipo+nse+valuation",
       "source": "WSJ"
     },
     {
@@ -25,26 +25,26 @@
       "label": "Op-Ed",
       "title": "Opinion | A Millionaire Tax Is Never Enough",
       "url": "https://www.wsj.com/opinion/rhode-island-primary-dan-mckee-helena-foulkes-e0fdf54a",
-      "summary": "Opinion argues a millionaire tax is never enough to fund government spending.",
-      "storyKey": "millionaire+tax",
+      "summary": "Opinion argues a millionaire tax fails to raise enough revenue, critiquing wealth-tax policy proposals.",
+      "storyKey": "millionaire+policy+tax",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Exclusive | Pentagon in Talks to Get Into AI Infrastructure Funding With a $5 Billion Loan",
-      "url": "https://www.wsj.com/tech/ai/pentagon-in-talks-to-get-into-ai-infrastructure-funding-with-a-5-billion-loan-0367eeb0",
-      "summary": "Pentagon in talks for $5 billion loan to fund AI infrastructure buildout.",
-      "storyKey": "ai+loan+pentagon",
+      "title": "Exclusive | Positron Valued at $5 Billion in New Funding as Demand for AI Chips Surges",
+      "url": "https://www.wsj.com/tech/ai/positron-valued-at-5-billion-in-new-funding-as-cpu-demand-surges-76dde819",
+      "summary": "Positron valued at $5 billion in new funding amid surging demand for AI chips.",
+      "storyKey": "ai+chips+positron",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The Radical Experiments for the NFL’s Global Expansion to Australia",
-      "url": "https://www.wsj.com/sports/football/nfl-travel-49ers-rams-australia-ea2b4bc9",
-      "summary": "Radical experiments detailed for NFL's global expansion push into Australia.",
-      "storyKey": "australia+expansion+nfl",
+      "title": "No U.S. Man Has Won the U.S. Open in 23 Years. Can Ben Shelton or Frances Tiafoe Take It?",
+      "url": "https://www.wsj.com/sports/tennis/ben-shelton-frances-tiafoe-us-open-7b0c19c1",
+      "summary": "No American man has won the U.S. Open in 23 years; Shelton, Tiafoe eye title.",
+      "storyKey": "open+tennis+us",
       "source": "WSJ"
     }
   ],
