@@ -1,6 +1,6 @@
 {
   "date": "2026-09-12",
-  "generatedAt": "2026-09-12T09:20:28.750101+00:00",
+  "generatedAt": "2026-09-12T12:51:00.529343+00:00",
   "picks": [
     {
       "slot": "Macro",
@@ -14,8 +14,8 @@
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Tamarack Valley to Merge With Headwater Exploration in Over $7.24 Billion Deal",
-      "url": "https://www.wsj.com/business/energy-oil/tamarack-valley-to-merge-with-headwater-exploration-in-over-7-24-billion-deal-b8e0a0b6",
+      "title": "The Panama Canal’s New Boss Inherits a Drought and a Bidding War for Transit Slots",
+      "url": "https://www.wsj.com/logistics-report/the-panama-canals-new-boss-inherits-a-drought-and-a-bidding-war-for-transit-slots-dc32dace",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -23,8 +23,8 @@
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Hold China Accountable for Its Trade Practices",
-      "url": "https://www.wsj.com/opinion/hold-china-accountable-for-its-trade-practices-b72ef463",
+      "title": "Opinion | Trump’s Real Problem Is Real Wages",
+      "url": "https://www.wsj.com/opinion/donald-trump-real-wages-economy-federal-reserve-kevin-warsh-ef1e9b69",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -32,8 +32,8 @@
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "The Case for Saving Every AI Chat",
-      "url": "https://www.wsj.com/tech/ai/saving-ai-chats-ea7a8e73",
+      "title": "AI Fears Leap From Silicon Valley Into Mainstream America | The 10-Point for Sept. 12",
+      "url": "https://www.wsj.com/tech/ai-fears-leap-from-silicon-valley-into-mainstream-america-3e632708",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
