@@ -1,73 +1,73 @@
 {
-  "date": "2026-09-11",
-  "generatedAt": "2026-09-11T13:34:13.277413+00:00",
+  "date": "2026-09-12",
+  "generatedAt": "2026-09-12T09:20:28.750101+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "U.S. 10-Year Treasury Yield Nears 5% as Oil Fuels Inflation Fears",
-      "url": "https://www.wsj.com/finance/investing/bond-yields-edge-up-as-investors-await-ecb-rate-hike-u-s-treasury-buybacks-4cd2e9f3",
-      "summary": "US 10-year Treasury yield nears 5% as oil price surge stokes inflation fears, roiling markets.",
-      "storyKey": "oil+treasury+yield",
+      "title": "Wall Street Cheers Clarity on Fed Outlook—Even if It Means Higher Rates",
+      "url": "https://www.wsj.com/finance/investing/wall-street-cheers-clarity-on-fed-outlookeven-if-it-means-higher-rates-2f80fd5f",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "India’s National Stock Exchange Seeks $46 Billion Valuation in IPO",
-      "url": "https://www.wsj.com/business/national-stock-exchange-of-india-seeks-2-36-billion-in-pared-back-ipo-19cf72eb",
-      "summary": "India's National Stock Exchange seeks $46 billion valuation in upcoming IPO.",
-      "storyKey": "ipo+nse+valuation",
+      "title": "Tamarack Valley to Merge With Headwater Exploration in Over $7.24 Billion Deal",
+      "url": "https://www.wsj.com/business/energy-oil/tamarack-valley-to-merge-with-headwater-exploration-in-over-7-24-billion-deal-b8e0a0b6",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | A Millionaire Tax Is Never Enough",
-      "url": "https://www.wsj.com/opinion/rhode-island-primary-dan-mckee-helena-foulkes-e0fdf54a",
-      "summary": "Opinion argues a millionaire tax fails to raise enough revenue, critiquing wealth-tax policy proposals.",
-      "storyKey": "millionaire+policy+tax",
+      "title": "Opinion | Hold China Accountable for Its Trade Practices",
+      "url": "https://www.wsj.com/opinion/hold-china-accountable-for-its-trade-practices-b72ef463",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Exclusive | Positron Valued at $5 Billion in New Funding as Demand for AI Chips Surges",
-      "url": "https://www.wsj.com/tech/ai/positron-valued-at-5-billion-in-new-funding-as-cpu-demand-surges-76dde819",
-      "summary": "Positron valued at $5 billion in new funding amid surging demand for AI chips.",
-      "storyKey": "ai+chips+positron",
+      "title": "The Case for Saving Every AI Chat",
+      "url": "https://www.wsj.com/tech/ai/saving-ai-chats-ea7a8e73",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "No U.S. Man Has Won the U.S. Open in 23 Years. Can Ben Shelton or Frances Tiafoe Take It?",
-      "url": "https://www.wsj.com/sports/tennis/ben-shelton-frances-tiafoe-us-open-7b0c19c1",
-      "summary": "No American man has won the U.S. Open in 23 years; Shelton, Tiafoe eye title.",
-      "storyKey": "open+tennis+us",
+      "title": "He’s College Football’s Biggest Gamebreaker—and the Master of the Circus Catch",
+      "url": "https://www.wsj.com/sports/football/jeremiah-smith-ohio-state-b4e21395",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     }
   ],
   "research": [
     {
-      "firm": "Morgan Stanley",
-      "show": "Thoughts on the Market",
-      "title": "The Fed, Football and the Price of Ambiguity",
-      "url": "https://podcasts.apple.com/us/podcast/the-fed-football-and-the-price-of-ambiguity/id1466686717?i=1000788945569&uo=4",
-      "published": "2026-09-10T20:00:00+00:00",
+      "firm": "Goldman Sachs",
+      "show": "The Markets",
+      "title": "What a Fed Rate Hike Could Mean for US Stocks",
+      "url": "https://podcasts.apple.com/us/podcast/what-a-fed-rate-hike-could-mean-for-us-stocks/id1683802600?i=1000789102255&uo=4",
+      "published": "2026-09-11T21:24:00+00:00",
       "kind": "podcast",
-      "duration": "5 min",
-      "summary": "Our Global Head of Fixed Income Research Andrew Sheets discusses when markets may not adequately compensate investors for uncertainty around themes like Fed policy, AI financing and energy supply. Read more insights from Morgan Stanley."
+      "duration": "11 min",
+      "summary": "Investors are pricing in a higher likelihood that the Federal Reserve will hike rates after core CPI inflation rose in August more than economists had estimated. However, a rate hike may not keep the US stock market from climbing higher, says Jonathan Shugar, head of Cross Asset Sales in Goldman Sachs FICC and Equities, on The Markets podcast. Companies reported strong earnings growth in the second quarter, and valuations near the 10-year average are not stretched, he explains. Shugar also discusses why a Fed hike may not restrain investment in artificial intelligence, the risks in longer-term interest rates, and the potential opportunity for investors in consumer experience stocks."
     },
     {
-      "firm": "J.P. Morgan",
-      "show": "Making Sense",
-      "title": "The future of treasury: From back office to strategic forefront",
-      "url": "https://podcasts.apple.com/us/podcast/the-future-of-treasury-from-back-office-to/id1456184829?i=1000788995052&uo=4",
-      "published": "2026-09-11T05:00:00+00:00",
+      "firm": "Morgan Stanley",
+      "show": "Thoughts on the Market",
+      "title": "Why the Middle-Class Squeeze Is Getting Worse",
+      "url": "https://podcasts.apple.com/us/podcast/why-the-middle-class-squeeze-is-getting-worse/id1466686717?i=1000789097302&uo=4",
+      "published": "2026-09-11T20:00:00+00:00",
       "kind": "podcast",
-      "duration": "24 min",
-      "summary": "Treasury is no longer a back-office function. As businesses navigate increasing complexity, it has become a strategic driver of resilience, decision-making and growth."
+      "duration": "11 min",
+      "summary": "Heather Berger of the U.S. Economics Team hosts Wealth Management Senior Economist and Strategist Sarah Wolfe to discuss what it takes to define the middle class in America today. They break down how factors like rising essential costs and the development of AI are reshaping consumer balance sheets and financial security. Sarah Wolfe is a member of Morgan Stanley's Wealth Management Division and is not a member of Morgan Stanley’s Research Department. Unless otherwise indicated, her views are her own and may differ from the views of the Morgan Stanley Research Department and from the views of others within Morgan Stanley. Read more insights from Morgan Stanley."
     }
   ]
 }

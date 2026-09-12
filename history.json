@@ -1,31 +1,4 @@
 {
-  "2026-08-21": [
-    {
-      "title": "Consumer Warning Lights Flash, Oil and Treasury Yields Rise | Markets P.M. For August 14",
-      "url": "https://www.wsj.com/finance/investing/consumer-warning-lights-f1df8c6d",
-      "storyKey": null
-    },
-    {
-      "title": "Italy’s Monte dei Paschi Makes $40 Billion Move to Buy Rival Banks",
-      "url": "https://www.wsj.com/business/deals/monte-dei-paschi-makes-40-billion-move-to-buy-italian-peers-banco-bpm-banca-generali-711620fd",
-      "storyKey": null
-    },
-    {
-      "title": "Opinion | American Socialists Are ‘Chinamaxxing’ Now",
-      "url": "https://www.wsj.com/opinion/free-expression/american-socialists-are-chinamaxxing-now-5d2beb8b",
-      "storyKey": null
-    },
-    {
-      "title": "The Brains Who Powered China’s Surprising AI Leap",
-      "url": "https://www.wsj.com/tech/ai/ai-china-scientists-race-us-cd9732e3",
-      "storyKey": null
-    },
-    {
-      "title": "Youth Sports Are Completely Bonkers. How to Survive Another Crazy Season.",
-      "url": "https://www.wsj.com/sports/youth-sports-how-to-survive-another-crazy-season-63e79b93",
-      "storyKey": null
-    }
-  ],
   "2026-08-22": [
     {
       "title": "See How China Weathered the Iran Oil Shock",
@@ -583,11 +556,34 @@
       "storyKey": "open+tennis+us"
     }
   ],
+  "2026-09-12": [
+    {
+      "title": "Wall Street Cheers Clarity on Fed Outlook—Even if It Means Higher Rates",
+      "url": "https://www.wsj.com/finance/investing/wall-street-cheers-clarity-on-fed-outlookeven-if-it-means-higher-rates-2f80fd5f",
+      "storyKey": null
+    },
+    {
+      "title": "Tamarack Valley to Merge With Headwater Exploration in Over $7.24 Billion Deal",
+      "url": "https://www.wsj.com/business/energy-oil/tamarack-valley-to-merge-with-headwater-exploration-in-over-7-24-billion-deal-b8e0a0b6",
+      "storyKey": null
+    },
+    {
+      "title": "Opinion | Hold China Accountable for Its Trade Practices",
+      "url": "https://www.wsj.com/opinion/hold-china-accountable-for-its-trade-practices-b72ef463",
+      "storyKey": null
+    },
+    {
+      "title": "The Case for Saving Every AI Chat",
+      "url": "https://www.wsj.com/tech/ai/saving-ai-chats-ea7a8e73",
+      "storyKey": null
+    },
+    {
+      "title": "He’s College Football’s Biggest Gamebreaker—and the Master of the Circus Catch",
+      "url": "https://www.wsj.com/sports/football/jeremiah-smith-ohio-state-b4e21395",
+      "storyKey": null
+    }
+  ],
   "_research": {
-    "2026-08-21": [
-      "https://podcasts.apple.com/us/podcast/why-us-equity-returns-are-broadening-beyond-ai-stocks/id1683802600?i=1000784715588&uo=4",
-      "https://podcasts.apple.com/us/podcast/the-new-map-of-ai-power/id1466686717?i=1000784662514&uo=4"
-    ],
     "2026-08-22": [
       "https://www.jpmorgan.com/insights/markets-and-economy/top-market-takeaways/tmt-from-tokyo-to-london-to-washington-debt-is-in-the-doghouse"
     ],
@@ -655,6 +651,10 @@
     "2026-09-11": [
       "https://podcasts.apple.com/us/podcast/the-fed-football-and-the-price-of-ambiguity/id1466686717?i=1000788945569&uo=4",
       "https://podcasts.apple.com/us/podcast/the-future-of-treasury-from-back-office-to/id1456184829?i=1000788995052&uo=4"
+    ],
+    "2026-09-12": [
+      "https://podcasts.apple.com/us/podcast/what-a-fed-rate-hike-could-mean-for-us-stocks/id1683802600?i=1000789102255&uo=4",
+      "https://podcasts.apple.com/us/podcast/why-the-middle-class-squeeze-is-getting-worse/id1466686717?i=1000789097302&uo=4"
     ]
   }
 }
