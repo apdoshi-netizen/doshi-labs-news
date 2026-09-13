@@ -1,73 +1,52 @@
 {
-  "date": "2026-09-12",
-  "generatedAt": "2026-09-12T12:51:00.529343+00:00",
+  "date": "2026-09-13",
+  "generatedAt": "2026-09-13T10:16:29.876897+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Wall Street Cheers Clarity on Fed Outlook—Even if It Means Higher Rates",
-      "url": "https://www.wsj.com/finance/investing/wall-street-cheers-clarity-on-fed-outlookeven-if-it-means-higher-rates-2f80fd5f",
-      "summary": "",
-      "storyKey": null,
+      "title": "U.K. Economy Showed Continued Resilience in July",
+      "url": "https://www.wsj.com/economy/u-k-economy-unexpectedly-grew-in-july-fadc130d",
+      "summary": "UK economy showed continued resilience in July, signaling steady growth despite headwinds, per WSJ.",
+      "storyKey": "economy+resilience+uk",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "The Panama Canal’s New Boss Inherits a Drought and a Bidding War for Transit Slots",
-      "url": "https://www.wsj.com/logistics-report/the-panama-canals-new-boss-inherits-a-drought-and-a-bidding-war-for-transit-slots-dc32dace",
-      "summary": "",
-      "storyKey": null,
+      "title": "J&J Is in Talks to Sell Its Hips-and-Knees Business to Apollo for $20 Billion",
+      "url": "https://www.wsj.com/business/deals/j-j-is-in-talks-to-sell-its-hips-and-knees-business-to-apollo-for-20-billion-3018cc4e",
+      "summary": "J&J in talks to sell its hips-and-knees business to Apollo for $20 billion, a major healthcare divestiture.",
+      "storyKey": "apollo+hips+jj",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Trump’s Real Problem Is Real Wages",
-      "url": "https://www.wsj.com/opinion/donald-trump-real-wages-economy-federal-reserve-kevin-warsh-ef1e9b69",
-      "summary": "",
-      "storyKey": null,
+      "title": "Opinion | Against Welfare-State Conservatism",
+      "url": "https://www.wsj.com/opinion/free-expression/against-welfare-state-conservatism-749ec178",
+      "summary": "Opinion argues against welfare-state conservatism, a policy debate on the right's economic direction.",
+      "storyKey": "conservatism+state+welfare",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "AI Fears Leap From Silicon Valley Into Mainstream America | The 10-Point for Sept. 12",
-      "url": "https://www.wsj.com/tech/ai-fears-leap-from-silicon-valley-into-mainstream-america-3e632708",
-      "summary": "",
-      "storyKey": null,
+      "title": "Biggest AI Rivals Agree They Need to Slow It Down",
+      "url": "https://www.wsj.com/tech/ai/anthropic-boss-warns-ai-industry-must-slow-the-pace-a4267b56",
+      "summary": "Biggest AI rivals agree they need to slow down AI development, signaling industry-wide safety concerns.",
+      "storyKey": "ai+rivals+slowdown",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "He’s College Football’s Biggest Gamebreaker—and the Master of the Circus Catch",
-      "url": "https://www.wsj.com/sports/football/jeremiah-smith-ohio-state-b4e21395",
-      "summary": "",
+      "title": "",
+      "url": "",
+      "summary": "No WSJ pick today.",
       "storyKey": null,
       "source": "WSJ"
     }
   ],
-  "research": [
-    {
-      "firm": "Goldman Sachs",
-      "show": "The Markets",
-      "title": "What a Fed Rate Hike Could Mean for US Stocks",
-      "url": "https://podcasts.apple.com/us/podcast/what-a-fed-rate-hike-could-mean-for-us-stocks/id1683802600?i=1000789102255&uo=4",
-      "published": "2026-09-11T21:24:00+00:00",
-      "kind": "podcast",
-      "duration": "11 min",
-      "summary": "Investors are pricing in a higher likelihood that the Federal Reserve will hike rates after core CPI inflation rose in August more than economists had estimated. However, a rate hike may not keep the US stock market from climbing higher, says Jonathan Shugar, head of Cross Asset Sales in Goldman Sachs FICC and Equities, on The Markets podcast. Companies reported strong earnings growth in the second quarter, and valuations near the 10-year average are not stretched, he explains. Shugar also discusses why a Fed hike may not restrain investment in artificial intelligence, the risks in longer-term interest rates, and the potential opportunity for investors in consumer experience stocks."
-    },
-    {
-      "firm": "Morgan Stanley",
-      "show": "Thoughts on the Market",
-      "title": "Why the Middle-Class Squeeze Is Getting Worse",
-      "url": "https://podcasts.apple.com/us/podcast/why-the-middle-class-squeeze-is-getting-worse/id1466686717?i=1000789097302&uo=4",
-      "published": "2026-09-11T20:00:00+00:00",
-      "kind": "podcast",
-      "duration": "11 min",
-      "summary": "Heather Berger of the U.S. Economics Team hosts Wealth Management Senior Economist and Strategist Sarah Wolfe to discuss what it takes to define the middle class in America today. They break down how factors like rising essential costs and the development of AI are reshaping consumer balance sheets and financial security. Sarah Wolfe is a member of Morgan Stanley's Wealth Management Division and is not a member of Morgan Stanley’s Research Department. Unless otherwise indicated, her views are her own and may differ from the views of the Morgan Stanley Research Department and from the views of others within Morgan Stanley. Read more insights from Morgan Stanley."
-    }
-  ]
+  "research": []
 }

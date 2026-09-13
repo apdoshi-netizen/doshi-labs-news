@@ -1,31 +1,4 @@
 {
-  "2026-08-22": [
-    {
-      "title": "See How China Weathered the Iran Oil Shock",
-      "url": "https://www.wsj.com/business/energy-oil/see-how-china-weathered-the-iran-oil-shock-2c367cd8",
-      "storyKey": null
-    },
-    {
-      "title": "Why a Payments Giant Is Paying $7 Billion for the ‘Stripe of AI’",
-      "url": "https://www.wsj.com/tech/ai/why-a-payments-giant-is-paying-7-billion-for-the-stripe-of-ai-f5832e54",
-      "storyKey": null
-    },
-    {
-      "title": "Opinion | Trump Has a Beef With Tariffs",
-      "url": "https://www.wsj.com/opinion/donald-trump-lifts-beef-tariffs-trade-imports-d3048c6a",
-      "storyKey": null
-    },
-    {
-      "title": "Private Equity Is Deploying an Army of AI Wonks to Embed in the Firms They Back",
-      "url": "https://www.wsj.com/tech/ai/private-equity-is-deploying-an-army-of-ai-wonks-to-embed-in-the-firms-they-back-96d279ec",
-      "storyKey": null
-    },
-    {
-      "title": "Did Carlos Alcaraz Just Save the U.S. Open?",
-      "url": "https://www.wsj.com/sports/tennis/carlos-alcaraz-us-open-a7b00e59",
-      "storyKey": null
-    }
-  ],
   "2026-08-23": [
     {
       "title": "The Hidden Financial Deals That Put the Dodgers Owner in the Crosshairs of the Feds | The 10-Point for August 18",
@@ -583,10 +556,29 @@
       "storyKey": null
     }
   ],
+  "2026-09-13": [
+    {
+      "title": "U.K. Economy Showed Continued Resilience in July",
+      "url": "https://www.wsj.com/economy/u-k-economy-unexpectedly-grew-in-july-fadc130d",
+      "storyKey": "economy+resilience+uk"
+    },
+    {
+      "title": "J&J Is in Talks to Sell Its Hips-and-Knees Business to Apollo for $20 Billion",
+      "url": "https://www.wsj.com/business/deals/j-j-is-in-talks-to-sell-its-hips-and-knees-business-to-apollo-for-20-billion-3018cc4e",
+      "storyKey": "apollo+hips+jj"
+    },
+    {
+      "title": "Opinion | Against Welfare-State Conservatism",
+      "url": "https://www.wsj.com/opinion/free-expression/against-welfare-state-conservatism-749ec178",
+      "storyKey": "conservatism+state+welfare"
+    },
+    {
+      "title": "Biggest AI Rivals Agree They Need to Slow It Down",
+      "url": "https://www.wsj.com/tech/ai/anthropic-boss-warns-ai-industry-must-slow-the-pace-a4267b56",
+      "storyKey": "ai+rivals+slowdown"
+    }
+  ],
   "_research": {
-    "2026-08-22": [
-      "https://www.jpmorgan.com/insights/markets-and-economy/top-market-takeaways/tmt-from-tokyo-to-london-to-washington-debt-is-in-the-doghouse"
-    ],
     "2026-08-23": [],
     "2026-08-24": [],
     "2026-08-25": [
@@ -655,6 +647,7 @@
     "2026-09-12": [
       "https://podcasts.apple.com/us/podcast/what-a-fed-rate-hike-could-mean-for-us-stocks/id1683802600?i=1000789102255&uo=4",
       "https://podcasts.apple.com/us/podcast/why-the-middle-class-squeeze-is-getting-worse/id1466686717?i=1000789097302&uo=4"
-    ]
+    ],
+    "2026-09-13": []
   }
 }
