@@ -1,49 +1,49 @@
 {
   "date": "2026-09-13",
-  "generatedAt": "2026-09-13T10:16:29.876897+00:00",
+  "generatedAt": "2026-09-13T13:48:22.224337+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "U.K. Economy Showed Continued Resilience in July",
-      "url": "https://www.wsj.com/economy/u-k-economy-unexpectedly-grew-in-july-fadc130d",
-      "summary": "UK economy showed continued resilience in July, signaling steady growth despite headwinds, per WSJ.",
-      "storyKey": "economy+resilience+uk",
+      "title": "Canada Seeks EU ‘Associate Member’ Status as U.S. Trade Talks Collapse | The 10-Point for Sept. 13",
+      "url": "https://www.wsj.com/economy/canada-seeks-eu-associate-member-status-as-u-s-trade-talks-collapse-4eebec65",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "J&J Is in Talks to Sell Its Hips-and-Knees Business to Apollo for $20 Billion",
-      "url": "https://www.wsj.com/business/deals/j-j-is-in-talks-to-sell-its-hips-and-knees-business-to-apollo-for-20-billion-3018cc4e",
-      "summary": "J&J in talks to sell its hips-and-knees business to Apollo for $20 billion, a major healthcare divestiture.",
-      "storyKey": "apollo+hips+jj",
+      "title": "Exclusive | Mark Carney’s Audacious Bid to Make Canada an ‘Associate Member’ of the EU",
+      "url": "https://www.wsj.com/world/europe/canada-alliance-eu-carney-276f1778",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Against Welfare-State Conservatism",
-      "url": "https://www.wsj.com/opinion/free-expression/against-welfare-state-conservatism-749ec178",
-      "summary": "Opinion argues against welfare-state conservatism, a policy debate on the right's economic direction.",
-      "storyKey": "conservatism+state+welfare",
+      "title": "Opinion | Don’t Tax the Unicorns",
+      "url": "https://www.wsj.com/opinion/nber-study-capital-gains-tax-unicorns-investment-ab0095fb",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Biggest AI Rivals Agree They Need to Slow It Down",
-      "url": "https://www.wsj.com/tech/ai/anthropic-boss-warns-ai-industry-must-slow-the-pace-a4267b56",
-      "summary": "Biggest AI rivals agree they need to slow down AI development, signaling industry-wide safety concerns.",
-      "storyKey": "ai+rivals+slowdown",
+      "title": "AI Doomsday: The High-Risk Sprint to Superintelligence | The Future of Everything for Sept. 11",
+      "url": "https://www.wsj.com/tech/ai/the-high-risk-sprint-to-superintelligence-a366be66",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "",
-      "url": "",
-      "summary": "No WSJ pick today.",
+      "title": "Arch Manning Was Headed for Disaster—Until He Produced the Comeback of His Life",
+      "url": "https://www.wsj.com/sports/football/arch-manning-texas-ohio-state-37f6dcbf",
+      "summary": "",
       "storyKey": null,
       "source": "WSJ"
     }
