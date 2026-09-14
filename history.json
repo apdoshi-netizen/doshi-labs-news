@@ -1,31 +1,4 @@
 {
-  "2026-08-23": [
-    {
-      "title": "The Hidden Financial Deals That Put the Dodgers Owner in the Crosshairs of the Feds | The 10-Point for August 18",
-      "url": "https://www.wsj.com/finance/investing/the-hidden-financial-deals-that-put-the-dodgers-owner-in-the-crosshairs-of-the-feds-3a54ebc1",
-      "storyKey": null
-    },
-    {
-      "title": "MacKenzie Scott, Billionaire Philanthropist, Returns to Her First Love: Fiction",
-      "url": "https://www.wsj.com/arts-culture/books/mackenzie-scott-substack-last-days-bezos-3f712734",
-      "storyKey": null
-    },
-    {
-      "title": "Opinion | A Wokester’s Opening Argument for the U.S. Senate",
-      "url": "https://www.wsj.com/opinion/a-wokesters-opening-argument-for-the-u-s-senate-09963782",
-      "storyKey": null
-    },
-    {
-      "title": "Job Seekers Are Racing to AI-Proof Their Résumés",
-      "url": "https://www.wsj.com/tech/ai/job-seekers-are-racing-to-ai-proof-their-resumes-f310f43c",
-      "storyKey": null
-    },
-    {
-      "title": "The Final Days of LIV Golf: Unpaid Bills and a Scramble for Cash",
-      "url": "https://www.wsj.com/sports/golf/liv-golf-money-bf4d05f2",
-      "storyKey": null
-    }
-  ],
   "2026-08-24": [
     {
       "title": "U.S., Canada Spiral Toward Trade War",
@@ -583,8 +556,34 @@
       "storyKey": null
     }
   ],
+  "2026-09-14": [
+    {
+      "title": "Inflation",
+      "url": "https://www.wsj.com/topics/subject/inflation",
+      "storyKey": null
+    },
+    {
+      "title": "J&J Is in Talks to Sell Its Hips-and-Knees Business to Apollo for $20 Billion",
+      "url": "https://www.wsj.com/business/deals/j-j-is-in-talks-to-sell-its-hips-and-knees-business-to-apollo-for-20-billion-3018cc4e",
+      "storyKey": "apollo+hips+jnj"
+    },
+    {
+      "title": "Opinion | Dario Amodei Is Begging You to Regulate Him",
+      "url": "https://www.wsj.com/opinion/free-expression/dario-amodei-is-begging-you-to-regulate-him-19a03fa3",
+      "storyKey": "ai+amodei+regulate"
+    },
+    {
+      "title": "Chip Stocks Tumble After AI Leaders Call For Slowdown in AI Development",
+      "url": "https://www.wsj.com/tech/ai/chip-stocks-tumble-after-ai-leaders-call-for-slowdown-in-ai-development-e2d26e63",
+      "storyKey": "ai+chip+slowdown"
+    },
+    {
+      "title": "The Upstart Using ‘Guerrilla Tactics’ to Shake Up the Football Helmet Business",
+      "url": "https://www.wsj.com/sports/football/the-upstart-using-guerrilla-tactics-to-shake-up-the-football-helmet-business-5bf891c1",
+      "storyKey": "football+helmet+startup"
+    }
+  ],
   "_research": {
-    "2026-08-23": [],
     "2026-08-24": [],
     "2026-08-25": [
       "https://podcasts.apple.com/us/podcast/building-ai-systems-for-capital-markets/id948913991?i=1000785557673&uo=4",
@@ -653,6 +652,7 @@
       "https://podcasts.apple.com/us/podcast/what-a-fed-rate-hike-could-mean-for-us-stocks/id1683802600?i=1000789102255&uo=4",
       "https://podcasts.apple.com/us/podcast/why-the-middle-class-squeeze-is-getting-worse/id1466686717?i=1000789097302&uo=4"
     ],
-    "2026-09-13": []
+    "2026-09-13": [],
+    "2026-09-14": []
   }
 }
