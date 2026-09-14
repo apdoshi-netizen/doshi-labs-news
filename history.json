@@ -558,29 +558,29 @@
   ],
   "2026-09-14": [
     {
-      "title": "Inflation",
-      "url": "https://www.wsj.com/topics/subject/inflation",
-      "storyKey": null
+      "title": "10-Year Treasury Yield Hits 5%",
+      "url": "https://www.wsj.com/finance/long-term-jgb-yields-higher-on-expectations-for-boj-rate-increases-67eb74d8",
+      "storyKey": "5percent+treasury+yield"
     },
     {
-      "title": "J&J Is in Talks to Sell Its Hips-and-Knees Business to Apollo for $20 Billion",
-      "url": "https://www.wsj.com/business/deals/j-j-is-in-talks-to-sell-its-hips-and-knees-business-to-apollo-for-20-billion-3018cc4e",
-      "storyKey": "apollo+hips+jnj"
+      "title": "Dell’s DFO-Led Consortium Taking Baldwin Group Private for Enterprise Value of $7.7 Billion",
+      "url": "https://www.wsj.com/finance/investing/dells-dfo-led-consortium-taking-baldwin-group-private-for-enterprise-value-of-7-7-billion-8b365dee",
+      "storyKey": "baldwin+dell+group"
     },
     {
       "title": "Opinion | Dario Amodei Is Begging You to Regulate Him",
       "url": "https://www.wsj.com/opinion/free-expression/dario-amodei-is-begging-you-to-regulate-him-19a03fa3",
-      "storyKey": "ai+amodei+regulate"
+      "storyKey": "ai+amodei+regulation"
     },
     {
-      "title": "Chip Stocks Tumble After AI Leaders Call For Slowdown in AI Development",
+      "title": "Chip Stocks Tumble After AI Leaders Call for Slowdown in Development",
       "url": "https://www.wsj.com/tech/ai/chip-stocks-tumble-after-ai-leaders-call-for-slowdown-in-ai-development-e2d26e63",
       "storyKey": "ai+chip+slowdown"
     },
     {
       "title": "The Upstart Using ‘Guerrilla Tactics’ to Shake Up the Football Helmet Business",
       "url": "https://www.wsj.com/sports/football/the-upstart-using-guerrilla-tactics-to-shake-up-the-football-helmet-business-5bf891c1",
-      "storyKey": "football+helmet+startup"
+      "storyKey": "business+football+helmet"
     }
   ],
   "_research": {

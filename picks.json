@@ -1,23 +1,23 @@
 {
   "date": "2026-09-14",
-  "generatedAt": "2026-09-14T10:37:19.744909+00:00",
+  "generatedAt": "2026-09-14T15:53:30.438649+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Inflation",
-      "url": "https://www.wsj.com/topics/subject/inflation",
-      "summary": "",
-      "storyKey": null,
+      "title": "10-Year Treasury Yield Hits 5%",
+      "url": "https://www.wsj.com/finance/long-term-jgb-yields-higher-on-expectations-for-boj-rate-increases-67eb74d8",
+      "summary": "10-year Treasury yield hits 5%, a fresh macro-moving development ahead of CPI data.",
+      "storyKey": "5percent+treasury+yield",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "J&J Is in Talks to Sell Its Hips-and-Knees Business to Apollo for $20 Billion",
-      "url": "https://www.wsj.com/business/deals/j-j-is-in-talks-to-sell-its-hips-and-knees-business-to-apollo-for-20-billion-3018cc4e",
-      "summary": "J&J reportedly in talks to sell its hips-and-knees business to Apollo for $20 billion.",
-      "storyKey": "apollo+hips+jnj",
+      "title": "Dell’s DFO-Led Consortium Taking Baldwin Group Private for Enterprise Value of $7.7 Billion",
+      "url": "https://www.wsj.com/finance/investing/dells-dfo-led-consortium-taking-baldwin-group-private-for-enterprise-value-of-7-7-billion-8b365dee",
+      "summary": "Dell's DFO-led consortium takes Baldwin Group private in $7.7 billion enterprise value deal.",
+      "storyKey": "baldwin+dell+group",
       "source": "WSJ"
     },
     {
@@ -25,16 +25,16 @@
       "label": "Op-Ed",
       "title": "Opinion | Dario Amodei Is Begging You to Regulate Him",
       "url": "https://www.wsj.com/opinion/free-expression/dario-amodei-is-begging-you-to-regulate-him-19a03fa3",
-      "summary": "Dario Amodei opinion piece argues for AI regulation despite industry resistance to oversight.",
-      "storyKey": "ai+amodei+regulate",
+      "summary": "Op-ed argues Dario Amodei's push for AI regulation reflects self-interested industry positioning.",
+      "storyKey": "ai+amodei+regulation",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Chip Stocks Tumble After AI Leaders Call For Slowdown in AI Development",
+      "title": "Chip Stocks Tumble After AI Leaders Call for Slowdown in Development",
       "url": "https://www.wsj.com/tech/ai/chip-stocks-tumble-after-ai-leaders-call-for-slowdown-in-ai-development-e2d26e63",
-      "summary": "Chip stocks fell after AI industry leaders called for a slowdown in AI development.",
+      "summary": "Chip stocks tumble after AI industry leaders publicly call for slowing AI development pace.",
       "storyKey": "ai+chip+slowdown",
       "source": "WSJ"
     },
@@ -43,8 +43,8 @@
       "label": "Sports",
       "title": "The Upstart Using ‘Guerrilla Tactics’ to Shake Up the Football Helmet Business",
       "url": "https://www.wsj.com/sports/football/the-upstart-using-guerrilla-tactics-to-shake-up-the-football-helmet-business-5bf891c1",
-      "summary": "Startup uses guerrilla tactics to disrupt the football helmet business, challenging incumbents.",
-      "storyKey": "football+helmet+startup",
+      "summary": "Startup uses \"guerrilla tactics\" to disrupt the established football helmet manufacturing business.",
+      "storyKey": "business+football+helmet",
       "source": "WSJ"
     }
   ],
