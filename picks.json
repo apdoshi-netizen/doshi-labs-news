@@ -1,52 +1,63 @@
 {
-  "date": "2026-09-14",
-  "generatedAt": "2026-09-14T15:53:30.438649+00:00",
+  "date": "2026-09-15",
+  "generatedAt": "2026-09-15T10:03:55.019112+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "10-Year Treasury Yield Hits 5%",
-      "url": "https://www.wsj.com/finance/long-term-jgb-yields-higher-on-expectations-for-boj-rate-increases-67eb74d8",
-      "summary": "10-year Treasury yield hits 5%, a fresh macro-moving development ahead of CPI data.",
-      "storyKey": "5percent+treasury+yield",
+      "title": "U.K. Labor Market Remains Soft as BOE Rate Decision Looms",
+      "url": "https://www.wsj.com/economy/jobs/u-k-unemployment-rate-remains-flat-176c2a9a",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Dell’s DFO-Led Consortium Taking Baldwin Group Private for Enterprise Value of $7.7 Billion",
-      "url": "https://www.wsj.com/finance/investing/dells-dfo-led-consortium-taking-baldwin-group-private-for-enterprise-value-of-7-7-billion-8b365dee",
-      "summary": "Dell's DFO-led consortium takes Baldwin Group private in $7.7 billion enterprise value deal.",
-      "storyKey": "baldwin+dell+group",
+      "title": "BMO, Sun Life Pledge C$75 Billion Private Capital for Canadian Infrastructure Push",
+      "url": "https://www.wsj.com/finance/investing/bmo-sun-life-pledge-c-75-billion-private-capital-for-canadian-infrastructure-push-d35f5f58",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Dario Amodei Is Begging You to Regulate Him",
-      "url": "https://www.wsj.com/opinion/free-expression/dario-amodei-is-begging-you-to-regulate-him-19a03fa3",
-      "summary": "Op-ed argues Dario Amodei's push for AI regulation reflects self-interested industry positioning.",
-      "storyKey": "ai+amodei+regulation",
+      "title": "Opinion | One Senator’s Plea for Tariff Breaks",
+      "url": "https://www.wsj.com/opinion/katie-britt-tariff-exemptions-alabama-manufacturers-f24c166c",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Chip Stocks Tumble After AI Leaders Call for Slowdown in Development",
-      "url": "https://www.wsj.com/tech/ai/chip-stocks-tumble-after-ai-leaders-call-for-slowdown-in-ai-development-e2d26e63",
-      "summary": "Chip stocks tumble after AI industry leaders publicly call for slowing AI development pace.",
-      "storyKey": "ai+chip+slowdown",
+      "title": "The ‘Optimistic Side’ of the AI Safety Debate",
+      "url": "https://www.wsj.com/tech/ai/the-optimistic-side-of-the-ai-safety-debate-64820a7b",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The Upstart Using ‘Guerrilla Tactics’ to Shake Up the Football Helmet Business",
-      "url": "https://www.wsj.com/sports/football/the-upstart-using-guerrilla-tactics-to-shake-up-the-football-helmet-business-5bf891c1",
-      "summary": "Startup uses \"guerrilla tactics\" to disrupt the established football helmet manufacturing business.",
-      "storyKey": "business+football+helmet",
+      "title": "The U.S. Open Champion Who Didn’t Realize He Actually Won",
+      "url": "https://www.wsj.com/sports/tennis/alexander-zverev-us-open-5e9e2238",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     }
   ],
-  "research": []
+  "research": [
+    {
+      "firm": "Morgan Stanley",
+      "show": "Thoughts on the Market",
+      "title": "Patients Are Taking the Driver's Seat in Healthcare",
+      "url": "https://podcasts.apple.com/us/podcast/patients-are-taking-the-drivers-seat-in-healthcare/id1466686717?i=1000789625161&uo=4",
+      "published": "2026-09-14T20:00:00+00:00",
+      "kind": "podcast",
+      "duration": "9 min",
+      "summary": "Healthcare companies are rethinking their business models as patients gain more control over how they access care and purchase medicine. Our analysts Erin Wright and Terence Flynn unpack this shift and the emerging opportunities. Read more insights from Morgan Stanley."
+    }
+  ]
 }
