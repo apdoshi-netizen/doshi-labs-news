@@ -1,50 +1,50 @@
 {
   "date": "2026-09-16",
-  "generatedAt": "2026-09-16T12:36:18.833239+00:00",
+  "generatedAt": "2026-09-16T14:11:57.639816+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "U.S. Treasury Yields, Dollar Little Changed Ahead of Fed’s Likely Rate Hike",
-      "url": "https://www.wsj.com/finance/jgb-yields-higher-amid-inflation-fears-c3a1bb4e",
-      "summary": "Treasury yields and dollar steady as markets await Fed's expected rate hike decision.",
-      "storyKey": "fed+hike+rate",
+      "title": "Oil Futures Pull Back From 4-Month Highs",
+      "url": "https://www.wsj.com/finance/commodities-futures/oil-declines-but-remains-elevated-amid-supply-concerns-geopolitical-risks-15e97c33",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Brookfield Agrees to $2.9 Billion Acquisition of Australia’s Reliance",
-      "url": "https://www.wsj.com/business/deals/brookfield-agrees-to-2-9-billion-acquisition-of-australias-reliance-ec8240d7",
-      "summary": "Brookfield agrees to acquire Australia's Reliance for $2.9 billion.",
-      "storyKey": "brookfield+reliance",
+      "title": "A $1.5 Million Renovation Gave Her Atlanta Mansion Main-Character Energy",
+      "url": "https://www.wsj.com/real-estate/luxury-homes/shamea-morton-real-housewives-atlanta-home-7a60c7dc",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Gov. Gretchen Whitmer: How Tariffs Hurt Michigan",
-      "url": "https://www.wsj.com/opinion/gov-gretchen-whitmer-how-tariffs-hurt-michigan-6c2a0c85",
-      "summary": "Michigan governor Whitmer argues tariffs are harming Michigan's economy and workers.",
-      "storyKey": "tariffs+whitmer",
+      "title": "Opinion | The Frustrations Behind Socialism’s Appeal",
+      "url": "https://www.wsj.com/opinion/the-frustrations-behind-socialisms-appeal-3f8835e4",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "OpenAI Considers Pre-IPO Funding Round at More Than $1.2 Trillion Valuation",
-      "url": "https://www.wsj.com/tech/ai/openai-considers-pre-ipo-funding-round-at-more-than-1-2-trillion-valuation-54555295",
-      "summary": "OpenAI reportedly explores pre-IPO funding round valuing it above $1.2 trillion.",
-      "storyKey": "openai+valuation",
+      "title": "Intel Shares Rise Premarket on Report of SK Hynix U.S. Manufacturing Talks — Update",
+      "url": "https://www.wsj.com/tech/intel-shares-rise-premarket-on-report-of-sk-hynix-u-s-manufacturing-talks-update-37bcf247",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "Steve Ballmer Surrenders to the NBA",
-      "url": "https://www.wsj.com/sports/basketball/steve-ballmer-la-clippers-nba-punishment-8f2d940b",
-      "summary": "Steve Ballmer's Clippers reportedly comply with new NBA ownership rules after dispute.",
-      "storyKey": "ballmer+nba",
+      "title": "The Tactical ‘Farce’ Turning Baseball Games Into Slow-Pitch Softball",
+      "url": "https://www.wsj.com/sports/baseball/mlb-position-players-pitching-1c653000",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     }
   ],
