@@ -1,31 +1,4 @@
 {
-  "2026-08-25": [
-    {
-      "title": "U.S. Stocks Up as Treasury Buybacks Calm Bond Yields; Moderna Surges",
-      "url": "https://www.wsj.com/finance/stocks/u-s-stocks-gain-as-treasury-buybacks-calm-bond-yields-moderna-surges-402249fb",
-      "storyKey": null
-    },
-    {
-      "title": "U.S. Considers Tariff Cuts on Metals, Autos in Canada Deal",
-      "url": "https://www.wsj.com/logistics-report/u-s-considers-tariff-cuts-on-metals-autos-in-canada-deal-e4ec3909",
-      "storyKey": null
-    },
-    {
-      "title": "Opinion | The Dumbest Trade War Revisited",
-      "url": "https://www.wsj.com/opinion/the-dumbest-trade-war-revisited-57c9fe81",
-      "storyKey": null
-    },
-    {
-      "title": "Nvidia Has Become a Banker to the AI Boom, Putting It on Dangerous Ground",
-      "url": "https://www.wsj.com/tech/ai/nvidia-has-become-a-banker-to-the-ai-boom-putting-it-on-dangerous-ground-94c03545",
-      "storyKey": null
-    },
-    {
-      "title": "The Major Leaguer Who Went to Wharton—and Learned to Run a Baseball Team",
-      "url": "https://www.wsj.com/sports/baseball/sam-fuld-wharton-phillies-460a9768",
-      "storyKey": null
-    }
-  ],
   "2026-08-26": [
     {
       "title": "U.S. Says Oil Is Pouring Through Hormuz. Trackers Can’t Find It.",
@@ -583,12 +556,34 @@
       "storyKey": null
     }
   ],
+  "2026-09-16": [
+    {
+      "title": "U.S. Treasury Yields, Dollar Little Changed Ahead of Fed’s Likely Rate Hike",
+      "url": "https://www.wsj.com/finance/jgb-yields-higher-amid-inflation-fears-c3a1bb4e",
+      "storyKey": "fed+hike+rate"
+    },
+    {
+      "title": "Brookfield Agrees to $2.9 Billion Acquisition of Australia’s Reliance",
+      "url": "https://www.wsj.com/business/deals/brookfield-agrees-to-2-9-billion-acquisition-of-australias-reliance-ec8240d7",
+      "storyKey": "brookfield+reliance"
+    },
+    {
+      "title": "Opinion | Gov. Gretchen Whitmer: How Tariffs Hurt Michigan",
+      "url": "https://www.wsj.com/opinion/gov-gretchen-whitmer-how-tariffs-hurt-michigan-6c2a0c85",
+      "storyKey": "tariffs+whitmer"
+    },
+    {
+      "title": "OpenAI Considers Pre-IPO Funding Round at More Than $1.2 Trillion Valuation",
+      "url": "https://www.wsj.com/tech/ai/openai-considers-pre-ipo-funding-round-at-more-than-1-2-trillion-valuation-54555295",
+      "storyKey": "openai+valuation"
+    },
+    {
+      "title": "Steve Ballmer Surrenders to the NBA",
+      "url": "https://www.wsj.com/sports/basketball/steve-ballmer-la-clippers-nba-punishment-8f2d940b",
+      "storyKey": "ballmer+nba"
+    }
+  ],
   "_research": {
-    "2026-08-25": [
-      "https://podcasts.apple.com/us/podcast/building-ai-systems-for-capital-markets/id948913991?i=1000785557673&uo=4",
-      "https://podcasts.apple.com/us/podcast/markets-faces-hotter-shorter-cycles/id1466686717?i=1000785612799&uo=4",
-      "https://podcasts.apple.com/us/podcast/power-surge-the-us-electricity-derivatives-boom/id1456184829?i=1000785683358&uo=4"
-    ],
     "2026-08-26": [
       "https://podcasts.apple.com/us/podcast/measuring-the-markets-megatrends/id1466686717?i=1000785828462&uo=4"
     ],
@@ -655,6 +650,10 @@
     "2026-09-14": [],
     "2026-09-15": [
       "https://podcasts.apple.com/us/podcast/patients-are-taking-the-drivers-seat-in-healthcare/id1466686717?i=1000789625161&uo=4"
+    ],
+    "2026-09-16": [
+      "https://podcasts.apple.com/us/podcast/why-global-bond-yields-are-surging/id948913991?i=1000789804567&uo=4",
+      "https://podcasts.apple.com/us/podcast/the-mid-cycle-shift-equity-investors-shouldnt-miss/id1466686717?i=1000789842097&uo=4"
     ]
   }
 }

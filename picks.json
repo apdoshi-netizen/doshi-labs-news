@@ -1,63 +1,73 @@
 {
-  "date": "2026-09-15",
-  "generatedAt": "2026-09-15T10:03:55.019112+00:00",
+  "date": "2026-09-16",
+  "generatedAt": "2026-09-16T12:36:18.833239+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "U.K. Labor Market Remains Soft as BOE Rate Decision Looms",
-      "url": "https://www.wsj.com/economy/jobs/u-k-unemployment-rate-remains-flat-176c2a9a",
-      "summary": "",
-      "storyKey": null,
+      "title": "U.S. Treasury Yields, Dollar Little Changed Ahead of Fed’s Likely Rate Hike",
+      "url": "https://www.wsj.com/finance/jgb-yields-higher-amid-inflation-fears-c3a1bb4e",
+      "summary": "Treasury yields and dollar steady as markets await Fed's expected rate hike decision.",
+      "storyKey": "fed+hike+rate",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "BMO, Sun Life Pledge C$75 Billion Private Capital for Canadian Infrastructure Push",
-      "url": "https://www.wsj.com/finance/investing/bmo-sun-life-pledge-c-75-billion-private-capital-for-canadian-infrastructure-push-d35f5f58",
-      "summary": "",
-      "storyKey": null,
+      "title": "Brookfield Agrees to $2.9 Billion Acquisition of Australia’s Reliance",
+      "url": "https://www.wsj.com/business/deals/brookfield-agrees-to-2-9-billion-acquisition-of-australias-reliance-ec8240d7",
+      "summary": "Brookfield agrees to acquire Australia's Reliance for $2.9 billion.",
+      "storyKey": "brookfield+reliance",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | One Senator’s Plea for Tariff Breaks",
-      "url": "https://www.wsj.com/opinion/katie-britt-tariff-exemptions-alabama-manufacturers-f24c166c",
-      "summary": "",
-      "storyKey": null,
+      "title": "Opinion | Gov. Gretchen Whitmer: How Tariffs Hurt Michigan",
+      "url": "https://www.wsj.com/opinion/gov-gretchen-whitmer-how-tariffs-hurt-michigan-6c2a0c85",
+      "summary": "Michigan governor Whitmer argues tariffs are harming Michigan's economy and workers.",
+      "storyKey": "tariffs+whitmer",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "The ‘Optimistic Side’ of the AI Safety Debate",
-      "url": "https://www.wsj.com/tech/ai/the-optimistic-side-of-the-ai-safety-debate-64820a7b",
-      "summary": "",
-      "storyKey": null,
+      "title": "OpenAI Considers Pre-IPO Funding Round at More Than $1.2 Trillion Valuation",
+      "url": "https://www.wsj.com/tech/ai/openai-considers-pre-ipo-funding-round-at-more-than-1-2-trillion-valuation-54555295",
+      "summary": "OpenAI reportedly explores pre-IPO funding round valuing it above $1.2 trillion.",
+      "storyKey": "openai+valuation",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The U.S. Open Champion Who Didn’t Realize He Actually Won",
-      "url": "https://www.wsj.com/sports/tennis/alexander-zverev-us-open-5e9e2238",
-      "summary": "",
-      "storyKey": null,
+      "title": "Steve Ballmer Surrenders to the NBA",
+      "url": "https://www.wsj.com/sports/basketball/steve-ballmer-la-clippers-nba-punishment-8f2d940b",
+      "summary": "Steve Ballmer's Clippers reportedly comply with new NBA ownership rules after dispute.",
+      "storyKey": "ballmer+nba",
       "source": "WSJ"
     }
   ],
   "research": [
     {
+      "firm": "Goldman Sachs",
+      "show": "Exchanges",
+      "title": "Why Global Bond Yields Are Surging",
+      "url": "https://podcasts.apple.com/us/podcast/why-global-bond-yields-are-surging/id948913991?i=1000789804567&uo=4",
+      "published": "2026-09-15T15:24:00+00:00",
+      "kind": "podcast",
+      "duration": "25 min",
+      "summary": "Government bond yields have surged to multi-decade highs across the US, UK, Germany, and Japan. George Cole, head of European Rates Strategy for Goldman Sachs Research, says there is a range of factors behind the bond sell-off—from swelling fiscal deficits and borrowing tied to investment in artificial intelligence (AI) to resilient economic growth and an energy-price shock. In this episode of Goldman Sachs Exchanges, he also explains what could bring yields back down."
+    },
+    {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
-      "title": "Patients Are Taking the Driver's Seat in Healthcare",
-      "url": "https://podcasts.apple.com/us/podcast/patients-are-taking-the-drivers-seat-in-healthcare/id1466686717?i=1000789625161&uo=4",
-      "published": "2026-09-14T20:00:00+00:00",
+      "title": "The Mid-Cycle Shift Equity Investors Shouldn’t Miss",
+      "url": "https://podcasts.apple.com/us/podcast/the-mid-cycle-shift-equity-investors-shouldnt-miss/id1466686717?i=1000789842097&uo=4",
+      "published": "2026-09-15T20:00:00+00:00",
       "kind": "podcast",
-      "duration": "9 min",
-      "summary": "Healthcare companies are rethinking their business models as patients gain more control over how they access care and purchase medicine. Our analysts Erin Wright and Terence Flynn unpack this shift and the emerging opportunities. Read more insights from Morgan Stanley."
+      "duration": "5 min",
+      "summary": "Our CIO and Chief U.S. Equity Strategist Mike Wilson breaks down how the market is transitioning to a mid-cycle environment, with leadership shifting toward higher-quality, asset-light companies with durable earnings. Read more insights from Morgan Stanley."
     }
   ]
 }
