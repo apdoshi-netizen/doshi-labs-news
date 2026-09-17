@@ -1,31 +1,4 @@
 {
-  "2026-08-26": [
-    {
-      "title": "U.S. Says Oil Is Pouring Through Hormuz. Trackers Can’t Find It.",
-      "url": "https://www.wsj.com/business/energy-oil/u-s-says-oil-is-pouring-through-hormuz-trackers-cant-find-it-306faebd",
-      "storyKey": null
-    },
-    {
-      "title": "European Chip Stocks Mixed Ahead of Nvidia Earnings",
-      "url": "https://www.wsj.com/finance/stocks/nikkei-falls-0-4-dragged-by-chip-related-stocks-472365b8",
-      "storyKey": null
-    },
-    {
-      "title": "Opinion | Maryland’s Digital Tax Fiasco",
-      "url": "https://www.wsj.com/opinion/marylands-digital-tax-fiasco-04361d89",
-      "storyKey": null
-    },
-    {
-      "title": "The $1.5 Trillion Question Nvidia’s Earnings Can’t Answer",
-      "url": "https://www.wsj.com/tech/ai/the-1-5-trillion-question-nvidias-earnings-cant-answer-a3a951c3",
-      "storyKey": null
-    },
-    {
-      "title": "He Was in the NFL. Then He Got a Better Offer to Play College Football Again.",
-      "url": "https://www.wsj.com/sports/football/daequan-wright-lsu-nfl-lawsuits-eccef757",
-      "storyKey": null
-    }
-  ],
   "2026-08-27": [
     {
       "title": "Bessent’s Moves Test Boundaries Between Treasury and Fed",
@@ -583,10 +556,34 @@
       "storyKey": null
     }
   ],
+  "2026-09-17": [
+    {
+      "title": "Fed Delivers First Rate Hike in Years With Unanimous Vote",
+      "url": "https://www.wsj.com/economy/central-banking/fed-raises-rates-for-first-time-in-three-years-08539fbe",
+      "storyKey": "fed+hike+rate"
+    },
+    {
+      "title": "Exclusive | Exxon Is Nearing Preliminary Deal to Invest in Venezuela’s Oil Fields",
+      "url": "https://www.wsj.com/business/energy-oil/exxon-is-nearing-a-preliminary-deal-to-invest-in-venezuelas-oil-fields-8c02126b",
+      "storyKey": "exxon+venezuela"
+    },
+    {
+      "title": "Opinion | Kevin Warsh Is an Inflation Hawk",
+      "url": "https://www.wsj.com/opinion/kevin-warsh-rate-hike-federal-reserve-fomc-donald-trump-657987d4",
+      "storyKey": "inflation+warsh"
+    },
+    {
+      "title": "Biggest AI Rivals Agree They Need to Slow It Down",
+      "url": "https://www.wsj.com/tech/ai/anthropic-boss-warns-ai-industry-must-slow-the-pace-a4267b56",
+      "storyKey": "ai+pact+slowdown"
+    },
+    {
+      "title": "Steve Ballmer Surrenders to the NBA",
+      "url": "https://www.wsj.com/sports/basketball/steve-ballmer-la-clippers-nba-punishment-8f2d940b",
+      "storyKey": "ballmer+nba"
+    }
+  ],
   "_research": {
-    "2026-08-26": [
-      "https://podcasts.apple.com/us/podcast/measuring-the-markets-megatrends/id1466686717?i=1000785828462&uo=4"
-    ],
     "2026-08-27": [
       "https://podcasts.apple.com/us/podcast/when-does-higher-u-s-debt-start-to-matter/id1466686717?i=1000786106351&uo=4"
     ],
@@ -654,6 +651,10 @@
     "2026-09-16": [
       "https://podcasts.apple.com/us/podcast/why-global-bond-yields-are-surging/id948913991?i=1000789804567&uo=4",
       "https://podcasts.apple.com/us/podcast/the-mid-cycle-shift-equity-investors-shouldnt-miss/id1466686717?i=1000789842097&uo=4"
+    ],
+    "2026-09-17": [
+      "https://podcasts.apple.com/us/podcast/one-fed-hike-or-more-to-come/id1466686717?i=1000790092983&uo=4",
+      "https://podcasts.apple.com/us/podcast/navigating-credit-markets-in-2026-dont-let-the-macro/id1456184829?i=1000790033017&uo=4"
     ]
   }
 }

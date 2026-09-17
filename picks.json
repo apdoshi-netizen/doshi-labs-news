@@ -1,73 +1,73 @@
 {
-  "date": "2026-09-16",
-  "generatedAt": "2026-09-16T14:11:57.639816+00:00",
+  "date": "2026-09-17",
+  "generatedAt": "2026-09-17T09:58:38.404193+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Oil Futures Pull Back From 4-Month Highs",
-      "url": "https://www.wsj.com/finance/commodities-futures/oil-declines-but-remains-elevated-amid-supply-concerns-geopolitical-risks-15e97c33",
-      "summary": "",
-      "storyKey": null,
+      "title": "Fed Delivers First Rate Hike in Years With Unanimous Vote",
+      "url": "https://www.wsj.com/economy/central-banking/fed-raises-rates-for-first-time-in-three-years-08539fbe",
+      "summary": "Fed delivers first interest rate hike in years, unanimous vote, roiling markets and dollar.",
+      "storyKey": "fed+hike+rate",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "A $1.5 Million Renovation Gave Her Atlanta Mansion Main-Character Energy",
-      "url": "https://www.wsj.com/real-estate/luxury-homes/shamea-morton-real-housewives-atlanta-home-7a60c7dc",
-      "summary": "",
-      "storyKey": null,
+      "title": "Exclusive | Exxon Is Nearing Preliminary Deal to Invest in Venezuela’s Oil Fields",
+      "url": "https://www.wsj.com/business/energy-oil/exxon-is-nearing-a-preliminary-deal-to-invest-in-venezuelas-oil-fields-8c02126b",
+      "summary": "Exxon nears preliminary deal to invest in Venezuela's oil fields, per exclusive report.",
+      "storyKey": "exxon+venezuela",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | The Frustrations Behind Socialism’s Appeal",
-      "url": "https://www.wsj.com/opinion/the-frustrations-behind-socialisms-appeal-3f8835e4",
-      "summary": "",
-      "storyKey": null,
+      "title": "Opinion | Kevin Warsh Is an Inflation Hawk",
+      "url": "https://www.wsj.com/opinion/kevin-warsh-rate-hike-federal-reserve-fomc-donald-trump-657987d4",
+      "summary": "Opinion argues Fed's Kevin Warsh remains a committed inflation hawk despite rate hike.",
+      "storyKey": "inflation+warsh",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Intel Shares Rise Premarket on Report of SK Hynix U.S. Manufacturing Talks — Update",
-      "url": "https://www.wsj.com/tech/intel-shares-rise-premarket-on-report-of-sk-hynix-u-s-manufacturing-talks-update-37bcf247",
-      "summary": "",
-      "storyKey": null,
+      "title": "Biggest AI Rivals Agree They Need to Slow It Down",
+      "url": "https://www.wsj.com/tech/ai/anthropic-boss-warns-ai-industry-must-slow-the-pace-a4267b56",
+      "summary": "Biggest AI rivals agree they need to slow down AI development pace.",
+      "storyKey": "ai+pact+slowdown",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The Tactical ‘Farce’ Turning Baseball Games Into Slow-Pitch Softball",
-      "url": "https://www.wsj.com/sports/baseball/mlb-position-players-pitching-1c653000",
-      "summary": "",
-      "storyKey": null,
+      "title": "Steve Ballmer Surrenders to the NBA",
+      "url": "https://www.wsj.com/sports/basketball/steve-ballmer-la-clippers-nba-punishment-8f2d940b",
+      "summary": "Steve Ballmer surrenders to the NBA in ownership-related dispute or decision.",
+      "storyKey": "ballmer+nba",
       "source": "WSJ"
     }
   ],
   "research": [
     {
-      "firm": "Goldman Sachs",
-      "show": "Exchanges",
-      "title": "Why Global Bond Yields Are Surging",
-      "url": "https://podcasts.apple.com/us/podcast/why-global-bond-yields-are-surging/id948913991?i=1000789804567&uo=4",
-      "published": "2026-09-15T15:24:00+00:00",
-      "kind": "podcast",
-      "duration": "25 min",
-      "summary": "Government bond yields have surged to multi-decade highs across the US, UK, Germany, and Japan. George Cole, head of European Rates Strategy for Goldman Sachs Research, says there is a range of factors behind the bond sell-off—from swelling fiscal deficits and borrowing tied to investment in artificial intelligence (AI) to resilient economic growth and an energy-price shock. In this episode of Goldman Sachs Exchanges, he also explains what could bring yields back down."
-    },
-    {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
-      "title": "The Mid-Cycle Shift Equity Investors Shouldn’t Miss",
-      "url": "https://podcasts.apple.com/us/podcast/the-mid-cycle-shift-equity-investors-shouldnt-miss/id1466686717?i=1000789842097&uo=4",
-      "published": "2026-09-15T20:00:00+00:00",
+      "title": "One Fed Hike—Or More to Come?",
+      "url": "https://podcasts.apple.com/us/podcast/one-fed-hike-or-more-to-come/id1466686717?i=1000790092983&uo=4",
+      "published": "2026-09-16T20:30:00+00:00",
       "kind": "podcast",
-      "duration": "5 min",
-      "summary": "Our CIO and Chief U.S. Equity Strategist Mike Wilson breaks down how the market is transitioning to a mid-cycle environment, with leadership shifting toward higher-quality, asset-light companies with durable earnings. Read more insights from Morgan Stanley."
+      "duration": "12 min",
+      "summary": "Our Global Head of Macro Strategy Matthew Hornbach joins our Chief U.S. Economist Michael Gapen to discuss the Fed’s potential next moves and how energy prices are influencing market expectations. Read more insights from Morgan Stanley."
+    },
+    {
+      "firm": "J.P. Morgan",
+      "show": "Making Sense",
+      "title": "Navigating credit markets in 2026: “Don’t let the macro narrative overwhelm the micro”",
+      "url": "https://podcasts.apple.com/us/podcast/navigating-credit-markets-in-2026-dont-let-the-macro/id1456184829?i=1000790033017&uo=4",
+      "published": "2026-09-16T13:06:33+00:00",
+      "kind": "podcast",
+      "duration": "20 min",
+      "summary": "As Treasury yields stay elevated and spreads remain historically tight, rates appear to be bleeding directly into credit — and investors are increasingly viewing credit through a rates lens. In this episode of Making Sense, Brian LaRocca, head of Vida Portfolio Solutions, Americas, joins Benjamin Kinney, global head of Credit and Public Finance Sales, to discuss what a \"ratesified\" market structure means for price discovery, electronification and portfolio trading. They also explore how policy uncertainty may be better expressed in FX than duration, why AI/data-center financing is still in the early innings (and what that means for clearing prices and volatility) and how private credit is evolving after “SaaSPocalypse.”"
     }
   ]
 }
