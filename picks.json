@@ -1,50 +1,50 @@
 {
   "date": "2026-09-17",
-  "generatedAt": "2026-09-17T09:58:38.404193+00:00",
+  "generatedAt": "2026-09-17T14:17:37.361278+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Fed Delivers First Rate Hike in Years With Unanimous Vote",
-      "url": "https://www.wsj.com/economy/central-banking/fed-raises-rates-for-first-time-in-three-years-08539fbe",
-      "summary": "Fed delivers first interest rate hike in years, unanimous vote, roiling markets and dollar.",
-      "storyKey": "fed+hike+rate",
+      "title": "Warsh Takes Hawkish Turn With Rate Rise and Hints of More to Come",
+      "url": "https://www.wsj.com/economy/central-banking/warsh-takes-hawkish-turn-with-rate-rise-and-hints-of-more-to-come-d52c6ad9",
+      "summary": "Fed's Warsh takes hawkish stance after rate increase, signaling more hikes may be needed to curb inflation.",
+      "storyKey": "fed+hike+warsh",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Exclusive | Exxon Is Nearing Preliminary Deal to Invest in Venezuela’s Oil Fields",
-      "url": "https://www.wsj.com/business/energy-oil/exxon-is-nearing-a-preliminary-deal-to-invest-in-venezuelas-oil-fields-8c02126b",
-      "summary": "Exxon nears preliminary deal to invest in Venezuela's oil fields, per exclusive report.",
-      "storyKey": "exxon+venezuela",
+      "title": "The Morning Risk Report: Exxon Is Nearing a Preliminary Deal to Invest in Venezuela’s Oil Fields",
+      "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-exxon-is-nearing-a-preliminary-deal-to-invest-in-venezuelas-oil-fields-7913a0c9",
+      "summary": "Exxon nears preliminary deal to invest in Venezuela's oil fields, per Morning Risk Report.",
+      "storyKey": "exxon+oil+venezuela",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Kevin Warsh Is an Inflation Hawk",
-      "url": "https://www.wsj.com/opinion/kevin-warsh-rate-hike-federal-reserve-fomc-donald-trump-657987d4",
-      "summary": "Opinion argues Fed's Kevin Warsh remains a committed inflation hawk despite rate hike.",
-      "storyKey": "inflation+warsh",
+      "title": "Opinion | The U.S. Isn’t Ready to Help Workers Through the AI Disruption",
+      "url": "https://www.wsj.com/opinion/the-u-s-isnt-ready-to-help-workers-through-the-ai-disruption-ea21ed9d",
+      "summary": "Opinion argues U.S. policy isn't prepared to help workers navigate disruption caused by AI adoption.",
+      "storyKey": "ai+disruption+worker",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Biggest AI Rivals Agree They Need to Slow It Down",
-      "url": "https://www.wsj.com/tech/ai/anthropic-boss-warns-ai-industry-must-slow-the-pace-a4267b56",
-      "summary": "Biggest AI rivals agree they need to slow down AI development pace.",
-      "storyKey": "ai+pact+slowdown",
+      "title": "Huawei’s Plan to Become China’s Nvidia",
+      "url": "https://www.wsj.com/tech/ai/huaweis-plan-to-become-chinas-nvidia-8af8d8a1",
+      "summary": "Huawei develops plan to become China's dominant AI chipmaker, rivaling Nvidia's market position.",
+      "storyKey": "chips+huawei+nvidia",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "Steve Ballmer Surrenders to the NBA",
-      "url": "https://www.wsj.com/sports/basketball/steve-ballmer-la-clippers-nba-punishment-8f2d940b",
-      "summary": "Steve Ballmer surrenders to the NBA in ownership-related dispute or decision.",
-      "storyKey": "ballmer+nba",
+      "title": "Bill Belichick Is Back at UNC—and He Wants to Clear the Air About His Girlfriend Jordon Hudson",
+      "url": "https://www.wsj.com/sports/football/bill-belichick-jordon-hudson-interview-fdb33b57",
+      "summary": "Bill Belichick returns to UNC, addresses relationship with girlfriend Jordon H",
+      "storyKey": "belichick+hudson+unc",
       "source": "WSJ"
     }
   ],
