@@ -1,73 +1,93 @@
 {
-  "date": "2026-09-17",
-  "generatedAt": "2026-09-17T14:17:37.361278+00:00",
+  "date": "2026-09-18",
+  "generatedAt": "2026-09-18T09:44:52.824773+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Warsh Takes Hawkish Turn With Rate Rise and Hints of More to Come",
-      "url": "https://www.wsj.com/economy/central-banking/warsh-takes-hawkish-turn-with-rate-rise-and-hints-of-more-to-come-d52c6ad9",
-      "summary": "Fed's Warsh takes hawkish stance after rate increase, signaling more hikes may be needed to curb inflation.",
-      "storyKey": "fed+hike+warsh",
+      "title": "Bank of Japan Raises Rates, Making U.S. Less Alluring for Tokyo Investors",
+      "url": "https://www.wsj.com/economy/central-banking/bank-of-japan-raises-benchmark-interest-rate-to-1-25-highest-level-since-1995-2b28cbe9",
+      "summary": "Bank of Japan raises interest rates, tightening policy and making U.S. assets less appealing to Tokyo investors.",
+      "storyKey": "boj+hike+rate",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "The Morning Risk Report: Exxon Is Nearing a Preliminary Deal to Invest in Venezuela’s Oil Fields",
-      "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-exxon-is-nearing-a-preliminary-deal-to-invest-in-venezuelas-oil-fields-7913a0c9",
-      "summary": "Exxon nears preliminary deal to invest in Venezuela's oil fields, per Morning Risk Report.",
-      "storyKey": "exxon+oil+venezuela",
+      "title": "Mark Walter, Todd Boehly to Sell Stake in Chelsea for $1.3 Billion",
+      "url": "https://www.wsj.com/business/deals/mark-walter-todd-boehly-to-sell-stake-in-chelsea-for-1-3-billion-de8fb459",
+      "summary": "Mark Walter and Todd Boehly agree to sell their Chelsea FC stake for $1.3 billion.",
+      "storyKey": "chelsea+sale+stake",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | The U.S. Isn’t Ready to Help Workers Through the AI Disruption",
-      "url": "https://www.wsj.com/opinion/the-u-s-isnt-ready-to-help-workers-through-the-ai-disruption-ea21ed9d",
-      "summary": "Opinion argues U.S. policy isn't prepared to help workers navigate disruption caused by AI adoption.",
-      "storyKey": "ai+disruption+worker",
+      "title": "Opinion | We Need Permitting Reform",
+      "url": "https://www.wsj.com/opinion/we-need-permitting-reform-19eef271",
+      "summary": "Opinion argues the U.S. urgently needs permitting reform to speed infrastructure and energy projects.",
+      "storyKey": "permitting+reform",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Huawei’s Plan to Become China’s Nvidia",
-      "url": "https://www.wsj.com/tech/ai/huaweis-plan-to-become-chinas-nvidia-8af8d8a1",
-      "summary": "Huawei develops plan to become China's dominant AI chipmaker, rivaling Nvidia's market position.",
-      "storyKey": "chips+huawei+nvidia",
+      "title": "Exclusive | Hackers Used Anthropic’s Claude to Break Into OpenAI",
+      "url": "https://www.wsj.com/tech/ai/hackers-used-anthropics-claude-to-break-into-openai-b40ba883",
+      "summary": "Hackers reportedly used Anthropic's Claude AI model to breach OpenAI's systems, raising security concerns.",
+      "storyKey": "anthropic+hack+openai",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "Bill Belichick Is Back at UNC—and He Wants to Clear the Air About His Girlfriend Jordon Hudson",
-      "url": "https://www.wsj.com/sports/football/bill-belichick-jordon-hudson-interview-fdb33b57",
-      "summary": "Bill Belichick returns to UNC, addresses relationship with girlfriend Jordon H",
-      "storyKey": "belichick+hudson+unc",
+      "title": "Steve Ballmer Surrenders to the NBA",
+      "url": "https://www.wsj.com/sports/basketball/steve-ballmer-la-clippers-nba-punishment-8f2d940b",
+      "summary": "Steve Ballmer reportedly submits to NBA authority amid ownership dispute, highlighting league governance dynamics.",
+      "storyKey": "ballmer+nba",
       "source": "WSJ"
     }
   ],
   "research": [
     {
+      "firm": "Goldman Sachs",
+      "show": "Exchanges",
+      "title": "Rich Friedman on the Rise of Private Markets and AI Investing",
+      "url": "https://podcasts.apple.com/us/podcast/rich-friedman-on-the-rise-of-private-markets/id948913991?i=1000790446041&uo=4",
+      "published": "2026-09-18T04:00:00+00:00",
+      "kind": "podcast",
+      "duration": "42 min",
+      "summary": "Rich Friedman, chairman of Goldman Sachs Asset Management, says there are still plenty of investment opportunities in private equity, even as private markets have grown far larger than he would have imagined a few decades ago. In this conversation with Alison Mass, chairman of Investment Banking in Goldman Sachs Global Banking & Markets, on Goldman Sachs Exchanges: Great Investors, he explains why he expects the payoff in artificial intelligence to arrive later than the market assumes, and how the discipline he used to build the firm's merchant banking business over 45 years shapes where he is investing now."
+    },
+    {
+      "firm": "Goldman Sachs",
+      "show": "The Markets",
+      "title": "The Opportunities for Investors amid Higher-for-Longer Interest Rates",
+      "url": "https://podcasts.apple.com/us/podcast/the-opportunities-for-investors-amid-higher-for/id1683802600?i=1000790445240&uo=4",
+      "published": "2026-09-18T04:00:00+00:00",
+      "kind": "podcast",
+      "duration": "11 min",
+      "summary": "The Federal Reserve signaled this week that interest rates could be higher for longer, which may pose a challenge for the broader equity market if tighter policy leads to less consumption, says Anshul Sehgal, global co-head of Fixed Income, Currency and Commodities. However, companies that specialize in computing and data centers could be an opportunity for investors amid elevated interest rates. On The Markets podcast, Sehgal also discusses his take on the latest Federal Open Market Committee meeting and his outlook for longer-term bond yields."
+    },
+    {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
-      "title": "One Fed Hike—Or More to Come?",
-      "url": "https://podcasts.apple.com/us/podcast/one-fed-hike-or-more-to-come/id1466686717?i=1000790092983&uo=4",
-      "published": "2026-09-16T20:30:00+00:00",
+      "title": "Why the Fed May Have Further to Go",
+      "url": "https://podcasts.apple.com/us/podcast/why-the-fed-may-have-further-to-go/id1466686717?i=1000790399771&uo=4",
+      "published": "2026-09-17T20:00:00+00:00",
       "kind": "podcast",
-      "duration": "12 min",
-      "summary": "Our Global Head of Macro Strategy Matthew Hornbach joins our Chief U.S. Economist Michael Gapen to discuss the Fed’s potential next moves and how energy prices are influencing market expectations. Read more insights from Morgan Stanley."
+      "duration": "4 min",
+      "summary": "After raising interest rates for the first time in more than three years, the Fed still doesn’t see policy as restrictive. Our Global Head of Fixed Income Research Andrew Sheets breaks down what that could mean for the monetary policy path. Read more insights from Morgan Stanley."
     },
     {
       "firm": "J.P. Morgan",
       "show": "Making Sense",
-      "title": "Navigating credit markets in 2026: “Don’t let the macro narrative overwhelm the micro”",
-      "url": "https://podcasts.apple.com/us/podcast/navigating-credit-markets-in-2026-dont-let-the-macro/id1456184829?i=1000790033017&uo=4",
-      "published": "2026-09-16T13:06:33+00:00",
+      "title": "The Fed hikes rates. What happens now?",
+      "url": "https://podcasts.apple.com/us/podcast/the-fed-hikes-rates-what-happens-now/id1456184829?i=1000790389532&uo=4",
+      "published": "2026-09-17T18:15:06+00:00",
       "kind": "podcast",
-      "duration": "20 min",
-      "summary": "As Treasury yields stay elevated and spreads remain historically tight, rates appear to be bleeding directly into credit — and investors are increasingly viewing credit through a rates lens. In this episode of Making Sense, Brian LaRocca, head of Vida Portfolio Solutions, Americas, joins Benjamin Kinney, global head of Credit and Public Finance Sales, to discuss what a \"ratesified\" market structure means for price discovery, electronification and portfolio trading. They also explore how policy uncertainty may be better expressed in FX than duration, why AI/data-center financing is still in the early innings (and what that means for clearing prices and volatility) and how private credit is evolving after “SaaSPocalypse.”"
+      "duration": "9 min",
+      "summary": "For the first time in three years, the overnight federal funds rate is going up, as the Federal Open Market Committee (FOMC) voted to raise rates at its September meeting. In this episode of Making Sense, Samantha Azzarello, head of Content Strategy for Global Research, sits down with Michael Feroli, chief U.S. economist at J.P. Morgan, to discuss what went into the FOMC's decision, what to make of chair Kevin Warsh's press conference and how the unanimous Committee vote affects concerns over Fed independence. They also discuss whether rates might be considered restrictive, whether we're at the start of a hiking cycle and what to watch from here."
     }
   ]
 }

@@ -1,31 +1,4 @@
 {
-  "2026-08-27": [
-    {
-      "title": "Bessent’s Moves Test Boundaries Between Treasury and Fed",
-      "url": "https://www.wsj.com/economy/central-banking/bessents-moves-test-boundaries-between-treasury-and-fed-8db4af4a",
-      "storyKey": "bessent+fed"
-    },
-    {
-      "title": "Kioxia, Sandisk to Invest More Than $31 Billion in Memory Chips",
-      "url": "https://www.wsj.com/tech/kioxia-sandisk-to-invest-more-than-31-billion-in-memory-chips-bb6bddbf",
-      "storyKey": "kioxia+sandisk"
-    },
-    {
-      "title": "Opinion | A Car-Market Lesson for Housing",
-      "url": "https://www.wsj.com/opinion/free-expression/a-car-market-lesson-for-housing-f39fc187",
-      "storyKey": "car+housing+market"
-    },
-    {
-      "title": "Nvidia Reports Blowout Quarter, Says Demand for AI Chips Is Getting Even Hotter",
-      "url": "https://www.wsj.com/tech/nvidia-earnings-q2-2027-nvda-stock-8983c8d1",
-      "storyKey": "earnings+nvidia"
-    },
-    {
-      "title": "European Officials Seek Subpoena for Joshua Kushner on Infantino’s FIFA Selloff Plan",
-      "url": "https://www.wsj.com/sports/soccer/fifa-infantino-uefa-kushner-thrive-capital-b612b1b0",
-      "storyKey": "fifa+infantino+kushner"
-    }
-  ],
   "2026-08-28": [
     {
       "title": "The U.S. Created 79,000 Fewer Jobs Than Previously Reported, New Revisions Suggest",
@@ -583,10 +556,34 @@
       "storyKey": "belichick+hudson+unc"
     }
   ],
+  "2026-09-18": [
+    {
+      "title": "Bank of Japan Raises Rates, Making U.S. Less Alluring for Tokyo Investors",
+      "url": "https://www.wsj.com/economy/central-banking/bank-of-japan-raises-benchmark-interest-rate-to-1-25-highest-level-since-1995-2b28cbe9",
+      "storyKey": "boj+hike+rate"
+    },
+    {
+      "title": "Mark Walter, Todd Boehly to Sell Stake in Chelsea for $1.3 Billion",
+      "url": "https://www.wsj.com/business/deals/mark-walter-todd-boehly-to-sell-stake-in-chelsea-for-1-3-billion-de8fb459",
+      "storyKey": "chelsea+sale+stake"
+    },
+    {
+      "title": "Opinion | We Need Permitting Reform",
+      "url": "https://www.wsj.com/opinion/we-need-permitting-reform-19eef271",
+      "storyKey": "permitting+reform"
+    },
+    {
+      "title": "Exclusive | Hackers Used Anthropic’s Claude to Break Into OpenAI",
+      "url": "https://www.wsj.com/tech/ai/hackers-used-anthropics-claude-to-break-into-openai-b40ba883",
+      "storyKey": "anthropic+hack+openai"
+    },
+    {
+      "title": "Steve Ballmer Surrenders to the NBA",
+      "url": "https://www.wsj.com/sports/basketball/steve-ballmer-la-clippers-nba-punishment-8f2d940b",
+      "storyKey": "ballmer+nba"
+    }
+  ],
   "_research": {
-    "2026-08-27": [
-      "https://podcasts.apple.com/us/podcast/when-does-higher-u-s-debt-start-to-matter/id1466686717?i=1000786106351&uo=4"
-    ],
     "2026-08-28": [
       "https://podcasts.apple.com/us/podcast/what-is-the-outlook-for-diesel-and-gasoline-supplies/id1683802600?i=1000786403025&uo=4",
       "https://podcasts.apple.com/us/podcast/jackson-hole-tests-the-feds-framework/id1466686717?i=1000786345990&uo=4",
@@ -655,6 +652,12 @@
     "2026-09-17": [
       "https://podcasts.apple.com/us/podcast/one-fed-hike-or-more-to-come/id1466686717?i=1000790092983&uo=4",
       "https://podcasts.apple.com/us/podcast/navigating-credit-markets-in-2026-dont-let-the-macro/id1456184829?i=1000790033017&uo=4"
+    ],
+    "2026-09-18": [
+      "https://podcasts.apple.com/us/podcast/rich-friedman-on-the-rise-of-private-markets/id948913991?i=1000790446041&uo=4",
+      "https://podcasts.apple.com/us/podcast/the-opportunities-for-investors-amid-higher-for/id1683802600?i=1000790445240&uo=4",
+      "https://podcasts.apple.com/us/podcast/why-the-fed-may-have-further-to-go/id1466686717?i=1000790399771&uo=4",
+      "https://podcasts.apple.com/us/podcast/the-fed-hikes-rates-what-happens-now/id1456184829?i=1000790389532&uo=4"
     ]
   }
 }
