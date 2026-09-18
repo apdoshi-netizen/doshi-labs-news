@@ -1,50 +1,50 @@
 {
   "date": "2026-09-18",
-  "generatedAt": "2026-09-18T09:44:52.824773+00:00",
+  "generatedAt": "2026-09-18T13:35:56.028567+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Bank of Japan Raises Rates, Making U.S. Less Alluring for Tokyo Investors",
-      "url": "https://www.wsj.com/economy/central-banking/bank-of-japan-raises-benchmark-interest-rate-to-1-25-highest-level-since-1995-2b28cbe9",
-      "summary": "Bank of Japan raises interest rates, tightening policy and making U.S. assets less appealing to Tokyo investors.",
-      "storyKey": "boj+hike+rate",
+      "title": "Bank of Canada Flags Need for Rate Boost Should High Fuel Costs Spill Over, Minutes Say",
+      "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-flagged-need-for-rate-hike-should-high-fuel-costs-spill-over-minutes-say-d78b24bb",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Mark Walter, Todd Boehly to Sell Stake in Chelsea for $1.3 Billion",
-      "url": "https://www.wsj.com/business/deals/mark-walter-todd-boehly-to-sell-stake-in-chelsea-for-1-3-billion-de8fb459",
-      "summary": "Mark Walter and Todd Boehly agree to sell their Chelsea FC stake for $1.3 billion.",
-      "storyKey": "chelsea+sale+stake",
+      "title": "The SpaceX IPO Gave This Couple License to Chase Their Dreams",
+      "url": "https://www.wsj.com/business/spacex-ipo-payouts-41e64c45",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | We Need Permitting Reform",
-      "url": "https://www.wsj.com/opinion/we-need-permitting-reform-19eef271",
-      "summary": "Opinion argues the U.S. urgently needs permitting reform to speed infrastructure and energy projects.",
-      "storyKey": "permitting+reform",
+      "title": "Opinion | Development Banks Have Misplaced Priorities",
+      "url": "https://www.wsj.com/opinion/development-banks-have-misplaced-priorities-9b4ade34",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Exclusive | Hackers Used Anthropic’s Claude to Break Into OpenAI",
-      "url": "https://www.wsj.com/tech/ai/hackers-used-anthropics-claude-to-break-into-openai-b40ba883",
-      "summary": "Hackers reportedly used Anthropic's Claude AI model to breach OpenAI's systems, raising security concerns.",
-      "storyKey": "anthropic+hack+openai",
+      "title": "How a Chinese Hacking Firm Tapped AI to Supercharge Cyber-Spying",
+      "url": "https://www.wsj.com/tech/how-a-chinese-hacking-firm-tapped-ai-to-supercharge-cyber-spying-b577c846",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "Steve Ballmer Surrenders to the NBA",
-      "url": "https://www.wsj.com/sports/basketball/steve-ballmer-la-clippers-nba-punishment-8f2d940b",
-      "summary": "Steve Ballmer reportedly submits to NBA authority amid ownership dispute, highlighting league governance dynamics.",
-      "storyKey": "ballmer+nba",
+      "title": "These Teams Have Been Utterly Mediocre. They’re Vying for the Playoffs Anyway.",
+      "url": "https://www.wsj.com/sports/baseball/mlb-playoffs-american-league-mediocre-a918798e",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     }
   ],
