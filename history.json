@@ -558,29 +558,29 @@
   ],
   "2026-09-19": [
     {
-      "title": "Crude Oil Futures Post Back-to Back Losses",
-      "url": "https://www.wsj.com/business/energy-oil/oil-prices-slip-after-feds-first-rate-hike-in-three-years-4efe3854",
-      "storyKey": null
+      "title": "Dow Falls 500 Points as the Federal Reserve Raises Key Interest Rate",
+      "url": "https://www.wsj.com/finance/stocks/oil-pares-gains-stock-futures-steady-as-cautious-optimism-heralds-fed-day-65090da0",
+      "storyKey": "fed+hike+rate"
     },
     {
-      "title": "Brookfield Agrees to $2.9 Billion Acquisition of Australia’s Reliance",
-      "url": "https://www.wsj.com/business/deals/brookfield-agrees-to-2-9-billion-acquisition-of-australias-reliance-ec8240d7",
-      "storyKey": null
+      "title": "Volkswagen Warns on Profit After Big Porsche Write-Down",
+      "url": "https://www.wsj.com/business/autos/volkswagen-lowers-full-year-forecast-as-market-challenges-persist-e1edbbfd",
+      "storyKey": "porsche+volkswagen"
     },
     {
-      "title": "Opinion | American AI Regulation Is Exactly What China Wants",
-      "url": "https://www.wsj.com/opinion/american-ai-regulation-is-exactly-what-china-wants-bba5d688",
-      "storyKey": null
+      "title": "Opinion | The Staring Contest Over the Dollar and the Yen",
+      "url": "https://www.wsj.com/opinion/bank-of-japan-interest-rate-yen-scott-bessent-07bd6b74",
+      "storyKey": "dollar+yen"
     },
     {
-      "title": "The Startup That Built OpenAI’s Biggest Data Center Is Now Making Tiny Ones",
-      "url": "https://www.wsj.com/tech/ai/the-startup-that-built-openais-biggest-data-center-is-now-making-tiny-ones-71f36a4f",
-      "storyKey": null
+      "title": "Microsoft Sets Limits for AI Models as Altman Details Control Risks",
+      "url": "https://www.wsj.com/tech/ai/altman-says-ais-rapid-progress-could-go-very-badly-1e840a6c",
+      "storyKey": "ai+limits+microsoft"
     },
     {
       "title": "Exclusive | The Super Donor Quarterbacking Michigan Sports: Larry Ellison’s Wife",
       "url": "https://www.wsj.com/sports/football/oracle-ellison-michigan-underwood-jolin-65fd9c24",
-      "storyKey": null
+      "storyKey": "donor+ellison+michigan"
     }
   ],
   "_research": {
