@@ -1,31 +1,4 @@
 {
-  "2026-08-28": [
-    {
-      "title": "The U.S. Created 79,000 Fewer Jobs Than Previously Reported, New Revisions Suggest",
-      "url": "https://www.wsj.com/economy/jobs/job-growth-bls-revision-5a632dc9",
-      "storyKey": "jobs+revisions"
-    },
-    {
-      "title": "Exclusive | Chevron, Other U.S. Firms Near Deal to Invest Billions in Venezuelan Oil Fields",
-      "url": "https://www.wsj.com/business/energy-oil/chevron-other-u-s-firms-near-deal-to-invest-billions-in-venezuelan-oil-fields-55739e38",
-      "storyKey": "chevron+venezuela"
-    },
-    {
-      "title": "Opinion | Gag Treasury, You Gag the Market, Too",
-      "url": "https://www.wsj.com/opinion/gag-treasury-you-gag-the-market-too-c1fbb45e?mod",
-      "storyKey": "fed+independence+treasury"
-    },
-    {
-      "title": "Exclusive | Nvidia Pauses Revenue-Sharing Deals With AI Cloud Companies",
-      "url": "https://www.wsj.com/tech/nvidia-pauses-revenue-sharing-deals-with-ai-cloud-companies-9c71454e",
-      "storyKey": "cloud+deals+nvidia"
-    },
-    {
-      "title": "The Contrarian Who Built the NFL’s Best Team by Investing Like Warren Buffett",
-      "url": "https://www.wsj.com/sports/football/nfl-rams-les-snead-the-playbook-06146155",
-      "storyKey": "buffett+investing+nfl"
-    }
-  ],
   "2026-08-29": [
     {
       "title": "Reserve Bank of Australia Remains Jittery About Inflation Risks",
@@ -583,14 +556,34 @@
       "storyKey": null
     }
   ],
+  "2026-09-19": [
+    {
+      "title": "Crude Oil Futures Post Back-to Back Losses",
+      "url": "https://www.wsj.com/business/energy-oil/oil-prices-slip-after-feds-first-rate-hike-in-three-years-4efe3854",
+      "storyKey": null
+    },
+    {
+      "title": "Brookfield Agrees to $2.9 Billion Acquisition of Australia’s Reliance",
+      "url": "https://www.wsj.com/business/deals/brookfield-agrees-to-2-9-billion-acquisition-of-australias-reliance-ec8240d7",
+      "storyKey": null
+    },
+    {
+      "title": "Opinion | American AI Regulation Is Exactly What China Wants",
+      "url": "https://www.wsj.com/opinion/american-ai-regulation-is-exactly-what-china-wants-bba5d688",
+      "storyKey": null
+    },
+    {
+      "title": "The Startup That Built OpenAI’s Biggest Data Center Is Now Making Tiny Ones",
+      "url": "https://www.wsj.com/tech/ai/the-startup-that-built-openais-biggest-data-center-is-now-making-tiny-ones-71f36a4f",
+      "storyKey": null
+    },
+    {
+      "title": "Exclusive | The Super Donor Quarterbacking Michigan Sports: Larry Ellison’s Wife",
+      "url": "https://www.wsj.com/sports/football/oracle-ellison-michigan-underwood-jolin-65fd9c24",
+      "storyKey": null
+    }
+  ],
   "_research": {
-    "2026-08-28": [
-      "https://podcasts.apple.com/us/podcast/what-is-the-outlook-for-diesel-and-gasoline-supplies/id1683802600?i=1000786403025&uo=4",
-      "https://podcasts.apple.com/us/podcast/jackson-hole-tests-the-feds-framework/id1466686717?i=1000786345990&uo=4",
-      "https://www.jpmorgan.com/insights/markets-and-economy/top-market-takeaways/tmt-us-earnings-are-exceptional-stocks-are-playing-catch-up",
-      "https://podcasts.apple.com/us/podcast/the-capital-required-for-critical-supply-chains/id1456184829?i=1000786526655&uo=4",
-      "https://www.jpmorgan.com/insights/markets-and-economy/markets/the-certainty-of-uncertainty"
-    ],
     "2026-08-29": [],
     "2026-08-30": [],
     "2026-08-31": [],
@@ -658,6 +651,9 @@
       "https://podcasts.apple.com/us/podcast/the-opportunities-for-investors-amid-higher-for/id1683802600?i=1000790445240&uo=4",
       "https://podcasts.apple.com/us/podcast/why-the-fed-may-have-further-to-go/id1466686717?i=1000790399771&uo=4",
       "https://podcasts.apple.com/us/podcast/the-fed-hikes-rates-what-happens-now/id1456184829?i=1000790389532&uo=4"
+    ],
+    "2026-09-19": [
+      "https://podcasts.apple.com/us/podcast/trump-xi-talks-put-trade-and-tech-in-focus/id1466686717?i=1000790571955&uo=4"
     ]
   }
 }

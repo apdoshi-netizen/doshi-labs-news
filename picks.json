@@ -1,12 +1,12 @@
 {
-  "date": "2026-09-18",
-  "generatedAt": "2026-09-18T13:35:56.028567+00:00",
+  "date": "2026-09-19",
+  "generatedAt": "2026-09-19T09:29:48.674024+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Bank of Canada Flags Need for Rate Boost Should High Fuel Costs Spill Over, Minutes Say",
-      "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-flagged-need-for-rate-hike-should-high-fuel-costs-spill-over-minutes-say-d78b24bb",
+      "title": "Crude Oil Futures Post Back-to Back Losses",
+      "url": "https://www.wsj.com/business/energy-oil/oil-prices-slip-after-feds-first-rate-hike-in-three-years-4efe3854",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -14,8 +14,8 @@
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "The SpaceX IPO Gave This Couple License to Chase Their Dreams",
-      "url": "https://www.wsj.com/business/spacex-ipo-payouts-41e64c45",
+      "title": "Brookfield Agrees to $2.9 Billion Acquisition of Australia’s Reliance",
+      "url": "https://www.wsj.com/business/deals/brookfield-agrees-to-2-9-billion-acquisition-of-australias-reliance-ec8240d7",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -23,8 +23,8 @@
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Development Banks Have Misplaced Priorities",
-      "url": "https://www.wsj.com/opinion/development-banks-have-misplaced-priorities-9b4ade34",
+      "title": "Opinion | American AI Regulation Is Exactly What China Wants",
+      "url": "https://www.wsj.com/opinion/american-ai-regulation-is-exactly-what-china-wants-bba5d688",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -32,8 +32,8 @@
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "How a Chinese Hacking Firm Tapped AI to Supercharge Cyber-Spying",
-      "url": "https://www.wsj.com/tech/how-a-chinese-hacking-firm-tapped-ai-to-supercharge-cyber-spying-b577c846",
+      "title": "The Startup That Built OpenAI’s Biggest Data Center Is Now Making Tiny Ones",
+      "url": "https://www.wsj.com/tech/ai/the-startup-that-built-openais-biggest-data-center-is-now-making-tiny-ones-71f36a4f",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -41,8 +41,8 @@
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "These Teams Have Been Utterly Mediocre. They’re Vying for the Playoffs Anyway.",
-      "url": "https://www.wsj.com/sports/baseball/mlb-playoffs-american-league-mediocre-a918798e",
+      "title": "Exclusive | The Super Donor Quarterbacking Michigan Sports: Larry Ellison’s Wife",
+      "url": "https://www.wsj.com/sports/football/oracle-ellison-michigan-underwood-jolin-65fd9c24",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -50,44 +50,14 @@
   ],
   "research": [
     {
-      "firm": "Goldman Sachs",
-      "show": "Exchanges",
-      "title": "Rich Friedman on the Rise of Private Markets and AI Investing",
-      "url": "https://podcasts.apple.com/us/podcast/rich-friedman-on-the-rise-of-private-markets/id948913991?i=1000790446041&uo=4",
-      "published": "2026-09-18T04:00:00+00:00",
-      "kind": "podcast",
-      "duration": "42 min",
-      "summary": "Rich Friedman, chairman of Goldman Sachs Asset Management, says there are still plenty of investment opportunities in private equity, even as private markets have grown far larger than he would have imagined a few decades ago. In this conversation with Alison Mass, chairman of Investment Banking in Goldman Sachs Global Banking & Markets, on Goldman Sachs Exchanges: Great Investors, he explains why he expects the payoff in artificial intelligence to arrive later than the market assumes, and how the discipline he used to build the firm's merchant banking business over 45 years shapes where he is investing now."
-    },
-    {
-      "firm": "Goldman Sachs",
-      "show": "The Markets",
-      "title": "The Opportunities for Investors amid Higher-for-Longer Interest Rates",
-      "url": "https://podcasts.apple.com/us/podcast/the-opportunities-for-investors-amid-higher-for/id1683802600?i=1000790445240&uo=4",
-      "published": "2026-09-18T04:00:00+00:00",
-      "kind": "podcast",
-      "duration": "11 min",
-      "summary": "The Federal Reserve signaled this week that interest rates could be higher for longer, which may pose a challenge for the broader equity market if tighter policy leads to less consumption, says Anshul Sehgal, global co-head of Fixed Income, Currency and Commodities. However, companies that specialize in computing and data centers could be an opportunity for investors amid elevated interest rates. On The Markets podcast, Sehgal also discusses his take on the latest Federal Open Market Committee meeting and his outlook for longer-term bond yields."
-    },
-    {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
-      "title": "Why the Fed May Have Further to Go",
-      "url": "https://podcasts.apple.com/us/podcast/why-the-fed-may-have-further-to-go/id1466686717?i=1000790399771&uo=4",
-      "published": "2026-09-17T20:00:00+00:00",
+      "title": "Trump-Xi Talks Put Trade and Tech in Focus",
+      "url": "https://podcasts.apple.com/us/podcast/trump-xi-talks-put-trade-and-tech-in-focus/id1466686717?i=1000790571955&uo=4",
+      "published": "2026-09-18T20:00:00+00:00",
       "kind": "podcast",
-      "duration": "4 min",
-      "summary": "After raising interest rates for the first time in more than three years, the Fed still doesn’t see policy as restrictive. Our Global Head of Fixed Income Research Andrew Sheets breaks down what that could mean for the monetary policy path. Read more insights from Morgan Stanley."
-    },
-    {
-      "firm": "J.P. Morgan",
-      "show": "Making Sense",
-      "title": "The Fed hikes rates. What happens now?",
-      "url": "https://podcasts.apple.com/us/podcast/the-fed-hikes-rates-what-happens-now/id1456184829?i=1000790389532&uo=4",
-      "published": "2026-09-17T18:15:06+00:00",
-      "kind": "podcast",
-      "duration": "9 min",
-      "summary": "For the first time in three years, the overnight federal funds rate is going up, as the Federal Open Market Committee (FOMC) voted to raise rates at its September meeting. In this episode of Making Sense, Samantha Azzarello, head of Content Strategy for Global Research, sits down with Michael Feroli, chief U.S. economist at J.P. Morgan, to discuss what went into the FOMC's decision, what to make of chair Kevin Warsh's press conference and how the unanimous Committee vote affects concerns over Fed independence. They also discuss whether rates might be considered restrictive, whether we're at the start of a hiking cycle and what to watch from here."
+      "duration": "5 min",
+      "summary": "As President Xi heads to Washington, trade, rare earths and AI are set to dominate the agenda. Our Head of U.S. Public Policy Research Ariana Salvatore unpacks what the meeting could mean for supply chains, tech stocks and the broader market. Read more insights from Morgan Stanley."
     }
   ]
 }
