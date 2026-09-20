@@ -1,12 +1,12 @@
 {
   "date": "2026-09-20",
-  "generatedAt": "2026-09-20T09:48:27.815259+00:00",
+  "generatedAt": "2026-09-20T13:34:55.884331+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "2-Year Yield Hits Highest Level Since 2024",
-      "url": "https://www.wsj.com/finance/jgb-yields-decline-as-energy-inflation-fears-ease-85bf5679",
+      "title": "Lennar Cuts Deliveries Target Again on Rate Pressure, Housing Market Conditions",
+      "url": "https://www.wsj.com/business/earnings/lennar-cuts-deliveries-target-again-on-rate-pressure-housing-market-conditions-363012dd",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -14,8 +14,8 @@
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Anthropic’s IPO Will Happen a Month Later Than Expected",
-      "url": "https://www.wsj.com/tech/ai/anthropics-ipo-will-happen-a-month-later-than-expected-a334b10e",
+      "title": "Bilfinger Shares Fall 20% on Lowered Outlook, Job Cuts",
+      "url": "https://www.wsj.com/business/earnings/bilfinger-shares-fall-20-on-lowered-outlook-job-cuts-c843f681",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -23,8 +23,8 @@
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Opinion of U.S. Schools Hits a New Low…",
-      "url": "https://www.wsj.com/opinion/opinion-of-u-s-schools-hits-a-new-low-defa3d37",
+      "title": "Opinion | Gambling, Not Nudity, Is the Real Sydney Sweeney Scandal",
+      "url": "https://www.wsj.com/opinion/free-expression/gambling-not-nudity-is-the-real-sydney-sweeney-scandal-d2867e5f",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -41,8 +41,8 @@
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The Hottest Spot in Sports This Weekend is Oxford, Miss.",
-      "url": "https://www.wsj.com/sports/football/the-hottest-spot-in-sports-this-weekend-is-oxford-miss-15caf2ec",
+      "title": "Lane Kiffin Nearly Broke Ole Miss Again. Then His Former QB Produced a Masterpiece",
+      "url": "https://www.wsj.com/sports/football/trinidad-chambliss-lane-kiffin-ole-miss-lsu-9bc15d82",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
