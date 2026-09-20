@@ -1,63 +1,52 @@
 {
-  "date": "2026-09-19",
-  "generatedAt": "2026-09-19T13:10:02.417848+00:00",
+  "date": "2026-09-20",
+  "generatedAt": "2026-09-20T09:48:27.815259+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Dow Falls 500 Points as the Federal Reserve Raises Key Interest Rate",
-      "url": "https://www.wsj.com/finance/stocks/oil-pares-gains-stock-futures-steady-as-cautious-optimism-heralds-fed-day-65090da0",
-      "summary": "Fed raises rates for first time since 2023, sending Dow down 500 points amid inflation concerns.",
-      "storyKey": "fed+hike+rate",
+      "title": "2-Year Yield Hits Highest Level Since 2024",
+      "url": "https://www.wsj.com/finance/jgb-yields-decline-as-energy-inflation-fears-ease-85bf5679",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Volkswagen Warns on Profit After Big Porsche Write-Down",
-      "url": "https://www.wsj.com/business/autos/volkswagen-lowers-full-year-forecast-as-market-challenges-persist-e1edbbfd",
-      "summary": "Volkswagen warns on profit after major write-down tied to Porsche brand struggles.",
-      "storyKey": "porsche+volkswagen",
+      "title": "Anthropic’s IPO Will Happen a Month Later Than Expected",
+      "url": "https://www.wsj.com/tech/ai/anthropics-ipo-will-happen-a-month-later-than-expected-a334b10e",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | The Staring Contest Over the Dollar and the Yen",
-      "url": "https://www.wsj.com/opinion/bank-of-japan-interest-rate-yen-scott-bessent-07bd6b74",
-      "summary": "Column examines standoff dynamics between dollar and yen currency policies.",
-      "storyKey": "dollar+yen",
+      "title": "Opinion | Opinion of U.S. Schools Hits a New Low…",
+      "url": "https://www.wsj.com/opinion/opinion-of-u-s-schools-hits-a-new-low-defa3d37",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Microsoft Sets Limits for AI Models as Altman Details Control Risks",
-      "url": "https://www.wsj.com/tech/ai/altman-says-ais-rapid-progress-could-go-very-badly-1e840a6c",
-      "summary": "Microsoft imposes new limits on AI models as Altman details control risks.",
-      "storyKey": "ai+limits+microsoft",
+      "title": "The Squishy Language Shaping the AI Debate",
+      "url": "https://www.wsj.com/tech/ai/the-squishy-language-shaping-the-ai-debate-8422c687",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "Exclusive | The Super Donor Quarterbacking Michigan Sports: Larry Ellison’s Wife",
-      "url": "https://www.wsj.com/sports/football/oracle-ellison-michigan-underwood-jolin-65fd9c24",
-      "summary": "Larry Ellison's wife emerges as major financial backer shaping Michigan athletics program.",
-      "storyKey": "donor+ellison+michigan",
+      "title": "The Hottest Spot in Sports This Weekend is Oxford, Miss.",
+      "url": "https://www.wsj.com/sports/football/the-hottest-spot-in-sports-this-weekend-is-oxford-miss-15caf2ec",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     }
   ],
-  "research": [
-    {
-      "firm": "Morgan Stanley",
-      "show": "Thoughts on the Market",
-      "title": "Trump-Xi Talks Put Trade and Tech in Focus",
-      "url": "https://podcasts.apple.com/us/podcast/trump-xi-talks-put-trade-and-tech-in-focus/id1466686717?i=1000790571955&uo=4",
-      "published": "2026-09-18T20:00:00+00:00",
-      "kind": "podcast",
-      "duration": "5 min",
-      "summary": "As President Xi heads to Washington, trade, rare earths and AI are set to dominate the agenda. Our Head of U.S. Public Policy Research Ariana Salvatore unpacks what the meeting could mean for supply chains, tech stocks and the broader market. Read more insights from Morgan Stanley."
-    }
-  ]
+  "research": []
 }

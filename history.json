@@ -1,31 +1,4 @@
 {
-  "2026-08-29": [
-    {
-      "title": "Reserve Bank of Australia Remains Jittery About Inflation Risks",
-      "url": "https://www.wsj.com/economy/central-banking/reserve-bank-of-australia-remains-jittery-about-inflation-risks-3d673939",
-      "storyKey": null
-    },
-    {
-      "title": "Nvidia’s Earnings Will Test Wall Street’s Faith in the AI Boom",
-      "url": "https://www.wsj.com/articles/nvidias-earnings-will-test-wall-streets-faith-in-the-ai-boom-09865fea",
-      "storyKey": null
-    },
-    {
-      "title": "Opinion | Trump’s Texas Tariff Stakes",
-      "url": "https://www.wsj.com/opinion/donald-trump-tariffs-unpopular-texas-poll-644bac44",
-      "storyKey": null
-    },
-    {
-      "title": "South Korea’s ‘AI for All’ Push Gives Free Access to Every Citizen",
-      "url": "https://www.wsj.com/tech/ai/south-koreas-ai-for-all-push-gives-free-access-to-every-citizen-451f6b2c",
-      "storyKey": null
-    },
-    {
-      "title": "There’s a U.S.-Canada Border War—in Bass Fishing",
-      "url": "https://www.wsj.com/sports/theres-a-us-canada-border-warin-bass-fishing-86afbfe3",
-      "storyKey": null
-    }
-  ],
   "2026-08-30": [
     {
       "title": "Warsh Makes the Case for Higher Rates and Raises the Bar for Standing Pat",
@@ -583,8 +556,34 @@
       "storyKey": "donor+ellison+michigan"
     }
   ],
+  "2026-09-20": [
+    {
+      "title": "2-Year Yield Hits Highest Level Since 2024",
+      "url": "https://www.wsj.com/finance/jgb-yields-decline-as-energy-inflation-fears-ease-85bf5679",
+      "storyKey": null
+    },
+    {
+      "title": "Anthropic’s IPO Will Happen a Month Later Than Expected",
+      "url": "https://www.wsj.com/tech/ai/anthropics-ipo-will-happen-a-month-later-than-expected-a334b10e",
+      "storyKey": null
+    },
+    {
+      "title": "Opinion | Opinion of U.S. Schools Hits a New Low…",
+      "url": "https://www.wsj.com/opinion/opinion-of-u-s-schools-hits-a-new-low-defa3d37",
+      "storyKey": null
+    },
+    {
+      "title": "The Squishy Language Shaping the AI Debate",
+      "url": "https://www.wsj.com/tech/ai/the-squishy-language-shaping-the-ai-debate-8422c687",
+      "storyKey": null
+    },
+    {
+      "title": "The Hottest Spot in Sports This Weekend is Oxford, Miss.",
+      "url": "https://www.wsj.com/sports/football/the-hottest-spot-in-sports-this-weekend-is-oxford-miss-15caf2ec",
+      "storyKey": null
+    }
+  ],
   "_research": {
-    "2026-08-29": [],
     "2026-08-30": [],
     "2026-08-31": [],
     "2026-09-01": [
@@ -654,6 +653,7 @@
     ],
     "2026-09-19": [
       "https://podcasts.apple.com/us/podcast/trump-xi-talks-put-trade-and-tech-in-focus/id1466686717?i=1000790571955&uo=4"
-    ]
+    ],
+    "2026-09-20": []
   }
 }
