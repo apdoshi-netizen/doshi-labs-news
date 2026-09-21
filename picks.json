@@ -1,12 +1,12 @@
 {
-  "date": "2026-09-20",
-  "generatedAt": "2026-09-20T13:34:55.884331+00:00",
+  "date": "2026-09-21",
+  "generatedAt": "2026-09-21T10:42:10.439163+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Lennar Cuts Deliveries Target Again on Rate Pressure, Housing Market Conditions",
-      "url": "https://www.wsj.com/business/earnings/lennar-cuts-deliveries-target-again-on-rate-pressure-housing-market-conditions-363012dd",
+      "title": "Crude Oil Futures Post Back-to Back Losses",
+      "url": "https://www.wsj.com/business/energy-oil/oil-prices-slip-after-feds-first-rate-hike-in-three-years-4efe3854",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -14,8 +14,8 @@
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Bilfinger Shares Fall 20% on Lowered Outlook, Job Cuts",
-      "url": "https://www.wsj.com/business/earnings/bilfinger-shares-fall-20-on-lowered-outlook-job-cuts-c843f681",
+      "title": "Exclusive | Lakers Buyers Lay Out Plans to Reach $30 Billion Valuation in Pitch to Investors",
+      "url": "https://www.wsj.com/finance/lakers-buyers-lay-out-plans-to-reach-30-billion-valuation-in-pitch-to-investors-66945709",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -23,8 +23,8 @@
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Gambling, Not Nudity, Is the Real Sydney Sweeney Scandal",
-      "url": "https://www.wsj.com/opinion/free-expression/gambling-not-nudity-is-the-real-sydney-sweeney-scandal-d2867e5f",
+      "title": "Opinion | AI Is Starting to Play Cupid",
+      "url": "https://www.wsj.com/opinion/free-expression/ai-is-starting-to-play-cupid-3b7c77df",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -32,8 +32,8 @@
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "The Squishy Language Shaping the AI Debate",
-      "url": "https://www.wsj.com/tech/ai/the-squishy-language-shaping-the-ai-debate-8422c687",
+      "title": "Irish Data Watchdog Fines Google $463 Million Over Location Data Handling",
+      "url": "https://www.wsj.com/tech/irish-data-watchdog-fines-google-463-million-over-location-data-handling-6a74ba23",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -41,8 +41,8 @@
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "Lane Kiffin Nearly Broke Ole Miss Again. Then His Former QB Produced a Masterpiece",
-      "url": "https://www.wsj.com/sports/football/trinidad-chambliss-lane-kiffin-ole-miss-lsu-9bc15d82",
+      "title": "Is This the Most Shocking Collapse in College Football History?",
+      "url": "https://www.wsj.com/sports/football/vanderbilt-north-carolina-state-7e7d924a",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
