@@ -1,12 +1,12 @@
 {
-  "date": "2026-09-21",
-  "generatedAt": "2026-09-21T15:53:40.301600+00:00",
+  "date": "2026-09-22",
+  "generatedAt": "2026-09-22T09:56:23.991472+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Week Ahead for FX, Bonds: U.S. PMI Data, Various Central Bank Decisions in Focus",
-      "url": "https://www.wsj.com/economy/week-ahead-for-fx-bonds-u-s-pmi-data-various-central-bank-decisions-in-focus-1be5eb5a",
+      "title": "Investors Seen Reluctant to Chase Tighter French-German Yield Spread",
+      "url": "https://www.wsj.com/finance/macro-backdrop-might-weigh-on-two-year-u-s-treasury-auction-ebc5d728",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -14,8 +14,8 @@
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Trump’s Greenland Deal Eases Way for U.S. Business on Arctic Island",
-      "url": "https://www.wsj.com/world/trumps-greenland-deal-eases-way-for-u-s-business-on-arctic-island-1cbef960",
+      "title": "The Volatile Finances of Airline Pilots, America’s Unpredictable Millionaires",
+      "url": "https://www.wsj.com/personal-finance/the-volatile-finances-of-airline-pilots-americas-unpredictable-millionaires-cd403364",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -23,8 +23,8 @@
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | AI Is Starting to Play Cupid",
-      "url": "https://www.wsj.com/opinion/free-expression/ai-is-starting-to-play-cupid-3b7c77df",
+      "title": "Opinion | To Wean Off China, Build Domestic Batteries",
+      "url": "https://www.wsj.com/opinion/to-wean-off-china-build-domestic-batteries-4a11bce6",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -32,8 +32,8 @@
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "‘Sketchy AF’: What to Know About How OpenAI Staff Discussed Book-Pirating",
-      "url": "https://www.wsj.com/tech/ai/sketchy-af-what-to-know-about-how-openai-staff-discussed-book-pirating-fdc788a1",
+      "title": "Alibaba Unveils New AI Chip, Outlines Plan for Larger Model",
+      "url": "https://www.wsj.com/tech/ai/alibaba-unveils-new-ai-chip-outlines-plan-for-larger-model-1a989146",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -41,12 +41,43 @@
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "Is It Rude to Win a Football Game 84-0—or Am I Just Soft?",
-      "url": "https://www.wsj.com/sports/football/oregon-portland-state-84-0-b48f9b2a",
+      "title": "The Hottest Spot in Sports This Weekend is Oxford, Miss.",
+      "url": "https://www.wsj.com/sports/football/the-hottest-spot-in-sports-this-weekend-is-oxford-miss-15caf2ec",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
     }
   ],
-  "research": []
+  "research": [
+    {
+      "firm": "Goldman Sachs",
+      "show": "Talks at GS",
+      "title": "Ryan Serhant on the Art of Selling Luxury Real Estate",
+      "url": "https://podcasts.apple.com/us/podcast/ryan-serhant-on-the-art-of-selling-luxury-real-estate/id1373320104?i=1000790974203&uo=4",
+      "published": "2026-09-21T17:14:00+00:00",
+      "kind": "podcast",
+      "duration": "19 min",
+      "summary": "The luxury real estate brokerage SERHANT. generates over $1 billion in transactions every month. On Talks at GS, Ryan Serhant, founder and CEO of SERHANT., joins Tucker York, chair of Goldman Sachs global Wealth Management, to discuss his transition from the theatre to real estate during the 2008 financial crisis, his video-led sales strategies, and how calculated risks have led to the company’s success."
+    },
+    {
+      "firm": "Morgan Stanley",
+      "show": "Thoughts on the Market",
+      "title": "Market Resilience Isn’t Complacency",
+      "url": "https://podcasts.apple.com/us/podcast/market-resilience-isnt-complacency/id1466686717?i=1000790995295&uo=4",
+      "published": "2026-09-21T20:30:00+00:00",
+      "kind": "podcast",
+      "duration": "5 min",
+      "summary": "Our CIO and Chief U.S. Equity Strategist Mike Wilson discusses why quality stocks, strong earnings and price momentum support his view that the bull market remains intact. Read more insights from Morgan Stanley."
+    },
+    {
+      "firm": "J.P. Morgan",
+      "show": "Making Sense",
+      "title": "Why tokenization is gaining momentum",
+      "url": "https://podcasts.apple.com/us/podcast/why-tokenization-is-gaining-momentum/id1456184829?i=1000791055979&uo=4",
+      "published": "2026-09-22T06:00:00+00:00",
+      "kind": "podcast",
+      "duration": "19 min",
+      "summary": "Tokenization and digital assets are moving from experimentation to real-world implementation, from hype to measurable outcomes. In this episode of Making Sense, Hannah Elson, global head of Custody and EMEA head of Securities Services, sits down with Oli Harris, global head of Kinexys by J.P. Morgan, to discuss what’s changed over the last 18 months: clearer regulation, growing institutional adoption and the rise of credible “on-chain money” that enables true delivery-versus-payment settlement. They explore where clients are investing first, including 24/7 cross-border payments, liquidity and collateral efficiency and tokenized money market funds, as well as the hurdles still to solve, such as interoperability, privacy and governance and user experience."
+    }
+  ]
 }
