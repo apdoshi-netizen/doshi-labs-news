@@ -1,23 +1,23 @@
 {
   "date": "2026-09-23",
-  "generatedAt": "2026-09-23T12:45:22.271896+00:00",
+  "generatedAt": "2026-09-23T14:14:00.731077+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "White House Considers Ban on Diesel Exports as Prices Keep Rising",
-      "url": "https://www.wsj.com/logistics-report/white-house-considers-ban-on-diesel-exports-as-prices-keep-rising-fd3eec84",
-      "summary": "White House considers banning diesel exports amid record fuel-price increases, a policy move with inflation implications.",
-      "storyKey": "ban+diesel+export",
+      "title": "Solid Economic Data Show U.S. Economy Running Hot Ahead of Fed Decision",
+      "url": "https://www.wsj.com/economy/central-banking/solid-economic-data-show-u-s-economy-running-hot-ahead-of-fed-decision-6b10c235",
+      "summary": "Solid US economic data show economy running hot ahead of Fed's rate decision.",
+      "storyKey": "data+economic+fed",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "DoorDash to Pay $131.5 Million to Resolve NYC Investigation Into Minimum-Pay Law Compliance",
-      "url": "https://www.wsj.com/business/doordash-to-pay-131-5-million-to-resolve-nyc-investigation-into-minimum-pay-law-compliance-8237c60e",
-      "summary": "DoorDash to pay $131.5 million to resolve NYC probe into minimum-pay law compliance.",
-      "storyKey": "doordash+nyc+settlement",
+      "title": "African Fintech Airtel Money Targets $9 Billion Valuation With London Listing",
+      "url": "https://www.wsj.com/business/deals/airtel-money-plans-london-listing-e50f163d",
+      "summary": "African fintech Airtel Money targets $9 billion valuation with planned London listing.",
+      "storyKey": "airtel+ipo+money",
       "source": "WSJ"
     },
     {
@@ -25,7 +25,7 @@
       "label": "Op-Ed",
       "title": "Opinion | Antitrust Lays an Egg",
       "url": "https://www.wsj.com/opinion/antitrust-lays-an-egg-e875fc82",
-      "summary": "Opinion argues antitrust enforcement efforts have failed, a substantive policy critique.",
+      "summary": "Opinion argues current antitrust enforcement efforts are failing, calling policy approach flawed.",
       "storyKey": "antitrust+enforcement",
       "source": "WSJ"
     },
@@ -34,7 +34,7 @@
       "label": "Tech",
       "title": "Meta’s New AI Agent Is an Instant Hit—and the Backlash Has Already Begun",
       "url": "https://www.wsj.com/tech/ai/meta-ai-agent-muse-reactions-5bf236af",
-      "summary": "Meta’s new AI agent becomes an instant hit while sparking swift user backlash.",
+      "summary": "Meta's new AI agent becomes instant hit, but sparks quick user backlash.",
       "storyKey": "agent+ai+meta",
       "source": "WSJ"
     },
@@ -43,8 +43,8 @@
       "label": "Sports",
       "title": "An Epidemic of Quarterback Injuries Is Already Rewriting the NFL Season",
       "url": "https://www.wsj.com/sports/football/jaxson-dart-caleb-williams-quarterback-injuries-f070f9ff",
-      "summary": "Opinion piece examines how a wave of quarterback injuries is reshaping the NFL season.",
-      "storyKey": "injuries+nfl+quarterback",
+      "summary": "Epidemic of quarterback injuries is already reshaping the NFL season's competitive landscape.",
+      "storyKey": "injuries+nfl+qb",
       "source": "WSJ"
     }
   ],
