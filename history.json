@@ -1,31 +1,4 @@
 {
-  "2026-09-01": [
-    {
-      "title": "Pulpwood Market Collapse Hits South’s Forest Economy",
-      "url": "https://www.wsj.com/logistics-report/pulpwood-market-collapse-hits-souths-forest-economy-2fa73ff8",
-      "storyKey": null
-    },
-    {
-      "title": "Keurig Dr Pepper to Sell Chobani Stake, Pennsylvania Campus for $925 Million",
-      "url": "https://www.wsj.com/business/keurig-dr-pepper-to-sell-chobani-stake-pennsylvania-campus-for-925-million-767c7999",
-      "storyKey": null
-    },
-    {
-      "title": "Opinion | You Need to Invest in AI, but Don’t Expect a Return",
-      "url": "https://www.wsj.com/opinion/you-need-to-invest-in-ai-but-dont-expect-a-return-401b16d4",
-      "storyKey": null
-    },
-    {
-      "title": "Meta’s Day of Reckoning",
-      "url": "https://www.wsj.com/tech/ai/metas-day-of-reckoning-aec1f826",
-      "storyKey": null
-    },
-    {
-      "title": "The Novel Solution Powering Baseball’s Biggest Turnaround: Swinging Harder",
-      "url": "https://www.wsj.com/sports/baseball/white-sox-bat-speed-vargas-murakami-565fd781",
-      "storyKey": null
-    }
-  ],
   "2026-09-02": [
     {
       "title": "Oil Hovers Close to $95 as Middle East Conflict Further Pressures Bonds",
@@ -583,13 +556,34 @@
       "storyKey": null
     }
   ],
+  "2026-09-23": [
+    {
+      "title": "White House Considers Ban on Diesel Exports as Prices Keep Rising",
+      "url": "https://www.wsj.com/logistics-report/white-house-considers-ban-on-diesel-exports-as-prices-keep-rising-fd3eec84",
+      "storyKey": "ban+diesel+export"
+    },
+    {
+      "title": "DoorDash to Pay $131.5 Million to Resolve NYC Investigation Into Minimum-Pay Law Compliance",
+      "url": "https://www.wsj.com/business/doordash-to-pay-131-5-million-to-resolve-nyc-investigation-into-minimum-pay-law-compliance-8237c60e",
+      "storyKey": "doordash+nyc+settlement"
+    },
+    {
+      "title": "Opinion | Antitrust Lays an Egg",
+      "url": "https://www.wsj.com/opinion/antitrust-lays-an-egg-e875fc82",
+      "storyKey": "antitrust+enforcement"
+    },
+    {
+      "title": "Meta’s New AI Agent Is an Instant Hit—and the Backlash Has Already Begun",
+      "url": "https://www.wsj.com/tech/ai/meta-ai-agent-muse-reactions-5bf236af",
+      "storyKey": "agent+ai+meta"
+    },
+    {
+      "title": "An Epidemic of Quarterback Injuries Is Already Rewriting the NFL Season",
+      "url": "https://www.wsj.com/sports/football/jaxson-dart-caleb-williams-quarterback-injuries-f070f9ff",
+      "storyKey": "injuries+nfl+quarterback"
+    }
+  ],
   "_research": {
-    "2026-09-01": [
-      "https://podcasts.apple.com/us/podcast/the-outlook-for-data-center-power-demand-as-ai-token/id948913991?i=1000787108752&uo=4",
-      "https://podcasts.apple.com/us/podcast/from-coffee-to-cans-a-u-s-caffeine-shift/id1466686717?i=1000787055456&uo=4",
-      "https://podcasts.apple.com/us/podcast/rear-window/id1367963156?i=1000787188929&uo=4",
-      "https://podcasts.apple.com/us/podcast/innovate-to-simplify-structuring-for-modern-markets/id1456184829?i=1000787186302&uo=4"
-    ],
     "2026-09-02": [
       "https://podcasts.apple.com/us/podcast/the-%2433-billion-ai-security-opportunity/id1466686717?i=1000787244906&uo=4",
       "https://www.jpmorgan.com/insights/markets-and-economy/markets/machine-learning-in-private-credit"
@@ -658,6 +652,9 @@
       "https://podcasts.apple.com/us/podcast/ryan-serhant-on-the-art-of-selling-luxury-real-estate/id1373320104?i=1000790974203&uo=4",
       "https://podcasts.apple.com/us/podcast/market-resilience-isnt-complacency/id1466686717?i=1000790995295&uo=4",
       "https://podcasts.apple.com/us/podcast/why-tokenization-is-gaining-momentum/id1456184829?i=1000791055979&uo=4"
+    ],
+    "2026-09-23": [
+      "https://podcasts.apple.com/us/podcast/why-central-banks-are-raising-rates-again/id1466686717?i=1000791174250&uo=4"
     ]
   }
 }
