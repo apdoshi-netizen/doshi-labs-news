@@ -1,31 +1,4 @@
 {
-  "2026-09-02": [
-    {
-      "title": "Oil Hovers Close to $95 as Middle East Conflict Further Pressures Bonds",
-      "url": "https://www.wsj.com/finance/investing/oil-hovers-close-to-95-as-middle-east-conflict-further-pressures-bonds-877d8321",
-      "storyKey": "bonds+mideast+oil"
-    },
-    {
-      "title": "Dell Technologies Boosts Fiscal Year Outlook by $25 Billion as Server Revenue Surges",
-      "url": "https://www.wsj.com/business/earnings/dell-technologies-boosts-fiscal-year-outlook-by-25-billion-as-server-revenue-surges-378fc240",
-      "storyKey": "ai+dell+earnings"
-    },
-    {
-      "title": "Opinion | The Meta Settlement Makes Big Tech Bigger",
-      "url": "https://www.wsj.com/opinion/the-meta-settlement-makes-big-tech-bigger-874a3e05",
-      "storyKey": "bigtech+meta+settlement"
-    },
-    {
-      "title": "Exclusive | The $5.5 Billion Perk SoftBank’s Data-Center Venture Offered to Land OpenAI",
-      "url": "https://www.wsj.com/tech/ai/the-5-5-billion-perk-softbanks-data-center-venture-offered-to-land-openai-a5c7fb5e",
-      "storyKey": "datacenter+openai+softbank"
-    },
-    {
-      "title": "Stan Kroenke Expands His Sports Empire With $4 Billion Angels Purchase",
-      "url": "https://www.wsj.com/sports/baseball/stan-kroenke-los-angeles-angels-arte-moreno-a09c93b6",
-      "storyKey": "angels+kroenke+mlb"
-    }
-  ],
   "2026-09-03": [
     {
       "title": "Bank of Canada Expected to Remain On Hold as Trade Conflict With U.S. Escalates",
@@ -583,11 +556,34 @@
       "storyKey": "injuries+nfl+qb"
     }
   ],
+  "2026-09-24": [
+    {
+      "title": "Fed’s Barkin Says One Rate Hike May Not Be Enough to Tame Inflation",
+      "url": "https://www.wsj.com/economy/central-banking/feds-barkin-says-one-rate-hike-may-not-be-enough-to-tame-inflation-dd338c6c",
+      "storyKey": null
+    },
+    {
+      "title": "Delivery Hero Cancels CEO Exit Plans Due to Uber’s $14.8 Billion Takeover Bid",
+      "url": "https://www.wsj.com/business/delivery-hero-cancels-ceo-exit-plans-due-to-ubers-14-8-billion-takeover-bid-de155bf8",
+      "storyKey": null
+    },
+    {
+      "title": "Opinion | Beijing Turns AI Against Tibetans Worldwide",
+      "url": "https://www.wsj.com/opinion/beijing-turns-ai-against-tibetans-worldwide-a95c6132",
+      "storyKey": null
+    },
+    {
+      "title": "K-Pop Is Betting on AI and Robots. Will Fans Buy It?",
+      "url": "https://www.wsj.com/tech/ai/k-pop-is-betting-on-ai-and-robots-will-fans-buy-it-6b3f161c",
+      "storyKey": null
+    },
+    {
+      "title": "The College Football Team That Rents a New Starting Quarterback—Every Single Season",
+      "url": "https://www.wsj.com/sports/football/miami-quarterback-darian-mensah-3dde05e4",
+      "storyKey": null
+    }
+  ],
   "_research": {
-    "2026-09-02": [
-      "https://podcasts.apple.com/us/podcast/the-%2433-billion-ai-security-opportunity/id1466686717?i=1000787244906&uo=4",
-      "https://www.jpmorgan.com/insights/markets-and-economy/markets/machine-learning-in-private-credit"
-    ],
     "2026-09-03": [
       "https://podcasts.apple.com/us/podcast/3-policy-catalysts-to-watch-this-fall/id1466686717?i=1000787511750&uo=4",
       "https://www.jpmorgan.com/insights/markets-and-economy/economy/us-canada-tariffs-why-autos-and-oil-matter"
@@ -655,6 +651,10 @@
     ],
     "2026-09-23": [
       "https://podcasts.apple.com/us/podcast/why-central-banks-are-raising-rates-again/id1466686717?i=1000791174250&uo=4"
+    ],
+    "2026-09-24": [
+      "https://podcasts.apple.com/us/podcast/why-markets-may-be-pricing-in-too-many-fed-rate-hikes/id948913991?i=1000791362225&uo=4",
+      "https://podcasts.apple.com/us/podcast/the-unexpected-investment-case-for-ai-safety/id1466686717?i=1000791342549&uo=4"
     ]
   }
 }
