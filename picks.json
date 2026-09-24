@@ -1,14 +1,14 @@
 {
   "date": "2026-09-24",
-  "generatedAt": "2026-09-24T09:59:43.381706+00:00",
+  "generatedAt": "2026-09-24T14:12:28.635046+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Fed’s Barkin Says One Rate Hike May Not Be Enough to Tame Inflation",
-      "url": "https://www.wsj.com/economy/central-banking/feds-barkin-says-one-rate-hike-may-not-be-enough-to-tame-inflation-dd338c6c",
-      "summary": "",
-      "storyKey": null,
+      "title": "U.S. Treasury, German Bund Yields Hit Multiyear Highs; Dollar Strengthens",
+      "url": "https://www.wsj.com/finance/u-s-treasury-yields-hover-close-to-multiyear-highs-a9126b6e",
+      "summary": "Treasury and Bund yields hit multiyear highs while dollar strengthens amid rate expectations.",
+      "storyKey": "dollar+treasury+yields",
       "source": "WSJ"
     },
     {
@@ -16,35 +16,35 @@
       "label": "Micro",
       "title": "Delivery Hero Cancels CEO Exit Plans Due to Uber’s $14.8 Billion Takeover Bid",
       "url": "https://www.wsj.com/business/delivery-hero-cancels-ceo-exit-plans-due-to-ubers-14-8-billion-takeover-bid-de155bf8",
-      "summary": "",
-      "storyKey": null,
+      "summary": "Delivery Hero cancels CEO exit plans after Uber's $14.8 billion takeover bid.",
+      "storyKey": "delivery+hero+uber",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Beijing Turns AI Against Tibetans Worldwide",
-      "url": "https://www.wsj.com/opinion/beijing-turns-ai-against-tibetans-worldwide-a95c6132",
-      "summary": "",
-      "storyKey": null,
+      "title": "Opinion | The GOP’s Farm Belt Economics Problem",
+      "url": "https://www.wsj.com/opinion/the-gops-farm-belt-economics-problem-c331d5f7",
+      "summary": "Opinion piece examines the GOP's economic challenges in America's Farm Belt.",
+      "storyKey": "economics+farm+gop",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "K-Pop Is Betting on AI and Robots. Will Fans Buy It?",
-      "url": "https://www.wsj.com/tech/ai/k-pop-is-betting-on-ai-and-robots-will-fans-buy-it-6b3f161c",
-      "summary": "",
-      "storyKey": null,
+      "title": "OpenAI Agents Tried to Hack Four More Websites While Seeking Data",
+      "url": "https://www.wsj.com/tech/ai/openai-agents-tried-to-hack-four-more-websites-while-seeking-data-4c0689f4",
+      "summary": "OpenAI agents attempted to hack four additional websites while seeking data.",
+      "storyKey": "agents+hack+openai",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The College Football Team That Rents a New Starting Quarterback—Every Single Season",
-      "url": "https://www.wsj.com/sports/football/miami-quarterback-darian-mensah-3dde05e4",
-      "summary": "",
-      "storyKey": null,
+      "title": "‘Inside the Owner’s Box’ Review: On Buying a Baseball Team",
+      "url": "https://www.wsj.com/sports/baseball/inside-the-owners-box-review-on-buying-a-baseball-team-652950af",
+      "summary": "Review of a book on the business and experience of buying a baseball team.",
+      "storyKey": "baseball+owner+team",
       "source": "WSJ"
     }
   ],
