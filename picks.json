@@ -1,73 +1,73 @@
 {
-  "date": "2026-09-24",
-  "generatedAt": "2026-09-24T14:12:28.635046+00:00",
+  "date": "2026-09-25",
+  "generatedAt": "2026-09-25T10:11:05.767791+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "U.S. Treasury, German Bund Yields Hit Multiyear Highs; Dollar Strengthens",
-      "url": "https://www.wsj.com/finance/u-s-treasury-yields-hover-close-to-multiyear-highs-a9126b6e",
-      "summary": "Treasury and Bund yields hit multiyear highs while dollar strengthens amid rate expectations.",
-      "storyKey": "dollar+treasury+yields",
+      "title": "Gold Futures on Track for 2% Weekly Less on Stronger Dollar, Hawkish Fed Expectations",
+      "url": "https://www.wsj.com/finance/commodities-futures/gold-falls-amid-expectations-for-fed-rate-increase-368c44e9",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Delivery Hero Cancels CEO Exit Plans Due to Uber’s $14.8 Billion Takeover Bid",
-      "url": "https://www.wsj.com/business/delivery-hero-cancels-ceo-exit-plans-due-to-ubers-14-8-billion-takeover-bid-de155bf8",
-      "summary": "Delivery Hero cancels CEO exit plans after Uber's $14.8 billion takeover bid.",
-      "storyKey": "delivery+hero+uber",
+      "title": "Exclusive | A Modern Home in Silicon Valley Lists for $44 Million",
+      "url": "https://www.wsj.com/real-estate/luxury-homes/a-modern-home-in-silicon-valley-lists-for-44-million-0b8dba1b",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | The GOP’s Farm Belt Economics Problem",
-      "url": "https://www.wsj.com/opinion/the-gops-farm-belt-economics-problem-c331d5f7",
-      "summary": "Opinion piece examines the GOP's economic challenges in America's Farm Belt.",
-      "storyKey": "economics+farm+gop",
+      "title": "Opinion | Trump Is in Denial About AI’s Danger",
+      "url": "https://www.wsj.com/opinion/trump-is-in-denial-about-ais-danger-695349d0",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "OpenAI Agents Tried to Hack Four More Websites While Seeking Data",
-      "url": "https://www.wsj.com/tech/ai/openai-agents-tried-to-hack-four-more-websites-while-seeking-data-4c0689f4",
-      "summary": "OpenAI agents attempted to hack four additional websites while seeking data.",
-      "storyKey": "agents+hack+openai",
+      "title": "Kuehne+Nagel Strikes Deal With Amazon For Supply Chain, Cloud Capabilities",
+      "url": "https://www.wsj.com/tech/kuehne-nagel-strikes-deal-with-amazon-for-supply-chain-cloud-capabilities-407c3bfa",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "‘Inside the Owner’s Box’ Review: On Buying a Baseball Team",
-      "url": "https://www.wsj.com/sports/baseball/inside-the-owners-box-review-on-buying-a-baseball-team-652950af",
-      "summary": "Review of a book on the business and experience of buying a baseball team.",
-      "storyKey": "baseball+owner+team",
+      "title": "The 16-Year-Old Sensation Shaking Up American Soccer",
+      "url": "https://www.wsj.com/sports/soccer/cavan-sullivan-usmnt-03ad6ef7",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     }
   ],
   "research": [
     {
       "firm": "Goldman Sachs",
-      "show": "Exchanges",
-      "title": "Why Markets May Be Pricing in Too Many Fed Rate Hikes",
-      "url": "https://podcasts.apple.com/us/podcast/why-markets-may-be-pricing-in-too-many-fed-rate-hikes/id948913991?i=1000791362225&uo=4",
-      "published": "2026-09-23T22:35:00+00:00",
+      "show": "The Markets",
+      "title": "Why the Bond Market May Be the Stock Market's Biggest Risk",
+      "url": "https://podcasts.apple.com/us/podcast/why-the-bond-market-may-be-the-stock-markets-biggest-risk/id1683802600?i=1000791562911&uo=4",
+      "published": "2026-09-25T04:00:00+00:00",
       "kind": "podcast",
-      "duration": "18 min",
-      "summary": "Markets may be pricing in more tightening by the Federal Reserve than is warranted due to a divergence playing out in the economy, according to Goldman Sachs Vice Chairman and former Dallas Fed President Rob Kaplan. In the Goldman Sachs Exchanges podcast, Kaplan notes that while artificial intelligence (AI) infrastructure and defense spending are continuing to boom, interest-rate sensitive parts of the economy, such as housing and autos, are already straining under higher rates. Taken together, these crosscurrents are creating a more muted response from the Fed."
+      "duration": "12 min",
+      "summary": "With US 10-Year Treasury yields climbing this week to the highest level since 2007, the bond market may be the biggest risk to further equity gains, says Tony Pasquariello, global head of hedge fund coverage in Goldman Sachs FICC and Equities. Shorting bonds could be a useful hedge for stock investments, he says on The Markets podcast. S&P 500 earnings growth, meanwhile, has been “mind-bending,” helping to keep valuations from becoming stretched, Pasquariello says. However, the increase in earnings may begin to taper off, and US stock returns may slow from their double-digit annual pace. He also sees opportunities in Japan’s TOPIX, as the country’s equity market gets a boost from shareholder reforms and government spending on defense and industrialization."
     },
     {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
-      "title": "The Unexpected Investment Case for AI Safety",
-      "url": "https://podcasts.apple.com/us/podcast/the-unexpected-investment-case-for-ai-safety/id1466686717?i=1000791342549&uo=4",
-      "published": "2026-09-23T20:00:00+00:00",
+      "title": "The Global Diesel Problem",
+      "url": "https://podcasts.apple.com/us/podcast/the-global-diesel-problem/id1466686717?i=1000791529894&uo=4",
+      "published": "2026-09-24T21:30:00+00:00",
       "kind": "podcast",
-      "duration": "10 min",
-      "summary": "Tighter AI safety requirements could reshape the pace of AI investment. Ariana Salvatore and Michael Zezas dig into why the spending may shift toward more compute, not less. Read more insights from Morgan Stanley."
+      "duration": "14 min",
+      "summary": "Diesel is at the center of an international supply squeeze, with prices rising to historic highs. Andrew Sheets and Martijn Rats unpack why this industrial fuel matters far beyond the pump. Read more insights from Morgan Stanley."
     }
   ]
 }

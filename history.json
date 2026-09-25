@@ -1,21 +1,4 @@
 {
-  "2026-09-03": [
-    {
-      "title": "Bank of Canada Expected to Remain On Hold as Trade Conflict With U.S. Escalates",
-      "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-expected-to-remain-on-hold-as-trade-conflict-with-u-s-escalates-fcf9659c",
-      "storyKey": "boc+rates"
-    },
-    {
-      "title": "Boeing’s $8.4 Billion Deal Is Bleeding Red Ink",
-      "url": "https://www.wsj.com/business/boeings-8-4-billion-deal-is-bleeding-red-ink-6a7bfb69",
-      "storyKey": "boeing+deal"
-    },
-    {
-      "title": "Nvidia Agrees to Buy Hugging Face for $13 Billion",
-      "url": "https://www.wsj.com/tech/ai/nvidia-agrees-to-buy-hugging-face-for-13-billion-11929060",
-      "storyKey": "huggingface+nvidia"
-    }
-  ],
   "2026-09-04": [
     {
       "title": "Norway’s Massive Oil Fund Proposes Selling Roughly $80 Billion in U.S. Treasurys",
@@ -583,11 +566,34 @@
       "storyKey": "baseball+owner+team"
     }
   ],
+  "2026-09-25": [
+    {
+      "title": "Gold Futures on Track for 2% Weekly Less on Stronger Dollar, Hawkish Fed Expectations",
+      "url": "https://www.wsj.com/finance/commodities-futures/gold-falls-amid-expectations-for-fed-rate-increase-368c44e9",
+      "storyKey": null
+    },
+    {
+      "title": "Exclusive | A Modern Home in Silicon Valley Lists for $44 Million",
+      "url": "https://www.wsj.com/real-estate/luxury-homes/a-modern-home-in-silicon-valley-lists-for-44-million-0b8dba1b",
+      "storyKey": null
+    },
+    {
+      "title": "Opinion | Trump Is in Denial About AI’s Danger",
+      "url": "https://www.wsj.com/opinion/trump-is-in-denial-about-ais-danger-695349d0",
+      "storyKey": null
+    },
+    {
+      "title": "Kuehne+Nagel Strikes Deal With Amazon For Supply Chain, Cloud Capabilities",
+      "url": "https://www.wsj.com/tech/kuehne-nagel-strikes-deal-with-amazon-for-supply-chain-cloud-capabilities-407c3bfa",
+      "storyKey": null
+    },
+    {
+      "title": "The 16-Year-Old Sensation Shaking Up American Soccer",
+      "url": "https://www.wsj.com/sports/soccer/cavan-sullivan-usmnt-03ad6ef7",
+      "storyKey": null
+    }
+  ],
   "_research": {
-    "2026-09-03": [
-      "https://podcasts.apple.com/us/podcast/3-policy-catalysts-to-watch-this-fall/id1466686717?i=1000787511750&uo=4",
-      "https://www.jpmorgan.com/insights/markets-and-economy/economy/us-canada-tariffs-why-autos-and-oil-matter"
-    ],
     "2026-09-04": [
       "https://podcasts.apple.com/us/podcast/dipan-patel-on-permiras-artisanal-approach-to-private/id948913991?i=1000787773009&uo=4",
       "https://podcasts.apple.com/us/podcast/why-oil-prices-could-rise-to-%24100-again/id1466686717?i=1000787717714&uo=4",
@@ -655,6 +661,10 @@
     "2026-09-24": [
       "https://podcasts.apple.com/us/podcast/why-markets-may-be-pricing-in-too-many-fed-rate-hikes/id948913991?i=1000791362225&uo=4",
       "https://podcasts.apple.com/us/podcast/the-unexpected-investment-case-for-ai-safety/id1466686717?i=1000791342549&uo=4"
+    ],
+    "2026-09-25": [
+      "https://podcasts.apple.com/us/podcast/why-the-bond-market-may-be-the-stock-markets-biggest-risk/id1683802600?i=1000791562911&uo=4",
+      "https://podcasts.apple.com/us/podcast/the-global-diesel-problem/id1466686717?i=1000791529894&uo=4"
     ]
   }
 }
