@@ -1,32 +1,32 @@
 {
   "date": "2026-09-26",
-  "generatedAt": "2026-09-26T09:51:41.240712+00:00",
+  "generatedAt": "2026-09-26T13:44:43.093820+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "White House Considers Ban on Diesel Exports as Prices Keep Rising",
-      "url": "https://www.wsj.com/logistics-report/white-house-considers-ban-on-diesel-exports-as-prices-keep-rising-fd3eec84",
-      "summary": "",
-      "storyKey": null,
+      "title": "Raging Conflict in the Middle East and Rising Yields Weigh on U.S. Stocks",
+      "url": "https://www.wsj.com/finance/investing/raging-conflict-in-the-middle-east-and-rising-yields-weigh-on-u-s-stocks-88265952",
+      "summary": "Middle East conflict escalation and rising Treasury yields pressure U.S. stock markets, reflecting cross-asset macro risk.",
+      "storyKey": "mideast+stocks+yields",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "The Mystery Man Shadowing Kimberly Guilfoyle as She Pushes Deals Across Europe",
-      "url": "https://www.wsj.com/articles/kimberly-guilfoyle-mystery-man-energy-5adeb541",
-      "summary": "",
-      "storyKey": null,
+      "title": "Schneider Electric to Launch Bid for Shelly Group in $1.4 Billion Deal",
+      "url": "https://www.wsj.com/business/deals/schneider-electric-to-launch-bid-for-shelly-group-in-1-4-billion-deal-c6cc008e",
+      "summary": "Schneider Electric to launch a $1.4 billion bid for Shelly Group, a named cross-border M&A deal.",
+      "storyKey": "schneider+shelly",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | The Hidden Agenda Behind the AI Panic",
-      "url": "https://www.wsj.com/opinion/the-hidden-agenda-behind-the-ai-panic-19ef191f",
-      "summary": "",
-      "storyKey": null,
+      "title": "Opinion | The Tax Bill on Top of Your Tax Bill",
+      "url": "https://www.wsj.com/opinion/the-tax-bill-on-top-of-your-tax-bill-1d0540cf",
+      "summary": "Op-ed argues hidden tax burdens stack atop existing tax bills, a substantive economic policy critique.",
+      "storyKey": "bill+policy+tax",
       "source": "WSJ"
     },
     {
@@ -34,17 +34,17 @@
       "label": "Tech",
       "title": "OpenAI Agents Hit U.S. Government Websites",
       "url": "https://www.wsj.com/tech/ai/openai-agents-hacked-u-s-government-websites-d999df5f",
-      "summary": "",
-      "storyKey": null,
+      "summary": "OpenAI's AI agents now operating on U.S. government websites, a consequential tech-policy development.",
+      "storyKey": "government+openai",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The NFL’s New Prohibition: Beer Celebrations",
-      "url": "https://www.wsj.com/sports/football/juszczyk-beer-celebration-fine-164fb59d",
-      "summary": "",
-      "storyKey": null,
+      "title": "Baseball’s 162-Game Marathon Gives Way to a Playoff Sprint",
+      "url": "https://www.wsj.com/sports/baseball/baseballs-162-game-marathon-gives-way-to-a-playoff-sprint-7aa7ef99",
+      "summary": "MLB's 162-game regular season transitions into a high-stakes playoff sprint, the sport's biggest current storyline.",
+      "storyKey": "baseball+playoffs",
       "source": "WSJ"
     }
   ],
