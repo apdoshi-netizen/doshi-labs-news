@@ -1,12 +1,12 @@
 {
-  "date": "2026-09-25",
-  "generatedAt": "2026-09-25T14:36:16.496637+00:00",
+  "date": "2026-09-26",
+  "generatedAt": "2026-09-26T09:51:41.240712+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Gold Futures on Track for 2% Weekly Less on Stronger Dollar, Hawkish Fed Expectations",
-      "url": "https://www.wsj.com/finance/commodities-futures/gold-falls-amid-expectations-for-fed-rate-increase-368c44e9",
+      "title": "White House Considers Ban on Diesel Exports as Prices Keep Rising",
+      "url": "https://www.wsj.com/logistics-report/white-house-considers-ban-on-diesel-exports-as-prices-keep-rising-fd3eec84",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -14,8 +14,8 @@
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "See How Elon Musk’s Sunbelt Investments Are Reshaping His Business Empire",
-      "url": "https://www.wsj.com/business/see-how-elon-musks-sunbelt-investments-are-reshaping-his-business-empire-bf316f38",
+      "title": "The Mystery Man Shadowing Kimberly Guilfoyle as She Pushes Deals Across Europe",
+      "url": "https://www.wsj.com/articles/kimberly-guilfoyle-mystery-man-energy-5adeb541",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -23,8 +23,8 @@
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | America’s Best Advantage Over China",
-      "url": "https://www.wsj.com/opinion/free-expression/americas-best-advantage-over-china-d29e668c",
+      "title": "Opinion | The Hidden Agenda Behind the AI Panic",
+      "url": "https://www.wsj.com/opinion/the-hidden-agenda-behind-the-ai-panic-19ef191f",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -32,8 +32,8 @@
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "AI Is a Regulator’s Nightmare",
-      "url": "https://www.wsj.com/tech/ai/ai-is-a-regulators-nightmare-39d7fa7a",
+      "title": "OpenAI Agents Hit U.S. Government Websites",
+      "url": "https://www.wsj.com/tech/ai/openai-agents-hacked-u-s-government-websites-d999df5f",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -41,8 +41,8 @@
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "How Pumping 14,443 Pounds of Iron Turned the Florida Gators Into Wrecking Balls",
-      "url": "https://www.wsj.com/sports/football/florida-gators-jon-sumrall-jadan-baugh-b299ddbc",
+      "title": "The NFL’s New Prohibition: Beer Celebrations",
+      "url": "https://www.wsj.com/sports/football/juszczyk-beer-celebration-fine-164fb59d",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -51,23 +51,23 @@
   "research": [
     {
       "firm": "Goldman Sachs",
-      "show": "The Markets",
-      "title": "Why the Bond Market May Be the Stock Market's Biggest Risk",
-      "url": "https://podcasts.apple.com/us/podcast/why-the-bond-market-may-be-the-stock-markets-biggest-risk/id1683802600?i=1000791562911&uo=4",
-      "published": "2026-09-25T04:00:00+00:00",
+      "show": "Talks at GS",
+      "title": "U.S. Soccer's JT Batson on the World Cup and Scaling the Game",
+      "url": "https://podcasts.apple.com/us/podcast/u-s-soccers-jt-batson-on-the-world-cup-and-scaling-the-game/id1373320104?i=1000791660895&uo=4",
+      "published": "2026-09-25T22:20:00+00:00",
       "kind": "podcast",
-      "duration": "12 min",
-      "summary": "With US 10-Year Treasury yields climbing this week to the highest level since 2007, the bond market may be the biggest risk to further equity gains, says Tony Pasquariello, global head of hedge fund coverage in Goldman Sachs FICC and Equities. Shorting bonds could be a useful hedge for stock investments, he says on The Markets podcast. S&P 500 earnings growth, meanwhile, has been “mind-bending,” helping to keep valuations from becoming stretched, Pasquariello says. However, the increase in earnings may begin to taper off, and US stock returns may slow from their double-digit annual pace. He also sees opportunities in Japan’s TOPIX, as the country’s equity market gets a boost from shareholder reforms and government spending on defense and industrialization."
+      "duration": "26 min",
+      "summary": "U.S. Soccer has entered a transformative era, driving the growth of the sport across the nation as it capitalizes on hosting the 2026 World Cup and other global sporting tournaments to come. JT Batson, CEO and secretary general of U.S. Soccer, joins Dave Dase, head of Goldman Sachs' global sports business, to discuss the legacy of the World Cup, U.S. Soccer’s strategic plans through the 2028 Los Angeles Olympics and the 2031 Women’s World Cup, and how an invigorated grassroots culture could make the U.S. \"one of the world's great soccer countries.\""
     },
     {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
-      "title": "The Global Diesel Problem",
-      "url": "https://podcasts.apple.com/us/podcast/the-global-diesel-problem/id1466686717?i=1000791529894&uo=4",
-      "published": "2026-09-24T21:30:00+00:00",
+      "title": "AI Meets the Physical Economy",
+      "url": "https://podcasts.apple.com/us/podcast/ai-meets-the-physical-economy/id1466686717?i=1000791677900&uo=4",
+      "published": "2026-09-25T21:00:00+00:00",
       "kind": "podcast",
-      "duration": "14 min",
-      "summary": "Diesel is at the center of an international supply squeeze, with prices rising to historic highs. Andrew Sheets and Martijn Rats unpack why this industrial fuel matters far beyond the pump. Read more insights from Morgan Stanley."
+      "duration": "11 min",
+      "summary": "Morgan Stanley Research analysts Michelle Weaver, Ravi Shanker and Dave Arcaro discuss two industrial inflection points: how long it will be before autonomous trucking becomes a reality and why power infrastructure is racing to keep up with AI-driven demand. Read more insights from Morgan Stanley."
     }
   ]
 }

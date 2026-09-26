@@ -1,31 +1,4 @@
 {
-  "2026-09-04": [
-    {
-      "title": "Norway’s Massive Oil Fund Proposes Selling Roughly $80 Billion in U.S. Treasurys",
-      "url": "https://www.wsj.com/finance/investing/norways-oil-fund-proposes-cut-to-government-bond-holdings-d930893f",
-      "storyKey": "norway+treasurys"
-    },
-    {
-      "title": "Broadcom Third-Quarter Profit Soars on Growing Custom Chip Demand",
-      "url": "https://www.wsj.com/business/earnings/broadcom-third-quarter-profit-soars-on-ai-driven-revenue-growth-c5add826",
-      "storyKey": "broadcom+earnings"
-    },
-    {
-      "title": "Opinion | Aluminum Tariffs Harm U.S. Manufacturers",
-      "url": "https://www.wsj.com/opinion/aluminum-tariffs-harm-u-s-manufacturers-04803203",
-      "storyKey": "aluminum+tariffs"
-    },
-    {
-      "title": "Adobe Names Anil Chakravarthy as Chief Executive Amid AI Transformation",
-      "url": "https://www.wsj.com/tech/adobe-names-anil-chakravarthy-as-chief-executive-amid-ai-transformation-e5196c3e",
-      "storyKey": "adobe+ceo"
-    },
-    {
-      "title": "Steve Ballmer and the Clippers Get the NBA’s Doomsday Hammer",
-      "url": "https://www.wsj.com/sports/basketball/steve-ballmer-clippers-kawhi-leonard-3c86d8da",
-      "storyKey": "ballmer+clippers"
-    }
-  ],
   "2026-09-05": [
     {
       "title": "A Core Egyptian Bank Gets Caught Up in Treasury’s Iran Crackdown",
@@ -593,14 +566,34 @@
       "storyKey": null
     }
   ],
+  "2026-09-26": [
+    {
+      "title": "White House Considers Ban on Diesel Exports as Prices Keep Rising",
+      "url": "https://www.wsj.com/logistics-report/white-house-considers-ban-on-diesel-exports-as-prices-keep-rising-fd3eec84",
+      "storyKey": null
+    },
+    {
+      "title": "The Mystery Man Shadowing Kimberly Guilfoyle as She Pushes Deals Across Europe",
+      "url": "https://www.wsj.com/articles/kimberly-guilfoyle-mystery-man-energy-5adeb541",
+      "storyKey": null
+    },
+    {
+      "title": "Opinion | The Hidden Agenda Behind the AI Panic",
+      "url": "https://www.wsj.com/opinion/the-hidden-agenda-behind-the-ai-panic-19ef191f",
+      "storyKey": null
+    },
+    {
+      "title": "OpenAI Agents Hit U.S. Government Websites",
+      "url": "https://www.wsj.com/tech/ai/openai-agents-hacked-u-s-government-websites-d999df5f",
+      "storyKey": null
+    },
+    {
+      "title": "The NFL’s New Prohibition: Beer Celebrations",
+      "url": "https://www.wsj.com/sports/football/juszczyk-beer-celebration-fine-164fb59d",
+      "storyKey": null
+    }
+  ],
   "_research": {
-    "2026-09-04": [
-      "https://podcasts.apple.com/us/podcast/dipan-patel-on-permiras-artisanal-approach-to-private/id948913991?i=1000787773009&uo=4",
-      "https://podcasts.apple.com/us/podcast/why-oil-prices-could-rise-to-%24100-again/id1466686717?i=1000787717714&uo=4",
-      "https://podcasts.apple.com/us/podcast/whats-next-for-tech-equity-capital-markets-in-a/id1456184829?i=1000787862366&uo=4",
-      "https://www.jpmorgan.com/insights/markets-and-economy/markets/financial-sponsors-global-credit-markets",
-      "https://www.jpmorgan.com/insights/markets-and-economy/markets/the-rush-for-resources"
-    ],
     "2026-09-05": [
       "https://podcasts.apple.com/us/podcast/why-gold-is-expected-to-rise-to-record-highs/id1683802600?i=1000787906587&uo=4",
       "https://podcasts.apple.com/us/podcast/what-could-shake-up-markets-in-september/id1466686717?i=1000787921721&uo=4"
@@ -665,6 +658,10 @@
     "2026-09-25": [
       "https://podcasts.apple.com/us/podcast/why-the-bond-market-may-be-the-stock-markets-biggest-risk/id1683802600?i=1000791562911&uo=4",
       "https://podcasts.apple.com/us/podcast/the-global-diesel-problem/id1466686717?i=1000791529894&uo=4"
+    ],
+    "2026-09-26": [
+      "https://podcasts.apple.com/us/podcast/u-s-soccers-jt-batson-on-the-world-cup-and-scaling-the-game/id1373320104?i=1000791660895&uo=4",
+      "https://podcasts.apple.com/us/podcast/ai-meets-the-physical-economy/id1466686717?i=1000791677900&uo=4"
     ]
   }
 }
