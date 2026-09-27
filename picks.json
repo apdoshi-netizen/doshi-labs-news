@@ -1,6 +1,6 @@
 {
   "date": "2026-09-27",
-  "generatedAt": "2026-09-27T13:02:14.335662+00:00",
+  "generatedAt": "2026-09-27T14:41:23.965553+00:00",
   "picks": [
     {
       "slot": "Macro",
@@ -14,10 +14,10 @@
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Exclusive | MGM Resorts Eyeing Bid for Barry Diller’s People Incorporated",
-      "url": "https://www.wsj.com/business/hospitality/mgm-resorts-eyeing-bid-for-barry-dillers-people-incorporated-b506c037",
-      "summary": "MGM Resorts reportedly eyeing bid for Barry Diller's People Incorporated.",
-      "storyKey": "diller+mgm+people",
+      "title": "Finnish Drone Group Sensofusion Seeks $344 Million in Helsinki IPO",
+      "url": "https://www.wsj.com/business/retail/finnish-drone-group-sensofusion-seeks-344-million-in-helsinki-ipo-6ed784ac",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
@@ -25,8 +25,8 @@
       "label": "Op-Ed",
       "title": "Opinion | The Hidden Agenda Behind the AI Panic",
       "url": "https://www.wsj.com/opinion/the-hidden-agenda-behind-the-ai-panic-19ef191f",
-      "summary": "Op-ed argues hidden agenda drives current AI panic narrative.",
-      "storyKey": "agenda+ai+panic",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
@@ -34,8 +34,8 @@
       "label": "Tech",
       "title": "He’s Completely Terrified of AI—and He’s About to Make Billions Off It",
       "url": "https://www.wsj.com/tech/ai/jaan-tallinn-anthropic-ai-f513f181",
-      "summary": "Profile of AI figure terrified of AI who stands to earn billions from it.",
-      "storyKey": "ai+billions+fear",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
@@ -43,8 +43,8 @@
       "label": "Sports",
       "title": "A Brutal Hit Knocked Out a Heisman Candidate. His Understudy Saved the Season.",
       "url": "https://www.wsj.com/sports/football/dylan-raiola-dante-moore-oregon-b799eec3",
-      "summary": "Heisman candidate injured in brutal hit; backup quarterback saves team's season.",
-      "storyKey": "backup+heisman+injury",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     }
   ],
