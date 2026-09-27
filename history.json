@@ -1,31 +1,4 @@
 {
-  "2026-09-05": [
-    {
-      "title": "A Core Egyptian Bank Gets Caught Up in Treasury’s Iran Crackdown",
-      "url": "https://www.wsj.com/world/middle-east/a-core-egyptian-bank-gets-caught-up-in-treasurys-iran-crackdown-bb867772",
-      "storyKey": null
-    },
-    {
-      "title": "Exclusive | Musk’s Boring Co. Pushes Investors for Recruiting, Business Help",
-      "url": "https://www.wsj.com/tech/musks-boring-co-pushes-investors-for-recruiting-business-help-6cff1c78",
-      "storyKey": null
-    },
-    {
-      "title": "Opinion | Newsom’s Minimum Wage Whitewash",
-      "url": "https://www.wsj.com/opinion/california-minimum-wage-gavin-newsom-jobs-865a99c2",
-      "storyKey": null
-    },
-    {
-      "title": "Vance Called AI Satanic. He Struck a Chord Among Christian Republicans.",
-      "url": "https://www.wsj.com/tech/ai/vance-called-ai-satanic-he-struck-a-chord-among-christian-republicans-dcc34048",
-      "storyKey": null
-    },
-    {
-      "title": "The Hush-Hush Demands and Phony Endorsements That Rocked the NBA",
-      "url": "https://www.wsj.com/sports/basketball/the-hush-hush-demands-and-phony-endorsements-that-rocked-the-nba-9dc92f31",
-      "storyKey": null
-    }
-  ],
   "2026-09-06": [
     {
       "title": "German Inflation Rises But Few Signs of Energy-Shock Spillover",
@@ -593,11 +566,34 @@
       "storyKey": "baseball+playoffs"
     }
   ],
+  "2026-09-27": [
+    {
+      "title": "Global Economy Stronger Than Expected, But Threats Mount, OECD Says",
+      "url": "https://www.wsj.com/economy/global/global-economy-stronger-than-expected-but-threats-mount-oecd-says-7472619b",
+      "storyKey": null
+    },
+    {
+      "title": "Exclusive | MGM Resorts Eyeing Bid for Barry Diller’s People Incorporated",
+      "url": "https://www.wsj.com/business/hospitality/mgm-resorts-eyeing-bid-for-barry-dillers-people-incorporated-b506c037",
+      "storyKey": "diller+mgm+people"
+    },
+    {
+      "title": "Opinion | The Hidden Agenda Behind the AI Panic",
+      "url": "https://www.wsj.com/opinion/the-hidden-agenda-behind-the-ai-panic-19ef191f",
+      "storyKey": "agenda+ai+panic"
+    },
+    {
+      "title": "He’s Completely Terrified of AI—and He’s About to Make Billions Off It",
+      "url": "https://www.wsj.com/tech/ai/jaan-tallinn-anthropic-ai-f513f181",
+      "storyKey": "ai+billions+fear"
+    },
+    {
+      "title": "A Brutal Hit Knocked Out a Heisman Candidate. His Understudy Saved the Season.",
+      "url": "https://www.wsj.com/sports/football/dylan-raiola-dante-moore-oregon-b799eec3",
+      "storyKey": "backup+heisman+injury"
+    }
+  ],
   "_research": {
-    "2026-09-05": [
-      "https://podcasts.apple.com/us/podcast/why-gold-is-expected-to-rise-to-record-highs/id1683802600?i=1000787906587&uo=4",
-      "https://podcasts.apple.com/us/podcast/what-could-shake-up-markets-in-september/id1466686717?i=1000787921721&uo=4"
-    ],
     "2026-09-06": [],
     "2026-09-07": [],
     "2026-09-08": [
@@ -662,6 +658,7 @@
     "2026-09-26": [
       "https://podcasts.apple.com/us/podcast/u-s-soccers-jt-batson-on-the-world-cup-and-scaling-the-game/id1373320104?i=1000791660895&uo=4",
       "https://podcasts.apple.com/us/podcast/ai-meets-the-physical-economy/id1466686717?i=1000791677900&uo=4"
-    ]
+    ],
+    "2026-09-27": []
   }
 }
