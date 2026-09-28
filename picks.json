@@ -1,12 +1,12 @@
 {
   "date": "2026-09-28",
-  "generatedAt": "2026-09-28T11:40:52.588504+00:00",
+  "generatedAt": "2026-09-28T17:39:31.033646+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Selloff in U.S., European Government Bonds Deepens",
-      "url": "https://www.wsj.com/finance/treasury-yields-rise-amid-u-s-iran-diplomatic-stalemate-e763fe89",
+      "title": "Iran War Is Driving Up the Cost of Your Next Oil Change",
+      "url": "https://www.wsj.com/business/retail/iran-war-is-driving-up-the-cost-of-your-next-oil-change-b254bfb1",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -14,8 +14,8 @@
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Northern Star Rejects $27 Billion Takeover Proposal From Gold Fields",
-      "url": "https://www.wsj.com/business/energy-oil/northern-star-rejects-27-billion-takeover-proposal-from-gold-fields-1b2ae9d9",
+      "title": "Nvidia Adds Record $150 Billion to Stock Buyback",
+      "url": "https://www.wsj.com/tech/ai/nvidia-adds-record-150-billion-to-stock-buyback-910f96a8",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -23,8 +23,8 @@
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | The U.S. Tariff Attack on U.S. Biotech",
-      "url": "https://www.wsj.com/opinion/the-u-s-tariff-attack-on-u-s-biotech-c3406b92",
+      "title": "Opinion | Who Enforces the AI Rules?",
+      "url": "https://www.wsj.com/opinion/who-enforces-the-ai-rules-fc21a831",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -32,8 +32,8 @@
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Nvidia Releases Software It Says Can Prevent AI Agents From Going Rogue",
-      "url": "https://www.wsj.com/tech/ai/nvidia-releases-software-it-says-can-prevent-ai-agents-from-going-rogue-12fd4ef8",
+      "title": "‘Things Will Never Be Chill Again’: The Doomers Who Shaped the AI Safety Freakout",
+      "url": "https://www.wsj.com/tech/ai/ai-safety-effective-altruism-anthropic-164b9d05",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -41,8 +41,8 @@
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The Seven Seconds That Made NFL History in Brazil",
-      "url": "https://www.wsj.com/sports/football/cowboys-ravens-lamar-jackson-tyler-loop-kick-737efe0d",
+      "title": "How Baseball’s Best Hitter Rescued the Worst Playoff Team in History",
+      "url": "https://www.wsj.com/sports/baseball/yordan-alvarez-astros-4282c24c",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
