@@ -1,12 +1,12 @@
 {
-  "date": "2026-09-27",
-  "generatedAt": "2026-09-27T14:41:23.965553+00:00",
+  "date": "2026-09-28",
+  "generatedAt": "2026-09-28T11:40:52.588504+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Global Economy Stronger Than Expected, But Threats Mount, OECD Says",
-      "url": "https://www.wsj.com/economy/global/global-economy-stronger-than-expected-but-threats-mount-oecd-says-7472619b",
+      "title": "Selloff in U.S., European Government Bonds Deepens",
+      "url": "https://www.wsj.com/finance/treasury-yields-rise-amid-u-s-iran-diplomatic-stalemate-e763fe89",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -14,8 +14,8 @@
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Finnish Drone Group Sensofusion Seeks $344 Million in Helsinki IPO",
-      "url": "https://www.wsj.com/business/retail/finnish-drone-group-sensofusion-seeks-344-million-in-helsinki-ipo-6ed784ac",
+      "title": "Northern Star Rejects $27 Billion Takeover Proposal From Gold Fields",
+      "url": "https://www.wsj.com/business/energy-oil/northern-star-rejects-27-billion-takeover-proposal-from-gold-fields-1b2ae9d9",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -23,8 +23,8 @@
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | The Hidden Agenda Behind the AI Panic",
-      "url": "https://www.wsj.com/opinion/the-hidden-agenda-behind-the-ai-panic-19ef191f",
+      "title": "Opinion | The U.S. Tariff Attack on U.S. Biotech",
+      "url": "https://www.wsj.com/opinion/the-u-s-tariff-attack-on-u-s-biotech-c3406b92",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -32,8 +32,8 @@
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "He’s Completely Terrified of AI—and He’s About to Make Billions Off It",
-      "url": "https://www.wsj.com/tech/ai/jaan-tallinn-anthropic-ai-f513f181",
+      "title": "Nvidia Releases Software It Says Can Prevent AI Agents From Going Rogue",
+      "url": "https://www.wsj.com/tech/ai/nvidia-releases-software-it-says-can-prevent-ai-agents-from-going-rogue-12fd4ef8",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -41,8 +41,8 @@
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "A Brutal Hit Knocked Out a Heisman Candidate. His Understudy Saved the Season.",
-      "url": "https://www.wsj.com/sports/football/dylan-raiola-dante-moore-oregon-b799eec3",
+      "title": "The Seven Seconds That Made NFL History in Brazil",
+      "url": "https://www.wsj.com/sports/football/cowboys-ravens-lamar-jackson-tyler-loop-kick-737efe0d",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"

@@ -1,31 +1,4 @@
 {
-  "2026-09-06": [
-    {
-      "title": "German Inflation Rises But Few Signs of Energy-Shock Spillover",
-      "url": "https://www.wsj.com/economy/global/german-inflation-rises-but-few-signs-of-energy-shock-spillover-e22ff3b0",
-      "storyKey": "german+inflation"
-    },
-    {
-      "title": "SB Energy Files for IPO With Nvidia Backing",
-      "url": "https://www.wsj.com/finance/investing/sb-energy-files-for-ipo-with-nvidia-backing-b17bd1fc",
-      "storyKey": "ipo+sbenergy"
-    },
-    {
-      "title": "Opinion | Israel and Ireland’s Inextricable History",
-      "url": "https://www.wsj.com/opinion/free-expression/israel-and-irelands-inextricable-history-8d8be904",
-      "storyKey": "ireland+israel"
-    },
-    {
-      "title": "AI Spending Is Up. So Is the Guesswork.",
-      "url": "https://www.wsj.com/tech/ai/ai-spending-is-up-so-is-the-guesswork-93cf1f36",
-      "storyKey": "ai+guesswork+spending"
-    },
-    {
-      "title": "Michigan Loses! Wait, Michigan Wins! College Football Rages Over Last Second Flip-Flop",
-      "url": "https://www.wsj.com/sports/football/michigan-western-michigan-clock-hail-mary-08af1dbf",
-      "storyKey": "cfb+michigan"
-    }
-  ],
   "2026-09-07": [
     {
       "title": "Beijing to Inject More Than $50 Billion Into Banks, Insurers to Boost Growth",
@@ -593,8 +566,34 @@
       "storyKey": null
     }
   ],
+  "2026-09-28": [
+    {
+      "title": "Selloff in U.S., European Government Bonds Deepens",
+      "url": "https://www.wsj.com/finance/treasury-yields-rise-amid-u-s-iran-diplomatic-stalemate-e763fe89",
+      "storyKey": null
+    },
+    {
+      "title": "Northern Star Rejects $27 Billion Takeover Proposal From Gold Fields",
+      "url": "https://www.wsj.com/business/energy-oil/northern-star-rejects-27-billion-takeover-proposal-from-gold-fields-1b2ae9d9",
+      "storyKey": null
+    },
+    {
+      "title": "Opinion | The U.S. Tariff Attack on U.S. Biotech",
+      "url": "https://www.wsj.com/opinion/the-u-s-tariff-attack-on-u-s-biotech-c3406b92",
+      "storyKey": null
+    },
+    {
+      "title": "Nvidia Releases Software It Says Can Prevent AI Agents From Going Rogue",
+      "url": "https://www.wsj.com/tech/ai/nvidia-releases-software-it-says-can-prevent-ai-agents-from-going-rogue-12fd4ef8",
+      "storyKey": null
+    },
+    {
+      "title": "The Seven Seconds That Made NFL History in Brazil",
+      "url": "https://www.wsj.com/sports/football/cowboys-ravens-lamar-jackson-tyler-loop-kick-737efe0d",
+      "storyKey": null
+    }
+  ],
   "_research": {
-    "2026-09-06": [],
     "2026-09-07": [],
     "2026-09-08": [
       "https://podcasts.apple.com/us/podcast/how-is-automation-shaping-emerging-markets/id1456184829?i=1000788397230&uo=4"
@@ -659,6 +658,7 @@
       "https://podcasts.apple.com/us/podcast/u-s-soccers-jt-batson-on-the-world-cup-and-scaling-the-game/id1373320104?i=1000791660895&uo=4",
       "https://podcasts.apple.com/us/podcast/ai-meets-the-physical-economy/id1466686717?i=1000791677900&uo=4"
     ],
-    "2026-09-27": []
+    "2026-09-27": [],
+    "2026-09-28": []
   }
 }
