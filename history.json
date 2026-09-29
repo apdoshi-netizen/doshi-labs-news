@@ -1,31 +1,4 @@
 {
-  "2026-09-07": [
-    {
-      "title": "Beijing to Inject More Than $50 Billion Into Banks, Insurers to Boost Growth",
-      "url": "https://www.wsj.com/finance/beijing-to-inject-billions-into-banks-insurers-to-boost-growth-35d7a011",
-      "storyKey": "bank+china+injection"
-    },
-    {
-      "title": "Volkswagen Factory to Become Defense Plant in Deal With Israel’s Aurelius",
-      "url": "https://www.wsj.com/business/autos/volkswagen-to-sell-german-site-to-israels-aurelius-state-of-lower-saxony-c622b1ff",
-      "storyKey": "aurelius+volkswagen"
-    },
-    {
-      "title": "Opinion | Data Centers: National Necessity or Nuisance?",
-      "url": "https://www.wsj.com/opinion/data-centers-national-necessity-or-nuisance-2eefed76",
-      "storyKey": "datacenters+policy"
-    },
-    {
-      "title": "CXMT Highlights Smartphone, AI Advances as Market Share Climbs",
-      "url": "https://www.wsj.com/tech/cxmt-highlights-smartphone-ai-advances-as-market-share-climbs-1d777648",
-      "storyKey": "ai+cxmt+smartphone"
-    },
-    {
-      "title": "College Football Kickers Were Underpaid. Then They Started Texting.",
-      "url": "https://www.wsj.com/sports/football/college-football-kickers-pay-96cb881c",
-      "storyKey": "cfb+kickers+pay"
-    }
-  ],
   "2026-09-08": [
     {
       "title": "Investors Brace for a Choppier Fall as the Fed, Inflation Return to Center Stage",
@@ -593,8 +566,34 @@
       "storyKey": null
     }
   ],
+  "2026-09-29": [
+    {
+      "title": "Fed’s Cook Expects Continuing Inflation Pressure From AI Buildout in Coming Months",
+      "url": "https://www.wsj.com/economy/central-banking/feds-cook-expects-continuing-inflation-pressure-from-ai-buildout-in-coming-months-78632a7f",
+      "storyKey": "ai+fed+inflation"
+    },
+    {
+      "title": "AMD to Acquire World Labs for $8.2 Billion",
+      "url": "https://www.wsj.com/tech/ai/amd-to-acquire-world-labs-for-8-2-billion-a8d03d11",
+      "storyKey": "amd+worldlabs"
+    },
+    {
+      "title": "Opinion | Socrates Would Thrive in the Age of AI",
+      "url": "https://www.wsj.com/opinion/socrates-would-thrive-in-the-age-of-ai-3108d474",
+      "storyKey": "ai+socrates"
+    },
+    {
+      "title": "Nvidia Releases Software It Says Can Prevent AI Agents From Going Rogue",
+      "url": "https://www.wsj.com/tech/ai/nvidia-releases-software-it-says-can-prevent-ai-agents-from-going-rogue-12fd4ef8",
+      "storyKey": "aiagents+nvidia"
+    },
+    {
+      "title": "The Senate Just Passed a College Sports Law. Here’s What It Does.",
+      "url": "https://www.wsj.com/sports/the-senate-just-passed-a-college-sports-law-heres-what-it-does-22015f29",
+      "storyKey": "college+law+sports"
+    }
+  ],
   "_research": {
-    "2026-09-07": [],
     "2026-09-08": [
       "https://podcasts.apple.com/us/podcast/how-is-automation-shaping-emerging-markets/id1456184829?i=1000788397230&uo=4"
     ],
@@ -659,6 +658,9 @@
       "https://podcasts.apple.com/us/podcast/ai-meets-the-physical-economy/id1466686717?i=1000791677900&uo=4"
     ],
     "2026-09-27": [],
-    "2026-09-28": []
+    "2026-09-28": [],
+    "2026-09-29": [
+      "https://podcasts.apple.com/us/podcast/the-stock-markets-bad-breadth/id1466686717?i=1000792087287&uo=4"
+    ]
   }
 }

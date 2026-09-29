@@ -1,52 +1,63 @@
 {
-  "date": "2026-09-28",
-  "generatedAt": "2026-09-28T17:39:31.033646+00:00",
+  "date": "2026-09-29",
+  "generatedAt": "2026-09-29T11:21:34.625242+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Iran War Is Driving Up the Cost of Your Next Oil Change",
-      "url": "https://www.wsj.com/business/retail/iran-war-is-driving-up-the-cost-of-your-next-oil-change-b254bfb1",
-      "summary": "",
-      "storyKey": null,
+      "title": "Fed’s Cook Expects Continuing Inflation Pressure From AI Buildout in Coming Months",
+      "url": "https://www.wsj.com/economy/central-banking/feds-cook-expects-continuing-inflation-pressure-from-ai-buildout-in-coming-months-78632a7f",
+      "summary": "Fed's Cook warns AI buildout will keep pressuring inflation in coming months.",
+      "storyKey": "ai+fed+inflation",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Nvidia Adds Record $150 Billion to Stock Buyback",
-      "url": "https://www.wsj.com/tech/ai/nvidia-adds-record-150-billion-to-stock-buyback-910f96a8",
-      "summary": "",
-      "storyKey": null,
+      "title": "AMD to Acquire World Labs for $8.2 Billion",
+      "url": "https://www.wsj.com/tech/ai/amd-to-acquire-world-labs-for-8-2-billion-a8d03d11",
+      "summary": "AMD agrees to acquire AI firm World Labs for $8.2 billion.",
+      "storyKey": "amd+worldlabs",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Who Enforces the AI Rules?",
-      "url": "https://www.wsj.com/opinion/who-enforces-the-ai-rules-fc21a831",
-      "summary": "",
-      "storyKey": null,
+      "title": "Opinion | Socrates Would Thrive in the Age of AI",
+      "url": "https://www.wsj.com/opinion/socrates-would-thrive-in-the-age-of-ai-3108d474",
+      "summary": "Op-ed argues Socratic method would thrive amid rise of AI.",
+      "storyKey": "ai+socrates",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "‘Things Will Never Be Chill Again’: The Doomers Who Shaped the AI Safety Freakout",
-      "url": "https://www.wsj.com/tech/ai/ai-safety-effective-altruism-anthropic-164b9d05",
-      "summary": "",
-      "storyKey": null,
+      "title": "Nvidia Releases Software It Says Can Prevent AI Agents From Going Rogue",
+      "url": "https://www.wsj.com/tech/ai/nvidia-releases-software-it-says-can-prevent-ai-agents-from-going-rogue-12fd4ef8",
+      "summary": "Nvidia releases software designed to prevent AI agents from going rogue.",
+      "storyKey": "aiagents+nvidia",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "How Baseball’s Best Hitter Rescued the Worst Playoff Team in History",
-      "url": "https://www.wsj.com/sports/baseball/yordan-alvarez-astros-4282c24c",
-      "summary": "",
-      "storyKey": null,
+      "title": "The Senate Just Passed a College Sports Law. Here’s What It Does.",
+      "url": "https://www.wsj.com/sports/the-senate-just-passed-a-college-sports-law-heres-what-it-does-22015f29",
+      "summary": "Senate passes new law reshaping college sports economics and rules.",
+      "storyKey": "college+law+sports",
       "source": "WSJ"
     }
   ],
-  "research": []
+  "research": [
+    {
+      "firm": "Morgan Stanley",
+      "show": "Thoughts on the Market",
+      "title": "The Stock Market’s Bad Breadth",
+      "url": "https://podcasts.apple.com/us/podcast/the-stock-markets-bad-breadth/id1466686717?i=1000792087287&uo=4",
+      "published": "2026-09-28T21:00:00+00:00",
+      "kind": "podcast",
+      "duration": "5 min",
+      "summary": "Fewer companies have been driving equity market gains in 2026. Our CIO and Chief U.S. Equity Strategist Mike Wilson looks at what investors should make of the narrowing rally as the year enters its final stretch. Read more insights from Morgan Stanley."
+    }
+  ]
 }
