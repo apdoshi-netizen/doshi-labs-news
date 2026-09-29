@@ -568,24 +568,24 @@
   ],
   "2026-09-29": [
     {
-      "title": "Fed’s Cook Expects Continuing Inflation Pressure From AI Buildout in Coming Months",
-      "url": "https://www.wsj.com/economy/central-banking/feds-cook-expects-continuing-inflation-pressure-from-ai-buildout-in-coming-months-78632a7f",
-      "storyKey": "ai+fed+inflation"
+      "title": "Canada GDP Indicates Recovery After Stalling in July",
+      "url": "https://www.wsj.com/economy/central-banking/canada-gdp-indicates-pick-up-after-stalling-in-july-c4bf9b65",
+      "storyKey": null
+    },
+    {
+      "title": "Exclusive | Piper Sandler Holds Talks to Buy Perella Weinberg",
+      "url": "https://www.wsj.com/business/deals/piper-sandler-holds-talks-to-buy-perella-weinberg-633bae65",
+      "storyKey": "perella+piper+weinberg"
+    },
+    {
+      "title": "Opinion | The U.S. Tariff Attack on U.S. Biotech",
+      "url": "https://www.wsj.com/opinion/the-u-s-tariff-attack-on-u-s-biotech-c3406b92",
+      "storyKey": "biotech+policy+tariff"
     },
     {
       "title": "AMD to Acquire World Labs for $8.2 Billion",
       "url": "https://www.wsj.com/tech/ai/amd-to-acquire-world-labs-for-8-2-billion-a8d03d11",
-      "storyKey": "amd+worldlabs"
-    },
-    {
-      "title": "Opinion | Socrates Would Thrive in the Age of AI",
-      "url": "https://www.wsj.com/opinion/socrates-would-thrive-in-the-age-of-ai-3108d474",
-      "storyKey": "ai+socrates"
-    },
-    {
-      "title": "Nvidia Releases Software It Says Can Prevent AI Agents From Going Rogue",
-      "url": "https://www.wsj.com/tech/ai/nvidia-releases-software-it-says-can-prevent-ai-agents-from-going-rogue-12fd4ef8",
-      "storyKey": "aiagents+nvidia"
+      "storyKey": "amd+labs+world"
     },
     {
       "title": "The Senate Just Passed a College Sports Law. Here’s What It Does.",
@@ -660,6 +660,7 @@
     "2026-09-27": [],
     "2026-09-28": [],
     "2026-09-29": [
+      "https://podcasts.apple.com/us/podcast/how-family-businesses-should-plan-for-generational/id948913991?i=1000792194656&uo=4",
       "https://podcasts.apple.com/us/podcast/the-stock-markets-bad-breadth/id1466686717?i=1000792087287&uo=4"
     ]
   }
