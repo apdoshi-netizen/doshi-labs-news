@@ -1,31 +1,4 @@
 {
-  "2026-09-08": [
-    {
-      "title": "Investors Brace for a Choppier Fall as the Fed, Inflation Return to Center Stage",
-      "url": "https://www.wsj.com/finance/investing/investors-brace-for-a-choppier-fall-as-the-fed-inflation-return-to-center-stage-81f6f11f",
-      "storyKey": "fed+inflation+markets"
-    },
-    {
-      "title": "Uber’s $15 Billion Takeover Bid Gets Delivery Hero Board Backing",
-      "url": "https://www.wsj.com/business/ubers-15-billion-takeover-bid-gets-delivery-hero-board-backing-2f6c992e",
-      "storyKey": "deliveryhero+uber"
-    },
-    {
-      "title": "Opinion | Trump Aligns With Hamilton on Trade Policy",
-      "url": "https://www.wsj.com/opinion/trump-aligns-with-hamilton-on-trade-policy-451957a2",
-      "storyKey": "hamilton+trade+trump"
-    },
-    {
-      "title": "U.S. Gets Minority Stakes in D-Wave, Rigetti, Quantinuum in $300 Million CHIPS Act Funding Deal",
-      "url": "https://www.wsj.com/tech/u-s-gets-minority-stakes-in-d-wave-rigetti-quantinuum-in-300-million-chips-act-funding-deal-a7bad600",
-      "storyKey": "chips+funding+quantum"
-    },
-    {
-      "title": "The Latest Act From Lane Kiffin’s College Circus: Winning Actual Football Games",
-      "url": "https://www.wsj.com/sports/football/lane-kiffin-lsu-clemson-57a44e3f",
-      "storyKey": "kiffin+lane+miss+ole"
-    }
-  ],
   "2026-09-09": [
     {
       "title": "Oil Near $100 Threatens U.S. Stocks’ Stellar Run",
@@ -593,10 +566,34 @@
       "storyKey": "college+law+sports"
     }
   ],
+  "2026-09-30": [
+    {
+      "title": "Fed’s Williams Hints Next Rate Increase Can Wait",
+      "url": "https://www.wsj.com/economy/central-banking/newyork-fed-s-williams-hints-next-interest-rate-increase-can-wait-6518cd41",
+      "storyKey": "fed+rates+williams"
+    },
+    {
+      "title": "AT&T, Corning Enter $3 Billion Deal for Fiber",
+      "url": "https://www.wsj.com/business/telecom/at-t-corning-enter-3-billion-deal-for-fiber-920284ce",
+      "storyKey": "att+corning+fiber"
+    },
+    {
+      "title": "Opinion | AI Regulation Needs to Look Beyond America",
+      "url": "https://www.wsj.com/opinion/ai-regulation-needs-to-look-beyond-america-652f888a",
+      "storyKey": "ai+global+regulation"
+    },
+    {
+      "title": "Nvidia Releases Software It Says Can Prevent AI Agents From Going Rogue",
+      "url": "https://www.wsj.com/tech/ai/nvidia-releases-software-it-says-can-prevent-ai-agents-from-going-rogue-12fd4ef8",
+      "storyKey": "ai+nvidia+safety"
+    },
+    {
+      "title": "English Soccer Giant Manchester City Found Guilty of Sweeping Financial Breaches",
+      "url": "https://www.wsj.com/sports/soccer/manchester-city-financial-breaches-bc170829",
+      "storyKey": "city+financial+man"
+    }
+  ],
   "_research": {
-    "2026-09-08": [
-      "https://podcasts.apple.com/us/podcast/how-is-automation-shaping-emerging-markets/id1456184829?i=1000788397230&uo=4"
-    ],
     "2026-09-09": [
       "https://podcasts.apple.com/us/podcast/ai-debt-starts-moving-the-u-s-treasurys-market/id1466686717?i=1000788527236&uo=4"
     ],
@@ -662,6 +659,9 @@
     "2026-09-29": [
       "https://podcasts.apple.com/us/podcast/how-family-businesses-should-plan-for-generational/id948913991?i=1000792194656&uo=4",
       "https://podcasts.apple.com/us/podcast/the-stock-markets-bad-breadth/id1466686717?i=1000792087287&uo=4"
+    ],
+    "2026-09-30": [
+      "https://podcasts.apple.com/us/podcast/chinas-%2412-trillion-manufacturing-upgrade/id1466686717?i=1000792255253&uo=4"
     ]
   }
 }

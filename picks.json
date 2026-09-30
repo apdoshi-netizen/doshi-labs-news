@@ -1,73 +1,63 @@
 {
-  "date": "2026-09-29",
-  "generatedAt": "2026-09-29T15:50:48.525887+00:00",
+  "date": "2026-09-30",
+  "generatedAt": "2026-09-30T11:09:56.596213+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Canada GDP Indicates Recovery After Stalling in July",
-      "url": "https://www.wsj.com/economy/central-banking/canada-gdp-indicates-pick-up-after-stalling-in-july-c4bf9b65",
-      "summary": "",
-      "storyKey": null,
+      "title": "Fed’s Williams Hints Next Rate Increase Can Wait",
+      "url": "https://www.wsj.com/economy/central-banking/newyork-fed-s-williams-hints-next-interest-rate-increase-can-wait-6518cd41",
+      "summary": "Fed's Williams signals next rate increase can wait, easing market rate-hike expectations.",
+      "storyKey": "fed+rates+williams",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Exclusive | Piper Sandler Holds Talks to Buy Perella Weinberg",
-      "url": "https://www.wsj.com/business/deals/piper-sandler-holds-talks-to-buy-perella-weinberg-633bae65",
-      "summary": "Piper Sandler is in talks to acquire boutique investment bank Perella Weinberg, per exclusive report.",
-      "storyKey": "perella+piper+weinberg",
+      "title": "AT&T, Corning Enter $3 Billion Deal for Fiber",
+      "url": "https://www.wsj.com/business/telecom/at-t-corning-enter-3-billion-deal-for-fiber-920284ce",
+      "summary": "AT&T and Corning strike a $3 billion deal to expand fiber network infrastructure.",
+      "storyKey": "att+corning+fiber",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | The U.S. Tariff Attack on U.S. Biotech",
-      "url": "https://www.wsj.com/opinion/the-u-s-tariff-attack-on-u-s-biotech-c3406b92",
-      "summary": "Opinion argues U.S. tariff policy is undermining America's own biotech industry.",
-      "storyKey": "biotech+policy+tariff",
+      "title": "Opinion | AI Regulation Needs to Look Beyond America",
+      "url": "https://www.wsj.com/opinion/ai-regulation-needs-to-look-beyond-america-652f888a",
+      "summary": "Opinion argues AI regulation must extend beyond U.S. borders to be effective globally.",
+      "storyKey": "ai+global+regulation",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "AMD to Acquire World Labs for $8.2 Billion",
-      "url": "https://www.wsj.com/tech/ai/amd-to-acquire-world-labs-for-8-2-billion-a8d03d11",
-      "summary": "AMD agrees to acquire AI startup World Labs for $8.2 billion.",
-      "storyKey": "amd+labs+world",
+      "title": "Nvidia Releases Software It Says Can Prevent AI Agents From Going Rogue",
+      "url": "https://www.wsj.com/tech/ai/nvidia-releases-software-it-says-can-prevent-ai-agents-from-going-rogue-12fd4ef8",
+      "summary": "Nvidia releases software aimed at preventing AI agents from acting unpredictably or \"going rogue.\"",
+      "storyKey": "ai+nvidia+safety",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The Senate Just Passed a College Sports Law. Here’s What It Does.",
-      "url": "https://www.wsj.com/sports/the-senate-just-passed-a-college-sports-law-heres-what-it-does-22015f29",
-      "summary": "Senate passes new law reshaping college s",
-      "storyKey": "college+law+sports",
+      "title": "English Soccer Giant Manchester City Found Guilty of Sweeping Financial Breaches",
+      "url": "https://www.wsj.com/sports/soccer/manchester-city-financial-breaches-bc170829",
+      "summary": "Manchester City found guilty of sweeping financial rule breaches in English soccer probe.",
+      "storyKey": "city+financial+man",
       "source": "WSJ"
     }
   ],
   "research": [
     {
-      "firm": "Goldman Sachs",
-      "show": "Exchanges",
-      "title": "How Family Businesses Should Plan for Generational Success",
-      "url": "https://podcasts.apple.com/us/podcast/how-family-businesses-should-plan-for-generational/id948913991?i=1000792194656&uo=4",
-      "published": "2026-09-29T12:00:00+00:00",
-      "kind": "podcast",
-      "duration": "23 min",
-      "summary": "Companies with significant family ownership generate roughly 70% of global economic output and 60% of the world’s jobs. However, only three in 10 survive to a second generation. In this episode of Goldman Sachs Exchanges, FX de Mallmann, chairman of Goldman Sachs EMEA and chairman of Investment Banking, and Tucker York, chairman of global Wealth Management, discuss why succession is so difficult, how enduring enterprises structure governance, and the mindset shift required after a sale or IPO."
-    },
-    {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
-      "title": "The Stock Market’s Bad Breadth",
-      "url": "https://podcasts.apple.com/us/podcast/the-stock-markets-bad-breadth/id1466686717?i=1000792087287&uo=4",
-      "published": "2026-09-28T21:00:00+00:00",
+      "title": "China’s $12 Trillion Manufacturing Upgrade",
+      "url": "https://podcasts.apple.com/us/podcast/chinas-%2412-trillion-manufacturing-upgrade/id1466686717?i=1000792255253&uo=4",
+      "published": "2026-09-29T20:00:00+00:00",
       "kind": "podcast",
       "duration": "5 min",
-      "summary": "Fewer companies have been driving equity market gains in 2026. Our CIO and Chief U.S. Equity Strategist Mike Wilson looks at what investors should make of the narrowing rally as the year enters its final stretch. Read more insights from Morgan Stanley."
+      "summary": "Our China Industrials Analyst Sheng Zhong explains how AI, robotics and a major investment cycle could transform China’s manufacturing base and its role in global supply chains. Read more insights from Morgan Stanley."
     }
   ]
 }
