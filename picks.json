@@ -1,54 +1,64 @@
 {
   "date": "2026-09-30",
-  "generatedAt": "2026-09-30T11:09:56.596213+00:00",
+  "generatedAt": "2026-09-30T15:54:58.933717+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Fed’s Williams Hints Next Rate Increase Can Wait",
-      "url": "https://www.wsj.com/economy/central-banking/newyork-fed-s-williams-hints-next-interest-rate-increase-can-wait-6518cd41",
-      "summary": "Fed's Williams signals next rate increase can wait, easing market rate-hike expectations.",
-      "storyKey": "fed+rates+williams",
+      "title": "Fed’s Cook Expects Continuing Inflation Pressure From AI Buildout in Coming Months",
+      "url": "https://www.wsj.com/economy/central-banking/feds-cook-expects-continuing-inflation-pressure-from-ai-buildout-in-coming-months-78632a7f",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "AT&T, Corning Enter $3 Billion Deal for Fiber",
-      "url": "https://www.wsj.com/business/telecom/at-t-corning-enter-3-billion-deal-for-fiber-920284ce",
-      "summary": "AT&T and Corning strike a $3 billion deal to expand fiber network infrastructure.",
-      "storyKey": "att+corning+fiber",
+      "title": "AstraZeneca to Invest $2 Billion in Summit Therapeutics, Collaborate on Cancer Drugs",
+      "url": "https://www.wsj.com/business/astrazeneca-to-invest-2-billion-in-summit-therapeutics-collaborate-on-cancer-drugs-97d43efe",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | AI Regulation Needs to Look Beyond America",
-      "url": "https://www.wsj.com/opinion/ai-regulation-needs-to-look-beyond-america-652f888a",
-      "summary": "Opinion argues AI regulation must extend beyond U.S. borders to be effective globally.",
-      "storyKey": "ai+global+regulation",
+      "title": "Opinion | Rethinking Political Polling in the Age of AI",
+      "url": "https://www.wsj.com/opinion/rethinking-political-polling-in-the-age-of-ai-1d9ee87b",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Nvidia Releases Software It Says Can Prevent AI Agents From Going Rogue",
-      "url": "https://www.wsj.com/tech/ai/nvidia-releases-software-it-says-can-prevent-ai-agents-from-going-rogue-12fd4ef8",
-      "summary": "Nvidia releases software aimed at preventing AI agents from acting unpredictably or \"going rogue.\"",
-      "storyKey": "ai+nvidia+safety",
+      "title": "Samsung Commits $1.0 Billion to AI Infrastructure Firm Backed by KKR, Nvidia",
+      "url": "https://www.wsj.com/tech/ai/samsung-commits-1-billion-to-ai-infrastructure-firm-backed-by-kkr-nvidia-d1039c57",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "English Soccer Giant Manchester City Found Guilty of Sweeping Financial Breaches",
-      "url": "https://www.wsj.com/sports/soccer/manchester-city-financial-breaches-bc170829",
-      "summary": "Manchester City found guilty of sweeping financial rule breaches in English soccer probe.",
-      "storyKey": "city+financial+man",
+      "title": "Travis Kelce Got Into Wedding Shape—and Embarked on a Late-Career Honeymoon",
+      "url": "https://www.wsj.com/sports/football/travis-kelce-taylor-swift-turnaround-71a548b4",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     }
   ],
   "research": [
+    {
+      "firm": "Goldman Sachs",
+      "show": "Talks at GS",
+      "title": "Daniel Nadler on Building an AI-Powered Search Engine for Medicine",
+      "url": "https://podcasts.apple.com/us/podcast/daniel-nadler-on-building-an-ai-powered-search/id1373320104?i=1000792393112&uo=4",
+      "published": "2026-09-30T13:30:00+00:00",
+      "kind": "podcast",
+      "duration": "18 min",
+      "summary": "OpenEvidence is working to rapidly advance clinical decision-making, emerging as a global leader in delivering gold-standard medical knowledge to physicians at the point of care. Daniel Nadler, co-founder and CEO of OpenEvidence, joins Meena Flynn, chair of Global Private Wealth Management and co-head of One Goldman Sachs, to discuss OpenEvidence's founding story, how the platform acts as a “brain extender” for doctors, and the future of matching patients with life-saving clinical trials."
+    },
     {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",

@@ -568,29 +568,29 @@
   ],
   "2026-09-30": [
     {
-      "title": "Fed’s Williams Hints Next Rate Increase Can Wait",
-      "url": "https://www.wsj.com/economy/central-banking/newyork-fed-s-williams-hints-next-interest-rate-increase-can-wait-6518cd41",
-      "storyKey": "fed+rates+williams"
+      "title": "Fed’s Cook Expects Continuing Inflation Pressure From AI Buildout in Coming Months",
+      "url": "https://www.wsj.com/economy/central-banking/feds-cook-expects-continuing-inflation-pressure-from-ai-buildout-in-coming-months-78632a7f",
+      "storyKey": null
     },
     {
-      "title": "AT&T, Corning Enter $3 Billion Deal for Fiber",
-      "url": "https://www.wsj.com/business/telecom/at-t-corning-enter-3-billion-deal-for-fiber-920284ce",
-      "storyKey": "att+corning+fiber"
+      "title": "AstraZeneca to Invest $2 Billion in Summit Therapeutics, Collaborate on Cancer Drugs",
+      "url": "https://www.wsj.com/business/astrazeneca-to-invest-2-billion-in-summit-therapeutics-collaborate-on-cancer-drugs-97d43efe",
+      "storyKey": null
     },
     {
-      "title": "Opinion | AI Regulation Needs to Look Beyond America",
-      "url": "https://www.wsj.com/opinion/ai-regulation-needs-to-look-beyond-america-652f888a",
-      "storyKey": "ai+global+regulation"
+      "title": "Opinion | Rethinking Political Polling in the Age of AI",
+      "url": "https://www.wsj.com/opinion/rethinking-political-polling-in-the-age-of-ai-1d9ee87b",
+      "storyKey": null
     },
     {
-      "title": "Nvidia Releases Software It Says Can Prevent AI Agents From Going Rogue",
-      "url": "https://www.wsj.com/tech/ai/nvidia-releases-software-it-says-can-prevent-ai-agents-from-going-rogue-12fd4ef8",
-      "storyKey": "ai+nvidia+safety"
+      "title": "Samsung Commits $1.0 Billion to AI Infrastructure Firm Backed by KKR, Nvidia",
+      "url": "https://www.wsj.com/tech/ai/samsung-commits-1-billion-to-ai-infrastructure-firm-backed-by-kkr-nvidia-d1039c57",
+      "storyKey": null
     },
     {
-      "title": "English Soccer Giant Manchester City Found Guilty of Sweeping Financial Breaches",
-      "url": "https://www.wsj.com/sports/soccer/manchester-city-financial-breaches-bc170829",
-      "storyKey": "city+financial+man"
+      "title": "Travis Kelce Got Into Wedding Shape—and Embarked on a Late-Career Honeymoon",
+      "url": "https://www.wsj.com/sports/football/travis-kelce-taylor-swift-turnaround-71a548b4",
+      "storyKey": null
     }
   ],
   "_research": {
@@ -661,6 +661,7 @@
       "https://podcasts.apple.com/us/podcast/the-stock-markets-bad-breadth/id1466686717?i=1000792087287&uo=4"
     ],
     "2026-09-30": [
+      "https://podcasts.apple.com/us/podcast/daniel-nadler-on-building-an-ai-powered-search/id1373320104?i=1000792393112&uo=4",
       "https://podcasts.apple.com/us/podcast/chinas-%2412-trillion-manufacturing-upgrade/id1466686717?i=1000792255253&uo=4"
     ]
   }
