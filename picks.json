@@ -1,12 +1,12 @@
 {
-  "date": "2026-09-30",
-  "generatedAt": "2026-09-30T15:54:58.933717+00:00",
+  "date": "2026-10-01",
+  "generatedAt": "2026-10-01T11:36:39.467207+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Fed’s Cook Expects Continuing Inflation Pressure From AI Buildout in Coming Months",
-      "url": "https://www.wsj.com/economy/central-banking/feds-cook-expects-continuing-inflation-pressure-from-ai-buildout-in-coming-months-78632a7f",
+      "title": "Here’s Why the Fed Is on Hold—Maybe for a While",
+      "url": "https://www.wsj.com/finance/investing/heres-why-the-fed-is-on-holdmaybe-for-a-while-97456ce8",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -14,8 +14,8 @@
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "AstraZeneca to Invest $2 Billion in Summit Therapeutics, Collaborate on Cancer Drugs",
-      "url": "https://www.wsj.com/business/astrazeneca-to-invest-2-billion-in-summit-therapeutics-collaborate-on-cancer-drugs-97d43efe",
+      "title": "Hapag-Lloyd Raises Guidance Again on Strong Demand, Freight Rates",
+      "url": "https://www.wsj.com/business/logistics/hapag-lloyd-raises-guidance-again-on-strong-demand-freight-rates-917dd8c6",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -23,8 +23,8 @@
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Rethinking Political Polling in the Age of AI",
-      "url": "https://www.wsj.com/opinion/rethinking-political-polling-in-the-age-of-ai-1d9ee87b",
+      "title": "Opinion | AI Optimism Only Goes So Far",
+      "url": "https://www.wsj.com/opinion/free-expression/ai-optimism-only-goes-so-far-cac16edd",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -32,8 +32,8 @@
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Samsung Commits $1.0 Billion to AI Infrastructure Firm Backed by KKR, Nvidia",
-      "url": "https://www.wsj.com/tech/ai/samsung-commits-1-billion-to-ai-infrastructure-firm-backed-by-kkr-nvidia-d1039c57",
+      "title": "Inside Google’s AI Push Into Schools: ‘It Slowed My Thinking Down’",
+      "url": "https://www.wsj.com/tech/ai/google-ai-gemini-education-schools-1ec0972a",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -41,8 +41,8 @@
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "Travis Kelce Got Into Wedding Shape—and Embarked on a Late-Career Honeymoon",
-      "url": "https://www.wsj.com/sports/football/travis-kelce-taylor-swift-turnaround-71a548b4",
+      "title": "The New York Yankees’ Old-School Plan to Conquer October",
+      "url": "https://www.wsj.com/sports/baseball/yankees-playoffs-red-sox-2ed3c075",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -50,24 +50,14 @@
   ],
   "research": [
     {
-      "firm": "Goldman Sachs",
-      "show": "Talks at GS",
-      "title": "Daniel Nadler on Building an AI-Powered Search Engine for Medicine",
-      "url": "https://podcasts.apple.com/us/podcast/daniel-nadler-on-building-an-ai-powered-search/id1373320104?i=1000792393112&uo=4",
-      "published": "2026-09-30T13:30:00+00:00",
-      "kind": "podcast",
-      "duration": "18 min",
-      "summary": "OpenEvidence is working to rapidly advance clinical decision-making, emerging as a global leader in delivering gold-standard medical knowledge to physicians at the point of care. Daniel Nadler, co-founder and CEO of OpenEvidence, joins Meena Flynn, chair of Global Private Wealth Management and co-head of One Goldman Sachs, to discuss OpenEvidence's founding story, how the platform acts as a “brain extender” for doctors, and the future of matching patients with life-saving clinical trials."
-    },
-    {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
-      "title": "China’s $12 Trillion Manufacturing Upgrade",
-      "url": "https://podcasts.apple.com/us/podcast/chinas-%2412-trillion-manufacturing-upgrade/id1466686717?i=1000792255253&uo=4",
-      "published": "2026-09-29T20:00:00+00:00",
+      "title": "4 Market Signals Ahead of the Midterms",
+      "url": "https://podcasts.apple.com/us/podcast/4-market-signals-ahead-of-the-midterms/id1466686717?i=1000792446486&uo=4",
+      "published": "2026-09-30T20:00:00+00:00",
       "kind": "podcast",
       "duration": "5 min",
-      "summary": "Our China Industrials Analyst Sheng Zhong explains how AI, robotics and a major investment cycle could transform China’s manufacturing base and its role in global supply chains. Read more insights from Morgan Stanley."
+      "summary": "As investors look toward the U.S. midterm elections, the biggest question is what could change. Our Head of U.S. Public Policy Research Ariana Salvatore outlines the signals worth watching. Read more insights from Morgan Stanley."
     }
   ]
 }

@@ -1,31 +1,4 @@
 {
-  "2026-09-09": [
-    {
-      "title": "Oil Near $100 Threatens U.S. Stocks’ Stellar Run",
-      "url": "https://www.wsj.com/finance/stocks/oil-near-100-threatens-u-s-stocks-stellar-run-cabbaf0c",
-      "storyKey": "correction+oil+stocks"
-    },
-    {
-      "title": "Canada Picks Alstom to Build Passenger Railcars in Multibilllion-Dollar Deal",
-      "url": "https://www.wsj.com/world/americas/canada-picks-alstom-to-build-passenger-railcars-in-multibilllion-dollar-deal-c203f4cf",
-      "storyKey": "alstom+canada+railcars"
-    },
-    {
-      "title": "Opinion | The New U.S. Tax on ‘Brilliant People’",
-      "url": "https://www.wsj.com/opinion/the-new-u-s-tax-on-brilliant-people-5a6a6baf",
-      "storyKey": "brilliant+people+tax"
-    },
-    {
-      "title": "Analog Devices to Acquire Alif Semiconductor for $1.35 Billion",
-      "url": "https://www.wsj.com/tech/analog-devices-to-acquire-alif-semiconductor-for-1-35-billion-1b31d6fe",
-      "storyKey": "alif+analog+devices"
-    },
-    {
-      "title": "LIV Golf Files for Bankruptcy—and Owes Top Golfers Millions",
-      "url": "https://www.wsj.com/sports/golf/liv-golf-bankruptcy-2b33c886",
-      "storyKey": "bankruptcy+golf+liv"
-    }
-  ],
   "2026-09-10": [
     {
       "title": "The ECB Just Raised Interest Rates. Here’s What to Know.",
@@ -593,10 +566,34 @@
       "storyKey": null
     }
   ],
+  "2026-10-01": [
+    {
+      "title": "Here’s Why the Fed Is on Hold—Maybe for a While",
+      "url": "https://www.wsj.com/finance/investing/heres-why-the-fed-is-on-holdmaybe-for-a-while-97456ce8",
+      "storyKey": null
+    },
+    {
+      "title": "Hapag-Lloyd Raises Guidance Again on Strong Demand, Freight Rates",
+      "url": "https://www.wsj.com/business/logistics/hapag-lloyd-raises-guidance-again-on-strong-demand-freight-rates-917dd8c6",
+      "storyKey": null
+    },
+    {
+      "title": "Opinion | AI Optimism Only Goes So Far",
+      "url": "https://www.wsj.com/opinion/free-expression/ai-optimism-only-goes-so-far-cac16edd",
+      "storyKey": null
+    },
+    {
+      "title": "Inside Google’s AI Push Into Schools: ‘It Slowed My Thinking Down’",
+      "url": "https://www.wsj.com/tech/ai/google-ai-gemini-education-schools-1ec0972a",
+      "storyKey": null
+    },
+    {
+      "title": "The New York Yankees’ Old-School Plan to Conquer October",
+      "url": "https://www.wsj.com/sports/baseball/yankees-playoffs-red-sox-2ed3c075",
+      "storyKey": null
+    }
+  ],
   "_research": {
-    "2026-09-09": [
-      "https://podcasts.apple.com/us/podcast/ai-debt-starts-moving-the-u-s-treasurys-market/id1466686717?i=1000788527236&uo=4"
-    ],
     "2026-09-10": [
       "https://podcasts.apple.com/us/podcast/how-will-less-fed-transparency-affect-markets-and/id948913991?i=1000788710424&uo=4",
       "https://podcasts.apple.com/us/podcast/can-the-ai-spending-boom-pay-off/id1466686717?i=1000788740055&uo=4",
@@ -663,6 +660,9 @@
     "2026-09-30": [
       "https://podcasts.apple.com/us/podcast/daniel-nadler-on-building-an-ai-powered-search/id1373320104?i=1000792393112&uo=4",
       "https://podcasts.apple.com/us/podcast/chinas-%2412-trillion-manufacturing-upgrade/id1466686717?i=1000792255253&uo=4"
+    ],
+    "2026-10-01": [
+      "https://podcasts.apple.com/us/podcast/4-market-signals-ahead-of-the-midterms/id1466686717?i=1000792446486&uo=4"
     ]
   }
 }
