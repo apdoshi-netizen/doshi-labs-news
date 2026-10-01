@@ -1,12 +1,12 @@
 {
   "date": "2026-10-01",
-  "generatedAt": "2026-10-01T11:36:39.467207+00:00",
+  "generatedAt": "2026-10-01T16:26:31.521646+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Here’s Why the Fed Is on Hold—Maybe for a While",
-      "url": "https://www.wsj.com/finance/investing/heres-why-the-fed-is-on-holdmaybe-for-a-while-97456ce8",
+      "title": "Rising Deficits and War Unravel Trump’s Strategy to Lower Interest Rates and Inflation",
+      "url": "https://www.wsj.com/articles/rising-deficits-and-war-unravel-trumps-strategy-to-lower-interest-rates-and-inflation-f93a6a76",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -14,8 +14,8 @@
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Hapag-Lloyd Raises Guidance Again on Strong Demand, Freight Rates",
-      "url": "https://www.wsj.com/business/logistics/hapag-lloyd-raises-guidance-again-on-strong-demand-freight-rates-917dd8c6",
+      "title": "Raytheon Gets $20.7 Billion Contract to Accelerate AMRAAM Missile Production",
+      "url": "https://www.wsj.com/business/raytheon-gets-20-7-billion-contract-to-accelerate-amraam-missile-production-25f96d73",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -32,8 +32,8 @@
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Inside Google’s AI Push Into Schools: ‘It Slowed My Thinking Down’",
-      "url": "https://www.wsj.com/tech/ai/google-ai-gemini-education-schools-1ec0972a",
+      "title": "Exclusive | OpenAI Parts Ways With Researchers Who Allegedly Shared Confidential Information",
+      "url": "https://www.wsj.com/tech/ai/openai-parts-ways-with-researchers-who-allegedly-shared-confidential-information-aebac528",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -41,8 +41,8 @@
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The New York Yankees’ Old-School Plan to Conquer October",
-      "url": "https://www.wsj.com/sports/baseball/yankees-playoffs-red-sox-2ed3c075",
+      "title": "Drake Maye Looked Like Tom Brady’s Heir. Now, He’s a Disaster.",
+      "url": "https://www.wsj.com/sports/football/drake-maye-new-england-patriots-366ef7c6",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
