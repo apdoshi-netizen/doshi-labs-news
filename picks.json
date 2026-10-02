@@ -1,63 +1,73 @@
 {
-  "date": "2026-10-01",
-  "generatedAt": "2026-10-01T16:26:31.521646+00:00",
+  "date": "2026-10-02",
+  "generatedAt": "2026-10-02T11:05:57.822897+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Rising Deficits and War Unravel Trump’s Strategy to Lower Interest Rates and Inflation",
-      "url": "https://www.wsj.com/articles/rising-deficits-and-war-unravel-trumps-strategy-to-lower-interest-rates-and-inflation-f93a6a76",
-      "summary": "",
-      "storyKey": null,
+      "title": "France Is Ground Zero in the Global Bond Rout",
+      "url": "https://www.wsj.com/finance/france-is-ground-zero-in-the-global-bond-rout-4b743eb2",
+      "summary": "France becomes epicenter of global bond selloff, highlighting fiscal risk across markets.",
+      "storyKey": "bond+france+rout",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Raytheon Gets $20.7 Billion Contract to Accelerate AMRAAM Missile Production",
-      "url": "https://www.wsj.com/business/raytheon-gets-20-7-billion-contract-to-accelerate-amraam-missile-production-25f96d73",
-      "summary": "",
-      "storyKey": null,
+      "title": "ON Semicondcutor to Buy Synaptics for Cash, Not Stock, in Downsized Deal",
+      "url": "https://www.wsj.com/business/deals/on-semicondcutor-to-buy-synaptics-for-cash-not-stock-in-downsized-deal-d2781e36",
+      "summary": "ON Semiconductor to acquire Synaptics for cash in a downsized deal.",
+      "storyKey": "onsemi+synaptics",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | AI Optimism Only Goes So Far",
-      "url": "https://www.wsj.com/opinion/free-expression/ai-optimism-only-goes-so-far-cac16edd",
-      "summary": "",
-      "storyKey": null,
+      "title": "Opinion | The Other Threat to Fed Independence",
+      "url": "https://www.wsj.com/opinion/the-other-threat-to-fed-independence-10f1adaf",
+      "summary": "Opinion argues a lesser-known threat endangers the Federal Reserve's independence.",
+      "storyKey": "fed+independence",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Exclusive | OpenAI Parts Ways With Researchers Who Allegedly Shared Confidential Information",
-      "url": "https://www.wsj.com/tech/ai/openai-parts-ways-with-researchers-who-allegedly-shared-confidential-information-aebac528",
-      "summary": "",
-      "storyKey": null,
+      "title": "Will America Spend 9% of Its GDP on AI? The Industry Is Counting on It",
+      "url": "https://www.wsj.com/tech/ai/will-america-spend-9-of-its-gdp-on-ai-the-industry-is-counting-on-it-3501bb4f",
+      "summary": "Industry banks on AI consuming up to 9% of US GDP, raising sustainability questions.",
+      "storyKey": "ai+gdp+spending",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "Drake Maye Looked Like Tom Brady’s Heir. Now, He’s a Disaster.",
-      "url": "https://www.wsj.com/sports/football/drake-maye-new-england-patriots-366ef7c6",
-      "summary": "",
-      "storyKey": null,
+      "title": "Manchester City Was Found Guilty of Rampant Cheating. Here’s What Comes Next.",
+      "url": "https://www.wsj.com/sports/soccer/manchester-city-verdict-relegation-5af047f9",
+      "summary": "Manchester City found guilty of rampant financial rule-breaking; fallout and penalties examined.",
+      "storyKey": "city+guilty+manchester",
       "source": "WSJ"
     }
   ],
   "research": [
     {
+      "firm": "Goldman Sachs",
+      "show": "The Markets",
+      "title": "AI Is Becoming a Stock Picker's Market",
+      "url": "https://podcasts.apple.com/us/podcast/ai-is-becoming-a-stock-pickers-market/id1683802600?i=1000792688856&uo=4",
+      "published": "2026-10-02T04:00:00+00:00",
+      "kind": "podcast",
+      "duration": "9 min",
+      "summary": "Trading in artificial intelligence (AI) stocks is evolving as investor interest broadens beyond semiconductor makers and companies that benefit from capital expenditures in AI, says Peter Callahan, US Technology, Media, and Telecommunications sector specialist in Goldman Sachs FICC and Equities. On The Markets podcast, he says investors are increasingly focused on companies that help organizations implement the technology and AI agents for commerce. Callahan also discusses how rising interest rates are impacting technology stocks, the growing dispersion among software companies, and his outlook for semiconductor stocks."
+    },
+    {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
-      "title": "4 Market Signals Ahead of the Midterms",
-      "url": "https://podcasts.apple.com/us/podcast/4-market-signals-ahead-of-the-midterms/id1466686717?i=1000792446486&uo=4",
-      "published": "2026-09-30T20:00:00+00:00",
+      "title": "How AI and Tokenization Could Reshape Wealth Management",
+      "url": "https://podcasts.apple.com/us/podcast/how-ai-and-tokenization-could-reshape-wealth-management/id1466686717?i=1000792640211&uo=4",
+      "published": "2026-10-01T20:30:00+00:00",
       "kind": "podcast",
-      "duration": "5 min",
-      "summary": "As investors look toward the U.S. midterm elections, the biggest question is what could change. Our Head of U.S. Public Policy Research Ariana Salvatore outlines the signals worth watching. Read more insights from Morgan Stanley."
+      "duration": "12 min",
+      "summary": "Betsy Graseck and Michael Cyprys explore how AI could expand advisor capacity and tokenized assets could grow into a $2.3 trillion market by 2030. Read more insights from Morgan Stanley."
     }
   ]
 }

@@ -1,31 +1,4 @@
 {
-  "2026-09-10": [
-    {
-      "title": "The ECB Just Raised Interest Rates. Here’s What to Know.",
-      "url": "https://www.wsj.com/economy/central-banking/the-ecb-just-raised-interest-rates-heres-what-to-know-c03f9bb0",
-      "storyKey": "decision+ecb+rate"
-    },
-    {
-      "title": "Porsche AG Eyes Wider Margins After $1.2 Billion Sale of Bugatti, Rimac Stakes",
-      "url": "https://www.wsj.com/business/autos/porsche-ag-eyes-wider-margins-after-1-2-billion-sale-of-bugatti-rimac-stakes-a2c316a6",
-      "storyKey": "bugatti+porsche+rimac"
-    },
-    {
-      "title": "Against the Stay-at-Home-Mom Subsidy",
-      "url": "https://www.wsj.com/opinion/free-expression/against-the-stay-at-home-mom-subsidy-0984080c",
-      "storyKey": "at+home+mom+stay"
-    },
-    {
-      "title": "Apple Debuts New Foldable iPhone Duo, New CEO and New (Higher) Prices",
-      "url": "https://www.wsj.com/tech/apple-to-debut-new-foldable-iphone-new-ceo-and-new-prices-b2485b9f",
-      "storyKey": "apple+foldable+iphone"
-    },
-    {
-      "title": "The Stunning Mistake That Decided the NFL’s Super Bowl Rematch",
-      "url": "https://www.wsj.com/sports/football/seahawks-patriots-drake-maye-interception-6828c9a9",
-      "storyKey": "nfl+rematch+superbowl"
-    }
-  ],
   "2026-09-11": [
     {
       "title": "U.S. 10-Year Treasury Yield Nears 5% as Oil Fuels Inflation Fears",
@@ -593,12 +566,34 @@
       "storyKey": null
     }
   ],
+  "2026-10-02": [
+    {
+      "title": "France Is Ground Zero in the Global Bond Rout",
+      "url": "https://www.wsj.com/finance/france-is-ground-zero-in-the-global-bond-rout-4b743eb2",
+      "storyKey": "bond+france+rout"
+    },
+    {
+      "title": "ON Semicondcutor to Buy Synaptics for Cash, Not Stock, in Downsized Deal",
+      "url": "https://www.wsj.com/business/deals/on-semicondcutor-to-buy-synaptics-for-cash-not-stock-in-downsized-deal-d2781e36",
+      "storyKey": "onsemi+synaptics"
+    },
+    {
+      "title": "Opinion | The Other Threat to Fed Independence",
+      "url": "https://www.wsj.com/opinion/the-other-threat-to-fed-independence-10f1adaf",
+      "storyKey": "fed+independence"
+    },
+    {
+      "title": "Will America Spend 9% of Its GDP on AI? The Industry Is Counting on It",
+      "url": "https://www.wsj.com/tech/ai/will-america-spend-9-of-its-gdp-on-ai-the-industry-is-counting-on-it-3501bb4f",
+      "storyKey": "ai+gdp+spending"
+    },
+    {
+      "title": "Manchester City Was Found Guilty of Rampant Cheating. Here’s What Comes Next.",
+      "url": "https://www.wsj.com/sports/soccer/manchester-city-verdict-relegation-5af047f9",
+      "storyKey": "city+guilty+manchester"
+    }
+  ],
   "_research": {
-    "2026-09-10": [
-      "https://podcasts.apple.com/us/podcast/how-will-less-fed-transparency-affect-markets-and/id948913991?i=1000788710424&uo=4",
-      "https://podcasts.apple.com/us/podcast/can-the-ai-spending-boom-pay-off/id1466686717?i=1000788740055&uo=4",
-      "https://www.jpmorgan.com/insights/markets-and-economy/economy/kevin-warsh-work-to-do-fighting-inflation-what-to-expect-september-2026-federal-reserve-meeting"
-    ],
     "2026-09-11": [
       "https://podcasts.apple.com/us/podcast/the-fed-football-and-the-price-of-ambiguity/id1466686717?i=1000788945569&uo=4",
       "https://podcasts.apple.com/us/podcast/the-future-of-treasury-from-back-office-to/id1456184829?i=1000788995052&uo=4"
@@ -663,6 +658,10 @@
     ],
     "2026-10-01": [
       "https://podcasts.apple.com/us/podcast/4-market-signals-ahead-of-the-midterms/id1466686717?i=1000792446486&uo=4"
+    ],
+    "2026-10-02": [
+      "https://podcasts.apple.com/us/podcast/ai-is-becoming-a-stock-pickers-market/id1683802600?i=1000792688856&uo=4",
+      "https://podcasts.apple.com/us/podcast/how-ai-and-tokenization-could-reshape-wealth-management/id1466686717?i=1000792640211&uo=4"
     ]
   }
 }
