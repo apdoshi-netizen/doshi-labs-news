@@ -568,14 +568,14 @@
   ],
   "2026-10-02": [
     {
-      "title": "France Is Ground Zero in the Global Bond Rout",
-      "url": "https://www.wsj.com/finance/france-is-ground-zero-in-the-global-bond-rout-4b743eb2",
-      "storyKey": "bond+france+rout"
+      "title": "High Government Debt Is Adding Fuel to the Global Bond-Market Selloff",
+      "url": "https://www.wsj.com/finance/investing/high-government-debt-is-adding-fuel-to-the-global-bond-market-selloff-a93fa0fe",
+      "storyKey": "bond+selloff"
     },
     {
-      "title": "ON Semicondcutor to Buy Synaptics for Cash, Not Stock, in Downsized Deal",
-      "url": "https://www.wsj.com/business/deals/on-semicondcutor-to-buy-synaptics-for-cash-not-stock-in-downsized-deal-d2781e36",
-      "storyKey": "onsemi+synaptics"
+      "title": "Novartis to License Drug From China’s Abogen in Up to $7.8 Billion Deal",
+      "url": "https://www.wsj.com/health/pharma/novartis-to-license-drug-from-chinas-abogen-in-up-to-7-8-billion-deal-4ad8509c",
+      "storyKey": "abogen+novartis"
     },
     {
       "title": "Opinion | The Other Threat to Fed Independence",
@@ -590,7 +590,7 @@
     {
       "title": "Manchester City Was Found Guilty of Rampant Cheating. Here’s What Comes Next.",
       "url": "https://www.wsj.com/sports/soccer/manchester-city-verdict-relegation-5af047f9",
-      "storyKey": "city+guilty+manchester"
+      "storyKey": "city+finance+manchester"
     }
   ],
   "_research": {

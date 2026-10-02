@@ -1,23 +1,23 @@
 {
   "date": "2026-10-02",
-  "generatedAt": "2026-10-02T11:05:57.822897+00:00",
+  "generatedAt": "2026-10-02T15:48:18.221887+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "France Is Ground Zero in the Global Bond Rout",
-      "url": "https://www.wsj.com/finance/france-is-ground-zero-in-the-global-bond-rout-4b743eb2",
-      "summary": "France becomes epicenter of global bond selloff, highlighting fiscal risk across markets.",
-      "storyKey": "bond+france+rout",
+      "title": "High Government Debt Is Adding Fuel to the Global Bond-Market Selloff",
+      "url": "https://www.wsj.com/finance/investing/high-government-debt-is-adding-fuel-to-the-global-bond-market-selloff-a93fa0fe",
+      "summary": "Rising government debt is fueling a global bond-market selloff, pushing yields higher across major economies.",
+      "storyKey": "bond+selloff",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "ON Semicondcutor to Buy Synaptics for Cash, Not Stock, in Downsized Deal",
-      "url": "https://www.wsj.com/business/deals/on-semicondcutor-to-buy-synaptics-for-cash-not-stock-in-downsized-deal-d2781e36",
-      "summary": "ON Semiconductor to acquire Synaptics for cash in a downsized deal.",
-      "storyKey": "onsemi+synaptics",
+      "title": "Novartis to License Drug From China’s Abogen in Up to $7.8 Billion Deal",
+      "url": "https://www.wsj.com/health/pharma/novartis-to-license-drug-from-chinas-abogen-in-up-to-7-8-billion-deal-4ad8509c",
+      "summary": "Novartis to license a drug from China's Abogen in a deal worth up to $7.8 billion.",
+      "storyKey": "abogen+novartis",
       "source": "WSJ"
     },
     {
@@ -25,7 +25,7 @@
       "label": "Op-Ed",
       "title": "Opinion | The Other Threat to Fed Independence",
       "url": "https://www.wsj.com/opinion/the-other-threat-to-fed-independence-10f1adaf",
-      "summary": "Opinion argues a lesser-known threat endangers the Federal Reserve's independence.",
+      "summary": "Opinion piece argues another threat besides political pressure endangers the Federal Reserve's independence.",
       "storyKey": "fed+independence",
       "source": "WSJ"
     },
@@ -34,7 +34,7 @@
       "label": "Tech",
       "title": "Will America Spend 9% of Its GDP on AI? The Industry Is Counting on It",
       "url": "https://www.wsj.com/tech/ai/will-america-spend-9-of-its-gdp-on-ai-the-industry-is-counting-on-it-3501bb4f",
-      "summary": "Industry banks on AI consuming up to 9% of US GDP, raising sustainability questions.",
+      "summary": "Industry banks on AI spending reaching 9% of U.S. GDP, raising questions about sustainability.",
       "storyKey": "ai+gdp+spending",
       "source": "WSJ"
     },
@@ -43,8 +43,8 @@
       "label": "Sports",
       "title": "Manchester City Was Found Guilty of Rampant Cheating. Here’s What Comes Next.",
       "url": "https://www.wsj.com/sports/soccer/manchester-city-verdict-relegation-5af047f9",
-      "summary": "Manchester City found guilty of rampant financial rule-breaking; fallout and penalties examined.",
-      "storyKey": "city+guilty+manchester",
+      "summary": "Manchester City found guilty of rampant financial rule-breaking, raising stakes for Premier League governance.",
+      "storyKey": "city+finance+manchester",
       "source": "WSJ"
     }
   ],
