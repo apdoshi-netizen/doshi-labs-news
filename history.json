@@ -1,31 +1,4 @@
 {
-  "2026-09-11": [
-    {
-      "title": "U.S. 10-Year Treasury Yield Nears 5% as Oil Fuels Inflation Fears",
-      "url": "https://www.wsj.com/finance/investing/bond-yields-edge-up-as-investors-await-ecb-rate-hike-u-s-treasury-buybacks-4cd2e9f3",
-      "storyKey": "oil+treasury+yield"
-    },
-    {
-      "title": "India’s National Stock Exchange Seeks $46 Billion Valuation in IPO",
-      "url": "https://www.wsj.com/business/national-stock-exchange-of-india-seeks-2-36-billion-in-pared-back-ipo-19cf72eb",
-      "storyKey": "ipo+nse+valuation"
-    },
-    {
-      "title": "Opinion | A Millionaire Tax Is Never Enough",
-      "url": "https://www.wsj.com/opinion/rhode-island-primary-dan-mckee-helena-foulkes-e0fdf54a",
-      "storyKey": "millionaire+policy+tax"
-    },
-    {
-      "title": "Exclusive | Positron Valued at $5 Billion in New Funding as Demand for AI Chips Surges",
-      "url": "https://www.wsj.com/tech/ai/positron-valued-at-5-billion-in-new-funding-as-cpu-demand-surges-76dde819",
-      "storyKey": "ai+chips+positron"
-    },
-    {
-      "title": "No U.S. Man Has Won the U.S. Open in 23 Years. Can Ben Shelton or Frances Tiafoe Take It?",
-      "url": "https://www.wsj.com/sports/tennis/ben-shelton-frances-tiafoe-us-open-7b0c19c1",
-      "storyKey": "open+tennis+us"
-    }
-  ],
   "2026-09-12": [
     {
       "title": "Wall Street Cheers Clarity on Fed Outlook—Even if It Means Higher Rates",
@@ -593,11 +566,34 @@
       "storyKey": "city+finance+manchester"
     }
   ],
+  "2026-10-03": [
+    {
+      "title": "Luxury Stocks Are Selling at Fast-Fashion Prices",
+      "url": "https://www.wsj.com/business/retail/luxury-stocks-are-selling-at-fast-fashion-prices-691ae978",
+      "storyKey": null
+    },
+    {
+      "title": "Larry Ellison Wants $165 Million for His Oceanfront Estate in Florida",
+      "url": "https://www.wsj.com/real-estate/luxury-homes/larry-ellison-north-palm-beach-home-cd79492b",
+      "storyKey": null
+    },
+    {
+      "title": "Opinion | A Big Moment for Federalism at the Supreme Court",
+      "url": "https://www.wsj.com/opinion/suncor-energy-v-boulder-county-supreme-court-climate-case-federalism-201279e6",
+      "storyKey": null
+    },
+    {
+      "title": "How Long Will the AI Boom Last? Memory Stocks Offer Clues",
+      "url": "https://www.wsj.com/tech/ai/how-long-will-the-ai-boom-last-memory-stocks-offer-clues-622be948",
+      "storyKey": null
+    },
+    {
+      "title": "The Billionaire Yacht Battle That Still Makes Sailors Furious",
+      "url": "https://www.wsj.com/sports/the-billionaire-yacht-battle-that-still-makes-sailors-furious-40aedc59",
+      "storyKey": null
+    }
+  ],
   "_research": {
-    "2026-09-11": [
-      "https://podcasts.apple.com/us/podcast/the-fed-football-and-the-price-of-ambiguity/id1466686717?i=1000788945569&uo=4",
-      "https://podcasts.apple.com/us/podcast/the-future-of-treasury-from-back-office-to/id1456184829?i=1000788995052&uo=4"
-    ],
     "2026-09-12": [
       "https://podcasts.apple.com/us/podcast/what-a-fed-rate-hike-could-mean-for-us-stocks/id1683802600?i=1000789102255&uo=4",
       "https://podcasts.apple.com/us/podcast/why-the-middle-class-squeeze-is-getting-worse/id1466686717?i=1000789097302&uo=4"
@@ -662,6 +658,7 @@
     "2026-10-02": [
       "https://podcasts.apple.com/us/podcast/ai-is-becoming-a-stock-pickers-market/id1683802600?i=1000792688856&uo=4",
       "https://podcasts.apple.com/us/podcast/how-ai-and-tokenization-could-reshape-wealth-management/id1466686717?i=1000792640211&uo=4"
-    ]
+    ],
+    "2026-10-03": []
   }
 }

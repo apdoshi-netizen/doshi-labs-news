@@ -1,73 +1,52 @@
 {
-  "date": "2026-10-02",
-  "generatedAt": "2026-10-02T15:48:18.221887+00:00",
+  "date": "2026-10-03",
+  "generatedAt": "2026-10-03T10:24:29.559992+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "High Government Debt Is Adding Fuel to the Global Bond-Market Selloff",
-      "url": "https://www.wsj.com/finance/investing/high-government-debt-is-adding-fuel-to-the-global-bond-market-selloff-a93fa0fe",
-      "summary": "Rising government debt is fueling a global bond-market selloff, pushing yields higher across major economies.",
-      "storyKey": "bond+selloff",
+      "title": "Luxury Stocks Are Selling at Fast-Fashion Prices",
+      "url": "https://www.wsj.com/business/retail/luxury-stocks-are-selling-at-fast-fashion-prices-691ae978",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Novartis to License Drug From China’s Abogen in Up to $7.8 Billion Deal",
-      "url": "https://www.wsj.com/health/pharma/novartis-to-license-drug-from-chinas-abogen-in-up-to-7-8-billion-deal-4ad8509c",
-      "summary": "Novartis to license a drug from China's Abogen in a deal worth up to $7.8 billion.",
-      "storyKey": "abogen+novartis",
+      "title": "Larry Ellison Wants $165 Million for His Oceanfront Estate in Florida",
+      "url": "https://www.wsj.com/real-estate/luxury-homes/larry-ellison-north-palm-beach-home-cd79492b",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | The Other Threat to Fed Independence",
-      "url": "https://www.wsj.com/opinion/the-other-threat-to-fed-independence-10f1adaf",
-      "summary": "Opinion piece argues another threat besides political pressure endangers the Federal Reserve's independence.",
-      "storyKey": "fed+independence",
+      "title": "Opinion | A Big Moment for Federalism at the Supreme Court",
+      "url": "https://www.wsj.com/opinion/suncor-energy-v-boulder-county-supreme-court-climate-case-federalism-201279e6",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Will America Spend 9% of Its GDP on AI? The Industry Is Counting on It",
-      "url": "https://www.wsj.com/tech/ai/will-america-spend-9-of-its-gdp-on-ai-the-industry-is-counting-on-it-3501bb4f",
-      "summary": "Industry banks on AI spending reaching 9% of U.S. GDP, raising questions about sustainability.",
-      "storyKey": "ai+gdp+spending",
+      "title": "How Long Will the AI Boom Last? Memory Stocks Offer Clues",
+      "url": "https://www.wsj.com/tech/ai/how-long-will-the-ai-boom-last-memory-stocks-offer-clues-622be948",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "Manchester City Was Found Guilty of Rampant Cheating. Here’s What Comes Next.",
-      "url": "https://www.wsj.com/sports/soccer/manchester-city-verdict-relegation-5af047f9",
-      "summary": "Manchester City found guilty of rampant financial rule-breaking, raising stakes for Premier League governance.",
-      "storyKey": "city+finance+manchester",
+      "title": "The Billionaire Yacht Battle That Still Makes Sailors Furious",
+      "url": "https://www.wsj.com/sports/the-billionaire-yacht-battle-that-still-makes-sailors-furious-40aedc59",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     }
   ],
-  "research": [
-    {
-      "firm": "Goldman Sachs",
-      "show": "The Markets",
-      "title": "AI Is Becoming a Stock Picker's Market",
-      "url": "https://podcasts.apple.com/us/podcast/ai-is-becoming-a-stock-pickers-market/id1683802600?i=1000792688856&uo=4",
-      "published": "2026-10-02T04:00:00+00:00",
-      "kind": "podcast",
-      "duration": "9 min",
-      "summary": "Trading in artificial intelligence (AI) stocks is evolving as investor interest broadens beyond semiconductor makers and companies that benefit from capital expenditures in AI, says Peter Callahan, US Technology, Media, and Telecommunications sector specialist in Goldman Sachs FICC and Equities. On The Markets podcast, he says investors are increasingly focused on companies that help organizations implement the technology and AI agents for commerce. Callahan also discusses how rising interest rates are impacting technology stocks, the growing dispersion among software companies, and his outlook for semiconductor stocks."
-    },
-    {
-      "firm": "Morgan Stanley",
-      "show": "Thoughts on the Market",
-      "title": "How AI and Tokenization Could Reshape Wealth Management",
-      "url": "https://podcasts.apple.com/us/podcast/how-ai-and-tokenization-could-reshape-wealth-management/id1466686717?i=1000792640211&uo=4",
-      "published": "2026-10-01T20:30:00+00:00",
-      "kind": "podcast",
-      "duration": "12 min",
-      "summary": "Betsy Graseck and Michael Cyprys explore how AI could expand advisor capacity and tokenized assets could grow into a $2.3 trillion market by 2030. Read more insights from Morgan Stanley."
-    }
-  ]
+  "research": []
 }
