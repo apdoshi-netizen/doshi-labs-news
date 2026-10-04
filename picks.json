@@ -1,12 +1,12 @@
 {
-  "date": "2026-10-03",
-  "generatedAt": "2026-10-03T10:24:29.559992+00:00",
+  "date": "2026-10-04",
+  "generatedAt": "2026-10-04T11:06:10.556398+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Luxury Stocks Are Selling at Fast-Fashion Prices",
-      "url": "https://www.wsj.com/business/retail/luxury-stocks-are-selling-at-fast-fashion-prices-691ae978",
+      "title": "This Datapoint Could Explain Soaring Bond Yields",
+      "url": "https://www.wsj.com/finance/investing/this-datapoint-could-explain-soaring-bond-yields-d8ec5be0",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -14,37 +14,37 @@
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Larry Ellison Wants $165 Million for His Oceanfront Estate in Florida",
-      "url": "https://www.wsj.com/real-estate/luxury-homes/larry-ellison-north-palm-beach-home-cd79492b",
-      "summary": "",
-      "storyKey": null,
+      "title": "Sanofi, Regeneron to Expand Alliance in Up to $8 Billion Deal",
+      "url": "https://www.wsj.com/health/pharma/sanofi-regeneron-to-expand-alliance-in-deal-valued-at-up-to-8-billion-5b924eba",
+      "summary": "Sanofi and Regeneron expand their alliance in a deal worth up to $8 billion.",
+      "storyKey": "regeneron+sanofi",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | A Big Moment for Federalism at the Supreme Court",
-      "url": "https://www.wsj.com/opinion/suncor-energy-v-boulder-county-supreme-court-climate-case-federalism-201279e6",
-      "summary": "",
-      "storyKey": null,
+      "title": "Opinion | A Pro-Growth Lesson From British Columbia",
+      "url": "https://www.wsj.com/opinion/a-pro-growth-lesson-from-british-columbia-fe6c5330",
+      "summary": "Op-ed argues British Columbia offers a pro-growth economic policy lesson for other regions.",
+      "storyKey": "british+columbia+growth",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "How Long Will the AI Boom Last? Memory Stocks Offer Clues",
-      "url": "https://www.wsj.com/tech/ai/how-long-will-the-ai-boom-last-memory-stocks-offer-clues-622be948",
-      "summary": "",
-      "storyKey": null,
+      "title": "Exclusive | New AI Czar Unveils Goals, Members of White House Task Force",
+      "url": "https://www.wsj.com/tech/ai/new-ai-task-force-to-report-on-risks-of-technology-after-public-and-industry-concerns-b6308bef",
+      "summary": "White House AI czar unveils goals and members of a new federal AI task force.",
+      "storyKey": "ai+czar+taskforce",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The Billionaire Yacht Battle That Still Makes Sailors Furious",
-      "url": "https://www.wsj.com/sports/the-billionaire-yacht-battle-that-still-makes-sailors-furious-40aedc59",
-      "summary": "",
-      "storyKey": null,
+      "title": "The Real Battle of the MLB Playoffs: Does Baseball Need a Salary Cap?",
+      "url": "https://www.wsj.com/sports/baseball/brewers-rays-dodgers-mlb-salary-cap-d5bd47f8",
+      "summary": "MLB playoffs reignite debate over whether baseball needs a salary cap, a key league economics issue.",
+      "storyKey": "cap+mlb+salary",
       "source": "WSJ"
     }
   ],

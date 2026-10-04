@@ -1,31 +1,4 @@
 {
-  "2026-09-12": [
-    {
-      "title": "Wall Street Cheers Clarity on Fed Outlook—Even if It Means Higher Rates",
-      "url": "https://www.wsj.com/finance/investing/wall-street-cheers-clarity-on-fed-outlookeven-if-it-means-higher-rates-2f80fd5f",
-      "storyKey": null
-    },
-    {
-      "title": "The Panama Canal’s New Boss Inherits a Drought and a Bidding War for Transit Slots",
-      "url": "https://www.wsj.com/logistics-report/the-panama-canals-new-boss-inherits-a-drought-and-a-bidding-war-for-transit-slots-dc32dace",
-      "storyKey": null
-    },
-    {
-      "title": "Opinion | Trump’s Real Problem Is Real Wages",
-      "url": "https://www.wsj.com/opinion/donald-trump-real-wages-economy-federal-reserve-kevin-warsh-ef1e9b69",
-      "storyKey": null
-    },
-    {
-      "title": "AI Fears Leap From Silicon Valley Into Mainstream America | The 10-Point for Sept. 12",
-      "url": "https://www.wsj.com/tech/ai-fears-leap-from-silicon-valley-into-mainstream-america-3e632708",
-      "storyKey": null
-    },
-    {
-      "title": "He’s College Football’s Biggest Gamebreaker—and the Master of the Circus Catch",
-      "url": "https://www.wsj.com/sports/football/jeremiah-smith-ohio-state-b4e21395",
-      "storyKey": null
-    }
-  ],
   "2026-09-13": [
     {
       "title": "Canada Seeks EU ‘Associate Member’ Status as U.S. Trade Talks Collapse | The 10-Point for Sept. 13",
@@ -593,11 +566,34 @@
       "storyKey": null
     }
   ],
+  "2026-10-04": [
+    {
+      "title": "This Datapoint Could Explain Soaring Bond Yields",
+      "url": "https://www.wsj.com/finance/investing/this-datapoint-could-explain-soaring-bond-yields-d8ec5be0",
+      "storyKey": null
+    },
+    {
+      "title": "Sanofi, Regeneron to Expand Alliance in Up to $8 Billion Deal",
+      "url": "https://www.wsj.com/health/pharma/sanofi-regeneron-to-expand-alliance-in-deal-valued-at-up-to-8-billion-5b924eba",
+      "storyKey": "regeneron+sanofi"
+    },
+    {
+      "title": "Opinion | A Pro-Growth Lesson From British Columbia",
+      "url": "https://www.wsj.com/opinion/a-pro-growth-lesson-from-british-columbia-fe6c5330",
+      "storyKey": "british+columbia+growth"
+    },
+    {
+      "title": "Exclusive | New AI Czar Unveils Goals, Members of White House Task Force",
+      "url": "https://www.wsj.com/tech/ai/new-ai-task-force-to-report-on-risks-of-technology-after-public-and-industry-concerns-b6308bef",
+      "storyKey": "ai+czar+taskforce"
+    },
+    {
+      "title": "The Real Battle of the MLB Playoffs: Does Baseball Need a Salary Cap?",
+      "url": "https://www.wsj.com/sports/baseball/brewers-rays-dodgers-mlb-salary-cap-d5bd47f8",
+      "storyKey": "cap+mlb+salary"
+    }
+  ],
   "_research": {
-    "2026-09-12": [
-      "https://podcasts.apple.com/us/podcast/what-a-fed-rate-hike-could-mean-for-us-stocks/id1683802600?i=1000789102255&uo=4",
-      "https://podcasts.apple.com/us/podcast/why-the-middle-class-squeeze-is-getting-worse/id1466686717?i=1000789097302&uo=4"
-    ],
     "2026-09-13": [],
     "2026-09-14": [],
     "2026-09-15": [
@@ -659,6 +655,7 @@
       "https://podcasts.apple.com/us/podcast/ai-is-becoming-a-stock-pickers-market/id1683802600?i=1000792688856&uo=4",
       "https://podcasts.apple.com/us/podcast/how-ai-and-tokenization-could-reshape-wealth-management/id1466686717?i=1000792640211&uo=4"
     ],
-    "2026-10-03": []
+    "2026-10-03": [],
+    "2026-10-04": []
   }
 }
