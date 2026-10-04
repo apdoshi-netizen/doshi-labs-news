@@ -568,24 +568,24 @@
   ],
   "2026-10-04": [
     {
-      "title": "This Datapoint Could Explain Soaring Bond Yields",
-      "url": "https://www.wsj.com/finance/investing/this-datapoint-could-explain-soaring-bond-yields-d8ec5be0",
-      "storyKey": null
+      "title": "Soaring Transport Costs Spread Through U.S. Economy",
+      "url": "https://www.wsj.com/logistics-report/soaring-transport-costs-spread-through-u-s-economy-fb7cd42f",
+      "storyKey": "costs+transport"
     },
     {
-      "title": "Sanofi, Regeneron to Expand Alliance in Up to $8 Billion Deal",
-      "url": "https://www.wsj.com/health/pharma/sanofi-regeneron-to-expand-alliance-in-deal-valued-at-up-to-8-billion-5b924eba",
-      "storyKey": "regeneron+sanofi"
+      "title": "David Ellison Won Warner Bros. Now He Has to Make the $81 Billion Deal Work.",
+      "url": "https://www.wsj.com/business/media/david-ellison-won-warner-bros-now-he-has-to-make-the-81-billion-deal-work-2724e9e0",
+      "storyKey": "bros+ellison+warner"
     },
     {
-      "title": "Opinion | A Pro-Growth Lesson From British Columbia",
-      "url": "https://www.wsj.com/opinion/a-pro-growth-lesson-from-british-columbia-fe6c5330",
-      "storyKey": "british+columbia+growth"
+      "title": "Opinion | Did the Associated Press Hurt AI’s Feelings?",
+      "url": "https://www.wsj.com/opinion/did-the-associated-press-hurt-ais-feelings-a2f49bf6",
+      "storyKey": "ai+ap+feelings"
     },
     {
       "title": "Exclusive | New AI Czar Unveils Goals, Members of White House Task Force",
       "url": "https://www.wsj.com/tech/ai/new-ai-task-force-to-report-on-risks-of-technology-after-public-and-industry-concerns-b6308bef",
-      "storyKey": "ai+czar+taskforce"
+      "storyKey": "ai+czar+house+white"
     },
     {
       "title": "The Real Battle of the MLB Playoffs: Does Baseball Need a Salary Cap?",

@@ -1,32 +1,32 @@
 {
   "date": "2026-10-04",
-  "generatedAt": "2026-10-04T11:06:10.556398+00:00",
+  "generatedAt": "2026-10-04T14:47:09.992100+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "This Datapoint Could Explain Soaring Bond Yields",
-      "url": "https://www.wsj.com/finance/investing/this-datapoint-could-explain-soaring-bond-yields-d8ec5be0",
-      "summary": "",
-      "storyKey": null,
+      "title": "Soaring Transport Costs Spread Through U.S. Economy",
+      "url": "https://www.wsj.com/logistics-report/soaring-transport-costs-spread-through-u-s-economy-fb7cd42f",
+      "summary": "Rising freight and shipping costs are spreading inflationary pressure through the broader U.S. economy.",
+      "storyKey": "costs+transport",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Sanofi, Regeneron to Expand Alliance in Up to $8 Billion Deal",
-      "url": "https://www.wsj.com/health/pharma/sanofi-regeneron-to-expand-alliance-in-deal-valued-at-up-to-8-billion-5b924eba",
-      "summary": "Sanofi and Regeneron expand their alliance in a deal worth up to $8 billion.",
-      "storyKey": "regeneron+sanofi",
+      "title": "David Ellison Won Warner Bros. Now He Has to Make the $81 Billion Deal Work.",
+      "url": "https://www.wsj.com/business/media/david-ellison-won-warner-bros-now-he-has-to-make-the-81-billion-deal-work-2724e9e0",
+      "summary": "David Ellison must execute the $81 billion Warner Bros. deal he just won.",
+      "storyKey": "bros+ellison+warner",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | A Pro-Growth Lesson From British Columbia",
-      "url": "https://www.wsj.com/opinion/a-pro-growth-lesson-from-british-columbia-fe6c5330",
-      "summary": "Op-ed argues British Columbia offers a pro-growth economic policy lesson for other regions.",
-      "storyKey": "british+columbia+growth",
+      "title": "Opinion | Did the Associated Press Hurt AI’s Feelings?",
+      "url": "https://www.wsj.com/opinion/did-the-associated-press-hurt-ais-feelings-a2f49bf6",
+      "summary": "Opinion piece questions whether the Associated Press hurt AI's feelings with its coverage.",
+      "storyKey": "ai+ap+feelings",
       "source": "WSJ"
     },
     {
@@ -34,8 +34,8 @@
       "label": "Tech",
       "title": "Exclusive | New AI Czar Unveils Goals, Members of White House Task Force",
       "url": "https://www.wsj.com/tech/ai/new-ai-task-force-to-report-on-risks-of-technology-after-public-and-industry-concerns-b6308bef",
-      "summary": "White House AI czar unveils goals and members of a new federal AI task force.",
-      "storyKey": "ai+czar+taskforce",
+      "summary": "New White House AI czar unveils goals and members of federal AI task force.",
+      "storyKey": "ai+czar+house+white",
       "source": "WSJ"
     },
     {
@@ -43,7 +43,7 @@
       "label": "Sports",
       "title": "The Real Battle of the MLB Playoffs: Does Baseball Need a Salary Cap?",
       "url": "https://www.wsj.com/sports/baseball/brewers-rays-dodgers-mlb-salary-cap-d5bd47f8",
-      "summary": "MLB playoffs reignite debate over whether baseball needs a salary cap, a key league economics issue.",
+      "summary": "MLB playoffs reignite debate over whether baseball needs a salary cap for competitive balance.",
       "storyKey": "cap+mlb+salary",
       "source": "WSJ"
     }
