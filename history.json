@@ -568,9 +568,9 @@
   ],
   "2026-10-05": [
     {
-      "title": "Truckers Are Using Every Trick They Can to Survive Soaring Diesel Prices",
-      "url": "https://www.wsj.com/economy/truckers-are-using-every-trick-they-can-to-survive-soaring-diesel-prices-0af349aa",
-      "storyKey": null
+      "title": "Major Wall Street Banks Lift Oil-Price Forecast, Survey Shows",
+      "url": "https://www.wsj.com/business/energy-oil/major-wall-street-banks-lift-oil-price-forecast-survey-shows-34ae1ab8",
+      "storyKey": "forecast+oil+price"
     },
     {
       "title": "Schneider Electric to Buy Software Maker PTC for $22.6 Billion",
@@ -578,9 +578,9 @@
       "storyKey": "ptc+schneider"
     },
     {
-      "title": "Socialism Is the Thief of Dignity",
-      "url": "https://www.wsj.com/opinion/free-expression/socialism-is-the-thief-of-dignity-69b3d5d3",
-      "storyKey": "dignity+socialism"
+      "title": "Opinion | The AI Collateral Blind Spot",
+      "url": "https://www.wsj.com/opinion/the-ai-collateral-blind-spot-4ef352ce",
+      "storyKey": "ai+blindspot+collateral"
     },
     {
       "title": "Spending on AI Is Becoming Almost Impossible for Businesses to Budget",
@@ -588,9 +588,9 @@
       "storyKey": "ai+budget+spending"
     },
     {
-      "title": "They Had a 97% Chance of Losing—and Then Proved They Were Super Bowl Favorites",
+      "title": "They Had a 97% Chance of Losing—and Then Showed Why They Were Super Bowl Favorites",
       "url": "https://www.wsj.com/sports/football/rams-eagles-comeback-62dccd29",
-      "storyKey": "bowl+nfl+super"
+      "storyKey": "bowl+favorites+super"
     }
   ],
   "_research": {
