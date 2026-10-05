@@ -1,50 +1,50 @@
 {
-  "date": "2026-10-04",
-  "generatedAt": "2026-10-04T14:47:09.992100+00:00",
+  "date": "2026-10-05",
+  "generatedAt": "2026-10-05T12:16:16.767926+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Soaring Transport Costs Spread Through U.S. Economy",
-      "url": "https://www.wsj.com/logistics-report/soaring-transport-costs-spread-through-u-s-economy-fb7cd42f",
-      "summary": "Rising freight and shipping costs are spreading inflationary pressure through the broader U.S. economy.",
-      "storyKey": "costs+transport",
+      "title": "Truckers Are Using Every Trick They Can to Survive Soaring Diesel Prices",
+      "url": "https://www.wsj.com/economy/truckers-are-using-every-trick-they-can-to-survive-soaring-diesel-prices-0af349aa",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "David Ellison Won Warner Bros. Now He Has to Make the $81 Billion Deal Work.",
-      "url": "https://www.wsj.com/business/media/david-ellison-won-warner-bros-now-he-has-to-make-the-81-billion-deal-work-2724e9e0",
-      "summary": "David Ellison must execute the $81 billion Warner Bros. deal he just won.",
-      "storyKey": "bros+ellison+warner",
+      "title": "Schneider Electric to Buy Software Maker PTC for $22.6 Billion",
+      "url": "https://www.wsj.com/business/deals/schneider-electric-to-buy-software-maker-ptc-for-22-6-billion-7a23a60c",
+      "summary": "Schneider Electric agrees to buy software maker PTC for $22.6 billion.",
+      "storyKey": "ptc+schneider",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Did the Associated Press Hurt AI’s Feelings?",
-      "url": "https://www.wsj.com/opinion/did-the-associated-press-hurt-ais-feelings-a2f49bf6",
-      "summary": "Opinion piece questions whether the Associated Press hurt AI's feelings with its coverage.",
-      "storyKey": "ai+ap+feelings",
+      "title": "Socialism Is the Thief of Dignity",
+      "url": "https://www.wsj.com/opinion/free-expression/socialism-is-the-thief-of-dignity-69b3d5d3",
+      "summary": "Op-ed argues socialism strips individuals of personal dignity through economic coercion.",
+      "storyKey": "dignity+socialism",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Exclusive | New AI Czar Unveils Goals, Members of White House Task Force",
-      "url": "https://www.wsj.com/tech/ai/new-ai-task-force-to-report-on-risks-of-technology-after-public-and-industry-concerns-b6308bef",
-      "summary": "New White House AI czar unveils goals and members of federal AI task force.",
-      "storyKey": "ai+czar+house+white",
+      "title": "Spending on AI Is Becoming Almost Impossible for Businesses to Budget",
+      "url": "https://www.wsj.com/tech/personal-tech/ai-token-spending-businesses-431ee94a",
+      "summary": "Businesses struggle to budget AI spending as costs become unpredictable and volatile.",
+      "storyKey": "ai+budget+spending",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The Real Battle of the MLB Playoffs: Does Baseball Need a Salary Cap?",
-      "url": "https://www.wsj.com/sports/baseball/brewers-rays-dodgers-mlb-salary-cap-d5bd47f8",
-      "summary": "MLB playoffs reignite debate over whether baseball needs a salary cap for competitive balance.",
-      "storyKey": "cap+mlb+salary",
+      "title": "They Had a 97% Chance of Losing—and Then Proved They Were Super Bowl Favorites",
+      "url": "https://www.wsj.com/sports/football/rams-eagles-comeback-62dccd29",
+      "summary": "Team once given 97% chance of losing proves it’s a Super Bowl favorite.",
+      "storyKey": "bowl+nfl+super",
       "source": "WSJ"
     }
   ],

@@ -1,31 +1,4 @@
 {
-  "2026-09-13": [
-    {
-      "title": "Canada Seeks EU ‘Associate Member’ Status as U.S. Trade Talks Collapse | The 10-Point for Sept. 13",
-      "url": "https://www.wsj.com/economy/canada-seeks-eu-associate-member-status-as-u-s-trade-talks-collapse-4eebec65",
-      "storyKey": null
-    },
-    {
-      "title": "Exclusive | Mark Carney’s Audacious Bid to Make Canada an ‘Associate Member’ of the EU",
-      "url": "https://www.wsj.com/world/europe/canada-alliance-eu-carney-276f1778",
-      "storyKey": null
-    },
-    {
-      "title": "Opinion | Don’t Tax the Unicorns",
-      "url": "https://www.wsj.com/opinion/nber-study-capital-gains-tax-unicorns-investment-ab0095fb",
-      "storyKey": null
-    },
-    {
-      "title": "AI Doomsday: The High-Risk Sprint to Superintelligence | The Future of Everything for Sept. 11",
-      "url": "https://www.wsj.com/tech/ai/the-high-risk-sprint-to-superintelligence-a366be66",
-      "storyKey": null
-    },
-    {
-      "title": "Arch Manning Was Headed for Disaster—Until He Produced the Comeback of His Life",
-      "url": "https://www.wsj.com/sports/football/arch-manning-texas-ohio-state-37f6dcbf",
-      "storyKey": null
-    }
-  ],
   "2026-09-14": [
     {
       "title": "10-Year Treasury Yield Hits 5%",
@@ -593,8 +566,34 @@
       "storyKey": "cap+mlb+salary"
     }
   ],
+  "2026-10-05": [
+    {
+      "title": "Truckers Are Using Every Trick They Can to Survive Soaring Diesel Prices",
+      "url": "https://www.wsj.com/economy/truckers-are-using-every-trick-they-can-to-survive-soaring-diesel-prices-0af349aa",
+      "storyKey": null
+    },
+    {
+      "title": "Schneider Electric to Buy Software Maker PTC for $22.6 Billion",
+      "url": "https://www.wsj.com/business/deals/schneider-electric-to-buy-software-maker-ptc-for-22-6-billion-7a23a60c",
+      "storyKey": "ptc+schneider"
+    },
+    {
+      "title": "Socialism Is the Thief of Dignity",
+      "url": "https://www.wsj.com/opinion/free-expression/socialism-is-the-thief-of-dignity-69b3d5d3",
+      "storyKey": "dignity+socialism"
+    },
+    {
+      "title": "Spending on AI Is Becoming Almost Impossible for Businesses to Budget",
+      "url": "https://www.wsj.com/tech/personal-tech/ai-token-spending-businesses-431ee94a",
+      "storyKey": "ai+budget+spending"
+    },
+    {
+      "title": "They Had a 97% Chance of Losing—and Then Proved They Were Super Bowl Favorites",
+      "url": "https://www.wsj.com/sports/football/rams-eagles-comeback-62dccd29",
+      "storyKey": "bowl+nfl+super"
+    }
+  ],
   "_research": {
-    "2026-09-13": [],
     "2026-09-14": [],
     "2026-09-15": [
       "https://podcasts.apple.com/us/podcast/patients-are-taking-the-drivers-seat-in-healthcare/id1466686717?i=1000789625161&uo=4"
@@ -656,6 +655,7 @@
       "https://podcasts.apple.com/us/podcast/how-ai-and-tokenization-could-reshape-wealth-management/id1466686717?i=1000792640211&uo=4"
     ],
     "2026-10-03": [],
-    "2026-10-04": []
+    "2026-10-04": [],
+    "2026-10-05": []
   }
 }
