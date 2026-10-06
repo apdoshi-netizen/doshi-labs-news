@@ -1,14 +1,14 @@
 {
   "date": "2026-10-06",
-  "generatedAt": "2026-10-06T12:01:19.936710+00:00",
+  "generatedAt": "2026-10-06T15:56:35.820759+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Fed’s Kashkari Says Inflation Still Too High, Latest Data Didn’t Change View",
-      "url": "https://www.wsj.com/economy/central-banking/feds-kashkari-says-inflation-still-too-high-latest-data-didnt-change-view-e729d071",
-      "summary": "Fed's Kashkari says inflation remains too high, unaffected by recent data releases.",
-      "storyKey": "fed+inflation+kashkari",
+      "title": "U.S. Trade Deficit Widens to Largest Level in More Than a Year",
+      "url": "https://www.wsj.com/economy/trade/u-s-trade-deficit-widens-to-largest-level-in-more-than-a-year-32618af7",
+      "summary": "U.S. trade deficit widens to largest level in more than a year, signaling trade imbalance pressures.",
+      "storyKey": "deficit+trade+us",
       "source": "WSJ"
     },
     {
@@ -23,28 +23,28 @@
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Mr. Financial Know-Nothing",
-      "url": "https://www.wsj.com/opinion/free-expression/mr-financial-know-nothing-868b4f4c",
-      "summary": "Opinion piece criticizes financial policymaking, dubbed \"Mr. Financial Know-Nothing.\"",
-      "storyKey": "critique+financial+policy",
+      "title": "Opinion | How Not to Fix Britain’s Economy",
+      "url": "https://www.wsj.com/opinion/andy-burnham-pension-reform-bond-market-u-k-b3630b84",
+      "summary": "Opinion piece critiques flawed approaches to fixing Britain’s economy.",
+      "storyKey": "britain+economy",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "NYC Lawmakers Grill AI Executives and Former Employees as City Weighs Guardrails",
-      "url": "https://www.wsj.com/tech/ai/nyc-lawmakers-grill-ai-executives-and-former-employees-as-city-weighs-guardrails-a87cf262?mod",
-      "summary": "NYC lawmakers question AI executives and ex-employees as city considers AI guardrails.",
-      "storyKey": "ai+nyc+regulation",
+      "title": "Mistral to Release New AI Model to Better Compete With U.S. Rivals",
+      "url": "https://www.wsj.com/tech/ai/mistral-to-release-new-ai-model-to-better-compete-with-u-s-rivals-3f7c8a3d",
+      "summary": "Mistral to release new AI model to better compete with U.S. rivals.",
+      "storyKey": "ai+mistral+model",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The Mets Are the Biggest Waste of Money in Baseball History",
-      "url": "https://www.wsj.com/sports/baseball/new-york-mets-payroll-2026-10fff585",
-      "summary": "Opinion piece calls the Mets the biggest waste of money in baseball history.",
-      "storyKey": "mets+spending",
+      "title": "The College Football Stars Who Banked Millions—and Completely Flopped",
+      "url": "https://www.wsj.com/sports/football/bryce-underwood-michigan-nil-deal-d1d89a85",
+      "summary": "College football stars who banked millions in NIL deals completely flopped financially.",
+      "storyKey": "athletes+college+money",
       "source": "WSJ"
     }
   ],
