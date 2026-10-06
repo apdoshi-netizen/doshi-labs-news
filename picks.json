@@ -1,52 +1,73 @@
 {
-  "date": "2026-10-05",
-  "generatedAt": "2026-10-05T18:26:41.549354+00:00",
+  "date": "2026-10-06",
+  "generatedAt": "2026-10-06T12:01:19.936710+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Major Wall Street Banks Lift Oil-Price Forecast, Survey Shows",
-      "url": "https://www.wsj.com/business/energy-oil/major-wall-street-banks-lift-oil-price-forecast-survey-shows-34ae1ab8",
-      "summary": "Major Wall Street banks raised their oil-price forecasts, signaling market-wide inflation and rate implications.",
-      "storyKey": "forecast+oil+price",
+      "title": "Fed’s Kashkari Says Inflation Still Too High, Latest Data Didn’t Change View",
+      "url": "https://www.wsj.com/economy/central-banking/feds-kashkari-says-inflation-still-too-high-latest-data-didnt-change-view-e729d071",
+      "summary": "Fed's Kashkari says inflation remains too high, unaffected by recent data releases.",
+      "storyKey": "fed+inflation+kashkari",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Schneider Electric to Buy Software Maker PTC for $22.6 Billion",
-      "url": "https://www.wsj.com/business/deals/schneider-electric-to-buy-software-maker-ptc-for-22-6-billion-7a23a60c",
-      "summary": "Schneider Electric agrees to buy software maker PTC for $22.6 billion, expanding industrial software reach.",
-      "storyKey": "ptc+schneider",
+      "title": "Sanofi, Regeneron to Expand Alliance in Up to $8 Billion Deal",
+      "url": "https://www.wsj.com/health/pharma/sanofi-regeneron-to-expand-alliance-in-deal-valued-at-up-to-8-billion-5b924eba",
+      "summary": "Sanofi and Regeneron expand alliance in deal worth up to $8 billion.",
+      "storyKey": "regeneron+sanofi",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | The AI Collateral Blind Spot",
-      "url": "https://www.wsj.com/opinion/the-ai-collateral-blind-spot-4ef352ce",
-      "summary": "Opinion piece warns of hidden risks in using AI assets as loan collateral, a financial blind spot.",
-      "storyKey": "ai+blindspot+collateral",
+      "title": "Opinion | Mr. Financial Know-Nothing",
+      "url": "https://www.wsj.com/opinion/free-expression/mr-financial-know-nothing-868b4f4c",
+      "summary": "Opinion piece criticizes financial policymaking, dubbed \"Mr. Financial Know-Nothing.\"",
+      "storyKey": "critique+financial+policy",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Spending on AI Is Becoming Almost Impossible for Businesses to Budget",
-      "url": "https://www.wsj.com/tech/personal-tech/ai-token-spending-businesses-431ee94a",
-      "summary": "Businesses struggle to budget unpredictable AI spending, highlighting cost management challenges in tech adoption.",
-      "storyKey": "ai+budget+spending",
+      "title": "NYC Lawmakers Grill AI Executives and Former Employees as City Weighs Guardrails",
+      "url": "https://www.wsj.com/tech/ai/nyc-lawmakers-grill-ai-executives-and-former-employees-as-city-weighs-guardrails-a87cf262?mod",
+      "summary": "NYC lawmakers question AI executives and ex-employees as city considers AI guardrails.",
+      "storyKey": "ai+nyc+regulation",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "They Had a 97% Chance of Losing—and Then Showed Why They Were Super Bowl Favorites",
-      "url": "https://www.wsj.com/sports/football/rams-eagles-comeback-62dccd29",
-      "summary": "Team overcame 97% chance of losing, proving why they remain Super Bowl favorites.",
-      "storyKey": "bowl+favorites+super",
+      "title": "The Mets Are the Biggest Waste of Money in Baseball History",
+      "url": "https://www.wsj.com/sports/baseball/new-york-mets-payroll-2026-10fff585",
+      "summary": "Opinion piece calls the Mets the biggest waste of money in baseball history.",
+      "storyKey": "mets+spending",
       "source": "WSJ"
     }
   ],
-  "research": []
+  "research": [
+    {
+      "firm": "Goldman Sachs",
+      "show": "Exchanges",
+      "title": "Inside the Revival of Venture Capital Liquidity with an Industry Pioneer",
+      "url": "https://podcasts.apple.com/us/podcast/inside-the-revival-of-venture-capital-liquidity/id948913991?i=1000793364442&uo=4",
+      "published": "2026-10-06T04:00:00+00:00",
+      "kind": "podcast",
+      "duration": "32 min",
+      "summary": "As liquidity in venture capital declines, the secondary market is increasingly important for investors and companies, says Hans Swildens, partner in Goldman Sachs Asset & Wealth Management, on Goldman Sachs Exchanges: Great Investors. Swildens explains why companies are staying private longer and how artificial intelligence is creating opportunities as well as headwinds for portfolios. In this conversation with Michael Brandmeyer, global head and chief investment officer of the External Investing Group within Goldman Sachs Asset Management, Swildens also discusses the strategic rationale behind agreeing to sell his firm, Industry Ventures, to Goldman Sachs in January 2026."
+    },
+    {
+      "firm": "Morgan Stanley",
+      "show": "Thoughts on the Market",
+      "title": "Canada’s Next Growth Phase",
+      "url": "https://podcasts.apple.com/us/podcast/canadas-next-growth-phase/id1466686717?i=1000793310981&uo=4",
+      "published": "2026-10-05T20:00:00+00:00",
+      "kind": "podcast",
+      "duration": "5 min",
+      "summary": "Recent headlines about Canada have focused on trade uncertainty and weak productivity. But our Global Economist Arunima Sinha explains why the country may be on the cusp of a stronger, investment-led growth cycle. Read more insights from Morgan Stanley."
+    }
+  ]
 }

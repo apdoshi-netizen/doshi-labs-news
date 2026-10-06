@@ -1,31 +1,4 @@
 {
-  "2026-09-14": [
-    {
-      "title": "10-Year Treasury Yield Hits 5%",
-      "url": "https://www.wsj.com/finance/long-term-jgb-yields-higher-on-expectations-for-boj-rate-increases-67eb74d8",
-      "storyKey": "5percent+treasury+yield"
-    },
-    {
-      "title": "Dell’s DFO-Led Consortium Taking Baldwin Group Private for Enterprise Value of $7.7 Billion",
-      "url": "https://www.wsj.com/finance/investing/dells-dfo-led-consortium-taking-baldwin-group-private-for-enterprise-value-of-7-7-billion-8b365dee",
-      "storyKey": "baldwin+dell+group"
-    },
-    {
-      "title": "Opinion | Dario Amodei Is Begging You to Regulate Him",
-      "url": "https://www.wsj.com/opinion/free-expression/dario-amodei-is-begging-you-to-regulate-him-19a03fa3",
-      "storyKey": "ai+amodei+regulation"
-    },
-    {
-      "title": "Chip Stocks Tumble After AI Leaders Call for Slowdown in Development",
-      "url": "https://www.wsj.com/tech/ai/chip-stocks-tumble-after-ai-leaders-call-for-slowdown-in-ai-development-e2d26e63",
-      "storyKey": "ai+chip+slowdown"
-    },
-    {
-      "title": "The Upstart Using ‘Guerrilla Tactics’ to Shake Up the Football Helmet Business",
-      "url": "https://www.wsj.com/sports/football/the-upstart-using-guerrilla-tactics-to-shake-up-the-football-helmet-business-5bf891c1",
-      "storyKey": "business+football+helmet"
-    }
-  ],
   "2026-09-15": [
     {
       "title": "U.K. Labor Market Remains Soft as BOE Rate Decision Looms",
@@ -593,8 +566,34 @@
       "storyKey": "bowl+favorites+super"
     }
   ],
+  "2026-10-06": [
+    {
+      "title": "Fed’s Kashkari Says Inflation Still Too High, Latest Data Didn’t Change View",
+      "url": "https://www.wsj.com/economy/central-banking/feds-kashkari-says-inflation-still-too-high-latest-data-didnt-change-view-e729d071",
+      "storyKey": "fed+inflation+kashkari"
+    },
+    {
+      "title": "Sanofi, Regeneron to Expand Alliance in Up to $8 Billion Deal",
+      "url": "https://www.wsj.com/health/pharma/sanofi-regeneron-to-expand-alliance-in-deal-valued-at-up-to-8-billion-5b924eba",
+      "storyKey": "regeneron+sanofi"
+    },
+    {
+      "title": "Opinion | Mr. Financial Know-Nothing",
+      "url": "https://www.wsj.com/opinion/free-expression/mr-financial-know-nothing-868b4f4c",
+      "storyKey": "critique+financial+policy"
+    },
+    {
+      "title": "NYC Lawmakers Grill AI Executives and Former Employees as City Weighs Guardrails",
+      "url": "https://www.wsj.com/tech/ai/nyc-lawmakers-grill-ai-executives-and-former-employees-as-city-weighs-guardrails-a87cf262?mod",
+      "storyKey": "ai+nyc+regulation"
+    },
+    {
+      "title": "The Mets Are the Biggest Waste of Money in Baseball History",
+      "url": "https://www.wsj.com/sports/baseball/new-york-mets-payroll-2026-10fff585",
+      "storyKey": "mets+spending"
+    }
+  ],
   "_research": {
-    "2026-09-14": [],
     "2026-09-15": [
       "https://podcasts.apple.com/us/podcast/patients-are-taking-the-drivers-seat-in-healthcare/id1466686717?i=1000789625161&uo=4"
     ],
@@ -656,6 +655,10 @@
     ],
     "2026-10-03": [],
     "2026-10-04": [],
-    "2026-10-05": []
+    "2026-10-05": [],
+    "2026-10-06": [
+      "https://podcasts.apple.com/us/podcast/inside-the-revival-of-venture-capital-liquidity/id948913991?i=1000793364442&uo=4",
+      "https://podcasts.apple.com/us/podcast/canadas-next-growth-phase/id1466686717?i=1000793310981&uo=4"
+    ]
   }
 }
