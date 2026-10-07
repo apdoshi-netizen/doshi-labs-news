@@ -1,73 +1,63 @@
 {
-  "date": "2026-10-06",
-  "generatedAt": "2026-10-06T15:56:35.820759+00:00",
+  "date": "2026-10-07",
+  "generatedAt": "2026-10-07T11:46:35.341882+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "U.S. Trade Deficit Widens to Largest Level in More Than a Year",
-      "url": "https://www.wsj.com/economy/trade/u-s-trade-deficit-widens-to-largest-level-in-more-than-a-year-32618af7",
-      "summary": "U.S. trade deficit widens to largest level in more than a year, signaling trade imbalance pressures.",
-      "storyKey": "deficit+trade+us",
+      "title": "Sterling Rises Vs Euro on BOE Rate-Rise Bets, French Debt Worries",
+      "url": "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-but-may-be-aided-by-appetite-for-risk-assets-ee0a9ce8",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Sanofi, Regeneron to Expand Alliance in Up to $8 Billion Deal",
-      "url": "https://www.wsj.com/health/pharma/sanofi-regeneron-to-expand-alliance-in-deal-valued-at-up-to-8-billion-5b924eba",
-      "summary": "Sanofi and Regeneron expand alliance in deal worth up to $8 billion.",
-      "storyKey": "regeneron+sanofi",
+      "title": "U.S. Investors Have an ‘Exorbitant Privilege’",
+      "url": "https://www.wsj.com/finance/investing/u-s-investors-have-an-exorbitant-privilege-16201ed3",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | How Not to Fix Britain’s Economy",
-      "url": "https://www.wsj.com/opinion/andy-burnham-pension-reform-bond-market-u-k-b3630b84",
-      "summary": "Opinion piece critiques flawed approaches to fixing Britain’s economy.",
-      "storyKey": "britain+economy",
+      "title": "European Indexes Slide as Tech, Industrials Drop",
+      "url": "https://www.wsj.com/opinion/nikkei-flat-supported-by-electronics-machinery-shares-d897b28b",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Mistral to Release New AI Model to Better Compete With U.S. Rivals",
-      "url": "https://www.wsj.com/tech/ai/mistral-to-release-new-ai-model-to-better-compete-with-u-s-rivals-3f7c8a3d",
-      "summary": "Mistral to release new AI model to better compete with U.S. rivals.",
-      "storyKey": "ai+mistral+model",
+      "title": "Deutsche Telekom Bets on AI to Cut Costs, Boost Revenue",
+      "url": "https://www.wsj.com/tech/ai/deutsche-telekom-bets-on-ai-to-cut-costs-boost-revenue-22a289b8",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The College Football Stars Who Banked Millions—and Completely Flopped",
-      "url": "https://www.wsj.com/sports/football/bryce-underwood-michigan-nil-deal-d1d89a85",
-      "summary": "College football stars who banked millions in NIL deals completely flopped financially.",
-      "storyKey": "athletes+college+money",
+      "title": "Moneyball Killed the Bunt. The Nerdiest Team in Baseball Is Bringing It Back.",
+      "url": "https://www.wsj.com/sports/baseball/tampa-bay-rays-bunt-moneyball-2e02d447",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     }
   ],
   "research": [
     {
-      "firm": "Goldman Sachs",
-      "show": "Exchanges",
-      "title": "Inside the Revival of Venture Capital Liquidity with an Industry Pioneer",
-      "url": "https://podcasts.apple.com/us/podcast/inside-the-revival-of-venture-capital-liquidity/id948913991?i=1000793364442&uo=4",
-      "published": "2026-10-06T04:00:00+00:00",
-      "kind": "podcast",
-      "duration": "32 min",
-      "summary": "As liquidity in venture capital declines, the secondary market is increasingly important for investors and companies, says Hans Swildens, partner in Goldman Sachs Asset & Wealth Management, on Goldman Sachs Exchanges: Great Investors. Swildens explains why companies are staying private longer and how artificial intelligence is creating opportunities as well as headwinds for portfolios. In this conversation with Michael Brandmeyer, global head and chief investment officer of the External Investing Group within Goldman Sachs Asset Management, Swildens also discusses the strategic rationale behind agreeing to sell his firm, Industry Ventures, to Goldman Sachs in January 2026."
-    },
-    {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
-      "title": "Canada’s Next Growth Phase",
-      "url": "https://podcasts.apple.com/us/podcast/canadas-next-growth-phase/id1466686717?i=1000793310981&uo=4",
-      "published": "2026-10-05T20:00:00+00:00",
+      "title": "Japan’s Banks Enter a New Era of Opportunity",
+      "url": "https://podcasts.apple.com/us/podcast/japans-banks-enter-a-new-era-of-opportunity/id1466686717?i=1000793523552&uo=4",
+      "published": "2026-10-06T21:30:00+00:00",
       "kind": "podcast",
-      "duration": "5 min",
-      "summary": "Recent headlines about Canada have focused on trade uncertainty and weak productivity. But our Global Economist Arunima Sinha explains why the country may be on the cusp of a stronger, investment-led growth cycle. Read more insights from Morgan Stanley."
+      "duration": "4 min",
+      "summary": "Our Japan Financials Analyst Mia Nagasaka explains why a once-in-30-year investment cycle could transform corporate financing and open a new chapter for Japanese banks. Read more insights from Morgan Stanley."
     }
   ]
 }

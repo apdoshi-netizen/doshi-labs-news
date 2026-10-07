@@ -1,31 +1,4 @@
 {
-  "2026-09-15": [
-    {
-      "title": "U.K. Labor Market Remains Soft as BOE Rate Decision Looms",
-      "url": "https://www.wsj.com/economy/jobs/u-k-unemployment-rate-remains-flat-176c2a9a",
-      "storyKey": null
-    },
-    {
-      "title": "BMO, Sun Life Pledge C$75 Billion Private Capital for Canadian Infrastructure Push",
-      "url": "https://www.wsj.com/finance/investing/bmo-sun-life-pledge-c-75-billion-private-capital-for-canadian-infrastructure-push-d35f5f58",
-      "storyKey": null
-    },
-    {
-      "title": "Opinion | One Senator’s Plea for Tariff Breaks",
-      "url": "https://www.wsj.com/opinion/katie-britt-tariff-exemptions-alabama-manufacturers-f24c166c",
-      "storyKey": null
-    },
-    {
-      "title": "The ‘Optimistic Side’ of the AI Safety Debate",
-      "url": "https://www.wsj.com/tech/ai/the-optimistic-side-of-the-ai-safety-debate-64820a7b",
-      "storyKey": null
-    },
-    {
-      "title": "The U.S. Open Champion Who Didn’t Realize He Actually Won",
-      "url": "https://www.wsj.com/sports/tennis/alexander-zverev-us-open-5e9e2238",
-      "storyKey": null
-    }
-  ],
   "2026-09-16": [
     {
       "title": "Oil Futures Pull Back From 4-Month Highs",
@@ -593,10 +566,34 @@
       "storyKey": "athletes+college+money"
     }
   ],
+  "2026-10-07": [
+    {
+      "title": "Sterling Rises Vs Euro on BOE Rate-Rise Bets, French Debt Worries",
+      "url": "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-but-may-be-aided-by-appetite-for-risk-assets-ee0a9ce8",
+      "storyKey": null
+    },
+    {
+      "title": "U.S. Investors Have an ‘Exorbitant Privilege’",
+      "url": "https://www.wsj.com/finance/investing/u-s-investors-have-an-exorbitant-privilege-16201ed3",
+      "storyKey": null
+    },
+    {
+      "title": "European Indexes Slide as Tech, Industrials Drop",
+      "url": "https://www.wsj.com/opinion/nikkei-flat-supported-by-electronics-machinery-shares-d897b28b",
+      "storyKey": null
+    },
+    {
+      "title": "Deutsche Telekom Bets on AI to Cut Costs, Boost Revenue",
+      "url": "https://www.wsj.com/tech/ai/deutsche-telekom-bets-on-ai-to-cut-costs-boost-revenue-22a289b8",
+      "storyKey": null
+    },
+    {
+      "title": "Moneyball Killed the Bunt. The Nerdiest Team in Baseball Is Bringing It Back.",
+      "url": "https://www.wsj.com/sports/baseball/tampa-bay-rays-bunt-moneyball-2e02d447",
+      "storyKey": null
+    }
+  ],
   "_research": {
-    "2026-09-15": [
-      "https://podcasts.apple.com/us/podcast/patients-are-taking-the-drivers-seat-in-healthcare/id1466686717?i=1000789625161&uo=4"
-    ],
     "2026-09-16": [
       "https://podcasts.apple.com/us/podcast/why-global-bond-yields-are-surging/id948913991?i=1000789804567&uo=4",
       "https://podcasts.apple.com/us/podcast/the-mid-cycle-shift-equity-investors-shouldnt-miss/id1466686717?i=1000789842097&uo=4"
@@ -659,6 +656,9 @@
     "2026-10-06": [
       "https://podcasts.apple.com/us/podcast/inside-the-revival-of-venture-capital-liquidity/id948913991?i=1000793364442&uo=4",
       "https://podcasts.apple.com/us/podcast/canadas-next-growth-phase/id1466686717?i=1000793310981&uo=4"
+    ],
+    "2026-10-07": [
+      "https://podcasts.apple.com/us/podcast/japans-banks-enter-a-new-era-of-opportunity/id1466686717?i=1000793523552&uo=4"
     ]
   }
 }
