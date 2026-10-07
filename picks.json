@@ -1,41 +1,41 @@
 {
   "date": "2026-10-07",
-  "generatedAt": "2026-10-07T11:46:35.341882+00:00",
+  "generatedAt": "2026-10-07T16:27:53.375171+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Sterling Rises Vs Euro on BOE Rate-Rise Bets, French Debt Worries",
-      "url": "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-but-may-be-aided-by-appetite-for-risk-assets-ee0a9ce8",
-      "summary": "",
-      "storyKey": null,
+      "title": "India’s Central Bank Raises Rates For First Time Since 2023",
+      "url": "https://www.wsj.com/economy/central-banking/indias-central-bank-raises-rates-for-first-time-since-2023-1466a08a",
+      "summary": "India’s central bank raised interest rates for first time since 2023, signaling policy shift amid global bond turmoil.",
+      "storyKey": "india+rates+rbi",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "U.S. Investors Have an ‘Exorbitant Privilege’",
-      "url": "https://www.wsj.com/finance/investing/u-s-investors-have-an-exorbitant-privilege-16201ed3",
-      "summary": "",
-      "storyKey": null,
+      "title": "Canada’s Weston Family to Buy British Pharmacy Chain Boots for $8.9 Billion",
+      "url": "https://www.wsj.com/business/retail/wittington-investments-in-8-9-billion-deal-to-buy-british-pharmacy-chain-boots-d2b91a85",
+      "summary": "Canada’s Weston family agreed to buy British pharmacy chain Boots for $8.9 billion.",
+      "storyKey": "boots+weston",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "European Indexes Slide as Tech, Industrials Drop",
-      "url": "https://www.wsj.com/opinion/nikkei-flat-supported-by-electronics-machinery-shares-d897b28b",
-      "summary": "",
-      "storyKey": null,
+      "title": "Opinion | Washington Needs the Tax-Reform Spirit of ’86",
+      "url": "https://www.wsj.com/opinion/washington-needs-the-tax-reform-spirit-of-86-bbc2ee5e",
+      "summary": "Op-ed argues Washington needs the bipartisan tax-reform spirit of the 1986 overhaul to fix current tax policy.",
+      "storyKey": "1986+reform+tax",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Deutsche Telekom Bets on AI to Cut Costs, Boost Revenue",
-      "url": "https://www.wsj.com/tech/ai/deutsche-telekom-bets-on-ai-to-cut-costs-boost-revenue-22a289b8",
-      "summary": "",
-      "storyKey": null,
+      "title": "Zuckerberg’s Biohub Partners With DOE, NIH to Invest $1.8 Billion in Biological Data for AI Models",
+      "url": "https://www.wsj.com/tech/ai/zuckerbergs-biohub-partners-with-doe-nih-to-invest-1-8-billion-in-biological-data-for-ai-models-f8d5f799",
+      "summary": "Zuckerberg’s Biohub partners with DOE and NIH to invest $1.8 billion in biological data for AI models.",
+      "storyKey": "biohub+zuckerberg",
       "source": "WSJ"
     },
     {
@@ -43,8 +43,8 @@
       "label": "Sports",
       "title": "Moneyball Killed the Bunt. The Nerdiest Team in Baseball Is Bringing It Back.",
       "url": "https://www.wsj.com/sports/baseball/tampa-bay-rays-bunt-moneyball-2e02d447",
-      "summary": "",
-      "storyKey": null,
+      "summary": "Analytics-driven baseball team revives the bunt, challenging Moneyball-era strategic orthodoxy in modern baseball.",
+      "storyKey": "bunt+moneyball",
       "source": "WSJ"
     }
   ],
