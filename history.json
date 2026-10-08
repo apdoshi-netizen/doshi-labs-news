@@ -568,14 +568,14 @@
   ],
   "2026-10-08": [
     {
-      "title": "U.S. Treasury Pays Highest Borrowing Costs Since 2000",
-      "url": "https://www.wsj.com/finance/investing/u-s-european-government-bond-yields-rise-french-bonds-underperform-on-budget-worries-c068d9ae",
-      "storyKey": "borrowing+costs+treasury"
+      "title": "Fed Minutes Show No Urgency for October Hike",
+      "url": "https://www.wsj.com/cfo-journal/fed-minutes-show-no-urgency-for-october-hike-66be7bd8",
+      "storyKey": "fed+minutes"
     },
     {
-      "title": "Informa to Separate Academic Business; Buys Clarion Events for $2.96 Billion",
-      "url": "https://www.wsj.com/business/deals/informa-to-separate-academic-business-buys-clarion-events-for-2-96-billion-6afc9508",
-      "storyKey": "clarion+informa"
+      "title": "Devon Energy Sells Eagle Ford Assets to Crescent Energy for $4.2 Billion",
+      "url": "https://www.wsj.com/business/energy-oil/devon-energy-sells-eagle-ford-assets-to-crescent-energy-for-4-2-billion-33e48b1c",
+      "storyKey": "crescent+devon"
     },
     {
       "title": "Opinion | Beware the Cult of AI",
@@ -583,14 +583,14 @@
       "storyKey": "ai+cult"
     },
     {
-      "title": "Exclusive | Oracle, Broadcom and SpaceX Seek Blockbuster Debt Deals to Pay for AI Chips",
-      "url": "https://www.wsj.com/tech/oracle-broadcom-and-spacex-seek-blockbuster-debt-deals-to-pay-for-ai-chips-848e8032",
-      "storyKey": "broadcom+oracle+spacex"
+      "title": "The AI Price War Is Heating Up—and OpenAI Is Gaining Ground on Anthropic",
+      "url": "https://www.wsj.com/tech/ai/the-ai-price-war-is-heating-upand-openai-is-gaining-ground-on-anthropic-48b8525b",
+      "storyKey": "anthropic+openai"
     },
     {
       "title": "Erling Haaland Conquered the World’s Biggest Sport. Then He Came For America.",
       "url": "https://www.wsj.com/sports/soccer/erling-haaland-world-cup-manchester-e04df519",
-      "storyKey": "haaland+soccer"
+      "storyKey": "america+haaland"
     }
   ],
   "_research": {
@@ -657,7 +657,8 @@
       "https://podcasts.apple.com/us/podcast/japans-banks-enter-a-new-era-of-opportunity/id1466686717?i=1000793523552&uo=4"
     ],
     "2026-10-08": [
-      "https://podcasts.apple.com/us/podcast/will-midterms-test-the-ai-investment-cycle/id1466686717?i=1000793718284&uo=4"
+      "https://podcasts.apple.com/us/podcast/will-midterms-test-the-ai-investment-cycle/id1466686717?i=1000793718284&uo=4",
+      "https://podcasts.apple.com/us/podcast/califoreboding/id1367963156?i=1000793878007&uo=4"
     ]
   }
 }

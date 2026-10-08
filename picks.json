@@ -1,23 +1,23 @@
 {
   "date": "2026-10-08",
-  "generatedAt": "2026-10-08T12:01:13.233519+00:00",
+  "generatedAt": "2026-10-08T16:27:50.366063+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "U.S. Treasury Pays Highest Borrowing Costs Since 2000",
-      "url": "https://www.wsj.com/finance/investing/u-s-european-government-bond-yields-rise-french-bonds-underperform-on-budget-worries-c068d9ae",
-      "summary": "U.S. Treasury pays highest borrowing costs since 2000, signaling market-wide bond yield pressures.",
-      "storyKey": "borrowing+costs+treasury",
+      "title": "Fed Minutes Show No Urgency for October Hike",
+      "url": "https://www.wsj.com/cfo-journal/fed-minutes-show-no-urgency-for-october-hike-66be7bd8",
+      "summary": "Fed minutes show no urgency for an October rate hike despite signaling another possible increase this year.",
+      "storyKey": "fed+minutes",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Informa to Separate Academic Business; Buys Clarion Events for $2.96 Billion",
-      "url": "https://www.wsj.com/business/deals/informa-to-separate-academic-business-buys-clarion-events-for-2-96-billion-6afc9508",
-      "summary": "Informa separates academic business, buys Clarion Events for $2.96 billion.",
-      "storyKey": "clarion+informa",
+      "title": "Devon Energy Sells Eagle Ford Assets to Crescent Energy for $4.2 Billion",
+      "url": "https://www.wsj.com/business/energy-oil/devon-energy-sells-eagle-ford-assets-to-crescent-energy-for-4-2-billion-33e48b1c",
+      "summary": "Devon Energy sells Eagle Ford shale assets to Crescent Energy in a $4.2 billion deal.",
+      "storyKey": "crescent+devon",
       "source": "WSJ"
     },
     {
@@ -25,17 +25,17 @@
       "label": "Op-Ed",
       "title": "Opinion | Beware the Cult of AI",
       "url": "https://www.wsj.com/opinion/free-expression/beware-the-cult-of-ai-e0a13411",
-      "summary": "Op-ed warns against uncritical embrace of AI as a cultural phenomenon.",
+      "summary": "Opinion piece warns against uncritical hype and worship surrounding the AI industry.",
       "storyKey": "ai+cult",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Exclusive | Oracle, Broadcom and SpaceX Seek Blockbuster Debt Deals to Pay for AI Chips",
-      "url": "https://www.wsj.com/tech/oracle-broadcom-and-spacex-seek-blockbuster-debt-deals-to-pay-for-ai-chips-848e8032",
-      "summary": "Oracle, Broadcom and SpaceX seek blockbuster debt deals to fund AI chip purchases.",
-      "storyKey": "broadcom+oracle+spacex",
+      "title": "The AI Price War Is Heating Up—and OpenAI Is Gaining Ground on Anthropic",
+      "url": "https://www.wsj.com/tech/ai/the-ai-price-war-is-heating-upand-openai-is-gaining-ground-on-anthropic-48b8525b",
+      "summary": "AI price war intensifies as OpenAI gains ground on Anthropic in competitive pricing.",
+      "storyKey": "anthropic+openai",
       "source": "WSJ"
     },
     {
@@ -43,8 +43,8 @@
       "label": "Sports",
       "title": "Erling Haaland Conquered the World’s Biggest Sport. Then He Came For America.",
       "url": "https://www.wsj.com/sports/soccer/erling-haaland-world-cup-manchester-e04df519",
-      "summary": "Erling Haaland, after conquering global soccer, now targets the American market.",
-      "storyKey": "haaland+soccer",
+      "summary": "Erling Haaland, having conquered global soccer, now targets breaking through in the American market.",
+      "storyKey": "america+haaland",
       "source": "WSJ"
     }
   ],
@@ -58,6 +58,16 @@
       "kind": "podcast",
       "duration": "5 min",
       "summary": "The AI investment boom has been a defining force in markets. Our Head of Public Policy Research Ariana Salvatore looks at whether the U.S. midterm elections could change the spending and policies behind it. Read more insights from Morgan Stanley."
+    },
+    {
+      "firm": "J.P. Morgan",
+      "show": "Eye on the Market",
+      "title": "Califoreboding",
+      "url": "https://podcasts.apple.com/us/podcast/califoreboding/id1367963156?i=1000793878007&uo=4",
+      "published": "2026-10-08T14:35:42+00:00",
+      "kind": "podcast",
+      "duration": "27 min",
+      "summary": "Many client questions I received last week in California were laden with a sense of foreboding: third rail questions about the US Federal debt as ten year yields blow through the Bessent Maginot line, the elevated share of US market returns and growth attributable to AI, the sustainability of US equity markets close to all-time highs, Anthropic’s dire warnings about open weight models and cyber risks, rising stress in private credit and European deindustrialization."
     }
   ]
 }
