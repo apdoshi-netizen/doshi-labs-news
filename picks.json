@@ -1,50 +1,50 @@
 {
-  "date": "2026-10-07",
-  "generatedAt": "2026-10-07T16:27:53.375171+00:00",
+  "date": "2026-10-08",
+  "generatedAt": "2026-10-08T12:01:13.233519+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "India’s Central Bank Raises Rates For First Time Since 2023",
-      "url": "https://www.wsj.com/economy/central-banking/indias-central-bank-raises-rates-for-first-time-since-2023-1466a08a",
-      "summary": "India’s central bank raised interest rates for first time since 2023, signaling policy shift amid global bond turmoil.",
-      "storyKey": "india+rates+rbi",
+      "title": "U.S. Treasury Pays Highest Borrowing Costs Since 2000",
+      "url": "https://www.wsj.com/finance/investing/u-s-european-government-bond-yields-rise-french-bonds-underperform-on-budget-worries-c068d9ae",
+      "summary": "U.S. Treasury pays highest borrowing costs since 2000, signaling market-wide bond yield pressures.",
+      "storyKey": "borrowing+costs+treasury",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Canada’s Weston Family to Buy British Pharmacy Chain Boots for $8.9 Billion",
-      "url": "https://www.wsj.com/business/retail/wittington-investments-in-8-9-billion-deal-to-buy-british-pharmacy-chain-boots-d2b91a85",
-      "summary": "Canada’s Weston family agreed to buy British pharmacy chain Boots for $8.9 billion.",
-      "storyKey": "boots+weston",
+      "title": "Informa to Separate Academic Business; Buys Clarion Events for $2.96 Billion",
+      "url": "https://www.wsj.com/business/deals/informa-to-separate-academic-business-buys-clarion-events-for-2-96-billion-6afc9508",
+      "summary": "Informa separates academic business, buys Clarion Events for $2.96 billion.",
+      "storyKey": "clarion+informa",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Washington Needs the Tax-Reform Spirit of ’86",
-      "url": "https://www.wsj.com/opinion/washington-needs-the-tax-reform-spirit-of-86-bbc2ee5e",
-      "summary": "Op-ed argues Washington needs the bipartisan tax-reform spirit of the 1986 overhaul to fix current tax policy.",
-      "storyKey": "1986+reform+tax",
+      "title": "Opinion | Beware the Cult of AI",
+      "url": "https://www.wsj.com/opinion/free-expression/beware-the-cult-of-ai-e0a13411",
+      "summary": "Op-ed warns against uncritical embrace of AI as a cultural phenomenon.",
+      "storyKey": "ai+cult",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Zuckerberg’s Biohub Partners With DOE, NIH to Invest $1.8 Billion in Biological Data for AI Models",
-      "url": "https://www.wsj.com/tech/ai/zuckerbergs-biohub-partners-with-doe-nih-to-invest-1-8-billion-in-biological-data-for-ai-models-f8d5f799",
-      "summary": "Zuckerberg’s Biohub partners with DOE and NIH to invest $1.8 billion in biological data for AI models.",
-      "storyKey": "biohub+zuckerberg",
+      "title": "Exclusive | Oracle, Broadcom and SpaceX Seek Blockbuster Debt Deals to Pay for AI Chips",
+      "url": "https://www.wsj.com/tech/oracle-broadcom-and-spacex-seek-blockbuster-debt-deals-to-pay-for-ai-chips-848e8032",
+      "summary": "Oracle, Broadcom and SpaceX seek blockbuster debt deals to fund AI chip purchases.",
+      "storyKey": "broadcom+oracle+spacex",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "Moneyball Killed the Bunt. The Nerdiest Team in Baseball Is Bringing It Back.",
-      "url": "https://www.wsj.com/sports/baseball/tampa-bay-rays-bunt-moneyball-2e02d447",
-      "summary": "Analytics-driven baseball team revives the bunt, challenging Moneyball-era strategic orthodoxy in modern baseball.",
-      "storyKey": "bunt+moneyball",
+      "title": "Erling Haaland Conquered the World’s Biggest Sport. Then He Came For America.",
+      "url": "https://www.wsj.com/sports/soccer/erling-haaland-world-cup-manchester-e04df519",
+      "summary": "Erling Haaland, after conquering global soccer, now targets the American market.",
+      "storyKey": "haaland+soccer",
       "source": "WSJ"
     }
   ],
@@ -52,12 +52,12 @@
     {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
-      "title": "Japan’s Banks Enter a New Era of Opportunity",
-      "url": "https://podcasts.apple.com/us/podcast/japans-banks-enter-a-new-era-of-opportunity/id1466686717?i=1000793523552&uo=4",
-      "published": "2026-10-06T21:30:00+00:00",
+      "title": "Will Midterms Test the AI Investment Cycle?",
+      "url": "https://podcasts.apple.com/us/podcast/will-midterms-test-the-ai-investment-cycle/id1466686717?i=1000793718284&uo=4",
+      "published": "2026-10-07T20:00:00+00:00",
       "kind": "podcast",
-      "duration": "4 min",
-      "summary": "Our Japan Financials Analyst Mia Nagasaka explains why a once-in-30-year investment cycle could transform corporate financing and open a new chapter for Japanese banks. Read more insights from Morgan Stanley."
+      "duration": "5 min",
+      "summary": "The AI investment boom has been a defining force in markets. Our Head of Public Policy Research Ariana Salvatore looks at whether the U.S. midterm elections could change the spending and policies behind it. Read more insights from Morgan Stanley."
     }
   ]
 }

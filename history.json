@@ -1,31 +1,4 @@
 {
-  "2026-09-16": [
-    {
-      "title": "Oil Futures Pull Back From 4-Month Highs",
-      "url": "https://www.wsj.com/finance/commodities-futures/oil-declines-but-remains-elevated-amid-supply-concerns-geopolitical-risks-15e97c33",
-      "storyKey": null
-    },
-    {
-      "title": "A $1.5 Million Renovation Gave Her Atlanta Mansion Main-Character Energy",
-      "url": "https://www.wsj.com/real-estate/luxury-homes/shamea-morton-real-housewives-atlanta-home-7a60c7dc",
-      "storyKey": null
-    },
-    {
-      "title": "Opinion | The Frustrations Behind Socialism’s Appeal",
-      "url": "https://www.wsj.com/opinion/the-frustrations-behind-socialisms-appeal-3f8835e4",
-      "storyKey": null
-    },
-    {
-      "title": "Intel Shares Rise Premarket on Report of SK Hynix U.S. Manufacturing Talks — Update",
-      "url": "https://www.wsj.com/tech/intel-shares-rise-premarket-on-report-of-sk-hynix-u-s-manufacturing-talks-update-37bcf247",
-      "storyKey": null
-    },
-    {
-      "title": "The Tactical ‘Farce’ Turning Baseball Games Into Slow-Pitch Softball",
-      "url": "https://www.wsj.com/sports/baseball/mlb-position-players-pitching-1c653000",
-      "storyKey": null
-    }
-  ],
   "2026-09-17": [
     {
       "title": "Warsh Takes Hawkish Turn With Rate Rise and Hints of More to Come",
@@ -593,11 +566,34 @@
       "storyKey": "bunt+moneyball"
     }
   ],
+  "2026-10-08": [
+    {
+      "title": "U.S. Treasury Pays Highest Borrowing Costs Since 2000",
+      "url": "https://www.wsj.com/finance/investing/u-s-european-government-bond-yields-rise-french-bonds-underperform-on-budget-worries-c068d9ae",
+      "storyKey": "borrowing+costs+treasury"
+    },
+    {
+      "title": "Informa to Separate Academic Business; Buys Clarion Events for $2.96 Billion",
+      "url": "https://www.wsj.com/business/deals/informa-to-separate-academic-business-buys-clarion-events-for-2-96-billion-6afc9508",
+      "storyKey": "clarion+informa"
+    },
+    {
+      "title": "Opinion | Beware the Cult of AI",
+      "url": "https://www.wsj.com/opinion/free-expression/beware-the-cult-of-ai-e0a13411",
+      "storyKey": "ai+cult"
+    },
+    {
+      "title": "Exclusive | Oracle, Broadcom and SpaceX Seek Blockbuster Debt Deals to Pay for AI Chips",
+      "url": "https://www.wsj.com/tech/oracle-broadcom-and-spacex-seek-blockbuster-debt-deals-to-pay-for-ai-chips-848e8032",
+      "storyKey": "broadcom+oracle+spacex"
+    },
+    {
+      "title": "Erling Haaland Conquered the World’s Biggest Sport. Then He Came For America.",
+      "url": "https://www.wsj.com/sports/soccer/erling-haaland-world-cup-manchester-e04df519",
+      "storyKey": "haaland+soccer"
+    }
+  ],
   "_research": {
-    "2026-09-16": [
-      "https://podcasts.apple.com/us/podcast/why-global-bond-yields-are-surging/id948913991?i=1000789804567&uo=4",
-      "https://podcasts.apple.com/us/podcast/the-mid-cycle-shift-equity-investors-shouldnt-miss/id1466686717?i=1000789842097&uo=4"
-    ],
     "2026-09-17": [
       "https://podcasts.apple.com/us/podcast/one-fed-hike-or-more-to-come/id1466686717?i=1000790092983&uo=4",
       "https://podcasts.apple.com/us/podcast/navigating-credit-markets-in-2026-dont-let-the-macro/id1456184829?i=1000790033017&uo=4"
@@ -659,6 +655,9 @@
     ],
     "2026-10-07": [
       "https://podcasts.apple.com/us/podcast/japans-banks-enter-a-new-era-of-opportunity/id1466686717?i=1000793523552&uo=4"
+    ],
+    "2026-10-08": [
+      "https://podcasts.apple.com/us/podcast/will-midterms-test-the-ai-investment-cycle/id1466686717?i=1000793718284&uo=4"
     ]
   }
 }
