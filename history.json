@@ -568,29 +568,29 @@
   ],
   "2026-10-09": [
     {
-      "title": "Borrowing Costs’ Double Whammy Boosts Recession Odds",
-      "url": "https://www.wsj.com/finance/stocks/borrowing-costs-double-whammy-boosts-recession-odds-622860e5",
-      "storyKey": null
+      "title": "U.S. Budget Deficit Jumps to Nearly $2 Trillion",
+      "url": "https://www.wsj.com/politics/policy/u-s-deficit-clocks-in-just-under-2-trillion-7e8e9eb3",
+      "storyKey": "budget+deficit+us"
     },
     {
-      "title": "Volkswagen Fined $1.3 Million by German Financial Watchdog Over Forecast Disclosure",
-      "url": "https://www.wsj.com/business/autos/volkswagen-fined-1-3-million-by-german-financial-watchdog-over-forecast-disclosure-7e9db71a",
-      "storyKey": null
+      "title": "C.H. Robinson to Buy RXO for About $5.8 Billion",
+      "url": "https://www.wsj.com/business/deals/c-h-robinson-to-buy-rxo-for-about-5-billion-80a73ba1",
+      "storyKey": "chrobinson+rxo"
     },
     {
-      "title": "Opinion | Tennessee’s Executioners Had One Job",
-      "url": "https://www.wsj.com/opinion/free-expression/tennessees-executioners-had-one-job-acf6eb77",
-      "storyKey": null
+      "title": "Opinion | Price Controls Are Harmful",
+      "url": "https://www.wsj.com/opinion/price-controls-are-harmful-c3fc3c4d",
+      "storyKey": "controls+economics+price"
     },
     {
-      "title": "Personal AI Agents Are Great—Until They Share Your Bank Statement in the Work Chat",
-      "url": "https://www.wsj.com/tech/ai/ai-agents-assistants-shopping-chat-errors-a316d3f9",
-      "storyKey": null
+      "title": "Nvidia-Backed Firmus Scraps Australian IPO, Citing Market Conditions",
+      "url": "https://www.wsj.com/tech/nvidia-backed-firmus-scraps-australian-ipo-citing-market-conditions-4793fe60",
+      "storyKey": "firmus+ipo+nvidia"
     },
     {
-      "title": "A Soccer Cheating Scandal Has Ballooned Into a Geopolitical Problem for Britain",
-      "url": "https://www.wsj.com/sports/soccer/manchester-city-scandal-burnham-78c688b0",
-      "storyKey": null
+      "title": "Super Bowl Winner and Chicago Bears Legend Mike Ditka Dies at 86",
+      "url": "https://www.wsj.com/sports/football/mike-ditka-chicago-bears-644f1741",
+      "storyKey": "dies+ditka+mike"
     }
   ],
   "_research": {
@@ -657,6 +657,7 @@
       "https://podcasts.apple.com/us/podcast/califoreboding/id1367963156?i=1000793878007&uo=4"
     ],
     "2026-10-09": [
+      "https://podcasts.apple.com/us/podcast/hedge-funds-are-cautious-on-stocks-amid-rates-and/id1683802600?i=1000794064689&uo=4",
       "https://podcasts.apple.com/us/podcast/high-mortgage-rates-and-a-stuck-housing-market/id1466686717?i=1000793933821&uo=4"
     ]
   }
