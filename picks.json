@@ -1,50 +1,50 @@
 {
-  "date": "2026-10-08",
-  "generatedAt": "2026-10-08T16:27:50.366063+00:00",
+  "date": "2026-10-09",
+  "generatedAt": "2026-10-09T11:53:27.419828+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Fed Minutes Show No Urgency for October Hike",
-      "url": "https://www.wsj.com/cfo-journal/fed-minutes-show-no-urgency-for-october-hike-66be7bd8",
-      "summary": "Fed minutes show no urgency for an October rate hike despite signaling another possible increase this year.",
-      "storyKey": "fed+minutes",
+      "title": "Borrowing Costs’ Double Whammy Boosts Recession Odds",
+      "url": "https://www.wsj.com/finance/stocks/borrowing-costs-double-whammy-boosts-recession-odds-622860e5",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Devon Energy Sells Eagle Ford Assets to Crescent Energy for $4.2 Billion",
-      "url": "https://www.wsj.com/business/energy-oil/devon-energy-sells-eagle-ford-assets-to-crescent-energy-for-4-2-billion-33e48b1c",
-      "summary": "Devon Energy sells Eagle Ford shale assets to Crescent Energy in a $4.2 billion deal.",
-      "storyKey": "crescent+devon",
+      "title": "Volkswagen Fined $1.3 Million by German Financial Watchdog Over Forecast Disclosure",
+      "url": "https://www.wsj.com/business/autos/volkswagen-fined-1-3-million-by-german-financial-watchdog-over-forecast-disclosure-7e9db71a",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Beware the Cult of AI",
-      "url": "https://www.wsj.com/opinion/free-expression/beware-the-cult-of-ai-e0a13411",
-      "summary": "Opinion piece warns against uncritical hype and worship surrounding the AI industry.",
-      "storyKey": "ai+cult",
+      "title": "Opinion | Tennessee’s Executioners Had One Job",
+      "url": "https://www.wsj.com/opinion/free-expression/tennessees-executioners-had-one-job-acf6eb77",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "The AI Price War Is Heating Up—and OpenAI Is Gaining Ground on Anthropic",
-      "url": "https://www.wsj.com/tech/ai/the-ai-price-war-is-heating-upand-openai-is-gaining-ground-on-anthropic-48b8525b",
-      "summary": "AI price war intensifies as OpenAI gains ground on Anthropic in competitive pricing.",
-      "storyKey": "anthropic+openai",
+      "title": "Personal AI Agents Are Great—Until They Share Your Bank Statement in the Work Chat",
+      "url": "https://www.wsj.com/tech/ai/ai-agents-assistants-shopping-chat-errors-a316d3f9",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "Erling Haaland Conquered the World’s Biggest Sport. Then He Came For America.",
-      "url": "https://www.wsj.com/sports/soccer/erling-haaland-world-cup-manchester-e04df519",
-      "summary": "Erling Haaland, having conquered global soccer, now targets breaking through in the American market.",
-      "storyKey": "america+haaland",
+      "title": "A Soccer Cheating Scandal Has Ballooned Into a Geopolitical Problem for Britain",
+      "url": "https://www.wsj.com/sports/soccer/manchester-city-scandal-burnham-78c688b0",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     }
   ],
@@ -52,22 +52,12 @@
     {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
-      "title": "Will Midterms Test the AI Investment Cycle?",
-      "url": "https://podcasts.apple.com/us/podcast/will-midterms-test-the-ai-investment-cycle/id1466686717?i=1000793718284&uo=4",
-      "published": "2026-10-07T20:00:00+00:00",
+      "title": "High Mortgage Rates and a Stuck Housing Market",
+      "url": "https://podcasts.apple.com/us/podcast/high-mortgage-rates-and-a-stuck-housing-market/id1466686717?i=1000793933821&uo=4",
+      "published": "2026-10-08T21:00:00+00:00",
       "kind": "podcast",
-      "duration": "5 min",
-      "summary": "The AI investment boom has been a defining force in markets. Our Head of Public Policy Research Ariana Salvatore looks at whether the U.S. midterm elections could change the spending and policies behind it. Read more insights from Morgan Stanley."
-    },
-    {
-      "firm": "J.P. Morgan",
-      "show": "Eye on the Market",
-      "title": "Califoreboding",
-      "url": "https://podcasts.apple.com/us/podcast/califoreboding/id1367963156?i=1000793878007&uo=4",
-      "published": "2026-10-08T14:35:42+00:00",
-      "kind": "podcast",
-      "duration": "27 min",
-      "summary": "Many client questions I received last week in California were laden with a sense of foreboding: third rail questions about the US Federal debt as ten year yields blow through the Bessent Maginot line, the elevated share of US market returns and growth attributable to AI, the sustainability of US equity markets close to all-time highs, Anthropic’s dire warnings about open weight models and cyber risks, rising stress in private credit and European deindustrialization."
+      "duration": "9 min",
+      "summary": "U.S. mortgage rates are hovering around their highest levels in three years. Morgan Stanley Co-Heads of Securitized Products Research Jay Bacow and James Egan examine the forces keeping homeowners locked in and buyers priced out of the housing market. Read more insights from Morgan Stanley."
     }
   ]
 }

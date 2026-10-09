@@ -1,31 +1,4 @@
 {
-  "2026-09-17": [
-    {
-      "title": "Warsh Takes Hawkish Turn With Rate Rise and Hints of More to Come",
-      "url": "https://www.wsj.com/economy/central-banking/warsh-takes-hawkish-turn-with-rate-rise-and-hints-of-more-to-come-d52c6ad9",
-      "storyKey": "fed+hike+warsh"
-    },
-    {
-      "title": "The Morning Risk Report: Exxon Is Nearing a Preliminary Deal to Invest in Venezuela’s Oil Fields",
-      "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-exxon-is-nearing-a-preliminary-deal-to-invest-in-venezuelas-oil-fields-7913a0c9",
-      "storyKey": "exxon+oil+venezuela"
-    },
-    {
-      "title": "Opinion | The U.S. Isn’t Ready to Help Workers Through the AI Disruption",
-      "url": "https://www.wsj.com/opinion/the-u-s-isnt-ready-to-help-workers-through-the-ai-disruption-ea21ed9d",
-      "storyKey": "ai+disruption+worker"
-    },
-    {
-      "title": "Huawei’s Plan to Become China’s Nvidia",
-      "url": "https://www.wsj.com/tech/ai/huaweis-plan-to-become-chinas-nvidia-8af8d8a1",
-      "storyKey": "chips+huawei+nvidia"
-    },
-    {
-      "title": "Bill Belichick Is Back at UNC—and He Wants to Clear the Air About His Girlfriend Jordon Hudson",
-      "url": "https://www.wsj.com/sports/football/bill-belichick-jordon-hudson-interview-fdb33b57",
-      "storyKey": "belichick+hudson+unc"
-    }
-  ],
   "2026-09-18": [
     {
       "title": "Bank of Canada Flags Need for Rate Boost Should High Fuel Costs Spill Over, Minutes Say",
@@ -593,11 +566,34 @@
       "storyKey": "america+haaland"
     }
   ],
+  "2026-10-09": [
+    {
+      "title": "Borrowing Costs’ Double Whammy Boosts Recession Odds",
+      "url": "https://www.wsj.com/finance/stocks/borrowing-costs-double-whammy-boosts-recession-odds-622860e5",
+      "storyKey": null
+    },
+    {
+      "title": "Volkswagen Fined $1.3 Million by German Financial Watchdog Over Forecast Disclosure",
+      "url": "https://www.wsj.com/business/autos/volkswagen-fined-1-3-million-by-german-financial-watchdog-over-forecast-disclosure-7e9db71a",
+      "storyKey": null
+    },
+    {
+      "title": "Opinion | Tennessee’s Executioners Had One Job",
+      "url": "https://www.wsj.com/opinion/free-expression/tennessees-executioners-had-one-job-acf6eb77",
+      "storyKey": null
+    },
+    {
+      "title": "Personal AI Agents Are Great—Until They Share Your Bank Statement in the Work Chat",
+      "url": "https://www.wsj.com/tech/ai/ai-agents-assistants-shopping-chat-errors-a316d3f9",
+      "storyKey": null
+    },
+    {
+      "title": "A Soccer Cheating Scandal Has Ballooned Into a Geopolitical Problem for Britain",
+      "url": "https://www.wsj.com/sports/soccer/manchester-city-scandal-burnham-78c688b0",
+      "storyKey": null
+    }
+  ],
   "_research": {
-    "2026-09-17": [
-      "https://podcasts.apple.com/us/podcast/one-fed-hike-or-more-to-come/id1466686717?i=1000790092983&uo=4",
-      "https://podcasts.apple.com/us/podcast/navigating-credit-markets-in-2026-dont-let-the-macro/id1456184829?i=1000790033017&uo=4"
-    ],
     "2026-09-18": [
       "https://podcasts.apple.com/us/podcast/rich-friedman-on-the-rise-of-private-markets/id948913991?i=1000790446041&uo=4",
       "https://podcasts.apple.com/us/podcast/the-opportunities-for-investors-amid-higher-for/id1683802600?i=1000790445240&uo=4",
@@ -659,6 +655,9 @@
     "2026-10-08": [
       "https://podcasts.apple.com/us/podcast/will-midterms-test-the-ai-investment-cycle/id1466686717?i=1000793718284&uo=4",
       "https://podcasts.apple.com/us/podcast/califoreboding/id1367963156?i=1000793878007&uo=4"
+    ],
+    "2026-10-09": [
+      "https://podcasts.apple.com/us/podcast/high-mortgage-rates-and-a-stuck-housing-market/id1466686717?i=1000793933821&uo=4"
     ]
   }
 }
