@@ -1,12 +1,12 @@
 {
   "date": "2026-10-10",
-  "generatedAt": "2026-10-10T11:10:15.411834+00:00",
+  "generatedAt": "2026-10-10T15:22:30.487185+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Long-Term Treasury Yields Settle at New Multidecade Highs",
-      "url": "https://www.wsj.com/finance/jgbs-mixed-ahead-of-expected-extraordinary-diet-session-in-japan-91edd376",
+      "title": "U.S., European Bond Yields Rise",
+      "url": "https://www.wsj.com/finance/investing/french-bond-yields-stay-elevated-treasury-yields-ease-13103f54",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -14,8 +14,8 @@
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Exclusive | Tennis Legend John McEnroe Asks $35 Million for Beachfront Malibu Home",
-      "url": "https://www.wsj.com/real-estate/luxury-homes/john-mcenroe-malibu-home-845cad28",
+      "title": "A ‘Baywatch’ Star Shares Her NYC Marathon Day Spots",
+      "url": "https://www.wsj.com/lifestyle/travel/brooks-nader-nyc-new-york-marathon-99b05016",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -32,8 +32,8 @@
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "The U.S. Army’s Desert Tech Test Shows Long Road to AI Warfare",
-      "url": "https://www.wsj.com/tech/the-u-s-armys-desert-tech-test-shows-long-road-to-ai-warfare-2fc2ba1e",
+      "title": "OpenAI Makes Progress in Preventing AI-Driven ChatGPT Delusions",
+      "url": "https://www.wsj.com/tech/ai/chatgpt-gpt5-sycophancy-delusions-9b3506bf",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -41,8 +41,8 @@
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The Breakout Marathon Star Who Trains on a Planet Fitness Treadmill",
-      "url": "https://www.wsj.com/sports/the-breakout-marathon-star-who-trains-on-a-planet-fitness-treadmill-6f422543",
+      "title": "The Dodgers Steamroller Is Revving Up Again",
+      "url": "https://www.wsj.com/sports/baseball/the-dodgers-steamroller-is-revving-up-again-bae214b3",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
