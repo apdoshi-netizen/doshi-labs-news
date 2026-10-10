@@ -1,31 +1,4 @@
 {
-  "2026-09-18": [
-    {
-      "title": "Bank of Canada Flags Need for Rate Boost Should High Fuel Costs Spill Over, Minutes Say",
-      "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-flagged-need-for-rate-hike-should-high-fuel-costs-spill-over-minutes-say-d78b24bb",
-      "storyKey": null
-    },
-    {
-      "title": "The SpaceX IPO Gave This Couple License to Chase Their Dreams",
-      "url": "https://www.wsj.com/business/spacex-ipo-payouts-41e64c45",
-      "storyKey": null
-    },
-    {
-      "title": "Opinion | Development Banks Have Misplaced Priorities",
-      "url": "https://www.wsj.com/opinion/development-banks-have-misplaced-priorities-9b4ade34",
-      "storyKey": null
-    },
-    {
-      "title": "How a Chinese Hacking Firm Tapped AI to Supercharge Cyber-Spying",
-      "url": "https://www.wsj.com/tech/how-a-chinese-hacking-firm-tapped-ai-to-supercharge-cyber-spying-b577c846",
-      "storyKey": null
-    },
-    {
-      "title": "These Teams Have Been Utterly Mediocre. They’re Vying for the Playoffs Anyway.",
-      "url": "https://www.wsj.com/sports/baseball/mlb-playoffs-american-league-mediocre-a918798e",
-      "storyKey": null
-    }
-  ],
   "2026-09-19": [
     {
       "title": "Dow Falls 500 Points as the Federal Reserve Raises Key Interest Rate",
@@ -593,13 +566,34 @@
       "storyKey": "dies+ditka+mike"
     }
   ],
+  "2026-10-10": [
+    {
+      "title": "Long-Term Treasury Yields Settle at New Multidecade Highs",
+      "url": "https://www.wsj.com/finance/jgbs-mixed-ahead-of-expected-extraordinary-diet-session-in-japan-91edd376",
+      "storyKey": null
+    },
+    {
+      "title": "Exclusive | Tennis Legend John McEnroe Asks $35 Million for Beachfront Malibu Home",
+      "url": "https://www.wsj.com/real-estate/luxury-homes/john-mcenroe-malibu-home-845cad28",
+      "storyKey": null
+    },
+    {
+      "title": "Opinion | Tariffs Are Hurting the GOP in Michigan",
+      "url": "https://www.wsj.com/opinion/mike-rogers-michigan-tariffs-canada-donald-trump-6b3d2bd8",
+      "storyKey": null
+    },
+    {
+      "title": "The U.S. Army’s Desert Tech Test Shows Long Road to AI Warfare",
+      "url": "https://www.wsj.com/tech/the-u-s-armys-desert-tech-test-shows-long-road-to-ai-warfare-2fc2ba1e",
+      "storyKey": null
+    },
+    {
+      "title": "The Breakout Marathon Star Who Trains on a Planet Fitness Treadmill",
+      "url": "https://www.wsj.com/sports/the-breakout-marathon-star-who-trains-on-a-planet-fitness-treadmill-6f422543",
+      "storyKey": null
+    }
+  ],
   "_research": {
-    "2026-09-18": [
-      "https://podcasts.apple.com/us/podcast/rich-friedman-on-the-rise-of-private-markets/id948913991?i=1000790446041&uo=4",
-      "https://podcasts.apple.com/us/podcast/the-opportunities-for-investors-amid-higher-for/id1683802600?i=1000790445240&uo=4",
-      "https://podcasts.apple.com/us/podcast/why-the-fed-may-have-further-to-go/id1466686717?i=1000790399771&uo=4",
-      "https://podcasts.apple.com/us/podcast/the-fed-hikes-rates-what-happens-now/id1456184829?i=1000790389532&uo=4"
-    ],
     "2026-09-19": [
       "https://podcasts.apple.com/us/podcast/trump-xi-talks-put-trade-and-tech-in-focus/id1466686717?i=1000790571955&uo=4"
     ],
@@ -659,6 +653,9 @@
     "2026-10-09": [
       "https://podcasts.apple.com/us/podcast/hedge-funds-are-cautious-on-stocks-amid-rates-and/id1683802600?i=1000794064689&uo=4",
       "https://podcasts.apple.com/us/podcast/high-mortgage-rates-and-a-stuck-housing-market/id1466686717?i=1000793933821&uo=4"
+    ],
+    "2026-10-10": [
+      "https://podcasts.apple.com/us/podcast/will-high-yields-crack-the-markets-resilience/id1466686717?i=1000794525524&uo=4"
     ]
   }
 }

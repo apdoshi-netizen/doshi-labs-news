@@ -1,73 +1,63 @@
 {
-  "date": "2026-10-09",
-  "generatedAt": "2026-10-09T16:11:42.247633+00:00",
+  "date": "2026-10-10",
+  "generatedAt": "2026-10-10T11:10:15.411834+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "U.S. Budget Deficit Jumps to Nearly $2 Trillion",
-      "url": "https://www.wsj.com/politics/policy/u-s-deficit-clocks-in-just-under-2-trillion-7e8e9eb3",
-      "summary": "U.S. budget deficit jumped to nearly $2 trillion, signaling growing fiscal pressure on markets.",
-      "storyKey": "budget+deficit+us",
+      "title": "Long-Term Treasury Yields Settle at New Multidecade Highs",
+      "url": "https://www.wsj.com/finance/jgbs-mixed-ahead-of-expected-extraordinary-diet-session-in-japan-91edd376",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "C.H. Robinson to Buy RXO for About $5.8 Billion",
-      "url": "https://www.wsj.com/business/deals/c-h-robinson-to-buy-rxo-for-about-5-billion-80a73ba1",
-      "summary": "C.H. Robinson agrees to buy RXO for about $5.8 billion, a major logistics industry merger.",
-      "storyKey": "chrobinson+rxo",
+      "title": "Exclusive | Tennis Legend John McEnroe Asks $35 Million for Beachfront Malibu Home",
+      "url": "https://www.wsj.com/real-estate/luxury-homes/john-mcenroe-malibu-home-845cad28",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Price Controls Are Harmful",
-      "url": "https://www.wsj.com/opinion/price-controls-are-harmful-c3fc3c4d",
-      "summary": "Opinion argues price controls are harmful, a substantive economic policy critique.",
-      "storyKey": "controls+economics+price",
+      "title": "Opinion | Tariffs Are Hurting the GOP in Michigan",
+      "url": "https://www.wsj.com/opinion/mike-rogers-michigan-tariffs-canada-donald-trump-6b3d2bd8",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Nvidia-Backed Firmus Scraps Australian IPO, Citing Market Conditions",
-      "url": "https://www.wsj.com/tech/nvidia-backed-firmus-scraps-australian-ipo-citing-market-conditions-4793fe60",
-      "summary": "Nvidia-backed Firmus scraps Australian IPO citing market conditions, highlighting AI investment limits.",
-      "storyKey": "firmus+ipo+nvidia",
+      "title": "The U.S. Army’s Desert Tech Test Shows Long Road to AI Warfare",
+      "url": "https://www.wsj.com/tech/the-u-s-armys-desert-tech-test-shows-long-road-to-ai-warfare-2fc2ba1e",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "Super Bowl Winner and Chicago Bears Legend Mike Ditka Dies at 86",
-      "url": "https://www.wsj.com/sports/football/mike-ditka-chicago-bears-644f1741",
-      "summary": "Super Bowl winner and Bears legend Mike",
-      "storyKey": "dies+ditka+mike",
+      "title": "The Breakout Marathon Star Who Trains on a Planet Fitness Treadmill",
+      "url": "https://www.wsj.com/sports/the-breakout-marathon-star-who-trains-on-a-planet-fitness-treadmill-6f422543",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     }
   ],
   "research": [
     {
-      "firm": "Goldman Sachs",
-      "show": "The Markets",
-      "title": "Hedge Funds Are Cautious on Stocks amid Rates and Energy Volatility",
-      "url": "https://podcasts.apple.com/us/podcast/hedge-funds-are-cautious-on-stocks-amid-rates-and/id1683802600?i=1000794064689&uo=4",
-      "published": "2026-10-09T14:30:00+00:00",
-      "kind": "podcast",
-      "duration": "11 min",
-      "summary": "Hedge fund positioning in equities for long-short strategies is at historically low levels amid ongoing volatility in interest rates and oil prices, says Mark Wilson, head of European Equity Franchise Sales and Hedge Fund Coverage in Goldman Sachs FICC and Equities. And even as investor scrutiny of French government borrowing grows, Wilson points out that there are investment opportunities in Europe in defense stocks and the energy independence theme. In The Markets podcast, he also discusses his outlook for mega-capitalization technology companies, stocks that benefit from German government spending, and US third-quarter earnings."
-    },
-    {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
-      "title": "High Mortgage Rates and a Stuck Housing Market",
-      "url": "https://podcasts.apple.com/us/podcast/high-mortgage-rates-and-a-stuck-housing-market/id1466686717?i=1000793933821&uo=4",
-      "published": "2026-10-08T21:00:00+00:00",
+      "title": "Will High Yields Crack the Market’s Resilience?",
+      "url": "https://podcasts.apple.com/us/podcast/will-high-yields-crack-the-markets-resilience/id1466686717?i=1000794525524&uo=4",
+      "published": "2026-10-09T20:00:00+00:00",
       "kind": "podcast",
-      "duration": "9 min",
-      "summary": "U.S. mortgage rates are hovering around their highest levels in three years. Morgan Stanley Co-Heads of Securitized Products Research Jay Bacow and James Egan examine the forces keeping homeowners locked in and buyers priced out of the housing market. Read more insights from Morgan Stanley."
+      "duration": "5 min",
+      "summary": "Markets have remained resilient despite the prospect of higher-for-longer rates. Our Global Head of Fixed Income Research Andrew Sheets considers the risks building beneath the surface. Read more insights from Morgan Stanley."
     }
   ]
 }
