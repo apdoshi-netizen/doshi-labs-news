@@ -1,63 +1,52 @@
 {
-  "date": "2026-10-10",
-  "generatedAt": "2026-10-10T15:22:30.487185+00:00",
+  "date": "2026-10-11",
+  "generatedAt": "2026-10-11T11:23:43.847670+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "U.S., European Bond Yields Rise",
-      "url": "https://www.wsj.com/finance/investing/french-bond-yields-stay-elevated-treasury-yields-ease-13103f54",
-      "summary": "",
-      "storyKey": null,
+      "title": "Long-Term Treasury Yields Settle at New Multidecade Highs",
+      "url": "https://www.wsj.com/finance/jgbs-mixed-ahead-of-expected-extraordinary-diet-session-in-japan-91edd376",
+      "summary": "Long-term Treasury yields settled at new multidecade highs, signaling sustained market-wide borrowing cost pressures.",
+      "storyKey": "treasury+yields",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "A ‘Baywatch’ Star Shares Her NYC Marathon Day Spots",
-      "url": "https://www.wsj.com/lifestyle/travel/brooks-nader-nyc-new-york-marathon-99b05016",
-      "summary": "",
-      "storyKey": null,
+      "title": "Akzo Nobel to Sell Southeast Asia Decorative Paints Business for $1.35 Billion",
+      "url": "https://www.wsj.com/business/akzo-nobel-to-sell-southeast-asia-decorative-paints-business-for-1-35-billion-4e39be48",
+      "summary": "Akzo Nobel agrees to sell its Southeast Asia decorative paints business for $1.35 billion.",
+      "storyKey": "akzonobel+paints",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Tariffs Are Hurting the GOP in Michigan",
-      "url": "https://www.wsj.com/opinion/mike-rogers-michigan-tariffs-canada-donald-trump-6b3d2bd8",
-      "summary": "",
-      "storyKey": null,
+      "title": "Opinion | Unintelligence on Super Intelligence",
+      "url": "https://www.wsj.com/opinion/unintelligence-on-super-intelligence-dfb2f897",
+      "summary": "Opinion argues policymakers and industry misunderstand the risks and reality of superintelligent AI.",
+      "storyKey": "ai+superintelligence",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "OpenAI Makes Progress in Preventing AI-Driven ChatGPT Delusions",
-      "url": "https://www.wsj.com/tech/ai/chatgpt-gpt5-sycophancy-delusions-9b3506bf",
-      "summary": "",
-      "storyKey": null,
+      "title": "OpenAI’s ChatGPT for Teens Poses ‘Unacceptable Risk,’ Nonprofit Says",
+      "url": "https://www.wsj.com/tech/ai/openais-chatgpt-for-teens-poses-unacceptable-risk-nonprofit-says-fd95f8fe",
+      "summary": "Nonprofit warns OpenAI's ChatGPT version for teens poses an \"unacceptable risk\" to young users.",
+      "storyKey": "chatgpt+openai+teens",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The Dodgers Steamroller Is Revving Up Again",
-      "url": "https://www.wsj.com/sports/baseball/the-dodgers-steamroller-is-revving-up-again-bae214b3",
-      "summary": "",
-      "storyKey": null,
+      "title": "The Yankees Aren’t Arrogant Jerks Anymore. That Might Be a Problem.",
+      "url": "https://www.wsj.com/sports/baseball/yankees-playoffs-aaron-judge-b38eb769",
+      "summary": "Column explores how the Yankees' shift away from an \"arrogant jerks\" culture may hurt performance.",
+      "storyKey": "culture+yankees",
       "source": "WSJ"
     }
   ],
-  "research": [
-    {
-      "firm": "Morgan Stanley",
-      "show": "Thoughts on the Market",
-      "title": "Will High Yields Crack the Market’s Resilience?",
-      "url": "https://podcasts.apple.com/us/podcast/will-high-yields-crack-the-markets-resilience/id1466686717?i=1000794525524&uo=4",
-      "published": "2026-10-09T20:00:00+00:00",
-      "kind": "podcast",
-      "duration": "5 min",
-      "summary": "Markets have remained resilient despite the prospect of higher-for-longer rates. Our Global Head of Fixed Income Research Andrew Sheets considers the risks building beneath the surface. Read more insights from Morgan Stanley."
-    }
-  ]
+  "research": []
 }

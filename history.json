@@ -1,31 +1,4 @@
 {
-  "2026-09-19": [
-    {
-      "title": "Dow Falls 500 Points as the Federal Reserve Raises Key Interest Rate",
-      "url": "https://www.wsj.com/finance/stocks/oil-pares-gains-stock-futures-steady-as-cautious-optimism-heralds-fed-day-65090da0",
-      "storyKey": "fed+hike+rate"
-    },
-    {
-      "title": "Volkswagen Warns on Profit After Big Porsche Write-Down",
-      "url": "https://www.wsj.com/business/autos/volkswagen-lowers-full-year-forecast-as-market-challenges-persist-e1edbbfd",
-      "storyKey": "porsche+volkswagen"
-    },
-    {
-      "title": "Opinion | The Staring Contest Over the Dollar and the Yen",
-      "url": "https://www.wsj.com/opinion/bank-of-japan-interest-rate-yen-scott-bessent-07bd6b74",
-      "storyKey": "dollar+yen"
-    },
-    {
-      "title": "Microsoft Sets Limits for AI Models as Altman Details Control Risks",
-      "url": "https://www.wsj.com/tech/ai/altman-says-ais-rapid-progress-could-go-very-badly-1e840a6c",
-      "storyKey": "ai+limits+microsoft"
-    },
-    {
-      "title": "Exclusive | The Super Donor Quarterbacking Michigan Sports: Larry Ellison’s Wife",
-      "url": "https://www.wsj.com/sports/football/oracle-ellison-michigan-underwood-jolin-65fd9c24",
-      "storyKey": "donor+ellison+michigan"
-    }
-  ],
   "2026-09-20": [
     {
       "title": "Lennar Cuts Deliveries Target Again on Rate Pressure, Housing Market Conditions",
@@ -593,10 +566,34 @@
       "storyKey": null
     }
   ],
+  "2026-10-11": [
+    {
+      "title": "Long-Term Treasury Yields Settle at New Multidecade Highs",
+      "url": "https://www.wsj.com/finance/jgbs-mixed-ahead-of-expected-extraordinary-diet-session-in-japan-91edd376",
+      "storyKey": "treasury+yields"
+    },
+    {
+      "title": "Akzo Nobel to Sell Southeast Asia Decorative Paints Business for $1.35 Billion",
+      "url": "https://www.wsj.com/business/akzo-nobel-to-sell-southeast-asia-decorative-paints-business-for-1-35-billion-4e39be48",
+      "storyKey": "akzonobel+paints"
+    },
+    {
+      "title": "Opinion | Unintelligence on Super Intelligence",
+      "url": "https://www.wsj.com/opinion/unintelligence-on-super-intelligence-dfb2f897",
+      "storyKey": "ai+superintelligence"
+    },
+    {
+      "title": "OpenAI’s ChatGPT for Teens Poses ‘Unacceptable Risk,’ Nonprofit Says",
+      "url": "https://www.wsj.com/tech/ai/openais-chatgpt-for-teens-poses-unacceptable-risk-nonprofit-says-fd95f8fe",
+      "storyKey": "chatgpt+openai+teens"
+    },
+    {
+      "title": "The Yankees Aren’t Arrogant Jerks Anymore. That Might Be a Problem.",
+      "url": "https://www.wsj.com/sports/baseball/yankees-playoffs-aaron-judge-b38eb769",
+      "storyKey": "culture+yankees"
+    }
+  ],
   "_research": {
-    "2026-09-19": [
-      "https://podcasts.apple.com/us/podcast/trump-xi-talks-put-trade-and-tech-in-focus/id1466686717?i=1000790571955&uo=4"
-    ],
     "2026-09-20": [],
     "2026-09-21": [],
     "2026-09-22": [
@@ -656,6 +653,7 @@
     ],
     "2026-10-10": [
       "https://podcasts.apple.com/us/podcast/will-high-yields-crack-the-markets-resilience/id1466686717?i=1000794525524&uo=4"
-    ]
+    ],
+    "2026-10-11": []
   }
 }
