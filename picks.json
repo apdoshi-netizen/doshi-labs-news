@@ -1,50 +1,50 @@
 {
-  "date": "2026-10-11",
-  "generatedAt": "2026-10-11T11:23:43.847670+00:00",
+  "date": "2026-10-12",
+  "generatedAt": "2026-10-12T13:08:47.424095+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Long-Term Treasury Yields Settle at New Multidecade Highs",
-      "url": "https://www.wsj.com/finance/jgbs-mixed-ahead-of-expected-extraordinary-diet-session-in-japan-91edd376",
-      "summary": "Long-term Treasury yields settled at new multidecade highs, signaling sustained market-wide borrowing cost pressures.",
-      "storyKey": "treasury+yields",
+      "title": "Why Economists Think Higher Bond Yields Are Here to Stay",
+      "url": "https://www.wsj.com/finance/investing/economists-bond-yields-forecast-aaa2ff5c",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Akzo Nobel to Sell Southeast Asia Decorative Paints Business for $1.35 Billion",
-      "url": "https://www.wsj.com/business/akzo-nobel-to-sell-southeast-asia-decorative-paints-business-for-1-35-billion-4e39be48",
-      "summary": "Akzo Nobel agrees to sell its Southeast Asia decorative paints business for $1.35 billion.",
-      "storyKey": "akzonobel+paints",
+      "title": "Exclusive | Quantum-Computing Company IonQ to Buy Cybersecurity Firm for Up to $1.3 Billion",
+      "url": "https://www.wsj.com/business/deals/quantum-computing-company-ionq-to-buy-cybersecurity-firm-for-up-to-1-3-billion-65af65bd",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Unintelligence on Super Intelligence",
-      "url": "https://www.wsj.com/opinion/unintelligence-on-super-intelligence-dfb2f897",
-      "summary": "Opinion argues policymakers and industry misunderstand the risks and reality of superintelligent AI.",
-      "storyKey": "ai+superintelligence",
+      "title": "Opinion | Health Savings Accounts Can Curb Rising Costs",
+      "url": "https://www.wsj.com/opinion/health-savings-accounts-can-curb-rising-costs-90e537ed",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "OpenAI’s ChatGPT for Teens Poses ‘Unacceptable Risk,’ Nonprofit Says",
-      "url": "https://www.wsj.com/tech/ai/openais-chatgpt-for-teens-poses-unacceptable-risk-nonprofit-says-fd95f8fe",
-      "summary": "Nonprofit warns OpenAI's ChatGPT version for teens poses an \"unacceptable risk\" to young users.",
-      "storyKey": "chatgpt+openai+teens",
+      "title": "The U.S. Army’s Desert Tech Test Shows Long Road to AI Warfare",
+      "url": "https://www.wsj.com/tech/the-u-s-armys-desert-tech-test-shows-long-road-to-ai-warfare-2fc2ba1e",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The Yankees Aren’t Arrogant Jerks Anymore. That Might Be a Problem.",
-      "url": "https://www.wsj.com/sports/baseball/yankees-playoffs-aaron-judge-b38eb769",
-      "summary": "Column explores how the Yankees' shift away from an \"arrogant jerks\" culture may hurt performance.",
-      "storyKey": "culture+yankees",
+      "title": "What Are They Thinking? Daffy NFL Teams Can’t Stop Making Brainless Mistakes",
+      "url": "https://www.wsj.com/sports/football/daffy-nfl-teams-cant-stop-making-brainless-mistakes-0d57c726",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     }
   ],

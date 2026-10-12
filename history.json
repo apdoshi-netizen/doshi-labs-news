@@ -1,31 +1,4 @@
 {
-  "2026-09-20": [
-    {
-      "title": "Lennar Cuts Deliveries Target Again on Rate Pressure, Housing Market Conditions",
-      "url": "https://www.wsj.com/business/earnings/lennar-cuts-deliveries-target-again-on-rate-pressure-housing-market-conditions-363012dd",
-      "storyKey": null
-    },
-    {
-      "title": "Bilfinger Shares Fall 20% on Lowered Outlook, Job Cuts",
-      "url": "https://www.wsj.com/business/earnings/bilfinger-shares-fall-20-on-lowered-outlook-job-cuts-c843f681",
-      "storyKey": null
-    },
-    {
-      "title": "Opinion | Gambling, Not Nudity, Is the Real Sydney Sweeney Scandal",
-      "url": "https://www.wsj.com/opinion/free-expression/gambling-not-nudity-is-the-real-sydney-sweeney-scandal-d2867e5f",
-      "storyKey": null
-    },
-    {
-      "title": "The Squishy Language Shaping the AI Debate",
-      "url": "https://www.wsj.com/tech/ai/the-squishy-language-shaping-the-ai-debate-8422c687",
-      "storyKey": null
-    },
-    {
-      "title": "Lane Kiffin Nearly Broke Ole Miss Again. Then His Former QB Produced a Masterpiece",
-      "url": "https://www.wsj.com/sports/football/trinidad-chambliss-lane-kiffin-ole-miss-lsu-9bc15d82",
-      "storyKey": null
-    }
-  ],
   "2026-09-21": [
     {
       "title": "Week Ahead for FX, Bonds: U.S. PMI Data, Various Central Bank Decisions in Focus",
@@ -593,8 +566,34 @@
       "storyKey": "culture+yankees"
     }
   ],
+  "2026-10-12": [
+    {
+      "title": "Why Economists Think Higher Bond Yields Are Here to Stay",
+      "url": "https://www.wsj.com/finance/investing/economists-bond-yields-forecast-aaa2ff5c",
+      "storyKey": null
+    },
+    {
+      "title": "Exclusive | Quantum-Computing Company IonQ to Buy Cybersecurity Firm for Up to $1.3 Billion",
+      "url": "https://www.wsj.com/business/deals/quantum-computing-company-ionq-to-buy-cybersecurity-firm-for-up-to-1-3-billion-65af65bd",
+      "storyKey": null
+    },
+    {
+      "title": "Opinion | Health Savings Accounts Can Curb Rising Costs",
+      "url": "https://www.wsj.com/opinion/health-savings-accounts-can-curb-rising-costs-90e537ed",
+      "storyKey": null
+    },
+    {
+      "title": "The U.S. Army’s Desert Tech Test Shows Long Road to AI Warfare",
+      "url": "https://www.wsj.com/tech/the-u-s-armys-desert-tech-test-shows-long-road-to-ai-warfare-2fc2ba1e",
+      "storyKey": null
+    },
+    {
+      "title": "What Are They Thinking? Daffy NFL Teams Can’t Stop Making Brainless Mistakes",
+      "url": "https://www.wsj.com/sports/football/daffy-nfl-teams-cant-stop-making-brainless-mistakes-0d57c726",
+      "storyKey": null
+    }
+  ],
   "_research": {
-    "2026-09-20": [],
     "2026-09-21": [],
     "2026-09-22": [
       "https://podcasts.apple.com/us/podcast/ryan-serhant-on-the-art-of-selling-luxury-real-estate/id1373320104?i=1000790974203&uo=4",
@@ -654,6 +653,7 @@
     "2026-10-10": [
       "https://podcasts.apple.com/us/podcast/will-high-yields-crack-the-markets-resilience/id1466686717?i=1000794525524&uo=4"
     ],
-    "2026-10-11": []
+    "2026-10-11": [],
+    "2026-10-12": []
   }
 }
