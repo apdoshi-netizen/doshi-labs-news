@@ -1,41 +1,41 @@
 {
   "date": "2026-10-12",
-  "generatedAt": "2026-10-12T13:08:47.424095+00:00",
+  "generatedAt": "2026-10-12T19:02:07.583054+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Why Economists Think Higher Bond Yields Are Here to Stay",
-      "url": "https://www.wsj.com/finance/investing/economists-bond-yields-forecast-aaa2ff5c",
-      "summary": "",
-      "storyKey": null,
+      "title": "Rupee Jumps After India Central Bank Unveils Currency-Defense Measures",
+      "url": "https://www.wsj.com/finance/currencies/rupee-jumps-after-india-central-bank-unveils-currency-defense-measures-26b7caa0",
+      "summary": "Rupee surges after India’s central bank unveiled new currency-defense measures, a market-moving FX policy action.",
+      "storyKey": "intervention+rbi+rupee",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Exclusive | Quantum-Computing Company IonQ to Buy Cybersecurity Firm for Up to $1.3 Billion",
-      "url": "https://www.wsj.com/business/deals/quantum-computing-company-ionq-to-buy-cybersecurity-firm-for-up-to-1-3-billion-65af65bd",
-      "summary": "",
-      "storyKey": null,
+      "title": "Getty Images to File for Bankruptcy, Go Private Via Koch Deal",
+      "url": "https://www.wsj.com/business/getty-images-to-file-for-bankruptcy-go-private-via-koch-deal-b34e9040",
+      "summary": "Getty Images to file for bankruptcy and go private via a deal with Koch, a major corporate restructuring.",
+      "storyKey": "getty+images+koch",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Health Savings Accounts Can Curb Rising Costs",
-      "url": "https://www.wsj.com/opinion/health-savings-accounts-can-curb-rising-costs-90e537ed",
-      "summary": "",
-      "storyKey": null,
+      "title": "Opinion | How the AI Boom Ends",
+      "url": "https://www.wsj.com/opinion/how-the-ai-boom-ends-0d9d47e7",
+      "summary": "Opinion argues how the current AI investment boom could eventually unwind, an economics/business argument.",
+      "storyKey": "ai+boom+bust",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "The U.S. Army’s Desert Tech Test Shows Long Road to AI Warfare",
-      "url": "https://www.wsj.com/tech/the-u-s-armys-desert-tech-test-shows-long-road-to-ai-warfare-2fc2ba1e",
-      "summary": "",
-      "storyKey": null,
+      "title": "Meta Says New AI Model Is State-of-the-Art, Will Make Muse Agent Smarter",
+      "url": "https://www.wsj.com/tech/ai/meta-says-new-ai-model-is-state-of-the-art-will-make-muse-agent-smarter-1304cdf4",
+      "summary": "Meta claims its new AI model is state-of-the-art and will enhance its Muse agent.",
+      "storyKey": "ai+meta+model",
       "source": "WSJ"
     },
     {
@@ -43,8 +43,8 @@
       "label": "Sports",
       "title": "What Are They Thinking? Daffy NFL Teams Can’t Stop Making Brainless Mistakes",
       "url": "https://www.wsj.com/sports/football/daffy-nfl-teams-cant-stop-making-brainless-mistakes-0d57c726",
-      "summary": "",
-      "storyKey": null,
+      "summary": "Analysis of NFL teams repeatedly making costly strategic and brainless in-game mistakes this season.",
+      "storyKey": "mistakes+nfl",
       "source": "WSJ"
     }
   ],
