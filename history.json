@@ -1,31 +1,4 @@
 {
-  "2026-09-21": [
-    {
-      "title": "Week Ahead for FX, Bonds: U.S. PMI Data, Various Central Bank Decisions in Focus",
-      "url": "https://www.wsj.com/economy/week-ahead-for-fx-bonds-u-s-pmi-data-various-central-bank-decisions-in-focus-1be5eb5a",
-      "storyKey": null
-    },
-    {
-      "title": "Trump’s Greenland Deal Eases Way for U.S. Business on Arctic Island",
-      "url": "https://www.wsj.com/world/trumps-greenland-deal-eases-way-for-u-s-business-on-arctic-island-1cbef960",
-      "storyKey": null
-    },
-    {
-      "title": "Opinion | AI Is Starting to Play Cupid",
-      "url": "https://www.wsj.com/opinion/free-expression/ai-is-starting-to-play-cupid-3b7c77df",
-      "storyKey": null
-    },
-    {
-      "title": "‘Sketchy AF’: What to Know About How OpenAI Staff Discussed Book-Pirating",
-      "url": "https://www.wsj.com/tech/ai/sketchy-af-what-to-know-about-how-openai-staff-discussed-book-pirating-fdc788a1",
-      "storyKey": null
-    },
-    {
-      "title": "Is It Rude to Win a Football Game 84-0—or Am I Just Soft?",
-      "url": "https://www.wsj.com/sports/football/oregon-portland-state-84-0-b48f9b2a",
-      "storyKey": null
-    }
-  ],
   "2026-09-22": [
     {
       "title": "Investors Seen Reluctant to Chase Tighter French-German Yield Spread",
@@ -593,8 +566,29 @@
       "storyKey": "mistakes+nfl"
     }
   ],
+  "2026-10-13": [
+    {
+      "title": "IMF Warns of Global Economic Setbacks as Shocks Test Resilience",
+      "url": "https://www.wsj.com/economy/global/imf-warns-of-global-economic-setbacks-as-shocks-test-resilience-57066f51",
+      "storyKey": "economic+imf+warning"
+    },
+    {
+      "title": "Albertsons Wants $8 Billion From Kroger After Failed Merger",
+      "url": "https://www.wsj.com/business/retail/albertsons-wants-8-billion-from-kroger-after-failed-merger-fd0aacd8",
+      "storyKey": "albertsons+kroger"
+    },
+    {
+      "title": "Opinion | It’s the Economy, Stupid—but How Stupid?",
+      "url": "https://www.wsj.com/opinion/its-the-economy-stupidbut-how-stupid-f1ef0b98",
+      "storyKey": "economy+stupid"
+    },
+    {
+      "title": "The Strategic Blunder That NFL Teams Keep Making Again and Again",
+      "url": "https://www.wsj.com/sports/football/the-strategic-blunder-that-nfl-teams-keep-making-again-and-again-746cc7af",
+      "storyKey": "blunder+nfl+strategy"
+    }
+  ],
   "_research": {
-    "2026-09-21": [],
     "2026-09-22": [
       "https://podcasts.apple.com/us/podcast/ryan-serhant-on-the-art-of-selling-luxury-real-estate/id1373320104?i=1000790974203&uo=4",
       "https://podcasts.apple.com/us/podcast/market-resilience-isnt-complacency/id1466686717?i=1000790995295&uo=4",
@@ -654,6 +648,9 @@
       "https://podcasts.apple.com/us/podcast/will-high-yields-crack-the-markets-resilience/id1466686717?i=1000794525524&uo=4"
     ],
     "2026-10-11": [],
-    "2026-10-12": []
+    "2026-10-12": [],
+    "2026-10-13": [
+      "https://podcasts.apple.com/us/podcast/the-politics-of-powering-ai/id1466686717?i=1000796012437&uo=4"
+    ]
   }
 }

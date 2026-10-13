@@ -1,52 +1,63 @@
 {
-  "date": "2026-10-12",
-  "generatedAt": "2026-10-12T19:02:07.583054+00:00",
+  "date": "2026-10-13",
+  "generatedAt": "2026-10-13T12:41:59.092961+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Rupee Jumps After India Central Bank Unveils Currency-Defense Measures",
-      "url": "https://www.wsj.com/finance/currencies/rupee-jumps-after-india-central-bank-unveils-currency-defense-measures-26b7caa0",
-      "summary": "Rupee surges after India’s central bank unveiled new currency-defense measures, a market-moving FX policy action.",
-      "storyKey": "intervention+rbi+rupee",
+      "title": "IMF Warns of Global Economic Setbacks as Shocks Test Resilience",
+      "url": "https://www.wsj.com/economy/global/imf-warns-of-global-economic-setbacks-as-shocks-test-resilience-57066f51",
+      "summary": "IMF warns of global economic setbacks as shocks test resilience worldwide.",
+      "storyKey": "economic+imf+warning",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Getty Images to File for Bankruptcy, Go Private Via Koch Deal",
-      "url": "https://www.wsj.com/business/getty-images-to-file-for-bankruptcy-go-private-via-koch-deal-b34e9040",
-      "summary": "Getty Images to file for bankruptcy and go private via a deal with Koch, a major corporate restructuring.",
-      "storyKey": "getty+images+koch",
+      "title": "Albertsons Wants $8 Billion From Kroger After Failed Merger",
+      "url": "https://www.wsj.com/business/retail/albertsons-wants-8-billion-from-kroger-after-failed-merger-fd0aacd8",
+      "summary": "Albertsons demands $8 billion from Kroger after their merger collapsed.",
+      "storyKey": "albertsons+kroger",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | How the AI Boom Ends",
-      "url": "https://www.wsj.com/opinion/how-the-ai-boom-ends-0d9d47e7",
-      "summary": "Opinion argues how the current AI investment boom could eventually unwind, an economics/business argument.",
-      "storyKey": "ai+boom+bust",
+      "title": "Opinion | It’s the Economy, Stupid—but How Stupid?",
+      "url": "https://www.wsj.com/opinion/its-the-economy-stupidbut-how-stupid-f1ef0b98",
+      "summary": "Opinion piece debates how much economic conditions matter, titled \"It's the Economy, Stupid—but How Stupid?\"",
+      "storyKey": "economy+stupid",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Meta Says New AI Model Is State-of-the-Art, Will Make Muse Agent Smarter",
-      "url": "https://www.wsj.com/tech/ai/meta-says-new-ai-model-is-state-of-the-art-will-make-muse-agent-smarter-1304cdf4",
-      "summary": "Meta claims its new AI model is state-of-the-art and will enhance its Muse agent.",
-      "storyKey": "ai+meta+model",
+      "title": "",
+      "url": "",
+      "summary": "No WSJ pick today.",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "What Are They Thinking? Daffy NFL Teams Can’t Stop Making Brainless Mistakes",
-      "url": "https://www.wsj.com/sports/football/daffy-nfl-teams-cant-stop-making-brainless-mistakes-0d57c726",
-      "summary": "Analysis of NFL teams repeatedly making costly strategic and brainless in-game mistakes this season.",
-      "storyKey": "mistakes+nfl",
+      "title": "The Strategic Blunder That NFL Teams Keep Making Again and Again",
+      "url": "https://www.wsj.com/sports/football/the-strategic-blunder-that-nfl-teams-keep-making-again-and-again-746cc7af",
+      "summary": "Analysis of a recurring strategic mistake NFL teams keep repeating in game decisions.",
+      "storyKey": "blunder+nfl+strategy",
       "source": "WSJ"
     }
   ],
-  "research": []
+  "research": [
+    {
+      "firm": "Morgan Stanley",
+      "show": "Thoughts on the Market",
+      "title": "The Politics of Powering AI",
+      "url": "https://podcasts.apple.com/us/podcast/the-politics-of-powering-ai/id1466686717?i=1000796012437&uo=4",
+      "published": "2026-10-12T21:00:00+00:00",
+      "kind": "podcast",
+      "duration": "5 min",
+      "summary": "Energy costs are a key election issue and AI data centers are adding to the debate. Our Head of Public Policy Research Ariana Salvatore looks at policy discussions in Washington that could determine how the U.S. powers its next technological boom. Read more insights from Morgan Stanley."
+    }
+  ]
 }
