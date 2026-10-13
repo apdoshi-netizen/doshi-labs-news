@@ -1,6 +1,6 @@
 {
   "date": "2026-10-13",
-  "generatedAt": "2026-10-13T12:41:59.092961+00:00",
+  "generatedAt": "2026-10-13T16:56:23.807341+00:00",
   "picks": [
     {
       "slot": "Macro",
@@ -8,47 +8,57 @@
       "title": "IMF Warns of Global Economic Setbacks as Shocks Test Resilience",
       "url": "https://www.wsj.com/economy/global/imf-warns-of-global-economic-setbacks-as-shocks-test-resilience-57066f51",
       "summary": "IMF warns of global economic setbacks as shocks test resilience worldwide.",
-      "storyKey": "economic+imf+warning",
+      "storyKey": "global+imf+risks",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Albertsons Wants $8 Billion From Kroger After Failed Merger",
-      "url": "https://www.wsj.com/business/retail/albertsons-wants-8-billion-from-kroger-after-failed-merger-fd0aacd8",
-      "summary": "Albertsons demands $8 billion from Kroger after their merger collapsed.",
-      "storyKey": "albertsons+kroger",
+      "title": "Kimberly-Clark, Kenvue Win Conditional EU Approval for $40 Billion Tie-Up",
+      "url": "https://www.wsj.com/business/deals/kimberly-clark-kenvue-win-conditional-eu-approval-for-40-billion-tie-up-1964639a",
+      "summary": "Kimberly-Clark and Kenvue win conditional EU approval for $40 billion merger.",
+      "storyKey": "kenvue+kimberlyclark",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | It’s the Economy, Stupid—but How Stupid?",
-      "url": "https://www.wsj.com/opinion/its-the-economy-stupidbut-how-stupid-f1ef0b98",
-      "summary": "Opinion piece debates how much economic conditions matter, titled \"It's the Economy, Stupid—but How Stupid?\"",
-      "storyKey": "economy+stupid",
+      "title": "Opinion | Milton Friedman’s Courageous Candor",
+      "url": "https://www.wsj.com/opinion/milton-friedmans-courageous-candor-ac2a9fe3",
+      "summary": "Opinion piece praises Milton Friedman's courageous candor on economic policy.",
+      "storyKey": "friedman+legacy+milton",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "",
-      "url": "",
-      "summary": "No WSJ pick today.",
-      "storyKey": null,
+      "title": "AI Chips’ New Secret Sauce Is Packaging",
+      "url": "https://www.wsj.com/tech/ai/ai-chips-new-secret-sauce-is-packaging-a144a348",
+      "summary": "AI chips' new competitive edge comes from advanced semiconductor packaging techniques.",
+      "storyKey": "ai+chip+packaging",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The Strategic Blunder That NFL Teams Keep Making Again and Again",
-      "url": "https://www.wsj.com/sports/football/the-strategic-blunder-that-nfl-teams-keep-making-again-and-again-746cc7af",
-      "summary": "Analysis of a recurring strategic mistake NFL teams keep repeating in game decisions.",
-      "storyKey": "blunder+nfl+strategy",
+      "title": "How Josh Allen and the Buffalo Bills Survived the NFL’s Game of the Year",
+      "url": "https://www.wsj.com/sports/football/bills-rams-josh-allen-matthew-stafford-080b74c7",
+      "summary": "Josh Allen and the Buffalo Bills survive the NFL's game of the year.",
+      "storyKey": "allen+bills+josh",
       "source": "WSJ"
     }
   ],
   "research": [
+    {
+      "firm": "Goldman Sachs",
+      "show": "Exchanges",
+      "title": "Where Chinese Exports Are Gaining the Most Market Share",
+      "url": "https://podcasts.apple.com/us/podcast/where-chinese-exports-are-gaining-the-most-market-share/id948913991?i=1000796146475&uo=4",
+      "published": "2026-10-13T14:00:00+00:00",
+      "kind": "podcast",
+      "duration": "18 min",
+      "summary": "Chinese exports are surging worldwide—and particularly in emerging markets, says Trina Chen, co-head of Greater China Equity Research. In the Goldman Sachs Exchanges podcast, Chen also explains which sectors face the biggest challenge from growing Chinese competition."
+    },
     {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
@@ -58,6 +68,16 @@
       "kind": "podcast",
       "duration": "5 min",
       "summary": "Energy costs are a key election issue and AI data centers are adding to the debate. Our Head of Public Policy Research Ariana Salvatore looks at policy discussions in Washington that could determine how the U.S. powers its next technological boom. Read more insights from Morgan Stanley."
+    },
+    {
+      "firm": "J.P. Morgan",
+      "show": "Making Sense",
+      "title": "Blackstone on hedge funds: Why multi-strats are back",
+      "url": "https://podcasts.apple.com/us/podcast/blackstone-on-hedge-funds-why-multi-strats-are-back/id1456184829?i=1000796140887&uo=4",
+      "published": "2026-10-13T13:25:32+00:00",
+      "kind": "podcast",
+      "duration": "22 min",
+      "summary": "Multi-strategy hedge funds are drawing fresh attention as investors reassess traditional 60/40 portfolios amid higher stock–bond correlations. In this second conversation with Blackstone, Kumar Panja, EMEA head of Capital Advisory Group at J.P. Morgan, sits down with Joe Dowling, global head of Blackstone Multi‑Asset Investing business (BXMA), and Riad Abrahams head of Strategy, Risk and Quant Analytics in BXMA, to unpack what’s driving multi‑strat growth—and how allocators are using these strategies as a potential fixed income substitute."
     }
   ]
 }

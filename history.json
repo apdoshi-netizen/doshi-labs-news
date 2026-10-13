@@ -570,22 +570,27 @@
     {
       "title": "IMF Warns of Global Economic Setbacks as Shocks Test Resilience",
       "url": "https://www.wsj.com/economy/global/imf-warns-of-global-economic-setbacks-as-shocks-test-resilience-57066f51",
-      "storyKey": "economic+imf+warning"
+      "storyKey": "global+imf+risks"
     },
     {
-      "title": "Albertsons Wants $8 Billion From Kroger After Failed Merger",
-      "url": "https://www.wsj.com/business/retail/albertsons-wants-8-billion-from-kroger-after-failed-merger-fd0aacd8",
-      "storyKey": "albertsons+kroger"
+      "title": "Kimberly-Clark, Kenvue Win Conditional EU Approval for $40 Billion Tie-Up",
+      "url": "https://www.wsj.com/business/deals/kimberly-clark-kenvue-win-conditional-eu-approval-for-40-billion-tie-up-1964639a",
+      "storyKey": "kenvue+kimberlyclark"
     },
     {
-      "title": "Opinion | It’s the Economy, Stupid—but How Stupid?",
-      "url": "https://www.wsj.com/opinion/its-the-economy-stupidbut-how-stupid-f1ef0b98",
-      "storyKey": "economy+stupid"
+      "title": "Opinion | Milton Friedman’s Courageous Candor",
+      "url": "https://www.wsj.com/opinion/milton-friedmans-courageous-candor-ac2a9fe3",
+      "storyKey": "friedman+legacy+milton"
     },
     {
-      "title": "The Strategic Blunder That NFL Teams Keep Making Again and Again",
-      "url": "https://www.wsj.com/sports/football/the-strategic-blunder-that-nfl-teams-keep-making-again-and-again-746cc7af",
-      "storyKey": "blunder+nfl+strategy"
+      "title": "AI Chips’ New Secret Sauce Is Packaging",
+      "url": "https://www.wsj.com/tech/ai/ai-chips-new-secret-sauce-is-packaging-a144a348",
+      "storyKey": "ai+chip+packaging"
+    },
+    {
+      "title": "How Josh Allen and the Buffalo Bills Survived the NFL’s Game of the Year",
+      "url": "https://www.wsj.com/sports/football/bills-rams-josh-allen-matthew-stafford-080b74c7",
+      "storyKey": "allen+bills+josh"
     }
   ],
   "_research": {
@@ -650,7 +655,9 @@
     "2026-10-11": [],
     "2026-10-12": [],
     "2026-10-13": [
-      "https://podcasts.apple.com/us/podcast/the-politics-of-powering-ai/id1466686717?i=1000796012437&uo=4"
+      "https://podcasts.apple.com/us/podcast/where-chinese-exports-are-gaining-the-most-market-share/id948913991?i=1000796146475&uo=4",
+      "https://podcasts.apple.com/us/podcast/the-politics-of-powering-ai/id1466686717?i=1000796012437&uo=4",
+      "https://podcasts.apple.com/us/podcast/blackstone-on-hedge-funds-why-multi-strats-are-back/id1456184829?i=1000796140887&uo=4"
     ]
   }
 }
