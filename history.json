@@ -1,31 +1,4 @@
 {
-  "2026-09-22": [
-    {
-      "title": "Investors Seen Reluctant to Chase Tighter French-German Yield Spread",
-      "url": "https://www.wsj.com/finance/macro-backdrop-might-weigh-on-two-year-u-s-treasury-auction-ebc5d728",
-      "storyKey": null
-    },
-    {
-      "title": "The Volatile Finances of Airline Pilots, America’s Unpredictable Millionaires",
-      "url": "https://www.wsj.com/personal-finance/the-volatile-finances-of-airline-pilots-americas-unpredictable-millionaires-cd403364",
-      "storyKey": null
-    },
-    {
-      "title": "Opinion | To Wean Off China, Build Domestic Batteries",
-      "url": "https://www.wsj.com/opinion/to-wean-off-china-build-domestic-batteries-4a11bce6",
-      "storyKey": null
-    },
-    {
-      "title": "Alibaba Unveils New AI Chip, Outlines Plan for Larger Model",
-      "url": "https://www.wsj.com/tech/ai/alibaba-unveils-new-ai-chip-outlines-plan-for-larger-model-1a989146",
-      "storyKey": null
-    },
-    {
-      "title": "The Hottest Spot in Sports This Weekend is Oxford, Miss.",
-      "url": "https://www.wsj.com/sports/football/the-hottest-spot-in-sports-this-weekend-is-oxford-miss-15caf2ec",
-      "storyKey": null
-    }
-  ],
   "2026-09-23": [
     {
       "title": "Solid Economic Data Show U.S. Economy Running Hot Ahead of Fed Decision",
@@ -593,12 +566,34 @@
       "storyKey": "allen+bills+josh"
     }
   ],
+  "2026-10-14": [
+    {
+      "title": "One More U.S. Interest-Rate Increase May Be Appropriate, Fed’s Williams Says",
+      "url": "https://www.wsj.com/economy/central-banking/one-more-u-s-interest-rate-increase-may-be-appropriate-feds-williams-says-a5a7a1df",
+      "storyKey": "fed+rate+williams"
+    },
+    {
+      "title": "Bank of America to Pay $1.2 Billion to Settle Violations of Money Laundering, Sanctions Laws",
+      "url": "https://www.wsj.com/finance/regulation/bank-of-america-to-pay-1-21-billion-to-settle-violations-of-money-laundering-sanctions-laws-203b5fdf",
+      "storyKey": "bofa+settlement"
+    },
+    {
+      "title": "Opinion | U.S. Manufacturers Need Permitting Reform",
+      "url": "https://www.wsj.com/opinion/u-s-manufacturers-need-permitting-reform-1e0cd65b",
+      "storyKey": "manufacturing+permitting"
+    },
+    {
+      "title": "Character.ai Maker Files for Chapter 11 Bankruptcy",
+      "url": "https://www.wsj.com/tech/ai/character-ai-maker-files-for-chapter-11-bankruptcy-740e6fb1",
+      "storyKey": "bankruptcy+characterai"
+    },
+    {
+      "title": "What’s Wrong With Shohei Ohtani?",
+      "url": "https://www.wsj.com/sports/baseball/whats-wrong-with-shohei-ohtani-b624f582",
+      "storyKey": "ohtani+performance"
+    }
+  ],
   "_research": {
-    "2026-09-22": [
-      "https://podcasts.apple.com/us/podcast/ryan-serhant-on-the-art-of-selling-luxury-real-estate/id1373320104?i=1000790974203&uo=4",
-      "https://podcasts.apple.com/us/podcast/market-resilience-isnt-complacency/id1466686717?i=1000790995295&uo=4",
-      "https://podcasts.apple.com/us/podcast/why-tokenization-is-gaining-momentum/id1456184829?i=1000791055979&uo=4"
-    ],
     "2026-09-23": [
       "https://podcasts.apple.com/us/podcast/why-central-banks-are-raising-rates-again/id1466686717?i=1000791174250&uo=4"
     ],
@@ -658,6 +653,9 @@
       "https://podcasts.apple.com/us/podcast/where-chinese-exports-are-gaining-the-most-market-share/id948913991?i=1000796146475&uo=4",
       "https://podcasts.apple.com/us/podcast/the-politics-of-powering-ai/id1466686717?i=1000796012437&uo=4",
       "https://podcasts.apple.com/us/podcast/blackstone-on-hedge-funds-why-multi-strats-are-back/id1456184829?i=1000796140887&uo=4"
+    ],
+    "2026-10-14": [
+      "https://podcasts.apple.com/us/podcast/asia-fixed-income-needs-a-bigger-map/id1466686717?i=1000796198109&uo=4"
     ]
   }
 }

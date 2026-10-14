@@ -1,83 +1,63 @@
 {
-  "date": "2026-10-13",
-  "generatedAt": "2026-10-13T16:56:23.807341+00:00",
+  "date": "2026-10-14",
+  "generatedAt": "2026-10-14T10:10:35.761079+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "IMF Warns of Global Economic Setbacks as Shocks Test Resilience",
-      "url": "https://www.wsj.com/economy/global/imf-warns-of-global-economic-setbacks-as-shocks-test-resilience-57066f51",
-      "summary": "IMF warns of global economic setbacks as shocks test resilience worldwide.",
-      "storyKey": "global+imf+risks",
+      "title": "One More U.S. Interest-Rate Increase May Be Appropriate, Fed’s Williams Says",
+      "url": "https://www.wsj.com/economy/central-banking/one-more-u-s-interest-rate-increase-may-be-appropriate-feds-williams-says-a5a7a1df",
+      "summary": "Fed's Williams signals one more U.S. rate hike may be needed, moving bond and equity markets.",
+      "storyKey": "fed+rate+williams",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Kimberly-Clark, Kenvue Win Conditional EU Approval for $40 Billion Tie-Up",
-      "url": "https://www.wsj.com/business/deals/kimberly-clark-kenvue-win-conditional-eu-approval-for-40-billion-tie-up-1964639a",
-      "summary": "Kimberly-Clark and Kenvue win conditional EU approval for $40 billion merger.",
-      "storyKey": "kenvue+kimberlyclark",
+      "title": "Bank of America to Pay $1.2 Billion to Settle Violations of Money Laundering, Sanctions Laws",
+      "url": "https://www.wsj.com/finance/regulation/bank-of-america-to-pay-1-21-billion-to-settle-violations-of-money-laundering-sanctions-laws-203b5fdf",
+      "summary": "Bank of America to pay $1.2 billion settling money-laundering and sanctions law violations.",
+      "storyKey": "bofa+settlement",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Milton Friedman’s Courageous Candor",
-      "url": "https://www.wsj.com/opinion/milton-friedmans-courageous-candor-ac2a9fe3",
-      "summary": "Opinion piece praises Milton Friedman's courageous candor on economic policy.",
-      "storyKey": "friedman+legacy+milton",
+      "title": "Opinion | U.S. Manufacturers Need Permitting Reform",
+      "url": "https://www.wsj.com/opinion/u-s-manufacturers-need-permitting-reform-1e0cd65b",
+      "summary": "Opinion argues U.S. manufacturers need permitting reform to boost industrial growth and investment.",
+      "storyKey": "manufacturing+permitting",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "AI Chips’ New Secret Sauce Is Packaging",
-      "url": "https://www.wsj.com/tech/ai/ai-chips-new-secret-sauce-is-packaging-a144a348",
-      "summary": "AI chips' new competitive edge comes from advanced semiconductor packaging techniques.",
-      "storyKey": "ai+chip+packaging",
+      "title": "Character.ai Maker Files for Chapter 11 Bankruptcy",
+      "url": "https://www.wsj.com/tech/ai/character-ai-maker-files-for-chapter-11-bankruptcy-740e6fb1",
+      "summary": "Character.ai's parent company files for Chapter 11 bankruptcy, a major AI industry development.",
+      "storyKey": "bankruptcy+characterai",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "How Josh Allen and the Buffalo Bills Survived the NFL’s Game of the Year",
-      "url": "https://www.wsj.com/sports/football/bills-rams-josh-allen-matthew-stafford-080b74c7",
-      "summary": "Josh Allen and the Buffalo Bills survive the NFL's game of the year.",
-      "storyKey": "allen+bills+josh",
+      "title": "What’s Wrong With Shohei Ohtani?",
+      "url": "https://www.wsj.com/sports/baseball/whats-wrong-with-shohei-ohtani-b624f582",
+      "summary": "Column examines what's going wrong with baseball star Shohei Ohtani's recent performance.",
+      "storyKey": "ohtani+performance",
       "source": "WSJ"
     }
   ],
   "research": [
     {
-      "firm": "Goldman Sachs",
-      "show": "Exchanges",
-      "title": "Where Chinese Exports Are Gaining the Most Market Share",
-      "url": "https://podcasts.apple.com/us/podcast/where-chinese-exports-are-gaining-the-most-market-share/id948913991?i=1000796146475&uo=4",
-      "published": "2026-10-13T14:00:00+00:00",
-      "kind": "podcast",
-      "duration": "18 min",
-      "summary": "Chinese exports are surging worldwide—and particularly in emerging markets, says Trina Chen, co-head of Greater China Equity Research. In the Goldman Sachs Exchanges podcast, Chen also explains which sectors face the biggest challenge from growing Chinese competition."
-    },
-    {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
-      "title": "The Politics of Powering AI",
-      "url": "https://podcasts.apple.com/us/podcast/the-politics-of-powering-ai/id1466686717?i=1000796012437&uo=4",
-      "published": "2026-10-12T21:00:00+00:00",
+      "title": "Asia Fixed Income Needs a Bigger Map",
+      "url": "https://podcasts.apple.com/us/podcast/asia-fixed-income-needs-a-bigger-map/id1466686717?i=1000796198109&uo=4",
+      "published": "2026-10-13T20:00:00+00:00",
       "kind": "podcast",
       "duration": "5 min",
-      "summary": "Energy costs are a key election issue and AI data centers are adding to the debate. Our Head of Public Policy Research Ariana Salvatore looks at policy discussions in Washington that could determine how the U.S. powers its next technological boom. Read more insights from Morgan Stanley."
-    },
-    {
-      "firm": "J.P. Morgan",
-      "show": "Making Sense",
-      "title": "Blackstone on hedge funds: Why multi-strats are back",
-      "url": "https://podcasts.apple.com/us/podcast/blackstone-on-hedge-funds-why-multi-strats-are-back/id1456184829?i=1000796140887&uo=4",
-      "published": "2026-10-13T13:25:32+00:00",
-      "kind": "podcast",
-      "duration": "22 min",
-      "summary": "Multi-strategy hedge funds are drawing fresh attention as investors reassess traditional 60/40 portfolios amid higher stock–bond correlations. In this second conversation with Blackstone, Kumar Panja, EMEA head of Capital Advisory Group at J.P. Morgan, sits down with Joe Dowling, global head of Blackstone Multi‑Asset Investing business (BXMA), and Riad Abrahams head of Strategy, Risk and Quant Analytics in BXMA, to unpack what’s driving multi‑strat growth—and how allocators are using these strategies as a potential fixed income substitute."
+      "summary": "Our Head of Asia Credit Strategy Kelvin Pang explains why investors would benefit from a broader fixed income market in Asia, with opportunities across more countries, local-currency credit and dollar-denominated bonds. Read more insights from Morgan Stanley."
     }
   ]
 }
