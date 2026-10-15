@@ -1,50 +1,50 @@
 {
-  "date": "2026-10-14",
-  "generatedAt": "2026-10-14T14:30:07.186132+00:00",
+  "date": "2026-10-15",
+  "generatedAt": "2026-10-15T09:53:20.111516+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "One More U.S. Interest-Rate Increase May Be Appropriate, Fed’s Williams Says",
-      "url": "https://www.wsj.com/economy/central-banking/one-more-u-s-interest-rate-increase-may-be-appropriate-feds-williams-says-a5a7a1df",
-      "summary": "Fed's Williams signals one more U.S. interest-rate increase may be appropriate, market-moving monetary policy.",
-      "storyKey": "fed+rate+williams",
+      "title": "Broad Pickup in Prices Lifted Inflation to 3.7% in September",
+      "url": "https://www.wsj.com/economy/cpi-inflation-report-september-2026-b2037469",
+      "summary": "September CPI rose 3.7% as broad price pickup intensifies inflation pressure across sectors.",
+      "storyKey": "cpi+data+inflation",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Galderma to Buy ZO Skin Health for $1.5 Billion",
-      "url": "https://www.wsj.com/business/deals/galderma-to-buy-zo-skin-health-for-1-5-billion-354ba9ff",
-      "summary": "Galderma to acquire ZO Skin Health for $1.5 billion, a named skincare M&A deal.",
-      "storyKey": "galderma+zo",
+      "title": "Ambani’s Jio Seeks $108 Billion Valuation in Landmark India IPO",
+      "url": "https://www.wsj.com/business/telecom/ambanis-jio-seeks-108-billion-valuation-in-landmark-india-ipo-29e18192",
+      "summary": "Ambani’s Jio seeks $108 billion valuation in landmark India IPO, a major capital markets event.",
+      "storyKey": "india+ipo+jio",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | U.S. Manufacturers Need Permitting Reform",
-      "url": "https://www.wsj.com/opinion/u-s-manufacturers-need-permitting-reform-1e0cd65b",
-      "summary": "Opinion argues U.S. manufacturers need permitting reform to boost industrial competitiveness and growth.",
-      "storyKey": "manufacturing+permitting",
+      "title": "Opinion | America Needs More Capital",
+      "url": "https://www.wsj.com/opinion/america-needs-more-capital-43428ee0",
+      "summary": "Opinion argues America needs more capital investment to drive sustained economic growth.",
+      "storyKey": "capital+investment+policy",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "GlobalFoundries to Build Two Chip Fabs With Up to $21 Billion Funding",
-      "url": "https://www.wsj.com/tech/globalfoundries-to-build-two-chip-fabs-with-up-to-21-billion-funding-e74083ac",
-      "summary": "GlobalFoundries to build two chip fabs with up to $21 billion in funding.",
-      "storyKey": "chipfabs+globalfoundries",
+      "title": "TSMC Weighs Texas Expansion, Holds Talks on Musk’s Terafab",
+      "url": "https://www.wsj.com/tech/ai-demand-extends-tsmcs-record-earnings-streak-95bbef62",
+      "summary": "TSMC weighs Texas expansion, holds talks on Musk’s Terafab chip manufacturing project.",
+      "storyKey": "terafab+texas+tsmc",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "What’s Wrong With Shohei Ohtani?",
-      "url": "https://www.wsj.com/sports/baseball/whats-wrong-with-shohei-ohtani-b624f582",
-      "summary": "Column examines what's wrong with Shohei Ohtani's recent performance slump.",
-      "storyKey": "dodgers+ohtani",
+      "title": "The Mets Are the Biggest Waste of Money in Baseball History",
+      "url": "https://www.wsj.com/sports/baseball/new-york-mets-payroll-2026-10fff585",
+      "summary": "Column argues the Mets represent baseball’s biggest financial waste despite massive spending.",
+      "storyKey": "mets+mlb+spending",
       "source": "WSJ"
     }
   ],
@@ -52,12 +52,12 @@
     {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
-      "title": "Asia Fixed Income Needs a Bigger Map",
-      "url": "https://podcasts.apple.com/us/podcast/asia-fixed-income-needs-a-bigger-map/id1466686717?i=1000796198109&uo=4",
-      "published": "2026-10-13T20:00:00+00:00",
+      "title": "What to Expect From the UK Budget",
+      "url": "https://podcasts.apple.com/us/podcast/what-to-expect-from-the-uk-budget/id1466686717?i=1000796378991&uo=4",
+      "published": "2026-10-14T20:30:00+00:00",
       "kind": "podcast",
-      "duration": "5 min",
-      "summary": "Our Head of Asia Credit Strategy Kelvin Pang explains why investors would benefit from a broader fixed income market in Asia, with opportunities across more countries, local-currency credit and dollar-denominated bonds. Read more insights from Morgan Stanley."
+      "duration": "8 min",
+      "summary": "The UK budget arrives later this month amid competing predictions about growth, inflation and public finances. Andrew Sheets and Bruna Skarica examine how the country’s economy defies expectations. Read more insights from Morgan Stanley."
     }
   ]
 }

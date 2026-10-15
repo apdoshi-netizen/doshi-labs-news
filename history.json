@@ -1,31 +1,4 @@
 {
-  "2026-09-23": [
-    {
-      "title": "Solid Economic Data Show U.S. Economy Running Hot Ahead of Fed Decision",
-      "url": "https://www.wsj.com/economy/central-banking/solid-economic-data-show-u-s-economy-running-hot-ahead-of-fed-decision-6b10c235",
-      "storyKey": "data+economic+fed"
-    },
-    {
-      "title": "African Fintech Airtel Money Targets $9 Billion Valuation With London Listing",
-      "url": "https://www.wsj.com/business/deals/airtel-money-plans-london-listing-e50f163d",
-      "storyKey": "airtel+ipo+money"
-    },
-    {
-      "title": "Opinion | Antitrust Lays an Egg",
-      "url": "https://www.wsj.com/opinion/antitrust-lays-an-egg-e875fc82",
-      "storyKey": "antitrust+enforcement"
-    },
-    {
-      "title": "Meta’s New AI Agent Is an Instant Hit—and the Backlash Has Already Begun",
-      "url": "https://www.wsj.com/tech/ai/meta-ai-agent-muse-reactions-5bf236af",
-      "storyKey": "agent+ai+meta"
-    },
-    {
-      "title": "An Epidemic of Quarterback Injuries Is Already Rewriting the NFL Season",
-      "url": "https://www.wsj.com/sports/football/jaxson-dart-caleb-williams-quarterback-injuries-f070f9ff",
-      "storyKey": "injuries+nfl+qb"
-    }
-  ],
   "2026-09-24": [
     {
       "title": "U.S. Treasury, German Bund Yields Hit Multiyear Highs; Dollar Strengthens",
@@ -593,10 +566,34 @@
       "storyKey": "dodgers+ohtani"
     }
   ],
+  "2026-10-15": [
+    {
+      "title": "Broad Pickup in Prices Lifted Inflation to 3.7% in September",
+      "url": "https://www.wsj.com/economy/cpi-inflation-report-september-2026-b2037469",
+      "storyKey": "cpi+data+inflation"
+    },
+    {
+      "title": "Ambani’s Jio Seeks $108 Billion Valuation in Landmark India IPO",
+      "url": "https://www.wsj.com/business/telecom/ambanis-jio-seeks-108-billion-valuation-in-landmark-india-ipo-29e18192",
+      "storyKey": "india+ipo+jio"
+    },
+    {
+      "title": "Opinion | America Needs More Capital",
+      "url": "https://www.wsj.com/opinion/america-needs-more-capital-43428ee0",
+      "storyKey": "capital+investment+policy"
+    },
+    {
+      "title": "TSMC Weighs Texas Expansion, Holds Talks on Musk’s Terafab",
+      "url": "https://www.wsj.com/tech/ai-demand-extends-tsmcs-record-earnings-streak-95bbef62",
+      "storyKey": "terafab+texas+tsmc"
+    },
+    {
+      "title": "The Mets Are the Biggest Waste of Money in Baseball History",
+      "url": "https://www.wsj.com/sports/baseball/new-york-mets-payroll-2026-10fff585",
+      "storyKey": "mets+mlb+spending"
+    }
+  ],
   "_research": {
-    "2026-09-23": [
-      "https://podcasts.apple.com/us/podcast/why-central-banks-are-raising-rates-again/id1466686717?i=1000791174250&uo=4"
-    ],
     "2026-09-24": [
       "https://podcasts.apple.com/us/podcast/why-markets-may-be-pricing-in-too-many-fed-rate-hikes/id948913991?i=1000791362225&uo=4",
       "https://podcasts.apple.com/us/podcast/the-unexpected-investment-case-for-ai-safety/id1466686717?i=1000791342549&uo=4"
@@ -656,6 +653,9 @@
     ],
     "2026-10-14": [
       "https://podcasts.apple.com/us/podcast/asia-fixed-income-needs-a-bigger-map/id1466686717?i=1000796198109&uo=4"
+    ],
+    "2026-10-15": [
+      "https://podcasts.apple.com/us/podcast/what-to-expect-from-the-uk-budget/id1466686717?i=1000796378991&uo=4"
     ]
   }
 }
