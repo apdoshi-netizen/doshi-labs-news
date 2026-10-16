@@ -1,21 +1,21 @@
 {
   "date": "2026-10-16",
-  "generatedAt": "2026-10-16T09:47:11.796089+00:00",
+  "generatedAt": "2026-10-16T13:57:21.266702+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Wholesale Inflation Hit Four-Year High in September",
-      "url": "https://www.wsj.com/economy/central-banking/wholesale-inflation-hit-4-year-high-in-september-e1754eee",
-      "summary": "U.S. wholesale inflation hit a four-year high in September, signaling persistent price pressures.",
-      "storyKey": "cpi+inflation+wholesale",
+      "title": "Dollar Could Resume Rising on Prospect of Future Fed Tightening",
+      "url": "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-before-fed-chairmans-fireside-chat-f4462ae4",
+      "summary": "Dollar may resume rising as markets price prospect of renewed future Fed tightening, a cross-asset macro signal.",
+      "storyKey": "dollar+fed+tightening",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Ericsson Shares Surge on Strong Sales of Network Gear",
-      "url": "https://www.wsj.com/business/earnings/ericsson-to-streamline-structure-as-component-costs-pressure-profitability-f4be0cb0",
+      "title": "Travelers Profit Ticks Up on Investment Gains",
+      "url": "https://www.wsj.com/business/earnings/travelers-profit-ticks-up-on-investment-gains-b91f6ea7",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -23,19 +23,19 @@
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | The California Wealth Tax French Connection",
-      "url": "https://www.wsj.com/opinion/the-california-wealth-tax-french-connection-86d1fb82",
-      "summary": "Opinion column examines California's wealth tax proposal and its ties to French-style policy.",
-      "storyKey": "california+tax+wealth",
+      "title": "Opinion | Alaska Considers Economic Suicide",
+      "url": "https://www.wsj.com/opinion/alaska-considers-economic-suicide-79073197",
+      "summary": "Opinion argues Alaska's proposed policies amount to economic self-harm, a substantive economic policy critique.",
+      "storyKey": "alaska+economic+policy",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Meta and Apple, Longtime Foes, Team Up to Put Open-Weight AI on Macs",
-      "url": "https://www.wsj.com/tech/ai/meta-and-apple-longtime-foes-team-up-to-put-open-weight-ai-on-macs-a28fde11",
-      "summary": "Longtime rivals Meta and Apple partner to bring open-weight AI models to Macs.",
-      "storyKey": "ai+apple+meta",
+      "title": "TSMC Weighs Texas Expansion, Holds Talks on Musk’s Terafab",
+      "url": "https://www.wsj.com/tech/ai-demand-extends-tsmcs-record-earnings-streak-95bbef62",
+      "summary": "TSMC weighs expanding Texas chip production and holds talks on Musk's Terafab project.",
+      "storyKey": "expansion+texas+tsmc",
       "source": "WSJ"
     },
     {
@@ -43,12 +43,22 @@
       "label": "Sports",
       "title": "Jon Rahm Gives Up Over $100 Million to Leave LIV Golf",
       "url": "https://www.wsj.com/sports/golf/jon-rahm-liv-golf-pga-tour-7a1c915e",
-      "summary": "Jon Rahm forgoes over $100 million to exit LIV Golf, highlighting league's shifting economics.",
+      "summary": "Jon Rahm forfeits over $100 million to leave LIV Golf, a major sports-finance decision.",
       "storyKey": "golf+liv+rahm",
       "source": "WSJ"
     }
   ],
   "research": [
+    {
+      "firm": "Goldman Sachs",
+      "show": "The Markets",
+      "title": "How Rising Rates and AI Issuance Are Affecting Credit Markets",
+      "url": "https://podcasts.apple.com/us/podcast/how-rising-rates-and-ai-issuance-are-affecting-credit/id1683802600?i=1000796641777&uo=4",
+      "published": "2026-10-16T10:08:00+00:00",
+      "kind": "podcast",
+      "duration": "11 min",
+      "summary": "Credit markets have stayed resilient even as interest rates rise and investors scrutinize the outlook for artificial intelligence (AI), says Alex Finston, co-head of US and Asia Credit Trading in Goldman Sachs FICC and Equities. On The Markets podcast, Finston points out that historically, as long as the increase in rates is steady, investors have often seen rising bond yields as an opportunity. He also shares his take on higher-quality AI credit, whether investors should be hedging their portfolios, and municipal bonds."
+    },
     {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",

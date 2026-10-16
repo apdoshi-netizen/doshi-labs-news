@@ -568,24 +568,24 @@
   ],
   "2026-10-16": [
     {
-      "title": "Wholesale Inflation Hit Four-Year High in September",
-      "url": "https://www.wsj.com/economy/central-banking/wholesale-inflation-hit-4-year-high-in-september-e1754eee",
-      "storyKey": "cpi+inflation+wholesale"
+      "title": "Dollar Could Resume Rising on Prospect of Future Fed Tightening",
+      "url": "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-before-fed-chairmans-fireside-chat-f4462ae4",
+      "storyKey": "dollar+fed+tightening"
     },
     {
-      "title": "Ericsson Shares Surge on Strong Sales of Network Gear",
-      "url": "https://www.wsj.com/business/earnings/ericsson-to-streamline-structure-as-component-costs-pressure-profitability-f4be0cb0",
+      "title": "Travelers Profit Ticks Up on Investment Gains",
+      "url": "https://www.wsj.com/business/earnings/travelers-profit-ticks-up-on-investment-gains-b91f6ea7",
       "storyKey": null
     },
     {
-      "title": "Opinion | The California Wealth Tax French Connection",
-      "url": "https://www.wsj.com/opinion/the-california-wealth-tax-french-connection-86d1fb82",
-      "storyKey": "california+tax+wealth"
+      "title": "Opinion | Alaska Considers Economic Suicide",
+      "url": "https://www.wsj.com/opinion/alaska-considers-economic-suicide-79073197",
+      "storyKey": "alaska+economic+policy"
     },
     {
-      "title": "Meta and Apple, Longtime Foes, Team Up to Put Open-Weight AI on Macs",
-      "url": "https://www.wsj.com/tech/ai/meta-and-apple-longtime-foes-team-up-to-put-open-weight-ai-on-macs-a28fde11",
-      "storyKey": "ai+apple+meta"
+      "title": "TSMC Weighs Texas Expansion, Holds Talks on Musk’s Terafab",
+      "url": "https://www.wsj.com/tech/ai-demand-extends-tsmcs-record-earnings-streak-95bbef62",
+      "storyKey": "expansion+texas+tsmc"
     },
     {
       "title": "Jon Rahm Gives Up Over $100 Million to Leave LIV Golf",
@@ -654,6 +654,7 @@
       "https://podcasts.apple.com/us/podcast/what-to-expect-from-the-uk-budget/id1466686717?i=1000796378991&uo=4"
     ],
     "2026-10-16": [
+      "https://podcasts.apple.com/us/podcast/how-rising-rates-and-ai-issuance-are-affecting-credit/id1683802600?i=1000796641777&uo=4",
       "https://podcasts.apple.com/us/podcast/the-missing-piece-in-latin-americas-bull-case/id1466686717?i=1000796551703&uo=4"
     ]
   }
