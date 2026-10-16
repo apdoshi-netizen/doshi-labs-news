@@ -1,31 +1,4 @@
 {
-  "2026-09-24": [
-    {
-      "title": "U.S. Treasury, German Bund Yields Hit Multiyear Highs; Dollar Strengthens",
-      "url": "https://www.wsj.com/finance/u-s-treasury-yields-hover-close-to-multiyear-highs-a9126b6e",
-      "storyKey": "dollar+treasury+yields"
-    },
-    {
-      "title": "Delivery Hero Cancels CEO Exit Plans Due to Uber’s $14.8 Billion Takeover Bid",
-      "url": "https://www.wsj.com/business/delivery-hero-cancels-ceo-exit-plans-due-to-ubers-14-8-billion-takeover-bid-de155bf8",
-      "storyKey": "delivery+hero+uber"
-    },
-    {
-      "title": "Opinion | The GOP’s Farm Belt Economics Problem",
-      "url": "https://www.wsj.com/opinion/the-gops-farm-belt-economics-problem-c331d5f7",
-      "storyKey": "economics+farm+gop"
-    },
-    {
-      "title": "OpenAI Agents Tried to Hack Four More Websites While Seeking Data",
-      "url": "https://www.wsj.com/tech/ai/openai-agents-tried-to-hack-four-more-websites-while-seeking-data-4c0689f4",
-      "storyKey": "agents+hack+openai"
-    },
-    {
-      "title": "‘Inside the Owner’s Box’ Review: On Buying a Baseball Team",
-      "url": "https://www.wsj.com/sports/baseball/inside-the-owners-box-review-on-buying-a-baseball-team-652950af",
-      "storyKey": "baseball+owner+team"
-    }
-  ],
   "2026-09-25": [
     {
       "title": "Gold Futures on Track for 2% Weekly Less on Stronger Dollar, Hawkish Fed Expectations",
@@ -593,11 +566,34 @@
       "storyKey": null
     }
   ],
+  "2026-10-16": [
+    {
+      "title": "Wholesale Inflation Hit Four-Year High in September",
+      "url": "https://www.wsj.com/economy/central-banking/wholesale-inflation-hit-4-year-high-in-september-e1754eee",
+      "storyKey": "cpi+inflation+wholesale"
+    },
+    {
+      "title": "Ericsson Shares Surge on Strong Sales of Network Gear",
+      "url": "https://www.wsj.com/business/earnings/ericsson-to-streamline-structure-as-component-costs-pressure-profitability-f4be0cb0",
+      "storyKey": null
+    },
+    {
+      "title": "Opinion | The California Wealth Tax French Connection",
+      "url": "https://www.wsj.com/opinion/the-california-wealth-tax-french-connection-86d1fb82",
+      "storyKey": "california+tax+wealth"
+    },
+    {
+      "title": "Meta and Apple, Longtime Foes, Team Up to Put Open-Weight AI on Macs",
+      "url": "https://www.wsj.com/tech/ai/meta-and-apple-longtime-foes-team-up-to-put-open-weight-ai-on-macs-a28fde11",
+      "storyKey": "ai+apple+meta"
+    },
+    {
+      "title": "Jon Rahm Gives Up Over $100 Million to Leave LIV Golf",
+      "url": "https://www.wsj.com/sports/golf/jon-rahm-liv-golf-pga-tour-7a1c915e",
+      "storyKey": "golf+liv+rahm"
+    }
+  ],
   "_research": {
-    "2026-09-24": [
-      "https://podcasts.apple.com/us/podcast/why-markets-may-be-pricing-in-too-many-fed-rate-hikes/id948913991?i=1000791362225&uo=4",
-      "https://podcasts.apple.com/us/podcast/the-unexpected-investment-case-for-ai-safety/id1466686717?i=1000791342549&uo=4"
-    ],
     "2026-09-25": [
       "https://podcasts.apple.com/us/podcast/why-the-bond-market-may-be-the-stock-markets-biggest-risk/id1683802600?i=1000791562911&uo=4",
       "https://podcasts.apple.com/us/podcast/the-global-diesel-problem/id1466686717?i=1000791529894&uo=4"
@@ -656,6 +652,9 @@
     ],
     "2026-10-15": [
       "https://podcasts.apple.com/us/podcast/what-to-expect-from-the-uk-budget/id1466686717?i=1000796378991&uo=4"
+    ],
+    "2026-10-16": [
+      "https://podcasts.apple.com/us/podcast/the-missing-piece-in-latin-americas-bull-case/id1466686717?i=1000796551703&uo=4"
     ]
   }
 }
