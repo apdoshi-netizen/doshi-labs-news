@@ -568,29 +568,29 @@
   ],
   "2026-10-17": [
     {
-      "title": "Oil Prices, Fed on Bank Indonesia’s Radar Ahead of Next Meeting",
-      "url": "https://www.wsj.com/world/asia/oil-prices-fed-on-bank-indonesias-radar-ahead-of-next-meeting-d196c146",
-      "storyKey": null
+      "title": "China’s Factory-Gate Prices Rise at Fastest Pace Since June 2022",
+      "url": "https://www.wsj.com/economy/chinas-consumer-producer-prices-accelerated-in-september-bc8be9ea",
+      "storyKey": "china+deflation+ppi"
     },
     {
-      "title": "Exclusive | Air-Traffic Controllers’ Practice of Leaving Work Early Targeted in Pay Deal",
-      "url": "https://www.wsj.com/us-news/air-traffic-controllers-reach-deal-with-faa-for-2-8-pay-increase-5eb91365",
-      "storyKey": null
+      "title": "France and Germany Reach Deal to Protect Europe’s Car Industry",
+      "url": "https://www.wsj.com/business/autos/france-and-germany-reach-deal-to-protect-europes-car-industry-f829c51d",
+      "storyKey": "auto+france+germany"
     },
     {
       "title": "Opinion | Washington State’s ‘Millionaire’ Tax Trick",
       "url": "https://www.wsj.com/opinion/washington-millionaire-tax-democrats-cindy-ryu-jesse-salomon-5d63cf32",
-      "storyKey": null
+      "storyKey": "millionaire+tax+washington"
     },
     {
       "title": "Michael Dell, a Dot-Com Era Survivor, Has Tips to Beat an AI Bust",
       "url": "https://www.wsj.com/tech/ai/michael-dell-a-dot-com-era-survivor-has-tips-to-beat-an-ai-bust-7987db49",
-      "storyKey": null
+      "storyKey": "ai+bust+dell"
     },
     {
-      "title": "The Shocking Trade That Launched an Angel Reese Comeback",
-      "url": "https://www.wsj.com/sports/basketball/angel-reese-wnba-finals-dream-5fc99cd8",
-      "storyKey": null
+      "title": "FIFA’s Infantino Makes His Latest Pitch for Support",
+      "url": "https://www.wsj.com/sports/soccer/fifas-infantino-makes-his-latest-pitch-for-support-e8a76e00",
+      "storyKey": "fifa+infantino+support"
     }
   ],
   "_research": {
@@ -654,7 +654,6 @@
       "https://podcasts.apple.com/us/podcast/the-missing-piece-in-latin-americas-bull-case/id1466686717?i=1000796551703&uo=4"
     ],
     "2026-10-17": [
-      "https://podcasts.apple.com/us/podcast/how-higher-rates-and-ai-issuance-are-affecting-credit/id1683802600?i=1000796641777&uo=4",
       "https://podcasts.apple.com/us/podcast/ai-boom-faces-a-higher-yield-roadblock/id1466686717?i=1000796727263&uo=4"
     ]
   }

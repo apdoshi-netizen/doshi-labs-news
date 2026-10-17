@@ -1,23 +1,23 @@
 {
   "date": "2026-10-17",
-  "generatedAt": "2026-10-17T09:19:31.110058+00:00",
+  "generatedAt": "2026-10-17T12:58:09.927738+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Oil Prices, Fed on Bank Indonesia’s Radar Ahead of Next Meeting",
-      "url": "https://www.wsj.com/world/asia/oil-prices-fed-on-bank-indonesias-radar-ahead-of-next-meeting-d196c146",
-      "summary": "",
-      "storyKey": null,
+      "title": "China’s Factory-Gate Prices Rise at Fastest Pace Since June 2022",
+      "url": "https://www.wsj.com/economy/chinas-consumer-producer-prices-accelerated-in-september-bc8be9ea",
+      "summary": "China's factory-gate prices rose at fastest pace since June 2022, signaling easing deflationary pressure.",
+      "storyKey": "china+deflation+ppi",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Exclusive | Air-Traffic Controllers’ Practice of Leaving Work Early Targeted in Pay Deal",
-      "url": "https://www.wsj.com/us-news/air-traffic-controllers-reach-deal-with-faa-for-2-8-pay-increase-5eb91365",
-      "summary": "",
-      "storyKey": null,
+      "title": "France and Germany Reach Deal to Protect Europe’s Car Industry",
+      "url": "https://www.wsj.com/business/autos/france-and-germany-reach-deal-to-protect-europes-car-industry-f829c51d",
+      "summary": "France and Germany reach deal to protect Europe's car industry amid trade pressures.",
+      "storyKey": "auto+france+germany",
       "source": "WSJ"
     },
     {
@@ -25,8 +25,8 @@
       "label": "Op-Ed",
       "title": "Opinion | Washington State’s ‘Millionaire’ Tax Trick",
       "url": "https://www.wsj.com/opinion/washington-millionaire-tax-democrats-cindy-ryu-jesse-salomon-5d63cf32",
-      "summary": "",
-      "storyKey": null,
+      "summary": "Opinion piece critiques Washington State's \"millionaire\" tax trick and its economic implications.",
+      "storyKey": "millionaire+tax+washington",
       "source": "WSJ"
     },
     {
@@ -34,31 +34,21 @@
       "label": "Tech",
       "title": "Michael Dell, a Dot-Com Era Survivor, Has Tips to Beat an AI Bust",
       "url": "https://www.wsj.com/tech/ai/michael-dell-a-dot-com-era-survivor-has-tips-to-beat-an-ai-bust-7987db49",
-      "summary": "",
-      "storyKey": null,
+      "summary": "Michael Dell shares dot-com-era lessons on surviving a potential AI investment bust.",
+      "storyKey": "ai+bust+dell",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The Shocking Trade That Launched an Angel Reese Comeback",
-      "url": "https://www.wsj.com/sports/basketball/angel-reese-wnba-finals-dream-5fc99cd8",
-      "summary": "",
-      "storyKey": null,
+      "title": "FIFA’s Infantino Makes His Latest Pitch for Support",
+      "url": "https://www.wsj.com/sports/soccer/fifas-infantino-makes-his-latest-pitch-for-support-e8a76e00",
+      "summary": "FIFA's Infantino makes his latest pitch for support amid ongoing governance and funding debates.",
+      "storyKey": "fifa+infantino+support",
       "source": "WSJ"
     }
   ],
   "research": [
-    {
-      "firm": "Goldman Sachs",
-      "show": "The Markets",
-      "title": "How Higher Rates and AI Issuance Are Affecting Credit Markets",
-      "url": "https://podcasts.apple.com/us/podcast/how-higher-rates-and-ai-issuance-are-affecting-credit/id1683802600?i=1000796641777&uo=4",
-      "published": "2026-10-16T10:08:00+00:00",
-      "kind": "podcast",
-      "duration": "11 min",
-      "summary": "Credit markets have stayed resilient even as interest rates rise and investors scrutinize the outlook for artificial intelligence (AI), says Alex Finston, co-head of US and Asia Credit Trading in Goldman Sachs FICC and Equities. On The Markets podcast, Finston points out that historically, as long as the increase in rates is steady, investors have often seen rising bond yields as an opportunity. He also shares his take on higher-quality AI credit, whether investors should be hedging their portfolios, and municipal bonds."
-    },
     {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
