@@ -1,21 +1,21 @@
 {
-  "date": "2026-10-16",
-  "generatedAt": "2026-10-16T13:57:21.266702+00:00",
+  "date": "2026-10-17",
+  "generatedAt": "2026-10-17T09:19:31.110058+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Dollar Could Resume Rising on Prospect of Future Fed Tightening",
-      "url": "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-before-fed-chairmans-fireside-chat-f4462ae4",
-      "summary": "Dollar may resume rising as markets price prospect of renewed future Fed tightening, a cross-asset macro signal.",
-      "storyKey": "dollar+fed+tightening",
+      "title": "Oil Prices, Fed on Bank Indonesia’s Radar Ahead of Next Meeting",
+      "url": "https://www.wsj.com/world/asia/oil-prices-fed-on-bank-indonesias-radar-ahead-of-next-meeting-d196c146",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Travelers Profit Ticks Up on Investment Gains",
-      "url": "https://www.wsj.com/business/earnings/travelers-profit-ticks-up-on-investment-gains-b91f6ea7",
+      "title": "Exclusive | Air-Traffic Controllers’ Practice of Leaving Work Early Targeted in Pay Deal",
+      "url": "https://www.wsj.com/us-news/air-traffic-controllers-reach-deal-with-faa-for-2-8-pay-increase-5eb91365",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -23,28 +23,28 @@
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Alaska Considers Economic Suicide",
-      "url": "https://www.wsj.com/opinion/alaska-considers-economic-suicide-79073197",
-      "summary": "Opinion argues Alaska's proposed policies amount to economic self-harm, a substantive economic policy critique.",
-      "storyKey": "alaska+economic+policy",
+      "title": "Opinion | Washington State’s ‘Millionaire’ Tax Trick",
+      "url": "https://www.wsj.com/opinion/washington-millionaire-tax-democrats-cindy-ryu-jesse-salomon-5d63cf32",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "TSMC Weighs Texas Expansion, Holds Talks on Musk’s Terafab",
-      "url": "https://www.wsj.com/tech/ai-demand-extends-tsmcs-record-earnings-streak-95bbef62",
-      "summary": "TSMC weighs expanding Texas chip production and holds talks on Musk's Terafab project.",
-      "storyKey": "expansion+texas+tsmc",
+      "title": "Michael Dell, a Dot-Com Era Survivor, Has Tips to Beat an AI Bust",
+      "url": "https://www.wsj.com/tech/ai/michael-dell-a-dot-com-era-survivor-has-tips-to-beat-an-ai-bust-7987db49",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "Jon Rahm Gives Up Over $100 Million to Leave LIV Golf",
-      "url": "https://www.wsj.com/sports/golf/jon-rahm-liv-golf-pga-tour-7a1c915e",
-      "summary": "Jon Rahm forfeits over $100 million to leave LIV Golf, a major sports-finance decision.",
-      "storyKey": "golf+liv+rahm",
+      "title": "The Shocking Trade That Launched an Angel Reese Comeback",
+      "url": "https://www.wsj.com/sports/basketball/angel-reese-wnba-finals-dream-5fc99cd8",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     }
   ],
@@ -52,8 +52,8 @@
     {
       "firm": "Goldman Sachs",
       "show": "The Markets",
-      "title": "How Rising Rates and AI Issuance Are Affecting Credit Markets",
-      "url": "https://podcasts.apple.com/us/podcast/how-rising-rates-and-ai-issuance-are-affecting-credit/id1683802600?i=1000796641777&uo=4",
+      "title": "How Higher Rates and AI Issuance Are Affecting Credit Markets",
+      "url": "https://podcasts.apple.com/us/podcast/how-higher-rates-and-ai-issuance-are-affecting-credit/id1683802600?i=1000796641777&uo=4",
       "published": "2026-10-16T10:08:00+00:00",
       "kind": "podcast",
       "duration": "11 min",
@@ -62,12 +62,12 @@
     {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
-      "title": "The Missing Piece in Latin America’s Bull Case",
-      "url": "https://podcasts.apple.com/us/podcast/the-missing-piece-in-latin-americas-bull-case/id1466686717?i=1000796551703&uo=4",
-      "published": "2026-10-15T21:00:00+00:00",
+      "title": "AI Boom Faces a Higher-Yield Roadblock",
+      "url": "https://podcasts.apple.com/us/podcast/ai-boom-faces-a-higher-yield-roadblock/id1466686717?i=1000796727263&uo=4",
+      "published": "2026-10-16T21:00:00+00:00",
       "kind": "podcast",
       "duration": "4 min",
-      "summary": "Our Chief Latin America Equity Strategist Nikolaj Lippmann explains why Brazil’s election, the cost of capital, AI investment and geopolitics could help unlock a new era of growth across Latin America. Read more insights from Morgan Stanley."
+      "summary": "Our ABS Strategist Carolyn Campbell explains how rising borrowing costs are slowing the AI data center boom and what could drive a rebound in financing. Read more insights from Morgan Stanley."
     }
   ]
 }

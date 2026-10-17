@@ -1,31 +1,4 @@
 {
-  "2026-09-25": [
-    {
-      "title": "Gold Futures on Track for 2% Weekly Less on Stronger Dollar, Hawkish Fed Expectations",
-      "url": "https://www.wsj.com/finance/commodities-futures/gold-falls-amid-expectations-for-fed-rate-increase-368c44e9",
-      "storyKey": null
-    },
-    {
-      "title": "See How Elon Musk’s Sunbelt Investments Are Reshaping His Business Empire",
-      "url": "https://www.wsj.com/business/see-how-elon-musks-sunbelt-investments-are-reshaping-his-business-empire-bf316f38",
-      "storyKey": null
-    },
-    {
-      "title": "Opinion | America’s Best Advantage Over China",
-      "url": "https://www.wsj.com/opinion/free-expression/americas-best-advantage-over-china-d29e668c",
-      "storyKey": null
-    },
-    {
-      "title": "AI Is a Regulator’s Nightmare",
-      "url": "https://www.wsj.com/tech/ai/ai-is-a-regulators-nightmare-39d7fa7a",
-      "storyKey": null
-    },
-    {
-      "title": "How Pumping 14,443 Pounds of Iron Turned the Florida Gators Into Wrecking Balls",
-      "url": "https://www.wsj.com/sports/football/florida-gators-jon-sumrall-jadan-baugh-b299ddbc",
-      "storyKey": null
-    }
-  ],
   "2026-09-26": [
     {
       "title": "Raging Conflict in the Middle East and Rising Yields Weigh on U.S. Stocks",
@@ -593,11 +566,34 @@
       "storyKey": "golf+liv+rahm"
     }
   ],
+  "2026-10-17": [
+    {
+      "title": "Oil Prices, Fed on Bank Indonesia’s Radar Ahead of Next Meeting",
+      "url": "https://www.wsj.com/world/asia/oil-prices-fed-on-bank-indonesias-radar-ahead-of-next-meeting-d196c146",
+      "storyKey": null
+    },
+    {
+      "title": "Exclusive | Air-Traffic Controllers’ Practice of Leaving Work Early Targeted in Pay Deal",
+      "url": "https://www.wsj.com/us-news/air-traffic-controllers-reach-deal-with-faa-for-2-8-pay-increase-5eb91365",
+      "storyKey": null
+    },
+    {
+      "title": "Opinion | Washington State’s ‘Millionaire’ Tax Trick",
+      "url": "https://www.wsj.com/opinion/washington-millionaire-tax-democrats-cindy-ryu-jesse-salomon-5d63cf32",
+      "storyKey": null
+    },
+    {
+      "title": "Michael Dell, a Dot-Com Era Survivor, Has Tips to Beat an AI Bust",
+      "url": "https://www.wsj.com/tech/ai/michael-dell-a-dot-com-era-survivor-has-tips-to-beat-an-ai-bust-7987db49",
+      "storyKey": null
+    },
+    {
+      "title": "The Shocking Trade That Launched an Angel Reese Comeback",
+      "url": "https://www.wsj.com/sports/basketball/angel-reese-wnba-finals-dream-5fc99cd8",
+      "storyKey": null
+    }
+  ],
   "_research": {
-    "2026-09-25": [
-      "https://podcasts.apple.com/us/podcast/why-the-bond-market-may-be-the-stock-markets-biggest-risk/id1683802600?i=1000791562911&uo=4",
-      "https://podcasts.apple.com/us/podcast/the-global-diesel-problem/id1466686717?i=1000791529894&uo=4"
-    ],
     "2026-09-26": [
       "https://podcasts.apple.com/us/podcast/u-s-soccers-jt-batson-on-the-world-cup-and-scaling-the-game/id1373320104?i=1000791660895&uo=4",
       "https://podcasts.apple.com/us/podcast/ai-meets-the-physical-economy/id1466686717?i=1000791677900&uo=4"
@@ -656,6 +652,10 @@
     "2026-10-16": [
       "https://podcasts.apple.com/us/podcast/how-rising-rates-and-ai-issuance-are-affecting-credit/id1683802600?i=1000796641777&uo=4",
       "https://podcasts.apple.com/us/podcast/the-missing-piece-in-latin-americas-bull-case/id1466686717?i=1000796551703&uo=4"
+    ],
+    "2026-10-17": [
+      "https://podcasts.apple.com/us/podcast/how-higher-rates-and-ai-issuance-are-affecting-credit/id1683802600?i=1000796641777&uo=4",
+      "https://podcasts.apple.com/us/podcast/ai-boom-faces-a-higher-yield-roadblock/id1466686717?i=1000796727263&uo=4"
     ]
   }
 }
