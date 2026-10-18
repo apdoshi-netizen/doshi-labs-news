@@ -1,31 +1,4 @@
 {
-  "2026-09-26": [
-    {
-      "title": "Raging Conflict in the Middle East and Rising Yields Weigh on U.S. Stocks",
-      "url": "https://www.wsj.com/finance/investing/raging-conflict-in-the-middle-east-and-rising-yields-weigh-on-u-s-stocks-88265952",
-      "storyKey": "mideast+stocks+yields"
-    },
-    {
-      "title": "Schneider Electric to Launch Bid for Shelly Group in $1.4 Billion Deal",
-      "url": "https://www.wsj.com/business/deals/schneider-electric-to-launch-bid-for-shelly-group-in-1-4-billion-deal-c6cc008e",
-      "storyKey": "schneider+shelly"
-    },
-    {
-      "title": "Opinion | The Tax Bill on Top of Your Tax Bill",
-      "url": "https://www.wsj.com/opinion/the-tax-bill-on-top-of-your-tax-bill-1d0540cf",
-      "storyKey": "bill+policy+tax"
-    },
-    {
-      "title": "OpenAI Agents Hit U.S. Government Websites",
-      "url": "https://www.wsj.com/tech/ai/openai-agents-hacked-u-s-government-websites-d999df5f",
-      "storyKey": "government+openai"
-    },
-    {
-      "title": "Baseball’s 162-Game Marathon Gives Way to a Playoff Sprint",
-      "url": "https://www.wsj.com/sports/baseball/baseballs-162-game-marathon-gives-way-to-a-playoff-sprint-7aa7ef99",
-      "storyKey": "baseball+playoffs"
-    }
-  ],
   "2026-09-27": [
     {
       "title": "Global Economy Stronger Than Expected, But Threats Mount, OECD Says",
@@ -593,11 +566,34 @@
       "storyKey": "fifa+infantino+support"
     }
   ],
+  "2026-10-18": [
+    {
+      "title": "The 26-Year-Old Russian Defector Who Fed Ukraine His Army’s Battle Plans",
+      "url": "https://www.wsj.com/personal-finance/the-26-year-old-russian-defector-who-fed-ukraine-his-armys-battle-plans-7fc0d4a8",
+      "storyKey": null
+    },
+    {
+      "title": "Bank of America Settlement Charge Hits Profit, Morgan Stanley Profit Climbs",
+      "url": "https://www.wsj.com/business/earnings/bank-of-america-settlement-charge-hits-profit-morgan-stanley-profit-climbs-d9cde716",
+      "storyKey": null
+    },
+    {
+      "title": "Opinion | The Palestinians See Through Emmanuel Macron",
+      "url": "https://www.wsj.com/opinion/mahmoud-abbas-postpones-elections-palestine-france-europe-017e20b3",
+      "storyKey": null
+    },
+    {
+      "title": "A Five-Day Tour for Katie Zacharia",
+      "url": "https://www.wsj.com/tech/personal-tech/a-five-day-tour-for-katie-zacharia-75b0107b",
+      "storyKey": null
+    },
+    {
+      "title": "The NFL Team Betting It Can Fix an Enormous Bust—by Reuniting Him With His QB",
+      "url": "https://www.wsj.com/sports/football/marvin-harrison-cj-stroud-houston-texans-ohio-state-dfeacd41",
+      "storyKey": null
+    }
+  ],
   "_research": {
-    "2026-09-26": [
-      "https://podcasts.apple.com/us/podcast/u-s-soccers-jt-batson-on-the-world-cup-and-scaling-the-game/id1373320104?i=1000791660895&uo=4",
-      "https://podcasts.apple.com/us/podcast/ai-meets-the-physical-economy/id1466686717?i=1000791677900&uo=4"
-    ],
     "2026-09-27": [],
     "2026-09-28": [],
     "2026-09-29": [
@@ -655,6 +651,7 @@
     ],
     "2026-10-17": [
       "https://podcasts.apple.com/us/podcast/ai-boom-faces-a-higher-yield-roadblock/id1466686717?i=1000796727263&uo=4"
-    ]
+    ],
+    "2026-10-18": []
   }
 }

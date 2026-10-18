@@ -1,63 +1,52 @@
 {
-  "date": "2026-10-17",
-  "generatedAt": "2026-10-17T12:58:09.927738+00:00",
+  "date": "2026-10-18",
+  "generatedAt": "2026-10-18T09:35:56.842826+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "China’s Factory-Gate Prices Rise at Fastest Pace Since June 2022",
-      "url": "https://www.wsj.com/economy/chinas-consumer-producer-prices-accelerated-in-september-bc8be9ea",
-      "summary": "China's factory-gate prices rose at fastest pace since June 2022, signaling easing deflationary pressure.",
-      "storyKey": "china+deflation+ppi",
+      "title": "The 26-Year-Old Russian Defector Who Fed Ukraine His Army’s Battle Plans",
+      "url": "https://www.wsj.com/personal-finance/the-26-year-old-russian-defector-who-fed-ukraine-his-armys-battle-plans-7fc0d4a8",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "France and Germany Reach Deal to Protect Europe’s Car Industry",
-      "url": "https://www.wsj.com/business/autos/france-and-germany-reach-deal-to-protect-europes-car-industry-f829c51d",
-      "summary": "France and Germany reach deal to protect Europe's car industry amid trade pressures.",
-      "storyKey": "auto+france+germany",
+      "title": "Bank of America Settlement Charge Hits Profit, Morgan Stanley Profit Climbs",
+      "url": "https://www.wsj.com/business/earnings/bank-of-america-settlement-charge-hits-profit-morgan-stanley-profit-climbs-d9cde716",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Washington State’s ‘Millionaire’ Tax Trick",
-      "url": "https://www.wsj.com/opinion/washington-millionaire-tax-democrats-cindy-ryu-jesse-salomon-5d63cf32",
-      "summary": "Opinion piece critiques Washington State's \"millionaire\" tax trick and its economic implications.",
-      "storyKey": "millionaire+tax+washington",
+      "title": "Opinion | The Palestinians See Through Emmanuel Macron",
+      "url": "https://www.wsj.com/opinion/mahmoud-abbas-postpones-elections-palestine-france-europe-017e20b3",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Michael Dell, a Dot-Com Era Survivor, Has Tips to Beat an AI Bust",
-      "url": "https://www.wsj.com/tech/ai/michael-dell-a-dot-com-era-survivor-has-tips-to-beat-an-ai-bust-7987db49",
-      "summary": "Michael Dell shares dot-com-era lessons on surviving a potential AI investment bust.",
-      "storyKey": "ai+bust+dell",
+      "title": "A Five-Day Tour for Katie Zacharia",
+      "url": "https://www.wsj.com/tech/personal-tech/a-five-day-tour-for-katie-zacharia-75b0107b",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "FIFA’s Infantino Makes His Latest Pitch for Support",
-      "url": "https://www.wsj.com/sports/soccer/fifas-infantino-makes-his-latest-pitch-for-support-e8a76e00",
-      "summary": "FIFA's Infantino makes his latest pitch for support amid ongoing governance and funding debates.",
-      "storyKey": "fifa+infantino+support",
+      "title": "The NFL Team Betting It Can Fix an Enormous Bust—by Reuniting Him With His QB",
+      "url": "https://www.wsj.com/sports/football/marvin-harrison-cj-stroud-houston-texans-ohio-state-dfeacd41",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     }
   ],
-  "research": [
-    {
-      "firm": "Morgan Stanley",
-      "show": "Thoughts on the Market",
-      "title": "AI Boom Faces a Higher-Yield Roadblock",
-      "url": "https://podcasts.apple.com/us/podcast/ai-boom-faces-a-higher-yield-roadblock/id1466686717?i=1000796727263&uo=4",
-      "published": "2026-10-16T21:00:00+00:00",
-      "kind": "podcast",
-      "duration": "4 min",
-      "summary": "Our ABS Strategist Carolyn Campbell explains how rising borrowing costs are slowing the AI data center boom and what could drive a rebound in financing. Read more insights from Morgan Stanley."
-    }
-  ]
+  "research": []
 }
