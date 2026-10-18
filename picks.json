@@ -1,32 +1,32 @@
 {
   "date": "2026-10-18",
-  "generatedAt": "2026-10-18T09:35:56.842826+00:00",
+  "generatedAt": "2026-10-18T13:16:28.104483+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "The 26-Year-Old Russian Defector Who Fed Ukraine His Army’s Battle Plans",
-      "url": "https://www.wsj.com/personal-finance/the-26-year-old-russian-defector-who-fed-ukraine-his-armys-battle-plans-7fc0d4a8",
-      "summary": "",
-      "storyKey": null,
+      "title": "Warsh Avoids Signal on October Rate Move",
+      "url": "https://www.wsj.com/economy/central-banking/warsh-avoids-signal-on-october-rate-move-a176b0d5",
+      "summary": "Fed voice Warsh declines to signal stance on potential October rate cut.",
+      "storyKey": "fed+rate+warsh",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Bank of America Settlement Charge Hits Profit, Morgan Stanley Profit Climbs",
-      "url": "https://www.wsj.com/business/earnings/bank-of-america-settlement-charge-hits-profit-morgan-stanley-profit-climbs-d9cde716",
-      "summary": "",
-      "storyKey": null,
+      "title": "SoftBank in Early Talks to Buy Allied Universal",
+      "url": "https://www.wsj.com/business/deals/softbank-in-early-talks-to-buy-allied-universal-2d582a66",
+      "summary": "SoftBank reportedly in early talks to acquire security firm Allied Universal.",
+      "storyKey": "allied+softbank+universal",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | The Palestinians See Through Emmanuel Macron",
-      "url": "https://www.wsj.com/opinion/mahmoud-abbas-postpones-elections-palestine-france-europe-017e20b3",
-      "summary": "",
-      "storyKey": null,
+      "title": "Opinion | America Needs More Capital",
+      "url": "https://www.wsj.com/opinion/america-needs-more-capital-43428ee0",
+      "summary": "Opinion argues America needs more capital investment to drive economic growth.",
+      "storyKey": "capital+formation+policy",
       "source": "WSJ"
     },
     {
@@ -41,10 +41,10 @@
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The NFL Team Betting It Can Fix an Enormous Bust—by Reuniting Him With His QB",
-      "url": "https://www.wsj.com/sports/football/marvin-harrison-cj-stroud-houston-texans-ohio-state-dfeacd41",
-      "summary": "",
-      "storyKey": null,
+      "title": "College Football Just Witnessed an Unprecedented Day of Stunning Upsets",
+      "url": "https://www.wsj.com/sports/football/college-football-just-witnessed-an-unprecedented-day-of-stunning-upsets-1e8a1280",
+      "summary": "College football saw an unprecedented day of stunning upset results.",
+      "storyKey": "college+football+upsets",
       "source": "WSJ"
     }
   ],
