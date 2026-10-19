@@ -1,23 +1,23 @@
 {
   "date": "2026-10-19",
-  "generatedAt": "2026-10-19T10:44:44.616408+00:00",
+  "generatedAt": "2026-10-19T16:27:16.443557+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
       "title": "China’s Economy Expanded 4.5% in Third Quarter, Powered by Exports",
       "url": "https://www.wsj.com/economy/chinas-economy-expanded-4-5-in-third-quarter-powered-by-exports-53910a55",
-      "summary": "China's economy grew 4.5% in Q3, driven by exports, signaling trade-driven growth amid internal economic strains.",
-      "storyKey": "china+gdp",
+      "summary": "China's economy grew 4.5% in Q3, driven by export boom, signaling trade-dependent growth amid global uncertainty.",
+      "storyKey": "china+exports+gdp",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "China’s CXMT Expects Over Eightfold Revenue Jump Amid Memory Squeeze",
-      "url": "https://www.wsj.com/business/earnings/chinas-cxmt-expects-over-eightfold-revenue-jump-amid-memory-squeeze-93d24f98",
-      "summary": "China's CXMT projects over eightfold revenue jump as global memory chip squeeze boosts prices.",
-      "storyKey": "cxmt+memory",
+      "title": "Roche Partners With China’s Hansoh in Deal That Could Top $15 Billion",
+      "url": "https://www.wsj.com/health/pharma/roche-partners-with-chinas-hansoh-in-deal-that-could-top-15-billion-a6681938",
+      "summary": "Roche partners with China's Hansoh in a deal potentially exceeding $15 billion.",
+      "storyKey": "hansoh+roche",
       "source": "WSJ"
     },
     {
@@ -25,26 +25,26 @@
       "label": "Op-Ed",
       "title": "Opinion | For Investors and Savers, TINA Is Giving Way to TARA",
       "url": "https://www.wsj.com/opinion/for-investors-and-savers-tina-is-giving-way-to-tara-3cfc0714",
-      "summary": "Opinion argues shifting market dynamics are replacing TINA with TARA for investors and savers.",
+      "summary": "Opinion argues shifting market dynamics mean investors and savers are moving from TINA to TARA.",
       "storyKey": "investing+tara+tina",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "AI Agents Trading Stocks While You Sleep? Charles Schwab’s CEO Is Skeptical",
-      "url": "https://www.wsj.com/tech/ai/ai-agents-trading-stocks-while-you-sleep-charles-schwabs-ceo-is-skeptical-3ff1b5c3",
-      "summary": "Schwab CEO expresses skepticism about AI agents autonomously trading stocks while investors sleep.",
-      "storyKey": "agents+ai+trading",
+      "title": "DHS Orders DeepSeek Technology Removed From Federal Civilian IT Systems",
+      "url": "https://www.wsj.com/tech/ai/dhs-orders-deepseek-technology-removed-from-federal-civilian-it-systems-060b6d3d",
+      "summary": "DHS orders removal of DeepSeek AI technology from federal civilian IT systems over security concerns.",
+      "storyKey": "ban+deepseek+dhs",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The NFL Team Betting It Can Fix an Enormous Bust—by Reuniting Him With His QB",
-      "url": "https://www.wsj.com/sports/football/marvin-harrison-cj-stroud-houston-texans-ohio-state-dfeacd41",
-      "summary": "NFL team bets on reuniting a struggling player with his former quarterback to revive career.",
-      "storyKey": "nfl+qb+reunion",
+      "title": "Nobody Asked for a 24-Team College Football Playoff. We’re Getting One Anyway.",
+      "url": "https://www.wsj.com/sports/football/24-team-college-football-playoff-693bef04",
+      "summary": "College football playoff expands to 24 teams despite lack of public demand, reshaping postseason economics.",
+      "storyKey": "cfp+expansion+playoff",
       "source": "WSJ"
     }
   ],
