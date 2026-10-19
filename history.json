@@ -1,31 +1,4 @@
 {
-  "2026-09-27": [
-    {
-      "title": "Global Economy Stronger Than Expected, But Threats Mount, OECD Says",
-      "url": "https://www.wsj.com/economy/global/global-economy-stronger-than-expected-but-threats-mount-oecd-says-7472619b",
-      "storyKey": null
-    },
-    {
-      "title": "Finnish Drone Group Sensofusion Seeks $344 Million in Helsinki IPO",
-      "url": "https://www.wsj.com/business/retail/finnish-drone-group-sensofusion-seeks-344-million-in-helsinki-ipo-6ed784ac",
-      "storyKey": null
-    },
-    {
-      "title": "Opinion | The Hidden Agenda Behind the AI Panic",
-      "url": "https://www.wsj.com/opinion/the-hidden-agenda-behind-the-ai-panic-19ef191f",
-      "storyKey": null
-    },
-    {
-      "title": "He’s Completely Terrified of AI—and He’s About to Make Billions Off It",
-      "url": "https://www.wsj.com/tech/ai/jaan-tallinn-anthropic-ai-f513f181",
-      "storyKey": null
-    },
-    {
-      "title": "A Brutal Hit Knocked Out a Heisman Candidate. His Understudy Saved the Season.",
-      "url": "https://www.wsj.com/sports/football/dylan-raiola-dante-moore-oregon-b799eec3",
-      "storyKey": null
-    }
-  ],
   "2026-09-28": [
     {
       "title": "Iran War Is Driving Up the Cost of Your Next Oil Change",
@@ -593,8 +566,34 @@
       "storyKey": "college+football+upsets"
     }
   ],
+  "2026-10-19": [
+    {
+      "title": "China’s Economy Expanded 4.5% in Third Quarter, Powered by Exports",
+      "url": "https://www.wsj.com/economy/chinas-economy-expanded-4-5-in-third-quarter-powered-by-exports-53910a55",
+      "storyKey": "china+gdp"
+    },
+    {
+      "title": "China’s CXMT Expects Over Eightfold Revenue Jump Amid Memory Squeeze",
+      "url": "https://www.wsj.com/business/earnings/chinas-cxmt-expects-over-eightfold-revenue-jump-amid-memory-squeeze-93d24f98",
+      "storyKey": "cxmt+memory"
+    },
+    {
+      "title": "Opinion | For Investors and Savers, TINA Is Giving Way to TARA",
+      "url": "https://www.wsj.com/opinion/for-investors-and-savers-tina-is-giving-way-to-tara-3cfc0714",
+      "storyKey": "investing+tara+tina"
+    },
+    {
+      "title": "AI Agents Trading Stocks While You Sleep? Charles Schwab’s CEO Is Skeptical",
+      "url": "https://www.wsj.com/tech/ai/ai-agents-trading-stocks-while-you-sleep-charles-schwabs-ceo-is-skeptical-3ff1b5c3",
+      "storyKey": "agents+ai+trading"
+    },
+    {
+      "title": "The NFL Team Betting It Can Fix an Enormous Bust—by Reuniting Him With His QB",
+      "url": "https://www.wsj.com/sports/football/marvin-harrison-cj-stroud-houston-texans-ohio-state-dfeacd41",
+      "storyKey": "nfl+qb+reunion"
+    }
+  ],
   "_research": {
-    "2026-09-27": [],
     "2026-09-28": [],
     "2026-09-29": [
       "https://podcasts.apple.com/us/podcast/how-family-businesses-should-plan-for-generational/id948913991?i=1000792194656&uo=4",
@@ -652,6 +651,7 @@
     "2026-10-17": [
       "https://podcasts.apple.com/us/podcast/ai-boom-faces-a-higher-yield-roadblock/id1466686717?i=1000796727263&uo=4"
     ],
-    "2026-10-18": []
+    "2026-10-18": [],
+    "2026-10-19": []
   }
 }

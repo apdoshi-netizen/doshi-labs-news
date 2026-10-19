@@ -1,50 +1,50 @@
 {
-  "date": "2026-10-18",
-  "generatedAt": "2026-10-18T13:16:28.104483+00:00",
+  "date": "2026-10-19",
+  "generatedAt": "2026-10-19T10:44:44.616408+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Warsh Avoids Signal on October Rate Move",
-      "url": "https://www.wsj.com/economy/central-banking/warsh-avoids-signal-on-october-rate-move-a176b0d5",
-      "summary": "Fed voice Warsh declines to signal stance on potential October rate cut.",
-      "storyKey": "fed+rate+warsh",
+      "title": "China’s Economy Expanded 4.5% in Third Quarter, Powered by Exports",
+      "url": "https://www.wsj.com/economy/chinas-economy-expanded-4-5-in-third-quarter-powered-by-exports-53910a55",
+      "summary": "China's economy grew 4.5% in Q3, driven by exports, signaling trade-driven growth amid internal economic strains.",
+      "storyKey": "china+gdp",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "SoftBank in Early Talks to Buy Allied Universal",
-      "url": "https://www.wsj.com/business/deals/softbank-in-early-talks-to-buy-allied-universal-2d582a66",
-      "summary": "SoftBank reportedly in early talks to acquire security firm Allied Universal.",
-      "storyKey": "allied+softbank+universal",
+      "title": "China’s CXMT Expects Over Eightfold Revenue Jump Amid Memory Squeeze",
+      "url": "https://www.wsj.com/business/earnings/chinas-cxmt-expects-over-eightfold-revenue-jump-amid-memory-squeeze-93d24f98",
+      "summary": "China's CXMT projects over eightfold revenue jump as global memory chip squeeze boosts prices.",
+      "storyKey": "cxmt+memory",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | America Needs More Capital",
-      "url": "https://www.wsj.com/opinion/america-needs-more-capital-43428ee0",
-      "summary": "Opinion argues America needs more capital investment to drive economic growth.",
-      "storyKey": "capital+formation+policy",
+      "title": "Opinion | For Investors and Savers, TINA Is Giving Way to TARA",
+      "url": "https://www.wsj.com/opinion/for-investors-and-savers-tina-is-giving-way-to-tara-3cfc0714",
+      "summary": "Opinion argues shifting market dynamics are replacing TINA with TARA for investors and savers.",
+      "storyKey": "investing+tara+tina",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "A Five-Day Tour for Katie Zacharia",
-      "url": "https://www.wsj.com/tech/personal-tech/a-five-day-tour-for-katie-zacharia-75b0107b",
-      "summary": "",
-      "storyKey": null,
+      "title": "AI Agents Trading Stocks While You Sleep? Charles Schwab’s CEO Is Skeptical",
+      "url": "https://www.wsj.com/tech/ai/ai-agents-trading-stocks-while-you-sleep-charles-schwabs-ceo-is-skeptical-3ff1b5c3",
+      "summary": "Schwab CEO expresses skepticism about AI agents autonomously trading stocks while investors sleep.",
+      "storyKey": "agents+ai+trading",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "College Football Just Witnessed an Unprecedented Day of Stunning Upsets",
-      "url": "https://www.wsj.com/sports/football/college-football-just-witnessed-an-unprecedented-day-of-stunning-upsets-1e8a1280",
-      "summary": "College football saw an unprecedented day of stunning upset results.",
-      "storyKey": "college+football+upsets",
+      "title": "The NFL Team Betting It Can Fix an Enormous Bust—by Reuniting Him With His QB",
+      "url": "https://www.wsj.com/sports/football/marvin-harrison-cj-stroud-houston-texans-ohio-state-dfeacd41",
+      "summary": "NFL team bets on reuniting a struggling player with his former quarterback to revive career.",
+      "storyKey": "nfl+qb+reunion",
       "source": "WSJ"
     }
   ],
