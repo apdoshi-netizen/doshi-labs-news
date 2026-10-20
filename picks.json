@@ -1,52 +1,63 @@
 {
-  "date": "2026-10-19",
-  "generatedAt": "2026-10-19T16:27:16.443557+00:00",
+  "date": "2026-10-20",
+  "generatedAt": "2026-10-20T10:02:29.374856+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "China’s Economy Expanded 4.5% in Third Quarter, Powered by Exports",
-      "url": "https://www.wsj.com/economy/chinas-economy-expanded-4-5-in-third-quarter-powered-by-exports-53910a55",
-      "summary": "China's economy grew 4.5% in Q3, driven by export boom, signaling trade-dependent growth amid global uncertainty.",
-      "storyKey": "china+exports+gdp",
+      "title": "U.K. Wage Growth Picks Up, Jobless Rate Falls Ahead of Bank of England Meeting",
+      "url": "https://www.wsj.com/world/uk/u-k-wage-growth-picks-up-ahead-of-bank-of-england-meeting-6e4a979b",
+      "summary": "UK wage growth rises and jobless rate falls just ahead of Bank of England's rate decision.",
+      "storyKey": "boe+uk+wage",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Roche Partners With China’s Hansoh in Deal That Could Top $15 Billion",
-      "url": "https://www.wsj.com/health/pharma/roche-partners-with-chinas-hansoh-in-deal-that-could-top-15-billion-a6681938",
-      "summary": "Roche partners with China's Hansoh in a deal potentially exceeding $15 billion.",
-      "storyKey": "hansoh+roche",
+      "title": "Tradeweb to Buy Trumid For About $1.97 Billion",
+      "url": "https://www.wsj.com/business/deals/tradeweb-to-buy-trumid-for-about-1-97-billion-1fd21bdb",
+      "summary": "Tradeweb agrees to buy bond-trading platform Trumid for about $1.97 billion.",
+      "storyKey": "tradeweb+trumid",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | For Investors and Savers, TINA Is Giving Way to TARA",
-      "url": "https://www.wsj.com/opinion/for-investors-and-savers-tina-is-giving-way-to-tara-3cfc0714",
-      "summary": "Opinion argues shifting market dynamics mean investors and savers are moving from TINA to TARA.",
-      "storyKey": "investing+tara+tina",
+      "title": "Opinion | A Durable Trade Deal Needs Skin in the Game",
+      "url": "https://www.wsj.com/opinion/a-durable-trade-deal-needs-skin-in-the-game-cf3b8076",
+      "summary": "Opinion argues durable trade deals require genuine stakeholder commitment, not just promises.",
+      "storyKey": "deal+skin+trade",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "DHS Orders DeepSeek Technology Removed From Federal Civilian IT Systems",
-      "url": "https://www.wsj.com/tech/ai/dhs-orders-deepseek-technology-removed-from-federal-civilian-it-systems-060b6d3d",
-      "summary": "DHS orders removal of DeepSeek AI technology from federal civilian IT systems over security concerns.",
-      "storyKey": "ban+deepseek+dhs",
+      "title": "Microsoft Pulls out of Nscale U.K. Data-Center Deal Over Power-Supply Issues",
+      "url": "https://www.wsj.com/tech/microsoft-pulls-out-of-nscale-u-k-data-center-deal-over-power-supply-issues-f804c434",
+      "summary": "Microsoft withdraws from Nscale's UK data-center deal citing power-supply constraints.",
+      "storyKey": "microsoft+nscale",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "Nobody Asked for a 24-Team College Football Playoff. We’re Getting One Anyway.",
-      "url": "https://www.wsj.com/sports/football/24-team-college-football-playoff-693bef04",
-      "summary": "College football playoff expands to 24 teams despite lack of public demand, reshaping postseason economics.",
-      "storyKey": "cfp+expansion+playoff",
+      "title": "The Structural Defect Sinking the NFL’s Superteam",
+      "url": "https://www.wsj.com/sports/football/los-angeles-rams-kicker-arizona-cardinals-78bc5996",
+      "summary": "Analysis explores the structural flaw undermining the NFL's touted superteam this season.",
+      "storyKey": "nfl+superteam",
       "source": "WSJ"
     }
   ],
-  "research": []
+  "research": [
+    {
+      "firm": "Morgan Stanley",
+      "show": "Thoughts on the Market",
+      "title": "A Narrower Path for Growth and Stability",
+      "url": "https://podcasts.apple.com/us/podcast/a-narrower-path-for-growth-and-stability/id1466686717?i=1000797147248&uo=4",
+      "published": "2026-10-19T20:30:00+00:00",
+      "kind": "podcast",
+      "duration": "5 min",
+      "summary": "Higher rates can take time to filter through the economy, making their full impact difficult to judge. Arunima Sinha from our U.S. and Global Economics teams considers where the pressure may emerge next and how policymakers could navigate the competing risks. Read more insights from Morgan Stanley."
+    }
+  ]
 }

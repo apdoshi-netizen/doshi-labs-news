@@ -1,31 +1,4 @@
 {
-  "2026-09-28": [
-    {
-      "title": "Iran War Is Driving Up the Cost of Your Next Oil Change",
-      "url": "https://www.wsj.com/business/retail/iran-war-is-driving-up-the-cost-of-your-next-oil-change-b254bfb1",
-      "storyKey": null
-    },
-    {
-      "title": "Nvidia Adds Record $150 Billion to Stock Buyback",
-      "url": "https://www.wsj.com/tech/ai/nvidia-adds-record-150-billion-to-stock-buyback-910f96a8",
-      "storyKey": null
-    },
-    {
-      "title": "Opinion | Who Enforces the AI Rules?",
-      "url": "https://www.wsj.com/opinion/who-enforces-the-ai-rules-fc21a831",
-      "storyKey": null
-    },
-    {
-      "title": "‘Things Will Never Be Chill Again’: The Doomers Who Shaped the AI Safety Freakout",
-      "url": "https://www.wsj.com/tech/ai/ai-safety-effective-altruism-anthropic-164b9d05",
-      "storyKey": null
-    },
-    {
-      "title": "How Baseball’s Best Hitter Rescued the Worst Playoff Team in History",
-      "url": "https://www.wsj.com/sports/baseball/yordan-alvarez-astros-4282c24c",
-      "storyKey": null
-    }
-  ],
   "2026-09-29": [
     {
       "title": "Canada GDP Indicates Recovery After Stalling in July",
@@ -593,8 +566,34 @@
       "storyKey": "cfp+expansion+playoff"
     }
   ],
+  "2026-10-20": [
+    {
+      "title": "U.K. Wage Growth Picks Up, Jobless Rate Falls Ahead of Bank of England Meeting",
+      "url": "https://www.wsj.com/world/uk/u-k-wage-growth-picks-up-ahead-of-bank-of-england-meeting-6e4a979b",
+      "storyKey": "boe+uk+wage"
+    },
+    {
+      "title": "Tradeweb to Buy Trumid For About $1.97 Billion",
+      "url": "https://www.wsj.com/business/deals/tradeweb-to-buy-trumid-for-about-1-97-billion-1fd21bdb",
+      "storyKey": "tradeweb+trumid"
+    },
+    {
+      "title": "Opinion | A Durable Trade Deal Needs Skin in the Game",
+      "url": "https://www.wsj.com/opinion/a-durable-trade-deal-needs-skin-in-the-game-cf3b8076",
+      "storyKey": "deal+skin+trade"
+    },
+    {
+      "title": "Microsoft Pulls out of Nscale U.K. Data-Center Deal Over Power-Supply Issues",
+      "url": "https://www.wsj.com/tech/microsoft-pulls-out-of-nscale-u-k-data-center-deal-over-power-supply-issues-f804c434",
+      "storyKey": "microsoft+nscale"
+    },
+    {
+      "title": "The Structural Defect Sinking the NFL’s Superteam",
+      "url": "https://www.wsj.com/sports/football/los-angeles-rams-kicker-arizona-cardinals-78bc5996",
+      "storyKey": "nfl+superteam"
+    }
+  ],
   "_research": {
-    "2026-09-28": [],
     "2026-09-29": [
       "https://podcasts.apple.com/us/podcast/how-family-businesses-should-plan-for-generational/id948913991?i=1000792194656&uo=4",
       "https://podcasts.apple.com/us/podcast/the-stock-markets-bad-breadth/id1466686717?i=1000792087287&uo=4"
@@ -652,6 +651,9 @@
       "https://podcasts.apple.com/us/podcast/ai-boom-faces-a-higher-yield-roadblock/id1466686717?i=1000796727263&uo=4"
     ],
     "2026-10-18": [],
-    "2026-10-19": []
+    "2026-10-19": [],
+    "2026-10-20": [
+      "https://podcasts.apple.com/us/podcast/a-narrower-path-for-growth-and-stability/id1466686717?i=1000797147248&uo=4"
+    ]
   }
 }
