@@ -1,31 +1,4 @@
 {
-  "2026-09-29": [
-    {
-      "title": "Canada GDP Indicates Recovery After Stalling in July",
-      "url": "https://www.wsj.com/economy/central-banking/canada-gdp-indicates-pick-up-after-stalling-in-july-c4bf9b65",
-      "storyKey": null
-    },
-    {
-      "title": "Exclusive | Piper Sandler Holds Talks to Buy Perella Weinberg",
-      "url": "https://www.wsj.com/business/deals/piper-sandler-holds-talks-to-buy-perella-weinberg-633bae65",
-      "storyKey": "perella+piper+weinberg"
-    },
-    {
-      "title": "Opinion | The U.S. Tariff Attack on U.S. Biotech",
-      "url": "https://www.wsj.com/opinion/the-u-s-tariff-attack-on-u-s-biotech-c3406b92",
-      "storyKey": "biotech+policy+tariff"
-    },
-    {
-      "title": "AMD to Acquire World Labs for $8.2 Billion",
-      "url": "https://www.wsj.com/tech/ai/amd-to-acquire-world-labs-for-8-2-billion-a8d03d11",
-      "storyKey": "amd+labs+world"
-    },
-    {
-      "title": "The Senate Just Passed a College Sports Law. Here’s What It Does.",
-      "url": "https://www.wsj.com/sports/the-senate-just-passed-a-college-sports-law-heres-what-it-does-22015f29",
-      "storyKey": "college+law+sports"
-    }
-  ],
   "2026-09-30": [
     {
       "title": "Fed’s Cook Expects Continuing Inflation Pressure From AI Buildout in Coming Months",
@@ -593,11 +566,34 @@
       "storyKey": "economics+knicks+nba"
     }
   ],
+  "2026-10-21": [
+    {
+      "title": "Dollar Recovers as Treasury Yields, Oil Prices Rise",
+      "url": "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-but-may-be-supported-by-mild-risk-appetite-1384b72e",
+      "storyKey": null
+    },
+    {
+      "title": "Exclusive | Air-Traffic Controllers’ Practice of Leaving Work Early Targeted in Pay Deal",
+      "url": "https://www.wsj.com/us-news/air-traffic-controllers-reach-deal-with-faa-for-2-8-pay-increase-5eb91365",
+      "storyKey": null
+    },
+    {
+      "title": "Opinion | Defining ‘Affordable’ Housing in New York",
+      "url": "https://www.wsj.com/opinion/affordable-housing-new-york-kathy-hochul-zohran-mamdani-adcaf5dc",
+      "storyKey": null
+    },
+    {
+      "title": "Why AI’s Deepest Mind Believes the World Is About to Change Radically",
+      "url": "https://www.wsj.com/tech/ai/demis-hassabis-ai-deepmind-google-isomorphic-2b4e3153",
+      "storyKey": null
+    },
+    {
+      "title": "The Pitching Castoff Who Led the Rays to the World Series",
+      "url": "https://www.wsj.com/sports/baseball/freddy-peralta-rays-mets-6079be66",
+      "storyKey": null
+    }
+  ],
   "_research": {
-    "2026-09-29": [
-      "https://podcasts.apple.com/us/podcast/how-family-businesses-should-plan-for-generational/id948913991?i=1000792194656&uo=4",
-      "https://podcasts.apple.com/us/podcast/the-stock-markets-bad-breadth/id1466686717?i=1000792087287&uo=4"
-    ],
     "2026-09-30": [
       "https://podcasts.apple.com/us/podcast/daniel-nadler-on-building-an-ai-powered-search/id1373320104?i=1000792393112&uo=4",
       "https://podcasts.apple.com/us/podcast/chinas-%2412-trillion-manufacturing-upgrade/id1466686717?i=1000792255253&uo=4"
@@ -654,6 +650,10 @@
     "2026-10-19": [],
     "2026-10-20": [
       "https://podcasts.apple.com/us/podcast/a-narrower-path-for-growth-and-stability/id1466686717?i=1000797147248&uo=4"
+    ],
+    "2026-10-21": [
+      "https://podcasts.apple.com/us/podcast/ais-next-winners-signals-from-private-markets/id1466686717?i=1000797325556&uo=4",
+      "https://podcasts.apple.com/us/podcast/one-year-in-advancing-economic-security-and-resiliency/id1456184829?i=1000797285634&uo=4"
     ]
   }
 }

@@ -1,50 +1,50 @@
 {
-  "date": "2026-10-20",
-  "generatedAt": "2026-10-20T14:17:55.056563+00:00",
+  "date": "2026-10-21",
+  "generatedAt": "2026-10-21T10:07:01.862226+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "U.K. Wage Growth Picks Up, Jobless Rate Falls Ahead of Bank of England Meeting",
-      "url": "https://www.wsj.com/world/uk/u-k-wage-growth-picks-up-ahead-of-bank-of-england-meeting-6e4a979b",
-      "summary": "UK wage growth rises, jobless rate falls ahead of Bank of England's rate decision meeting.",
-      "storyKey": "boe+uk+wage",
+      "title": "Dollar Recovers as Treasury Yields, Oil Prices Rise",
+      "url": "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-but-may-be-supported-by-mild-risk-appetite-1384b72e",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Salesforce to Buy Customer-Engagement Platform for Nearly $5.7 Billion",
-      "url": "https://www.wsj.com/business/deals/salesforce-to-buy-customer-engagement-platform-for-nearly-5-7-billion-aba17cfe",
-      "summary": "Salesforce to buy a customer-engagement platform for nearly $5.7 billion.",
-      "storyKey": "acquisition+salesforce",
+      "title": "Exclusive | Air-Traffic Controllers’ Practice of Leaving Work Early Targeted in Pay Deal",
+      "url": "https://www.wsj.com/us-news/air-traffic-controllers-reach-deal-with-faa-for-2-8-pay-increase-5eb91365",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | A Durable Trade Deal Needs Skin in the Game",
-      "url": "https://www.wsj.com/opinion/a-durable-trade-deal-needs-skin-in-the-game-cf3b8076",
-      "summary": "Opinion argues durable trade deals require skin-in-the-game commitments from negotiating parties.",
-      "storyKey": "deal+policy+trade",
+      "title": "Opinion | Defining ‘Affordable’ Housing in New York",
+      "url": "https://www.wsj.com/opinion/affordable-housing-new-york-kathy-hochul-zohran-mamdani-adcaf5dc",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Bill Gross’s AI Tool Could Supercharge the Number of Startups",
-      "url": "https://www.wsj.com/tech/ai/bill-grosss-ai-tool-could-supercharge-the-number-of-startups-27187080",
-      "summary": "Bill Gross's new AI tool could dramatically increase the number of startups launched.",
-      "storyKey": "ai+gross+startups",
+      "title": "Why AI’s Deepest Mind Believes the World Is About to Change Radically",
+      "url": "https://www.wsj.com/tech/ai/demis-hassabis-ai-deepmind-google-isomorphic-2b4e3153",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The Knicks Built an NBA Champion. The Hard Part Is Paying for It.",
-      "url": "https://www.wsj.com/sports/basketball/knicks-dolan-towns-hart-salary-cap-c8d47b9b",
-      "summary": "The Knicks built an NBA champion; financing and paying for the roster proves challenging.",
-      "storyKey": "economics+knicks+nba",
+      "title": "The Pitching Castoff Who Led the Rays to the World Series",
+      "url": "https://www.wsj.com/sports/baseball/freddy-peralta-rays-mets-6079be66",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     }
   ],
@@ -52,12 +52,22 @@
     {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
-      "title": "A Narrower Path for Growth and Stability",
-      "url": "https://podcasts.apple.com/us/podcast/a-narrower-path-for-growth-and-stability/id1466686717?i=1000797147248&uo=4",
-      "published": "2026-10-19T20:30:00+00:00",
+      "title": "AI’s Next Winners: Signals From Private Markets",
+      "url": "https://podcasts.apple.com/us/podcast/ais-next-winners-signals-from-private-markets/id1466686717?i=1000797325556&uo=4",
+      "published": "2026-10-20T21:00:00+00:00",
       "kind": "podcast",
-      "duration": "5 min",
-      "summary": "Higher rates can take time to filter through the economy, making their full impact difficult to judge. Arunima Sinha from our U.S. and Global Economics teams considers where the pressure may emerge next and how policymakers could navigate the competing risks. Read more insights from Morgan Stanley."
+      "duration": "10 min",
+      "summary": "With AI startups scaling at record speed, our analysts Sabrina Hao, Adam Wood and Brian Nowak share takeaways from Morgan Stanley's Spark Conference on AI returns, competitive moats and implications for public markets. Read more insights from Morgan Stanley."
+    },
+    {
+      "firm": "J.P. Morgan",
+      "show": "Making Sense",
+      "title": "One Year In: Advancing Economic Security and Resiliency",
+      "url": "https://podcasts.apple.com/us/podcast/one-year-in-advancing-economic-security-and-resiliency/id1456184829?i=1000797285634&uo=4",
+      "published": "2026-10-20T16:07:54+00:00",
+      "kind": "podcast",
+      "duration": "13 min",
+      "summary": "One year of advancing economic security and resiliency. And we're just getting started."
     }
   ]
 }
