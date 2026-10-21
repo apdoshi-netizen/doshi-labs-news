@@ -1,50 +1,50 @@
 {
   "date": "2026-10-21",
-  "generatedAt": "2026-10-21T10:07:01.862226+00:00",
+  "generatedAt": "2026-10-21T14:28:45.808354+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Dollar Recovers as Treasury Yields, Oil Prices Rise",
-      "url": "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-but-may-be-supported-by-mild-risk-appetite-1384b72e",
-      "summary": "",
-      "storyKey": null,
+      "title": "U.K. Inflation Jumps Again, Strengthening Case for Rate Hike",
+      "url": "https://www.wsj.com/economy/central-banking/u-k-inflation-jumps-again-on-energy-costs-e2bd9d85",
+      "summary": "UK inflation jumped again, strengthening the case for a Bank of England rate hike.",
+      "storyKey": "boe+inflation+uk",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Exclusive | Air-Traffic Controllers’ Practice of Leaving Work Early Targeted in Pay Deal",
-      "url": "https://www.wsj.com/us-news/air-traffic-controllers-reach-deal-with-faa-for-2-8-pay-increase-5eb91365",
-      "summary": "",
-      "storyKey": null,
+      "title": "Exclusive | Larry Ellison Went on Borrowing Spree to Bankroll His Son’s Warner Bros. Bid",
+      "url": "https://www.wsj.com/finance/larry-ellison-warner-bros-loans-49918714",
+      "summary": "Larry Ellison borrowed heavily to help bankroll son David's bid for Warner Bros.",
+      "storyKey": "bros+ellison+warner",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Defining ‘Affordable’ Housing in New York",
-      "url": "https://www.wsj.com/opinion/affordable-housing-new-york-kathy-hochul-zohran-mamdani-adcaf5dc",
-      "summary": "",
-      "storyKey": null,
+      "title": "Opinion | The Biggest Inflation Contributor: Tariffs",
+      "url": "https://www.wsj.com/opinion/the-biggest-inflation-contributor-tariffs-5660509d",
+      "summary": "Op-ed argues tariffs are the biggest contributor to current inflation pressures.",
+      "storyKey": "inflation+tariffs",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Why AI’s Deepest Mind Believes the World Is About to Change Radically",
-      "url": "https://www.wsj.com/tech/ai/demis-hassabis-ai-deepmind-google-isomorphic-2b4e3153",
-      "summary": "",
-      "storyKey": null,
+      "title": "Why Nvidia Needs CoreWeave",
+      "url": "https://www.wsj.com/tech/ai/why-nvidia-needs-coreweave-2c26136e",
+      "summary": "Analysis explains why Nvidia needs CoreWeave amid AI infrastructure dynamics.",
+      "storyKey": "coreweave+nvidia",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The Pitching Castoff Who Led the Rays to the World Series",
-      "url": "https://www.wsj.com/sports/baseball/freddy-peralta-rays-mets-6079be66",
-      "summary": "",
-      "storyKey": null,
+      "title": "Golden Ticket, Nosebleed Seats: The Offer That Left Brewers Fans Stewing",
+      "url": "https://www.wsj.com/sports/baseball/milwaukee-brewers-world-series-timeless-ticket-be91b6c6",
+      "summary": "Brewers' premium ticket offer to fans sparks backlash over pricing and seating.",
+      "storyKey": "brewers+pricing+ticket",
       "source": "WSJ"
     }
   ],
