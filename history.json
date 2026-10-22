@@ -1,31 +1,4 @@
 {
-  "2026-09-30": [
-    {
-      "title": "Fed’s Cook Expects Continuing Inflation Pressure From AI Buildout in Coming Months",
-      "url": "https://www.wsj.com/economy/central-banking/feds-cook-expects-continuing-inflation-pressure-from-ai-buildout-in-coming-months-78632a7f",
-      "storyKey": null
-    },
-    {
-      "title": "AstraZeneca to Invest $2 Billion in Summit Therapeutics, Collaborate on Cancer Drugs",
-      "url": "https://www.wsj.com/business/astrazeneca-to-invest-2-billion-in-summit-therapeutics-collaborate-on-cancer-drugs-97d43efe",
-      "storyKey": null
-    },
-    {
-      "title": "Opinion | Rethinking Political Polling in the Age of AI",
-      "url": "https://www.wsj.com/opinion/rethinking-political-polling-in-the-age-of-ai-1d9ee87b",
-      "storyKey": null
-    },
-    {
-      "title": "Samsung Commits $1.0 Billion to AI Infrastructure Firm Backed by KKR, Nvidia",
-      "url": "https://www.wsj.com/tech/ai/samsung-commits-1-billion-to-ai-infrastructure-firm-backed-by-kkr-nvidia-d1039c57",
-      "storyKey": null
-    },
-    {
-      "title": "Travis Kelce Got Into Wedding Shape—and Embarked on a Late-Career Honeymoon",
-      "url": "https://www.wsj.com/sports/football/travis-kelce-taylor-swift-turnaround-71a548b4",
-      "storyKey": null
-    }
-  ],
   "2026-10-01": [
     {
       "title": "Rising Deficits and War Unravel Trump’s Strategy to Lower Interest Rates and Inflation",
@@ -593,11 +566,34 @@
       "storyKey": "brewers+pricing+ticket"
     }
   ],
+  "2026-10-22": [
+    {
+      "title": "French Bond Yields Hit Multiyear Highs, U.S. Treasury Yields Edge Higher",
+      "url": "https://www.wsj.com/finance/investing/u-s-treasury-yields-edge-higher-in-asian-trade-0c544484",
+      "storyKey": "bond+french+yields"
+    },
+    {
+      "title": "SpaceX and Tesla Consider Merger",
+      "url": "https://www.wsj.com/finance/stocks/spacex-and-tesla-consider-merger-9a38832d",
+      "storyKey": "merger+spacex+tesla"
+    },
+    {
+      "title": "Opinion | AI Splits the American University in Two",
+      "url": "https://www.wsj.com/opinion/ai-splits-the-american-university-in-two-2d633630",
+      "storyKey": "ai+split+university"
+    },
+    {
+      "title": "Meta Ordered to Pay $25 Billion to New Mexico in Data-Privacy Case",
+      "url": "https://www.wsj.com/tech/meta-ordered-to-pay-25-billion-to-new-mexico-in-data-privacy-case-dea99fdd",
+      "storyKey": "fine+meta+newmexico"
+    },
+    {
+      "title": "NFL Defends Treatment of Star Quarterback Who Played With Blood Clot",
+      "url": "https://www.wsj.com/sports/football/jalen-hurts-blood-clot-lungs-8f25483c",
+      "storyKey": "bloodclot+nfl+quarterback"
+    }
+  ],
   "_research": {
-    "2026-09-30": [
-      "https://podcasts.apple.com/us/podcast/daniel-nadler-on-building-an-ai-powered-search/id1373320104?i=1000792393112&uo=4",
-      "https://podcasts.apple.com/us/podcast/chinas-%2412-trillion-manufacturing-upgrade/id1466686717?i=1000792255253&uo=4"
-    ],
     "2026-10-01": [
       "https://podcasts.apple.com/us/podcast/4-market-signals-ahead-of-the-midterms/id1466686717?i=1000792446486&uo=4"
     ],
@@ -654,6 +650,9 @@
     "2026-10-21": [
       "https://podcasts.apple.com/us/podcast/ais-next-winners-signals-from-private-markets/id1466686717?i=1000797325556&uo=4",
       "https://podcasts.apple.com/us/podcast/one-year-in-advancing-economic-security-and-resiliency/id1456184829?i=1000797285634&uo=4"
+    ],
+    "2026-10-22": [
+      "https://podcasts.apple.com/us/podcast/inside-the-biggest-bond-boom-in-years/id1466686717?i=1000797496216&uo=4"
     ]
   }
 }

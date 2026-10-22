@@ -1,50 +1,50 @@
 {
-  "date": "2026-10-21",
-  "generatedAt": "2026-10-21T14:28:45.808354+00:00",
+  "date": "2026-10-22",
+  "generatedAt": "2026-10-22T10:09:39.049489+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "U.K. Inflation Jumps Again, Strengthening Case for Rate Hike",
-      "url": "https://www.wsj.com/economy/central-banking/u-k-inflation-jumps-again-on-energy-costs-e2bd9d85",
-      "summary": "UK inflation jumped again, strengthening the case for a Bank of England rate hike.",
-      "storyKey": "boe+inflation+uk",
+      "title": "French Bond Yields Hit Multiyear Highs, U.S. Treasury Yields Edge Higher",
+      "url": "https://www.wsj.com/finance/investing/u-s-treasury-yields-edge-higher-in-asian-trade-0c544484",
+      "summary": "French bond yields hit multiyear highs as U.S. Treasury yields also edge higher, signaling global rate pressure.",
+      "storyKey": "bond+french+yields",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Exclusive | Larry Ellison Went on Borrowing Spree to Bankroll His Son’s Warner Bros. Bid",
-      "url": "https://www.wsj.com/finance/larry-ellison-warner-bros-loans-49918714",
-      "summary": "Larry Ellison borrowed heavily to help bankroll son David's bid for Warner Bros.",
-      "storyKey": "bros+ellison+warner",
+      "title": "SpaceX and Tesla Consider Merger",
+      "url": "https://www.wsj.com/finance/stocks/spacex-and-tesla-consider-merger-9a38832d",
+      "summary": "SpaceX and Tesla are reportedly considering a formal merger, tying together Musk's two flagship companies.",
+      "storyKey": "merger+spacex+tesla",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | The Biggest Inflation Contributor: Tariffs",
-      "url": "https://www.wsj.com/opinion/the-biggest-inflation-contributor-tariffs-5660509d",
-      "summary": "Op-ed argues tariffs are the biggest contributor to current inflation pressures.",
-      "storyKey": "inflation+tariffs",
+      "title": "Opinion | AI Splits the American University in Two",
+      "url": "https://www.wsj.com/opinion/ai-splits-the-american-university-in-two-2d633630",
+      "summary": "Opinion argues AI is dividing American universities into two distinct tracks, a substantive policy critique.",
+      "storyKey": "ai+split+university",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Why Nvidia Needs CoreWeave",
-      "url": "https://www.wsj.com/tech/ai/why-nvidia-needs-coreweave-2c26136e",
-      "summary": "Analysis explains why Nvidia needs CoreWeave amid AI infrastructure dynamics.",
-      "storyKey": "coreweave+nvidia",
+      "title": "Meta Ordered to Pay $25 Billion to New Mexico in Data-Privacy Case",
+      "url": "https://www.wsj.com/tech/meta-ordered-to-pay-25-billion-to-new-mexico-in-data-privacy-case-dea99fdd",
+      "summary": "Meta ordered to pay $25 billion to New Mexico in a major data-privacy legal case.",
+      "storyKey": "fine+meta+newmexico",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "Golden Ticket, Nosebleed Seats: The Offer That Left Brewers Fans Stewing",
-      "url": "https://www.wsj.com/sports/baseball/milwaukee-brewers-world-series-timeless-ticket-be91b6c6",
-      "summary": "Brewers' premium ticket offer to fans sparks backlash over pricing and seating.",
-      "storyKey": "brewers+pricing+ticket",
+      "title": "NFL Defends Treatment of Star Quarterback Who Played With Blood Clot",
+      "url": "https://www.wsj.com/sports/football/jalen-hurts-blood-clot-lungs-8f25483c",
+      "summary": "NFL defends its handling of a star quarterback who played while suffering a blood clot.",
+      "storyKey": "bloodclot+nfl+quarterback",
       "source": "WSJ"
     }
   ],
@@ -52,22 +52,12 @@
     {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
-      "title": "AI’s Next Winners: Signals From Private Markets",
-      "url": "https://podcasts.apple.com/us/podcast/ais-next-winners-signals-from-private-markets/id1466686717?i=1000797325556&uo=4",
-      "published": "2026-10-20T21:00:00+00:00",
-      "kind": "podcast",
-      "duration": "10 min",
-      "summary": "With AI startups scaling at record speed, our analysts Sabrina Hao, Adam Wood and Brian Nowak share takeaways from Morgan Stanley's Spark Conference on AI returns, competitive moats and implications for public markets. Read more insights from Morgan Stanley."
-    },
-    {
-      "firm": "J.P. Morgan",
-      "show": "Making Sense",
-      "title": "One Year In: Advancing Economic Security and Resiliency",
-      "url": "https://podcasts.apple.com/us/podcast/one-year-in-advancing-economic-security-and-resiliency/id1456184829?i=1000797285634&uo=4",
-      "published": "2026-10-20T16:07:54+00:00",
+      "title": "Inside the Biggest Bond Boom in Years",
+      "url": "https://podcasts.apple.com/us/podcast/inside-the-biggest-bond-boom-in-years/id1466686717?i=1000797496216&uo=4",
+      "published": "2026-10-21T20:00:00+00:00",
       "kind": "podcast",
       "duration": "13 min",
-      "summary": "One year of advancing economic security and resiliency. And we're just getting started."
+      "summary": "Can markets absorb this much new debt? Our panel examines strong demand for investment-grade bonds, stress in high-yield debt and the macro risks that could shape the next six to twelve months in credit markets. Read more insights from Morgan Stanley."
     }
   ]
 }
