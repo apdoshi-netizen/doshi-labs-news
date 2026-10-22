@@ -1,50 +1,50 @@
 {
   "date": "2026-10-22",
-  "generatedAt": "2026-10-22T10:09:39.049489+00:00",
+  "generatedAt": "2026-10-22T14:30:36.296555+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
       "title": "French Bond Yields Hit Multiyear Highs, U.S. Treasury Yields Edge Higher",
       "url": "https://www.wsj.com/finance/investing/u-s-treasury-yields-edge-higher-in-asian-trade-0c544484",
-      "summary": "French bond yields hit multiyear highs as U.S. Treasury yields also edge higher, signaling global rate pressure.",
-      "storyKey": "bond+french+yields",
+      "summary": "French bond yields hit multiyear highs as U.S. Treasury yields also edge higher, signaling fiscal strain.",
+      "storyKey": "french+treasury+yields",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "SpaceX and Tesla Consider Merger",
-      "url": "https://www.wsj.com/finance/stocks/spacex-and-tesla-consider-merger-9a38832d",
-      "summary": "SpaceX and Tesla are reportedly considering a formal merger, tying together Musk's two flagship companies.",
-      "storyKey": "merger+spacex+tesla",
+      "title": "London Stock Exchange Group Agrees to Buy Octus From Permira For $3.5 Billion",
+      "url": "https://www.wsj.com/business/deals/london-stock-exchange-group-agrees-to-buy-octus-from-permira-for-3-5-billion-69361aa5",
+      "summary": "London Stock Exchange Group agrees to buy Octus from Permira for $3.5 billion.",
+      "storyKey": "lseg+octus+permira",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | AI Splits the American University in Two",
-      "url": "https://www.wsj.com/opinion/ai-splits-the-american-university-in-two-2d633630",
-      "summary": "Opinion argues AI is dividing American universities into two distinct tracks, a substantive policy critique.",
-      "storyKey": "ai+split+university",
+      "title": "Opinion | California’s Wealth Tax Boomerang",
+      "url": "https://www.wsj.com/opinion/california-prop-40-wealth-tax-revenue-loss-study-hoover-institution-4b533b72",
+      "summary": "Opinion piece argues California's wealth tax policy is backfiring economically.",
+      "storyKey": "california+tax+wealth",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Meta Ordered to Pay $25 Billion to New Mexico in Data-Privacy Case",
-      "url": "https://www.wsj.com/tech/meta-ordered-to-pay-25-billion-to-new-mexico-in-data-privacy-case-dea99fdd",
-      "summary": "Meta ordered to pay $25 billion to New Mexico in a major data-privacy legal case.",
-      "storyKey": "fine+meta+newmexico",
+      "title": "Chinese AI Startup DeepSeek Raises $15 Billion Ahead of Potential IPO",
+      "url": "https://www.wsj.com/tech/ai/chinese-ai-startup-deekseek-raises-15-billion-ahead-of-potential-ipo-f7fe3a49",
+      "summary": "Chinese AI startup DeepSeek raises $15 billion ahead of a potential IPO.",
+      "storyKey": "deepseek+funding+ipo",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "NFL Defends Treatment of Star Quarterback Who Played With Blood Clot",
-      "url": "https://www.wsj.com/sports/football/jalen-hurts-blood-clot-lungs-8f25483c",
-      "summary": "NFL defends its handling of a star quarterback who played while suffering a blood clot.",
-      "storyKey": "bloodclot+nfl+quarterback",
+      "title": "The Pitching Castoff Who Led the Rays to the World Series",
+      "url": "https://www.wsj.com/sports/baseball/freddy-peralta-rays-mets-6079be66",
+      "summary": "Profile of the pitching castoff who led the Rays to the World Series.",
+      "storyKey": "rays+series+world",
       "source": "WSJ"
     }
   ],

@@ -570,27 +570,27 @@
     {
       "title": "French Bond Yields Hit Multiyear Highs, U.S. Treasury Yields Edge Higher",
       "url": "https://www.wsj.com/finance/investing/u-s-treasury-yields-edge-higher-in-asian-trade-0c544484",
-      "storyKey": "bond+french+yields"
+      "storyKey": "french+treasury+yields"
     },
     {
-      "title": "SpaceX and Tesla Consider Merger",
-      "url": "https://www.wsj.com/finance/stocks/spacex-and-tesla-consider-merger-9a38832d",
-      "storyKey": "merger+spacex+tesla"
+      "title": "London Stock Exchange Group Agrees to Buy Octus From Permira For $3.5 Billion",
+      "url": "https://www.wsj.com/business/deals/london-stock-exchange-group-agrees-to-buy-octus-from-permira-for-3-5-billion-69361aa5",
+      "storyKey": "lseg+octus+permira"
     },
     {
-      "title": "Opinion | AI Splits the American University in Two",
-      "url": "https://www.wsj.com/opinion/ai-splits-the-american-university-in-two-2d633630",
-      "storyKey": "ai+split+university"
+      "title": "Opinion | California’s Wealth Tax Boomerang",
+      "url": "https://www.wsj.com/opinion/california-prop-40-wealth-tax-revenue-loss-study-hoover-institution-4b533b72",
+      "storyKey": "california+tax+wealth"
     },
     {
-      "title": "Meta Ordered to Pay $25 Billion to New Mexico in Data-Privacy Case",
-      "url": "https://www.wsj.com/tech/meta-ordered-to-pay-25-billion-to-new-mexico-in-data-privacy-case-dea99fdd",
-      "storyKey": "fine+meta+newmexico"
+      "title": "Chinese AI Startup DeepSeek Raises $15 Billion Ahead of Potential IPO",
+      "url": "https://www.wsj.com/tech/ai/chinese-ai-startup-deekseek-raises-15-billion-ahead-of-potential-ipo-f7fe3a49",
+      "storyKey": "deepseek+funding+ipo"
     },
     {
-      "title": "NFL Defends Treatment of Star Quarterback Who Played With Blood Clot",
-      "url": "https://www.wsj.com/sports/football/jalen-hurts-blood-clot-lungs-8f25483c",
-      "storyKey": "bloodclot+nfl+quarterback"
+      "title": "The Pitching Castoff Who Led the Rays to the World Series",
+      "url": "https://www.wsj.com/sports/baseball/freddy-peralta-rays-mets-6079be66",
+      "storyKey": "rays+series+world"
     }
   ],
   "_research": {
