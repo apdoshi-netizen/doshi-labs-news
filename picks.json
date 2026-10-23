@@ -1,63 +1,73 @@
 {
-  "date": "2026-10-22",
-  "generatedAt": "2026-10-22T14:30:36.296555+00:00",
+  "date": "2026-10-23",
+  "generatedAt": "2026-10-23T10:02:21.866392+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "French Bond Yields Hit Multiyear Highs, U.S. Treasury Yields Edge Higher",
-      "url": "https://www.wsj.com/finance/investing/u-s-treasury-yields-edge-higher-in-asian-trade-0c544484",
-      "summary": "French bond yields hit multiyear highs as U.S. Treasury yields also edge higher, signaling fiscal strain.",
-      "storyKey": "french+treasury+yields",
+      "title": "Iran Threatens Wider Strikes on Economic and Civilian Targets if U.S. Attacks",
+      "url": "https://www.wsj.com/world/middle-east/iran-threatens-wider-strikes-on-economic-and-civilian-targets-if-u-s-attacks-55f75e6b",
+      "summary": "Iran threatens wider strikes on economic, civilian targets if U.S. attacks, raising geopolitical risk.",
+      "storyKey": "iran+strikes+threat",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "London Stock Exchange Group Agrees to Buy Octus From Permira For $3.5 Billion",
-      "url": "https://www.wsj.com/business/deals/london-stock-exchange-group-agrees-to-buy-octus-from-permira-for-3-5-billion-69361aa5",
-      "summary": "London Stock Exchange Group agrees to buy Octus from Permira for $3.5 billion.",
-      "storyKey": "lseg+octus+permira",
+      "title": "Prudential Financial Sells Prudential of Brazil, Prudential of Mexico for $4 Billion",
+      "url": "https://www.wsj.com/finance/investing/prudential-financial-sells-prudential-of-brazil-prudential-of-mexico-for-4-billion-985c25bf",
+      "summary": "Prudential Financial sells Prudential of Brazil and Mexico units for $4 billion.",
+      "storyKey": "brazil+mexico+prudential",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | California’s Wealth Tax Boomerang",
-      "url": "https://www.wsj.com/opinion/california-prop-40-wealth-tax-revenue-loss-study-hoover-institution-4b533b72",
-      "summary": "Opinion piece argues California's wealth tax policy is backfiring economically.",
-      "storyKey": "california+tax+wealth",
+      "title": "Opinion | Roger Marshall Backs a Giant Tax Increase",
+      "url": "https://www.wsj.com/opinion/roger-marshall-social-security-tax-85558cf1",
+      "summary": "Opinion piece argues Senator Roger Marshall is backing a giant tax increase.",
+      "storyKey": "increase+marshall+tax",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Chinese AI Startup DeepSeek Raises $15 Billion Ahead of Potential IPO",
-      "url": "https://www.wsj.com/tech/ai/chinese-ai-startup-deekseek-raises-15-billion-ahead-of-potential-ipo-f7fe3a49",
-      "summary": "Chinese AI startup DeepSeek raises $15 billion ahead of a potential IPO.",
-      "storyKey": "deepseek+funding+ipo",
+      "title": "SK Hynix Pauses IPO of Memory-Chip Unit as AI Valuation Fears Mount",
+      "url": "https://www.wsj.com/tech/sk-hynix-shelves-plans-for-u-s-listing-of-memory-chip-unit-solidigm-e9670506",
+      "summary": "SK Hynix pauses IPO of its memory-chip unit amid AI valuation fears.",
+      "storyKey": "hynix+ipo+sk",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The Pitching Castoff Who Led the Rays to the World Series",
-      "url": "https://www.wsj.com/sports/baseball/freddy-peralta-rays-mets-6079be66",
-      "summary": "Profile of the pitching castoff who led the Rays to the World Series.",
-      "storyKey": "rays+series+world",
+      "title": "This World Series Is Baseball’s ‘Nightmare’—and I Love It",
+      "url": "https://www.wsj.com/sports/baseball/brewers-rays-world-series-e274eb58",
+      "summary": "Columnist calls this World Series baseball's \"nightmare\" scenario, says he loves it.",
+      "storyKey": "baseball+series+world",
       "source": "WSJ"
     }
   ],
   "research": [
     {
+      "firm": "Goldman Sachs",
+      "show": "Exchanges",
+      "title": "Why Oil Prices Are Surging Despite Recovering Supply",
+      "url": "https://podcasts.apple.com/us/podcast/why-oil-prices-are-surging-despite-recovering-supply/id948913991?i=1000797721514&uo=4",
+      "published": "2026-10-23T04:00:00+00:00",
+      "kind": "podcast",
+      "duration": "14 min",
+      "summary": "Middle East crude flows have rebounded, but precautionary buying and portfolio hedging are among the factors keeping prices elevated, says Daan Struyven, co-head of Global Commodities Research and head of Oil Research, on the Goldman Sachs Exchanges podcast."
+    },
+    {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
-      "title": "Inside the Biggest Bond Boom in Years",
-      "url": "https://podcasts.apple.com/us/podcast/inside-the-biggest-bond-boom-in-years/id1466686717?i=1000797496216&uo=4",
-      "published": "2026-10-21T20:00:00+00:00",
+      "title": "Economic Roundtable: What’s Keeping Global Growth Going?",
+      "url": "https://podcasts.apple.com/us/podcast/economic-roundtable-whats-keeping-global-growth-going/id1466686717?i=1000797676597&uo=4",
+      "published": "2026-10-22T21:00:00+00:00",
       "kind": "podcast",
-      "duration": "13 min",
-      "summary": "Can markets absorb this much new debt? Our panel examines strong demand for investment-grade bonds, stress in high-yield debt and the macro risks that could shape the next six to twelve months in credit markets. Read more insights from Morgan Stanley."
+      "duration": "15 min",
+      "summary": "In the first of a two-part discussion, our roundtable explores how AI investment, trade and consumer spending are sustaining global growth, and what could put that resilience at risk. Read more insights from Morgan Stanley."
     }
   ]
 }

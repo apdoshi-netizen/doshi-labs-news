@@ -1,31 +1,4 @@
 {
-  "2026-10-01": [
-    {
-      "title": "Rising Deficits and War Unravel Trump’s Strategy to Lower Interest Rates and Inflation",
-      "url": "https://www.wsj.com/articles/rising-deficits-and-war-unravel-trumps-strategy-to-lower-interest-rates-and-inflation-f93a6a76",
-      "storyKey": null
-    },
-    {
-      "title": "Raytheon Gets $20.7 Billion Contract to Accelerate AMRAAM Missile Production",
-      "url": "https://www.wsj.com/business/raytheon-gets-20-7-billion-contract-to-accelerate-amraam-missile-production-25f96d73",
-      "storyKey": null
-    },
-    {
-      "title": "Opinion | AI Optimism Only Goes So Far",
-      "url": "https://www.wsj.com/opinion/free-expression/ai-optimism-only-goes-so-far-cac16edd",
-      "storyKey": null
-    },
-    {
-      "title": "Exclusive | OpenAI Parts Ways With Researchers Who Allegedly Shared Confidential Information",
-      "url": "https://www.wsj.com/tech/ai/openai-parts-ways-with-researchers-who-allegedly-shared-confidential-information-aebac528",
-      "storyKey": null
-    },
-    {
-      "title": "Drake Maye Looked Like Tom Brady’s Heir. Now, He’s a Disaster.",
-      "url": "https://www.wsj.com/sports/football/drake-maye-new-england-patriots-366ef7c6",
-      "storyKey": null
-    }
-  ],
   "2026-10-02": [
     {
       "title": "High Government Debt Is Adding Fuel to the Global Bond-Market Selloff",
@@ -593,10 +566,34 @@
       "storyKey": "rays+series+world"
     }
   ],
+  "2026-10-23": [
+    {
+      "title": "Iran Threatens Wider Strikes on Economic and Civilian Targets if U.S. Attacks",
+      "url": "https://www.wsj.com/world/middle-east/iran-threatens-wider-strikes-on-economic-and-civilian-targets-if-u-s-attacks-55f75e6b",
+      "storyKey": "iran+strikes+threat"
+    },
+    {
+      "title": "Prudential Financial Sells Prudential of Brazil, Prudential of Mexico for $4 Billion",
+      "url": "https://www.wsj.com/finance/investing/prudential-financial-sells-prudential-of-brazil-prudential-of-mexico-for-4-billion-985c25bf",
+      "storyKey": "brazil+mexico+prudential"
+    },
+    {
+      "title": "Opinion | Roger Marshall Backs a Giant Tax Increase",
+      "url": "https://www.wsj.com/opinion/roger-marshall-social-security-tax-85558cf1",
+      "storyKey": "increase+marshall+tax"
+    },
+    {
+      "title": "SK Hynix Pauses IPO of Memory-Chip Unit as AI Valuation Fears Mount",
+      "url": "https://www.wsj.com/tech/sk-hynix-shelves-plans-for-u-s-listing-of-memory-chip-unit-solidigm-e9670506",
+      "storyKey": "hynix+ipo+sk"
+    },
+    {
+      "title": "This World Series Is Baseball’s ‘Nightmare’—and I Love It",
+      "url": "https://www.wsj.com/sports/baseball/brewers-rays-world-series-e274eb58",
+      "storyKey": "baseball+series+world"
+    }
+  ],
   "_research": {
-    "2026-10-01": [
-      "https://podcasts.apple.com/us/podcast/4-market-signals-ahead-of-the-midterms/id1466686717?i=1000792446486&uo=4"
-    ],
     "2026-10-02": [
       "https://podcasts.apple.com/us/podcast/ai-is-becoming-a-stock-pickers-market/id1683802600?i=1000792688856&uo=4",
       "https://podcasts.apple.com/us/podcast/how-ai-and-tokenization-could-reshape-wealth-management/id1466686717?i=1000792640211&uo=4"
@@ -653,6 +650,10 @@
     ],
     "2026-10-22": [
       "https://podcasts.apple.com/us/podcast/inside-the-biggest-bond-boom-in-years/id1466686717?i=1000797496216&uo=4"
+    ],
+    "2026-10-23": [
+      "https://podcasts.apple.com/us/podcast/why-oil-prices-are-surging-despite-recovering-supply/id948913991?i=1000797721514&uo=4",
+      "https://podcasts.apple.com/us/podcast/economic-roundtable-whats-keeping-global-growth-going/id1466686717?i=1000797676597&uo=4"
     ]
   }
 }
