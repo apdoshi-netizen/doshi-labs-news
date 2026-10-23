@@ -1,54 +1,64 @@
 {
   "date": "2026-10-23",
-  "generatedAt": "2026-10-23T10:02:21.866392+00:00",
+  "generatedAt": "2026-10-23T14:14:12.442005+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Iran Threatens Wider Strikes on Economic and Civilian Targets if U.S. Attacks",
-      "url": "https://www.wsj.com/world/middle-east/iran-threatens-wider-strikes-on-economic-and-civilian-targets-if-u-s-attacks-55f75e6b",
-      "summary": "Iran threatens wider strikes on economic, civilian targets if U.S. attacks, raising geopolitical risk.",
-      "storyKey": "iran+strikes+threat",
+      "title": "Volvo Car Shares Plunge as Automaker Slashes More Jobs",
+      "url": "https://www.wsj.com/business/autos/volvo-car-to-cut-2-500-jobs-as-part-of-plan-to-cut-costs-further-c304f1f8",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Prudential Financial Sells Prudential of Brazil, Prudential of Mexico for $4 Billion",
-      "url": "https://www.wsj.com/finance/investing/prudential-financial-sells-prudential-of-brazil-prudential-of-mexico-for-4-billion-985c25bf",
-      "summary": "Prudential Financial sells Prudential of Brazil and Mexico units for $4 billion.",
-      "storyKey": "brazil+mexico+prudential",
+      "title": "Mattel Adds Board Member As Activist Investor Pressure Mounts",
+      "url": "https://www.wsj.com/business/mattel-adds-board-member-as-activist-investor-pressure-mounts-3aed3a3a",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Roger Marshall Backs a Giant Tax Increase",
-      "url": "https://www.wsj.com/opinion/roger-marshall-social-security-tax-85558cf1",
-      "summary": "Opinion piece argues Senator Roger Marshall is backing a giant tax increase.",
-      "storyKey": "increase+marshall+tax",
+      "title": "Let AI Be AI",
+      "url": "https://www.wsj.com/opinion/free-expression/let-ai-be-ai-0e2e6d96",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "SK Hynix Pauses IPO of Memory-Chip Unit as AI Valuation Fears Mount",
-      "url": "https://www.wsj.com/tech/sk-hynix-shelves-plans-for-u-s-listing-of-memory-chip-unit-solidigm-e9670506",
-      "summary": "SK Hynix pauses IPO of its memory-chip unit amid AI valuation fears.",
-      "storyKey": "hynix+ipo+sk",
+      "title": "Exclusive | Quantinuum Sees Path to Fault-Tolerant Quantum Computing by 2029 With New Milestone",
+      "url": "https://www.wsj.com/tech/quantinuum-sees-path-to-fault-tolerant-quantum-computing-by-2029-with-new-milestone-9daa6b07",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "This World Series Is Baseball’s ‘Nightmare’—and I Love It",
-      "url": "https://www.wsj.com/sports/baseball/brewers-rays-world-series-e274eb58",
-      "summary": "Columnist calls this World Series baseball's \"nightmare\" scenario, says he loves it.",
-      "storyKey": "baseball+series+world",
+      "title": "Mercedes Spent $10 Million to Turn an 11-Year-Old Prodigy Into an F1 Champion",
+      "url": "https://www.wsj.com/sports/f1-kimi-antonelli-mercedes-4ae281be",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     }
   ],
   "research": [
+    {
+      "firm": "Goldman Sachs",
+      "show": "The Markets",
+      "title": "Why Investors Are Reducing AI Exposure",
+      "url": "https://podcasts.apple.com/us/podcast/why-investors-are-reducing-ai-exposure/id1683802600?i=1000797784905&uo=4",
+      "published": "2026-10-23T13:20:00+00:00",
+      "kind": "podcast",
+      "duration": "11 min",
+      "summary": "Markets are scrutinizing the crowded AI trade as investors reassess technology infrastructure spending plans and factor in rising capital costs, says Rich Privorotsky, head of European Equities Trading within Goldman Sachs FICC and Equities. Third-quarter earnings from mega-cap tech will be critical, Privorotsky says on The Markets podcast. Investors are not only watching hyperscaler investment plans but looking for evidence that the spending is translating into revenue growth. He also describes a “seismic shift” from a savings glut to a spending glut, which along with high energy prices is lowering investor risk appetite."
+    },
     {
       "firm": "Goldman Sachs",
       "show": "Exchanges",
