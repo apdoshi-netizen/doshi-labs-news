@@ -1,83 +1,73 @@
 {
-  "date": "2026-10-23",
-  "generatedAt": "2026-10-23T14:14:12.442005+00:00",
+  "date": "2026-10-24",
+  "generatedAt": "2026-10-24T09:31:10.429081+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Volvo Car Shares Plunge as Automaker Slashes More Jobs",
-      "url": "https://www.wsj.com/business/autos/volvo-car-to-cut-2-500-jobs-as-part-of-plan-to-cut-costs-further-c304f1f8",
-      "summary": "",
-      "storyKey": null,
+      "title": "Trump to Cut Some Tariffs on Canada to Help GOP Lawmakers",
+      "url": "https://www.wsj.com/politics/policy/trump-to-cut-some-tariffs-on-canada-to-help-gop-lawmakers-06d35293",
+      "summary": "Trump to cut tariffs on Canada to help GOP lawmakers, signaling trade policy shift.",
+      "storyKey": "canada+gop+tariffs",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Mattel Adds Board Member As Activist Investor Pressure Mounts",
-      "url": "https://www.wsj.com/business/mattel-adds-board-member-as-activist-investor-pressure-mounts-3aed3a3a",
-      "summary": "",
-      "storyKey": null,
+      "title": "Capital One Logs Higher Profit, Revenue as Discover Integration Continues",
+      "url": "https://www.wsj.com/business/earnings/capital-one-logs-higher-profit-revenue-as-discover-integration-continues-c5b264cb",
+      "summary": "Capital One posts higher profit and revenue as Discover integration continues.",
+      "storyKey": "capitalone+discover",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Let AI Be AI",
-      "url": "https://www.wsj.com/opinion/free-expression/let-ai-be-ai-0e2e6d96",
-      "summary": "",
-      "storyKey": null,
+      "title": "Opinion | Elon Musk Blunders in the Indian Market",
+      "url": "https://www.wsj.com/opinion/elon-musk-blunders-in-the-indian-market-f1af21a4",
+      "summary": "Opinion piece argues Elon Musk stumbled in the Indian market.",
+      "storyKey": "india+musk",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Exclusive | Quantinuum Sees Path to Fault-Tolerant Quantum Computing by 2029 With New Milestone",
-      "url": "https://www.wsj.com/tech/quantinuum-sees-path-to-fault-tolerant-quantum-computing-by-2029-with-new-milestone-9daa6b07",
-      "summary": "",
-      "storyKey": null,
+      "title": "AI Hacks Are Coming Thick and Fast and Overwhelming the Internet",
+      "url": "https://www.wsj.com/tech/ai/ai-hacks-are-coming-thick-and-fast-and-overwhelming-the-internet-4529c26c",
+      "summary": "AI-driven hacks are accelerating, overwhelming internet security defenses.",
+      "storyKey": "ai+cybersecurity+hacks",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "Mercedes Spent $10 Million to Turn an 11-Year-Old Prodigy Into an F1 Champion",
-      "url": "https://www.wsj.com/sports/f1-kimi-antonelli-mercedes-4ae281be",
-      "summary": "",
-      "storyKey": null,
+      "title": "This World Series Proves That There’s More to Winning Than Money",
+      "url": "https://www.wsj.com/sports/baseball/world-series-brewers-rays-7fe74bf8",
+      "summary": "Column argues this World Series shows winning isn't only about money.",
+      "storyKey": "money+worldseries",
       "source": "WSJ"
     }
   ],
   "research": [
     {
-      "firm": "Goldman Sachs",
-      "show": "The Markets",
-      "title": "Why Investors Are Reducing AI Exposure",
-      "url": "https://podcasts.apple.com/us/podcast/why-investors-are-reducing-ai-exposure/id1683802600?i=1000797784905&uo=4",
-      "published": "2026-10-23T13:20:00+00:00",
-      "kind": "podcast",
-      "duration": "11 min",
-      "summary": "Markets are scrutinizing the crowded AI trade as investors reassess technology infrastructure spending plans and factor in rising capital costs, says Rich Privorotsky, head of European Equities Trading within Goldman Sachs FICC and Equities. Third-quarter earnings from mega-cap tech will be critical, Privorotsky says on The Markets podcast. Investors are not only watching hyperscaler investment plans but looking for evidence that the spending is translating into revenue growth. He also describes a “seismic shift” from a savings glut to a spending glut, which along with high energy prices is lowering investor risk appetite."
-    },
-    {
-      "firm": "Goldman Sachs",
-      "show": "Exchanges",
-      "title": "Why Oil Prices Are Surging Despite Recovering Supply",
-      "url": "https://podcasts.apple.com/us/podcast/why-oil-prices-are-surging-despite-recovering-supply/id948913991?i=1000797721514&uo=4",
-      "published": "2026-10-23T04:00:00+00:00",
-      "kind": "podcast",
-      "duration": "14 min",
-      "summary": "Middle East crude flows have rebounded, but precautionary buying and portfolio hedging are among the factors keeping prices elevated, says Daan Struyven, co-head of Global Commodities Research and head of Oil Research, on the Goldman Sachs Exchanges podcast."
-    },
-    {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
-      "title": "Economic Roundtable: What’s Keeping Global Growth Going?",
-      "url": "https://podcasts.apple.com/us/podcast/economic-roundtable-whats-keeping-global-growth-going/id1466686717?i=1000797676597&uo=4",
-      "published": "2026-10-22T21:00:00+00:00",
+      "title": "One Global Shock, Different Rate Paths",
+      "url": "https://podcasts.apple.com/us/podcast/one-global-shock-different-rate-paths/id1466686717?i=1000797836502&uo=4",
+      "published": "2026-10-23T20:00:00+00:00",
       "kind": "podcast",
-      "duration": "15 min",
-      "summary": "In the first of a two-part discussion, our roundtable explores how AI investment, trade and consumer spending are sustaining global growth, and what could put that resilience at risk. Read more insights from Morgan Stanley."
+      "duration": "12 min",
+      "summary": "The energy shock is global, but the policy response isn’t uniform. In the second of our two-part roundtable, our economists unpack the forces shaping interest rates across the U.S., Europe and Asia. Read more insights from Morgan Stanley."
+    },
+    {
+      "firm": "J.P. Morgan",
+      "show": "Making Sense",
+      "title": "How modern payments drive growth and resilience",
+      "url": "https://podcasts.apple.com/us/podcast/how-modern-payments-drive-growth-and-resilience/id1456184829?i=1000797837135&uo=4",
+      "published": "2026-10-23T20:02:16+00:00",
+      "kind": "podcast",
+      "duration": "19 min",
+      "summary": "Payments decisions now influence growth, liquidity, and risk — often as much as traditional finance levers. In this episode of Making Sense, co-heads of J.P. Morgan Global Payments Max Neukirchen and Umar Farooq explain how payments became a revenue-enabling capability — and what “trust at scale” requires when clients expect instant, seamless experiences. They cover the move toward real-time rails, the operational demands of always-on infrastructure and the new fraud landscape where threats accelerate with speed. They also detail how data and AI-driven controls help safeguard transactions without adding friction. Looking forward, they discuss intelligent payments and embedded finance, and how blockchain and tokenization — including Kinexys — could modernize cross-border settlement and…"
     }
   ]
 }

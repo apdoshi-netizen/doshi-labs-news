@@ -1,31 +1,4 @@
 {
-  "2026-10-02": [
-    {
-      "title": "High Government Debt Is Adding Fuel to the Global Bond-Market Selloff",
-      "url": "https://www.wsj.com/finance/investing/high-government-debt-is-adding-fuel-to-the-global-bond-market-selloff-a93fa0fe",
-      "storyKey": "bond+selloff"
-    },
-    {
-      "title": "Novartis to License Drug From China’s Abogen in Up to $7.8 Billion Deal",
-      "url": "https://www.wsj.com/health/pharma/novartis-to-license-drug-from-chinas-abogen-in-up-to-7-8-billion-deal-4ad8509c",
-      "storyKey": "abogen+novartis"
-    },
-    {
-      "title": "Opinion | The Other Threat to Fed Independence",
-      "url": "https://www.wsj.com/opinion/the-other-threat-to-fed-independence-10f1adaf",
-      "storyKey": "fed+independence"
-    },
-    {
-      "title": "Will America Spend 9% of Its GDP on AI? The Industry Is Counting on It",
-      "url": "https://www.wsj.com/tech/ai/will-america-spend-9-of-its-gdp-on-ai-the-industry-is-counting-on-it-3501bb4f",
-      "storyKey": "ai+gdp+spending"
-    },
-    {
-      "title": "Manchester City Was Found Guilty of Rampant Cheating. Here’s What Comes Next.",
-      "url": "https://www.wsj.com/sports/soccer/manchester-city-verdict-relegation-5af047f9",
-      "storyKey": "city+finance+manchester"
-    }
-  ],
   "2026-10-03": [
     {
       "title": "Luxury Stocks Are Selling at Fast-Fashion Prices",
@@ -593,11 +566,34 @@
       "storyKey": null
     }
   ],
+  "2026-10-24": [
+    {
+      "title": "Trump to Cut Some Tariffs on Canada to Help GOP Lawmakers",
+      "url": "https://www.wsj.com/politics/policy/trump-to-cut-some-tariffs-on-canada-to-help-gop-lawmakers-06d35293",
+      "storyKey": "canada+gop+tariffs"
+    },
+    {
+      "title": "Capital One Logs Higher Profit, Revenue as Discover Integration Continues",
+      "url": "https://www.wsj.com/business/earnings/capital-one-logs-higher-profit-revenue-as-discover-integration-continues-c5b264cb",
+      "storyKey": "capitalone+discover"
+    },
+    {
+      "title": "Opinion | Elon Musk Blunders in the Indian Market",
+      "url": "https://www.wsj.com/opinion/elon-musk-blunders-in-the-indian-market-f1af21a4",
+      "storyKey": "india+musk"
+    },
+    {
+      "title": "AI Hacks Are Coming Thick and Fast and Overwhelming the Internet",
+      "url": "https://www.wsj.com/tech/ai/ai-hacks-are-coming-thick-and-fast-and-overwhelming-the-internet-4529c26c",
+      "storyKey": "ai+cybersecurity+hacks"
+    },
+    {
+      "title": "This World Series Proves That There’s More to Winning Than Money",
+      "url": "https://www.wsj.com/sports/baseball/world-series-brewers-rays-7fe74bf8",
+      "storyKey": "money+worldseries"
+    }
+  ],
   "_research": {
-    "2026-10-02": [
-      "https://podcasts.apple.com/us/podcast/ai-is-becoming-a-stock-pickers-market/id1683802600?i=1000792688856&uo=4",
-      "https://podcasts.apple.com/us/podcast/how-ai-and-tokenization-could-reshape-wealth-management/id1466686717?i=1000792640211&uo=4"
-    ],
     "2026-10-03": [],
     "2026-10-04": [],
     "2026-10-05": [],
@@ -655,6 +651,10 @@
       "https://podcasts.apple.com/us/podcast/why-investors-are-reducing-ai-exposure/id1683802600?i=1000797784905&uo=4",
       "https://podcasts.apple.com/us/podcast/why-oil-prices-are-surging-despite-recovering-supply/id948913991?i=1000797721514&uo=4",
       "https://podcasts.apple.com/us/podcast/economic-roundtable-whats-keeping-global-growth-going/id1466686717?i=1000797676597&uo=4"
+    ],
+    "2026-10-24": [
+      "https://podcasts.apple.com/us/podcast/one-global-shock-different-rate-paths/id1466686717?i=1000797836502&uo=4",
+      "https://podcasts.apple.com/us/podcast/how-modern-payments-drive-growth-and-resilience/id1456184829?i=1000797837135&uo=4"
     ]
   }
 }
