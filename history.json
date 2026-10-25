@@ -1,31 +1,4 @@
 {
-  "2026-10-03": [
-    {
-      "title": "Luxury Stocks Are Selling at Fast-Fashion Prices",
-      "url": "https://www.wsj.com/business/retail/luxury-stocks-are-selling-at-fast-fashion-prices-691ae978",
-      "storyKey": null
-    },
-    {
-      "title": "Larry Ellison Wants $165 Million for His Oceanfront Estate in Florida",
-      "url": "https://www.wsj.com/real-estate/luxury-homes/larry-ellison-north-palm-beach-home-cd79492b",
-      "storyKey": null
-    },
-    {
-      "title": "Opinion | A Big Moment for Federalism at the Supreme Court",
-      "url": "https://www.wsj.com/opinion/suncor-energy-v-boulder-county-supreme-court-climate-case-federalism-201279e6",
-      "storyKey": null
-    },
-    {
-      "title": "How Long Will the AI Boom Last? Memory Stocks Offer Clues",
-      "url": "https://www.wsj.com/tech/ai/how-long-will-the-ai-boom-last-memory-stocks-offer-clues-622be948",
-      "storyKey": null
-    },
-    {
-      "title": "The Billionaire Yacht Battle That Still Makes Sailors Furious",
-      "url": "https://www.wsj.com/sports/the-billionaire-yacht-battle-that-still-makes-sailors-furious-40aedc59",
-      "storyKey": null
-    }
-  ],
   "2026-10-04": [
     {
       "title": "Soaring Transport Costs Spread Through U.S. Economy",
@@ -593,8 +566,34 @@
       "storyKey": null
     }
   ],
+  "2026-10-25": [
+    {
+      "title": "Trump Announces Audi’s First-Ever U.S. Factory in Georgia as Tariffs Bite",
+      "url": "https://www.wsj.com/business/autos/trump-announces-audis-first-ever-u-s-factory-in-georgia-ss-tariffs-bite-7e3220fe",
+      "storyKey": "audi+georgia+tariffs"
+    },
+    {
+      "title": "Kroger Targets Earnings Growth, Operations Overhaul in New Three-Year Plan",
+      "url": "https://www.wsj.com/business/retail/kroger-targets-earnings-growth-operations-overhaul-in-new-three-year-plan-fe1d2bc5",
+      "storyKey": null
+    },
+    {
+      "title": "Opinion | New York’s ‘Mansion’ Tax Swallows Up New Buyers",
+      "url": "https://www.wsj.com/opinion/free-expression/new-yorks-mansion-tax-swallows-up-new-buyers-b85aab68",
+      "storyKey": "mansion+nyc+tax"
+    },
+    {
+      "title": "AI Hacks Are Coming Thick and Fast and Overwhelming the Internet",
+      "url": "https://www.wsj.com/tech/ai/ai-hacks-are-coming-thick-and-fast-and-overwhelming-the-internet-4529c26c",
+      "storyKey": "ai+hacks+internet"
+    },
+    {
+      "title": "The NFL Still Can’t Crack the Science of Jet Lag",
+      "url": "https://www.wsj.com/sports/football/the-nfl-still-cant-crack-the-science-of-jet-lag-a643dcca",
+      "storyKey": "jetlag+nfl"
+    }
+  ],
   "_research": {
-    "2026-10-03": [],
     "2026-10-04": [],
     "2026-10-05": [],
     "2026-10-06": [
@@ -655,6 +654,7 @@
     "2026-10-24": [
       "https://podcasts.apple.com/us/podcast/one-global-shock-different-rate-paths/id1466686717?i=1000797836502&uo=4",
       "https://podcasts.apple.com/us/podcast/how-modern-payments-drive-growth-and-resilience/id1456184829?i=1000797837135&uo=4"
-    ]
+    ],
+    "2026-10-25": []
   }
 }

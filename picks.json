@@ -1,21 +1,21 @@
 {
-  "date": "2026-10-24",
-  "generatedAt": "2026-10-24T13:19:31.838069+00:00",
+  "date": "2026-10-25",
+  "generatedAt": "2026-10-25T09:47:42.887517+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "PulteGroup Net Down as Mortgage Rates Weigh on Home Sales",
-      "url": "https://www.wsj.com/business/earnings/pultegroup-net-down-as-mortgage-rates-weigh-on-home-sales-a248f35f",
-      "summary": "",
-      "storyKey": null,
+      "title": "Trump Announces Audi’s First-Ever U.S. Factory in Georgia as Tariffs Bite",
+      "url": "https://www.wsj.com/business/autos/trump-announces-audis-first-ever-u-s-factory-in-georgia-ss-tariffs-bite-7e3220fe",
+      "summary": "Trump announces Audi's first U.S. factory in Georgia as tariffs reshape automaker investment decisions.",
+      "storyKey": "audi+georgia+tariffs",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Shares in Ray-Ban Maker EssilorLuxottica Gain as AI Glasses Continue to Shine",
-      "url": "https://www.wsj.com/business/earnings/shares-in-ray-ban-maker-essilorluxottica-gain-as-ai-glasses-continue-to-shine-59c13a0e",
+      "title": "Kroger Targets Earnings Growth, Operations Overhaul in New Three-Year Plan",
+      "url": "https://www.wsj.com/business/retail/kroger-targets-earnings-growth-operations-overhaul-in-new-three-year-plan-fe1d2bc5",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -23,51 +23,30 @@
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Roger Marshall Backs a Giant Tax Increase",
-      "url": "https://www.wsj.com/opinion/roger-marshall-social-security-tax-85558cf1",
-      "summary": "",
-      "storyKey": null,
+      "title": "Opinion | New York’s ‘Mansion’ Tax Swallows Up New Buyers",
+      "url": "https://www.wsj.com/opinion/free-expression/new-yorks-mansion-tax-swallows-up-new-buyers-b85aab68",
+      "summary": "New York's \"mansion\" tax burdens new homebuyers, opinion argues, criticizing the levy's structure.",
+      "storyKey": "mansion+nyc+tax",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "1Password Surpasses $500 Million in Revenue as AI Agents Drive Growth",
-      "url": "https://www.wsj.com/tech/ai/1password-surpasses-500-million-in-revenue-as-ai-agents-drive-growth-903ccd4b",
-      "summary": "",
-      "storyKey": null,
+      "title": "AI Hacks Are Coming Thick and Fast and Overwhelming the Internet",
+      "url": "https://www.wsj.com/tech/ai/ai-hacks-are-coming-thick-and-fast-and-overwhelming-the-internet-4529c26c",
+      "summary": "AI-driven hacking attacks are accelerating rapidly, overwhelming internet security defenses, report finds.",
+      "storyKey": "ai+hacks+internet",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The Secret Ace That Was Hiding in the Brewers’ Bullpen",
-      "url": "https://www.wsj.com/sports/baseball/brewers-world-series-aaron-ashby-01afdfad",
-      "summary": "",
-      "storyKey": null,
+      "title": "The NFL Still Can’t Crack the Science of Jet Lag",
+      "url": "https://www.wsj.com/sports/football/the-nfl-still-cant-crack-the-science-of-jet-lag-a643dcca",
+      "summary": "NFL still struggles to solve jet lag's effects on player performance despite scientific efforts.",
+      "storyKey": "jetlag+nfl",
       "source": "WSJ"
     }
   ],
-  "research": [
-    {
-      "firm": "Morgan Stanley",
-      "show": "Thoughts on the Market",
-      "title": "One Global Shock, Different Rate Paths",
-      "url": "https://podcasts.apple.com/us/podcast/one-global-shock-different-rate-paths/id1466686717?i=1000797836502&uo=4",
-      "published": "2026-10-23T20:00:00+00:00",
-      "kind": "podcast",
-      "duration": "12 min",
-      "summary": "The energy shock is global, but the policy response isn’t uniform. In the second of our two-part roundtable, our economists unpack the forces shaping interest rates across the U.S., Europe and Asia. Read more insights from Morgan Stanley."
-    },
-    {
-      "firm": "J.P. Morgan",
-      "show": "Making Sense",
-      "title": "How modern payments drive growth and resilience",
-      "url": "https://podcasts.apple.com/us/podcast/how-modern-payments-drive-growth-and-resilience/id1456184829?i=1000797837135&uo=4",
-      "published": "2026-10-23T20:02:16+00:00",
-      "kind": "podcast",
-      "duration": "19 min",
-      "summary": "Payments decisions now influence growth, liquidity, and risk — often as much as traditional finance levers. In this episode of Making Sense, co-heads of J.P. Morgan Global Payments Max Neukirchen and Umar Farooq explain how payments became a revenue-enabling capability — and what “trust at scale” requires when clients expect instant, seamless experiences. They cover the move toward real-time rails, the operational demands of always-on infrastructure and the new fraud landscape where threats accelerate with speed. They also detail how data and AI-driven controls help safeguard transactions without adding friction. Looking forward, they discuss intelligent payments and embedded finance, and how blockchain and tokenization — including Kinexys — could modernize cross-border settlement and…"
-    }
-  ]
+  "research": []
 }
