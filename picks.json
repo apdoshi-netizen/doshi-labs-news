@@ -1,52 +1,63 @@
 {
-  "date": "2026-10-25",
-  "generatedAt": "2026-10-25T13:42:31.336582+00:00",
+  "date": "2026-10-26",
+  "generatedAt": "2026-10-26T11:05:34.532092+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Live Q&A: Ask Us Your Questions About Midterms and the Economy",
-      "url": "https://www.wsj.com/politics/elections/live-q-a-ask-us-your-questions-about-midterms-and-the-economy-58bf8f9f",
-      "summary": "",
-      "storyKey": null,
+      "title": "Why the Fed Is Expected to Hold Rates Steady Despite a Case for Raising Them",
+      "url": "https://www.wsj.com/economy/central-banking/why-the-fed-is-expected-to-hold-rates-steady-despite-a-case-for-raising-them-3761e47f",
+      "summary": "Fed expected to hold rates steady despite case for raising them, says WSJ.",
+      "storyKey": "fed+hold+rate",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Tanker Carrying Russian Diesel Signals U.S. Port After Trump-Putin Deal",
-      "url": "https://www.wsj.com/finance/commodities-futures/tanker-carrying-russian-diesel-signals-u-s-port-after-trump-putin-deal-c09c15dd",
-      "summary": "",
-      "storyKey": null,
+      "title": "Ingenia Removes Warburg Pincus From Data Room Following Rival $1.55 Billion Offer",
+      "url": "https://www.wsj.com/business/deals/ingenia-removes-warburg-pincus-from-data-room-following-rival-1-55b-offer-47c8f800",
+      "summary": "Ingenia removes Warburg Pincus from data room after rival $1.55 billion takeover offer.",
+      "storyKey": "ingenia+pincus+warburg",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Notable & Quotable: AI Judge",
-      "url": "https://www.wsj.com/opinion/notable-quotable-ai-judge-321277e9",
-      "summary": "",
-      "storyKey": null,
+      "title": "Opinion | How Agentic AI Could Destroy Civilization",
+      "url": "https://www.wsj.com/opinion/free-expression/how-agentic-ai-could-destroy-civilization-183df7f5",
+      "summary": "Opinion argues agentic AI could pose civilization-ending risks, urging policy attention now.",
+      "storyKey": "agentic+ai+risk",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "You Were Once Smarter Than AI at Math. Yes, Even You.",
-      "url": "https://www.wsj.com/tech/ai/ai-math-quiz-openai-anthropic-e776b8a9?mod",
-      "summary": "",
-      "storyKey": null,
+      "title": "Meta’s Unending AI Spending",
+      "url": "https://www.wsj.com/tech/ai/metas-unending-ai-spending-34e53011",
+      "summary": "Meta’s AI spending continues unabated, raising questions about returns and capital discipline.",
+      "storyKey": "ai+meta+spending",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "Not Even the Best Pitchers in Baseball Can Stop the Brewers",
-      "url": "https://www.wsj.com/sports/baseball/brewers-rays-world-series-d68f8fbe",
-      "summary": "",
-      "storyKey": null,
+      "title": "The NBA Owner Who Struck Gold in the WNBA",
+      "url": "https://www.wsj.com/sports/basketball/golden-state-valkyries-warriors-joe-lacob-ab1fc3d6",
+      "summary": "NBA owner’s WNBA investment shows soaring franchise valuations in women’s basketball business.",
+      "storyKey": "owner+valuation+wnba",
       "source": "WSJ"
     }
   ],
-  "research": []
+  "research": [
+    {
+      "firm": "J.P. Morgan",
+      "show": "Making Sense",
+      "title": "The evolution of hedge fund performance: From enhancer to diversifier",
+      "url": "https://podcasts.apple.com/us/podcast/the-evolution-of-hedge-fund-performance-from-enhancer/id1456184829?i=1000798120284&uo=4",
+      "published": "2026-10-26T06:00:00+00:00",
+      "kind": "podcast",
+      "duration": "19 min",
+      "summary": "How is the role of hedge funds evolving? In this episode of Making Sense, John Schlegel, head of the Global Data Assets and Alpha Group for Prime Financial Services, sits down with Kumar Panja, head of the Capital Advisory Group for EMEA, to unpack what they’re seeing across hedge funds in 2026. From regional outperformance to the strategies attracting fresh capital, they explore how institutional allocators increasingly frame hedge funds as portfolio diversifiers, not simply return enhancers. They look at the debate around leverage and crowding, as well as the growing trend toward “investor innovation” using portfolio leverage and custom baskets to manage exposures. They also touch on how current macro dynamics relate to hedge fund positioning."
+    }
+  ]
 }

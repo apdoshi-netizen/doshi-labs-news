@@ -1,31 +1,4 @@
 {
-  "2026-10-04": [
-    {
-      "title": "Soaring Transport Costs Spread Through U.S. Economy",
-      "url": "https://www.wsj.com/logistics-report/soaring-transport-costs-spread-through-u-s-economy-fb7cd42f",
-      "storyKey": "costs+transport"
-    },
-    {
-      "title": "David Ellison Won Warner Bros. Now He Has to Make the $81 Billion Deal Work.",
-      "url": "https://www.wsj.com/business/media/david-ellison-won-warner-bros-now-he-has-to-make-the-81-billion-deal-work-2724e9e0",
-      "storyKey": "bros+ellison+warner"
-    },
-    {
-      "title": "Opinion | Did the Associated Press Hurt AI’s Feelings?",
-      "url": "https://www.wsj.com/opinion/did-the-associated-press-hurt-ais-feelings-a2f49bf6",
-      "storyKey": "ai+ap+feelings"
-    },
-    {
-      "title": "Exclusive | New AI Czar Unveils Goals, Members of White House Task Force",
-      "url": "https://www.wsj.com/tech/ai/new-ai-task-force-to-report-on-risks-of-technology-after-public-and-industry-concerns-b6308bef",
-      "storyKey": "ai+czar+house+white"
-    },
-    {
-      "title": "The Real Battle of the MLB Playoffs: Does Baseball Need a Salary Cap?",
-      "url": "https://www.wsj.com/sports/baseball/brewers-rays-dodgers-mlb-salary-cap-d5bd47f8",
-      "storyKey": "cap+mlb+salary"
-    }
-  ],
   "2026-10-05": [
     {
       "title": "Major Wall Street Banks Lift Oil-Price Forecast, Survey Shows",
@@ -593,8 +566,34 @@
       "storyKey": null
     }
   ],
+  "2026-10-26": [
+    {
+      "title": "Why the Fed Is Expected to Hold Rates Steady Despite a Case for Raising Them",
+      "url": "https://www.wsj.com/economy/central-banking/why-the-fed-is-expected-to-hold-rates-steady-despite-a-case-for-raising-them-3761e47f",
+      "storyKey": "fed+hold+rate"
+    },
+    {
+      "title": "Ingenia Removes Warburg Pincus From Data Room Following Rival $1.55 Billion Offer",
+      "url": "https://www.wsj.com/business/deals/ingenia-removes-warburg-pincus-from-data-room-following-rival-1-55b-offer-47c8f800",
+      "storyKey": "ingenia+pincus+warburg"
+    },
+    {
+      "title": "Opinion | How Agentic AI Could Destroy Civilization",
+      "url": "https://www.wsj.com/opinion/free-expression/how-agentic-ai-could-destroy-civilization-183df7f5",
+      "storyKey": "agentic+ai+risk"
+    },
+    {
+      "title": "Meta’s Unending AI Spending",
+      "url": "https://www.wsj.com/tech/ai/metas-unending-ai-spending-34e53011",
+      "storyKey": "ai+meta+spending"
+    },
+    {
+      "title": "The NBA Owner Who Struck Gold in the WNBA",
+      "url": "https://www.wsj.com/sports/basketball/golden-state-valkyries-warriors-joe-lacob-ab1fc3d6",
+      "storyKey": "owner+valuation+wnba"
+    }
+  ],
   "_research": {
-    "2026-10-04": [],
     "2026-10-05": [],
     "2026-10-06": [
       "https://podcasts.apple.com/us/podcast/inside-the-revival-of-venture-capital-liquidity/id948913991?i=1000793364442&uo=4",
@@ -655,6 +654,9 @@
       "https://podcasts.apple.com/us/podcast/one-global-shock-different-rate-paths/id1466686717?i=1000797836502&uo=4",
       "https://podcasts.apple.com/us/podcast/how-modern-payments-drive-growth-and-resilience/id1456184829?i=1000797837135&uo=4"
     ],
-    "2026-10-25": []
+    "2026-10-25": [],
+    "2026-10-26": [
+      "https://podcasts.apple.com/us/podcast/the-evolution-of-hedge-fund-performance-from-enhancer/id1456184829?i=1000798120284&uo=4"
+    ]
   }
 }
