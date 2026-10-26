@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "generatedAt": "2026-10-26T11:05:34.532092+00:00",
+  "generatedAt": "2026-10-26T16:06:55.640991+00:00",
   "picks": [
     {
       "slot": "Macro",
@@ -8,16 +8,16 @@
       "title": "Why the Fed Is Expected to Hold Rates Steady Despite a Case for Raising Them",
       "url": "https://www.wsj.com/economy/central-banking/why-the-fed-is-expected-to-hold-rates-steady-despite-a-case-for-raising-them-3761e47f",
       "summary": "Fed expected to hold rates steady despite case for raising them, says WSJ.",
-      "storyKey": "fed+hold+rate",
+      "storyKey": "fed+hold+rates",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Ingenia Removes Warburg Pincus From Data Room Following Rival $1.55 Billion Offer",
-      "url": "https://www.wsj.com/business/deals/ingenia-removes-warburg-pincus-from-data-room-following-rival-1-55b-offer-47c8f800",
-      "summary": "Ingenia removes Warburg Pincus from data room after rival $1.55 billion takeover offer.",
-      "storyKey": "ingenia+pincus+warburg",
+      "title": "EQT to Buy Range Resources in $13 Billion Stock Swap",
+      "url": "https://www.wsj.com/business/deals/eqt-to-buy-range-resources-in-13-billion-stock-swap-39d379e4",
+      "summary": "EQT agrees to buy Range Resources in a $13 billion all-stock deal.",
+      "storyKey": "eqt+range+resources",
       "source": "WSJ"
     },
     {
@@ -25,26 +25,26 @@
       "label": "Op-Ed",
       "title": "Opinion | How Agentic AI Could Destroy Civilization",
       "url": "https://www.wsj.com/opinion/free-expression/how-agentic-ai-could-destroy-civilization-183df7f5",
-      "summary": "Opinion argues agentic AI could pose civilization-ending risks, urging policy attention now.",
+      "summary": "Opinion piece warns agentic AI could pose existential threat to civilization.",
       "storyKey": "agentic+ai+risk",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Meta’s Unending AI Spending",
-      "url": "https://www.wsj.com/tech/ai/metas-unending-ai-spending-34e53011",
-      "summary": "Meta’s AI spending continues unabated, raising questions about returns and capital discipline.",
-      "storyKey": "ai+meta+spending",
+      "title": "Meta Plans up to $95 Billion in Financing to Power Its AI Growth",
+      "url": "https://www.wsj.com/tech/ai/meta-plans-35-billion-stock-offering-to-power-ai-buildout-eyes-95-billion-total-plan-10b8947e",
+      "summary": "Meta plans up to $95 billion in financing to fuel its AI expansion.",
+      "storyKey": "ai+financing+meta",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The NBA Owner Who Struck Gold in the WNBA",
-      "url": "https://www.wsj.com/sports/basketball/golden-state-valkyries-warriors-joe-lacob-ab1fc3d6",
-      "summary": "NBA owner’s WNBA investment shows soaring franchise valuations in women’s basketball business.",
-      "storyKey": "owner+valuation+wnba",
+      "title": "The Third-String Castoff Quarterback Sparking a Giant Turnaround",
+      "url": "https://www.wsj.com/sports/football/jj-mccarthy-giants-0c041275",
+      "summary": "Third-string castoff quarterback sparks turnaround for the Giants, per WSJ.",
+      "storyKey": "giants+quarterback",
       "source": "WSJ"
     }
   ],
