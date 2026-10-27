@@ -1,63 +1,63 @@
 {
-  "date": "2026-10-26",
-  "generatedAt": "2026-10-26T16:06:55.640991+00:00",
+  "date": "2026-10-27",
+  "generatedAt": "2026-10-27T10:31:35.797517+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Why the Fed Is Expected to Hold Rates Steady Despite a Case for Raising Them",
-      "url": "https://www.wsj.com/economy/central-banking/why-the-fed-is-expected-to-hold-rates-steady-despite-a-case-for-raising-them-3761e47f",
-      "summary": "Fed expected to hold rates steady despite case for raising them, says WSJ.",
-      "storyKey": "fed+hold+rates",
+      "title": "South Korea’s Economy Grows Faster Than Expected in Third Quarter",
+      "url": "https://www.wsj.com/economy/south-koreas-economy-grows-faster-than-expected-in-third-quarter-1d48b2b4",
+      "summary": "South Korea's economy grew faster than expected in Q3, signaling resilient growth momentum.",
+      "storyKey": "gdp+korea+south",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "EQT to Buy Range Resources in $13 Billion Stock Swap",
-      "url": "https://www.wsj.com/business/deals/eqt-to-buy-range-resources-in-13-billion-stock-swap-39d379e4",
-      "summary": "EQT agrees to buy Range Resources in a $13 billion all-stock deal.",
-      "storyKey": "eqt+range+resources",
+      "title": "DoorDash Circles Deal to Buy Instacart | What’s News for Oct. 26",
+      "url": "https://www.wsj.com/business/doordash-circles-deal-to-buy-instacart-41ac407d",
+      "summary": "DoorDash is reportedly circling a deal to acquire food-delivery rival Instacart.",
+      "storyKey": "doordash+instacart",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | How Agentic AI Could Destroy Civilization",
-      "url": "https://www.wsj.com/opinion/free-expression/how-agentic-ai-could-destroy-civilization-183df7f5",
-      "summary": "Opinion piece warns agentic AI could pose existential threat to civilization.",
-      "storyKey": "agentic+ai+risk",
+      "title": "Opinion | The Fed Needs Better Models",
+      "url": "https://www.wsj.com/opinion/the-fed-needs-better-models-63187d02",
+      "summary": "Opinion argues the Federal Reserve needs better economic models to guide policy decisions.",
+      "storyKey": "fed+models",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Meta Plans up to $95 Billion in Financing to Power Its AI Growth",
-      "url": "https://www.wsj.com/tech/ai/meta-plans-35-billion-stock-offering-to-power-ai-buildout-eyes-95-billion-total-plan-10b8947e",
-      "summary": "Meta plans up to $95 billion in financing to fuel its AI expansion.",
-      "storyKey": "ai+financing+meta",
+      "title": "Banks, Blackstone Form $63 Billion Financing Vehicle for Broadcom AI Tech",
+      "url": "https://www.wsj.com/tech/ai/banks-blackstone-form-63-billion-financing-vehicle-for-broadcom-ai-tech-0438f6d2",
+      "summary": "Banks and Blackstone form a $63 billion financing vehicle to back Broadcom's AI technology.",
+      "storyKey": "blackstone+broadcom",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The Third-String Castoff Quarterback Sparking a Giant Turnaround",
-      "url": "https://www.wsj.com/sports/football/jj-mccarthy-giants-0c041275",
-      "summary": "Third-string castoff quarterback sparks turnaround for the Giants, per WSJ.",
-      "storyKey": "giants+quarterback",
+      "title": "The NBA Owner Who Struck Gold in the WNBA",
+      "url": "https://www.wsj.com/sports/basketball/golden-state-valkyries-warriors-joe-lacob-ab1fc3d6",
+      "summary": "Profile of the NBA owner who found lucrative success investing in the WNBA franchise market.",
+      "storyKey": "nba+owner+wnba",
       "source": "WSJ"
     }
   ],
   "research": [
     {
-      "firm": "J.P. Morgan",
-      "show": "Making Sense",
-      "title": "The evolution of hedge fund performance: From enhancer to diversifier",
-      "url": "https://podcasts.apple.com/us/podcast/the-evolution-of-hedge-fund-performance-from-enhancer/id1456184829?i=1000798120284&uo=4",
-      "published": "2026-10-26T06:00:00+00:00",
+      "firm": "Morgan Stanley",
+      "show": "Thoughts on the Market",
+      "title": "The Next Stage of the Market Correction",
+      "url": "https://podcasts.apple.com/us/podcast/the-next-stage-of-the-market-correction/id1466686717?i=1000798244420&uo=4",
+      "published": "2026-10-26T20:30:00+00:00",
       "kind": "podcast",
-      "duration": "19 min",
-      "summary": "How is the role of hedge funds evolving? In this episode of Making Sense, John Schlegel, head of the Global Data Assets and Alpha Group for Prime Financial Services, sits down with Kumar Panja, head of the Capital Advisory Group for EMEA, to unpack what they’re seeing across hedge funds in 2026. From regional outperformance to the strategies attracting fresh capital, they explore how institutional allocators increasingly frame hedge funds as portfolio diversifiers, not simply return enhancers. They look at the debate around leverage and crowding, as well as the growing trend toward “investor innovation” using portfolio leverage and custom baskets to manage exposures. They also touch on how current macro dynamics relate to hedge fund positioning."
+      "duration": "5 min",
+      "summary": "Is the end of the correction in sight? Our CIO and Chief U.S. Equity Strategist looks at what could bring this pullback to an end. Read more insights from Morgan Stanley."
     }
   ]
 }
