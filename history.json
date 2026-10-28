@@ -568,14 +568,14 @@
   ],
   "2026-10-28": [
     {
-      "title": "New Zealand Central Bank Surprises Markets With Rate Hold",
-      "url": "https://www.wsj.com/economy/central-banking/new-zealand-central-bank-surprises-markets-with-rate-hold-90ee6cc8",
-      "storyKey": "hold+nz+rate"
+      "title": "China’s Industrial Profit Growth Surged in September",
+      "url": "https://www.wsj.com/economy/chinas-industrial-profit-growth-surged-in-september-fc3b5d58",
+      "storyKey": null
     },
     {
-      "title": "SK Hynix Plans $75 Billion in Shareholder Returns After Blockbuster Earnings",
-      "url": "https://www.wsj.com/business/earnings/sk-hynix-plans-75-billion-in-shareholder-returns-after-blockbuster-earnings-f3a460b7",
-      "storyKey": "earnings+hynix+sk"
+      "title": "GE Vernova to Buy Grid-Equipment Manufacturer for $9 Billion as Energy Demand Grows",
+      "url": "https://www.wsj.com/business/energy-oil/ge-vernova-to-buy-high-voltage-grid-equipment-manufacturer-for-9-billion-b29dd2ef",
+      "storyKey": "acquisition+ge+vernova"
     },
     {
       "title": "Opinion | Is There a Case for Wealth Taxes?",
@@ -583,9 +583,9 @@
       "storyKey": "debate+tax+wealth"
     },
     {
-      "title": "Microsoft Will Offer Buyouts to 60,000 Employees",
-      "url": "https://www.wsj.com/tech/microsoft-will-offer-buyouts-to-60-000-employees-4c32945f",
-      "storyKey": "buyouts+microsoft"
+      "title": "The Leak Suspicions That Got Three OpenAI Staffers Fired",
+      "url": "https://www.wsj.com/tech/the-leak-suspicions-that-got-three-openai-staffers-fired-d3671d0e",
+      "storyKey": "firings+leak+openai"
     },
     {
       "title": "The NFL Team Barreling Toward a $500 Million Financial Cliff",
@@ -656,6 +656,9 @@
     "2026-10-27": [
       "https://podcasts.apple.com/us/podcast/the-next-stage-of-the-market-correction/id1466686717?i=1000798244420&uo=4"
     ],
-    "2026-10-28": []
+    "2026-10-28": [
+      "https://podcasts.apple.com/us/podcast/goldman-sachs-chairman-and-ceo-david-solomon-on-ai/id948913991?i=1000798411903&uo=4",
+      "https://podcasts.apple.com/us/podcast/to-hike-or-not-to-hike/id1466686717?i=1000798422781&uo=4"
+    ]
   }
 }

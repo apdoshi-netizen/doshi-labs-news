@@ -1,23 +1,23 @@
 {
   "date": "2026-10-28",
-  "generatedAt": "2026-10-28T11:19:30.072651+00:00",
+  "generatedAt": "2026-10-28T16:00:30.515327+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "New Zealand Central Bank Surprises Markets With Rate Hold",
-      "url": "https://www.wsj.com/economy/central-banking/new-zealand-central-bank-surprises-markets-with-rate-hold-90ee6cc8",
-      "summary": "New Zealand's central bank surprised markets by holding rates steady, defying expectations for a cut.",
-      "storyKey": "hold+nz+rate",
+      "title": "China’s Industrial Profit Growth Surged in September",
+      "url": "https://www.wsj.com/economy/chinas-industrial-profit-growth-surged-in-september-fc3b5d58",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "SK Hynix Plans $75 Billion in Shareholder Returns After Blockbuster Earnings",
-      "url": "https://www.wsj.com/business/earnings/sk-hynix-plans-75-billion-in-shareholder-returns-after-blockbuster-earnings-f3a460b7",
-      "summary": "SK Hynix plans $75 billion in shareholder returns following blockbuster quarterly earnings.",
-      "storyKey": "earnings+hynix+sk",
+      "title": "GE Vernova to Buy Grid-Equipment Manufacturer for $9 Billion as Energy Demand Grows",
+      "url": "https://www.wsj.com/business/energy-oil/ge-vernova-to-buy-high-voltage-grid-equipment-manufacturer-for-9-billion-b29dd2ef",
+      "summary": "GE Vernova to buy a grid-equipment manufacturer for $9 billion amid rising energy demand.",
+      "storyKey": "acquisition+ge+vernova",
       "source": "WSJ"
     },
     {
@@ -25,17 +25,17 @@
       "label": "Op-Ed",
       "title": "Opinion | Is There a Case for Wealth Taxes?",
       "url": "https://www.wsj.com/opinion/is-there-a-case-for-wealth-taxes-905123f5",
-      "summary": "Opinion piece debates whether there is a legitimate economic case for wealth taxes.",
+      "summary": "Opinion piece debates whether there is a legitimate case for wealth taxes.",
       "storyKey": "debate+tax+wealth",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Microsoft Will Offer Buyouts to 60,000 Employees",
-      "url": "https://www.wsj.com/tech/microsoft-will-offer-buyouts-to-60-000-employees-4c32945f",
-      "summary": "Microsoft will offer buyouts to 60,000 employees amid major workforce restructuring.",
-      "storyKey": "buyouts+microsoft",
+      "title": "The Leak Suspicions That Got Three OpenAI Staffers Fired",
+      "url": "https://www.wsj.com/tech/the-leak-suspicions-that-got-three-openai-staffers-fired-d3671d0e",
+      "summary": "Three OpenAI staffers were fired amid suspicions they leaked internal information.",
+      "storyKey": "firings+leak+openai",
       "source": "WSJ"
     },
     {
@@ -48,5 +48,26 @@
       "source": "WSJ"
     }
   ],
-  "research": []
+  "research": [
+    {
+      "firm": "Goldman Sachs",
+      "show": "Exchanges",
+      "title": "Goldman Sachs Chairman and CEO David Solomon on AI: Implementation, Accountability, and Jobs",
+      "url": "https://podcasts.apple.com/us/podcast/goldman-sachs-chairman-and-ceo-david-solomon-on-ai/id948913991?i=1000798411903&uo=4",
+      "published": "2026-10-27T19:28:00+00:00",
+      "kind": "podcast",
+      "duration": "17 min",
+      "summary": "With the right “rules of the road,” advancing AI doesn’t have to be a choice between innovation and safety, says David Solomon, chairman and CEO of Goldman Sachs. He also explains why he’s optimistic about AI’s impact on the job market in this episode of the Exchanges podcast."
+    },
+    {
+      "firm": "Morgan Stanley",
+      "show": "Thoughts on the Market",
+      "title": "To Hike or Not to Hike",
+      "url": "https://podcasts.apple.com/us/podcast/to-hike-or-not-to-hike/id1466686717?i=1000798422781&uo=4",
+      "published": "2026-10-27T21:00:00+00:00",
+      "kind": "podcast",
+      "duration": "11 min",
+      "summary": "Our Global Head of Macro Strategy Matthew Hornbach and Chief U.S. Economist Michael Gapen look at what could speed up tightening, what’s next for Treasury yields, and how the Fed can skip a hike now while signaling that more are coming. Read more insights from Morgan Stanley."
+    }
+  ]
 }
