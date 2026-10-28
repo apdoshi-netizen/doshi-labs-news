@@ -1,63 +1,52 @@
 {
-  "date": "2026-10-27",
-  "generatedAt": "2026-10-27T15:20:55.005257+00:00",
+  "date": "2026-10-28",
+  "generatedAt": "2026-10-28T11:19:30.072651+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "South Korea’s Economy Grows Faster Than Expected in Third Quarter",
-      "url": "https://www.wsj.com/economy/south-koreas-economy-grows-faster-than-expected-in-third-quarter-1d48b2b4",
-      "summary": "South Korea’s economy grew faster than expected in the third quarter, a positive surprise for regional growth outlook.",
-      "storyKey": "gdp+korea+south",
+      "title": "New Zealand Central Bank Surprises Markets With Rate Hold",
+      "url": "https://www.wsj.com/economy/central-banking/new-zealand-central-bank-surprises-markets-with-rate-hold-90ee6cc8",
+      "summary": "New Zealand's central bank surprised markets by holding rates steady, defying expectations for a cut.",
+      "storyKey": "hold+nz+rate",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "S&P Global Explores Potential Spinoff of Financial Data and AI Units",
-      "url": "https://www.wsj.com/business/earnings/s-p-global-raises-year-outlook-as-profit-improves-247fb8c2",
-      "summary": "S&P Global is exploring a potential spinoff of its financial data and AI units.",
-      "storyKey": "global+sp+spinoff",
+      "title": "SK Hynix Plans $75 Billion in Shareholder Returns After Blockbuster Earnings",
+      "url": "https://www.wsj.com/business/earnings/sk-hynix-plans-75-billion-in-shareholder-returns-after-blockbuster-earnings-f3a460b7",
+      "summary": "SK Hynix plans $75 billion in shareholder returns following blockbuster quarterly earnings.",
+      "storyKey": "earnings+hynix+sk",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | The Fed Needs Better Models",
-      "url": "https://www.wsj.com/opinion/the-fed-needs-better-models-63187d02",
-      "summary": "Opinion argues the Federal Reserve needs better economic models to guide policy decisions.",
-      "storyKey": "fed+models+policy",
+      "title": "Opinion | Is There a Case for Wealth Taxes?",
+      "url": "https://www.wsj.com/opinion/is-there-a-case-for-wealth-taxes-905123f5",
+      "summary": "Opinion piece debates whether there is a legitimate economic case for wealth taxes.",
+      "storyKey": "debate+tax+wealth",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Banks, Blackstone Form $63 Billion Financing Vehicle for Broadcom AI Tech",
-      "url": "https://www.wsj.com/tech/ai/banks-blackstone-form-63-billion-financing-vehicle-for-broadcom-ai-tech-0438f6d2",
-      "summary": "Banks and Blackstone form a $63 billion financing vehicle to back Broadcom’s AI technology.",
-      "storyKey": "blackstone+broadcom+financing",
+      "title": "Microsoft Will Offer Buyouts to 60,000 Employees",
+      "url": "https://www.wsj.com/tech/microsoft-will-offer-buyouts-to-60-000-employees-4c32945f",
+      "summary": "Microsoft will offer buyouts to 60,000 employees amid major workforce restructuring.",
+      "storyKey": "buyouts+microsoft",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The NBA Owner Who Struck Gold in the WNBA",
-      "url": "https://www.wsj.com/sports/basketball/golden-state-valkyries-warriors-joe-lacob-ab1fc3d6",
-      "summary": "An NBA owner’s investment in a WNBA franchise has proven highly lucrative, highlighting league’s rising valuations.",
-      "storyKey": "nba+valuation+wnba",
+      "title": "The NFL Team Barreling Toward a $500 Million Financial Cliff",
+      "url": "https://www.wsj.com/sports/football/philadelphia-eagles-salary-cap-1bba3353",
+      "summary": "An NFL team faces a looming $500 million financial cliff, per WSJ analysis.",
+      "storyKey": "cliff+financial+nfl",
       "source": "WSJ"
     }
   ],
-  "research": [
-    {
-      "firm": "Morgan Stanley",
-      "show": "Thoughts on the Market",
-      "title": "The Next Stage of the Market Correction",
-      "url": "https://podcasts.apple.com/us/podcast/the-next-stage-of-the-market-correction/id1466686717?i=1000798244420&uo=4",
-      "published": "2026-10-26T20:30:00+00:00",
-      "kind": "podcast",
-      "duration": "5 min",
-      "summary": "Is the end of the correction in sight? Our CIO and Chief U.S. Equity Strategist looks at what could bring this pullback to an end. Read more insights from Morgan Stanley."
-    }
-  ]
+  "research": []
 }

@@ -1,31 +1,4 @@
 {
-  "2026-10-06": [
-    {
-      "title": "U.S. Trade Deficit Widens to Largest Level in More Than a Year",
-      "url": "https://www.wsj.com/economy/trade/u-s-trade-deficit-widens-to-largest-level-in-more-than-a-year-32618af7",
-      "storyKey": "deficit+trade+us"
-    },
-    {
-      "title": "Sanofi, Regeneron to Expand Alliance in Up to $8 Billion Deal",
-      "url": "https://www.wsj.com/health/pharma/sanofi-regeneron-to-expand-alliance-in-deal-valued-at-up-to-8-billion-5b924eba",
-      "storyKey": "regeneron+sanofi"
-    },
-    {
-      "title": "Opinion | How Not to Fix Britain’s Economy",
-      "url": "https://www.wsj.com/opinion/andy-burnham-pension-reform-bond-market-u-k-b3630b84",
-      "storyKey": "britain+economy"
-    },
-    {
-      "title": "Mistral to Release New AI Model to Better Compete With U.S. Rivals",
-      "url": "https://www.wsj.com/tech/ai/mistral-to-release-new-ai-model-to-better-compete-with-u-s-rivals-3f7c8a3d",
-      "storyKey": "ai+mistral+model"
-    },
-    {
-      "title": "The College Football Stars Who Banked Millions—and Completely Flopped",
-      "url": "https://www.wsj.com/sports/football/bryce-underwood-michigan-nil-deal-d1d89a85",
-      "storyKey": "athletes+college+money"
-    }
-  ],
   "2026-10-07": [
     {
       "title": "India’s Central Bank Raises Rates For First Time Since 2023",
@@ -593,11 +566,34 @@
       "storyKey": "nba+valuation+wnba"
     }
   ],
+  "2026-10-28": [
+    {
+      "title": "New Zealand Central Bank Surprises Markets With Rate Hold",
+      "url": "https://www.wsj.com/economy/central-banking/new-zealand-central-bank-surprises-markets-with-rate-hold-90ee6cc8",
+      "storyKey": "hold+nz+rate"
+    },
+    {
+      "title": "SK Hynix Plans $75 Billion in Shareholder Returns After Blockbuster Earnings",
+      "url": "https://www.wsj.com/business/earnings/sk-hynix-plans-75-billion-in-shareholder-returns-after-blockbuster-earnings-f3a460b7",
+      "storyKey": "earnings+hynix+sk"
+    },
+    {
+      "title": "Opinion | Is There a Case for Wealth Taxes?",
+      "url": "https://www.wsj.com/opinion/is-there-a-case-for-wealth-taxes-905123f5",
+      "storyKey": "debate+tax+wealth"
+    },
+    {
+      "title": "Microsoft Will Offer Buyouts to 60,000 Employees",
+      "url": "https://www.wsj.com/tech/microsoft-will-offer-buyouts-to-60-000-employees-4c32945f",
+      "storyKey": "buyouts+microsoft"
+    },
+    {
+      "title": "The NFL Team Barreling Toward a $500 Million Financial Cliff",
+      "url": "https://www.wsj.com/sports/football/philadelphia-eagles-salary-cap-1bba3353",
+      "storyKey": "cliff+financial+nfl"
+    }
+  ],
   "_research": {
-    "2026-10-06": [
-      "https://podcasts.apple.com/us/podcast/inside-the-revival-of-venture-capital-liquidity/id948913991?i=1000793364442&uo=4",
-      "https://podcasts.apple.com/us/podcast/canadas-next-growth-phase/id1466686717?i=1000793310981&uo=4"
-    ],
     "2026-10-07": [
       "https://podcasts.apple.com/us/podcast/japans-banks-enter-a-new-era-of-opportunity/id1466686717?i=1000793523552&uo=4"
     ],
@@ -659,6 +655,7 @@
     ],
     "2026-10-27": [
       "https://podcasts.apple.com/us/podcast/the-next-stage-of-the-market-correction/id1466686717?i=1000798244420&uo=4"
-    ]
+    ],
+    "2026-10-28": []
   }
 }
