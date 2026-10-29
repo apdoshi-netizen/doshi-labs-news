@@ -1,23 +1,23 @@
 {
   "date": "2026-10-29",
-  "generatedAt": "2026-10-29T11:30:02.676710+00:00",
+  "generatedAt": "2026-10-29T16:07:04.649557+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "BOJ Rate Hold Seen as Done Deal, Putting Focus on Guidance",
-      "url": "https://www.wsj.com/economy/central-banking/boj-rate-hold-seen-as-done-deal-putting-focus-on-guidance-fe9049cc",
-      "summary": "BOJ widely expected to hold rates, markets watch for guidance signals on future policy path.",
-      "storyKey": "boj+hold+rate",
+      "title": "PCE Inflation Accelerated Last Month",
+      "url": "https://www.wsj.com/economy/central-banking/pce-inflation-accelerated-last-month-5f72a43f",
+      "summary": "PCE inflation accelerated last month, signaling persistent price pressures despite recent Fed rate hold.",
+      "storyKey": "accelerate+inflation+pce",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Anthropic Unveils Paperwork for Blockbuster IPO",
-      "url": "https://www.wsj.com/tech/anthropic-unveils-paperwork-for-blockbuster-ipo-291a684b",
-      "summary": "Anthropic files paperwork for a blockbuster IPO, signaling major AI startup going public.",
-      "storyKey": "anthropic+ipo",
+      "title": "Josh Kushner’s Thrive to Buy ADT for $7.6 Billion",
+      "url": "https://www.wsj.com/business/deals/josh-kushners-thrive-to-buy-adt-for-7-6-billion-55403c7a",
+      "summary": "Josh Kushner’s Thrive Capital agrees to buy security firm ADT for $7.6 billion.",
+      "storyKey": "acquisition+adt+thrive",
       "source": "WSJ"
     },
     {
@@ -25,17 +25,17 @@
       "label": "Op-Ed",
       "title": "Opinion | GDP Growth Means More Pie for Everyone",
       "url": "https://www.wsj.com/opinion/free-expression/gdp-growth-means-more-pie-for-everyone-c946984c",
-      "summary": "Op-ed argues GDP growth benefits broader economy, more \"pie\" for everyone.",
+      "summary": "Op-ed argues GDP growth benefits broad population, countering narratives of unequal gains.",
       "storyKey": "gdp+growth+pie",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Alphabet Still Has the Ingredients to Win in an AI Pullback",
-      "url": "https://www.wsj.com/tech/ai/alphabet-still-has-the-ingredients-to-win-in-an-ai-pullback-6583aa7c",
-      "summary": "Analysis says Alphabet still has ingredients to win despite AI investor pullback concerns.",
-      "storyKey": "ai+alphabet+pullback",
+      "title": "Microsoft Quarterly Profit Soars as Cloud Growth Accelerates",
+      "url": "https://www.wsj.com/tech/microsoft-msft-q1-earnings-report-2027-stock-5809ce40",
+      "summary": "Microsoft’s quarterly profit soars as cloud business growth accelerates, boosting tech sector outlook.",
+      "storyKey": "cloud+earnings+microsoft",
       "source": "WSJ"
     },
     {
@@ -43,7 +43,7 @@
       "label": "Sports",
       "title": "The Milwaukee Brewers Win the World Series",
       "url": "https://www.wsj.com/sports/baseball/milwaukee-brewers-win-the-world-series-e0e6bc94",
-      "summary": "Milwaukee Brewers win the World Series, capping a dramatic postseason run.",
+      "summary": "The Milwaukee Brewers win the World Series, capping an improbable championship run.",
       "storyKey": "brewers+series+world",
       "source": "WSJ"
     }

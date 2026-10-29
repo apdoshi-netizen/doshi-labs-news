@@ -568,14 +568,14 @@
   ],
   "2026-10-29": [
     {
-      "title": "BOJ Rate Hold Seen as Done Deal, Putting Focus on Guidance",
-      "url": "https://www.wsj.com/economy/central-banking/boj-rate-hold-seen-as-done-deal-putting-focus-on-guidance-fe9049cc",
-      "storyKey": "boj+hold+rate"
+      "title": "PCE Inflation Accelerated Last Month",
+      "url": "https://www.wsj.com/economy/central-banking/pce-inflation-accelerated-last-month-5f72a43f",
+      "storyKey": "accelerate+inflation+pce"
     },
     {
-      "title": "Anthropic Unveils Paperwork for Blockbuster IPO",
-      "url": "https://www.wsj.com/tech/anthropic-unveils-paperwork-for-blockbuster-ipo-291a684b",
-      "storyKey": "anthropic+ipo"
+      "title": "Josh Kushner’s Thrive to Buy ADT for $7.6 Billion",
+      "url": "https://www.wsj.com/business/deals/josh-kushners-thrive-to-buy-adt-for-7-6-billion-55403c7a",
+      "storyKey": "acquisition+adt+thrive"
     },
     {
       "title": "Opinion | GDP Growth Means More Pie for Everyone",
@@ -583,9 +583,9 @@
       "storyKey": "gdp+growth+pie"
     },
     {
-      "title": "Alphabet Still Has the Ingredients to Win in an AI Pullback",
-      "url": "https://www.wsj.com/tech/ai/alphabet-still-has-the-ingredients-to-win-in-an-ai-pullback-6583aa7c",
-      "storyKey": "ai+alphabet+pullback"
+      "title": "Microsoft Quarterly Profit Soars as Cloud Growth Accelerates",
+      "url": "https://www.wsj.com/tech/microsoft-msft-q1-earnings-report-2027-stock-5809ce40",
+      "storyKey": "cloud+earnings+microsoft"
     },
     {
       "title": "The Milwaukee Brewers Win the World Series",
