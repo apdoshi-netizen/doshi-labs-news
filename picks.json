@@ -1,73 +1,83 @@
 {
-  "date": "2026-10-28",
-  "generatedAt": "2026-10-28T16:00:30.515327+00:00",
+  "date": "2026-10-29",
+  "generatedAt": "2026-10-29T11:30:02.676710+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "China’s Industrial Profit Growth Surged in September",
-      "url": "https://www.wsj.com/economy/chinas-industrial-profit-growth-surged-in-september-fc3b5d58",
-      "summary": "",
-      "storyKey": null,
+      "title": "BOJ Rate Hold Seen as Done Deal, Putting Focus on Guidance",
+      "url": "https://www.wsj.com/economy/central-banking/boj-rate-hold-seen-as-done-deal-putting-focus-on-guidance-fe9049cc",
+      "summary": "BOJ widely expected to hold rates, markets watch for guidance signals on future policy path.",
+      "storyKey": "boj+hold+rate",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "GE Vernova to Buy Grid-Equipment Manufacturer for $9 Billion as Energy Demand Grows",
-      "url": "https://www.wsj.com/business/energy-oil/ge-vernova-to-buy-high-voltage-grid-equipment-manufacturer-for-9-billion-b29dd2ef",
-      "summary": "GE Vernova to buy a grid-equipment manufacturer for $9 billion amid rising energy demand.",
-      "storyKey": "acquisition+ge+vernova",
+      "title": "Anthropic Unveils Paperwork for Blockbuster IPO",
+      "url": "https://www.wsj.com/tech/anthropic-unveils-paperwork-for-blockbuster-ipo-291a684b",
+      "summary": "Anthropic files paperwork for a blockbuster IPO, signaling major AI startup going public.",
+      "storyKey": "anthropic+ipo",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Is There a Case for Wealth Taxes?",
-      "url": "https://www.wsj.com/opinion/is-there-a-case-for-wealth-taxes-905123f5",
-      "summary": "Opinion piece debates whether there is a legitimate case for wealth taxes.",
-      "storyKey": "debate+tax+wealth",
+      "title": "Opinion | GDP Growth Means More Pie for Everyone",
+      "url": "https://www.wsj.com/opinion/free-expression/gdp-growth-means-more-pie-for-everyone-c946984c",
+      "summary": "Op-ed argues GDP growth benefits broader economy, more \"pie\" for everyone.",
+      "storyKey": "gdp+growth+pie",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "The Leak Suspicions That Got Three OpenAI Staffers Fired",
-      "url": "https://www.wsj.com/tech/the-leak-suspicions-that-got-three-openai-staffers-fired-d3671d0e",
-      "summary": "Three OpenAI staffers were fired amid suspicions they leaked internal information.",
-      "storyKey": "firings+leak+openai",
+      "title": "Alphabet Still Has the Ingredients to Win in an AI Pullback",
+      "url": "https://www.wsj.com/tech/ai/alphabet-still-has-the-ingredients-to-win-in-an-ai-pullback-6583aa7c",
+      "summary": "Analysis says Alphabet still has ingredients to win despite AI investor pullback concerns.",
+      "storyKey": "ai+alphabet+pullback",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The NFL Team Barreling Toward a $500 Million Financial Cliff",
-      "url": "https://www.wsj.com/sports/football/philadelphia-eagles-salary-cap-1bba3353",
-      "summary": "An NFL team faces a looming $500 million financial cliff, per WSJ analysis.",
-      "storyKey": "cliff+financial+nfl",
+      "title": "The Milwaukee Brewers Win the World Series",
+      "url": "https://www.wsj.com/sports/baseball/milwaukee-brewers-win-the-world-series-e0e6bc94",
+      "summary": "Milwaukee Brewers win the World Series, capping a dramatic postseason run.",
+      "storyKey": "brewers+series+world",
       "source": "WSJ"
     }
   ],
   "research": [
     {
       "firm": "Goldman Sachs",
-      "show": "Exchanges",
-      "title": "Goldman Sachs Chairman and CEO David Solomon on AI: Implementation, Accountability, and Jobs",
-      "url": "https://podcasts.apple.com/us/podcast/goldman-sachs-chairman-and-ceo-david-solomon-on-ai/id948913991?i=1000798411903&uo=4",
-      "published": "2026-10-27T19:28:00+00:00",
+      "show": "Talks at GS",
+      "title": "Dimensional’s David Booth on How to Interpret Risk and 'Stay Calm' Amid Uncertainty",
+      "url": "https://podcasts.apple.com/us/podcast/dimensionals-david-booth-on-how-to-interpret-risk-and/id1373320104?i=1000798582288&uo=4",
+      "published": "2026-10-28T19:33:00+00:00",
       "kind": "podcast",
-      "duration": "17 min",
-      "summary": "With the right “rules of the road,” advancing AI doesn’t have to be a choice between innovation and safety, says David Solomon, chairman and CEO of Goldman Sachs. He also explains why he’s optimistic about AI’s impact on the job market in this episode of the Exchanges podcast."
+      "duration": "18 min",
+      "summary": "David Booth, the founder and chairman of Dimensional Fund Advisors, uses academic research and market evidence to manage more than $1 trillion in assets. Booth, the author of Stay Calm, joins Raj Mahajan, a senior partner in Goldman Sachs Global Banking & Markets, to discuss how to interpret risk and uncertainty, how outsiders can participate in the market as effectively as insiders, and the long-term magic of compounding."
     },
     {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
-      "title": "To Hike or Not to Hike",
-      "url": "https://podcasts.apple.com/us/podcast/to-hike-or-not-to-hike/id1466686717?i=1000798422781&uo=4",
-      "published": "2026-10-27T21:00:00+00:00",
+      "title": "Signals to Watch in the U.S. Midterms",
+      "url": "https://podcasts.apple.com/us/podcast/signals-to-watch-in-the-u-s-midterms/id1466686717?i=1000798601232&uo=4",
+      "published": "2026-10-28T22:00:00+00:00",
       "kind": "podcast",
-      "duration": "11 min",
-      "summary": "Our Global Head of Macro Strategy Matthew Hornbach and Chief U.S. Economist Michael Gapen look at what could speed up tightening, what’s next for Treasury yields, and how the Fed can skip a hike now while signaling that more are coming. Read more insights from Morgan Stanley."
+      "duration": "9 min",
+      "summary": "With Election Day a week away, our Head of U.S. Public Policy Research Ariana Salvatore and Wealth Management's Monica Guerra explain why the aftermath of the midterms may matter more to markets than who wins. Read more insights from Morgan Stanley."
+    },
+    {
+      "firm": "J.P. Morgan",
+      "show": "Making Sense",
+      "title": "Sponsors, spreads and stress testing: Navigating 2026’s rate reset",
+      "url": "https://podcasts.apple.com/us/podcast/sponsors-spreads-and-stress-testing-navigating-2026s/id1456184829?i=1000798647142&uo=4",
+      "published": "2026-10-29T05:00:00+00:00",
+      "kind": "podcast",
+      "duration": "15 min",
+      "summary": "In volatile markets, trade-offs sharpen: pay for certainty now, or preserve flexibility for later. In this episode of Making Sense, Ben Berkey from the corporate derivatives franchise talks with Brian Tramontozzi, head of North American Leveraged Finance Capital Markets, and Kim Hernas, global head of Sponsor Private Side Sales, to discuss how leveraged finance and private markets are weighing these trade-offs in a higher-for-longer rate environment. They discuss how higher base yields are affecting leveraged loan and high-yield markets, and what spread behavior across rating tiers may be signaling. They also explore the evolving sponsor toolkit — back leverage and beyond — and how sponsors are reassessing holding periods, liquidity needs and risk management."
     }
   ]
 }
