@@ -568,28 +568,28 @@
   ],
   "2026-10-30": [
     {
-      "title": "Eurozone Economy Slows as French Debt Worries Mount",
-      "url": "https://www.wsj.com/economy/french-economy-shrinks-as-debt-worries-mount-562e99d0",
-      "storyKey": null
+      "title": "Bank of Japan Declares Inflation Win, Clearing Way for Rate Hikes",
+      "url": "https://www.wsj.com/economy/central-banking/bank-of-japan-holds-fire-while-signaling-rate-hikes-ahead-4bb8d423",
+      "storyKey": "boj+hike+rate"
     },
     {
-      "title": "Anthropic Unveils Paperwork for Blockbuster IPO",
-      "url": "https://www.wsj.com/tech/anthropic-unveils-paperwork-for-blockbuster-ipo-291a684b",
-      "storyKey": null
+      "title": "BASF’s $12.5 Billion Takeover Bid for Evonik Rebuffed",
+      "url": "https://www.wsj.com/business/deals/basfs-12-5-billion-takeover-bid-for-evonik-rebuffed-5fe08975",
+      "storyKey": "basf+evonik"
     },
     {
-      "title": "Opinion | A Healthy Dose of Tricks and Treats",
-      "url": "https://www.wsj.com/opinion/free-expression/a-healthy-dose-of-tricks-and-treats-0c28efd7",
-      "storyKey": null
+      "title": "Opinion | Are Wages Keeping Pace?",
+      "url": "https://www.wsj.com/opinion/are-wages-keeping-pace-aa8e3b28",
+      "storyKey": "inflation+wages"
     },
     {
       "title": "Chinese Executive Close to Nvidia CEO Suspected of Giving China Information",
       "url": "https://www.wsj.com/tech/chinese-executive-close-to-nvidia-ceo-suspected-of-giving-china-information-798eb6a1",
-      "storyKey": null
+      "storyKey": "espionage+nvidia"
     },
     {
-      "title": "Your Humble Shoe Salesperson Might Be an Elite Marathon Runner",
-      "url": "https://www.wsj.com/sports/new-york-city-marathon-sunday-shoe-sales-a2621537",
+      "title": "The NFL Defensive Guru Who Blitzes on Almost Every Play",
+      "url": "https://www.wsj.com/sports/football/brian-flores-minnesota-vikings-defense-8226a8e2",
       "storyKey": null
     }
   ],

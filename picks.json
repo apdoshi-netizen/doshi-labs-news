@@ -1,32 +1,32 @@
 {
   "date": "2026-10-30",
-  "generatedAt": "2026-10-30T11:23:04.260222+00:00",
+  "generatedAt": "2026-10-30T15:56:07.087747+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Eurozone Economy Slows as French Debt Worries Mount",
-      "url": "https://www.wsj.com/economy/french-economy-shrinks-as-debt-worries-mount-562e99d0",
-      "summary": "",
-      "storyKey": null,
+      "title": "Bank of Japan Declares Inflation Win, Clearing Way for Rate Hikes",
+      "url": "https://www.wsj.com/economy/central-banking/bank-of-japan-holds-fire-while-signaling-rate-hikes-ahead-4bb8d423",
+      "summary": "Bank of Japan signals inflation goal met, paving way for future interest rate increases.",
+      "storyKey": "boj+hike+rate",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Anthropic Unveils Paperwork for Blockbuster IPO",
-      "url": "https://www.wsj.com/tech/anthropic-unveils-paperwork-for-blockbuster-ipo-291a684b",
-      "summary": "",
-      "storyKey": null,
+      "title": "BASF’s $12.5 Billion Takeover Bid for Evonik Rebuffed",
+      "url": "https://www.wsj.com/business/deals/basfs-12-5-billion-takeover-bid-for-evonik-rebuffed-5fe08975",
+      "summary": "BASF's $12.5 billion takeover bid for chemical rival Evonik rebuffed by target's board.",
+      "storyKey": "basf+evonik",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | A Healthy Dose of Tricks and Treats",
-      "url": "https://www.wsj.com/opinion/free-expression/a-healthy-dose-of-tricks-and-treats-0c28efd7",
-      "summary": "",
-      "storyKey": null,
+      "title": "Opinion | Are Wages Keeping Pace?",
+      "url": "https://www.wsj.com/opinion/are-wages-keeping-pace-aa8e3b28",
+      "summary": "Opinion piece examines whether U.S. wage growth is keeping pace with inflation trends.",
+      "storyKey": "inflation+wages",
       "source": "WSJ"
     },
     {
@@ -34,16 +34,16 @@
       "label": "Tech",
       "title": "Chinese Executive Close to Nvidia CEO Suspected of Giving China Information",
       "url": "https://www.wsj.com/tech/chinese-executive-close-to-nvidia-ceo-suspected-of-giving-china-information-798eb6a1",
-      "summary": "",
-      "storyKey": null,
+      "summary": "Chinese executive close to Nvidia's CEO suspected of passing sensitive information to China.",
+      "storyKey": "espionage+nvidia",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "Your Humble Shoe Salesperson Might Be an Elite Marathon Runner",
-      "url": "https://www.wsj.com/sports/new-york-city-marathon-sunday-shoe-sales-a2621537",
-      "summary": "",
+      "title": "The NFL Defensive Guru Who Blitzes on Almost Every Play",
+      "url": "https://www.wsj.com/sports/football/brian-flores-minnesota-vikings-defense-8226a8e2",
+      "summary": "nfl+",
       "storyKey": null,
       "source": "WSJ"
     }
