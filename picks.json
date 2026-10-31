@@ -1,83 +1,63 @@
 {
-  "date": "2026-10-30",
-  "generatedAt": "2026-10-30T15:56:07.087747+00:00",
+  "date": "2026-10-31",
+  "generatedAt": "2026-10-31T10:54:43.934692+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Bank of Japan Declares Inflation Win, Clearing Way for Rate Hikes",
-      "url": "https://www.wsj.com/economy/central-banking/bank-of-japan-holds-fire-while-signaling-rate-hikes-ahead-4bb8d423",
-      "summary": "Bank of Japan signals inflation goal met, paving way for future interest rate increases.",
-      "storyKey": "boj+hike+rate",
+      "title": "Fitch Cuts France’s Outlook to Negative on Weaker Growth, Widening Deficit",
+      "url": "https://www.wsj.com/world/europe/fitch-lowers-frances-outlook-to-negative-from-stable-27de23a3",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "BASF’s $12.5 Billion Takeover Bid for Evonik Rebuffed",
-      "url": "https://www.wsj.com/business/deals/basfs-12-5-billion-takeover-bid-for-evonik-rebuffed-5fe08975",
-      "summary": "BASF's $12.5 billion takeover bid for chemical rival Evonik rebuffed by target's board.",
-      "storyKey": "basf+evonik",
+      "title": "Cheesecake Factory Logs Higher Revenue After Double-Digit Growth at Namesake Restaurants",
+      "url": "https://www.wsj.com/business/earnings/cheesecake-factory-logs-higher-revenue-after-double-digit-growth-at-namesake-restaurants-2497190d",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Are Wages Keeping Pace?",
-      "url": "https://www.wsj.com/opinion/are-wages-keeping-pace-aa8e3b28",
-      "summary": "Opinion piece examines whether U.S. wage growth is keeping pace with inflation trends.",
-      "storyKey": "inflation+wages",
+      "title": "Opinion | New Energy for the U.S. Virgin Islands",
+      "url": "https://www.wsj.com/opinion/new-energy-for-the-u-s-virgin-islands-e5e48756",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Chinese Executive Close to Nvidia CEO Suspected of Giving China Information",
-      "url": "https://www.wsj.com/tech/chinese-executive-close-to-nvidia-ceo-suspected-of-giving-china-information-798eb6a1",
-      "summary": "Chinese executive close to Nvidia's CEO suspected of passing sensitive information to China.",
-      "storyKey": "espionage+nvidia",
+      "title": "Google Parent Alphabet Still Has the Ingredients to Win in an AI Pullback Despite Stock Price Hit",
+      "url": "https://www.wsj.com/tech/ai/alphabet-still-has-the-ingredients-to-win-in-an-ai-pullback-6583aa7c",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The NFL Defensive Guru Who Blitzes on Almost Every Play",
-      "url": "https://www.wsj.com/sports/football/brian-flores-minnesota-vikings-defense-8226a8e2",
-      "summary": "nfl+",
+      "title": "Your Humble Shoe Salesperson Might Be an Elite Marathon Runner",
+      "url": "https://www.wsj.com/sports/new-york-city-marathon-sunday-shoe-sales-a2621537",
+      "summary": "",
       "storyKey": null,
       "source": "WSJ"
     }
   ],
   "research": [
     {
-      "firm": "Goldman Sachs",
-      "show": "Exchanges",
-      "title": "Brookfield’s Connor Teskey on the Real Bottleneck in the AI Buildout",
-      "url": "https://podcasts.apple.com/us/podcast/brookfields-connor-teskey-on-the-real-bottleneck-in/id948913991?i=1000798828152&uo=4",
-      "published": "2026-10-30T04:00:00+00:00",
-      "kind": "podcast",
-      "duration": "35 min",
-      "summary": "The bottleneck in the artificial intelligence (AI) buildout is neither capital nor demand, but rather the operational capability to develop land, secure a grid connection, and build the power supply, says Brookfield Asset Management CEO Connor Teskey on Goldman Sachs Exchanges: Great Investors. Indeed, one market misconception is that demand for data centers is somehow “fragile,” he says in this conversation with Alison Mass, chairman of Investment Banking in Goldman Sachs Global Banking & Markets. Teskey also shares his perspective on long-term investing, Brookfield's approach to building businesses, and the evolution of its private credit platform."
-    },
-    {
-      "firm": "Goldman Sachs",
-      "show": "The Markets",
-      "title": "Bullish Options Trades Slow amid AI Uncertainty",
-      "url": "https://podcasts.apple.com/us/podcast/bullish-options-trades-slow-amid-ai-uncertainty/id1683802600?i=1000798827145&uo=4",
-      "published": "2026-10-30T04:00:00+00:00",
-      "kind": "podcast",
-      "duration": "10 min",
-      "summary": "Options markets are showing signs of increased nervousness about artificial intelligence (AI) as investors focus closely on earnings from large tech companies and try to separate likely winners from losers, says Lee Coppersmith from the Equity Derivative Sales team in Goldman Sachs FICC and Equities. Overall demand for AI stocks remains strong and the S&P has remained resilient, but put option buying has picked up in recent weeks while activity has waned in call options that would reward a jump in equities, he explains on The Markets podcast."
-    },
-    {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
-      "title": "How Digital Assets Are Rewiring Financial Markets",
-      "url": "https://podcasts.apple.com/us/podcast/how-digital-assets-are-rewiring-financial-markets/id1466686717?i=1000798780698&uo=4",
-      "published": "2026-10-29T21:00:00+00:00",
+      "title": "The Curious Calm of Credit Markets",
+      "url": "https://podcasts.apple.com/us/podcast/the-curious-calm-of-credit-markets/id1466686717?i=1000798954708&uo=4",
+      "published": "2026-10-30T20:00:00+00:00",
       "kind": "podcast",
-      "duration": "11 min",
-      "summary": "Our Head of Digital Asset Strategy Amy Oldenburg joins Global Digital Asset Strategist Felix Stratmann discuss how tokenization, regulation, and the convergence of traditional and digital finance could reshape global markets. Read more insights from Morgan Stanley."
+      "duration": "5 min",
+      "summary": "It appears that credit investors have gotten most of what they’ve wished for over the last decade. Our Global Head of Fixed Income Research Andrew Sheets considers whether there could be unintended consequences. Read more insights from Morgan Stanley."
     }
   ]
 }
