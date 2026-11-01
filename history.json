@@ -1,31 +1,4 @@
 {
-  "2026-10-10": [
-    {
-      "title": "U.S., European Bond Yields Rise",
-      "url": "https://www.wsj.com/finance/investing/french-bond-yields-stay-elevated-treasury-yields-ease-13103f54",
-      "storyKey": null
-    },
-    {
-      "title": "A ‘Baywatch’ Star Shares Her NYC Marathon Day Spots",
-      "url": "https://www.wsj.com/lifestyle/travel/brooks-nader-nyc-new-york-marathon-99b05016",
-      "storyKey": null
-    },
-    {
-      "title": "Opinion | Tariffs Are Hurting the GOP in Michigan",
-      "url": "https://www.wsj.com/opinion/mike-rogers-michigan-tariffs-canada-donald-trump-6b3d2bd8",
-      "storyKey": null
-    },
-    {
-      "title": "OpenAI Makes Progress in Preventing AI-Driven ChatGPT Delusions",
-      "url": "https://www.wsj.com/tech/ai/chatgpt-gpt5-sycophancy-delusions-9b3506bf",
-      "storyKey": null
-    },
-    {
-      "title": "The Dodgers Steamroller Is Revving Up Again",
-      "url": "https://www.wsj.com/sports/baseball/the-dodgers-steamroller-is-revving-up-again-bae214b3",
-      "storyKey": null
-    }
-  ],
   "2026-10-11": [
     {
       "title": "Long-Term Treasury Yields Settle at New Multidecade Highs",
@@ -593,10 +566,34 @@
       "storyKey": "mets+spending+waste"
     }
   ],
+  "2026-11-01": [
+    {
+      "title": "Interest Rates Look Kinda Low",
+      "url": "https://www.wsj.com/economy/central-banking/interest-rates-look-kinda-low-39f99f8c",
+      "storyKey": null
+    },
+    {
+      "title": "Ares Private-Credit Fund to Buy Competitor From Apollo",
+      "url": "https://www.wsj.com/finance/investing/ares-private-credit-fund-to-buy-competitor-from-apollo-daecb67c",
+      "storyKey": "apollo+ares+creditfund"
+    },
+    {
+      "title": "Opinion | Britain’s Defense Budget Blues",
+      "url": "https://www.wsj.com/opinion/britain-budget-defense-welfare-john-healey-andy-burnham-e5cfb645",
+      "storyKey": "britain+budget+defense"
+    },
+    {
+      "title": "Meta Faces U.K. Antitrust Probe Over Publisher Content Terms",
+      "url": "https://www.wsj.com/tech/meta-faces-u-k-antitrust-probe-over-publisher-content-use-11637585",
+      "storyKey": "antitrust+meta+uk"
+    },
+    {
+      "title": "The Baseball Season Is Over—but for How Long?",
+      "url": "https://www.wsj.com/sports/the-baseball-season-is-overbut-for-how-long-2db2d73b",
+      "storyKey": "mlb+offseason+outlook"
+    }
+  ],
   "_research": {
-    "2026-10-10": [
-      "https://podcasts.apple.com/us/podcast/will-high-yields-crack-the-markets-resilience/id1466686717?i=1000794525524&uo=4"
-    ],
     "2026-10-11": [],
     "2026-10-12": [],
     "2026-10-13": [
@@ -661,6 +658,9 @@
     ],
     "2026-10-31": [
       "https://podcasts.apple.com/us/podcast/the-curious-calm-of-credit-markets/id1466686717?i=1000798954708&uo=4"
+    ],
+    "2026-11-01": [
+      "https://podcasts.apple.com/us/podcast/closing-the-defense-production-gap/id1456184829?i=1000799185409&uo=4"
     ]
   }
 }
