@@ -1,12 +1,12 @@
 {
   "date": "2026-11-01",
-  "generatedAt": "2026-11-01T11:49:32.696077+00:00",
+  "generatedAt": "2026-11-01T16:01:17.039009+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Interest Rates Look Kinda Low",
-      "url": "https://www.wsj.com/economy/central-banking/interest-rates-look-kinda-low-39f99f8c",
+      "title": "RBA’s Blunt Messaging Raises Questions About Peak in Rates",
+      "url": "https://www.wsj.com/economy/central-banking/reserve-bank-of-australias-blunt-messaging-raises-questions-about-peak-in-rates-eb1b378a",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -16,35 +16,35 @@
       "label": "Micro",
       "title": "Ares Private-Credit Fund to Buy Competitor From Apollo",
       "url": "https://www.wsj.com/finance/investing/ares-private-credit-fund-to-buy-competitor-from-apollo-daecb67c",
-      "summary": "Ares private-credit fund agrees to acquire a competing fund from Apollo, consolidating private credit market.",
-      "storyKey": "apollo+ares+creditfund",
+      "summary": "Ares private-credit fund to acquire a competing fund from Apollo in named deal.",
+      "storyKey": "apollo+ares+credit+private",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Britain’s Defense Budget Blues",
-      "url": "https://www.wsj.com/opinion/britain-budget-defense-welfare-john-healey-andy-burnham-e5cfb645",
-      "summary": "Opinion piece examines strains and tough tradeoffs facing Britain's defense spending plans.",
-      "storyKey": "britain+budget+defense",
+      "title": "Opinion | The Unsolvable Task of Managing the Dollar",
+      "url": "https://www.wsj.com/opinion/the-unsolvable-task-of-managing-the-dollar-1d2cd05a",
+      "summary": "Opinion argues managing the U.S. dollar is an inherently unsolvable policy task.",
+      "storyKey": "dollar+management+policy",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Meta Faces U.K. Antitrust Probe Over Publisher Content Terms",
-      "url": "https://www.wsj.com/tech/meta-faces-u-k-antitrust-probe-over-publisher-content-use-11637585",
-      "summary": "UK regulators open antitrust probe into Meta over its content terms with publishers.",
-      "storyKey": "antitrust+meta+uk",
+      "title": "The Tangled Web of AI Bets Is Reason to Fear Tech Stocks",
+      "url": "https://www.wsj.com/tech/the-tangled-web-of-ai-bets-is-reason-to-fear-tech-stocks-905bde86",
+      "summary": "Tangled web of interlocking AI investment deals raises fears for tech stock valuations.",
+      "storyKey": "ai+bets+stocks",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The Baseball Season Is Over—but for How Long?",
-      "url": "https://www.wsj.com/sports/the-baseball-season-is-overbut-for-how-long-2db2d73b",
-      "summary": "Column asks how long the current Major League Baseball season's offseason will last.",
-      "storyKey": "mlb+offseason+outlook",
+      "title": "The NFL Still Can’t Crack the Science of Jet Lag",
+      "url": "https://www.wsj.com/sports/football/the-nfl-still-cant-crack-the-science-of-jet-lag-a643dcca",
+      "summary": "NFL still struggles to solve the science of jet lag for traveling teams.",
+      "storyKey": "jetlag+nfl+science",
       "source": "WSJ"
     }
   ],

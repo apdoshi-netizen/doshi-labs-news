@@ -568,29 +568,29 @@
   ],
   "2026-11-01": [
     {
-      "title": "Interest Rates Look Kinda Low",
-      "url": "https://www.wsj.com/economy/central-banking/interest-rates-look-kinda-low-39f99f8c",
+      "title": "RBA’s Blunt Messaging Raises Questions About Peak in Rates",
+      "url": "https://www.wsj.com/economy/central-banking/reserve-bank-of-australias-blunt-messaging-raises-questions-about-peak-in-rates-eb1b378a",
       "storyKey": null
     },
     {
       "title": "Ares Private-Credit Fund to Buy Competitor From Apollo",
       "url": "https://www.wsj.com/finance/investing/ares-private-credit-fund-to-buy-competitor-from-apollo-daecb67c",
-      "storyKey": "apollo+ares+creditfund"
+      "storyKey": "apollo+ares+credit+private"
     },
     {
-      "title": "Opinion | Britain’s Defense Budget Blues",
-      "url": "https://www.wsj.com/opinion/britain-budget-defense-welfare-john-healey-andy-burnham-e5cfb645",
-      "storyKey": "britain+budget+defense"
+      "title": "Opinion | The Unsolvable Task of Managing the Dollar",
+      "url": "https://www.wsj.com/opinion/the-unsolvable-task-of-managing-the-dollar-1d2cd05a",
+      "storyKey": "dollar+management+policy"
     },
     {
-      "title": "Meta Faces U.K. Antitrust Probe Over Publisher Content Terms",
-      "url": "https://www.wsj.com/tech/meta-faces-u-k-antitrust-probe-over-publisher-content-use-11637585",
-      "storyKey": "antitrust+meta+uk"
+      "title": "The Tangled Web of AI Bets Is Reason to Fear Tech Stocks",
+      "url": "https://www.wsj.com/tech/the-tangled-web-of-ai-bets-is-reason-to-fear-tech-stocks-905bde86",
+      "storyKey": "ai+bets+stocks"
     },
     {
-      "title": "The Baseball Season Is Over—but for How Long?",
-      "url": "https://www.wsj.com/sports/the-baseball-season-is-overbut-for-how-long-2db2d73b",
-      "storyKey": "mlb+offseason+outlook"
+      "title": "The NFL Still Can’t Crack the Science of Jet Lag",
+      "url": "https://www.wsj.com/sports/football/the-nfl-still-cant-crack-the-science-of-jet-lag-a643dcca",
+      "storyKey": "jetlag+nfl+science"
     }
   ],
   "_research": {
