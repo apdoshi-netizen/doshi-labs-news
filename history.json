@@ -568,13 +568,13 @@
   ],
   "2026-11-02": [
     {
-      "title": "BOE Expected to Join Peers in Raising Key Rate",
-      "url": "https://www.wsj.com/economy/central-banking/boe-expected-to-join-peers-in-raising-key-rate-62a61c5b",
-      "storyKey": "boe+hike+rate"
+      "title": "Fitch Cuts France’s Outlook to Negative on Weaker Growth, Widening Deficit",
+      "url": "https://www.wsj.com/world/europe/fitch-lowers-frances-outlook-to-negative-from-stable-27de23a3",
+      "storyKey": "downgrade+fitch+france"
     },
     {
-      "title": "Marvell to Buy Lumentum for $115 Billion in All-Stock AI Deal",
-      "url": "https://www.wsj.com/business/deals/marvell-to-buy-lumentum-for-115-billion-in-all-stock-ai-deal-c9fd43a6",
+      "title": "Chip Maker Marvell Agrees to Buy Lumentum in $80 Billion Deal",
+      "url": "https://www.wsj.com/business/deals/marvell-to-buy-lumentum-for-80-billion-in-all-stock-ai-deal-c9fd43a6",
       "storyKey": "lumentum+marvell"
     },
     {
@@ -588,9 +588,9 @@
       "storyKey": "ai+spenders+spooked"
     },
     {
-      "title": "His Comeback Lasted One Play. His Injury Changes the Entire NFL Season.",
-      "url": "https://www.wsj.com/sports/football/lamar-jackson-baltimore-ravens-7983cfcd",
-      "storyKey": "injury+nfl+season"
+      "title": "The Boy Racer Who Just Ended Italy’s 73-Year Wait for an F1 Champion",
+      "url": "https://www.wsj.com/sports/kimi-antonelli-mercedes-formula-one-abb2e586",
+      "storyKey": "champion+f1+italy"
     }
   ],
   "_research": {

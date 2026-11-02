@@ -1,22 +1,22 @@
 {
   "date": "2026-11-02",
-  "generatedAt": "2026-11-02T13:28:21.299568+00:00",
+  "generatedAt": "2026-11-02T19:28:50.206391+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "BOE Expected to Join Peers in Raising Key Rate",
-      "url": "https://www.wsj.com/economy/central-banking/boe-expected-to-join-peers-in-raising-key-rate-62a61c5b",
-      "summary": "Bank of England expected to raise its key interest rate, joining global peers tightening policy.",
-      "storyKey": "boe+hike+rate",
+      "title": "Fitch Cuts France’s Outlook to Negative on Weaker Growth, Widening Deficit",
+      "url": "https://www.wsj.com/world/europe/fitch-lowers-frances-outlook-to-negative-from-stable-27de23a3",
+      "summary": "Fitch cut France's credit outlook to negative, citing weaker growth and a widening budget deficit.",
+      "storyKey": "downgrade+fitch+france",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Marvell to Buy Lumentum for $115 Billion in All-Stock AI Deal",
-      "url": "https://www.wsj.com/business/deals/marvell-to-buy-lumentum-for-115-billion-in-all-stock-ai-deal-c9fd43a6",
-      "summary": "Marvell to buy Lumentum for $115 billion in an all-stock AI-focused deal.",
+      "title": "Chip Maker Marvell Agrees to Buy Lumentum in $80 Billion Deal",
+      "url": "https://www.wsj.com/business/deals/marvell-to-buy-lumentum-for-80-billion-in-all-stock-ai-deal-c9fd43a6",
+      "summary": "Chip maker Marvell agreed to buy optical-component firm Lumentum in an $80 billion all-stock AI deal.",
       "storyKey": "lumentum+marvell",
       "source": "WSJ"
     },
@@ -25,7 +25,7 @@
       "label": "Op-Ed",
       "title": "Opinion | Fed Reform Can’t Become an Inflation Excuse",
       "url": "https://www.wsj.com/opinion/fed-reform-cant-become-an-inflation-excuse-23a46f8e",
-      "summary": "Opinion argues Federal Reserve reform must not be used as an excuse for inflation.",
+      "summary": "Opinion argues Federal Reserve reform efforts must not be used as cover for excusing persistent inflation.",
       "storyKey": "fed+inflation+reform",
       "source": "WSJ"
     },
@@ -34,17 +34,17 @@
       "label": "Tech",
       "title": "AI Spenders Get Spooked",
       "url": "https://www.wsj.com/tech/ai/ai-spenders-get-spooked-80534757",
-      "summary": "Markets rattled as heavy AI spending raises investor concerns about returns and sustainability.",
+      "summary": "Opinion-style tech piece examines investors growing nervous about massive AI spending commitments.",
       "storyKey": "ai+spenders+spooked",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "His Comeback Lasted One Play. His Injury Changes the Entire NFL Season.",
-      "url": "https://www.wsj.com/sports/football/lamar-jackson-baltimore-ravens-7983cfcd",
-      "summary": "A player's brief comeback injury reshapes the outlook for the entire NFL season.",
-      "storyKey": "injury+nfl+season",
+      "title": "The Boy Racer Who Just Ended Italy’s 73-Year Wait for an F1 Champion",
+      "url": "https://www.wsj.com/sports/kimi-antonelli-mercedes-formula-one-abb2e586",
+      "summary": "A young driver ended Ital",
+      "storyKey": "champion+f1+italy",
       "source": "WSJ"
     }
   ],
