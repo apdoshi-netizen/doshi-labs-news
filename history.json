@@ -1,31 +1,4 @@
 {
-  "2026-10-11": [
-    {
-      "title": "Long-Term Treasury Yields Settle at New Multidecade Highs",
-      "url": "https://www.wsj.com/finance/jgbs-mixed-ahead-of-expected-extraordinary-diet-session-in-japan-91edd376",
-      "storyKey": "treasury+yields"
-    },
-    {
-      "title": "Akzo Nobel to Sell Southeast Asia Decorative Paints Business for $1.35 Billion",
-      "url": "https://www.wsj.com/business/akzo-nobel-to-sell-southeast-asia-decorative-paints-business-for-1-35-billion-4e39be48",
-      "storyKey": "akzonobel+paints"
-    },
-    {
-      "title": "Opinion | Unintelligence on Super Intelligence",
-      "url": "https://www.wsj.com/opinion/unintelligence-on-super-intelligence-dfb2f897",
-      "storyKey": "ai+superintelligence"
-    },
-    {
-      "title": "OpenAI’s ChatGPT for Teens Poses ‘Unacceptable Risk,’ Nonprofit Says",
-      "url": "https://www.wsj.com/tech/ai/openais-chatgpt-for-teens-poses-unacceptable-risk-nonprofit-says-fd95f8fe",
-      "storyKey": "chatgpt+openai+teens"
-    },
-    {
-      "title": "The Yankees Aren’t Arrogant Jerks Anymore. That Might Be a Problem.",
-      "url": "https://www.wsj.com/sports/baseball/yankees-playoffs-aaron-judge-b38eb769",
-      "storyKey": "culture+yankees"
-    }
-  ],
   "2026-10-12": [
     {
       "title": "Rupee Jumps After India Central Bank Unveils Currency-Defense Measures",
@@ -593,8 +566,34 @@
       "storyKey": "jetlag+nfl+science"
     }
   ],
+  "2026-11-02": [
+    {
+      "title": "BOE Expected to Join Peers in Raising Key Rate",
+      "url": "https://www.wsj.com/economy/central-banking/boe-expected-to-join-peers-in-raising-key-rate-62a61c5b",
+      "storyKey": "boe+hike+rate"
+    },
+    {
+      "title": "Marvell to Buy Lumentum for $115 Billion in All-Stock AI Deal",
+      "url": "https://www.wsj.com/business/deals/marvell-to-buy-lumentum-for-115-billion-in-all-stock-ai-deal-c9fd43a6",
+      "storyKey": "lumentum+marvell"
+    },
+    {
+      "title": "Opinion | Fed Reform Can’t Become an Inflation Excuse",
+      "url": "https://www.wsj.com/opinion/fed-reform-cant-become-an-inflation-excuse-23a46f8e",
+      "storyKey": "fed+inflation+reform"
+    },
+    {
+      "title": "AI Spenders Get Spooked",
+      "url": "https://www.wsj.com/tech/ai/ai-spenders-get-spooked-80534757",
+      "storyKey": "ai+spenders+spooked"
+    },
+    {
+      "title": "His Comeback Lasted One Play. His Injury Changes the Entire NFL Season.",
+      "url": "https://www.wsj.com/sports/football/lamar-jackson-baltimore-ravens-7983cfcd",
+      "storyKey": "injury+nfl+season"
+    }
+  ],
   "_research": {
-    "2026-10-11": [],
     "2026-10-12": [],
     "2026-10-13": [
       "https://podcasts.apple.com/us/podcast/where-chinese-exports-are-gaining-the-most-market-share/id948913991?i=1000796146475&uo=4",
@@ -661,6 +660,7 @@
     ],
     "2026-11-01": [
       "https://podcasts.apple.com/us/podcast/closing-the-defense-production-gap/id1456184829?i=1000799185409&uo=4"
-    ]
+    ],
+    "2026-11-02": []
   }
 }

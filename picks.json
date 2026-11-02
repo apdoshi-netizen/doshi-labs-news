@@ -1,63 +1,52 @@
 {
-  "date": "2026-11-01",
-  "generatedAt": "2026-11-01T16:01:17.039009+00:00",
+  "date": "2026-11-02",
+  "generatedAt": "2026-11-02T13:28:21.299568+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "RBA’s Blunt Messaging Raises Questions About Peak in Rates",
-      "url": "https://www.wsj.com/economy/central-banking/reserve-bank-of-australias-blunt-messaging-raises-questions-about-peak-in-rates-eb1b378a",
-      "summary": "",
-      "storyKey": null,
+      "title": "BOE Expected to Join Peers in Raising Key Rate",
+      "url": "https://www.wsj.com/economy/central-banking/boe-expected-to-join-peers-in-raising-key-rate-62a61c5b",
+      "summary": "Bank of England expected to raise its key interest rate, joining global peers tightening policy.",
+      "storyKey": "boe+hike+rate",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Ares Private-Credit Fund to Buy Competitor From Apollo",
-      "url": "https://www.wsj.com/finance/investing/ares-private-credit-fund-to-buy-competitor-from-apollo-daecb67c",
-      "summary": "Ares private-credit fund to acquire a competing fund from Apollo in named deal.",
-      "storyKey": "apollo+ares+credit+private",
+      "title": "Marvell to Buy Lumentum for $115 Billion in All-Stock AI Deal",
+      "url": "https://www.wsj.com/business/deals/marvell-to-buy-lumentum-for-115-billion-in-all-stock-ai-deal-c9fd43a6",
+      "summary": "Marvell to buy Lumentum for $115 billion in an all-stock AI-focused deal.",
+      "storyKey": "lumentum+marvell",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | The Unsolvable Task of Managing the Dollar",
-      "url": "https://www.wsj.com/opinion/the-unsolvable-task-of-managing-the-dollar-1d2cd05a",
-      "summary": "Opinion argues managing the U.S. dollar is an inherently unsolvable policy task.",
-      "storyKey": "dollar+management+policy",
+      "title": "Opinion | Fed Reform Can’t Become an Inflation Excuse",
+      "url": "https://www.wsj.com/opinion/fed-reform-cant-become-an-inflation-excuse-23a46f8e",
+      "summary": "Opinion argues Federal Reserve reform must not be used as an excuse for inflation.",
+      "storyKey": "fed+inflation+reform",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "The Tangled Web of AI Bets Is Reason to Fear Tech Stocks",
-      "url": "https://www.wsj.com/tech/the-tangled-web-of-ai-bets-is-reason-to-fear-tech-stocks-905bde86",
-      "summary": "Tangled web of interlocking AI investment deals raises fears for tech stock valuations.",
-      "storyKey": "ai+bets+stocks",
+      "title": "AI Spenders Get Spooked",
+      "url": "https://www.wsj.com/tech/ai/ai-spenders-get-spooked-80534757",
+      "summary": "Markets rattled as heavy AI spending raises investor concerns about returns and sustainability.",
+      "storyKey": "ai+spenders+spooked",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The NFL Still Can’t Crack the Science of Jet Lag",
-      "url": "https://www.wsj.com/sports/football/the-nfl-still-cant-crack-the-science-of-jet-lag-a643dcca",
-      "summary": "NFL still struggles to solve the science of jet lag for traveling teams.",
-      "storyKey": "jetlag+nfl+science",
+      "title": "His Comeback Lasted One Play. His Injury Changes the Entire NFL Season.",
+      "url": "https://www.wsj.com/sports/football/lamar-jackson-baltimore-ravens-7983cfcd",
+      "summary": "A player's brief comeback injury reshapes the outlook for the entire NFL season.",
+      "storyKey": "injury+nfl+season",
       "source": "WSJ"
     }
   ],
-  "research": [
-    {
-      "firm": "J.P. Morgan",
-      "show": "Making Sense",
-      "title": "Closing the defense production gap",
-      "url": "https://podcasts.apple.com/us/podcast/closing-the-defense-production-gap/id1456184829?i=1000799185409&uo=4",
-      "published": "2026-11-01T06:00:00+00:00",
-      "kind": "podcast",
-      "duration": "10 min",
-      "summary": "Modern warfare has exposed a costly gap between what militaries need and what the industrial base can deliver. General Chris Cavoli (Ret.), former Supreme Allied Commander Europe, and Mark Marengo, head of diversified industries investment banking at J.P. Morgan, discuss why closing that gap will take new ways of solving problems and closer partnership between capital, industry and government."
-    }
-  ]
+  "research": []
 }
