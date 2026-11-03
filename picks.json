@@ -1,50 +1,50 @@
 {
   "date": "2026-11-03",
-  "generatedAt": "2026-11-03T12:46:18.262042+00:00",
+  "generatedAt": "2026-11-03T17:01:48.255354+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
       "title": "BOE Expected to Join Peers in Raising Key Rate",
       "url": "https://www.wsj.com/economy/central-banking/boe-expected-to-join-peers-in-raising-key-rate-62a61c5b",
-      "summary": "Bank of England expected to raise interest rates, joining global peers tightening monetary policy.",
+      "summary": "BOE expected to raise its key interest rate, joining other major central banks in policy tightening.",
       "storyKey": "boe+hike+rate",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Exclusive | Carl Icahn’s CVR Energy Near Over $4 Billion Deal for Marathon Refineries",
+      "title": "Carl Icahn’s CVR Energy Strikes $4 Billion Deal for Two Marathon Refineries",
       "url": "https://www.wsj.com/business/deals/carl-icahns-cvr-energy-near-over-4-billion-deal-for-marathon-refineries-e8487579",
-      "summary": "Carl Icahn's CVR Energy nears over $4 billion deal to acquire Marathon refineries.",
+      "summary": "Carl Icahn's CVR Energy agrees to $4 billion deal to acquire two Marathon refineries.",
       "storyKey": "cvr+marathon",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | A New Tax Preparation Mandate",
-      "url": "https://www.wsj.com/opinion/a-new-tax-preparation-mandate-d1a1166e",
-      "summary": "Opinion argues against a new government mandate for tax preparation services.",
-      "storyKey": "mandate+preparation+tax",
+      "title": "Opinion | Ban Officials From Prediction Market Trading",
+      "url": "https://www.wsj.com/opinion/ban-officials-from-prediction-market-trading-c8a2b47f",
+      "summary": "Opinion argues officials should be banned from trading on prediction markets to avoid conflicts of interest.",
+      "storyKey": "markets+officials+prediction",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Apple Beats Wall Street Expectations With Boost From Higher Prices",
-      "url": "https://www.wsj.com/tech/apple-beats-wall-street-expectations-with-boost-from-higher-prices-36749418?mod",
-      "summary": "Apple beats Wall Street expectations, boosted by higher prices on its products.",
-      "storyKey": "apple+earnings",
+      "title": "Meta Faces U.K. Antitrust Probe Over Publisher Content Terms",
+      "url": "https://www.wsj.com/tech/meta-faces-u-k-antitrust-probe-over-publisher-content-use-11637585",
+      "summary": "Meta faces a U.K. antitrust probe over its content terms with publishers.",
+      "storyKey": "antitrust+meta+uk",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "His Comeback Lasted One Play. His Injury Changes the Entire NFL Season.",
-      "url": "https://www.wsj.com/sports/football/lamar-jackson-baltimore-ravens-7983cfcd",
-      "summary": "Player's one-play comeback injury significantly alters the entire NFL season outlook.",
-      "storyKey": "comeback+injury+nfl",
+      "title": "He’s the Biggest Ball Hog in the NBA—and Nobody Can Stop Him",
+      "url": "https://www.wsj.com/sports/basketball/luka-doncic-lakers-b6212fba",
+      "summary": "Profile of an NBA player whose ball-dominant style makes him impossible to stop or replicate.",
+      "storyKey": "ball+hog+nba",
       "source": "WSJ"
     }
   ],
