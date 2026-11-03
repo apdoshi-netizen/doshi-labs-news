@@ -1,31 +1,4 @@
 {
-  "2026-10-12": [
-    {
-      "title": "Rupee Jumps After India Central Bank Unveils Currency-Defense Measures",
-      "url": "https://www.wsj.com/finance/currencies/rupee-jumps-after-india-central-bank-unveils-currency-defense-measures-26b7caa0",
-      "storyKey": "intervention+rbi+rupee"
-    },
-    {
-      "title": "Getty Images to File for Bankruptcy, Go Private Via Koch Deal",
-      "url": "https://www.wsj.com/business/getty-images-to-file-for-bankruptcy-go-private-via-koch-deal-b34e9040",
-      "storyKey": "getty+images+koch"
-    },
-    {
-      "title": "Opinion | How the AI Boom Ends",
-      "url": "https://www.wsj.com/opinion/how-the-ai-boom-ends-0d9d47e7",
-      "storyKey": "ai+boom+bust"
-    },
-    {
-      "title": "Meta Says New AI Model Is State-of-the-Art, Will Make Muse Agent Smarter",
-      "url": "https://www.wsj.com/tech/ai/meta-says-new-ai-model-is-state-of-the-art-will-make-muse-agent-smarter-1304cdf4",
-      "storyKey": "ai+meta+model"
-    },
-    {
-      "title": "What Are They Thinking? Daffy NFL Teams Can’t Stop Making Brainless Mistakes",
-      "url": "https://www.wsj.com/sports/football/daffy-nfl-teams-cant-stop-making-brainless-mistakes-0d57c726",
-      "storyKey": "mistakes+nfl"
-    }
-  ],
   "2026-10-13": [
     {
       "title": "IMF Warns of Global Economic Setbacks as Shocks Test Resilience",
@@ -593,8 +566,34 @@
       "storyKey": "champion+f1+italy"
     }
   ],
+  "2026-11-03": [
+    {
+      "title": "BOE Expected to Join Peers in Raising Key Rate",
+      "url": "https://www.wsj.com/economy/central-banking/boe-expected-to-join-peers-in-raising-key-rate-62a61c5b",
+      "storyKey": "boe+hike+rate"
+    },
+    {
+      "title": "Exclusive | Carl Icahn’s CVR Energy Near Over $4 Billion Deal for Marathon Refineries",
+      "url": "https://www.wsj.com/business/deals/carl-icahns-cvr-energy-near-over-4-billion-deal-for-marathon-refineries-e8487579",
+      "storyKey": "cvr+marathon"
+    },
+    {
+      "title": "Opinion | A New Tax Preparation Mandate",
+      "url": "https://www.wsj.com/opinion/a-new-tax-preparation-mandate-d1a1166e",
+      "storyKey": "mandate+preparation+tax"
+    },
+    {
+      "title": "Apple Beats Wall Street Expectations With Boost From Higher Prices",
+      "url": "https://www.wsj.com/tech/apple-beats-wall-street-expectations-with-boost-from-higher-prices-36749418?mod",
+      "storyKey": "apple+earnings"
+    },
+    {
+      "title": "His Comeback Lasted One Play. His Injury Changes the Entire NFL Season.",
+      "url": "https://www.wsj.com/sports/football/lamar-jackson-baltimore-ravens-7983cfcd",
+      "storyKey": "comeback+injury+nfl"
+    }
+  ],
   "_research": {
-    "2026-10-12": [],
     "2026-10-13": [
       "https://podcasts.apple.com/us/podcast/where-chinese-exports-are-gaining-the-most-market-share/id948913991?i=1000796146475&uo=4",
       "https://podcasts.apple.com/us/podcast/the-politics-of-powering-ai/id1466686717?i=1000796012437&uo=4",
@@ -661,6 +660,9 @@
     "2026-11-01": [
       "https://podcasts.apple.com/us/podcast/closing-the-defense-production-gap/id1456184829?i=1000799185409&uo=4"
     ],
-    "2026-11-02": []
+    "2026-11-02": [],
+    "2026-11-03": [
+      "https://podcasts.apple.com/us/podcast/will-ai-start-making-your-hotel-reservations/id1466686717?i=1000799481268&uo=4"
+    ]
   }
 }

@@ -1,52 +1,63 @@
 {
-  "date": "2026-11-02",
-  "generatedAt": "2026-11-02T19:28:50.206391+00:00",
+  "date": "2026-11-03",
+  "generatedAt": "2026-11-03T12:46:18.262042+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Fitch Cuts France’s Outlook to Negative on Weaker Growth, Widening Deficit",
-      "url": "https://www.wsj.com/world/europe/fitch-lowers-frances-outlook-to-negative-from-stable-27de23a3",
-      "summary": "Fitch cut France's credit outlook to negative, citing weaker growth and a widening budget deficit.",
-      "storyKey": "downgrade+fitch+france",
+      "title": "BOE Expected to Join Peers in Raising Key Rate",
+      "url": "https://www.wsj.com/economy/central-banking/boe-expected-to-join-peers-in-raising-key-rate-62a61c5b",
+      "summary": "Bank of England expected to raise interest rates, joining global peers tightening monetary policy.",
+      "storyKey": "boe+hike+rate",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Chip Maker Marvell Agrees to Buy Lumentum in $80 Billion Deal",
-      "url": "https://www.wsj.com/business/deals/marvell-to-buy-lumentum-for-80-billion-in-all-stock-ai-deal-c9fd43a6",
-      "summary": "Chip maker Marvell agreed to buy optical-component firm Lumentum in an $80 billion all-stock AI deal.",
-      "storyKey": "lumentum+marvell",
+      "title": "Exclusive | Carl Icahn’s CVR Energy Near Over $4 Billion Deal for Marathon Refineries",
+      "url": "https://www.wsj.com/business/deals/carl-icahns-cvr-energy-near-over-4-billion-deal-for-marathon-refineries-e8487579",
+      "summary": "Carl Icahn's CVR Energy nears over $4 billion deal to acquire Marathon refineries.",
+      "storyKey": "cvr+marathon",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Fed Reform Can’t Become an Inflation Excuse",
-      "url": "https://www.wsj.com/opinion/fed-reform-cant-become-an-inflation-excuse-23a46f8e",
-      "summary": "Opinion argues Federal Reserve reform efforts must not be used as cover for excusing persistent inflation.",
-      "storyKey": "fed+inflation+reform",
+      "title": "Opinion | A New Tax Preparation Mandate",
+      "url": "https://www.wsj.com/opinion/a-new-tax-preparation-mandate-d1a1166e",
+      "summary": "Opinion argues against a new government mandate for tax preparation services.",
+      "storyKey": "mandate+preparation+tax",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "AI Spenders Get Spooked",
-      "url": "https://www.wsj.com/tech/ai/ai-spenders-get-spooked-80534757",
-      "summary": "Opinion-style tech piece examines investors growing nervous about massive AI spending commitments.",
-      "storyKey": "ai+spenders+spooked",
+      "title": "Apple Beats Wall Street Expectations With Boost From Higher Prices",
+      "url": "https://www.wsj.com/tech/apple-beats-wall-street-expectations-with-boost-from-higher-prices-36749418?mod",
+      "summary": "Apple beats Wall Street expectations, boosted by higher prices on its products.",
+      "storyKey": "apple+earnings",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The Boy Racer Who Just Ended Italy’s 73-Year Wait for an F1 Champion",
-      "url": "https://www.wsj.com/sports/kimi-antonelli-mercedes-formula-one-abb2e586",
-      "summary": "A young driver ended Ital",
-      "storyKey": "champion+f1+italy",
+      "title": "His Comeback Lasted One Play. His Injury Changes the Entire NFL Season.",
+      "url": "https://www.wsj.com/sports/football/lamar-jackson-baltimore-ravens-7983cfcd",
+      "summary": "Player's one-play comeback injury significantly alters the entire NFL season outlook.",
+      "storyKey": "comeback+injury+nfl",
       "source": "WSJ"
     }
   ],
-  "research": []
+  "research": [
+    {
+      "firm": "Morgan Stanley",
+      "show": "Thoughts on the Market",
+      "title": "Will AI Start Making Your Hotel Reservations?",
+      "url": "https://podcasts.apple.com/us/podcast/will-ai-start-making-your-hotel-reservations/id1466686717?i=1000799481268&uo=4",
+      "published": "2026-11-02T22:00:00+00:00",
+      "kind": "podcast",
+      "duration": "5 min",
+      "summary": "Stephen Grambling explains how changes in booking habits could redirect billions in travel industry spending. Read more insights from Morgan Stanley."
+    }
+  ]
 }
