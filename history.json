@@ -573,14 +573,14 @@
       "storyKey": "energy+eurozone+inflation"
     },
     {
-      "title": "Saudi Aramco Profit Surges, Offering Some Relief to Kingdom’s Finances",
-      "url": "https://www.wsj.com/business/energy-oil/saudi-aramco-profit-surges-offering-some-relief-to-kindgoms-finances-da309d56",
-      "storyKey": "aramco+profit+surge"
+      "title": "Blackstone Leads $3.1 Billion Investment in Mitsubishi’s Stake in LNG Canada",
+      "url": "https://www.wsj.com/finance/investing/blackstone-leads-3-1-billion-investment-in-mitsubishis-stake-in-lng-canada-96379858",
+      "storyKey": "blackstone+canada+lng"
     },
     {
-      "title": "Opinion | Trump’s Merkel Strategy on Russia",
-      "url": "https://www.wsj.com/opinion/europe-russian-gas-lng-trump-administration-angela-merkel-nord-stream-79ddd89e",
-      "storyKey": "merkel+russia+trump"
+      "title": "Opinion | Will Democrats Misread Their Victory?",
+      "url": "https://www.wsj.com/opinion/democrats-2026-elections-chuck-schumer-hakeem-jeffries-20e65983",
+      "storyKey": "democrats+midterm+victory"
     },
     {
       "title": "Google to Invest $15 Billion in Malaysia Over Two Years",
@@ -660,7 +660,8 @@
       "https://podcasts.apple.com/us/podcast/will-ai-start-making-your-hotel-reservations/id1466686717?i=1000799481268&uo=4"
     ],
     "2026-11-04": [
-      "https://podcasts.apple.com/us/podcast/solving-ais-power-bottleneck/id1466686717?i=1000799678816&uo=4"
+      "https://podcasts.apple.com/us/podcast/solving-ais-power-bottleneck/id1466686717?i=1000799678816&uo=4",
+      "https://podcasts.apple.com/us/podcast/now-you-can-see-everything/id1367963156?i=1000799823234&uo=4"
     ]
   }
 }
