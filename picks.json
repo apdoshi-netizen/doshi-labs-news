@@ -1,50 +1,50 @@
 {
-  "date": "2026-11-03",
-  "generatedAt": "2026-11-03T17:01:48.255354+00:00",
+  "date": "2026-11-04",
+  "generatedAt": "2026-11-04T12:58:31.454805+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "BOE Expected to Join Peers in Raising Key Rate",
-      "url": "https://www.wsj.com/economy/central-banking/boe-expected-to-join-peers-in-raising-key-rate-62a61c5b",
-      "summary": "BOE expected to raise its key interest rate, joining other major central banks in policy tightening.",
-      "storyKey": "boe+hike+rate",
+      "title": "Eurozone Inflation Rises to 4%, Driven by Energy Costs",
+      "url": "https://www.wsj.com/economy/global/eurozone-inflation-climbs-again-driven-by-energy-costs-0adbaef3",
+      "summary": "Eurozone inflation rose to 4% in October, driven by higher energy costs, pressuring ECB policy outlook.",
+      "storyKey": "energy+eurozone+inflation",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Carl Icahn’s CVR Energy Strikes $4 Billion Deal for Two Marathon Refineries",
-      "url": "https://www.wsj.com/business/deals/carl-icahns-cvr-energy-near-over-4-billion-deal-for-marathon-refineries-e8487579",
-      "summary": "Carl Icahn's CVR Energy agrees to $4 billion deal to acquire two Marathon refineries.",
-      "storyKey": "cvr+marathon",
+      "title": "Saudi Aramco Profit Surges, Offering Some Relief to Kingdom’s Finances",
+      "url": "https://www.wsj.com/business/energy-oil/saudi-aramco-profit-surges-offering-some-relief-to-kindgoms-finances-da309d56",
+      "summary": "Saudi Aramco's profit surged, providing relief to the kingdom's finances amid energy market shifts.",
+      "storyKey": "aramco+profit+surge",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Ban Officials From Prediction Market Trading",
-      "url": "https://www.wsj.com/opinion/ban-officials-from-prediction-market-trading-c8a2b47f",
-      "summary": "Opinion argues officials should be banned from trading on prediction markets to avoid conflicts of interest.",
-      "storyKey": "markets+officials+prediction",
+      "title": "Opinion | Trump’s Merkel Strategy on Russia",
+      "url": "https://www.wsj.com/opinion/europe-russian-gas-lng-trump-administration-angela-merkel-nord-stream-79ddd89e",
+      "summary": "Opinion column argues Trump should adopt a \"Merkel strategy\" approach toward Russia policy.",
+      "storyKey": "merkel+russia+trump",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Meta Faces U.K. Antitrust Probe Over Publisher Content Terms",
-      "url": "https://www.wsj.com/tech/meta-faces-u-k-antitrust-probe-over-publisher-content-use-11637585",
-      "summary": "Meta faces a U.K. antitrust probe over its content terms with publishers.",
-      "storyKey": "antitrust+meta+uk",
+      "title": "Google to Invest $15 Billion in Malaysia Over Two Years",
+      "url": "https://www.wsj.com/tech/google-to-invest-15-billion-in-malaysia-over-two-years-0c7400dd",
+      "summary": "Google to invest $15 billion in Malaysia over two years, expanding its tech infrastructure footprint.",
+      "storyKey": "google+investment+malaysia",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "He’s the Biggest Ball Hog in the NBA—and Nobody Can Stop Him",
-      "url": "https://www.wsj.com/sports/basketball/luka-doncic-lakers-b6212fba",
-      "summary": "Profile of an NBA player whose ball-dominant style makes him impossible to stop or replicate.",
-      "storyKey": "ball+hog+nba",
+      "title": "Exclusive | Mark Walter in Talks to Sell Cadillac F1 Stake to Red Sox, Liverpool Owners",
+      "url": "https://www.wsj.com/sports/cadillac-formula-one-mark-walter-john-henry-af86c109",
+      "summary": "Mark Walter in talks to sell Cadillac F1 stake to Red Sox and Liverpool owners.",
+      "storyKey": "cadillac+f1+walter",
       "source": "WSJ"
     }
   ],
@@ -52,12 +52,12 @@
     {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
-      "title": "Will AI Start Making Your Hotel Reservations?",
-      "url": "https://podcasts.apple.com/us/podcast/will-ai-start-making-your-hotel-reservations/id1466686717?i=1000799481268&uo=4",
-      "published": "2026-11-02T22:00:00+00:00",
+      "title": "Solving AI’s Power Bottleneck",
+      "url": "https://podcasts.apple.com/us/podcast/solving-ais-power-bottleneck/id1466686717?i=1000799678816&uo=4",
+      "published": "2026-11-03T22:30:00+00:00",
       "kind": "podcast",
-      "duration": "5 min",
-      "summary": "Stephen Grambling explains how changes in booking habits could redirect billions in travel industry spending. Read more insights from Morgan Stanley."
+      "duration": "10 min",
+      "summary": "Our analysts Andrew Percoco and David Arcaro break down how AI’s surging energy demand could reshape the way we produce, store and use power. Read more insights from Morgan Stanley."
     }
   ]
 }
