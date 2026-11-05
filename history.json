@@ -568,29 +568,29 @@
   ],
   "2026-11-05": [
     {
-      "title": "Fed’s Rate Hold Sends Bond Yields in Different Directions",
-      "url": "https://www.wsj.com/finance/investing/u-s-treasury-yields-rise-ahead-of-federal-reserve-interest-rate-decision-b1f7ef58",
-      "storyKey": "fed+hold+rate"
+      "title": "Latest U.S.-Canada Trade Talks Yield Progress Toward Pact, Carney Says",
+      "url": "https://www.wsj.com/world/americas/latest-u-s-canada-trade-talks-yield-progress-toward-pact-carney-says-6e43fa73",
+      "storyKey": null
     },
     {
-      "title": "China Blocks $5.4 Billion SoftBank Robot Deal, Flexing Control Over AI Tech",
-      "url": "https://www.wsj.com/business/deals/abb-confirms-china-blocked-softbank-deal-for-robotics-unit-cf1d44bf",
-      "storyKey": "china+robot+softbank"
+      "title": "Lockheed Martin to Pay $29.5 Million to Settle Federal Probe Over Diversity Efforts",
+      "url": "https://www.wsj.com/business/lockheed-martin-to-pay-29-5-million-to-settle-federal-probe-over-diversity-efforts-fbf1adf1",
+      "storyKey": null
     },
     {
-      "title": "Opinion | The Healthcare System’s Bad Payment Models",
-      "url": "https://www.wsj.com/opinion/the-healthcare-systems-bad-payment-models-7801db06",
-      "storyKey": "healthcare+models+payment"
+      "title": "Opinion | China Wants to Beat Us to the Moon",
+      "url": "https://www.wsj.com/opinion/free-expression/china-wants-to-beat-us-to-the-moon-63dc365b",
+      "storyKey": null
     },
     {
       "title": "How the Data Center Backlash Could Play Into the Hands of Big Tech",
       "url": "https://www.wsj.com/tech/ai/how-the-data-center-backlash-could-play-into-the-hands-of-big-tech-a37dfb29?mod",
-      "storyKey": "backlash+center+data"
+      "storyKey": null
     },
     {
-      "title": "How LIV’s $5 Billion Quest to Take Over Golf Finally Fell Apart",
-      "url": "https://www.wsj.com/sports/golf/liv-golf-bankruptcy-325ee052",
-      "storyKey": "collapse+golf+liv"
+      "title": "College Football’s Breakout Coach Almost Quit to Sell Artificial Turf",
+      "url": "https://www.wsj.com/sports/football/new-mexico-jason-eck-b7a03a81",
+      "storyKey": null
     }
   ],
   "_research": {
@@ -661,8 +661,10 @@
       "https://podcasts.apple.com/us/podcast/now-you-can-see-everything/id1367963156?i=1000799823234&uo=4"
     ],
     "2026-11-05": [
+      "https://podcasts.apple.com/us/podcast/how-aaru-uses-advanced-ai-simulations-to-predict-human/id1373320104?i=1000800060559&uo=4",
       "https://podcasts.apple.com/us/podcast/john-waldron-on-gdp-growth-ai-and-the-m-a-outlook/id948913991?i=1000799852840&uo=4",
-      "https://podcasts.apple.com/us/podcast/midterm-election-results-three-key-takeaways/id1466686717?i=1000799853539&uo=4"
+      "https://podcasts.apple.com/us/podcast/midterm-election-results-three-key-takeaways/id1466686717?i=1000799853539&uo=4",
+      "https://podcasts.apple.com/us/podcast/capital-is-tilting-east-inside-asias-ai-gold-rush/id1456184829?i=1000800065848&uo=4"
     ]
   }
 }
