@@ -1,31 +1,4 @@
 {
-  "2026-10-14": [
-    {
-      "title": "One More U.S. Interest-Rate Increase May Be Appropriate, Fed’s Williams Says",
-      "url": "https://www.wsj.com/economy/central-banking/one-more-u-s-interest-rate-increase-may-be-appropriate-feds-williams-says-a5a7a1df",
-      "storyKey": "fed+rate+williams"
-    },
-    {
-      "title": "Galderma to Buy ZO Skin Health for $1.5 Billion",
-      "url": "https://www.wsj.com/business/deals/galderma-to-buy-zo-skin-health-for-1-5-billion-354ba9ff",
-      "storyKey": "galderma+zo"
-    },
-    {
-      "title": "Opinion | U.S. Manufacturers Need Permitting Reform",
-      "url": "https://www.wsj.com/opinion/u-s-manufacturers-need-permitting-reform-1e0cd65b",
-      "storyKey": "manufacturing+permitting"
-    },
-    {
-      "title": "GlobalFoundries to Build Two Chip Fabs With Up to $21 Billion Funding",
-      "url": "https://www.wsj.com/tech/globalfoundries-to-build-two-chip-fabs-with-up-to-21-billion-funding-e74083ac",
-      "storyKey": "chipfabs+globalfoundries"
-    },
-    {
-      "title": "What’s Wrong With Shohei Ohtani?",
-      "url": "https://www.wsj.com/sports/baseball/whats-wrong-with-shohei-ohtani-b624f582",
-      "storyKey": "dodgers+ohtani"
-    }
-  ],
   "2026-10-15": [
     {
       "title": "Stubborn Sellers Are the Last Thing Propping Up Home Prices",
@@ -593,10 +566,34 @@
       "storyKey": "cadillac+f1+walter"
     }
   ],
+  "2026-11-05": [
+    {
+      "title": "Fed’s Rate Hold Sends Bond Yields in Different Directions",
+      "url": "https://www.wsj.com/finance/investing/u-s-treasury-yields-rise-ahead-of-federal-reserve-interest-rate-decision-b1f7ef58",
+      "storyKey": "fed+hold+rate"
+    },
+    {
+      "title": "China Blocks $5.4 Billion SoftBank Robot Deal, Flexing Control Over AI Tech",
+      "url": "https://www.wsj.com/business/deals/abb-confirms-china-blocked-softbank-deal-for-robotics-unit-cf1d44bf",
+      "storyKey": "china+robot+softbank"
+    },
+    {
+      "title": "Opinion | The Healthcare System’s Bad Payment Models",
+      "url": "https://www.wsj.com/opinion/the-healthcare-systems-bad-payment-models-7801db06",
+      "storyKey": "healthcare+models+payment"
+    },
+    {
+      "title": "How the Data Center Backlash Could Play Into the Hands of Big Tech",
+      "url": "https://www.wsj.com/tech/ai/how-the-data-center-backlash-could-play-into-the-hands-of-big-tech-a37dfb29?mod",
+      "storyKey": "backlash+center+data"
+    },
+    {
+      "title": "How LIV’s $5 Billion Quest to Take Over Golf Finally Fell Apart",
+      "url": "https://www.wsj.com/sports/golf/liv-golf-bankruptcy-325ee052",
+      "storyKey": "collapse+golf+liv"
+    }
+  ],
   "_research": {
-    "2026-10-14": [
-      "https://podcasts.apple.com/us/podcast/asia-fixed-income-needs-a-bigger-map/id1466686717?i=1000796198109&uo=4"
-    ],
     "2026-10-15": [
       "https://podcasts.apple.com/us/podcast/what-to-expect-from-the-uk-budget/id1466686717?i=1000796378991&uo=4"
     ],
@@ -662,6 +659,10 @@
     "2026-11-04": [
       "https://podcasts.apple.com/us/podcast/solving-ais-power-bottleneck/id1466686717?i=1000799678816&uo=4",
       "https://podcasts.apple.com/us/podcast/now-you-can-see-everything/id1367963156?i=1000799823234&uo=4"
+    ],
+    "2026-11-05": [
+      "https://podcasts.apple.com/us/podcast/john-waldron-on-gdp-growth-ai-and-the-m-a-outlook/id948913991?i=1000799852840&uo=4",
+      "https://podcasts.apple.com/us/podcast/midterm-election-results-three-key-takeaways/id1466686717?i=1000799853539&uo=4"
     ]
   }
 }

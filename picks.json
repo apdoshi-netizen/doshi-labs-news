@@ -1,73 +1,73 @@
 {
-  "date": "2026-11-04",
-  "generatedAt": "2026-11-04T17:13:56.734960+00:00",
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-05T13:10:24.050325+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Eurozone Inflation Rises to 4%, Driven by Energy Costs",
-      "url": "https://www.wsj.com/economy/global/eurozone-inflation-climbs-again-driven-by-energy-costs-0adbaef3",
-      "summary": "Eurozone inflation rose to 4% in October, driven by higher energy costs, pressuring ECB policy outlook.",
-      "storyKey": "energy+eurozone+inflation",
+      "title": "Fed’s Rate Hold Sends Bond Yields in Different Directions",
+      "url": "https://www.wsj.com/finance/investing/u-s-treasury-yields-rise-ahead-of-federal-reserve-interest-rate-decision-b1f7ef58",
+      "summary": "Fed’s rate hold caused bond yields to diverge, reflecting market uncertainty over future policy path.",
+      "storyKey": "fed+hold+rate",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Blackstone Leads $3.1 Billion Investment in Mitsubishi’s Stake in LNG Canada",
-      "url": "https://www.wsj.com/finance/investing/blackstone-leads-3-1-billion-investment-in-mitsubishis-stake-in-lng-canada-96379858",
-      "summary": "Blackstone leads $3.1 billion investment acquiring Mitsubishi's stake in the LNG Canada project.",
-      "storyKey": "blackstone+canada+lng",
+      "title": "China Blocks $5.4 Billion SoftBank Robot Deal, Flexing Control Over AI Tech",
+      "url": "https://www.wsj.com/business/deals/abb-confirms-china-blocked-softbank-deal-for-robotics-unit-cf1d44bf",
+      "summary": "China blocked SoftBank’s $5.4 billion robot deal, asserting control over AI technology.",
+      "storyKey": "china+robot+softbank",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Will Democrats Misread Their Victory?",
-      "url": "https://www.wsj.com/opinion/democrats-2026-elections-chuck-schumer-hakeem-jeffries-20e65983",
-      "summary": "Op-ed questions whether Democrats will misread the significance of their midterm election victory.",
-      "storyKey": "democrats+midterm+victory",
+      "title": "Opinion | The Healthcare System’s Bad Payment Models",
+      "url": "https://www.wsj.com/opinion/the-healthcare-systems-bad-payment-models-7801db06",
+      "summary": "Opinion argues the healthcare system’s payment models are flawed and need reform.",
+      "storyKey": "healthcare+models+payment",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Google to Invest $15 Billion in Malaysia Over Two Years",
-      "url": "https://www.wsj.com/tech/google-to-invest-15-billion-in-malaysia-over-two-years-0c7400dd",
-      "summary": "Google pledges to invest $15 billion in Malaysia over the next two years.",
-      "storyKey": "google+investment+malaysia",
+      "title": "How the Data Center Backlash Could Play Into the Hands of Big Tech",
+      "url": "https://www.wsj.com/tech/ai/how-the-data-center-backlash-could-play-into-the-hands-of-big-tech-a37dfb29?mod",
+      "summary": "Backlash against data centers could ironically benefit Big Tech’s market position, analysis finds.",
+      "storyKey": "backlash+center+data",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "Exclusive | Mark Walter in Talks to Sell Cadillac F1 Stake to Red Sox, Liverpool Owners",
-      "url": "https://www.wsj.com/sports/cadillac-formula-one-mark-walter-john-henry-af86c109",
-      "summary": "Mark Walter in talks to sell Cadillac F1 stake to Red Sox, Liverpool ownership group.",
-      "storyKey": "cadillac+f1+walter",
+      "title": "How LIV’s $5 Billion Quest to Take Over Golf Finally Fell Apart",
+      "url": "https://www.wsj.com/sports/golf/liv-golf-bankruptcy-325ee052",
+      "summary": "LIV Golf’s $5 billion bid to take over golf ultimately collapsed, details revealed.",
+      "storyKey": "collapse+golf+liv",
       "source": "WSJ"
     }
   ],
   "research": [
     {
-      "firm": "Morgan Stanley",
-      "show": "Thoughts on the Market",
-      "title": "Solving AI’s Power Bottleneck",
-      "url": "https://podcasts.apple.com/us/podcast/solving-ais-power-bottleneck/id1466686717?i=1000799678816&uo=4",
-      "published": "2026-11-03T22:30:00+00:00",
+      "firm": "Goldman Sachs",
+      "show": "Exchanges",
+      "title": "John Waldron on GDP Growth, AI, and the M&A Outlook",
+      "url": "https://podcasts.apple.com/us/podcast/john-waldron-on-gdp-growth-ai-and-the-m-a-outlook/id948913991?i=1000799852840&uo=4",
+      "published": "2026-11-04T18:17:00+00:00",
       "kind": "podcast",
-      "duration": "10 min",
-      "summary": "Our analysts Andrew Percoco and David Arcaro break down how AI’s surging energy demand could reshape the way we produce, store and use power. Read more insights from Morgan Stanley."
+      "duration": "21 min",
+      "summary": "Goldman Sachs President and COO John Waldron says clients have a cautiously optimistic outlook and the surge in M&A is a sign of that confidence. In the Exchanges podcast, he also discusses opportunities in asset and wealth management and how AI can help the firm serve clients better."
     },
     {
-      "firm": "J.P. Morgan",
-      "show": "Eye on the Market",
-      "title": "Now You Can See Everything",
-      "url": "https://podcasts.apple.com/us/podcast/now-you-can-see-everything/id1367963156?i=1000799823234&uo=4",
-      "published": "2026-11-04T14:59:36+00:00",
+      "firm": "Morgan Stanley",
+      "show": "Thoughts on the Market",
+      "title": "Midterm Election Results: Three Key Takeaways",
+      "url": "https://podcasts.apple.com/us/podcast/midterm-election-results-three-key-takeaways/id1466686717?i=1000799853539&uo=4",
+      "published": "2026-11-04T18:30:00+00:00",
       "kind": "podcast",
-      "duration": "24 min",
-      "summary": "For the last couple of years, investors have wondered how voters would respond to the unorthodoxies of the second Trump Presidency. Now that midterms are over, You Can See Everything: it’s a rout, with the NYT projecting 53 Democratic Senators (plus 2 Independents that caucus with them) and 257 Democratic House members. In this Eye on the Market, we walk through the midterm results and economic/political factors around it, the implicit midterm referendum on AI and the latest AI-related market developments. Also, a section on You Can See Everything, Theranos, Elizabeth Holmes, David Boies, Tim Draper and a history of corporate fraud. Fraud is poison for markets, and investors should be equally unforgiving of people who commit it, condone it, conceal it or protect it."
+      "duration": "5 min",
+      "summary": "Democrats delivered a stronger-than-expected performance in the midterms. Our Head of Public Policy Research Ariana Salvatore examines what the results could mean for Washington’s policy priorities, the balance of political power and the investment landscape. Read more insights from Morgan Stanley."
     }
   ]
 }
