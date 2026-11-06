@@ -568,14 +568,14 @@
   ],
   "2026-11-06": [
     {
-      "title": "Dollar Likely to Remain Resilient After AI-Driven Tech Selloff",
-      "url": "https://www.wsj.com/finance/currencies/asian-currencies-mixed-diminishing-risk-appetite-might-weigh-84b91434",
-      "storyKey": null
+      "title": "Solid Jobs Report Leaves Inflation, Markets to Settle Fed’s December Call",
+      "url": "https://www.wsj.com/economy/central-banking/solid-jobs-report-leaves-inflation-markets-to-settle-feds-december-call-7738799e",
+      "storyKey": "december+fed+jobs"
     },
     {
-      "title": "Wendy’s Rejects Trian’s $1.4 Billion Takeover Offer",
-      "url": "https://www.wsj.com/business/deals/wendys-rejects-trians-1-4-billion-takeover-offer-984b1892",
-      "storyKey": "trian+wendys"
+      "title": "Firefly Aerospace Inks $1.3 Billion Deal With AST SpaceMobile for Rocket Engines",
+      "url": "https://www.wsj.com/business/firefly-aerospace-inks-1-3-billion-deal-with-ast-spacemobile-for-rocket-engines-eb7e3ea1",
+      "storyKey": "astspacemobile+firefly"
     },
     {
       "title": "Opinion | Politics Shakes Up the Markets",
@@ -585,12 +585,12 @@
     {
       "title": "AI Companies Scramble to Navigate a World Hostile to Data Centers",
       "url": "https://www.wsj.com/tech/ai/ai-companies-scramble-to-navigate-a-world-hostile-to-data-centers-c6023a14",
-      "storyKey": "ai+backlash+datacenters"
+      "storyKey": "ai+datacenters"
     },
     {
-      "title": "How the Jets—Yes, the Jets—Orchestrated the NFL’s Big Short",
-      "url": "https://www.wsj.com/sports/football/jets-draft-picks-colts-cowboys-9f3795ac",
-      "storyKey": "finance+jets+nfl"
+      "title": "The $5 Billion Golf League You Never Watched Is Gone. Here’s Why It Flopped.",
+      "url": "https://www.wsj.com/sports/golf/liv-golf-mickelson-dechambeau-rahm-c53a4bb4",
+      "storyKey": "collapse+golf+liv"
     }
   ],
   "_research": {

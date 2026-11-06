@@ -1,23 +1,23 @@
 {
   "date": "2026-11-06",
-  "generatedAt": "2026-11-06T12:56:11.770008+00:00",
+  "generatedAt": "2026-11-06T16:45:16.425736+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Dollar Likely to Remain Resilient After AI-Driven Tech Selloff",
-      "url": "https://www.wsj.com/finance/currencies/asian-currencies-mixed-diminishing-risk-appetite-might-weigh-84b91434",
-      "summary": "",
-      "storyKey": null,
+      "title": "Solid Jobs Report Leaves Inflation, Markets to Settle Fed’s December Call",
+      "url": "https://www.wsj.com/economy/central-banking/solid-jobs-report-leaves-inflation-markets-to-settle-feds-december-call-7738799e",
+      "summary": "Solid jobs report leaves inflation data to determine Fed's December rate decision.",
+      "storyKey": "december+fed+jobs",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Wendy’s Rejects Trian’s $1.4 Billion Takeover Offer",
-      "url": "https://www.wsj.com/business/deals/wendys-rejects-trians-1-4-billion-takeover-offer-984b1892",
-      "summary": "Wendy's board rejected activist investor Trian's $1.4 billion takeover offer for the fast-food chain.",
-      "storyKey": "trian+wendys",
+      "title": "Firefly Aerospace Inks $1.3 Billion Deal With AST SpaceMobile for Rocket Engines",
+      "url": "https://www.wsj.com/business/firefly-aerospace-inks-1-3-billion-deal-with-ast-spacemobile-for-rocket-engines-eb7e3ea1",
+      "summary": "Firefly Aerospace signs $1.3 billion deal with AST SpaceMobile for rocket engines.",
+      "storyKey": "astspacemobile+firefly",
       "source": "WSJ"
     },
     {
@@ -25,7 +25,7 @@
       "label": "Op-Ed",
       "title": "Opinion | Politics Shakes Up the Markets",
       "url": "https://www.wsj.com/opinion/tech-selloff-economy-politics-2e789982",
-      "summary": "Opinion column argues ongoing political turmoil is now a significant driver of market volatility and investor sentiment.",
+      "summary": "Opinion column examines how political developments are shaking up financial markets.",
       "storyKey": "markets+politics",
       "source": "WSJ"
     },
@@ -34,17 +34,17 @@
       "label": "Tech",
       "title": "AI Companies Scramble to Navigate a World Hostile to Data Centers",
       "url": "https://www.wsj.com/tech/ai/ai-companies-scramble-to-navigate-a-world-hostile-to-data-centers-c6023a14",
-      "summary": "AI companies are scrambling to adapt as communities and regulators grow increasingly hostile to new data center projects.",
-      "storyKey": "ai+backlash+datacenters",
+      "summary": "AI companies scramble to navigate growing local hostility toward new data centers.",
+      "storyKey": "ai+datacenters",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "How the Jets—Yes, the Jets—Orchestrated the NFL’s Big Short",
-      "url": "https://www.wsj.com/sports/football/jets-draft-picks-colts-cowboys-9f3795ac",
-      "summary": "The New York Jets orchestrated a notable financial maneuver dubbed the NFL's \"Big Short,\" per WSJ analysis.",
-      "storyKey": "finance+jets+nfl",
+      "title": "The $5 Billion Golf League You Never Watched Is Gone. Here’s Why It Flopped.",
+      "url": "https://www.wsj.com/sports/golf/liv-golf-mickelson-dechambeau-rahm-c53a4bb4",
+      "summary": "The $5 billion golf league folds after failing to attract viewers or investment.",
+      "storyKey": "collapse+golf+liv",
       "source": "WSJ"
     }
   ],
