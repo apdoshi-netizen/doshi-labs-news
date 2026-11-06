@@ -1,31 +1,4 @@
 {
-  "2026-10-15": [
-    {
-      "title": "Stubborn Sellers Are the Last Thing Propping Up Home Prices",
-      "url": "https://www.wsj.com/economy/housing/stubborn-sellers-are-the-last-thing-propping-up-home-prices-da1a26c9",
-      "storyKey": null
-    },
-    {
-      "title": "Character.ai Maker Files for Chapter 11 Bankruptcy",
-      "url": "https://www.wsj.com/tech/ai/character-ai-maker-files-for-chapter-11-bankruptcy-740e6fb1",
-      "storyKey": null
-    },
-    {
-      "title": "Opinion | Tennessee’s Executioners Had One Job",
-      "url": "https://www.wsj.com/opinion/free-expression/tennessees-executioners-had-one-job-acf6eb77",
-      "storyKey": null
-    },
-    {
-      "title": "Uber Robotaxi Leader to Depart Next Month",
-      "url": "https://www.wsj.com/tech/uber-robotaxi-leader-to-depart-next-month-612295c2",
-      "storyKey": null
-    },
-    {
-      "title": "He Was the NFL’s Hottest Coach. Now He’s Fighting for His Job.",
-      "url": "https://www.wsj.com/sports/football/jim-harbaugh-chargers-michigan-83b3a20b",
-      "storyKey": null
-    }
-  ],
   "2026-10-16": [
     {
       "title": "Dollar Could Resume Rising on Prospect of Future Fed Tightening",
@@ -593,10 +566,34 @@
       "storyKey": null
     }
   ],
+  "2026-11-06": [
+    {
+      "title": "Dollar Likely to Remain Resilient After AI-Driven Tech Selloff",
+      "url": "https://www.wsj.com/finance/currencies/asian-currencies-mixed-diminishing-risk-appetite-might-weigh-84b91434",
+      "storyKey": null
+    },
+    {
+      "title": "Wendy’s Rejects Trian’s $1.4 Billion Takeover Offer",
+      "url": "https://www.wsj.com/business/deals/wendys-rejects-trians-1-4-billion-takeover-offer-984b1892",
+      "storyKey": "trian+wendys"
+    },
+    {
+      "title": "Opinion | Politics Shakes Up the Markets",
+      "url": "https://www.wsj.com/opinion/tech-selloff-economy-politics-2e789982",
+      "storyKey": "markets+politics"
+    },
+    {
+      "title": "AI Companies Scramble to Navigate a World Hostile to Data Centers",
+      "url": "https://www.wsj.com/tech/ai/ai-companies-scramble-to-navigate-a-world-hostile-to-data-centers-c6023a14",
+      "storyKey": "ai+backlash+datacenters"
+    },
+    {
+      "title": "How the Jets—Yes, the Jets—Orchestrated the NFL’s Big Short",
+      "url": "https://www.wsj.com/sports/football/jets-draft-picks-colts-cowboys-9f3795ac",
+      "storyKey": "finance+jets+nfl"
+    }
+  ],
   "_research": {
-    "2026-10-15": [
-      "https://podcasts.apple.com/us/podcast/what-to-expect-from-the-uk-budget/id1466686717?i=1000796378991&uo=4"
-    ],
     "2026-10-16": [
       "https://podcasts.apple.com/us/podcast/how-rising-rates-and-ai-issuance-are-affecting-credit/id1683802600?i=1000796641777&uo=4",
       "https://podcasts.apple.com/us/podcast/the-missing-piece-in-latin-americas-bull-case/id1466686717?i=1000796551703&uo=4"
@@ -665,6 +662,9 @@
       "https://podcasts.apple.com/us/podcast/john-waldron-on-gdp-growth-ai-and-the-m-a-outlook/id948913991?i=1000799852840&uo=4",
       "https://podcasts.apple.com/us/podcast/midterm-election-results-three-key-takeaways/id1466686717?i=1000799853539&uo=4",
       "https://podcasts.apple.com/us/podcast/capital-is-tilting-east-inside-asias-ai-gold-rush/id1456184829?i=1000800065848&uo=4"
+    ],
+    "2026-11-06": [
+      "https://podcasts.apple.com/us/podcast/a-credit-perspective-on-the-ai-buildout/id1466686717?i=1000800120242&uo=4"
     ]
   }
 }

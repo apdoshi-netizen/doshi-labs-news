@@ -1,12 +1,12 @@
 {
-  "date": "2026-11-05",
-  "generatedAt": "2026-11-05T17:23:33.891412+00:00",
+  "date": "2026-11-06",
+  "generatedAt": "2026-11-06T12:56:11.770008+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Latest U.S.-Canada Trade Talks Yield Progress Toward Pact, Carney Says",
-      "url": "https://www.wsj.com/world/americas/latest-u-s-canada-trade-talks-yield-progress-toward-pact-carney-says-6e43fa73",
+      "title": "Dollar Likely to Remain Resilient After AI-Driven Tech Selloff",
+      "url": "https://www.wsj.com/finance/currencies/asian-currencies-mixed-diminishing-risk-appetite-might-weigh-84b91434",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -14,80 +14,50 @@
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Lockheed Martin to Pay $29.5 Million to Settle Federal Probe Over Diversity Efforts",
-      "url": "https://www.wsj.com/business/lockheed-martin-to-pay-29-5-million-to-settle-federal-probe-over-diversity-efforts-fbf1adf1",
-      "summary": "",
-      "storyKey": null,
+      "title": "Wendy’s Rejects Trian’s $1.4 Billion Takeover Offer",
+      "url": "https://www.wsj.com/business/deals/wendys-rejects-trians-1-4-billion-takeover-offer-984b1892",
+      "summary": "Wendy's board rejected activist investor Trian's $1.4 billion takeover offer for the fast-food chain.",
+      "storyKey": "trian+wendys",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | China Wants to Beat Us to the Moon",
-      "url": "https://www.wsj.com/opinion/free-expression/china-wants-to-beat-us-to-the-moon-63dc365b",
-      "summary": "",
-      "storyKey": null,
+      "title": "Opinion | Politics Shakes Up the Markets",
+      "url": "https://www.wsj.com/opinion/tech-selloff-economy-politics-2e789982",
+      "summary": "Opinion column argues ongoing political turmoil is now a significant driver of market volatility and investor sentiment.",
+      "storyKey": "markets+politics",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "How the Data Center Backlash Could Play Into the Hands of Big Tech",
-      "url": "https://www.wsj.com/tech/ai/how-the-data-center-backlash-could-play-into-the-hands-of-big-tech-a37dfb29?mod",
-      "summary": "",
-      "storyKey": null,
+      "title": "AI Companies Scramble to Navigate a World Hostile to Data Centers",
+      "url": "https://www.wsj.com/tech/ai/ai-companies-scramble-to-navigate-a-world-hostile-to-data-centers-c6023a14",
+      "summary": "AI companies are scrambling to adapt as communities and regulators grow increasingly hostile to new data center projects.",
+      "storyKey": "ai+backlash+datacenters",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "College Football’s Breakout Coach Almost Quit to Sell Artificial Turf",
-      "url": "https://www.wsj.com/sports/football/new-mexico-jason-eck-b7a03a81",
-      "summary": "",
-      "storyKey": null,
+      "title": "How the Jets—Yes, the Jets—Orchestrated the NFL’s Big Short",
+      "url": "https://www.wsj.com/sports/football/jets-draft-picks-colts-cowboys-9f3795ac",
+      "summary": "The New York Jets orchestrated a notable financial maneuver dubbed the NFL's \"Big Short,\" per WSJ analysis.",
+      "storyKey": "finance+jets+nfl",
       "source": "WSJ"
     }
   ],
   "research": [
     {
-      "firm": "Goldman Sachs",
-      "show": "Talks at GS",
-      "title": "How Aaru Uses Advanced AI Simulations to Predict Human Behavior",
-      "url": "https://podcasts.apple.com/us/podcast/how-aaru-uses-advanced-ai-simulations-to-predict-human/id1373320104?i=1000800060559&uo=4",
-      "published": "2026-11-05T15:49:00+00:00",
-      "kind": "podcast",
-      "duration": "22 min",
-      "summary": "Aaru, a two-and-a-half-year-old startup valued at $1 billion, is redefining market research and consumer intelligence by deploying multi-agent AI simulations to predict how humans will make decisions. Cam Fink, co-founder and CEO, and Ned Koh, co-founder and president, discuss Aaru's founding story and how advanced behavioral simulation overcomes the limitations of traditional consumer polling. In this conversation with Goldman Sachs Chief Information Officer Marco Argenti, they also explore the real-world enterprise applications of such predictive simulations across retail, financial services, and utilities, which are driving Aaru's rapid rise."
-    },
-    {
-      "firm": "Goldman Sachs",
-      "show": "Exchanges",
-      "title": "John Waldron on GDP Growth, AI, and the M&A Outlook",
-      "url": "https://podcasts.apple.com/us/podcast/john-waldron-on-gdp-growth-ai-and-the-m-a-outlook/id948913991?i=1000799852840&uo=4",
-      "published": "2026-11-04T18:17:00+00:00",
-      "kind": "podcast",
-      "duration": "21 min",
-      "summary": "Goldman Sachs President and COO John Waldron says clients have a cautiously optimistic outlook and the surge in M&A is a sign of that confidence. In the Exchanges podcast, he also discusses opportunities in asset and wealth management and how AI can help the firm serve clients better."
-    },
-    {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
-      "title": "Midterm Election Results: Three Key Takeaways",
-      "url": "https://podcasts.apple.com/us/podcast/midterm-election-results-three-key-takeaways/id1466686717?i=1000799853539&uo=4",
-      "published": "2026-11-04T18:30:00+00:00",
+      "title": "A Credit Perspective on the AI Buildout",
+      "url": "https://podcasts.apple.com/us/podcast/a-credit-perspective-on-the-ai-buildout/id1466686717?i=1000800120242&uo=4",
+      "published": "2026-11-05T22:30:00+00:00",
       "kind": "podcast",
-      "duration": "5 min",
-      "summary": "Democrats delivered a stronger-than-expected performance in the midterms. Our Head of Public Policy Research Ariana Salvatore examines what the results could mean for Washington’s policy priorities, the balance of political power and the investment landscape. Read more insights from Morgan Stanley."
-    },
-    {
-      "firm": "J.P. Morgan",
-      "show": "Making Sense",
-      "title": "Capital is tilting East: Inside Asia’s AI gold rush",
-      "url": "https://podcasts.apple.com/us/podcast/capital-is-tilting-east-inside-asias-ai-gold-rush/id1456184829?i=1000800065848&uo=4",
-      "published": "2026-11-05T16:19:20+00:00",
-      "kind": "podcast",
-      "duration": "19 min",
-      "summary": "Southeast Asia’s economy has grown nearly ninefold since 1998, and the region is now at the center of the global AI investment cycle. In this episode of Making Sense, Sjoerd Leenart, CEO of J.P. Morgan’s banking business in Asia Pacific, sits down with Joyce Chang, chair of Global Research at J.P. Morgan, to unpack key takeaways from the investor seminar hosted around the IMF–World Bank annual meetings in Bangkok. They discuss the forces propelling Asia’s growth — from the manufacturing renaissance driven by AI data center demand to divergent policy tailwinds across China, Japan, Korea and ASEAN economies. They also explore the IMF’s latest global outlook, the narrowing base of countries driving world growth and why investor sentiment has shifted from \"fear of missing out\" to more…"
+      "duration": "9 min",
+      "summary": "The AI investment boom is reshaping capital markets, creating opportunities and raising questions about leverage and risk. Vishy Tirupattur and Dan Toscano discuss what this means for the credit cycle and the broader financial system. Read more insights from Morgan Stanley."
     }
   ]
 }
