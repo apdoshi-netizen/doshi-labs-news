@@ -1,63 +1,83 @@
 {
-  "date": "2026-11-06",
-  "generatedAt": "2026-11-06T16:45:16.425736+00:00",
+  "date": "2026-11-07",
+  "generatedAt": "2026-11-07T14:01:50.684873+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Solid Jobs Report Leaves Inflation, Markets to Settle Fed’s December Call",
-      "url": "https://www.wsj.com/economy/central-banking/solid-jobs-report-leaves-inflation-markets-to-settle-feds-december-call-7738799e",
-      "summary": "Solid jobs report leaves inflation data to determine Fed's December rate decision.",
-      "storyKey": "december+fed+jobs",
+      "title": "Hiring Defied Expectations With 165,000 Jobs Added in October",
+      "url": "https://www.wsj.com/economy/jobs/october-jobs-report-unemployment-d7392948",
+      "summary": "Hiring surged with 165,000 jobs added in October, defying expectations and signaling labor market resilience.",
+      "storyKey": "jobs+october+report",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Firefly Aerospace Inks $1.3 Billion Deal With AST SpaceMobile for Rocket Engines",
-      "url": "https://www.wsj.com/business/firefly-aerospace-inks-1-3-billion-deal-with-ast-spacemobile-for-rocket-engines-eb7e3ea1",
-      "summary": "Firefly Aerospace signs $1.3 billion deal with AST SpaceMobile for rocket engines.",
-      "storyKey": "astspacemobile+firefly",
+      "title": "CVS Raises Forecast on Health Care Benefits, Pharmacy Gains",
+      "url": "https://www.wsj.com/health/healthcare/cvs-raises-forecast-on-health-care-benefits-pharmacy-gains-d2ed0507",
+      "summary": "CVS raises forecast after gains in health benefits and pharmacy segments, signaling stronger earnings outlook.",
+      "storyKey": "cvs+forecast",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Politics Shakes Up the Markets",
-      "url": "https://www.wsj.com/opinion/tech-selloff-economy-politics-2e789982",
-      "summary": "Opinion column examines how political developments are shaking up financial markets.",
-      "storyKey": "markets+politics",
+      "title": "Opinion | There’s No Such Thing as a Stock-Market Bubble",
+      "url": "https://www.wsj.com/opinion/theres-no-such-thing-as-a-stock-market-bubble-159ea117",
+      "summary": "Opinion argues current stock market conditions do not constitute a bubble despite high valuations.",
+      "storyKey": "bubble+market+stock",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "AI Companies Scramble to Navigate a World Hostile to Data Centers",
-      "url": "https://www.wsj.com/tech/ai/ai-companies-scramble-to-navigate-a-world-hostile-to-data-centers-c6023a14",
-      "summary": "AI companies scramble to navigate growing local hostility toward new data centers.",
-      "storyKey": "ai+datacenters",
+      "title": "Bosch to Set Up Semiconductor Division to Cash in on Soaring Demand for Chips",
+      "url": "https://www.wsj.com/tech/bosch-to-set-up-semiconductor-division-to-cash-in-on-soaring-demand-for-chips-bb333692",
+      "summary": "Bosch creates new semiconductor division to capitalize on surging global chip demand.",
+      "storyKey": "bosch+semiconductor",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The $5 Billion Golf League You Never Watched Is Gone. Here’s Why It Flopped.",
-      "url": "https://www.wsj.com/sports/golf/liv-golf-mickelson-dechambeau-rahm-c53a4bb4",
-      "summary": "The $5 billion golf league folds after failing to attract viewers or investment.",
-      "storyKey": "collapse+golf+liv",
+      "title": "The Unlikely College Football Powerhouse Fueled by Texas Gas Money",
+      "url": "https://www.wsj.com/sports/football/the-unlikely-college-football-powerhouse-fueled-by-texas-gas-money-343541cd",
+      "summary": "Texas college football program's rise fueled by gas industry money highlights sports financing trend.",
+      "storyKey": "football+gas+texas",
       "source": "WSJ"
     }
   ],
   "research": [
     {
+      "firm": "Goldman Sachs",
+      "show": "Talks at GS",
+      "title": "LSEG CEO David Schwimmer on Where Global Capital Is Moving",
+      "url": "https://podcasts.apple.com/us/podcast/lseg-ceo-david-schwimmer-on-where-global-capital-is-moving/id1373320104?i=1000800288851&uo=4",
+      "published": "2026-11-06T18:42:00+00:00",
+      "kind": "podcast",
+      "duration": "22 min",
+      "summary": "David Schwimmer, CEO of London Stock Exchange Group, explains why investors may be underestimating risks in today’s markets. In particular, Schwimmer says inflation and geopolitical tension limit the policy flexibility that has supported markets in past downturns. In conversation with FX de Mallmann, chairman of Goldman Sachs EMEA and chairman of Investment Banking, Schwimmer describes scenario planning as a more practical discipline than trying to predict what happens next."
+    },
+    {
+      "firm": "Goldman Sachs",
+      "show": "The Markets",
+      "title": "The US Midterms: Reshaping the Stock Market",
+      "url": "https://podcasts.apple.com/us/podcast/the-us-midterms-reshaping-the-stock-market/id1683802600?i=1000800290458&uo=4",
+      "published": "2026-11-06T18:34:00+00:00",
+      "kind": "podcast",
+      "duration": "7 min",
+      "summary": "The US midterm elections could strengthen the stock market rotation that was already underway, says Lou Miller, global head of Custom Basket Trading in Goldman Sachs FICC and Equities. Traditional defensive sectors such as consumer staples are expensive right now, but healthcare stocks may provide defense along with earnings acceleration, Miller explains on The Markets podcast. He also says that stocks related to the data-center buildout have fallen sharply, resetting valuations and lowering the bar for positive surprises."
+    },
+    {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
-      "title": "A Credit Perspective on the AI Buildout",
-      "url": "https://podcasts.apple.com/us/podcast/a-credit-perspective-on-the-ai-buildout/id1466686717?i=1000800120242&uo=4",
-      "published": "2026-11-05T22:30:00+00:00",
+      "title": "Why the Bond Market Remains Calm After the Blue Wave",
+      "url": "https://podcasts.apple.com/us/podcast/why-the-bond-market-remains-calm-after-the-blue-wave/id1466686717?i=1000800306801&uo=4",
+      "published": "2026-11-06T21:00:00+00:00",
       "kind": "podcast",
-      "duration": "9 min",
-      "summary": "The AI investment boom is reshaping capital markets, creating opportunities and raising questions about leverage and risk. Vishy Tirupattur and Dan Toscano discuss what this means for the credit cycle and the broader financial system. Read more insights from Morgan Stanley."
+      "duration": "4 min",
+      "summary": "For investors, the U.S. election was only one part of a much bigger equation. Our Global Head of Fixed Income Andrew Sheets discusses the balance of risks after the midterm results. Read more insights from Morgan Stanley."
     }
   ]
 }

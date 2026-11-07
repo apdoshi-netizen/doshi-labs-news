@@ -1,31 +1,4 @@
 {
-  "2026-10-16": [
-    {
-      "title": "Dollar Could Resume Rising on Prospect of Future Fed Tightening",
-      "url": "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-before-fed-chairmans-fireside-chat-f4462ae4",
-      "storyKey": "dollar+fed+tightening"
-    },
-    {
-      "title": "Travelers Profit Ticks Up on Investment Gains",
-      "url": "https://www.wsj.com/business/earnings/travelers-profit-ticks-up-on-investment-gains-b91f6ea7",
-      "storyKey": null
-    },
-    {
-      "title": "Opinion | Alaska Considers Economic Suicide",
-      "url": "https://www.wsj.com/opinion/alaska-considers-economic-suicide-79073197",
-      "storyKey": "alaska+economic+policy"
-    },
-    {
-      "title": "TSMC Weighs Texas Expansion, Holds Talks on Musk’s Terafab",
-      "url": "https://www.wsj.com/tech/ai-demand-extends-tsmcs-record-earnings-streak-95bbef62",
-      "storyKey": "expansion+texas+tsmc"
-    },
-    {
-      "title": "Jon Rahm Gives Up Over $100 Million to Leave LIV Golf",
-      "url": "https://www.wsj.com/sports/golf/jon-rahm-liv-golf-pga-tour-7a1c915e",
-      "storyKey": "golf+liv+rahm"
-    }
-  ],
   "2026-10-17": [
     {
       "title": "China’s Factory-Gate Prices Rise at Fastest Pace Since June 2022",
@@ -593,11 +566,34 @@
       "storyKey": "collapse+golf+liv"
     }
   ],
+  "2026-11-07": [
+    {
+      "title": "Hiring Defied Expectations With 165,000 Jobs Added in October",
+      "url": "https://www.wsj.com/economy/jobs/october-jobs-report-unemployment-d7392948",
+      "storyKey": "jobs+october+report"
+    },
+    {
+      "title": "CVS Raises Forecast on Health Care Benefits, Pharmacy Gains",
+      "url": "https://www.wsj.com/health/healthcare/cvs-raises-forecast-on-health-care-benefits-pharmacy-gains-d2ed0507",
+      "storyKey": "cvs+forecast"
+    },
+    {
+      "title": "Opinion | There’s No Such Thing as a Stock-Market Bubble",
+      "url": "https://www.wsj.com/opinion/theres-no-such-thing-as-a-stock-market-bubble-159ea117",
+      "storyKey": "bubble+market+stock"
+    },
+    {
+      "title": "Bosch to Set Up Semiconductor Division to Cash in on Soaring Demand for Chips",
+      "url": "https://www.wsj.com/tech/bosch-to-set-up-semiconductor-division-to-cash-in-on-soaring-demand-for-chips-bb333692",
+      "storyKey": "bosch+semiconductor"
+    },
+    {
+      "title": "The Unlikely College Football Powerhouse Fueled by Texas Gas Money",
+      "url": "https://www.wsj.com/sports/football/the-unlikely-college-football-powerhouse-fueled-by-texas-gas-money-343541cd",
+      "storyKey": "football+gas+texas"
+    }
+  ],
   "_research": {
-    "2026-10-16": [
-      "https://podcasts.apple.com/us/podcast/how-rising-rates-and-ai-issuance-are-affecting-credit/id1683802600?i=1000796641777&uo=4",
-      "https://podcasts.apple.com/us/podcast/the-missing-piece-in-latin-americas-bull-case/id1466686717?i=1000796551703&uo=4"
-    ],
     "2026-10-17": [
       "https://podcasts.apple.com/us/podcast/ai-boom-faces-a-higher-yield-roadblock/id1466686717?i=1000796727263&uo=4"
     ],
@@ -665,6 +661,11 @@
     ],
     "2026-11-06": [
       "https://podcasts.apple.com/us/podcast/a-credit-perspective-on-the-ai-buildout/id1466686717?i=1000800120242&uo=4"
+    ],
+    "2026-11-07": [
+      "https://podcasts.apple.com/us/podcast/lseg-ceo-david-schwimmer-on-where-global-capital-is-moving/id1373320104?i=1000800288851&uo=4",
+      "https://podcasts.apple.com/us/podcast/the-us-midterms-reshaping-the-stock-market/id1683802600?i=1000800290458&uo=4",
+      "https://podcasts.apple.com/us/podcast/why-the-bond-market-remains-calm-after-the-blue-wave/id1466686717?i=1000800306801&uo=4"
     ]
   }
 }
