@@ -1,13 +1,13 @@
 {
   "date": "2026-11-07",
-  "generatedAt": "2026-11-07T14:01:50.684873+00:00",
+  "generatedAt": "2026-11-07T15:39:16.152146+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
       "title": "Hiring Defied Expectations With 165,000 Jobs Added in October",
       "url": "https://www.wsj.com/economy/jobs/october-jobs-report-unemployment-d7392948",
-      "summary": "Hiring surged with 165,000 jobs added in October, defying expectations and signaling labor market resilience.",
+      "summary": "October hiring beat expectations with 165,000 jobs added, defying forecasts of a slowdown.",
       "storyKey": "jobs+october+report",
       "source": "WSJ"
     },
@@ -16,7 +16,7 @@
       "label": "Micro",
       "title": "CVS Raises Forecast on Health Care Benefits, Pharmacy Gains",
       "url": "https://www.wsj.com/health/healthcare/cvs-raises-forecast-on-health-care-benefits-pharmacy-gains-d2ed0507",
-      "summary": "CVS raises forecast after gains in health benefits and pharmacy segments, signaling stronger earnings outlook.",
+      "summary": "CVS raises its earnings forecast on gains in health care benefits and pharmacy segments.",
       "storyKey": "cvs+forecast",
       "source": "WSJ"
     },
@@ -25,17 +25,17 @@
       "label": "Op-Ed",
       "title": "Opinion | There’s No Such Thing as a Stock-Market Bubble",
       "url": "https://www.wsj.com/opinion/theres-no-such-thing-as-a-stock-market-bubble-159ea117",
-      "summary": "Opinion argues current stock market conditions do not constitute a bubble despite high valuations.",
+      "summary": "Opinion argues there's no such thing as a stock-market bubble amid high valuations.",
       "storyKey": "bubble+market+stock",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Bosch to Set Up Semiconductor Division to Cash in on Soaring Demand for Chips",
-      "url": "https://www.wsj.com/tech/bosch-to-set-up-semiconductor-division-to-cash-in-on-soaring-demand-for-chips-bb333692",
-      "summary": "Bosch creates new semiconductor division to capitalize on surging global chip demand.",
-      "storyKey": "bosch+semiconductor",
+      "title": "Quantum Computers Are Poised to Crack Encryption. AI Could Beat Them to It.",
+      "url": "https://www.wsj.com/tech/ai/ai-math-online-encryption-quantum-computers-57926bb2",
+      "summary": "AI may crack encryption before quantum computers do, per new analysis.",
+      "storyKey": "ai+encryption+quantum",
       "source": "WSJ"
     },
     {
@@ -43,8 +43,8 @@
       "label": "Sports",
       "title": "The Unlikely College Football Powerhouse Fueled by Texas Gas Money",
       "url": "https://www.wsj.com/sports/football/the-unlikely-college-football-powerhouse-fueled-by-texas-gas-money-343541cd",
-      "summary": "Texas college football program's rise fueled by gas industry money highlights sports financing trend.",
-      "storyKey": "football+gas+texas",
+      "summary": "Texas gas money fuels an unlikely college football powerhouse's rise.",
+      "storyKey": "college+football+texas",
       "source": "WSJ"
     }
   ],
