@@ -1,31 +1,4 @@
 {
-  "2026-10-17": [
-    {
-      "title": "China’s Factory-Gate Prices Rise at Fastest Pace Since June 2022",
-      "url": "https://www.wsj.com/economy/chinas-consumer-producer-prices-accelerated-in-september-bc8be9ea",
-      "storyKey": "china+deflation+ppi"
-    },
-    {
-      "title": "France and Germany Reach Deal to Protect Europe’s Car Industry",
-      "url": "https://www.wsj.com/business/autos/france-and-germany-reach-deal-to-protect-europes-car-industry-f829c51d",
-      "storyKey": "auto+france+germany"
-    },
-    {
-      "title": "Opinion | Washington State’s ‘Millionaire’ Tax Trick",
-      "url": "https://www.wsj.com/opinion/washington-millionaire-tax-democrats-cindy-ryu-jesse-salomon-5d63cf32",
-      "storyKey": "millionaire+tax+washington"
-    },
-    {
-      "title": "Michael Dell, a Dot-Com Era Survivor, Has Tips to Beat an AI Bust",
-      "url": "https://www.wsj.com/tech/ai/michael-dell-a-dot-com-era-survivor-has-tips-to-beat-an-ai-bust-7987db49",
-      "storyKey": "ai+bust+dell"
-    },
-    {
-      "title": "FIFA’s Infantino Makes His Latest Pitch for Support",
-      "url": "https://www.wsj.com/sports/soccer/fifas-infantino-makes-his-latest-pitch-for-support-e8a76e00",
-      "storyKey": "fifa+infantino+support"
-    }
-  ],
   "2026-10-18": [
     {
       "title": "Warsh Avoids Signal on October Rate Move",
@@ -593,10 +566,34 @@
       "storyKey": "college+football+texas"
     }
   ],
+  "2026-11-08": [
+    {
+      "title": "The Democratic Surge Will Cap Trump’s Reach at the Fed",
+      "url": "https://www.wsj.com/economy/central-banking/the-democratic-surge-will-cap-trumps-reach-at-the-fed-6b706e11",
+      "storyKey": null
+    },
+    {
+      "title": "European Defense Stocks Under Pressure After Mixed Earnings, Midterm Results",
+      "url": "https://www.wsj.com/finance/stocks/nikkei-rises-0-7-led-by-auto-pharma-stocks-f42def12",
+      "storyKey": null
+    },
+    {
+      "title": "Opinion | The Democratic Party Won’t Tolerate Pro-Israel Members",
+      "url": "https://www.wsj.com/opinion/the-democratic-party-wont-tolerate-pro-israel-members-38e9a8a4",
+      "storyKey": null
+    },
+    {
+      "title": "Bosch to Set Up Semiconductor Division to Cash in on Soaring Demand for Chips",
+      "url": "https://www.wsj.com/tech/bosch-to-set-up-semiconductor-division-to-cash-in-on-soaring-demand-for-chips-bb333692",
+      "storyKey": null
+    },
+    {
+      "title": "LIV Golf Is Finished After Last-Ditch Revival Efforts Fail",
+      "url": "https://www.wsj.com/sports/golf/liv-golf-bankruptcy-325ee052",
+      "storyKey": null
+    }
+  ],
   "_research": {
-    "2026-10-17": [
-      "https://podcasts.apple.com/us/podcast/ai-boom-faces-a-higher-yield-roadblock/id1466686717?i=1000796727263&uo=4"
-    ],
     "2026-10-18": [],
     "2026-10-19": [],
     "2026-10-20": [
@@ -666,6 +663,9 @@
       "https://podcasts.apple.com/us/podcast/lseg-ceo-david-schwimmer-on-where-global-capital-is-moving/id1373320104?i=1000800288851&uo=4",
       "https://podcasts.apple.com/us/podcast/the-us-midterms-reshaping-the-stock-market/id1683802600?i=1000800290458&uo=4",
       "https://podcasts.apple.com/us/podcast/why-the-bond-market-remains-calm-after-the-blue-wave/id1466686717?i=1000800306801&uo=4"
+    ],
+    "2026-11-08": [
+      "https://podcasts.apple.com/us/podcast/rebuilding-resilience-in-americas-pharmaceutical-supply/id1456184829?i=1000800519739&uo=4"
     ]
   }
 }

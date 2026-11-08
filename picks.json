@@ -1,83 +1,63 @@
 {
-  "date": "2026-11-07",
-  "generatedAt": "2026-11-07T15:39:16.152146+00:00",
+  "date": "2026-11-08",
+  "generatedAt": "2026-11-08T11:55:28.587637+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Hiring Defied Expectations With 165,000 Jobs Added in October",
-      "url": "https://www.wsj.com/economy/jobs/october-jobs-report-unemployment-d7392948",
-      "summary": "October hiring beat expectations with 165,000 jobs added, defying forecasts of a slowdown.",
-      "storyKey": "jobs+october+report",
+      "title": "The Democratic Surge Will Cap Trump’s Reach at the Fed",
+      "url": "https://www.wsj.com/economy/central-banking/the-democratic-surge-will-cap-trumps-reach-at-the-fed-6b706e11",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "CVS Raises Forecast on Health Care Benefits, Pharmacy Gains",
-      "url": "https://www.wsj.com/health/healthcare/cvs-raises-forecast-on-health-care-benefits-pharmacy-gains-d2ed0507",
-      "summary": "CVS raises its earnings forecast on gains in health care benefits and pharmacy segments.",
-      "storyKey": "cvs+forecast",
+      "title": "European Defense Stocks Under Pressure After Mixed Earnings, Midterm Results",
+      "url": "https://www.wsj.com/finance/stocks/nikkei-rises-0-7-led-by-auto-pharma-stocks-f42def12",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | There’s No Such Thing as a Stock-Market Bubble",
-      "url": "https://www.wsj.com/opinion/theres-no-such-thing-as-a-stock-market-bubble-159ea117",
-      "summary": "Opinion argues there's no such thing as a stock-market bubble amid high valuations.",
-      "storyKey": "bubble+market+stock",
+      "title": "Opinion | The Democratic Party Won’t Tolerate Pro-Israel Members",
+      "url": "https://www.wsj.com/opinion/the-democratic-party-wont-tolerate-pro-israel-members-38e9a8a4",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Quantum Computers Are Poised to Crack Encryption. AI Could Beat Them to It.",
-      "url": "https://www.wsj.com/tech/ai/ai-math-online-encryption-quantum-computers-57926bb2",
-      "summary": "AI may crack encryption before quantum computers do, per new analysis.",
-      "storyKey": "ai+encryption+quantum",
+      "title": "Bosch to Set Up Semiconductor Division to Cash in on Soaring Demand for Chips",
+      "url": "https://www.wsj.com/tech/bosch-to-set-up-semiconductor-division-to-cash-in-on-soaring-demand-for-chips-bb333692",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The Unlikely College Football Powerhouse Fueled by Texas Gas Money",
-      "url": "https://www.wsj.com/sports/football/the-unlikely-college-football-powerhouse-fueled-by-texas-gas-money-343541cd",
-      "summary": "Texas gas money fuels an unlikely college football powerhouse's rise.",
-      "storyKey": "college+football+texas",
+      "title": "LIV Golf Is Finished After Last-Ditch Revival Efforts Fail",
+      "url": "https://www.wsj.com/sports/golf/liv-golf-bankruptcy-325ee052",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     }
   ],
   "research": [
     {
-      "firm": "Goldman Sachs",
-      "show": "Talks at GS",
-      "title": "LSEG CEO David Schwimmer on Where Global Capital Is Moving",
-      "url": "https://podcasts.apple.com/us/podcast/lseg-ceo-david-schwimmer-on-where-global-capital-is-moving/id1373320104?i=1000800288851&uo=4",
-      "published": "2026-11-06T18:42:00+00:00",
+      "firm": "J.P. Morgan",
+      "show": "Making Sense",
+      "title": "Rebuilding resilience in America’s pharmaceutical supply chain",
+      "url": "https://podcasts.apple.com/us/podcast/rebuilding-resilience-in-americas-pharmaceutical-supply/id1456184829?i=1000800519739&uo=4",
+      "published": "2026-11-08T06:00:00+00:00",
       "kind": "podcast",
-      "duration": "22 min",
-      "summary": "David Schwimmer, CEO of London Stock Exchange Group, explains why investors may be underestimating risks in today’s markets. In particular, Schwimmer says inflation and geopolitical tension limit the policy flexibility that has supported markets in past downturns. In conversation with FX de Mallmann, chairman of Goldman Sachs EMEA and chairman of Investment Banking, Schwimmer describes scenario planning as a more practical discipline than trying to predict what happens next."
-    },
-    {
-      "firm": "Goldman Sachs",
-      "show": "The Markets",
-      "title": "The US Midterms: Reshaping the Stock Market",
-      "url": "https://podcasts.apple.com/us/podcast/the-us-midterms-reshaping-the-stock-market/id1683802600?i=1000800290458&uo=4",
-      "published": "2026-11-06T18:34:00+00:00",
-      "kind": "podcast",
-      "duration": "7 min",
-      "summary": "The US midterm elections could strengthen the stock market rotation that was already underway, says Lou Miller, global head of Custom Basket Trading in Goldman Sachs FICC and Equities. Traditional defensive sectors such as consumer staples are expensive right now, but healthcare stocks may provide defense along with earnings acceleration, Miller explains on The Markets podcast. He also says that stocks related to the data-center buildout have fallen sharply, resetting valuations and lowering the bar for positive surprises."
-    },
-    {
-      "firm": "Morgan Stanley",
-      "show": "Thoughts on the Market",
-      "title": "Why the Bond Market Remains Calm After the Blue Wave",
-      "url": "https://podcasts.apple.com/us/podcast/why-the-bond-market-remains-calm-after-the-blue-wave/id1466686717?i=1000800306801&uo=4",
-      "published": "2026-11-06T21:00:00+00:00",
-      "kind": "podcast",
-      "duration": "4 min",
-      "summary": "For investors, the U.S. election was only one part of a much bigger equation. Our Global Head of Fixed Income Andrew Sheets discusses the balance of risks after the midterm results. Read more insights from Morgan Stanley."
+      "duration": "15 min",
+      "summary": "Alex Gorsky, former chairman and CEO of Johnson & Johnson and a member of J.P. Morgan’s SRI Advisory Council, joins Jerry Lee, global co-head of Healthcare Investment Banking and global chairman of Investment Banking at J.P. Morgan to discuss what reshoring, friendshoring and AI mean for the next decade of healthcare resiliency."
     }
   ]
 }
