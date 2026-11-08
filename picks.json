@@ -1,32 +1,32 @@
 {
   "date": "2026-11-08",
-  "generatedAt": "2026-11-08T11:55:28.587637+00:00",
+  "generatedAt": "2026-11-08T15:57:50.466269+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "The Democratic Surge Will Cap Trump’s Reach at the Fed",
-      "url": "https://www.wsj.com/economy/central-banking/the-democratic-surge-will-cap-trumps-reach-at-the-fed-6b706e11",
-      "summary": "",
-      "storyKey": null,
+      "title": "Bank of Canada Gov. Macklem Pledges to Proceed Carefully on Further Rate Increases",
+      "url": "https://www.wsj.com/economy/global/bank-of-canada-gov-macklem-pledges-to-proceed-carefully-on-further-rate-increases-a27c79ee",
+      "summary": "Bank of Canada's Macklem pledges to proceed carefully on further rate increases, signaling cautious policy stance.",
+      "storyKey": "boc+pause+rate",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "European Defense Stocks Under Pressure After Mixed Earnings, Midterm Results",
-      "url": "https://www.wsj.com/finance/stocks/nikkei-rises-0-7-led-by-auto-pharma-stocks-f42def12",
-      "summary": "",
-      "storyKey": null,
+      "title": "Germany’s DHL Group to Step Up Investments in Growth Push",
+      "url": "https://www.wsj.com/business/earnings/germanys-dhl-group-to-step-up-investments-in-growth-push-8a2c16ab",
+      "summary": "Germany's DHL Group to step up investments in a push for growth, per company announcement.",
+      "storyKey": "dhl+growth+investment",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | The Democratic Party Won’t Tolerate Pro-Israel Members",
-      "url": "https://www.wsj.com/opinion/the-democratic-party-wont-tolerate-pro-israel-members-38e9a8a4",
-      "summary": "",
-      "storyKey": null,
+      "title": "Opinion | India’s Big Semiconductor Bet",
+      "url": "https://www.wsj.com/opinion/indias-big-semiconductor-bet-e0e60891",
+      "summary": "Opinion piece examines India's ambitious bet on building a domestic semiconductor industry.",
+      "storyKey": "bet+india+semiconductor",
       "source": "WSJ"
     },
     {
@@ -34,17 +34,17 @@
       "label": "Tech",
       "title": "Bosch to Set Up Semiconductor Division to Cash in on Soaring Demand for Chips",
       "url": "https://www.wsj.com/tech/bosch-to-set-up-semiconductor-division-to-cash-in-on-soaring-demand-for-chips-bb333692",
-      "summary": "",
-      "storyKey": null,
+      "summary": "Bosch to set up new semiconductor division to capitalize on soaring chip demand.",
+      "storyKey": "bosch+division+semiconductor",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "LIV Golf Is Finished After Last-Ditch Revival Efforts Fail",
-      "url": "https://www.wsj.com/sports/golf/liv-golf-bankruptcy-325ee052",
-      "summary": "",
-      "storyKey": null,
+      "title": "Notre Dame Is Back—and Just Took Down the No. 1 Team in the Country",
+      "url": "https://www.wsj.com/sports/football/notre-dame-cj-carr-952a9abf",
+      "summary": "Notre Dame football defeats the nation's No. 1 ranked team, marking a program resurgence.",
+      "storyKey": "dame+notre+upset",
       "source": "WSJ"
     }
   ],
