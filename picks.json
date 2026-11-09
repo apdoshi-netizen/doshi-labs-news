@@ -1,14 +1,14 @@
 {
   "date": "2026-11-09",
-  "generatedAt": "2026-11-09T13:52:30.881125+00:00",
+  "generatedAt": "2026-11-09T19:47:27.053273+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "U.S., Eurozone Bond Yields Turn Higher as Investors Shift Focus Back to Data",
-      "url": "https://www.wsj.com/finance/investing/u-s-treasury-yields-edge-lower-as-oil-prices-decline-71869e97",
-      "summary": "US and Eurozone bond yields rose as investors refocus on incoming economic data.",
-      "storyKey": "bond+data+yields",
+      "title": "China Producer Inflation Accelerates to Over Four-Year High",
+      "url": "https://www.wsj.com/economy/china-producer-inflation-accelerates-to-over-four-year-high-a31d4985",
+      "summary": "China’s producer price inflation accelerated to a four-year high, signaling shifting industrial price pressures.",
+      "storyKey": "china+inflation+producer",
       "source": "WSJ"
     },
     {
@@ -16,26 +16,26 @@
       "label": "Micro",
       "title": "Wendy’s Rejects $1.4 Billion Buyout Offer From Nelson Peltz’s Trian",
       "url": "https://www.wsj.com/business/earnings/wendys-rejects-1-4-billion-buyout-offer-from-nelson-peltzs-trian-c97c7b0d",
-      "summary": "Wendy's rejected a $1.4 billion buyout offer from Nelson Peltz's Trian Fund.",
+      "summary": "Wendy’s rejected a $1.4 billion buyout offer from Nelson Peltz’s Trian Fund Management.",
       "storyKey": "buyout+trian+wendy",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Overregulation Makes Housing Unaffordable",
-      "url": "https://www.wsj.com/opinion/overregulation-makes-housing-unaffordable-12e5e856",
-      "summary": "Opinion argues overregulation is a primary driver of housing unaffordability.",
-      "storyKey": "affordability+housing+regulation",
+      "title": "Opinion | Raise the Standards for Tax Return Preparers",
+      "url": "https://www.wsj.com/opinion/raise-the-standards-for-tax-return-preparers-fd6ed684",
+      "summary": "Opinion piece argues for raising professional standards required of tax return preparers.",
+      "storyKey": "preparer+standards+tax",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Nvidia’s Board Investigates Reports That CEO Was Spying Target After Affair",
-      "url": "https://www.wsj.com/tech/ai/nvidias-board-to-investigate-reports-that-jensen-huang-was-spying-target-c630325e",
-      "summary": "Nvidia's board investigates reports CEO was spying target following his affair.",
-      "storyKey": "ceo+nvidia+spying",
+      "title": "Jensen Huang Doesn’t Believe in Succession Planning. It’s Become a Big Risk for Nvidia.",
+      "url": "https://www.wsj.com/tech/jensen-huang-doesnt-believe-in-succession-planning-its-become-a-big-risk-for-nvidia-abd9ea9d",
+      "summary": "Jensen Huang’s refusal to plan succession is becoming a significant risk for Nvidia.",
+      "storyKey": "nvidia+risk+succession",
       "source": "WSJ"
     },
     {
@@ -43,10 +43,21 @@
       "label": "Sports",
       "title": "Brock Purdy: The $265 Million Quarterback Who’s Somehow a Bargain",
       "url": "https://www.wsj.com/sports/football/san-francisco-49ers-brock-purdy-3307b0af",
-      "summary": "Brock Purdy's $265 million quarterback contract is called a bargain deal.",
+      "summary": "Brock Purdy’s $265 million quarterback contract is called a bargain despite its size.",
       "storyKey": "contract+purdy+value",
       "source": "WSJ"
     }
   ],
-  "research": []
+  "research": [
+    {
+      "firm": "J.P. Morgan",
+      "show": "Making Sense",
+      "title": "US midterms: Fiscal, market and geopolitical implications of the \"blue wave\"",
+      "url": "https://podcasts.apple.com/us/podcast/us-midterms-fiscal-market-and-geopolitical/id1456184829?i=1000800784510&uo=4",
+      "published": "2026-11-09T14:51:11+00:00",
+      "kind": "podcast",
+      "duration": "28 min",
+      "summary": "Democrats have won control of the U.S. Legislature, riding a historic wave of support to equally historic margins in both the House and Senate. In this episode of Making Sense, Kathleen Mellody, head of J.P. Morgan's Federal Government Relations team, sits down with Bruce Kasman, chief global economist, and Derek Chollet, head of the JPMorganChase Center for Geopolitics, to unpack what this outcome could mean in the U.S. and abroad. Will it reshape fiscal policy, the outlook for growth and the AI buildout? Could it affect U.S.-China relations, as well ongoing conflicts in the Middle East and Ukraine? And how does it align with electoral results in Brazil and Israel? Tune in for a fascinating look at what's ahead."
+    }
+  ]
 }

@@ -568,9 +568,9 @@
   ],
   "2026-11-09": [
     {
-      "title": "U.S., Eurozone Bond Yields Turn Higher as Investors Shift Focus Back to Data",
-      "url": "https://www.wsj.com/finance/investing/u-s-treasury-yields-edge-lower-as-oil-prices-decline-71869e97",
-      "storyKey": "bond+data+yields"
+      "title": "China Producer Inflation Accelerates to Over Four-Year High",
+      "url": "https://www.wsj.com/economy/china-producer-inflation-accelerates-to-over-four-year-high-a31d4985",
+      "storyKey": "china+inflation+producer"
     },
     {
       "title": "Wendy’s Rejects $1.4 Billion Buyout Offer From Nelson Peltz’s Trian",
@@ -578,14 +578,14 @@
       "storyKey": "buyout+trian+wendy"
     },
     {
-      "title": "Opinion | Overregulation Makes Housing Unaffordable",
-      "url": "https://www.wsj.com/opinion/overregulation-makes-housing-unaffordable-12e5e856",
-      "storyKey": "affordability+housing+regulation"
+      "title": "Opinion | Raise the Standards for Tax Return Preparers",
+      "url": "https://www.wsj.com/opinion/raise-the-standards-for-tax-return-preparers-fd6ed684",
+      "storyKey": "preparer+standards+tax"
     },
     {
-      "title": "Nvidia’s Board Investigates Reports That CEO Was Spying Target After Affair",
-      "url": "https://www.wsj.com/tech/ai/nvidias-board-to-investigate-reports-that-jensen-huang-was-spying-target-c630325e",
-      "storyKey": "ceo+nvidia+spying"
+      "title": "Jensen Huang Doesn’t Believe in Succession Planning. It’s Become a Big Risk for Nvidia.",
+      "url": "https://www.wsj.com/tech/jensen-huang-doesnt-believe-in-succession-planning-its-become-a-big-risk-for-nvidia-abd9ea9d",
+      "storyKey": "nvidia+risk+succession"
     },
     {
       "title": "Brock Purdy: The $265 Million Quarterback Who’s Somehow a Bargain",
@@ -666,6 +666,8 @@
     "2026-11-08": [
       "https://podcasts.apple.com/us/podcast/rebuilding-resilience-in-americas-pharmaceutical-supply/id1456184829?i=1000800519739&uo=4"
     ],
-    "2026-11-09": []
+    "2026-11-09": [
+      "https://podcasts.apple.com/us/podcast/us-midterms-fiscal-market-and-geopolitical/id1456184829?i=1000800784510&uo=4"
+    ]
   }
 }
