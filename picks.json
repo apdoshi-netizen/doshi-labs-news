@@ -1,63 +1,52 @@
 {
-  "date": "2026-11-08",
-  "generatedAt": "2026-11-08T15:57:50.466269+00:00",
+  "date": "2026-11-09",
+  "generatedAt": "2026-11-09T13:52:30.881125+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Bank of Canada Gov. Macklem Pledges to Proceed Carefully on Further Rate Increases",
-      "url": "https://www.wsj.com/economy/global/bank-of-canada-gov-macklem-pledges-to-proceed-carefully-on-further-rate-increases-a27c79ee",
-      "summary": "Bank of Canada's Macklem pledges to proceed carefully on further rate increases, signaling cautious policy stance.",
-      "storyKey": "boc+pause+rate",
+      "title": "U.S., Eurozone Bond Yields Turn Higher as Investors Shift Focus Back to Data",
+      "url": "https://www.wsj.com/finance/investing/u-s-treasury-yields-edge-lower-as-oil-prices-decline-71869e97",
+      "summary": "US and Eurozone bond yields rose as investors refocus on incoming economic data.",
+      "storyKey": "bond+data+yields",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Germany’s DHL Group to Step Up Investments in Growth Push",
-      "url": "https://www.wsj.com/business/earnings/germanys-dhl-group-to-step-up-investments-in-growth-push-8a2c16ab",
-      "summary": "Germany's DHL Group to step up investments in a push for growth, per company announcement.",
-      "storyKey": "dhl+growth+investment",
+      "title": "Wendy’s Rejects $1.4 Billion Buyout Offer From Nelson Peltz’s Trian",
+      "url": "https://www.wsj.com/business/earnings/wendys-rejects-1-4-billion-buyout-offer-from-nelson-peltzs-trian-c97c7b0d",
+      "summary": "Wendy's rejected a $1.4 billion buyout offer from Nelson Peltz's Trian Fund.",
+      "storyKey": "buyout+trian+wendy",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | India’s Big Semiconductor Bet",
-      "url": "https://www.wsj.com/opinion/indias-big-semiconductor-bet-e0e60891",
-      "summary": "Opinion piece examines India's ambitious bet on building a domestic semiconductor industry.",
-      "storyKey": "bet+india+semiconductor",
+      "title": "Opinion | Overregulation Makes Housing Unaffordable",
+      "url": "https://www.wsj.com/opinion/overregulation-makes-housing-unaffordable-12e5e856",
+      "summary": "Opinion argues overregulation is a primary driver of housing unaffordability.",
+      "storyKey": "affordability+housing+regulation",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Bosch to Set Up Semiconductor Division to Cash in on Soaring Demand for Chips",
-      "url": "https://www.wsj.com/tech/bosch-to-set-up-semiconductor-division-to-cash-in-on-soaring-demand-for-chips-bb333692",
-      "summary": "Bosch to set up new semiconductor division to capitalize on soaring chip demand.",
-      "storyKey": "bosch+division+semiconductor",
+      "title": "Nvidia’s Board Investigates Reports That CEO Was Spying Target After Affair",
+      "url": "https://www.wsj.com/tech/ai/nvidias-board-to-investigate-reports-that-jensen-huang-was-spying-target-c630325e",
+      "summary": "Nvidia's board investigates reports CEO was spying target following his affair.",
+      "storyKey": "ceo+nvidia+spying",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "Notre Dame Is Back—and Just Took Down the No. 1 Team in the Country",
-      "url": "https://www.wsj.com/sports/football/notre-dame-cj-carr-952a9abf",
-      "summary": "Notre Dame football defeats the nation's No. 1 ranked team, marking a program resurgence.",
-      "storyKey": "dame+notre+upset",
+      "title": "Brock Purdy: The $265 Million Quarterback Who’s Somehow a Bargain",
+      "url": "https://www.wsj.com/sports/football/san-francisco-49ers-brock-purdy-3307b0af",
+      "summary": "Brock Purdy's $265 million quarterback contract is called a bargain deal.",
+      "storyKey": "contract+purdy+value",
       "source": "WSJ"
     }
   ],
-  "research": [
-    {
-      "firm": "J.P. Morgan",
-      "show": "Making Sense",
-      "title": "Rebuilding resilience in America’s pharmaceutical supply chain",
-      "url": "https://podcasts.apple.com/us/podcast/rebuilding-resilience-in-americas-pharmaceutical-supply/id1456184829?i=1000800519739&uo=4",
-      "published": "2026-11-08T06:00:00+00:00",
-      "kind": "podcast",
-      "duration": "15 min",
-      "summary": "Alex Gorsky, former chairman and CEO of Johnson & Johnson and a member of J.P. Morgan’s SRI Advisory Council, joins Jerry Lee, global co-head of Healthcare Investment Banking and global chairman of Investment Banking at J.P. Morgan to discuss what reshoring, friendshoring and AI mean for the next decade of healthcare resiliency."
-    }
-  ]
+  "research": []
 }
