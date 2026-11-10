@@ -1,63 +1,52 @@
 {
-  "date": "2026-11-09",
-  "generatedAt": "2026-11-09T19:47:27.053273+00:00",
+  "date": "2026-11-10",
+  "generatedAt": "2026-11-10T13:27:13.510908+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "China Producer Inflation Accelerates to Over Four-Year High",
-      "url": "https://www.wsj.com/economy/china-producer-inflation-accelerates-to-over-four-year-high-a31d4985",
-      "summary": "China’s producer price inflation accelerated to a four-year high, signaling shifting industrial price pressures.",
-      "storyKey": "china+inflation+producer",
+      "title": "Stoxx 600 on Track for Record Close as Oil Drop Buoys Sentiment",
+      "url": "https://www.wsj.com/finance/stocks/nikkei-rises-2-8-led-by-bank-machinery-stocks-c0a653b1",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Wendy’s Rejects $1.4 Billion Buyout Offer From Nelson Peltz’s Trian",
-      "url": "https://www.wsj.com/business/earnings/wendys-rejects-1-4-billion-buyout-offer-from-nelson-peltzs-trian-c97c7b0d",
-      "summary": "Wendy’s rejected a $1.4 billion buyout offer from Nelson Peltz’s Trian Fund Management.",
-      "storyKey": "buyout+trian+wendy",
+      "title": "Zipline Valuation Soars as Drone Startup Raises Funds, Expands Walmart Deal",
+      "url": "https://www.wsj.com/logistics-report/zipline-valuation-soars-as-drone-startup-raises-funds-expands-walmart-deal-48676792",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Raise the Standards for Tax Return Preparers",
-      "url": "https://www.wsj.com/opinion/raise-the-standards-for-tax-return-preparers-fd6ed684",
-      "summary": "Opinion piece argues for raising professional standards required of tax return preparers.",
-      "storyKey": "preparer+standards+tax",
+      "title": "Opinion | Voters to Trump: Fewer Targets, Better Aim",
+      "url": "https://www.wsj.com/opinion/voters-to-trump-fewer-targets-better-aim-e4d9de5b",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Jensen Huang Doesn’t Believe in Succession Planning. It’s Become a Big Risk for Nvidia.",
-      "url": "https://www.wsj.com/tech/jensen-huang-doesnt-believe-in-succession-planning-its-become-a-big-risk-for-nvidia-abd9ea9d",
-      "summary": "Jensen Huang’s refusal to plan succession is becoming a significant risk for Nvidia.",
-      "storyKey": "nvidia+risk+succession",
+      "title": "From Silicon Valley to the Pentagon, Here’s the 2026 WSJ Tech: California Recap",
+      "url": "https://www.wsj.com/tech/ai/from-silicon-valley-to-the-pentagon-heres-the-2026-wsj-tech-california-recap-351cb31d",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "Brock Purdy: The $265 Million Quarterback Who’s Somehow a Bargain",
-      "url": "https://www.wsj.com/sports/football/san-francisco-49ers-brock-purdy-3307b0af",
-      "summary": "Brock Purdy’s $265 million quarterback contract is called a bargain despite its size.",
-      "storyKey": "contract+purdy+value",
+      "title": "He Quit Basketball to Work in a Warehouse. Now He’s the NBA’s Newest Star.",
+      "url": "https://www.wsj.com/sports/basketball/yaxel-lendeborg-warriors-curry-174eda28",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     }
   ],
-  "research": [
-    {
-      "firm": "J.P. Morgan",
-      "show": "Making Sense",
-      "title": "US midterms: Fiscal, market and geopolitical implications of the \"blue wave\"",
-      "url": "https://podcasts.apple.com/us/podcast/us-midterms-fiscal-market-and-geopolitical/id1456184829?i=1000800784510&uo=4",
-      "published": "2026-11-09T14:51:11+00:00",
-      "kind": "podcast",
-      "duration": "28 min",
-      "summary": "Democrats have won control of the U.S. Legislature, riding a historic wave of support to equally historic margins in both the House and Senate. In this episode of Making Sense, Kathleen Mellody, head of J.P. Morgan's Federal Government Relations team, sits down with Bruce Kasman, chief global economist, and Derek Chollet, head of the JPMorganChase Center for Geopolitics, to unpack what this outcome could mean in the U.S. and abroad. Will it reshape fiscal policy, the outlook for growth and the AI buildout? Could it affect U.S.-China relations, as well ongoing conflicts in the Middle East and Ukraine? And how does it align with electoral results in Brazil and Israel? Tune in for a fascinating look at what's ahead."
-    }
-  ]
+  "research": []
 }
