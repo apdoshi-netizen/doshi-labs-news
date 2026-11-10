@@ -1,52 +1,63 @@
 {
   "date": "2026-11-10",
-  "generatedAt": "2026-11-10T13:27:13.510908+00:00",
+  "generatedAt": "2026-11-10T17:01:42.498011+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Stoxx 600 on Track for Record Close as Oil Drop Buoys Sentiment",
-      "url": "https://www.wsj.com/finance/stocks/nikkei-rises-2-8-led-by-bank-machinery-stocks-c0a653b1",
-      "summary": "",
-      "storyKey": null,
+      "title": "Broad Price Pressures Firm Up Case for Fed Rate Increase in December",
+      "url": "https://www.wsj.com/economy/cpi-inflation-report-october-2026-369f8032",
+      "summary": "Broad price pressures firm up case for a Fed rate hike in December.",
+      "storyKey": "cpi+december+fed",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Zipline Valuation Soars as Drone Startup Raises Funds, Expands Walmart Deal",
-      "url": "https://www.wsj.com/logistics-report/zipline-valuation-soars-as-drone-startup-raises-funds-expands-walmart-deal-48676792",
-      "summary": "",
-      "storyKey": null,
+      "title": "Anthropic to Seek $1.3 Trillion Valuation in IPO",
+      "url": "https://www.wsj.com/finance/stocks/anthropic-ipo-valuation-8337b669",
+      "summary": "Anthropic seeks a $1.3 trillion valuation in its upcoming IPO.",
+      "storyKey": "anthropic+ipo",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Voters to Trump: Fewer Targets, Better Aim",
-      "url": "https://www.wsj.com/opinion/voters-to-trump-fewer-targets-better-aim-e4d9de5b",
-      "summary": "",
-      "storyKey": null,
+      "title": "Opinion | William Nordhaus Was a Great Teacher",
+      "url": "https://www.wsj.com/opinion/free-expression/william-nordhaus-was-a-great-teacher-a18ef0e6",
+      "summary": "Opinion piece honoring economist William Nordhaus as a great teacher.",
+      "storyKey": "economist+nordhaus",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "From Silicon Valley to the Pentagon, Here’s the 2026 WSJ Tech: California Recap",
-      "url": "https://www.wsj.com/tech/ai/from-silicon-valley-to-the-pentagon-heres-the-2026-wsj-tech-california-recap-351cb31d",
-      "summary": "",
-      "storyKey": null,
+      "title": "How Hackers Steal Millions in AI Computing Power",
+      "url": "https://www.wsj.com/tech/ai/hackers-hunt-for-ais-most-valuable-commodity-computing-power-4c2054d5",
+      "summary": "Hackers are stealing millions of dollars in AI computing power.",
+      "storyKey": "ai+computing+hackers",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "He Quit Basketball to Work in a Warehouse. Now He’s the NBA’s Newest Star.",
-      "url": "https://www.wsj.com/sports/basketball/yaxel-lendeborg-warriors-curry-174eda28",
-      "summary": "",
-      "storyKey": null,
+      "title": "The Hotshot NFL Dealmaker Who Just Mortgaged His Team’s Future—Again",
+      "url": "https://www.wsj.com/sports/football/nfl-trade-deadline-jaguars-jordan-davis-13b1e8f4",
+      "summary": "An NFL dealmaker again mortgages his team’s financial future.",
+      "storyKey": "dealmaker+mortgage+nfl",
       "source": "WSJ"
     }
   ],
-  "research": []
+  "research": [
+    {
+      "firm": "Morgan Stanley",
+      "show": "Thoughts on the Market",
+      "title": "A Stock Market Bottom in Sight",
+      "url": "https://podcasts.apple.com/us/podcast/a-stock-market-bottom-in-sight/id1466686717?i=1000800855238&uo=4",
+      "published": "2026-11-09T21:30:00+00:00",
+      "kind": "podcast",
+      "duration": "5 min",
+      "summary": "Our CIO and Chief U.S. Equity Strategist Mike Wilson examines signs that the current market correction could be nearing an end. Read more insights from Morgan Stanley."
+    }
+  ]
 }

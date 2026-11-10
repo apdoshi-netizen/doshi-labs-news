@@ -568,29 +568,29 @@
   ],
   "2026-11-10": [
     {
-      "title": "Stoxx 600 on Track for Record Close as Oil Drop Buoys Sentiment",
-      "url": "https://www.wsj.com/finance/stocks/nikkei-rises-2-8-led-by-bank-machinery-stocks-c0a653b1",
-      "storyKey": null
+      "title": "Broad Price Pressures Firm Up Case for Fed Rate Increase in December",
+      "url": "https://www.wsj.com/economy/cpi-inflation-report-october-2026-369f8032",
+      "storyKey": "cpi+december+fed"
     },
     {
-      "title": "Zipline Valuation Soars as Drone Startup Raises Funds, Expands Walmart Deal",
-      "url": "https://www.wsj.com/logistics-report/zipline-valuation-soars-as-drone-startup-raises-funds-expands-walmart-deal-48676792",
-      "storyKey": null
+      "title": "Anthropic to Seek $1.3 Trillion Valuation in IPO",
+      "url": "https://www.wsj.com/finance/stocks/anthropic-ipo-valuation-8337b669",
+      "storyKey": "anthropic+ipo"
     },
     {
-      "title": "Opinion | Voters to Trump: Fewer Targets, Better Aim",
-      "url": "https://www.wsj.com/opinion/voters-to-trump-fewer-targets-better-aim-e4d9de5b",
-      "storyKey": null
+      "title": "Opinion | William Nordhaus Was a Great Teacher",
+      "url": "https://www.wsj.com/opinion/free-expression/william-nordhaus-was-a-great-teacher-a18ef0e6",
+      "storyKey": "economist+nordhaus"
     },
     {
-      "title": "From Silicon Valley to the Pentagon, Here’s the 2026 WSJ Tech: California Recap",
-      "url": "https://www.wsj.com/tech/ai/from-silicon-valley-to-the-pentagon-heres-the-2026-wsj-tech-california-recap-351cb31d",
-      "storyKey": null
+      "title": "How Hackers Steal Millions in AI Computing Power",
+      "url": "https://www.wsj.com/tech/ai/hackers-hunt-for-ais-most-valuable-commodity-computing-power-4c2054d5",
+      "storyKey": "ai+computing+hackers"
     },
     {
-      "title": "He Quit Basketball to Work in a Warehouse. Now He’s the NBA’s Newest Star.",
-      "url": "https://www.wsj.com/sports/basketball/yaxel-lendeborg-warriors-curry-174eda28",
-      "storyKey": null
+      "title": "The Hotshot NFL Dealmaker Who Just Mortgaged His Team’s Future—Again",
+      "url": "https://www.wsj.com/sports/football/nfl-trade-deadline-jaguars-jordan-davis-13b1e8f4",
+      "storyKey": "dealmaker+mortgage+nfl"
     }
   ],
   "_research": {
@@ -668,6 +668,8 @@
     "2026-11-09": [
       "https://podcasts.apple.com/us/podcast/us-midterms-fiscal-market-and-geopolitical/id1456184829?i=1000800784510&uo=4"
     ],
-    "2026-11-10": []
+    "2026-11-10": [
+      "https://podcasts.apple.com/us/podcast/a-stock-market-bottom-in-sight/id1466686717?i=1000800855238&uo=4"
+    ]
   }
 }
