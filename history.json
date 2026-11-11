@@ -1,31 +1,4 @@
 {
-  "2026-10-20": [
-    {
-      "title": "U.K. Wage Growth Picks Up, Jobless Rate Falls Ahead of Bank of England Meeting",
-      "url": "https://www.wsj.com/world/uk/u-k-wage-growth-picks-up-ahead-of-bank-of-england-meeting-6e4a979b",
-      "storyKey": "boe+uk+wage"
-    },
-    {
-      "title": "Salesforce to Buy Customer-Engagement Platform for Nearly $5.7 Billion",
-      "url": "https://www.wsj.com/business/deals/salesforce-to-buy-customer-engagement-platform-for-nearly-5-7-billion-aba17cfe",
-      "storyKey": "acquisition+salesforce"
-    },
-    {
-      "title": "Opinion | A Durable Trade Deal Needs Skin in the Game",
-      "url": "https://www.wsj.com/opinion/a-durable-trade-deal-needs-skin-in-the-game-cf3b8076",
-      "storyKey": "deal+policy+trade"
-    },
-    {
-      "title": "Bill Gross’s AI Tool Could Supercharge the Number of Startups",
-      "url": "https://www.wsj.com/tech/ai/bill-grosss-ai-tool-could-supercharge-the-number-of-startups-27187080",
-      "storyKey": "ai+gross+startups"
-    },
-    {
-      "title": "The Knicks Built an NBA Champion. The Hard Part Is Paying for It.",
-      "url": "https://www.wsj.com/sports/basketball/knicks-dolan-towns-hart-salary-cap-c8d47b9b",
-      "storyKey": "economics+knicks+nba"
-    }
-  ],
   "2026-10-21": [
     {
       "title": "U.K. Inflation Jumps Again, Strengthening Case for Rate Hike",
@@ -593,10 +566,34 @@
       "storyKey": "dealmaker+mortgage+nfl"
     }
   ],
+  "2026-11-11": [
+    {
+      "title": "Fed Forced to Confront Case for Bigger and Faster Rate Rises",
+      "url": "https://www.wsj.com/economy/central-banking/fed-forced-to-confront-case-for-bigger-and-faster-rate-rises-ac181706",
+      "storyKey": "fed+hikes+rate"
+    },
+    {
+      "title": "McCormick’s $65 Billion Unilever Foods Tie-Up Could Harm Competition, U.K. Regulator Warns",
+      "url": "https://www.wsj.com/business/deals/mccormicks-65-billion-unilever-foods-merger-could-harm-competition-u-k-regulator-warns-ccd08701",
+      "storyKey": "mccormick+unilever"
+    },
+    {
+      "title": "Opinion | How Do You Like Those Tariffs Now?",
+      "url": "https://www.wsj.com/opinion/how-do-you-like-those-tariffs-now-2e36ecc5",
+      "storyKey": "policy+tariffs+trade"
+    },
+    {
+      "title": "TSMC Approves Up to $1 Billion Investment Plan in Anthropic, OpenAI",
+      "url": "https://www.wsj.com/tech/ai/tsmc-approves-up-to-1-billion-investment-plan-in-anthropic-openai-3e4b4997",
+      "storyKey": "anthropic+openai+tsmc"
+    },
+    {
+      "title": "The Legal ‘Nuclear Option’ That Threatens to Upend the Baseball Lockout",
+      "url": "https://www.wsj.com/sports/baseball/mlb-lockout-nuclear-option-9ea4f098",
+      "storyKey": "baseball+legal+lockout"
+    }
+  ],
   "_research": {
-    "2026-10-20": [
-      "https://podcasts.apple.com/us/podcast/a-narrower-path-for-growth-and-stability/id1466686717?i=1000797147248&uo=4"
-    ],
     "2026-10-21": [
       "https://podcasts.apple.com/us/podcast/ais-next-winners-signals-from-private-markets/id1466686717?i=1000797325556&uo=4",
       "https://podcasts.apple.com/us/podcast/one-year-in-advancing-economic-security-and-resiliency/id1456184829?i=1000797285634&uo=4"
@@ -670,6 +667,10 @@
     ],
     "2026-11-10": [
       "https://podcasts.apple.com/us/podcast/a-stock-market-bottom-in-sight/id1466686717?i=1000800855238&uo=4"
+    ],
+    "2026-11-11": [
+      "https://podcasts.apple.com/us/podcast/playing-for-scale-the-future-of-sports-investing/id948913991?i=1000801144695&uo=4",
+      "https://podcasts.apple.com/us/podcast/big-political-shift-narrow-economic-impact/id1466686717?i=1000801073394&uo=4"
     ]
   }
 }
