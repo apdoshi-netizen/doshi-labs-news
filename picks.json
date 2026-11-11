@@ -1,13 +1,13 @@
 {
   "date": "2026-11-11",
-  "generatedAt": "2026-11-11T12:42:10.230649+00:00",
+  "generatedAt": "2026-11-11T17:06:12.483927+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
       "title": "Fed Forced to Confront Case for Bigger and Faster Rate Rises",
       "url": "https://www.wsj.com/economy/central-banking/fed-forced-to-confront-case-for-bigger-and-faster-rate-rises-ac181706",
-      "summary": "Fed officials confront case for bigger, faster interest-rate increases amid persistent inflation pressures.",
+      "summary": "Fed officials weigh a bigger, faster pace of rate increases amid persistent inflation pressures.",
       "storyKey": "fed+hikes+rate",
       "source": "WSJ"
     },
@@ -16,7 +16,7 @@
       "label": "Micro",
       "title": "McCormick’s $65 Billion Unilever Foods Tie-Up Could Harm Competition, U.K. Regulator Warns",
       "url": "https://www.wsj.com/business/deals/mccormicks-65-billion-unilever-foods-merger-could-harm-competition-u-k-regulator-warns-ccd08701",
-      "summary": "McCormick's $65 billion Unilever foods tie-up could harm competition, U.K. regulator warns.",
+      "summary": "UK regulator warns McCormick's $65 billion Unilever foods tie-up could harm competition.",
       "storyKey": "mccormick+unilever",
       "source": "WSJ"
     },
@@ -25,17 +25,17 @@
       "label": "Op-Ed",
       "title": "Opinion | How Do You Like Those Tariffs Now?",
       "url": "https://www.wsj.com/opinion/how-do-you-like-those-tariffs-now-2e36ecc5",
-      "summary": "Opinion column questions effectiveness and consequences of recent U.S. tariff policies.",
-      "storyKey": "policy+tariffs+trade",
+      "summary": "Opinion piece questions effectiveness and economic impact of Trump-era tariff policies.",
+      "storyKey": "economy+tariffs+trump",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "TSMC Approves Up to $1 Billion Investment Plan in Anthropic, OpenAI",
-      "url": "https://www.wsj.com/tech/ai/tsmc-approves-up-to-1-billion-investment-plan-in-anthropic-openai-3e4b4997",
-      "summary": "TSMC approves up to $1 billion investment plan in AI firms Anthropic and OpenAI.",
-      "storyKey": "anthropic+openai+tsmc",
+      "title": "Alibaba’s Chip Unit Files for Hong Kong Listing",
+      "url": "https://www.wsj.com/tech/alibabas-chip-unit-files-for-hong-kong-listing-31f856cb",
+      "summary": "Alibaba's chip unit files for a Hong Kong listing, a major semiconductor industry move.",
+      "storyKey": "alibaba+chip+listing",
       "source": "WSJ"
     },
     {
@@ -43,7 +43,7 @@
       "label": "Sports",
       "title": "The Legal ‘Nuclear Option’ That Threatens to Upend the Baseball Lockout",
       "url": "https://www.wsj.com/sports/baseball/mlb-lockout-nuclear-option-9ea4f098",
-      "summary": "Legal \"nuclear option\" threatens to upend ongoing baseball lockout dispute.",
+      "summary": "Legal \"nuclear option\" could upend the ongoing baseball lockout dispute.",
       "storyKey": "baseball+legal+lockout",
       "source": "WSJ"
     }
