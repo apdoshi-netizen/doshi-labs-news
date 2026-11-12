@@ -1,31 +1,4 @@
 {
-  "2026-10-21": [
-    {
-      "title": "U.K. Inflation Jumps Again, Strengthening Case for Rate Hike",
-      "url": "https://www.wsj.com/economy/central-banking/u-k-inflation-jumps-again-on-energy-costs-e2bd9d85",
-      "storyKey": "boe+inflation+uk"
-    },
-    {
-      "title": "Exclusive | Larry Ellison Went on Borrowing Spree to Bankroll His Son’s Warner Bros. Bid",
-      "url": "https://www.wsj.com/finance/larry-ellison-warner-bros-loans-49918714",
-      "storyKey": "bros+ellison+warner"
-    },
-    {
-      "title": "Opinion | The Biggest Inflation Contributor: Tariffs",
-      "url": "https://www.wsj.com/opinion/the-biggest-inflation-contributor-tariffs-5660509d",
-      "storyKey": "inflation+tariffs"
-    },
-    {
-      "title": "Why Nvidia Needs CoreWeave",
-      "url": "https://www.wsj.com/tech/ai/why-nvidia-needs-coreweave-2c26136e",
-      "storyKey": "coreweave+nvidia"
-    },
-    {
-      "title": "Golden Ticket, Nosebleed Seats: The Offer That Left Brewers Fans Stewing",
-      "url": "https://www.wsj.com/sports/baseball/milwaukee-brewers-world-series-timeless-ticket-be91b6c6",
-      "storyKey": "brewers+pricing+ticket"
-    }
-  ],
   "2026-10-22": [
     {
       "title": "French Bond Yields Hit Multiyear Highs, U.S. Treasury Yields Edge Higher",
@@ -593,11 +566,34 @@
       "storyKey": "baseball+legal+lockout"
     }
   ],
+  "2026-11-12": [
+    {
+      "title": "Why the Credit Default Swap Market—Red Hot in the AI Trade—Is Vital for CFOs",
+      "url": "https://www.wsj.com/cfo-journal/why-the-credit-default-swap-marketred-hot-in-the-ai-tradeis-vital-for-cfos-9a8aac4a",
+      "storyKey": null
+    },
+    {
+      "title": "China’s SMIC Doubles Profit, Posts Record Revenue on AI Boost",
+      "url": "https://www.wsj.com/business/earnings/chinas-smic-doubles-profit-posts-record-revenue-on-ai-spillover-effects-0606debc",
+      "storyKey": null
+    },
+    {
+      "title": "The Wealth Taxman Cometh",
+      "url": "https://www.wsj.com/opinion/free-expression/the-wealth-taxman-cometh-139d8beb",
+      "storyKey": null
+    },
+    {
+      "title": "Foxconn Stays Bullish After Robust Quarter, Cautious About AI Data-Center Outlook",
+      "url": "https://www.wsj.com/tech/foxconn-maintains-strong-earnings-growth-on-resilient-ai-tech-hardware-demand-3a05ddd5",
+      "storyKey": null
+    },
+    {
+      "title": "The Most Demanding, Difficult, Impossible to Replace Job in America: NFL Quarterback",
+      "url": "https://www.wsj.com/sports/football/quarterback-nfl-josh-allen-kirk-cousins-ae0bf4f8",
+      "storyKey": null
+    }
+  ],
   "_research": {
-    "2026-10-21": [
-      "https://podcasts.apple.com/us/podcast/ais-next-winners-signals-from-private-markets/id1466686717?i=1000797325556&uo=4",
-      "https://podcasts.apple.com/us/podcast/one-year-in-advancing-economic-security-and-resiliency/id1456184829?i=1000797285634&uo=4"
-    ],
     "2026-10-22": [
       "https://podcasts.apple.com/us/podcast/inside-the-biggest-bond-boom-in-years/id1466686717?i=1000797496216&uo=4"
     ],
@@ -671,6 +667,9 @@
     "2026-11-11": [
       "https://podcasts.apple.com/us/podcast/playing-for-scale-the-future-of-sports-investing/id948913991?i=1000801144695&uo=4",
       "https://podcasts.apple.com/us/podcast/big-political-shift-narrow-economic-impact/id1466686717?i=1000801073394&uo=4"
+    ],
+    "2026-11-12": [
+      "https://podcasts.apple.com/us/podcast/midterms-could-delay-the-ai-buildout-not-derail-it/id1466686717?i=1000801292062&uo=4"
     ]
   }
 }

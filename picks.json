@@ -1,73 +1,63 @@
 {
-  "date": "2026-11-11",
-  "generatedAt": "2026-11-11T17:06:12.483927+00:00",
+  "date": "2026-11-12",
+  "generatedAt": "2026-11-12T13:44:44.915551+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Fed Forced to Confront Case for Bigger and Faster Rate Rises",
-      "url": "https://www.wsj.com/economy/central-banking/fed-forced-to-confront-case-for-bigger-and-faster-rate-rises-ac181706",
-      "summary": "Fed officials weigh a bigger, faster pace of rate increases amid persistent inflation pressures.",
-      "storyKey": "fed+hikes+rate",
+      "title": "Why the Credit Default Swap Market—Red Hot in the AI Trade—Is Vital for CFOs",
+      "url": "https://www.wsj.com/cfo-journal/why-the-credit-default-swap-marketred-hot-in-the-ai-tradeis-vital-for-cfos-9a8aac4a",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "McCormick’s $65 Billion Unilever Foods Tie-Up Could Harm Competition, U.K. Regulator Warns",
-      "url": "https://www.wsj.com/business/deals/mccormicks-65-billion-unilever-foods-merger-could-harm-competition-u-k-regulator-warns-ccd08701",
-      "summary": "UK regulator warns McCormick's $65 billion Unilever foods tie-up could harm competition.",
-      "storyKey": "mccormick+unilever",
+      "title": "China’s SMIC Doubles Profit, Posts Record Revenue on AI Boost",
+      "url": "https://www.wsj.com/business/earnings/chinas-smic-doubles-profit-posts-record-revenue-on-ai-spillover-effects-0606debc",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | How Do You Like Those Tariffs Now?",
-      "url": "https://www.wsj.com/opinion/how-do-you-like-those-tariffs-now-2e36ecc5",
-      "summary": "Opinion piece questions effectiveness and economic impact of Trump-era tariff policies.",
-      "storyKey": "economy+tariffs+trump",
+      "title": "The Wealth Taxman Cometh",
+      "url": "https://www.wsj.com/opinion/free-expression/the-wealth-taxman-cometh-139d8beb",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Alibaba’s Chip Unit Files for Hong Kong Listing",
-      "url": "https://www.wsj.com/tech/alibabas-chip-unit-files-for-hong-kong-listing-31f856cb",
-      "summary": "Alibaba's chip unit files for a Hong Kong listing, a major semiconductor industry move.",
-      "storyKey": "alibaba+chip+listing",
+      "title": "Foxconn Stays Bullish After Robust Quarter, Cautious About AI Data-Center Outlook",
+      "url": "https://www.wsj.com/tech/foxconn-maintains-strong-earnings-growth-on-resilient-ai-tech-hardware-demand-3a05ddd5",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The Legal ‘Nuclear Option’ That Threatens to Upend the Baseball Lockout",
-      "url": "https://www.wsj.com/sports/baseball/mlb-lockout-nuclear-option-9ea4f098",
-      "summary": "Legal \"nuclear option\" could upend the ongoing baseball lockout dispute.",
-      "storyKey": "baseball+legal+lockout",
+      "title": "The Most Demanding, Difficult, Impossible to Replace Job in America: NFL Quarterback",
+      "url": "https://www.wsj.com/sports/football/quarterback-nfl-josh-allen-kirk-cousins-ae0bf4f8",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     }
   ],
   "research": [
     {
-      "firm": "Goldman Sachs",
-      "show": "Exchanges",
-      "title": "Playing for Scale: The Future of Sports Investing",
-      "url": "https://podcasts.apple.com/us/podcast/playing-for-scale-the-future-of-sports-investing/id948913991?i=1000801144695&uo=4",
-      "published": "2026-11-11T05:00:00+00:00",
-      "kind": "podcast",
-      "duration": "19 min",
-      "summary": "Investors are finding opportunities in sports as the media rights market surges and team valuations climb, Nicole Pullen Ross, head of the Sports and Entertainment Solutions within Goldman Sachs Private Wealth Management, explains on the Exchanges podcast. Read the related report here."
-    },
-    {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
-      "title": "Big Political Shift, Narrow Economic Impact",
-      "url": "https://podcasts.apple.com/us/podcast/big-political-shift-narrow-economic-impact/id1466686717?i=1000801073394&uo=4",
-      "published": "2026-11-10T21:30:00+00:00",
+      "title": "Midterms Could Delay the AI Buildout, Not Derail It",
+      "url": "https://podcasts.apple.com/us/podcast/midterms-could-delay-the-ai-buildout-not-derail-it/id1466686717?i=1000801292062&uo=4",
+      "published": "2026-11-11T21:00:00+00:00",
       "kind": "podcast",
       "duration": "5 min",
-      "summary": "What do the midterm elections mean for the U.S. economic outlook? Arunima Sinha, from our U.S. and Global Economics teams, examines the potential implications for policy, legislation and the broader economic landscape. Read more insights from Morgan Stanley."
+      "summary": "Concerns over electricity bills and water use are turning into political action. Our Head of Public Policy Research Ariana Salvatore breaks down what the midterms mean for the data center pipeline, hyperscaler CapEx and investors. Read more insights from Morgan Stanley."
     }
   ]
 }
