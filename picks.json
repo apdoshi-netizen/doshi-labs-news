@@ -1,52 +1,63 @@
 {
   "date": "2026-11-13",
-  "generatedAt": "2026-11-13T13:05:10.591528+00:00",
+  "generatedAt": "2026-11-13T17:11:39.839192+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Fed’s Williams Says Still Work to Do to Get Monetary Policy to Right Place",
-      "url": "https://www.wsj.com/economy/central-banking/feds-williams-says-still-work-to-do-to-get-monetary-policy-to-right-place-cc3b5992",
-      "summary": "Fed's Williams says more work needed to get monetary policy to right place, signaling cautious rate outlook.",
-      "storyKey": "fed+policy+williams",
+      "title": "Treasury Yields Lose Steam After Soft Producer Price Index",
+      "url": "https://www.wsj.com/finance/jgb-yields-rise-after-selloff-in-u-s-treasurys-overnight-1eeb83e2",
+      "summary": "Soft producer price index data causes Treasury yields to lose momentum, signaling inflation cooling.",
+      "storyKey": "ppi+treasury+yields",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "SoftBank Posts $7 Billion Loss as AI Trade Falters",
-      "url": "https://www.wsj.com/business/earnings/softbank-group-posts-quarterly-loss-on-special-losses-linked-to-u-s-data-center-projects-23b37a41",
-      "summary": "SoftBank posts $7 billion loss as its AI investment trade falters.",
-      "storyKey": "ai+loss+softbank",
+      "title": "Nvidia-Backed Nscale Says It Needs Additional Financing Ahead of Planned IPO",
+      "url": "https://www.wsj.com/tech/nvidia-backed-nscale-says-it-needs-additional-financing-ahead-of-planned-ipo-58f4f8c1",
+      "summary": "Nvidia-backed AI firm Nscale says it needs extra financing before its planned IPO.",
+      "storyKey": "financing+nscale+nvidia",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | AI Saves the Day—and Could Bring Doom Tomorrow",
-      "url": "https://www.wsj.com/opinion/ai-saves-the-dayand-could-bring-doom-tomorrow-b1afdfec",
-      "summary": "Opinion argues AI saves the day now but could bring doom tomorrow, weighing tech risk.",
-      "storyKey": "ai+doom+risk",
+      "title": "Opinion | Beware Socialism’s Moderate Makeover",
+      "url": "https://www.wsj.com/opinion/free-expression/beware-socialisms-moderate-makeover-be1126b6",
+      "summary": "Opinion argues against a softened, more palatable version of socialist policy ideas.",
+      "storyKey": "makeover+moderate+socialism",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Nvidia-Backed Nscale Says It Needs Additional Financing Ahead of Planned IPO",
-      "url": "https://www.wsj.com/tech/nvidia-backed-nscale-says-it-needs-additional-financing-ahead-of-planned-ipo-58f4f8c1",
-      "summary": "Nvidia-backed Nscale says it needs additional financing ahead of its planned IPO.",
-      "storyKey": "financing+ipo+nscale",
+      "title": "Widespread Microsoft Outage Roils Businesses, Governments",
+      "url": "https://www.wsj.com/tech/microsoft-working-to-fix-widespread-outage-8df67a4e",
+      "summary": "Widespread Microsoft outage disrupts businesses and governments globally, highlighting tech dependency risks.",
+      "storyKey": "microsoft+outage",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "To Fix Its Nightmare Offense, the NFL’s Best Defense Turns to an Old Friend",
-      "url": "https://www.wsj.com/sports/football/kirk-cousins-minnesota-vikings-d64f622e",
-      "summary": "NFL's best defense turns to an old friend to fix its nightmare offense.",
-      "storyKey": "defense+nfl+scheme",
+      "title": "The Top Yankees Executive at the Center of College Sports’ Big Fight",
+      "url": "https://www.wsj.com/sports/randy-levine-yankees-trump-protect-college-sports-act-6e118a2c",
+      "summary": "Top Yankees executive plays key role in college sports' ongoing business battle.",
+      "storyKey": "college+sports+yankees",
       "source": "WSJ"
     }
   ],
-  "research": []
+  "research": [
+    {
+      "firm": "Morgan Stanley",
+      "show": "Thoughts on the Market",
+      "title": "From AI to Air-Conditioning: The Power Boom in Asia",
+      "url": "https://podcasts.apple.com/us/podcast/from-ai-to-air-conditioning-the-power-boom-in-asia/id1466686717?i=1000801594719&uo=4",
+      "published": "2026-11-12T22:30:00+00:00",
+      "kind": "podcast",
+      "duration": "5 min",
+      "summary": "Our Asia Energy analyst Mayank Maheshwari discusses how AI, new factories and cooling systems are boosting electricity demand in Asia and reshaping local power structure. Read more insights from Morgan Stanley."
+    }
+  ]
 }
