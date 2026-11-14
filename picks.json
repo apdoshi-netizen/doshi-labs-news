@@ -1,23 +1,23 @@
 {
   "date": "2026-11-14",
-  "generatedAt": "2026-11-14T12:09:37.771514+00:00",
+  "generatedAt": "2026-11-14T15:48:29.531551+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Kevin Warsh’s Plan to Remake the Fed: Fewer Rate Votes, More Deliberating",
-      "url": "https://www.wsj.com/economy/central-banking/federal-reserve-calendar-changes-890c4390",
-      "summary": "Kevin Warsh proposes remaking Fed with fewer rate votes, more deliberation, signaling potential policy shift.",
-      "storyKey": "fed+reform+warsh",
+      "title": "Bank of Canada Raised Rates to Mitigate Inflation Risk, Minutes Say",
+      "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-raised-rates-to-mitigate-inflation-risk-minutes-say-1bece759",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Banco BPM Says Board to Discuss Credit Agricole Merger Proposal",
-      "url": "https://www.wsj.com/finance/banco-bpm-says-board-to-discuss-credit-agricole-merger-proposal-c58b61e7",
-      "summary": "Banco BPM board to discuss Credit Agricole's merger proposal, a major European banking consolidation move.",
-      "storyKey": "agricole+bpm+credit",
+      "title": "Exclusive | Kevin Durant Lists U-Shaped Arizona House for $13.9 Million",
+      "url": "https://www.wsj.com/real-estate/luxury-homes/kevin-durant-paradise-valley-arizona-home-0053e726",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
@@ -25,26 +25,26 @@
       "label": "Op-Ed",
       "title": "Opinion | I Have a Beef With the Price of Steak",
       "url": "https://www.wsj.com/opinion/free-expression/i-have-a-beef-with-the-price-of-steak-c37ae2b8",
-      "summary": "Opinion piece examines soaring beef and steak prices amid broader inflation concerns.",
-      "storyKey": "price+steak",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Exclusive | China’s Moonshot AI Restructures to Pave Way for IPO",
-      "url": "https://www.wsj.com/tech/chinas-moonshot-ai-restructures-to-pave-way-for-ipo-49f09abb",
-      "summary": "China's Moonshot AI restructures corporate structure to pave way for a future IPO.",
-      "storyKey": "ipo+moonshot",
+      "title": "What Jensen Huang’s Downfall Means for Big Tech",
+      "url": "https://www.wsj.com/tech/what-jensen-huangs-downfall-means-for-big-tech-9e6ca5df",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "U.S. Soccer Coach Leaves for an Even Scarier Project: Fixing Manchester United",
-      "url": "https://www.wsj.com/sports/soccer/mauricio-pochettino-manchester-united-usmnt-0150056f",
-      "summary": "U.S. Soccer coach departs to take on turning around Manchester United's struggles.",
-      "storyKey": "manchester+united",
+      "title": "Baseball Digs In for a Long Winter",
+      "url": "https://www.wsj.com/sports/baseball/baseball-digs-in-for-a-long-winter-47746186",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     }
   ],
