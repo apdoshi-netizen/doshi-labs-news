@@ -1,63 +1,83 @@
 {
-  "date": "2026-11-13",
-  "generatedAt": "2026-11-13T17:11:39.839192+00:00",
+  "date": "2026-11-14",
+  "generatedAt": "2026-11-14T12:09:37.771514+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Treasury Yields Lose Steam After Soft Producer Price Index",
-      "url": "https://www.wsj.com/finance/jgb-yields-rise-after-selloff-in-u-s-treasurys-overnight-1eeb83e2",
-      "summary": "Soft producer price index data causes Treasury yields to lose momentum, signaling inflation cooling.",
-      "storyKey": "ppi+treasury+yields",
+      "title": "Kevin Warsh’s Plan to Remake the Fed: Fewer Rate Votes, More Deliberating",
+      "url": "https://www.wsj.com/economy/central-banking/federal-reserve-calendar-changes-890c4390",
+      "summary": "Kevin Warsh proposes remaking Fed with fewer rate votes, more deliberation, signaling potential policy shift.",
+      "storyKey": "fed+reform+warsh",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Nvidia-Backed Nscale Says It Needs Additional Financing Ahead of Planned IPO",
-      "url": "https://www.wsj.com/tech/nvidia-backed-nscale-says-it-needs-additional-financing-ahead-of-planned-ipo-58f4f8c1",
-      "summary": "Nvidia-backed AI firm Nscale says it needs extra financing before its planned IPO.",
-      "storyKey": "financing+nscale+nvidia",
+      "title": "Banco BPM Says Board to Discuss Credit Agricole Merger Proposal",
+      "url": "https://www.wsj.com/finance/banco-bpm-says-board-to-discuss-credit-agricole-merger-proposal-c58b61e7",
+      "summary": "Banco BPM board to discuss Credit Agricole's merger proposal, a major European banking consolidation move.",
+      "storyKey": "agricole+bpm+credit",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Beware Socialism’s Moderate Makeover",
-      "url": "https://www.wsj.com/opinion/free-expression/beware-socialisms-moderate-makeover-be1126b6",
-      "summary": "Opinion argues against a softened, more palatable version of socialist policy ideas.",
-      "storyKey": "makeover+moderate+socialism",
+      "title": "Opinion | I Have a Beef With the Price of Steak",
+      "url": "https://www.wsj.com/opinion/free-expression/i-have-a-beef-with-the-price-of-steak-c37ae2b8",
+      "summary": "Opinion piece examines soaring beef and steak prices amid broader inflation concerns.",
+      "storyKey": "price+steak",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Widespread Microsoft Outage Roils Businesses, Governments",
-      "url": "https://www.wsj.com/tech/microsoft-working-to-fix-widespread-outage-8df67a4e",
-      "summary": "Widespread Microsoft outage disrupts businesses and governments globally, highlighting tech dependency risks.",
-      "storyKey": "microsoft+outage",
+      "title": "Exclusive | China’s Moonshot AI Restructures to Pave Way for IPO",
+      "url": "https://www.wsj.com/tech/chinas-moonshot-ai-restructures-to-pave-way-for-ipo-49f09abb",
+      "summary": "China's Moonshot AI restructures corporate structure to pave way for a future IPO.",
+      "storyKey": "ipo+moonshot",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The Top Yankees Executive at the Center of College Sports’ Big Fight",
-      "url": "https://www.wsj.com/sports/randy-levine-yankees-trump-protect-college-sports-act-6e118a2c",
-      "summary": "Top Yankees executive plays key role in college sports' ongoing business battle.",
-      "storyKey": "college+sports+yankees",
+      "title": "U.S. Soccer Coach Leaves for an Even Scarier Project: Fixing Manchester United",
+      "url": "https://www.wsj.com/sports/soccer/mauricio-pochettino-manchester-united-usmnt-0150056f",
+      "summary": "U.S. Soccer coach departs to take on turning around Manchester United's struggles.",
+      "storyKey": "manchester+united",
       "source": "WSJ"
     }
   ],
   "research": [
     {
+      "firm": "Goldman Sachs",
+      "show": "The Markets",
+      "title": "How Will Higher-than-Expected Inflation Data Impact the Fed's Next Rate Decisions?",
+      "url": "https://podcasts.apple.com/us/podcast/how-will-higher-than-expected-inflation-data-impact/id1683802600?i=1000801803950&uo=4",
+      "published": "2026-11-13T21:04:00+00:00",
+      "kind": "podcast",
+      "duration": "11 min",
+      "summary": "While a smaller hike remains more likely, October’s hotter-than-expected inflation data may open the door to a 50-basis point rate hike at the Fed’s December meeting, says Muhammad Qubbaj, co-head of North America Interest Rate Product Sales and Trading in Goldman Sachs FICC and Equities. A recent drop in oil prices is unlikely to give the Fed cover to look past the CPI number without becoming more aggressive in the inflation fight, Qubbaj says on this episode of The Markets podcast. He also explains why his base case is for the 10-Year Treasury yield to remain below recent highs. This episode was recorded on November 12, 2026."
+    },
+    {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
-      "title": "From AI to Air-Conditioning: The Power Boom in Asia",
-      "url": "https://podcasts.apple.com/us/podcast/from-ai-to-air-conditioning-the-power-boom-in-asia/id1466686717?i=1000801594719&uo=4",
-      "published": "2026-11-12T22:30:00+00:00",
+      "title": "Can AI Chip Demand Outrun the Power Crunch?",
+      "url": "https://podcasts.apple.com/us/podcast/can-ai-chip-demand-outrun-the-power-crunch/id1466686717?i=1000801816146&uo=4",
+      "published": "2026-11-13T23:00:00+00:00",
       "kind": "podcast",
-      "duration": "5 min",
-      "summary": "Our Asia Energy analyst Mayank Maheshwari discusses how AI, new factories and cooling systems are boosting electricity demand in Asia and reshaping local power structure. Read more insights from Morgan Stanley."
+      "duration": "12 min",
+      "summary": "The U.S. midterm results could lead to policy changes that worsen the power bottleneck for U.S. data centers. Meanwhile, the outlook for AI chips remains bullish. Our specialists discuss potential challenges and opportunities in the AI buildout. Read more insights from Morgan Stanley."
+    },
+    {
+      "firm": "J.P. Morgan",
+      "show": "Making Sense",
+      "title": "Revving the ETF vehicle: Roundhill’s CEO on DRAM, next-gen innovation and more",
+      "url": "https://podcasts.apple.com/us/podcast/revving-the-etf-vehicle-roundhills-ceo-on-dram-next/id1456184829?i=1000801754981&uo=4",
+      "published": "2026-11-13T15:45:03+00:00",
+      "kind": "podcast",
+      "duration": "15 min",
+      "summary": "What does the next generation of ETF innovation look like? In this episode of Making Sense, Funmi Osiyale, from J.P. Morgan’s ETF Sales team, is joined by Dave Mazza, CEO of Roundhill Investments, to discuss Roundhill’s approach to identifying investment opportunities and the thinking behind innovative ETFs, including DRAM and MAGS. They also explore the return of thematic ETFs, how investor demand is influencing product development, and what could be next for the broader ETF landscape."
     }
   ]
 }

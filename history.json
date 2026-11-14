@@ -1,31 +1,4 @@
 {
-  "2026-10-23": [
-    {
-      "title": "Volvo Car Shares Plunge as Automaker Slashes More Jobs",
-      "url": "https://www.wsj.com/business/autos/volvo-car-to-cut-2-500-jobs-as-part-of-plan-to-cut-costs-further-c304f1f8",
-      "storyKey": null
-    },
-    {
-      "title": "Mattel Adds Board Member As Activist Investor Pressure Mounts",
-      "url": "https://www.wsj.com/business/mattel-adds-board-member-as-activist-investor-pressure-mounts-3aed3a3a",
-      "storyKey": null
-    },
-    {
-      "title": "Let AI Be AI",
-      "url": "https://www.wsj.com/opinion/free-expression/let-ai-be-ai-0e2e6d96",
-      "storyKey": null
-    },
-    {
-      "title": "Exclusive | Quantinuum Sees Path to Fault-Tolerant Quantum Computing by 2029 With New Milestone",
-      "url": "https://www.wsj.com/tech/quantinuum-sees-path-to-fault-tolerant-quantum-computing-by-2029-with-new-milestone-9daa6b07",
-      "storyKey": null
-    },
-    {
-      "title": "Mercedes Spent $10 Million to Turn an 11-Year-Old Prodigy Into an F1 Champion",
-      "url": "https://www.wsj.com/sports/f1-kimi-antonelli-mercedes-4ae281be",
-      "storyKey": null
-    }
-  ],
   "2026-10-24": [
     {
       "title": "PulteGroup Net Down as Mortgage Rates Weigh on Home Sales",
@@ -593,12 +566,34 @@
       "storyKey": "college+sports+yankees"
     }
   ],
+  "2026-11-14": [
+    {
+      "title": "Kevin Warsh’s Plan to Remake the Fed: Fewer Rate Votes, More Deliberating",
+      "url": "https://www.wsj.com/economy/central-banking/federal-reserve-calendar-changes-890c4390",
+      "storyKey": "fed+reform+warsh"
+    },
+    {
+      "title": "Banco BPM Says Board to Discuss Credit Agricole Merger Proposal",
+      "url": "https://www.wsj.com/finance/banco-bpm-says-board-to-discuss-credit-agricole-merger-proposal-c58b61e7",
+      "storyKey": "agricole+bpm+credit"
+    },
+    {
+      "title": "Opinion | I Have a Beef With the Price of Steak",
+      "url": "https://www.wsj.com/opinion/free-expression/i-have-a-beef-with-the-price-of-steak-c37ae2b8",
+      "storyKey": "price+steak"
+    },
+    {
+      "title": "Exclusive | China’s Moonshot AI Restructures to Pave Way for IPO",
+      "url": "https://www.wsj.com/tech/chinas-moonshot-ai-restructures-to-pave-way-for-ipo-49f09abb",
+      "storyKey": "ipo+moonshot"
+    },
+    {
+      "title": "U.S. Soccer Coach Leaves for an Even Scarier Project: Fixing Manchester United",
+      "url": "https://www.wsj.com/sports/soccer/mauricio-pochettino-manchester-united-usmnt-0150056f",
+      "storyKey": "manchester+united"
+    }
+  ],
   "_research": {
-    "2026-10-23": [
-      "https://podcasts.apple.com/us/podcast/why-investors-are-reducing-ai-exposure/id1683802600?i=1000797784905&uo=4",
-      "https://podcasts.apple.com/us/podcast/why-oil-prices-are-surging-despite-recovering-supply/id948913991?i=1000797721514&uo=4",
-      "https://podcasts.apple.com/us/podcast/economic-roundtable-whats-keeping-global-growth-going/id1466686717?i=1000797676597&uo=4"
-    ],
     "2026-10-24": [
       "https://podcasts.apple.com/us/podcast/one-global-shock-different-rate-paths/id1466686717?i=1000797836502&uo=4",
       "https://podcasts.apple.com/us/podcast/how-modern-payments-drive-growth-and-resilience/id1456184829?i=1000797837135&uo=4"
@@ -670,6 +665,11 @@
     ],
     "2026-11-13": [
       "https://podcasts.apple.com/us/podcast/from-ai-to-air-conditioning-the-power-boom-in-asia/id1466686717?i=1000801594719&uo=4"
+    ],
+    "2026-11-14": [
+      "https://podcasts.apple.com/us/podcast/how-will-higher-than-expected-inflation-data-impact/id1683802600?i=1000801803950&uo=4",
+      "https://podcasts.apple.com/us/podcast/can-ai-chip-demand-outrun-the-power-crunch/id1466686717?i=1000801816146&uo=4",
+      "https://podcasts.apple.com/us/podcast/revving-the-etf-vehicle-roundhills-ceo-on-dram-next/id1456184829?i=1000801754981&uo=4"
     ]
   }
 }
