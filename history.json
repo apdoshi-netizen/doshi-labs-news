@@ -1,31 +1,4 @@
 {
-  "2026-10-24": [
-    {
-      "title": "PulteGroup Net Down as Mortgage Rates Weigh on Home Sales",
-      "url": "https://www.wsj.com/business/earnings/pultegroup-net-down-as-mortgage-rates-weigh-on-home-sales-a248f35f",
-      "storyKey": null
-    },
-    {
-      "title": "Shares in Ray-Ban Maker EssilorLuxottica Gain as AI Glasses Continue to Shine",
-      "url": "https://www.wsj.com/business/earnings/shares-in-ray-ban-maker-essilorluxottica-gain-as-ai-glasses-continue-to-shine-59c13a0e",
-      "storyKey": null
-    },
-    {
-      "title": "Opinion | Roger Marshall Backs a Giant Tax Increase",
-      "url": "https://www.wsj.com/opinion/roger-marshall-social-security-tax-85558cf1",
-      "storyKey": null
-    },
-    {
-      "title": "1Password Surpasses $500 Million in Revenue as AI Agents Drive Growth",
-      "url": "https://www.wsj.com/tech/ai/1password-surpasses-500-million-in-revenue-as-ai-agents-drive-growth-903ccd4b",
-      "storyKey": null
-    },
-    {
-      "title": "The Secret Ace That Was Hiding in the Brewers’ Bullpen",
-      "url": "https://www.wsj.com/sports/baseball/brewers-world-series-aaron-ashby-01afdfad",
-      "storyKey": null
-    }
-  ],
   "2026-10-25": [
     {
       "title": "Live Q&A: Ask Us Your Questions About Midterms and the Economy",
@@ -593,11 +566,34 @@
       "storyKey": null
     }
   ],
+  "2026-11-15": [
+    {
+      "title": "Yen Slumps as Fed Rate-Hike Bets Boost Dollar",
+      "url": "https://www.wsj.com/economy/central-banking/yen-slumps-to-over-one-month-low-on-fed-hike-bets-fc05bf61",
+      "storyKey": "dollar+fed+yen"
+    },
+    {
+      "title": "Skydance Plans to Cut $6 Billion in Costs Following Warner Bros. Deal",
+      "url": "https://www.wsj.com/business/media/skydance-plans-to-cut-6-billion-in-costs-following-warner-bros-deal-86b3b6bf",
+      "storyKey": "cuts+skydance+warner"
+    },
+    {
+      "title": "Opinion | Congressional Insider Trading Isn’t as Common as You Think",
+      "url": "https://www.wsj.com/opinion/congressional-insider-trading-isnt-as-common-as-you-think-637d5563",
+      "storyKey": "congress+insider+trading"
+    },
+    {
+      "title": "How Jensen Huang Built the Backdoor Route That Keeps Beijing in the AI Race",
+      "url": "https://www.wsj.com/tech/jensen-huang-backdoor-ai-data-centers-a5e4499d",
+      "storyKey": "backdoor+china+huang"
+    },
+    {
+      "title": "The Stunning Comeback That Saved Arch Manning’s Season",
+      "url": "https://www.wsj.com/sports/football/arch-manning-texas-lsu-3ed5b2e6",
+      "storyKey": "arch+comeback+manning"
+    }
+  ],
   "_research": {
-    "2026-10-24": [
-      "https://podcasts.apple.com/us/podcast/one-global-shock-different-rate-paths/id1466686717?i=1000797836502&uo=4",
-      "https://podcasts.apple.com/us/podcast/how-modern-payments-drive-growth-and-resilience/id1456184829?i=1000797837135&uo=4"
-    ],
     "2026-10-25": [],
     "2026-10-26": [
       "https://podcasts.apple.com/us/podcast/the-evolution-of-hedge-fund-performance-from-enhancer/id1456184829?i=1000798120284&uo=4"
@@ -670,6 +666,9 @@
       "https://podcasts.apple.com/us/podcast/how-will-higher-than-expected-inflation-data-impact/id1683802600?i=1000801803950&uo=4",
       "https://podcasts.apple.com/us/podcast/can-ai-chip-demand-outrun-the-power-crunch/id1466686717?i=1000801816146&uo=4",
       "https://podcasts.apple.com/us/podcast/revving-the-etf-vehicle-roundhills-ceo-on-dram-next/id1456184829?i=1000801754981&uo=4"
+    ],
+    "2026-11-15": [
+      "https://podcasts.apple.com/us/podcast/financing-the-future-of-defense-admiral-pierre/id1456184829?i=1000802039471&uo=4"
     ]
   }
 }

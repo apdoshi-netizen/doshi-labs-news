@@ -1,83 +1,63 @@
 {
-  "date": "2026-11-14",
-  "generatedAt": "2026-11-14T15:48:29.531551+00:00",
+  "date": "2026-11-15",
+  "generatedAt": "2026-11-15T12:43:08.826765+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Bank of Canada Raised Rates to Mitigate Inflation Risk, Minutes Say",
-      "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-raised-rates-to-mitigate-inflation-risk-minutes-say-1bece759",
-      "summary": "",
-      "storyKey": null,
+      "title": "Yen Slumps as Fed Rate-Hike Bets Boost Dollar",
+      "url": "https://www.wsj.com/economy/central-banking/yen-slumps-to-over-one-month-low-on-fed-hike-bets-fc05bf61",
+      "summary": "Yen weakens as rising Fed rate-hike expectations boost the dollar across currency markets.",
+      "storyKey": "dollar+fed+yen",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Exclusive | Kevin Durant Lists U-Shaped Arizona House for $13.9 Million",
-      "url": "https://www.wsj.com/real-estate/luxury-homes/kevin-durant-paradise-valley-arizona-home-0053e726",
-      "summary": "",
-      "storyKey": null,
+      "title": "Skydance Plans to Cut $6 Billion in Costs Following Warner Bros. Deal",
+      "url": "https://www.wsj.com/business/media/skydance-plans-to-cut-6-billion-in-costs-following-warner-bros-deal-86b3b6bf",
+      "summary": "Skydance plans to cut $6 billion in costs following its Warner Bros. acquisition deal.",
+      "storyKey": "cuts+skydance+warner",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | I Have a Beef With the Price of Steak",
-      "url": "https://www.wsj.com/opinion/free-expression/i-have-a-beef-with-the-price-of-steak-c37ae2b8",
-      "summary": "",
-      "storyKey": null,
+      "title": "Opinion | Congressional Insider Trading Isn’t as Common as You Think",
+      "url": "https://www.wsj.com/opinion/congressional-insider-trading-isnt-as-common-as-you-think-637d5563",
+      "summary": "Op-ed argues congressional insider trading is less common than widely perceived, addressing a policy concern.",
+      "storyKey": "congress+insider+trading",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "What Jensen Huang’s Downfall Means for Big Tech",
-      "url": "https://www.wsj.com/tech/what-jensen-huangs-downfall-means-for-big-tech-9e6ca5df",
-      "summary": "",
-      "storyKey": null,
+      "title": "How Jensen Huang Built the Backdoor Route That Keeps Beijing in the AI Race",
+      "url": "https://www.wsj.com/tech/jensen-huang-backdoor-ai-data-centers-a5e4499d",
+      "summary": "Jensen Huang built a backdoor route enabling Beijing to stay competitive in the AI race.",
+      "storyKey": "backdoor+china+huang",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "Baseball Digs In for a Long Winter",
-      "url": "https://www.wsj.com/sports/baseball/baseball-digs-in-for-a-long-winter-47746186",
-      "summary": "",
-      "storyKey": null,
+      "title": "The Stunning Comeback That Saved Arch Manning’s Season",
+      "url": "https://www.wsj.com/sports/football/arch-manning-texas-lsu-3ed5b2e6",
+      "summary": "Arch Manning's stunning comeback is credited with saving his college football season.",
+      "storyKey": "arch+comeback+manning",
       "source": "WSJ"
     }
   ],
   "research": [
     {
-      "firm": "Goldman Sachs",
-      "show": "The Markets",
-      "title": "How Will Higher-than-Expected Inflation Data Impact the Fed's Next Rate Decisions?",
-      "url": "https://podcasts.apple.com/us/podcast/how-will-higher-than-expected-inflation-data-impact/id1683802600?i=1000801803950&uo=4",
-      "published": "2026-11-13T21:04:00+00:00",
-      "kind": "podcast",
-      "duration": "11 min",
-      "summary": "While a smaller hike remains more likely, October’s hotter-than-expected inflation data may open the door to a 50-basis point rate hike at the Fed’s December meeting, says Muhammad Qubbaj, co-head of North America Interest Rate Product Sales and Trading in Goldman Sachs FICC and Equities. A recent drop in oil prices is unlikely to give the Fed cover to look past the CPI number without becoming more aggressive in the inflation fight, Qubbaj says on this episode of The Markets podcast. He also explains why his base case is for the 10-Year Treasury yield to remain below recent highs. This episode was recorded on November 12, 2026."
-    },
-    {
-      "firm": "Morgan Stanley",
-      "show": "Thoughts on the Market",
-      "title": "Can AI Chip Demand Outrun the Power Crunch?",
-      "url": "https://podcasts.apple.com/us/podcast/can-ai-chip-demand-outrun-the-power-crunch/id1466686717?i=1000801816146&uo=4",
-      "published": "2026-11-13T23:00:00+00:00",
-      "kind": "podcast",
-      "duration": "12 min",
-      "summary": "The U.S. midterm results could lead to policy changes that worsen the power bottleneck for U.S. data centers. Meanwhile, the outlook for AI chips remains bullish. Our specialists discuss potential challenges and opportunities in the AI buildout. Read more insights from Morgan Stanley."
-    },
-    {
       "firm": "J.P. Morgan",
       "show": "Making Sense",
-      "title": "Revving the ETF vehicle: Roundhill’s CEO on DRAM, next-gen innovation and more",
-      "url": "https://podcasts.apple.com/us/podcast/revving-the-etf-vehicle-roundhills-ceo-on-dram-next/id1456184829?i=1000801754981&uo=4",
-      "published": "2026-11-13T15:45:03+00:00",
+      "title": "Financing the Future of Defense: Admiral Pierre Vandier on Innovation and Investment",
+      "url": "https://podcasts.apple.com/us/podcast/financing-the-future-of-defense-admiral-pierre/id1456184829?i=1000802039471&uo=4",
+      "published": "2026-11-15T07:00:00+00:00",
       "kind": "podcast",
-      "duration": "15 min",
-      "summary": "What does the next generation of ETF innovation look like? In this episode of Making Sense, Funmi Osiyale, from J.P. Morgan’s ETF Sales team, is joined by Dave Mazza, CEO of Roundhill Investments, to discuss Roundhill’s approach to identifying investment opportunities and the thinking behind innovative ETFs, including DRAM and MAGS. They also explore the return of thematic ETFs, how investor demand is influencing product development, and what could be next for the broader ETF landscape."
+      "duration": "12 min",
+      "summary": "Admiral Pierre Vandier, NATO's Supreme Allied Commander Transformation, joins Daniel Rudnicki Schlumberger, head of the Security and Resiliency Initiative for EMEA, to discuss what the war in Ukraine has revealed about modern defense — and the role private capital must now play in building the industrial base."
     }
   ]
 }
