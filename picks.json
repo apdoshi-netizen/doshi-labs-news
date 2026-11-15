@@ -1,41 +1,41 @@
 {
   "date": "2026-11-15",
-  "generatedAt": "2026-11-15T12:43:08.826765+00:00",
+  "generatedAt": "2026-11-15T16:20:16.241238+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
       "title": "Yen Slumps as Fed Rate-Hike Bets Boost Dollar",
       "url": "https://www.wsj.com/economy/central-banking/yen-slumps-to-over-one-month-low-on-fed-hike-bets-fc05bf61",
-      "summary": "Yen weakens as rising Fed rate-hike expectations boost the dollar across currency markets.",
-      "storyKey": "dollar+fed+yen",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Skydance Plans to Cut $6 Billion in Costs Following Warner Bros. Deal",
-      "url": "https://www.wsj.com/business/media/skydance-plans-to-cut-6-billion-in-costs-following-warner-bros-deal-86b3b6bf",
-      "summary": "Skydance plans to cut $6 billion in costs following its Warner Bros. acquisition deal.",
-      "storyKey": "cuts+skydance+warner",
+      "title": "SpaceX Plans More Than $74 Billion in Texas, Arizona Data-Center Investments",
+      "url": "https://www.wsj.com/business/spacex-plans-more-than-74-billion-in-texas-arizona-data-center-investments-b9ff4ba3",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Congressional Insider Trading Isn’t as Common as You Think",
-      "url": "https://www.wsj.com/opinion/congressional-insider-trading-isnt-as-common-as-you-think-637d5563",
-      "summary": "Op-ed argues congressional insider trading is less common than widely perceived, addressing a policy concern.",
-      "storyKey": "congress+insider+trading",
+      "title": "Opinion | Stacy Keach Had a Head Made for Movies",
+      "url": "https://www.wsj.com/opinion/free-expression/stacy-keach-had-a-head-made-for-movies-401e8fbf",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "How Jensen Huang Built the Backdoor Route That Keeps Beijing in the AI Race",
-      "url": "https://www.wsj.com/tech/jensen-huang-backdoor-ai-data-centers-a5e4499d",
-      "summary": "Jensen Huang built a backdoor route enabling Beijing to stay competitive in the AI race.",
-      "storyKey": "backdoor+china+huang",
+      "title": "Microsoft Service Restored After Widespread Outage, Company Says",
+      "url": "https://www.wsj.com/tech/microsoft-service-restored-after-outage-dddae34b",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
@@ -43,8 +43,8 @@
       "label": "Sports",
       "title": "The Stunning Comeback That Saved Arch Manning’s Season",
       "url": "https://www.wsj.com/sports/football/arch-manning-texas-lsu-3ed5b2e6",
-      "summary": "Arch Manning's stunning comeback is credited with saving his college football season.",
-      "storyKey": "arch+comeback+manning",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     }
   ],
