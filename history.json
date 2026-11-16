@@ -1,31 +1,4 @@
 {
-  "2026-10-25": [
-    {
-      "title": "Live Q&A: Ask Us Your Questions About Midterms and the Economy",
-      "url": "https://www.wsj.com/politics/elections/live-q-a-ask-us-your-questions-about-midterms-and-the-economy-58bf8f9f",
-      "storyKey": null
-    },
-    {
-      "title": "Tanker Carrying Russian Diesel Signals U.S. Port After Trump-Putin Deal",
-      "url": "https://www.wsj.com/finance/commodities-futures/tanker-carrying-russian-diesel-signals-u-s-port-after-trump-putin-deal-c09c15dd",
-      "storyKey": null
-    },
-    {
-      "title": "Opinion | Notable & Quotable: AI Judge",
-      "url": "https://www.wsj.com/opinion/notable-quotable-ai-judge-321277e9",
-      "storyKey": null
-    },
-    {
-      "title": "You Were Once Smarter Than AI at Math. Yes, Even You.",
-      "url": "https://www.wsj.com/tech/ai/ai-math-quiz-openai-anthropic-e776b8a9?mod",
-      "storyKey": null
-    },
-    {
-      "title": "Not Even the Best Pitchers in Baseball Can Stop the Brewers",
-      "url": "https://www.wsj.com/sports/baseball/brewers-rays-world-series-d68f8fbe",
-      "storyKey": null
-    }
-  ],
   "2026-10-26": [
     {
       "title": "Why the Fed Is Expected to Hold Rates Steady Despite a Case for Raising Them",
@@ -593,8 +566,34 @@
       "storyKey": null
     }
   ],
+  "2026-11-16": [
+    {
+      "title": "Gucci Is Cutting Prices. Louis Vuitton Is Reluctant to Follow the Trend.",
+      "url": "https://www.wsj.com/business/retail/gucci-is-cutting-prices-louis-vuitton-is-reluctant-to-follow-the-trend-50e4b218",
+      "storyKey": null
+    },
+    {
+      "title": "What to Know About Nvidia’s Investigation After CEO’s Affair",
+      "url": "https://www.wsj.com/tech/ai/what-to-know-about-nvidias-investigation-after-ceos-affair-98df3bba",
+      "storyKey": null
+    },
+    {
+      "title": "Opinion | The Battle for Faster Cures at the FDA",
+      "url": "https://www.wsj.com/opinion/heidi-overton-fda-nominee-senate-gop-cc585f7e",
+      "storyKey": null
+    },
+    {
+      "title": "Our New Cybersecurity Reality: If It’s ‘Smart,’ It’s Hackable",
+      "url": "https://www.wsj.com/tech/ai/our-new-cybersecurity-reality-if-its-smart-its-hackable-44bcef4e",
+      "storyKey": null
+    },
+    {
+      "title": "The Recruiting Hack Behind College Basketball’s Youth Movement",
+      "url": "https://www.wsj.com/sports/basketball/duke-boumtje-boumtje-texas-spears-ucla-kusturica-b596ec4c",
+      "storyKey": null
+    }
+  ],
   "_research": {
-    "2026-10-25": [],
     "2026-10-26": [
       "https://podcasts.apple.com/us/podcast/the-evolution-of-hedge-fund-performance-from-enhancer/id1456184829?i=1000798120284&uo=4"
     ],
@@ -669,6 +668,7 @@
     ],
     "2026-11-15": [
       "https://podcasts.apple.com/us/podcast/financing-the-future-of-defense-admiral-pierre/id1456184829?i=1000802039471&uo=4"
-    ]
+    ],
+    "2026-11-16": []
   }
 }
