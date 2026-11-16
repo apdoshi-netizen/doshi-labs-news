@@ -1,23 +1,23 @@
 {
   "date": "2026-11-16",
-  "generatedAt": "2026-11-16T13:37:19.984196+00:00",
+  "generatedAt": "2026-11-16T19:35:13.142824+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Gucci Is Cutting Prices. Louis Vuitton Is Reluctant to Follow the Trend.",
-      "url": "https://www.wsj.com/business/retail/gucci-is-cutting-prices-louis-vuitton-is-reluctant-to-follow-the-trend-50e4b218",
-      "summary": "",
-      "storyKey": null,
+      "title": "Japan’s Economy Contracts Amid Inflation Squeeze",
+      "url": "https://www.wsj.com/economy/japan-economy-contracts-for-first-time-in-four-quarters-468f74f5",
+      "summary": "Japan's economy contracted as inflation squeezed consumers, a major data print affecting BOJ policy outlook.",
+      "storyKey": "economy+gdp+japan",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "What to Know About Nvidia’s Investigation After CEO’s Affair",
-      "url": "https://www.wsj.com/tech/ai/what-to-know-about-nvidias-investigation-after-ceos-affair-98df3bba",
-      "summary": "",
-      "storyKey": null,
+      "title": "Quebecor Makes $21.96 Billion Bid for Telus in Canadian Telecom Deal",
+      "url": "https://www.wsj.com/business/deals/quebecor-proposes-combination-with-telus-a6b8a209",
+      "summary": "Quebecor makes a $21.96 billion bid for Telus in a major Canadian telecom acquisition.",
+      "storyKey": "quebecor+telus",
       "source": "WSJ"
     },
     {
@@ -25,26 +25,26 @@
       "label": "Op-Ed",
       "title": "Opinion | The Battle for Faster Cures at the FDA",
       "url": "https://www.wsj.com/opinion/heidi-overton-fda-nominee-senate-gop-cc585f7e",
-      "summary": "",
-      "storyKey": null,
+      "summary": "Op-ed argues for the battle to speed up new drug approvals at the FDA.",
+      "storyKey": "cures+drug+fda",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Our New Cybersecurity Reality: If It’s ‘Smart,’ It’s Hackable",
-      "url": "https://www.wsj.com/tech/ai/our-new-cybersecurity-reality-if-its-smart-its-hackable-44bcef4e",
-      "summary": "",
-      "storyKey": null,
+      "title": "California AG Accuses OpenAI of Misleading and Endangering the Public",
+      "url": "https://www.wsj.com/tech/ai/california-ag-accuses-openai-of-misleading-and-endangering-the-public-8e5c60d0",
+      "summary": "California's attorney general accuses OpenAI of misleading the public and endangering safety.",
+      "storyKey": "ag+california+openai",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The Recruiting Hack Behind College Basketball’s Youth Movement",
-      "url": "https://www.wsj.com/sports/basketball/duke-boumtje-boumtje-texas-spears-ucla-kusturica-b596ec4c",
-      "summary": "",
-      "storyKey": null,
+      "title": "The Dallas Cowboys Are Stuck in a Never-Ending Nightmare",
+      "url": "https://www.wsj.com/sports/football/dallas-cowboys-defense-c15c6558",
+      "summary": "The Dallas Cowboys face ongoing turmoil, described as a never-ending organizational nightmare.",
+      "storyKey": "cowboys+dallas",
       "source": "WSJ"
     }
   ],
