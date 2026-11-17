@@ -1,31 +1,4 @@
 {
-  "2026-10-26": [
-    {
-      "title": "Why the Fed Is Expected to Hold Rates Steady Despite a Case for Raising Them",
-      "url": "https://www.wsj.com/economy/central-banking/why-the-fed-is-expected-to-hold-rates-steady-despite-a-case-for-raising-them-3761e47f",
-      "storyKey": "fed+hold+rates"
-    },
-    {
-      "title": "EQT to Buy Range Resources in $13 Billion Stock Swap",
-      "url": "https://www.wsj.com/business/deals/eqt-to-buy-range-resources-in-13-billion-stock-swap-39d379e4",
-      "storyKey": "eqt+range+resources"
-    },
-    {
-      "title": "Opinion | How Agentic AI Could Destroy Civilization",
-      "url": "https://www.wsj.com/opinion/free-expression/how-agentic-ai-could-destroy-civilization-183df7f5",
-      "storyKey": "agentic+ai+risk"
-    },
-    {
-      "title": "Meta Plans up to $95 Billion in Financing to Power Its AI Growth",
-      "url": "https://www.wsj.com/tech/ai/meta-plans-35-billion-stock-offering-to-power-ai-buildout-eyes-95-billion-total-plan-10b8947e",
-      "storyKey": "ai+financing+meta"
-    },
-    {
-      "title": "The Third-String Castoff Quarterback Sparking a Giant Turnaround",
-      "url": "https://www.wsj.com/sports/football/jj-mccarthy-giants-0c041275",
-      "storyKey": "giants+quarterback"
-    }
-  ],
   "2026-10-27": [
     {
       "title": "South Korea’s Economy Grows Faster Than Expected in Third Quarter",
@@ -593,10 +566,34 @@
       "storyKey": "cowboys+dallas"
     }
   ],
+  "2026-11-17": [
+    {
+      "title": "European Leaders Near Deal to Pick Spanish Economist as Next ECB President",
+      "url": "https://www.wsj.com/world/europe/european-leaders-near-deal-to-pick-spanish-economist-as-next-ecb-president-62cc0c92",
+      "storyKey": "ecb+president"
+    },
+    {
+      "title": "Eli Lilly to Buy Calytrix Bio for Up to $1.5 Billion",
+      "url": "https://www.wsj.com/business/deals/eli-lilly-to-buy-calytrix-bio-for-up-to-1-5-billion-591745e4",
+      "storyKey": "calytrix+eli+lilly"
+    },
+    {
+      "title": "Opinion | Trump’s Economy Is Working",
+      "url": "https://www.wsj.com/opinion/trumps-economy-is-working-04975ddb",
+      "storyKey": "economy+trump"
+    },
+    {
+      "title": "OpenAI Partners With NATO On Cyber Defenses",
+      "url": "https://www.wsj.com/tech/cybersecurity/openai-partners-with-nato-on-cyber-defenses-ea4df258",
+      "storyKey": "nato+openai"
+    },
+    {
+      "title": "The NBA’s Alien Has Become the Best Player on Earth—and It’s Not Even Close",
+      "url": "https://www.wsj.com/sports/basketball/victor-wembanyama-spurs-282534fd",
+      "storyKey": "alien+nba"
+    }
+  ],
   "_research": {
-    "2026-10-26": [
-      "https://podcasts.apple.com/us/podcast/the-evolution-of-hedge-fund-performance-from-enhancer/id1456184829?i=1000798120284&uo=4"
-    ],
     "2026-10-27": [
       "https://podcasts.apple.com/us/podcast/the-next-stage-of-the-market-correction/id1466686717?i=1000798244420&uo=4"
     ],
@@ -669,6 +666,10 @@
     "2026-11-15": [
       "https://podcasts.apple.com/us/podcast/financing-the-future-of-defense-admiral-pierre/id1456184829?i=1000802039471&uo=4"
     ],
-    "2026-11-16": []
+    "2026-11-16": [],
+    "2026-11-17": [
+      "https://podcasts.apple.com/us/podcast/2027-global-outlook-powered-by-ai-tested-by-oil/id1466686717?i=1000802358769&uo=4",
+      "https://podcasts.apple.com/us/podcast/the-rise-of-content-as-data-how-ai-is-reshaping/id1456184829?i=1000802411611&uo=4"
+    ]
   }
 }
