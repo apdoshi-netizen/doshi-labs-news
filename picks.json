@@ -1,54 +1,64 @@
 {
   "date": "2026-11-17",
-  "generatedAt": "2026-11-17T14:21:59.366810+00:00",
+  "generatedAt": "2026-11-17T18:33:26.814519+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "European Leaders Near Deal to Pick Spanish Economist as Next ECB President",
-      "url": "https://www.wsj.com/world/europe/european-leaders-near-deal-to-pick-spanish-economist-as-next-ecb-president-62cc0c92",
-      "summary": "European leaders near deal to pick a Spanish economist as the next ECB president, a key central bank leadership shift.",
-      "storyKey": "ecb+president",
+      "title": "Inside the Frenetic Month That Shook Wall Street’s AI Trade",
+      "url": "https://www.wsj.com/articles/inside-the-frenetic-month-that-shook-wall-streets-ai-trade-bd0712f3",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Eli Lilly to Buy Calytrix Bio for Up to $1.5 Billion",
-      "url": "https://www.wsj.com/business/deals/eli-lilly-to-buy-calytrix-bio-for-up-to-1-5-billion-591745e4",
-      "summary": "Eli Lilly agrees to buy Calytrix Bio for up to $1.5 billion, expanding its drug pipeline.",
-      "storyKey": "calytrix+eli+lilly",
+      "title": "Legal & General Shares Fall After Pension Buyouts Miss Views",
+      "url": "https://www.wsj.com/business/earnings/legal-general-shares-fall-after-pension-buyouts-miss-views-c0f6b591",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Trump’s Economy Is Working",
-      "url": "https://www.wsj.com/opinion/trumps-economy-is-working-04975ddb",
-      "summary": "Opinion piece argues Trump's economic policies are working, a substantive economics/policy argument.",
-      "storyKey": "economy+trump",
+      "title": "Opinion | Replace, Don’t Repair, the Air-Traffic Control System",
+      "url": "https://www.wsj.com/opinion/replace-dont-repair-the-air-traffic-control-system-b25c6d8d",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "OpenAI Partners With NATO On Cyber Defenses",
-      "url": "https://www.wsj.com/tech/cybersecurity/openai-partners-with-nato-on-cyber-defenses-ea4df258",
-      "summary": "OpenAI partners with NATO to bolster cyber defenses, a notable AI-industry and security development.",
-      "storyKey": "nato+openai",
+      "title": "AI Thinks It Can Out-Code Cancer. Human Biology Says Not So Fast",
+      "url": "https://www.wsj.com/tech/ai/ai-thinks-it-can-out-code-cancer-human-biology-says-not-so-fast-23efc697",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The NBA’s Alien Has Become the Best Player on Earth—and It’s Not Even Close",
-      "url": "https://www.wsj.com/sports/basketball/victor-wembanyama-spurs-282534fd",
-      "summary": "Opinion/feature declares an NBA star the best player on Earth, the lone sports candidate.",
-      "storyKey": "alien+nba",
+      "title": "The 350-Pound ‘Giant Flying Squirrel’ Transforming an NFL Team",
+      "url": "https://www.wsj.com/sports/football/cincinnati-bengals-dexter-lawrence-d540a043",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     }
   ],
   "research": [
+    {
+      "firm": "Goldman Sachs",
+      "show": "Talks at GS",
+      "title": "Citadel’s Pablo Salame on Risk-Taking, Leadership, and the Pursuit of Great Ideas",
+      "url": "https://podcasts.apple.com/us/podcast/citadels-pablo-salame-on-risk-taking-leadership-and/id1373320104?i=1000802490970&uo=4",
+      "published": "2026-11-17T14:12:00+00:00",
+      "kind": "podcast",
+      "duration": "24 min",
+      "summary": "The best investors are often wrong. What sets them apart is how they learn, adapt, and respond to risk, says Citadel co-CIO Pablo Salame. In this episode of Talks at GS, Salame joins Alexandra Wilson-Elizondo, global head and co-CIO of multi-asset solutions at Goldman Sachs Asset & Wealth Management, to discuss lessons in leadership, his transition from the sell side to the buy side, and why taking risks—and making mistakes—is essential to success. “There’s no way to grow without being wrong,” Salame says. “It’s about how you’re wrong and how do you recover and how adaptable you are.”"
+    },
     {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
