@@ -1,31 +1,4 @@
 {
-  "2026-10-27": [
-    {
-      "title": "South Korea’s Economy Grows Faster Than Expected in Third Quarter",
-      "url": "https://www.wsj.com/economy/south-koreas-economy-grows-faster-than-expected-in-third-quarter-1d48b2b4",
-      "storyKey": "gdp+korea+south"
-    },
-    {
-      "title": "S&P Global Explores Potential Spinoff of Financial Data and AI Units",
-      "url": "https://www.wsj.com/business/earnings/s-p-global-raises-year-outlook-as-profit-improves-247fb8c2",
-      "storyKey": "global+sp+spinoff"
-    },
-    {
-      "title": "Opinion | The Fed Needs Better Models",
-      "url": "https://www.wsj.com/opinion/the-fed-needs-better-models-63187d02",
-      "storyKey": "fed+models+policy"
-    },
-    {
-      "title": "Banks, Blackstone Form $63 Billion Financing Vehicle for Broadcom AI Tech",
-      "url": "https://www.wsj.com/tech/ai/banks-blackstone-form-63-billion-financing-vehicle-for-broadcom-ai-tech-0438f6d2",
-      "storyKey": "blackstone+broadcom+financing"
-    },
-    {
-      "title": "The NBA Owner Who Struck Gold in the WNBA",
-      "url": "https://www.wsj.com/sports/basketball/golden-state-valkyries-warriors-joe-lacob-ab1fc3d6",
-      "storyKey": "nba+valuation+wnba"
-    }
-  ],
   "2026-10-28": [
     {
       "title": "China’s Industrial Profit Growth Surged in September",
@@ -593,10 +566,34 @@
       "storyKey": null
     }
   ],
+  "2026-11-18": [
+    {
+      "title": "Indonesia Resumes Rate Hikes to Aid Rupiah",
+      "url": "https://www.wsj.com/economy/central-banking/indonesia-resumes-rate-increases-as-rupiah-hits-record-low-d6ef3d12",
+      "storyKey": null
+    },
+    {
+      "title": "Eli Lilly to Buy Calytrix Bio for Up to $1.5 Billion",
+      "url": "https://www.wsj.com/business/deals/eli-lilly-to-buy-calytrix-bio-for-up-to-1-5-billion-591745e4",
+      "storyKey": null
+    },
+    {
+      "title": "Opinion | A ‘Blank Template’ in the War on Business",
+      "url": "https://www.wsj.com/opinion/a-blank-template-in-the-war-on-business-e9939aaf",
+      "storyKey": null
+    },
+    {
+      "title": "How I Used AI to Make My Grandson a Children’s Book for Less Than $200",
+      "url": "https://www.wsj.com/tech/ai/how-ai-childrens-book-aa480255",
+      "storyKey": null
+    },
+    {
+      "title": "FIFA President Attempts to Outrun a $20 Billion Blowup in Re-Election Bid",
+      "url": "https://www.wsj.com/sports/soccer/fifa-president-infantino-kushner-a4a802e3",
+      "storyKey": null
+    }
+  ],
   "_research": {
-    "2026-10-27": [
-      "https://podcasts.apple.com/us/podcast/the-next-stage-of-the-market-correction/id1466686717?i=1000798244420&uo=4"
-    ],
     "2026-10-28": [
       "https://podcasts.apple.com/us/podcast/goldman-sachs-chairman-and-ceo-david-solomon-on-ai/id948913991?i=1000798411903&uo=4",
       "https://podcasts.apple.com/us/podcast/to-hike-or-not-to-hike/id1466686717?i=1000798422781&uo=4"
@@ -671,6 +668,11 @@
       "https://podcasts.apple.com/us/podcast/citadels-pablo-salame-on-risk-taking-leadership-and/id1373320104?i=1000802490970&uo=4",
       "https://podcasts.apple.com/us/podcast/2027-global-outlook-powered-by-ai-tested-by-oil/id1466686717?i=1000802358769&uo=4",
       "https://podcasts.apple.com/us/podcast/the-rise-of-content-as-data-how-ai-is-reshaping/id1456184829?i=1000802411611&uo=4"
+    ],
+    "2026-11-18": [
+      "https://podcasts.apple.com/us/podcast/steady-global-economic-growth-in-2027-outlook-but-risks/id948913991?i=1000802544399&uo=4",
+      "https://podcasts.apple.com/us/podcast/adam-goldston-and-ryan-goldston-on-defining-luxury/id1373320104?i=1000802549105&uo=4",
+      "https://podcasts.apple.com/us/podcast/2027-global-outlook-the-case-for-a-stronger/id1466686717?i=1000802553704&uo=4"
     ]
   }
 }

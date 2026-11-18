@@ -1,12 +1,12 @@
 {
-  "date": "2026-11-17",
-  "generatedAt": "2026-11-17T18:33:26.814519+00:00",
+  "date": "2026-11-18",
+  "generatedAt": "2026-11-18T13:55:56.021747+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Inside the Frenetic Month That Shook Wall Street’s AI Trade",
-      "url": "https://www.wsj.com/articles/inside-the-frenetic-month-that-shook-wall-streets-ai-trade-bd0712f3",
+      "title": "Indonesia Resumes Rate Hikes to Aid Rupiah",
+      "url": "https://www.wsj.com/economy/central-banking/indonesia-resumes-rate-increases-as-rupiah-hits-record-low-d6ef3d12",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -14,8 +14,8 @@
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Legal & General Shares Fall After Pension Buyouts Miss Views",
-      "url": "https://www.wsj.com/business/earnings/legal-general-shares-fall-after-pension-buyouts-miss-views-c0f6b591",
+      "title": "Eli Lilly to Buy Calytrix Bio for Up to $1.5 Billion",
+      "url": "https://www.wsj.com/business/deals/eli-lilly-to-buy-calytrix-bio-for-up-to-1-5-billion-591745e4",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -23,8 +23,8 @@
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Replace, Don’t Repair, the Air-Traffic Control System",
-      "url": "https://www.wsj.com/opinion/replace-dont-repair-the-air-traffic-control-system-b25c6d8d",
+      "title": "Opinion | A ‘Blank Template’ in the War on Business",
+      "url": "https://www.wsj.com/opinion/a-blank-template-in-the-war-on-business-e9939aaf",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -32,8 +32,8 @@
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "AI Thinks It Can Out-Code Cancer. Human Biology Says Not So Fast",
-      "url": "https://www.wsj.com/tech/ai/ai-thinks-it-can-out-code-cancer-human-biology-says-not-so-fast-23efc697",
+      "title": "How I Used AI to Make My Grandson a Children’s Book for Less Than $200",
+      "url": "https://www.wsj.com/tech/ai/how-ai-childrens-book-aa480255",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -41,8 +41,8 @@
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The 350-Pound ‘Giant Flying Squirrel’ Transforming an NFL Team",
-      "url": "https://www.wsj.com/sports/football/cincinnati-bengals-dexter-lawrence-d540a043",
+      "title": "FIFA President Attempts to Outrun a $20 Billion Blowup in Re-Election Bid",
+      "url": "https://www.wsj.com/sports/soccer/fifa-president-infantino-kushner-a4a802e3",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -51,33 +51,33 @@
   "research": [
     {
       "firm": "Goldman Sachs",
-      "show": "Talks at GS",
-      "title": "Citadel’s Pablo Salame on Risk-Taking, Leadership, and the Pursuit of Great Ideas",
-      "url": "https://podcasts.apple.com/us/podcast/citadels-pablo-salame-on-risk-taking-leadership-and/id1373320104?i=1000802490970&uo=4",
-      "published": "2026-11-17T14:12:00+00:00",
+      "show": "Exchanges",
+      "title": "Steady Global Economic Growth in 2027 Outlook But Risks Tilted to Downside",
+      "url": "https://podcasts.apple.com/us/podcast/steady-global-economic-growth-in-2027-outlook-but-risks/id948913991?i=1000802544399&uo=4",
+      "published": "2026-11-17T20:39:00+00:00",
       "kind": "podcast",
-      "duration": "24 min",
-      "summary": "The best investors are often wrong. What sets them apart is how they learn, adapt, and respond to risk, says Citadel co-CIO Pablo Salame. In this episode of Talks at GS, Salame joins Alexandra Wilson-Elizondo, global head and co-CIO of multi-asset solutions at Goldman Sachs Asset & Wealth Management, to discuss lessons in leadership, his transition from the sell side to the buy side, and why taking risks—and making mistakes—is essential to success. “There’s no way to grow without being wrong,” Salame says. “It’s about how you’re wrong and how do you recover and how adaptable you are.”"
+      "duration": "35 min",
+      "summary": "The global economy is forecast to grow 2.8% in 2027, though energy and AI could test its resilience, Jan Hatzius, chief economist and head of Goldman Sachs Research says on the Exchanges podcast. Dominic Wilson, senior advisor in Global Markets Research, predicts equity gains continuing."
+    },
+    {
+      "firm": "Goldman Sachs",
+      "show": "Talks at GS",
+      "title": "Adam Goldston and Ryan Goldston on Defining Luxury Performance Footwear",
+      "url": "https://podcasts.apple.com/us/podcast/adam-goldston-and-ryan-goldston-on-defining-luxury/id1373320104?i=1000802549105&uo=4",
+      "published": "2026-11-17T20:08:00+00:00",
+      "kind": "podcast",
+      "duration": "20 min",
+      "summary": "When APL (Athletic Propulsion Labs) set out to create basketball shoes that helped athletes instantly jump higher, the technology worked so well that the NBA banned the shoes for providing the wearer with an undue competitive advantage. That sparked viral global demand for the shoes and propelled APL to success. Adam Goldston and Ryan Goldston, co-founders of APL, explain the “luxury performance” philosophy of their footwear, their strategies for growing their business, and how they drew design inspiration from ziplines and Japanese soufflé pancakes. In a conversation with Meena Flynn, chair of global Private Wealth Management and co-head of One Goldman Sachs, the Goldstons also articulate how the experience of running an independent, founder-owned firm, a focus on product, and flexible…"
     },
     {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
-      "title": "2027 Global Outlook: Powered by AI, Tested by Oil",
-      "url": "https://podcasts.apple.com/us/podcast/2027-global-outlook-powered-by-ai-tested-by-oil/id1466686717?i=1000802358769&uo=4",
-      "published": "2026-11-16T21:30:00+00:00",
+      "title": "2027 Global Outlook: The Case for a Stronger Dollar, Longer AI Cycle",
+      "url": "https://podcasts.apple.com/us/podcast/2027-global-outlook-the-case-for-a-stronger/id1466686717?i=1000802553704&uo=4",
+      "published": "2026-11-17T21:30:00+00:00",
       "kind": "podcast",
-      "duration": "13 min",
-      "summary": "In part one of our 2027 global macro outlook, Global Chief Economist Seth Carpenter joins Serena Tang to discuss how AI-driven investment is sustaining growth despite higher oil prices. Read more insights from Morgan Stanley."
-    },
-    {
-      "firm": "J.P. Morgan",
-      "show": "Making Sense",
-      "title": "The rise of content as data: How AI is reshaping market insights",
-      "url": "https://podcasts.apple.com/us/podcast/the-rise-of-content-as-data-how-ai-is-reshaping/id1456184829?i=1000802411611&uo=4",
-      "published": "2026-11-17T06:00:00+00:00",
-      "kind": "podcast",
-      "duration": "18 min",
-      "summary": "In this episode of Making Sense, product specialist Edwina Lowe speaks with Camila Penna, co-head of Global Cash Equity Sales, about how AI is reshaping the way institutional investors consume information from the sell side. Research, market commentary and other unstructured content is increasingly being fed directly into data platforms and AI workflows, rather than simply read by individuals. They explore what this shift means for the investment landscape, including how the role of content authors and the value of their content may evolve, how firms think about access and intellectual property and what happens as machines increasingly become the \"front-line\" consumers of content."
+      "duration": "7 min",
+      "summary": "In Part Two of their Outlook conversation, Global Chief Economist Seth Carpenter and Global Cross-Asset Strategist Serena Tang discuss the 2027 investment outlook, including where the call could be wrong and how the U.S. midterm elections factor in. Read more insights from Morgan Stanley."
     }
   ]
 }
