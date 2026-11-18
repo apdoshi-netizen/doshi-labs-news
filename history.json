@@ -568,29 +568,24 @@
   ],
   "2026-11-18": [
     {
-      "title": "Indonesia Resumes Rate Hikes to Aid Rupiah",
-      "url": "https://www.wsj.com/economy/central-banking/indonesia-resumes-rate-increases-as-rupiah-hits-record-low-d6ef3d12",
-      "storyKey": null
+      "title": "U.K. Inflation Rises as Energy Costs Keep Pressure on Bank of England",
+      "url": "https://www.wsj.com/economy/central-banking/u-k-inflation-rises-as-energy-costs-keep-pressure-on-bank-of-england-68f3edbb",
+      "storyKey": "boe+inflation+uk"
     },
     {
-      "title": "Eli Lilly to Buy Calytrix Bio for Up to $1.5 Billion",
-      "url": "https://www.wsj.com/business/deals/eli-lilly-to-buy-calytrix-bio-for-up-to-1-5-billion-591745e4",
-      "storyKey": null
+      "title": "Textron Selling Industrial Segment to Kingswood Capital for $1.2 Billion",
+      "url": "https://www.wsj.com/business/deals/textron-selling-industrial-segment-to-kingswood-capital-for-1-2-billion-5caba969",
+      "storyKey": "kingswood+textron"
     },
     {
-      "title": "Opinion | A ‘Blank Template’ in the War on Business",
-      "url": "https://www.wsj.com/opinion/a-blank-template-in-the-war-on-business-e9939aaf",
-      "storyKey": null
-    },
-    {
-      "title": "How I Used AI to Make My Grandson a Children’s Book for Less Than $200",
-      "url": "https://www.wsj.com/tech/ai/how-ai-childrens-book-aa480255",
-      "storyKey": null
+      "title": "Nvidia Reports Faster Growth, Says Jensen Huang Won’t Return as CEO",
+      "url": "https://www.wsj.com/tech/ai/nvidia-nvda-3q-2027-earnings-report-stock-6e642303",
+      "storyKey": "ceo+huang+nvidia"
     },
     {
       "title": "FIFA President Attempts to Outrun a $20 Billion Blowup in Re-Election Bid",
       "url": "https://www.wsj.com/sports/soccer/fifa-president-infantino-kushner-a4a802e3",
-      "storyKey": null
+      "storyKey": "fifa+president"
     }
   ],
   "_research": {
