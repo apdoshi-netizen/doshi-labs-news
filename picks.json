@@ -1,41 +1,41 @@
 {
   "date": "2026-11-19",
-  "generatedAt": "2026-11-19T14:24:22.740415+00:00",
+  "generatedAt": "2026-11-19T18:15:58.185418+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Fed Officials Saw Higher Rates Ahead When They Held Steady Last Month",
-      "url": "https://www.wsj.com/economy/central-banking/fed-officials-saw-higher-rates-ahead-when-they-held-steady-last-month-ad4f3bf7",
-      "summary": "Fed officials signaled expectations for higher rates ahead despite holding steady last month, per minutes.",
-      "storyKey": "fed+fomc+rates",
+      "title": "Oil Futures Pick Up as Middle East Risks Remain",
+      "url": "https://www.wsj.com/business/energy-oil/oil-prices-mixed-as-traders-weigh-supply-outlook-middle-east-shipping-risks-224e2724",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Anthropic Raises $81 Billion in Biggest IPO Ever",
-      "url": "https://www.wsj.com/finance/stocks/anthropic-prices-ipo-at-83-a-share-0290494c",
-      "summary": "Anthropic raised $81 billion in the biggest IPO ever, marking a major AI financing milestone.",
-      "storyKey": "anthropic+ipo",
+      "title": "Brookfield Earnings Buoyed by Fund Raising, Wealth Solutions Growth",
+      "url": "https://www.wsj.com/finance/investing/brookfield-earnings-buoyed-by-fund-raising-wealth-solutions-growth-05a27297",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Abundance and Its Discontents",
-      "url": "https://www.wsj.com/opinion/free-expression/abundance-and-its-discontents-916324dd",
-      "summary": "Column examines discontents and critiques surrounding the \"abundance\" economic policy agenda.",
-      "storyKey": "abundance+policy",
+      "title": "Opinion | A Lesson on the Economics of Tariff Leverage",
+      "url": "https://www.wsj.com/opinion/a-lesson-on-the-economics-of-tariff-leverage-ccb74d5c",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Exclusive | Palo Alto Networks to Buy AI-Startup Applied Compute for $4.5 Billion",
-      "url": "https://www.wsj.com/tech/ai/palo-alto-networks-to-buy-ai-startup-applied-compute-for-4-5-billion-39193611",
-      "summary": "Palo Alto Networks to acquire AI startup Applied Compute for $4.5 billion, per exclusive report.",
-      "storyKey": "appliedcompute+paloalto",
+      "title": "Jensen Huang Breaks Silence, Signals Willingness to Return as Nvidia CEO",
+      "url": "https://www.wsj.com/tech/jensen-huang-statement-nvidia-ceo-9dedca36",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
@@ -43,8 +43,8 @@
       "label": "Sports",
       "title": "MLB Insists It Will Not Compromise on Salary Cap",
       "url": "https://www.wsj.com/sports/baseball/mlb-insists-it-will-not-compromise-on-salary-cap-8f1ab583",
-      "summary": "MLB insists it will not compromise on a salary cap amid labor negotiations.",
-      "storyKey": "mlb+salarycap",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     }
   ],
