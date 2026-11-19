@@ -1,31 +1,4 @@
 {
-  "2026-10-28": [
-    {
-      "title": "China’s Industrial Profit Growth Surged in September",
-      "url": "https://www.wsj.com/economy/chinas-industrial-profit-growth-surged-in-september-fc3b5d58",
-      "storyKey": null
-    },
-    {
-      "title": "GE Vernova to Buy Grid-Equipment Manufacturer for $9 Billion as Energy Demand Grows",
-      "url": "https://www.wsj.com/business/energy-oil/ge-vernova-to-buy-high-voltage-grid-equipment-manufacturer-for-9-billion-b29dd2ef",
-      "storyKey": "acquisition+ge+vernova"
-    },
-    {
-      "title": "Opinion | Is There a Case for Wealth Taxes?",
-      "url": "https://www.wsj.com/opinion/is-there-a-case-for-wealth-taxes-905123f5",
-      "storyKey": "debate+tax+wealth"
-    },
-    {
-      "title": "The Leak Suspicions That Got Three OpenAI Staffers Fired",
-      "url": "https://www.wsj.com/tech/the-leak-suspicions-that-got-three-openai-staffers-fired-d3671d0e",
-      "storyKey": "firings+leak+openai"
-    },
-    {
-      "title": "The NFL Team Barreling Toward a $500 Million Financial Cliff",
-      "url": "https://www.wsj.com/sports/football/philadelphia-eagles-salary-cap-1bba3353",
-      "storyKey": "cliff+financial+nfl"
-    }
-  ],
   "2026-10-29": [
     {
       "title": "PCE Inflation Accelerated Last Month",
@@ -588,11 +561,34 @@
       "storyKey": "fifa+president"
     }
   ],
+  "2026-11-19": [
+    {
+      "title": "Fed Officials Saw Higher Rates Ahead When They Held Steady Last Month",
+      "url": "https://www.wsj.com/economy/central-banking/fed-officials-saw-higher-rates-ahead-when-they-held-steady-last-month-ad4f3bf7",
+      "storyKey": "fed+fomc+rates"
+    },
+    {
+      "title": "Anthropic Raises $81 Billion in Biggest IPO Ever",
+      "url": "https://www.wsj.com/finance/stocks/anthropic-prices-ipo-at-83-a-share-0290494c",
+      "storyKey": "anthropic+ipo"
+    },
+    {
+      "title": "Opinion | Abundance and Its Discontents",
+      "url": "https://www.wsj.com/opinion/free-expression/abundance-and-its-discontents-916324dd",
+      "storyKey": "abundance+policy"
+    },
+    {
+      "title": "Exclusive | Palo Alto Networks to Buy AI-Startup Applied Compute for $4.5 Billion",
+      "url": "https://www.wsj.com/tech/ai/palo-alto-networks-to-buy-ai-startup-applied-compute-for-4-5-billion-39193611",
+      "storyKey": "appliedcompute+paloalto"
+    },
+    {
+      "title": "MLB Insists It Will Not Compromise on Salary Cap",
+      "url": "https://www.wsj.com/sports/baseball/mlb-insists-it-will-not-compromise-on-salary-cap-8f1ab583",
+      "storyKey": "mlb+salarycap"
+    }
+  ],
   "_research": {
-    "2026-10-28": [
-      "https://podcasts.apple.com/us/podcast/goldman-sachs-chairman-and-ceo-david-solomon-on-ai/id948913991?i=1000798411903&uo=4",
-      "https://podcasts.apple.com/us/podcast/to-hike-or-not-to-hike/id1466686717?i=1000798422781&uo=4"
-    ],
     "2026-10-29": [
       "https://podcasts.apple.com/us/podcast/dimensionals-david-booth-on-how-to-interpret-risk-and/id1373320104?i=1000798582288&uo=4",
       "https://podcasts.apple.com/us/podcast/signals-to-watch-in-the-u-s-midterms/id1466686717?i=1000798601232&uo=4",
@@ -668,6 +664,10 @@
       "https://podcasts.apple.com/us/podcast/steady-global-economic-growth-in-2027-outlook-but-risks/id948913991?i=1000802544399&uo=4",
       "https://podcasts.apple.com/us/podcast/adam-goldston-and-ryan-goldston-on-defining-luxury/id1373320104?i=1000802549105&uo=4",
       "https://podcasts.apple.com/us/podcast/2027-global-outlook-the-case-for-a-stronger/id1466686717?i=1000802553704&uo=4"
+    ],
+    "2026-11-19": [
+      "https://podcasts.apple.com/us/podcast/espns-jimmy-pitaro-on-the-new-playbook-for-sports-fans/id1373320104?i=1000802763795&uo=4",
+      "https://podcasts.apple.com/us/podcast/2027-equities-outlook-why-the-correction-isnt-the/id1466686717?i=1000802792448&uo=4"
     ]
   }
 }

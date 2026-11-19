@@ -1,83 +1,73 @@
 {
-  "date": "2026-11-18",
-  "generatedAt": "2026-11-18T18:02:00.419041+00:00",
+  "date": "2026-11-19",
+  "generatedAt": "2026-11-19T14:24:22.740415+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "U.K. Inflation Rises as Energy Costs Keep Pressure on Bank of England",
-      "url": "https://www.wsj.com/economy/central-banking/u-k-inflation-rises-as-energy-costs-keep-pressure-on-bank-of-england-68f3edbb",
-      "summary": "UK inflation rose as energy costs keep pressure on Bank of England policy.",
-      "storyKey": "boe+inflation+uk",
+      "title": "Fed Officials Saw Higher Rates Ahead When They Held Steady Last Month",
+      "url": "https://www.wsj.com/economy/central-banking/fed-officials-saw-higher-rates-ahead-when-they-held-steady-last-month-ad4f3bf7",
+      "summary": "Fed officials signaled expectations for higher rates ahead despite holding steady last month, per minutes.",
+      "storyKey": "fed+fomc+rates",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Textron Selling Industrial Segment to Kingswood Capital for $1.2 Billion",
-      "url": "https://www.wsj.com/business/deals/textron-selling-industrial-segment-to-kingswood-capital-for-1-2-billion-5caba969",
-      "summary": "Textron is selling its industrial segment to Kingswood Capital for $1.2 billion.",
-      "storyKey": "kingswood+textron",
+      "title": "Anthropic Raises $81 Billion in Biggest IPO Ever",
+      "url": "https://www.wsj.com/finance/stocks/anthropic-prices-ipo-at-83-a-share-0290494c",
+      "summary": "Anthropic raised $81 billion in the biggest IPO ever, marking a major AI financing milestone.",
+      "storyKey": "anthropic+ipo",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "",
-      "url": "",
-      "summary": "No WSJ pick today.",
-      "storyKey": null,
+      "title": "Opinion | Abundance and Its Discontents",
+      "url": "https://www.wsj.com/opinion/free-expression/abundance-and-its-discontents-916324dd",
+      "summary": "Column examines discontents and critiques surrounding the \"abundance\" economic policy agenda.",
+      "storyKey": "abundance+policy",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Nvidia Reports Faster Growth, Says Jensen Huang Won’t Return as CEO",
-      "url": "https://www.wsj.com/tech/ai/nvidia-nvda-3q-2027-earnings-report-stock-6e642303",
-      "summary": "Nvidia reports faster growth as Jensen Huang won’t return as CEO.",
-      "storyKey": "ceo+huang+nvidia",
+      "title": "Exclusive | Palo Alto Networks to Buy AI-Startup Applied Compute for $4.5 Billion",
+      "url": "https://www.wsj.com/tech/ai/palo-alto-networks-to-buy-ai-startup-applied-compute-for-4-5-billion-39193611",
+      "summary": "Palo Alto Networks to acquire AI startup Applied Compute for $4.5 billion, per exclusive report.",
+      "storyKey": "appliedcompute+paloalto",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "FIFA President Attempts to Outrun a $20 Billion Blowup in Re-Election Bid",
-      "url": "https://www.wsj.com/sports/soccer/fifa-president-infantino-kushner-a4a802e3",
-      "summary": "FIFA president tries to outrun a $20 billion blowup amid re-election bid.",
-      "storyKey": "fifa+president",
+      "title": "MLB Insists It Will Not Compromise on Salary Cap",
+      "url": "https://www.wsj.com/sports/baseball/mlb-insists-it-will-not-compromise-on-salary-cap-8f1ab583",
+      "summary": "MLB insists it will not compromise on a salary cap amid labor negotiations.",
+      "storyKey": "mlb+salarycap",
       "source": "WSJ"
     }
   ],
   "research": [
     {
       "firm": "Goldman Sachs",
-      "show": "Exchanges",
-      "title": "Steady Global Economic Growth in 2027 Outlook But Risks Tilted to Downside",
-      "url": "https://podcasts.apple.com/us/podcast/steady-global-economic-growth-in-2027-outlook-but-risks/id948913991?i=1000802544399&uo=4",
-      "published": "2026-11-17T20:39:00+00:00",
-      "kind": "podcast",
-      "duration": "35 min",
-      "summary": "The global economy is forecast to grow 2.8% in 2027, though energy and AI could test its resilience, Jan Hatzius, chief economist and head of Goldman Sachs Research says on the Exchanges podcast. Dominic Wilson, senior advisor in Global Markets Research, predicts equity gains continuing."
-    },
-    {
-      "firm": "Goldman Sachs",
       "show": "Talks at GS",
-      "title": "Adam Goldston and Ryan Goldston on Defining Luxury Performance Footwear",
-      "url": "https://podcasts.apple.com/us/podcast/adam-goldston-and-ryan-goldston-on-defining-luxury/id1373320104?i=1000802549105&uo=4",
-      "published": "2026-11-17T20:08:00+00:00",
+      "title": "ESPN’s Jimmy Pitaro on the New Playbook for Sports Fans",
+      "url": "https://podcasts.apple.com/us/podcast/espns-jimmy-pitaro-on-the-new-playbook-for-sports-fans/id1373320104?i=1000802763795&uo=4",
+      "published": "2026-11-18T18:03:00+00:00",
       "kind": "podcast",
       "duration": "20 min",
-      "summary": "When APL (Athletic Propulsion Labs) set out to create basketball shoes that helped athletes instantly jump higher, the technology worked so well that the NBA banned the shoes for providing the wearer with an undue competitive advantage. That sparked viral global demand for the shoes and propelled APL to success. Adam Goldston and Ryan Goldston, co-founders of APL, explain the “luxury performance” philosophy of their footwear, their strategies for growing their business, and how they drew design inspiration from ziplines and Japanese soufflé pancakes. In a conversation with Meena Flynn, chair of global Private Wealth Management and co-head of One Goldman Sachs, the Goldstons also articulate how the experience of running an independent, founder-owned firm, a focus on product, and flexible…"
+      "summary": "The launch of ESPN’s direct-to-consumer service a year ago was a marker of change in the sports media business—offering the full suite of ESPN networks without a pay-TV bundle for the first time. ESPN Chairman Jimmy Pitaro joins Dave Dase, global co-head of the Sports franchise in Investment Banking, and discusses how this challenging decision helps the company reach younger viewers and “serve the sports fan anytime, anywhere.” Pitaro also talks about the strength of ESPN’s current sports rights portfolio, why the company is sometimes willing to walk away from media rights negotiations, and explains how AI allows ESPN to create new offerings."
     },
     {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
-      "title": "2027 Global Outlook: The Case for a Stronger Dollar, Longer AI Cycle",
-      "url": "https://podcasts.apple.com/us/podcast/2027-global-outlook-the-case-for-a-stronger/id1466686717?i=1000802553704&uo=4",
-      "published": "2026-11-17T21:30:00+00:00",
+      "title": "2027 Equities Outlook: Why the Correction Isn't the End of the Bull Market",
+      "url": "https://podcasts.apple.com/us/podcast/2027-equities-outlook-why-the-correction-isnt-the/id1466686717?i=1000802792448&uo=4",
+      "published": "2026-11-18T21:30:00+00:00",
       "kind": "podcast",
-      "duration": "7 min",
-      "summary": "In Part Two of their Outlook conversation, Global Chief Economist Seth Carpenter and Global Cross-Asset Strategist Serena Tang discuss the 2027 investment outlook, including where the call could be wrong and how the U.S. midterm elections factor in. Read more insights from Morgan Stanley."
+      "duration": "6 min",
+      "summary": "Our CIO and Chief U.S. Equity Strategist Mike Wilson shares his 2027 outlook and how the current correction isn't breaking the bull market, it's resetting it. Read more insights from Morgan Stanley."
     }
   ]
 }
