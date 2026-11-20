@@ -1,12 +1,12 @@
 {
-  "date": "2026-11-19",
-  "generatedAt": "2026-11-19T18:15:58.185418+00:00",
+  "date": "2026-11-20",
+  "generatedAt": "2026-11-20T13:59:35.629702+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Oil Futures Pick Up as Middle East Risks Remain",
-      "url": "https://www.wsj.com/business/energy-oil/oil-prices-mixed-as-traders-weigh-supply-outlook-middle-east-shipping-risks-224e2724",
+      "title": "These Charts Show Why Young People Across the World Are Fed Up With the Economy",
+      "url": "https://www.wsj.com/economy/these-charts-show-why-young-people-across-the-world-are-fed-up-with-the-economy-2fd5f804",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -14,8 +14,8 @@
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Brookfield Earnings Buoyed by Fund Raising, Wealth Solutions Growth",
-      "url": "https://www.wsj.com/finance/investing/brookfield-earnings-buoyed-by-fund-raising-wealth-solutions-growth-05a27297",
+      "title": "UniCredit Strikes Deal With Germany to Clear Path for Commerzbank Takeover",
+      "url": "https://www.wsj.com/business/unicredit-strikes-deal-with-germany-to-clear-path-for-commerzbank-takeover-8668f619",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -23,8 +23,8 @@
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | A Lesson on the Economics of Tariff Leverage",
-      "url": "https://www.wsj.com/opinion/a-lesson-on-the-economics-of-tariff-leverage-ccb74d5c",
+      "title": "Opinion | The Astonishing Wealth of Anthropic",
+      "url": "https://www.wsj.com/opinion/the-astonishing-wealth-of-anthropic-a6bb9746",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -32,8 +32,8 @@
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Jensen Huang Breaks Silence, Signals Willingness to Return as Nvidia CEO",
-      "url": "https://www.wsj.com/tech/jensen-huang-statement-nvidia-ceo-9dedca36",
+      "title": "How AI Helps Me Find the Right TV Shows at the Right Times",
+      "url": "https://www.wsj.com/tech/ai/tv-claude-code-watchlist-dde821b8",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -41,8 +41,8 @@
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "MLB Insists It Will Not Compromise on Salary Cap",
-      "url": "https://www.wsj.com/sports/baseball/mlb-insists-it-will-not-compromise-on-salary-cap-8f1ab583",
+      "title": "San Diego Padres Owners Nearing Record Deal for Mark Walter’s WNBA Team",
+      "url": "https://www.wsj.com/sports/basketball/los-angeles-sparks-wnba-sale-mark-walter-1005ff0c",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -50,24 +50,24 @@
   ],
   "research": [
     {
-      "firm": "Goldman Sachs",
-      "show": "Talks at GS",
-      "title": "ESPN’s Jimmy Pitaro on the New Playbook for Sports Fans",
-      "url": "https://podcasts.apple.com/us/podcast/espns-jimmy-pitaro-on-the-new-playbook-for-sports-fans/id1373320104?i=1000802763795&uo=4",
-      "published": "2026-11-18T18:03:00+00:00",
-      "kind": "podcast",
-      "duration": "20 min",
-      "summary": "The launch of ESPN’s direct-to-consumer service a year ago was a marker of change in the sports media business—offering the full suite of ESPN networks without a pay-TV bundle for the first time. ESPN Chairman Jimmy Pitaro joins Dave Dase, global co-head of the Sports franchise in Investment Banking, and discusses how this challenging decision helps the company reach younger viewers and “serve the sports fan anytime, anywhere.” Pitaro also talks about the strength of ESPN’s current sports rights portfolio, why the company is sometimes willing to walk away from media rights negotiations, and explains how AI allows ESPN to create new offerings."
-    },
-    {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
-      "title": "2027 Equities Outlook: Why the Correction Isn't the End of the Bull Market",
-      "url": "https://podcasts.apple.com/us/podcast/2027-equities-outlook-why-the-correction-isnt-the/id1466686717?i=1000802792448&uo=4",
-      "published": "2026-11-18T21:30:00+00:00",
+      "title": "Europe's AI Moment",
+      "url": "https://podcasts.apple.com/us/podcast/europes-ai-moment/id1466686717?i=1000803008975&uo=4",
+      "published": "2026-11-19T21:30:00+00:00",
       "kind": "podcast",
-      "duration": "6 min",
-      "summary": "Our CIO and Chief U.S. Equity Strategist Mike Wilson shares his 2027 outlook and how the current correction isn't breaking the bull market, it's resetting it. Read more insights from Morgan Stanley."
+      "duration": "13 min",
+      "summary": "Recorded at Morgan Stanley's European Tech, Media and Telecom Conference in Barcelona, our analysts discuss data center rollout, Europe's push for sovereign AI, the rise of agentic AI and the race for power efficiency. The episode features Paul Walsh, Head of European Research, Emmett Kelly, Head of European Telco and Data Centers, and Lee Simpson, Head of European Technology Hardware Read more insights from Morgan Stanley."
+    },
+    {
+      "firm": "J.P. Morgan",
+      "show": "Making Sense",
+      "title": "Healthcare’s next wave: AI, innovation and the future of access",
+      "url": "https://podcasts.apple.com/us/podcast/healthcares-next-wave-ai-innovation-and-the/id1456184829?i=1000803062769&uo=4",
+      "published": "2026-11-20T06:00:00+00:00",
+      "kind": "podcast",
+      "duration": "21 min",
+      "summary": "AI is reshaping drug discovery and healthcare delivery, while new medicines, medical devices and policy changes are shifting the outlook for the sector. In this episode of Making Sense, Elif Korkmaz, U.S. healthcare sector specialist at J.P. Morgan, sits down with Chris Schott, who covers U.S. Diversified Biopharma equity research, and Robbie Marcus, who covers U.S. medical supplies and device equity research. Where is innovation making the biggest difference for patients? How could AI, GLP-1 medicines and affordability shape the next wave of growth? And what should investors watch in healthcare policy, medical devices and China’s biotech industry? Tune in for a look at the trends shaping the future of healthcare."
     }
   ]
 }

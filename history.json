@@ -1,31 +1,4 @@
 {
-  "2026-10-29": [
-    {
-      "title": "PCE Inflation Accelerated Last Month",
-      "url": "https://www.wsj.com/economy/central-banking/pce-inflation-accelerated-last-month-5f72a43f",
-      "storyKey": "accelerate+inflation+pce"
-    },
-    {
-      "title": "Josh Kushner’s Thrive to Buy ADT for $7.6 Billion",
-      "url": "https://www.wsj.com/business/deals/josh-kushners-thrive-to-buy-adt-for-7-6-billion-55403c7a",
-      "storyKey": "acquisition+adt+thrive"
-    },
-    {
-      "title": "Opinion | GDP Growth Means More Pie for Everyone",
-      "url": "https://www.wsj.com/opinion/free-expression/gdp-growth-means-more-pie-for-everyone-c946984c",
-      "storyKey": "gdp+growth+pie"
-    },
-    {
-      "title": "Microsoft Quarterly Profit Soars as Cloud Growth Accelerates",
-      "url": "https://www.wsj.com/tech/microsoft-msft-q1-earnings-report-2027-stock-5809ce40",
-      "storyKey": "cloud+earnings+microsoft"
-    },
-    {
-      "title": "The Milwaukee Brewers Win the World Series",
-      "url": "https://www.wsj.com/sports/baseball/milwaukee-brewers-win-the-world-series-e0e6bc94",
-      "storyKey": "brewers+series+world"
-    }
-  ],
   "2026-10-30": [
     {
       "title": "Bank of Japan Declares Inflation Win, Clearing Way for Rate Hikes",
@@ -588,12 +561,34 @@
       "storyKey": null
     }
   ],
+  "2026-11-20": [
+    {
+      "title": "These Charts Show Why Young People Across the World Are Fed Up With the Economy",
+      "url": "https://www.wsj.com/economy/these-charts-show-why-young-people-across-the-world-are-fed-up-with-the-economy-2fd5f804",
+      "storyKey": null
+    },
+    {
+      "title": "UniCredit Strikes Deal With Germany to Clear Path for Commerzbank Takeover",
+      "url": "https://www.wsj.com/business/unicredit-strikes-deal-with-germany-to-clear-path-for-commerzbank-takeover-8668f619",
+      "storyKey": null
+    },
+    {
+      "title": "Opinion | The Astonishing Wealth of Anthropic",
+      "url": "https://www.wsj.com/opinion/the-astonishing-wealth-of-anthropic-a6bb9746",
+      "storyKey": null
+    },
+    {
+      "title": "How AI Helps Me Find the Right TV Shows at the Right Times",
+      "url": "https://www.wsj.com/tech/ai/tv-claude-code-watchlist-dde821b8",
+      "storyKey": null
+    },
+    {
+      "title": "San Diego Padres Owners Nearing Record Deal for Mark Walter’s WNBA Team",
+      "url": "https://www.wsj.com/sports/basketball/los-angeles-sparks-wnba-sale-mark-walter-1005ff0c",
+      "storyKey": null
+    }
+  ],
   "_research": {
-    "2026-10-29": [
-      "https://podcasts.apple.com/us/podcast/dimensionals-david-booth-on-how-to-interpret-risk-and/id1373320104?i=1000798582288&uo=4",
-      "https://podcasts.apple.com/us/podcast/signals-to-watch-in-the-u-s-midterms/id1466686717?i=1000798601232&uo=4",
-      "https://podcasts.apple.com/us/podcast/sponsors-spreads-and-stress-testing-navigating-2026s/id1456184829?i=1000798647142&uo=4"
-    ],
     "2026-10-30": [
       "https://podcasts.apple.com/us/podcast/brookfields-connor-teskey-on-the-real-bottleneck-in/id948913991?i=1000798828152&uo=4",
       "https://podcasts.apple.com/us/podcast/bullish-options-trades-slow-amid-ai-uncertainty/id1683802600?i=1000798827145&uo=4",
@@ -668,6 +663,10 @@
     "2026-11-19": [
       "https://podcasts.apple.com/us/podcast/espns-jimmy-pitaro-on-the-new-playbook-for-sports-fans/id1373320104?i=1000802763795&uo=4",
       "https://podcasts.apple.com/us/podcast/2027-equities-outlook-why-the-correction-isnt-the/id1466686717?i=1000802792448&uo=4"
+    ],
+    "2026-11-20": [
+      "https://podcasts.apple.com/us/podcast/europes-ai-moment/id1466686717?i=1000803008975&uo=4",
+      "https://podcasts.apple.com/us/podcast/healthcares-next-wave-ai-innovation-and-the/id1456184829?i=1000803062769&uo=4"
     ]
   }
 }
