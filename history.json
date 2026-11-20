@@ -563,29 +563,29 @@
   ],
   "2026-11-20": [
     {
-      "title": "These Charts Show Why Young People Across the World Are Fed Up With the Economy",
-      "url": "https://www.wsj.com/economy/these-charts-show-why-young-people-across-the-world-are-fed-up-with-the-economy-2fd5f804",
-      "storyKey": null
+      "title": "Canada and China Draw Closer with Expanded Trade Pact",
+      "url": "https://www.wsj.com/world/canada-and-china-draw-closer-with-expanded-trade-pact-b4566a38",
+      "storyKey": "canada+china+trade"
     },
     {
-      "title": "UniCredit Strikes Deal With Germany to Clear Path for Commerzbank Takeover",
-      "url": "https://www.wsj.com/business/unicredit-strikes-deal-with-germany-to-clear-path-for-commerzbank-takeover-8668f619",
-      "storyKey": null
+      "title": "TPG, Corpay to Buy Finance Platform Bill for About $6 Billion",
+      "url": "https://www.wsj.com/business/deals/tpg-corpay-to-buy-finance-platform-bill-for-about-6-billion-9f8be10c",
+      "storyKey": "bill+corpay+tpg"
     },
     {
-      "title": "Opinion | The Astonishing Wealth of Anthropic",
-      "url": "https://www.wsj.com/opinion/the-astonishing-wealth-of-anthropic-a6bb9746",
-      "storyKey": null
+      "title": "Opinion | No AI Company Is Too Big to Fail",
+      "url": "https://www.wsj.com/opinion/no-ai-company-is-too-big-to-fail-462bf066",
+      "storyKey": "ai+big+fail+too"
     },
     {
-      "title": "How AI Helps Me Find the Right TV Shows at the Right Times",
-      "url": "https://www.wsj.com/tech/ai/tv-claude-code-watchlist-dde821b8",
-      "storyKey": null
+      "title": "China’s AI Firms Are Addicted to Nvidia Chips. Now They Are Facing Withdrawal.",
+      "url": "https://www.wsj.com/tech/ai/chinas-ai-firms-are-addicted-to-nvidia-chips-now-they-are-facing-withdrawal-ba851ca9",
+      "storyKey": "china+chips+nvidia"
     },
     {
       "title": "San Diego Padres Owners Nearing Record Deal for Mark Walter’s WNBA Team",
       "url": "https://www.wsj.com/sports/basketball/los-angeles-sparks-wnba-sale-mark-walter-1005ff0c",
-      "storyKey": null
+      "storyKey": "padres+walter+wnba"
     }
   ],
   "_research": {
@@ -664,9 +664,6 @@
       "https://podcasts.apple.com/us/podcast/espns-jimmy-pitaro-on-the-new-playbook-for-sports-fans/id1373320104?i=1000802763795&uo=4",
       "https://podcasts.apple.com/us/podcast/2027-equities-outlook-why-the-correction-isnt-the/id1466686717?i=1000802792448&uo=4"
     ],
-    "2026-11-20": [
-      "https://podcasts.apple.com/us/podcast/europes-ai-moment/id1466686717?i=1000803008975&uo=4",
-      "https://podcasts.apple.com/us/podcast/healthcares-next-wave-ai-innovation-and-the/id1456184829?i=1000803062769&uo=4"
-    ]
+    "2026-11-20": []
   }
 }
