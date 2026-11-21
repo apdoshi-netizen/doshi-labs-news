@@ -1,31 +1,4 @@
 {
-  "2026-10-30": [
-    {
-      "title": "Bank of Japan Declares Inflation Win, Clearing Way for Rate Hikes",
-      "url": "https://www.wsj.com/economy/central-banking/bank-of-japan-holds-fire-while-signaling-rate-hikes-ahead-4bb8d423",
-      "storyKey": "boj+hike+rate"
-    },
-    {
-      "title": "BASF’s $12.5 Billion Takeover Bid for Evonik Rebuffed",
-      "url": "https://www.wsj.com/business/deals/basfs-12-5-billion-takeover-bid-for-evonik-rebuffed-5fe08975",
-      "storyKey": "basf+evonik"
-    },
-    {
-      "title": "Opinion | Are Wages Keeping Pace?",
-      "url": "https://www.wsj.com/opinion/are-wages-keeping-pace-aa8e3b28",
-      "storyKey": "inflation+wages"
-    },
-    {
-      "title": "Chinese Executive Close to Nvidia CEO Suspected of Giving China Information",
-      "url": "https://www.wsj.com/tech/chinese-executive-close-to-nvidia-ceo-suspected-of-giving-china-information-798eb6a1",
-      "storyKey": "espionage+nvidia"
-    },
-    {
-      "title": "The NFL Defensive Guru Who Blitzes on Almost Every Play",
-      "url": "https://www.wsj.com/sports/football/brian-flores-minnesota-vikings-defense-8226a8e2",
-      "storyKey": null
-    }
-  ],
   "2026-10-31": [
     {
       "title": "Fed Needs to Implement at Least Two More Rate Increases, Dallas Fed’s Logan Says",
@@ -588,12 +561,34 @@
       "storyKey": "padres+walter+wnba"
     }
   ],
+  "2026-11-21": [
+    {
+      "title": "Fed Governor Lisa Cook Says Her October Dissent Reflected Inflation Fight’s Urgency",
+      "url": "https://www.wsj.com/economy/central-banking/lisa-cook-federal-reserve-comments-inflation-44eb3f41",
+      "storyKey": "cook+dissent+fed"
+    },
+    {
+      "title": "Anthropic’s Mega IPO Lives Up to Wall Street Hype but Fails to Revive AI Trade",
+      "url": "https://www.wsj.com/finance/stocks/anthropic-ipo-ai-markets-89e2476f",
+      "storyKey": "anthropic+ipo"
+    },
+    {
+      "title": "Opinion | The Tech Panic and Government Credibility",
+      "url": "https://www.wsj.com/opinion/tech-outages-panic-political-leaders-donald-trump-jd-vance-c356b10d",
+      "storyKey": "credibility+panic+tech"
+    },
+    {
+      "title": "Exclusive | Nestle Eyes Autonomous Factory Lines and Looks to Google, Microsoft as Partners",
+      "url": "https://www.wsj.com/tech/ai/nestle-teams-up-with-microsoft-boston-dynamics-on-ai-in-factories-and-products-05bfb028",
+      "storyKey": "google+microsoft+nestle"
+    },
+    {
+      "title": "The NFL Is Out to Stuff Your TVs This Thanksgiving",
+      "url": "https://www.wsj.com/sports/football/the-nfl-is-out-to-stuff-your-tvs-this-thanksgiving-eeff85f0",
+      "storyKey": "nfl+thanksgiving+tv"
+    }
+  ],
   "_research": {
-    "2026-10-30": [
-      "https://podcasts.apple.com/us/podcast/brookfields-connor-teskey-on-the-real-bottleneck-in/id948913991?i=1000798828152&uo=4",
-      "https://podcasts.apple.com/us/podcast/bullish-options-trades-slow-amid-ai-uncertainty/id1683802600?i=1000798827145&uo=4",
-      "https://podcasts.apple.com/us/podcast/how-digital-assets-are-rewiring-financial-markets/id1466686717?i=1000798780698&uo=4"
-    ],
     "2026-10-31": [
       "https://podcasts.apple.com/us/podcast/the-curious-calm-of-credit-markets/id1466686717?i=1000798954708&uo=4"
     ],
@@ -664,6 +659,10 @@
       "https://podcasts.apple.com/us/podcast/espns-jimmy-pitaro-on-the-new-playbook-for-sports-fans/id1373320104?i=1000802763795&uo=4",
       "https://podcasts.apple.com/us/podcast/2027-equities-outlook-why-the-correction-isnt-the/id1466686717?i=1000802792448&uo=4"
     ],
-    "2026-11-20": []
+    "2026-11-20": [],
+    "2026-11-21": [
+      "https://podcasts.apple.com/us/podcast/the-outlook-for-retail-stocks-as-black-friday-approaches/id1683802600?i=1000803182357&uo=4",
+      "https://podcasts.apple.com/us/podcast/chinas-bet-on-physical-ai/id1466686717?i=1000803198216&uo=4"
+    ]
   }
 }

@@ -1,52 +1,73 @@
 {
-  "date": "2026-11-20",
-  "generatedAt": "2026-11-20T17:47:24.295722+00:00",
+  "date": "2026-11-21",
+  "generatedAt": "2026-11-21T13:27:12.603910+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Canada and China Draw Closer with Expanded Trade Pact",
-      "url": "https://www.wsj.com/world/canada-and-china-draw-closer-with-expanded-trade-pact-b4566a38",
-      "summary": "Canada and China expand trade pact, deepening ties amid broader tariff tensions.",
-      "storyKey": "canada+china+trade",
+      "title": "Fed Governor Lisa Cook Says Her October Dissent Reflected Inflation Fight’s Urgency",
+      "url": "https://www.wsj.com/economy/central-banking/lisa-cook-federal-reserve-comments-inflation-44eb3f41",
+      "summary": "Fed Governor Cook says her October dissent reflected urgency to fight inflation, signaling policy debate.",
+      "storyKey": "cook+dissent+fed",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "TPG, Corpay to Buy Finance Platform Bill for About $6 Billion",
-      "url": "https://www.wsj.com/business/deals/tpg-corpay-to-buy-finance-platform-bill-for-about-6-billion-9f8be10c",
-      "summary": "TPG and Corpay agree to buy finance platform Bill for about $6 billion.",
-      "storyKey": "bill+corpay+tpg",
+      "title": "Anthropic’s Mega IPO Lives Up to Wall Street Hype but Fails to Revive AI Trade",
+      "url": "https://www.wsj.com/finance/stocks/anthropic-ipo-ai-markets-89e2476f",
+      "summary": "Anthropic's IPO met Wall Street hype but failed to revive broader AI trade, report says.",
+      "storyKey": "anthropic+ipo",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | No AI Company Is Too Big to Fail",
-      "url": "https://www.wsj.com/opinion/no-ai-company-is-too-big-to-fail-462bf066",
-      "summary": "Opinion argues no AI company should be considered too big to fail.",
-      "storyKey": "ai+big+fail+too",
+      "title": "Opinion | The Tech Panic and Government Credibility",
+      "url": "https://www.wsj.com/opinion/tech-outages-panic-political-leaders-donald-trump-jd-vance-c356b10d",
+      "summary": "Opinion argues the tech panic tests government credibility amid AI-market turmoil.",
+      "storyKey": "credibility+panic+tech",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "China’s AI Firms Are Addicted to Nvidia Chips. Now They Are Facing Withdrawal.",
-      "url": "https://www.wsj.com/tech/ai/chinas-ai-firms-are-addicted-to-nvidia-chips-now-they-are-facing-withdrawal-ba851ca9",
-      "summary": "China's AI firms face chip shortage as Nvidia supply withdrawal looms.",
-      "storyKey": "china+chips+nvidia",
+      "title": "Exclusive | Nestle Eyes Autonomous Factory Lines and Looks to Google, Microsoft as Partners",
+      "url": "https://www.wsj.com/tech/ai/nestle-teams-up-with-microsoft-boston-dynamics-on-ai-in-factories-and-products-05bfb028",
+      "summary": "Nestle explores autonomous factory lines, partnering with Google and Microsoft on automation tech.",
+      "storyKey": "google+microsoft+nestle",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "San Diego Padres Owners Nearing Record Deal for Mark Walter’s WNBA Team",
-      "url": "https://www.wsj.com/sports/basketball/los-angeles-sparks-wnba-sale-mark-walter-1005ff0c",
-      "summary": "Padres owners near record deal for Mark Walter's WNBA franchise.",
-      "storyKey": "padres+walter+wnba",
+      "title": "The NFL Is Out to Stuff Your TVs This Thanksgiving",
+      "url": "https://www.wsj.com/sports/football/the-nfl-is-out-to-stuff-your-tvs-this-thanksgiving-eeff85f0",
+      "summary": "NFL aims to dominate Thanksgiving TV viewing with expanded game slate this year.",
+      "storyKey": "nfl+thanksgiving+tv",
       "source": "WSJ"
     }
   ],
-  "research": []
+  "research": [
+    {
+      "firm": "Goldman Sachs",
+      "show": "The Markets",
+      "title": "The Outlook for Retail Stocks as Black Friday Approaches",
+      "url": "https://podcasts.apple.com/us/podcast/the-outlook-for-retail-stocks-as-black-friday-approaches/id1683802600?i=1000803182357&uo=4",
+      "published": "2026-11-20T19:16:00+00:00",
+      "kind": "podcast",
+      "duration": "11 min",
+      "summary": "Solid retail sales data and a positive start to retail earnings reporting are demonstrating the strength of the US consumer heading into Black Friday, says Scott Feiler, US consumer sector specialist in Goldman Sachs FICC and Equities. Low jobless claims and declining gas prices also suggest resilient consumer spending, which is showing up in sales for experiences and giving a boost to hotel and cruise-line stocks. At the same time, Feiler says on The Markets podcast that it will be important to monitor how higher material costs flow through to corporate margins and retail prices in 2027."
+    },
+    {
+      "firm": "Morgan Stanley",
+      "show": "Thoughts on the Market",
+      "title": "China's Bet on Physical AI",
+      "url": "https://podcasts.apple.com/us/podcast/chinas-bet-on-physical-ai/id1466686717?i=1000803198216&uo=4",
+      "published": "2026-11-20T21:30:00+00:00",
+      "kind": "podcast",
+      "duration": "12 min",
+      "summary": "Live from Morgan Stanley's Asia Pacific Summit in Singapore, our China Equity Strategist Laura Wang joins Chief China Economist Robin Xing to explore how physical AI could rewire China's factories and what it takes for that investment to translate into stronger profits and higher incomes. Read more insights from Morgan Stanley."
+    }
+  ]
 }
