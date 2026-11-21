@@ -1,41 +1,41 @@
 {
   "date": "2026-11-21",
-  "generatedAt": "2026-11-21T13:27:12.603910+00:00",
+  "generatedAt": "2026-11-21T16:46:51.706940+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Fed Governor Lisa Cook Says Her October Dissent Reflected Inflation Fight’s Urgency",
-      "url": "https://www.wsj.com/economy/central-banking/lisa-cook-federal-reserve-comments-inflation-44eb3f41",
-      "summary": "Fed Governor Cook says her October dissent reflected urgency to fight inflation, signaling policy debate.",
-      "storyKey": "cook+dissent+fed",
+      "title": "These Charts Show Why Young People Across the World Are Fed Up With the Economy",
+      "url": "https://www.wsj.com/economy/these-charts-show-why-young-people-across-the-world-are-fed-up-with-the-economy-2fd5f804",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Anthropic’s Mega IPO Lives Up to Wall Street Hype but Fails to Revive AI Trade",
-      "url": "https://www.wsj.com/finance/stocks/anthropic-ipo-ai-markets-89e2476f",
-      "summary": "Anthropic's IPO met Wall Street hype but failed to revive broader AI trade, report says.",
-      "storyKey": "anthropic+ipo",
+      "title": "Tentative Deal Averts Strike Threat at Busiest U.S. Ports",
+      "url": "https://www.wsj.com/logistics-report/tentative-deal-averts-strike-threat-at-busiest-u-s-ports-6f9a60d1",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | The Tech Panic and Government Credibility",
-      "url": "https://www.wsj.com/opinion/tech-outages-panic-political-leaders-donald-trump-jd-vance-c356b10d",
-      "summary": "Opinion argues the tech panic tests government credibility amid AI-market turmoil.",
-      "storyKey": "credibility+panic+tech",
+      "title": "Opinion | The Astonishing Wealth of Anthropic",
+      "url": "https://www.wsj.com/opinion/the-astonishing-wealth-of-anthropic-a6bb9746",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Exclusive | Nestle Eyes Autonomous Factory Lines and Looks to Google, Microsoft as Partners",
-      "url": "https://www.wsj.com/tech/ai/nestle-teams-up-with-microsoft-boston-dynamics-on-ai-in-factories-and-products-05bfb028",
-      "summary": "Nestle explores autonomous factory lines, partnering with Google and Microsoft on automation tech.",
-      "storyKey": "google+microsoft+nestle",
+      "title": "What’s Your AI-Literacy IQ?",
+      "url": "https://www.wsj.com/tech/ai/ai-literacy-iq-test-3f13c95e",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
@@ -43,8 +43,8 @@
       "label": "Sports",
       "title": "The NFL Is Out to Stuff Your TVs This Thanksgiving",
       "url": "https://www.wsj.com/sports/football/the-nfl-is-out-to-stuff-your-tvs-this-thanksgiving-eeff85f0",
-      "summary": "NFL aims to dominate Thanksgiving TV viewing with expanded game slate this year.",
-      "storyKey": "nfl+thanksgiving+tv",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     }
   ],
