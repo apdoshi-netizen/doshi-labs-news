@@ -1,23 +1,23 @@
 {
   "date": "2026-11-22",
-  "generatedAt": "2026-11-22T13:19:23.254568+00:00",
+  "generatedAt": "2026-11-22T17:08:38.732474+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "",
-      "url": "",
-      "summary": "No WSJ pick today.",
+      "title": "Four Ways Techruptions May Shape the Economy",
+      "url": "https://www.wsj.com/finance/investing/four-ways-techruptions-may-shape-the-economy-a848efc9",
+      "summary": "",
       "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Fed Cuts Pay Raises for Regional-Bank Staff",
-      "url": "https://www.wsj.com/economy/central-banking/fed-cuts-pay-raises-for-regional-bank-staff-e3184f2d",
-      "summary": "Fed cuts pay raises for regional-bank staff, signaling tighter compensation oversight in banking sector.",
-      "storyKey": "bank+fed+pay+regional",
+      "title": "What Comes Next After Anthropic’s Historic IPO",
+      "url": "https://www.wsj.com/tech/ai/what-comes-next-after-anthropics-historic-ipo-464368c1",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
@@ -25,17 +25,17 @@
       "label": "Op-Ed",
       "title": "Opinion | Unmade in China",
       "url": "https://www.wsj.com/opinion/free-expression/unmade-in-china-c6edcbc7",
-      "summary": "Opinion argues China's manufacturing dominance threatens Western industrial policy and economic competitiveness.",
-      "storyKey": "china+manufacturing+policy",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Facing Backlash on Land, Data Centers Look to the Sea",
-      "url": "https://www.wsj.com/tech/ai/data-centers-ocean-f676429a",
-      "summary": "Facing land-use backlash, companies explore offshore data centers to meet surging computing demand.",
-      "storyKey": "centers+data+sea",
+      "title": "The 15 Best Tech Gifts of 2026, According to Our In-House Guru",
+      "url": "https://www.wsj.com/tech/personal-tech/tech-gift-guide-holiday-2026-1a021f58",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
@@ -43,8 +43,8 @@
       "label": "Sports",
       "title": "LSU Went to War With College Sports. Then Everything Went Horribly Wrong.",
       "url": "https://www.wsj.com/sports/football/lsu-lane-kiffin-bf1034b3",
-      "summary": "LSU's clash with college sports reforms backfires, highlighting turmoil in college athletics economics.",
-      "storyKey": "college+lsu+sports",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     }
   ],
