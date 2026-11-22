@@ -1,73 +1,63 @@
 {
-  "date": "2026-11-21",
-  "generatedAt": "2026-11-21T16:46:51.706940+00:00",
+  "date": "2026-11-22",
+  "generatedAt": "2026-11-22T13:19:23.254568+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "These Charts Show Why Young People Across the World Are Fed Up With the Economy",
-      "url": "https://www.wsj.com/economy/these-charts-show-why-young-people-across-the-world-are-fed-up-with-the-economy-2fd5f804",
-      "summary": "",
+      "title": "",
+      "url": "",
+      "summary": "No WSJ pick today.",
       "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Tentative Deal Averts Strike Threat at Busiest U.S. Ports",
-      "url": "https://www.wsj.com/logistics-report/tentative-deal-averts-strike-threat-at-busiest-u-s-ports-6f9a60d1",
-      "summary": "",
-      "storyKey": null,
+      "title": "Fed Cuts Pay Raises for Regional-Bank Staff",
+      "url": "https://www.wsj.com/economy/central-banking/fed-cuts-pay-raises-for-regional-bank-staff-e3184f2d",
+      "summary": "Fed cuts pay raises for regional-bank staff, signaling tighter compensation oversight in banking sector.",
+      "storyKey": "bank+fed+pay+regional",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | The Astonishing Wealth of Anthropic",
-      "url": "https://www.wsj.com/opinion/the-astonishing-wealth-of-anthropic-a6bb9746",
-      "summary": "",
-      "storyKey": null,
+      "title": "Opinion | Unmade in China",
+      "url": "https://www.wsj.com/opinion/free-expression/unmade-in-china-c6edcbc7",
+      "summary": "Opinion argues China's manufacturing dominance threatens Western industrial policy and economic competitiveness.",
+      "storyKey": "china+manufacturing+policy",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "What’s Your AI-Literacy IQ?",
-      "url": "https://www.wsj.com/tech/ai/ai-literacy-iq-test-3f13c95e",
-      "summary": "",
-      "storyKey": null,
+      "title": "Facing Backlash on Land, Data Centers Look to the Sea",
+      "url": "https://www.wsj.com/tech/ai/data-centers-ocean-f676429a",
+      "summary": "Facing land-use backlash, companies explore offshore data centers to meet surging computing demand.",
+      "storyKey": "centers+data+sea",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The NFL Is Out to Stuff Your TVs This Thanksgiving",
-      "url": "https://www.wsj.com/sports/football/the-nfl-is-out-to-stuff-your-tvs-this-thanksgiving-eeff85f0",
-      "summary": "",
-      "storyKey": null,
+      "title": "LSU Went to War With College Sports. Then Everything Went Horribly Wrong.",
+      "url": "https://www.wsj.com/sports/football/lsu-lane-kiffin-bf1034b3",
+      "summary": "LSU's clash with college sports reforms backfires, highlighting turmoil in college athletics economics.",
+      "storyKey": "college+lsu+sports",
       "source": "WSJ"
     }
   ],
   "research": [
     {
-      "firm": "Goldman Sachs",
-      "show": "The Markets",
-      "title": "The Outlook for Retail Stocks as Black Friday Approaches",
-      "url": "https://podcasts.apple.com/us/podcast/the-outlook-for-retail-stocks-as-black-friday-approaches/id1683802600?i=1000803182357&uo=4",
-      "published": "2026-11-20T19:16:00+00:00",
+      "firm": "J.P. Morgan",
+      "show": "Making Sense",
+      "title": "How generational demand is transforming the power grid",
+      "url": "https://podcasts.apple.com/us/podcast/how-generational-demand-is-transforming-the-power-grid/id1456184829?i=1000803381135&uo=4",
+      "published": "2026-11-22T06:00:00+00:00",
       "kind": "podcast",
       "duration": "11 min",
-      "summary": "Solid retail sales data and a positive start to retail earnings reporting are demonstrating the strength of the US consumer heading into Black Friday, says Scott Feiler, US consumer sector specialist in Goldman Sachs FICC and Equities. Low jobless claims and declining gas prices also suggest resilient consumer spending, which is showing up in sales for experiences and giving a boost to hotel and cruise-line stocks. At the same time, Feiler says on The Markets podcast that it will be important to monitor how higher material costs flow through to corporate margins and retail prices in 2027."
-    },
-    {
-      "firm": "Morgan Stanley",
-      "show": "Thoughts on the Market",
-      "title": "China's Bet on Physical AI",
-      "url": "https://podcasts.apple.com/us/podcast/chinas-bet-on-physical-ai/id1466686717?i=1000803198216&uo=4",
-      "published": "2026-11-20T21:30:00+00:00",
-      "kind": "podcast",
-      "duration": "12 min",
-      "summary": "Live from Morgan Stanley's Asia Pacific Summit in Singapore, our China Equity Strategist Laura Wang joins Chief China Economist Robin Xing to explore how physical AI could rewire China's factories and what it takes for that investment to translate into stronger profits and higher incomes. Read more insights from Morgan Stanley."
+      "summary": "EPRI's Arshad Mansoor joins J.P. Morgan's Michael Johnson to discuss what it will take to electrify the AI era: speed to power, speed to trust and a grid built for growth."
     }
   ]
 }

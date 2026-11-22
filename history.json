@@ -1,31 +1,4 @@
 {
-  "2026-10-31": [
-    {
-      "title": "Fed Needs to Implement at Least Two More Rate Increases, Dallas Fed’s Logan Says",
-      "url": "https://www.wsj.com/economy/central-banking/fed-needs-to-implement-at-least-two-more-rate-increases-dallas-feds-logan-says-c5003190",
-      "storyKey": "fed+logan+rates"
-    },
-    {
-      "title": "DoorDash to Buy Instacart for $17 Billion",
-      "url": "https://www.wsj.com/business/deals/doordash-to-buy-instacart-for-17-billion-7d6a6f3f",
-      "storyKey": "doordash+instacart"
-    },
-    {
-      "title": "Opinion | America’s Golden Age Is Happening Right Now",
-      "url": "https://www.wsj.com/opinion/free-expression/americas-golden-age-is-happening-right-now-b3ea6502",
-      "storyKey": "age+economy+golden"
-    },
-    {
-      "title": "OpenAI Raises Less Than Half of $30 Billion Target in Latest Round",
-      "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
-      "storyKey": "funding+openai"
-    },
-    {
-      "title": "The Mets Are the Biggest Waste of Money in Baseball History",
-      "url": "https://www.wsj.com/sports/baseball/new-york-mets-payroll-2026-10fff585",
-      "storyKey": "mets+spending+waste"
-    }
-  ],
   "2026-11-01": [
     {
       "title": "RBA’s Blunt Messaging Raises Questions About Peak in Rates",
@@ -588,10 +561,29 @@
       "storyKey": null
     }
   ],
+  "2026-11-22": [
+    {
+      "title": "Fed Cuts Pay Raises for Regional-Bank Staff",
+      "url": "https://www.wsj.com/economy/central-banking/fed-cuts-pay-raises-for-regional-bank-staff-e3184f2d",
+      "storyKey": "bank+fed+pay+regional"
+    },
+    {
+      "title": "Opinion | Unmade in China",
+      "url": "https://www.wsj.com/opinion/free-expression/unmade-in-china-c6edcbc7",
+      "storyKey": "china+manufacturing+policy"
+    },
+    {
+      "title": "Facing Backlash on Land, Data Centers Look to the Sea",
+      "url": "https://www.wsj.com/tech/ai/data-centers-ocean-f676429a",
+      "storyKey": "centers+data+sea"
+    },
+    {
+      "title": "LSU Went to War With College Sports. Then Everything Went Horribly Wrong.",
+      "url": "https://www.wsj.com/sports/football/lsu-lane-kiffin-bf1034b3",
+      "storyKey": "college+lsu+sports"
+    }
+  ],
   "_research": {
-    "2026-10-31": [
-      "https://podcasts.apple.com/us/podcast/the-curious-calm-of-credit-markets/id1466686717?i=1000798954708&uo=4"
-    ],
     "2026-11-01": [
       "https://podcasts.apple.com/us/podcast/closing-the-defense-production-gap/id1456184829?i=1000799185409&uo=4"
     ],
@@ -663,6 +655,9 @@
     "2026-11-21": [
       "https://podcasts.apple.com/us/podcast/the-outlook-for-retail-stocks-as-black-friday-approaches/id1683802600?i=1000803182357&uo=4",
       "https://podcasts.apple.com/us/podcast/chinas-bet-on-physical-ai/id1466686717?i=1000803198216&uo=4"
+    ],
+    "2026-11-22": [
+      "https://podcasts.apple.com/us/podcast/how-generational-demand-is-transforming-the-power-grid/id1456184829?i=1000803381135&uo=4"
     ]
   }
 }
