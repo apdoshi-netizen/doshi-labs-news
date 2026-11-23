@@ -1,41 +1,41 @@
 {
   "date": "2026-11-23",
-  "generatedAt": "2026-11-23T15:56:37.814819+00:00",
+  "generatedAt": "2026-11-23T21:21:36.223319+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
       "title": "Moody’s Says U.S. Economy Grew More Than Expected",
       "url": "https://www.wsj.com/economy/moodys-says-u-s-economy-grew-more-than-expected-416c91a5",
-      "summary": "Moody’s says U.S. economy grew more than expected, signaling resilient growth data.",
-      "storyKey": "economy+moodys+us",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "CrowdStrike to Buy Zscaler in $44 Billion Stock Swap",
-      "url": "https://www.wsj.com/business/deals/crowdstrike-to-buy-zscaler-in-43-9-billion-stock-swap-4c926031",
-      "summary": "CrowdStrike agrees to buy Zscaler in a $44 billion all-stock swap deal.",
-      "storyKey": "crowdstrike+zscaler",
+      "title": "Union Pacific CEO Apologizes as March Remark Fuels Opposition to Merger",
+      "url": "https://www.wsj.com/logistics-report/union-pacific-ceo-apologizes-as-march-remark-fuels-opposition-to-merger-028c18ec",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | How to Kill a Bull Market",
-      "url": "https://www.wsj.com/opinion/how-to-kill-a-bull-market-ai-policy-15fb5af6",
-      "summary": "Opinion argues over factors that could end the current bull market run.",
-      "storyKey": "bull+kill+market",
+      "title": "Opinion | China’s Success Is Built on Lies",
+      "url": "https://www.wsj.com/opinion/free-expression/chinas-success-is-built-on-lies-40224b7c",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "The AI Build-Out Is Sucking Up Resources and Crowding Out the Rest of the Economy",
-      "url": "https://www.wsj.com/tech/ai/the-ai-build-out-is-sucking-up-resources-and-crowding-out-the-rest-of-the-economy-13143007",
-      "summary": "AI infrastructure build-out is consuming resources and crowding out broader economic growth.",
-      "storyKey": "ai+buildout+economy",
+      "title": "A Timeline of Nvidia CEO Jensen Huang’s Spy Downfall and Resurrection",
+      "url": "https://www.wsj.com/tech/ai/a-timeline-of-nvidia-ceo-jensen-huangs-suspected-spy-drama-05cbebf3",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
@@ -43,8 +43,8 @@
       "label": "Sports",
       "title": "The Mets Land a $450 Million Ace—Just in Time for a Baseball Lockout",
       "url": "https://www.wsj.com/sports/baseball/tarik-skubal-mets-steve-cohen-9064f203",
-      "summary": "Mets land a $450 million ace pitcher amid looming baseball lockout threat.",
-      "storyKey": "450m+ace+mets",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     }
   ],
