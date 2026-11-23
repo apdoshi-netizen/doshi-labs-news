@@ -1,31 +1,4 @@
 {
-  "2026-11-01": [
-    {
-      "title": "RBA’s Blunt Messaging Raises Questions About Peak in Rates",
-      "url": "https://www.wsj.com/economy/central-banking/reserve-bank-of-australias-blunt-messaging-raises-questions-about-peak-in-rates-eb1b378a",
-      "storyKey": null
-    },
-    {
-      "title": "Ares Private-Credit Fund to Buy Competitor From Apollo",
-      "url": "https://www.wsj.com/finance/investing/ares-private-credit-fund-to-buy-competitor-from-apollo-daecb67c",
-      "storyKey": "apollo+ares+credit+private"
-    },
-    {
-      "title": "Opinion | The Unsolvable Task of Managing the Dollar",
-      "url": "https://www.wsj.com/opinion/the-unsolvable-task-of-managing-the-dollar-1d2cd05a",
-      "storyKey": "dollar+management+policy"
-    },
-    {
-      "title": "The Tangled Web of AI Bets Is Reason to Fear Tech Stocks",
-      "url": "https://www.wsj.com/tech/the-tangled-web-of-ai-bets-is-reason-to-fear-tech-stocks-905bde86",
-      "storyKey": "ai+bets+stocks"
-    },
-    {
-      "title": "The NFL Still Can’t Crack the Science of Jet Lag",
-      "url": "https://www.wsj.com/sports/football/the-nfl-still-cant-crack-the-science-of-jet-lag-a643dcca",
-      "storyKey": "jetlag+nfl+science"
-    }
-  ],
   "2026-11-02": [
     {
       "title": "Fitch Cuts France’s Outlook to Negative on Weaker Growth, Widening Deficit",
@@ -588,10 +561,34 @@
       "storyKey": null
     }
   ],
+  "2026-11-23": [
+    {
+      "title": "Moody’s Says U.S. Economy Grew More Than Expected",
+      "url": "https://www.wsj.com/economy/moodys-says-u-s-economy-grew-more-than-expected-416c91a5",
+      "storyKey": "economy+moodys+us"
+    },
+    {
+      "title": "CrowdStrike to Buy Zscaler in $44 Billion Stock Swap",
+      "url": "https://www.wsj.com/business/deals/crowdstrike-to-buy-zscaler-in-43-9-billion-stock-swap-4c926031",
+      "storyKey": "crowdstrike+zscaler"
+    },
+    {
+      "title": "Opinion | How to Kill a Bull Market",
+      "url": "https://www.wsj.com/opinion/how-to-kill-a-bull-market-ai-policy-15fb5af6",
+      "storyKey": "bull+kill+market"
+    },
+    {
+      "title": "The AI Build-Out Is Sucking Up Resources and Crowding Out the Rest of the Economy",
+      "url": "https://www.wsj.com/tech/ai/the-ai-build-out-is-sucking-up-resources-and-crowding-out-the-rest-of-the-economy-13143007",
+      "storyKey": "ai+buildout+economy"
+    },
+    {
+      "title": "The Mets Land a $450 Million Ace—Just in Time for a Baseball Lockout",
+      "url": "https://www.wsj.com/sports/baseball/tarik-skubal-mets-steve-cohen-9064f203",
+      "storyKey": "450m+ace+mets"
+    }
+  ],
   "_research": {
-    "2026-11-01": [
-      "https://podcasts.apple.com/us/podcast/closing-the-defense-production-gap/id1456184829?i=1000799185409&uo=4"
-    ],
     "2026-11-02": [],
     "2026-11-03": [
       "https://podcasts.apple.com/us/podcast/will-ai-start-making-your-hotel-reservations/id1466686717?i=1000799481268&uo=4"
@@ -663,6 +660,7 @@
     ],
     "2026-11-22": [
       "https://podcasts.apple.com/us/podcast/how-generational-demand-is-transforming-the-power-grid/id1456184829?i=1000803381135&uo=4"
-    ]
+    ],
+    "2026-11-23": []
   }
 }

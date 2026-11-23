@@ -1,63 +1,52 @@
 {
-  "date": "2026-11-22",
-  "generatedAt": "2026-11-22T17:08:38.732474+00:00",
+  "date": "2026-11-23",
+  "generatedAt": "2026-11-23T15:56:37.814819+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Four Ways Techruptions May Shape the Economy",
-      "url": "https://www.wsj.com/finance/investing/four-ways-techruptions-may-shape-the-economy-a848efc9",
-      "summary": "",
-      "storyKey": null,
+      "title": "Moody’s Says U.S. Economy Grew More Than Expected",
+      "url": "https://www.wsj.com/economy/moodys-says-u-s-economy-grew-more-than-expected-416c91a5",
+      "summary": "Moody’s says U.S. economy grew more than expected, signaling resilient growth data.",
+      "storyKey": "economy+moodys+us",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "What Comes Next After Anthropic’s Historic IPO",
-      "url": "https://www.wsj.com/tech/ai/what-comes-next-after-anthropics-historic-ipo-464368c1",
-      "summary": "",
-      "storyKey": null,
+      "title": "CrowdStrike to Buy Zscaler in $44 Billion Stock Swap",
+      "url": "https://www.wsj.com/business/deals/crowdstrike-to-buy-zscaler-in-43-9-billion-stock-swap-4c926031",
+      "summary": "CrowdStrike agrees to buy Zscaler in a $44 billion all-stock swap deal.",
+      "storyKey": "crowdstrike+zscaler",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Unmade in China",
-      "url": "https://www.wsj.com/opinion/free-expression/unmade-in-china-c6edcbc7",
-      "summary": "",
-      "storyKey": null,
+      "title": "Opinion | How to Kill a Bull Market",
+      "url": "https://www.wsj.com/opinion/how-to-kill-a-bull-market-ai-policy-15fb5af6",
+      "summary": "Opinion argues over factors that could end the current bull market run.",
+      "storyKey": "bull+kill+market",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "The 15 Best Tech Gifts of 2026, According to Our In-House Guru",
-      "url": "https://www.wsj.com/tech/personal-tech/tech-gift-guide-holiday-2026-1a021f58",
-      "summary": "",
-      "storyKey": null,
+      "title": "The AI Build-Out Is Sucking Up Resources and Crowding Out the Rest of the Economy",
+      "url": "https://www.wsj.com/tech/ai/the-ai-build-out-is-sucking-up-resources-and-crowding-out-the-rest-of-the-economy-13143007",
+      "summary": "AI infrastructure build-out is consuming resources and crowding out broader economic growth.",
+      "storyKey": "ai+buildout+economy",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "LSU Went to War With College Sports. Then Everything Went Horribly Wrong.",
-      "url": "https://www.wsj.com/sports/football/lsu-lane-kiffin-bf1034b3",
-      "summary": "",
-      "storyKey": null,
+      "title": "The Mets Land a $450 Million Ace—Just in Time for a Baseball Lockout",
+      "url": "https://www.wsj.com/sports/baseball/tarik-skubal-mets-steve-cohen-9064f203",
+      "summary": "Mets land a $450 million ace pitcher amid looming baseball lockout threat.",
+      "storyKey": "450m+ace+mets",
       "source": "WSJ"
     }
   ],
-  "research": [
-    {
-      "firm": "J.P. Morgan",
-      "show": "Making Sense",
-      "title": "How generational demand is transforming the power grid",
-      "url": "https://podcasts.apple.com/us/podcast/how-generational-demand-is-transforming-the-power-grid/id1456184829?i=1000803381135&uo=4",
-      "published": "2026-11-22T06:00:00+00:00",
-      "kind": "podcast",
-      "duration": "11 min",
-      "summary": "EPRI's Arshad Mansoor joins J.P. Morgan's Michael Johnson to discuss what it will take to electrify the AI era: speed to power, speed to trust and a grid built for growth."
-    }
-  ]
+  "research": []
 }
