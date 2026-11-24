@@ -1,12 +1,12 @@
 {
-  "date": "2026-11-23",
-  "generatedAt": "2026-11-23T21:21:36.223319+00:00",
+  "date": "2026-11-24",
+  "generatedAt": "2026-11-24T15:51:35.533810+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Moody’s Says U.S. Economy Grew More Than Expected",
-      "url": "https://www.wsj.com/economy/moodys-says-u-s-economy-grew-more-than-expected-416c91a5",
+      "title": "Exclusive | U.S. Prepares to Raise Tariffs on China and Other Countries",
+      "url": "https://www.wsj.com/economy/trade/u-s-prepares-to-raise-tariffs-on-china-and-other-countries-37981740",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -14,8 +14,8 @@
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Union Pacific CEO Apologizes as March Remark Fuels Opposition to Merger",
-      "url": "https://www.wsj.com/logistics-report/union-pacific-ceo-apologizes-as-march-remark-fuels-opposition-to-merger-028c18ec",
+      "title": "Intuit Selling Mailchimp for $3.68 Billion to Berkshire Hathaway-Backed Bending Spoons",
+      "url": "https://www.wsj.com/business/earnings/intuit-to-sell-mailchimp-for-3-68-billion-33f03f9c",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -23,8 +23,8 @@
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | China’s Success Is Built on Lies",
-      "url": "https://www.wsj.com/opinion/free-expression/chinas-success-is-built-on-lies-40224b7c",
+      "title": "Opinion | Nvidia and Trump’s State Capitalism",
+      "url": "https://www.wsj.com/opinion/nvidia-jensen-huang-donald-trump-130e644c",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -32,8 +32,8 @@
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "A Timeline of Nvidia CEO Jensen Huang’s Spy Downfall and Resurrection",
-      "url": "https://www.wsj.com/tech/ai/a-timeline-of-nvidia-ceo-jensen-huangs-suspected-spy-drama-05cbebf3",
+      "title": "Why Amazon’s Rival to Starlink Is Struggling to Catch Up With SpaceX",
+      "url": "https://www.wsj.com/tech/amazon-leo-starlink-rival-5bb0e6a0",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -41,8 +41,8 @@
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "The Mets Land a $450 Million Ace—Just in Time for a Baseball Lockout",
-      "url": "https://www.wsj.com/sports/baseball/tarik-skubal-mets-steve-cohen-9064f203",
+      "title": "I Like Being a Sports Parent. I Just Can’t Stand All the Waiting.",
+      "url": "https://www.wsj.com/sports/i-like-being-a-sports-parent-i-just-cant-stand-all-the-waiting-55c03c9c",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
