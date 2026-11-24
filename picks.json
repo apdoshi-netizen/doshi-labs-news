@@ -1,12 +1,12 @@
 {
   "date": "2026-11-24",
-  "generatedAt": "2026-11-24T15:51:35.533810+00:00",
+  "generatedAt": "2026-11-24T20:08:47.523754+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Exclusive | U.S. Prepares to Raise Tariffs on China and Other Countries",
-      "url": "https://www.wsj.com/economy/trade/u-s-prepares-to-raise-tariffs-on-china-and-other-countries-37981740",
+      "title": "Bank of Japan’s Ueda Vows to Keep Careful Eye on Fed Moves",
+      "url": "https://www.wsj.com/economy/central-banking/bank-of-japans-ueda-reaffirms-readiness-to-keep-raising-rates-8365bc0a",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -23,8 +23,8 @@
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Nvidia and Trump’s State Capitalism",
-      "url": "https://www.wsj.com/opinion/nvidia-jensen-huang-donald-trump-130e644c",
+      "title": "Opinion | Chicago Can’t Keep a Chief Financial Officer",
+      "url": "https://www.wsj.com/opinion/chicago-cant-keep-a-cfo-mayor-brandon-johnson-913dd920",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -32,8 +32,8 @@
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Why Amazon’s Rival to Starlink Is Struggling to Catch Up With SpaceX",
-      "url": "https://www.wsj.com/tech/amazon-leo-starlink-rival-5bb0e6a0",
+      "title": "Huang Tells Staff He Is in Therapy, Apologizes in Nvidia Town Hall",
+      "url": "https://www.wsj.com/tech/huang-tells-staff-he-is-in-therapy-apologizes-in-nvidia-town-hall-b79647f0",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -41,12 +41,23 @@
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "I Like Being a Sports Parent. I Just Can’t Stand All the Waiting.",
-      "url": "https://www.wsj.com/sports/i-like-being-a-sports-parent-i-just-cant-stand-all-the-waiting-55c03c9c",
+      "title": "Big Mess in Big Ten: College Football Power Bumbles Through Baffling Season",
+      "url": "https://www.wsj.com/sports/football/big-mess-in-big-ten-michigan-ohio-state-3bf13c62",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
     }
   ],
-  "research": []
+  "research": [
+    {
+      "firm": "Morgan Stanley",
+      "show": "Thoughts on the Market",
+      "title": "From EVs to Robots: China’s Edge in Physical AI",
+      "url": "https://podcasts.apple.com/us/podcast/from-evs-to-robots-chinas-edge-in-physical-ai/id1466686717?i=1000803674669&uo=4",
+      "published": "2026-11-23T22:00:00+00:00",
+      "kind": "podcast",
+      "duration": "13 min",
+      "summary": "Our Chief China Equity Strategist Laura Wang is joined by Tim Hsiao, Head of Greater China Auto and Mobility Research, and Sheng Zhong, Head of China Industrial Research, to discuss how the country’s supply chain, manufacturing scale and real-world data could accelerate AI adoption in cars and robots. Read more insights from Morgan Stanley."
+    }
+  ]
 }
