@@ -1,63 +1,52 @@
 {
-  "date": "2026-11-24",
-  "generatedAt": "2026-11-24T20:08:47.523754+00:00",
+  "date": "2026-11-25",
+  "generatedAt": "2026-11-25T15:34:43.788514+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Bank of Japan’s Ueda Vows to Keep Careful Eye on Fed Moves",
-      "url": "https://www.wsj.com/economy/central-banking/bank-of-japans-ueda-reaffirms-readiness-to-keep-raising-rates-8365bc0a",
-      "summary": "",
-      "storyKey": null,
+      "title": "China and Other Countries Face Higher U.S. Tariffs Over Industrial Subsidies",
+      "url": "https://www.wsj.com/logistics-report/china-and-other-countries-face-higher-u-s-tariffs-over-industrial-subsidies-399e2747",
+      "summary": "China and other countries face higher U.S. tariffs tied to industrial subsidies, a major trade-policy shift.",
+      "storyKey": "china+subsidies+tariffs",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Intuit Selling Mailchimp for $3.68 Billion to Berkshire Hathaway-Backed Bending Spoons",
-      "url": "https://www.wsj.com/business/earnings/intuit-to-sell-mailchimp-for-3-68-billion-33f03f9c",
-      "summary": "",
-      "storyKey": null,
+      "title": "Sanofi’s CEO, Hired for Turnaround, Starts With Industry’s Biggest Deal",
+      "url": "https://www.wsj.com/health/pharma/sanofis-ceo-hired-for-turnaround-starts-with-industrys-biggest-deal-11b47402",
+      "summary": "Sanofi's new CEO launches turnaround with industry's biggest pharma deal.",
+      "storyKey": "ceo+deal+sanofi",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Chicago Can’t Keep a Chief Financial Officer",
-      "url": "https://www.wsj.com/opinion/chicago-cant-keep-a-cfo-mayor-brandon-johnson-913dd920",
-      "summary": "",
-      "storyKey": null,
+      "title": "Opinion | American Exceptionalism Will Win AI",
+      "url": "https://www.wsj.com/opinion/american-exceptionalism-will-win-ai-8e20e29d",
+      "summary": "Opinion argues American exceptionalism will determine dominance in the global AI race.",
+      "storyKey": "ai+exceptionalism",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Huang Tells Staff He Is in Therapy, Apologizes in Nvidia Town Hall",
-      "url": "https://www.wsj.com/tech/huang-tells-staff-he-is-in-therapy-apologizes-in-nvidia-town-hall-b79647f0",
-      "summary": "",
-      "storyKey": null,
+      "title": "U.S. Blacklists Alibaba-Owned Company Over Chip Curbs",
+      "url": "https://www.wsj.com/tech/u-s-blacklists-alibaba-owned-company-over-chip-curbs-cefc3246",
+      "summary": "U.S. blacklists an Alibaba-owned company over violations of chip export curbs.",
+      "storyKey": "alibaba+chip+curbs",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "Big Mess in Big Ten: College Football Power Bumbles Through Baffling Season",
-      "url": "https://www.wsj.com/sports/football/big-mess-in-big-ten-michigan-ohio-state-3bf13c62",
-      "summary": "",
-      "storyKey": null,
+      "title": "Michigan Crisis Deepens as It Rescinds $17 Million Contract Offer to New Athletic Director",
+      "url": "https://www.wsj.com/sports/football/michigan-trev-alberts-athletic-director-8624f11c",
+      "summary": "Michigan rescinds $17 million contract offer to new athletic director amid crisis.",
+      "storyKey": "athletic+director+michigan",
       "source": "WSJ"
     }
   ],
-  "research": [
-    {
-      "firm": "Morgan Stanley",
-      "show": "Thoughts on the Market",
-      "title": "From EVs to Robots: China’s Edge in Physical AI",
-      "url": "https://podcasts.apple.com/us/podcast/from-evs-to-robots-chinas-edge-in-physical-ai/id1466686717?i=1000803674669&uo=4",
-      "published": "2026-11-23T22:00:00+00:00",
-      "kind": "podcast",
-      "duration": "13 min",
-      "summary": "Our Chief China Equity Strategist Laura Wang is joined by Tim Hsiao, Head of Greater China Auto and Mobility Research, and Sheng Zhong, Head of China Industrial Research, to discuss how the country’s supply chain, manufacturing scale and real-world data could accelerate AI adoption in cars and robots. Read more insights from Morgan Stanley."
-    }
-  ]
+  "research": []
 }
