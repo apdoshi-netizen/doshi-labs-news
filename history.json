@@ -573,19 +573,19 @@
       "storyKey": "ceo+deal+sanofi"
     },
     {
-      "title": "Opinion | American Exceptionalism Will Win AI",
-      "url": "https://www.wsj.com/opinion/american-exceptionalism-will-win-ai-8e20e29d",
-      "storyKey": "ai+exceptionalism"
+      "title": "Opinion | Nvidia and Federal Intervention",
+      "url": "https://www.wsj.com/opinion/nvidia-and-federal-intervention-b812b8ef",
+      "storyKey": "federal+intervention+nvidia"
     },
     {
       "title": "U.S. Blacklists Alibaba-Owned Company Over Chip Curbs",
       "url": "https://www.wsj.com/tech/u-s-blacklists-alibaba-owned-company-over-chip-curbs-cefc3246",
-      "storyKey": "alibaba+chip+curbs"
+      "storyKey": "alibaba+blacklist+chip"
     },
     {
-      "title": "Michigan Crisis Deepens as It Rescinds $17 Million Contract Offer to New Athletic Director",
-      "url": "https://www.wsj.com/sports/football/michigan-trev-alberts-athletic-director-8624f11c",
-      "storyKey": "athletic+director+michigan"
+      "title": "Exclusive | MLB Launches Legal Action Against Its Players—Before the Lockout Even Begins",
+      "url": "https://www.wsj.com/sports/baseball/major-league-baseball-lockout-3efcfabc",
+      "storyKey": "lockout+mlb+players"
     }
   ],
   "_research": {
@@ -661,6 +661,11 @@
     "2026-11-24": [
       "https://podcasts.apple.com/us/podcast/from-evs-to-robots-chinas-edge-in-physical-ai/id1466686717?i=1000803674669&uo=4"
     ],
-    "2026-11-25": []
+    "2026-11-25": [
+      "https://podcasts.apple.com/us/podcast/lord-chris-holmes-on-turning-ambition-into-action/id1373320104?i=1000804030194&uo=4",
+      "https://podcasts.apple.com/us/podcast/how-hedge-funds-are-navigating-stock-market-volatility/id1683802600?i=1000803911981&uo=4",
+      "https://podcasts.apple.com/us/podcast/what-will-determine-the-durability-of-the/id948913991?i=1000803846902&uo=4",
+      "https://podcasts.apple.com/us/podcast/can-treasuries-still-protect-your-portfolio/id1466686717?i=1000803862333&uo=4"
+    ]
   }
 }
