@@ -1,93 +1,63 @@
 {
-  "date": "2026-11-25",
-  "generatedAt": "2026-11-25T19:14:42.605882+00:00",
+  "date": "2026-11-26",
+  "generatedAt": "2026-11-26T15:11:42.394229+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "China and Other Countries Face Higher U.S. Tariffs Over Industrial Subsidies",
-      "url": "https://www.wsj.com/logistics-report/china-and-other-countries-face-higher-u-s-tariffs-over-industrial-subsidies-399e2747",
-      "summary": "U.S. to raise tariffs on China and other countries over industrial subsidies, escalating trade tensions.",
-      "storyKey": "china+subsidies+tariffs",
+      "title": "Germany and France on Diverging Economic Paths, Surveys Show",
+      "url": "https://www.wsj.com/economy/global/germany-and-france-on-diverging-economic-paths-surveys-show-fe961a0d",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Sanofi’s CEO, Hired for Turnaround, Starts With Industry’s Biggest Deal",
-      "url": "https://www.wsj.com/health/pharma/sanofis-ceo-hired-for-turnaround-starts-with-industrys-biggest-deal-11b47402",
-      "summary": "New Sanofi CEO launches turnaround with industry's biggest announced deal.",
-      "storyKey": "ceo+deal+sanofi",
+      "title": "Shapiro Accuses Biden of Not Doing Enough to Rein In Netanyahu",
+      "url": "https://www.wsj.com/politics/policy/shapiro-accuses-biden-of-not-doing-enough-to-rein-in-netanyahu-b139e9de",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Nvidia and Federal Intervention",
-      "url": "https://www.wsj.com/opinion/nvidia-and-federal-intervention-b812b8ef",
-      "summary": "Opinion argues over government intervention tied to Nvidia amid AI/chip policy debates.",
-      "storyKey": "federal+intervention+nvidia",
+      "title": "Exclusive | Aschenbrenner’s Situational Awareness Tells Investors It Lost 65% in Third Quarter",
+      "url": "https://www.wsj.com/opinion/aschenbrenners-situational-awareness-tells-investors-it-lost-65-in-third-quarter-de8e9797",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "U.S. Blacklists Alibaba-Owned Company Over Chip Curbs",
-      "url": "https://www.wsj.com/tech/u-s-blacklists-alibaba-owned-company-over-chip-curbs-cefc3246",
-      "summary": "U.S. blacklists an Alibaba-owned company over chip export curbs, escalating tech restrictions.",
-      "storyKey": "alibaba+blacklist+chip",
+      "title": "Jensen Huang’s Vision for the New Nvidia Is a Lot Like the Old One",
+      "url": "https://www.wsj.com/tech/ai/jensen-huangs-vision-for-the-new-nvidia-is-a-lot-like-the-old-one-d0d4abc3",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "Exclusive | MLB Launches Legal Action Against Its Players—Before the Lockout Even Begins",
-      "url": "https://www.wsj.com/sports/baseball/major-league-baseball-lockout-3efcfabc",
-      "summary": "MLB launches legal action against its players union ahead of a looming lockout.",
-      "storyKey": "lockout+mlb+players",
+      "title": "Aaron Rodgers Crashes America’s Thanksgiving",
+      "url": "https://www.wsj.com/sports/football/aaron-rodgers-steelers-thanksgiving-9e9ba621",
+      "summary": "",
+      "storyKey": null,
       "source": "WSJ"
     }
   ],
   "research": [
     {
-      "firm": "Goldman Sachs",
-      "show": "Talks at GS",
-      "title": "Lord Chris Holmes on Turning Ambition into Action",
-      "url": "https://podcasts.apple.com/us/podcast/lord-chris-holmes-on-turning-ambition-into-action/id1373320104?i=1000804030194&uo=4",
-      "published": "2026-11-25T17:00:00+00:00",
-      "kind": "podcast",
-      "duration": "21 min",
-      "summary": "After losing his sight at the age of 14, Lord Chris Holmes became one of Britain’s most successful Paralympic swimmers and went on to build a career spanning law, public service, and technology policy. In a Talks at GS conversation with Matthew Pomfret, global head of Controllers Risk & Regulatory Control at Goldman Sachs, Lord Holmes reflects on the teams that made his achievements possible, the mindset required to lead under pressure, and the opportunity to build a more inclusive future through innovation."
-    },
-    {
-      "firm": "Goldman Sachs",
-      "show": "The Markets",
-      "title": "How Hedge Funds Are Navigating Stock Market Volatility",
-      "url": "https://podcasts.apple.com/us/podcast/how-hedge-funds-are-navigating-stock-market-volatility/id1683802600?i=1000803911981&uo=4",
-      "published": "2026-11-25T14:11:00+00:00",
-      "kind": "podcast",
-      "duration": "12 min",
-      "summary": "Hedge funds are reducing risk and hedging their portfolios with short positions amid volatility in technology stocks, says Vincent Lin, co-head of Prime Insights and Analytics in Goldman Sachs FICC and Equities. While “faster money” types, including hedge funds and momentum strategies, are being more cautious, \"slower money\" investment among retirement savers remains historically elevated. In The Markets podcast, Lin also highlights opportunities in hyperscalers and in defensive sectors like healthcare."
-    },
-    {
-      "firm": "Goldman Sachs",
-      "show": "Exchanges",
-      "title": "What Will Determine the Durability of the AI Investment Cycle?",
-      "url": "https://podcasts.apple.com/us/podcast/what-will-determine-the-durability-of-the/id948913991?i=1000803846902&uo=4",
-      "published": "2026-11-24T19:16:00+00:00",
-      "kind": "podcast",
-      "duration": "25 min",
-      "summary": "Will AI-related market stresses and regulatory uncertainty stall investment in AI? Demand, capital, and power supply may determine whether the investment cycle endures, Social Capital CEO Chamath Palihapitiya and Eric Sheridan of Goldman Sachs Research say on the Exchanges podcast."
-    },
-    {
       "firm": "Morgan Stanley",
       "show": "Thoughts on the Market",
-      "title": "Can Treasuries Still Protect Your Portfolio?",
-      "url": "https://podcasts.apple.com/us/podcast/can-treasuries-still-protect-your-portfolio/id1466686717?i=1000803862333&uo=4",
-      "published": "2026-11-24T21:00:00+00:00",
+      "title": "Holiday Shopping in 2026: Higher Spending, Fewer Bags",
+      "url": "https://podcasts.apple.com/us/podcast/holiday-shopping-in-2026-higher-spending-fewer-bags/id1466686717?i=1000804068385&uo=4",
+      "published": "2026-11-25T21:00:00+00:00",
       "kind": "podcast",
-      "duration": "5 min",
-      "summary": "When stocks fall, investors often turn to government bonds. Our Global Head of Macro Strategy Matthew Hornbach looks at whether the market's favorite hedge has lost its appeal. Read more insights from Morgan Stanley."
+      "duration": "4 min",
+      "summary": "Our Head of U.S. Thematic Research Michelle Weaver discusses how inflation and AI are affecting consumer spending this holiday season. Read more insights from Morgan Stanley."
     }
   ]
 }

@@ -1,31 +1,4 @@
 {
-  "2026-11-04": [
-    {
-      "title": "Eurozone Inflation Rises to 4%, Driven by Energy Costs",
-      "url": "https://www.wsj.com/economy/global/eurozone-inflation-climbs-again-driven-by-energy-costs-0adbaef3",
-      "storyKey": "energy+eurozone+inflation"
-    },
-    {
-      "title": "Blackstone Leads $3.1 Billion Investment in Mitsubishi’s Stake in LNG Canada",
-      "url": "https://www.wsj.com/finance/investing/blackstone-leads-3-1-billion-investment-in-mitsubishis-stake-in-lng-canada-96379858",
-      "storyKey": "blackstone+canada+lng"
-    },
-    {
-      "title": "Opinion | Will Democrats Misread Their Victory?",
-      "url": "https://www.wsj.com/opinion/democrats-2026-elections-chuck-schumer-hakeem-jeffries-20e65983",
-      "storyKey": "democrats+midterm+victory"
-    },
-    {
-      "title": "Google to Invest $15 Billion in Malaysia Over Two Years",
-      "url": "https://www.wsj.com/tech/google-to-invest-15-billion-in-malaysia-over-two-years-0c7400dd",
-      "storyKey": "google+investment+malaysia"
-    },
-    {
-      "title": "Exclusive | Mark Walter in Talks to Sell Cadillac F1 Stake to Red Sox, Liverpool Owners",
-      "url": "https://www.wsj.com/sports/cadillac-formula-one-mark-walter-john-henry-af86c109",
-      "storyKey": "cadillac+f1+walter"
-    }
-  ],
   "2026-11-05": [
     {
       "title": "Latest U.S.-Canada Trade Talks Yield Progress Toward Pact, Carney Says",
@@ -588,11 +561,34 @@
       "storyKey": "lockout+mlb+players"
     }
   ],
+  "2026-11-26": [
+    {
+      "title": "Germany and France on Diverging Economic Paths, Surveys Show",
+      "url": "https://www.wsj.com/economy/global/germany-and-france-on-diverging-economic-paths-surveys-show-fe961a0d",
+      "storyKey": null
+    },
+    {
+      "title": "Shapiro Accuses Biden of Not Doing Enough to Rein In Netanyahu",
+      "url": "https://www.wsj.com/politics/policy/shapiro-accuses-biden-of-not-doing-enough-to-rein-in-netanyahu-b139e9de",
+      "storyKey": null
+    },
+    {
+      "title": "Exclusive | Aschenbrenner’s Situational Awareness Tells Investors It Lost 65% in Third Quarter",
+      "url": "https://www.wsj.com/opinion/aschenbrenners-situational-awareness-tells-investors-it-lost-65-in-third-quarter-de8e9797",
+      "storyKey": null
+    },
+    {
+      "title": "Jensen Huang’s Vision for the New Nvidia Is a Lot Like the Old One",
+      "url": "https://www.wsj.com/tech/ai/jensen-huangs-vision-for-the-new-nvidia-is-a-lot-like-the-old-one-d0d4abc3",
+      "storyKey": null
+    },
+    {
+      "title": "Aaron Rodgers Crashes America’s Thanksgiving",
+      "url": "https://www.wsj.com/sports/football/aaron-rodgers-steelers-thanksgiving-9e9ba621",
+      "storyKey": null
+    }
+  ],
   "_research": {
-    "2026-11-04": [
-      "https://podcasts.apple.com/us/podcast/solving-ais-power-bottleneck/id1466686717?i=1000799678816&uo=4",
-      "https://podcasts.apple.com/us/podcast/now-you-can-see-everything/id1367963156?i=1000799823234&uo=4"
-    ],
     "2026-11-05": [
       "https://podcasts.apple.com/us/podcast/how-aaru-uses-advanced-ai-simulations-to-predict-human/id1373320104?i=1000800060559&uo=4",
       "https://podcasts.apple.com/us/podcast/john-waldron-on-gdp-growth-ai-and-the-m-a-outlook/id948913991?i=1000799852840&uo=4",
@@ -666,6 +662,9 @@
       "https://podcasts.apple.com/us/podcast/how-hedge-funds-are-navigating-stock-market-volatility/id1683802600?i=1000803911981&uo=4",
       "https://podcasts.apple.com/us/podcast/what-will-determine-the-durability-of-the/id948913991?i=1000803846902&uo=4",
       "https://podcasts.apple.com/us/podcast/can-treasuries-still-protect-your-portfolio/id1466686717?i=1000803862333&uo=4"
+    ],
+    "2026-11-26": [
+      "https://podcasts.apple.com/us/podcast/holiday-shopping-in-2026-higher-spending-fewer-bags/id1466686717?i=1000804068385&uo=4"
     ]
   }
 }
