@@ -1,63 +1,52 @@
 {
-  "date": "2026-11-26",
-  "generatedAt": "2026-11-26T18:59:25.394444+00:00",
+  "date": "2026-11-27",
+  "generatedAt": "2026-11-27T15:03:10.483254+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "Germany and France on Diverging Economic Paths, Surveys Show",
-      "url": "https://www.wsj.com/economy/global/germany-and-france-on-diverging-economic-paths-surveys-show-fe961a0d",
-      "summary": "",
-      "storyKey": null,
+      "title": "New Tariffs on China Risk Undermining Trade Truce With U.S.",
+      "url": "https://www.wsj.com/world/new-tariffs-on-china-could-undermine-trade-truce-with-u-s-bf43adcf",
+      "summary": "New tariffs on China threaten to undermine the recent U.S.-China trade truce, risking renewed friction.",
+      "storyKey": "china+tariffs+trade",
       "source": "WSJ"
     },
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "Marlboro Maker Altria Explores Deal for Rival Imperial Brands",
-      "url": "https://www.wsj.com/business/deals/altria-considering-possible-offer-for-imperial-brands-7cef494b",
-      "summary": "",
-      "storyKey": null,
+      "title": "Lumibird Shares Surge After Thales Targets Majority Stake in $483 Million Laser Deal",
+      "url": "https://www.wsj.com/business/deals/lumibird-shares-surge-after-thales-targets-majority-stake-in-483-million-laser-deal-48d6e693",
+      "summary": "Thales targets majority stake in Lumibird via $483 million laser deal, shares surge.",
+      "storyKey": "lumibird+thales",
       "source": "WSJ"
     },
     {
       "slot": "Op-Ed",
       "label": "Op-Ed",
-      "title": "Opinion | Searching for God in the AI Machine",
-      "url": "https://www.wsj.com/opinion/searching-for-god-in-the-ai-machine-4b52e760",
-      "summary": "",
-      "storyKey": null,
+      "title": "Opinion | America Hits the Brakes on AI",
+      "url": "https://www.wsj.com/opinion/america-hits-the-brakes-on-ai-84a63996",
+      "summary": "Opinion argues America is pulling back on AI development, a policy critique with economic stakes.",
+      "storyKey": "ai+brakes+policy",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Nvidia Tells Partners to Pause Shipments to Southeast Asia",
-      "url": "https://www.wsj.com/tech/nvidia-tells-partners-to-pause-shipments-to-southeast-asia-5b791cb0",
-      "summary": "",
-      "storyKey": null,
+      "title": "Saudi Engineer Accused of Bugging OpenAI to Be Released on $1 Million Bond",
+      "url": "https://www.wsj.com/tech/saudi-engineer-accused-of-bugging-openai-to-be-released-on-1-million-bond-954f048e",
+      "summary": "Saudi engineer accused of bugging OpenAI released on $1 million bond, notable tech security case.",
+      "storyKey": "espionage+openai",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "Aaron Rodgers Crashes America’s Thanksgiving",
-      "url": "https://www.wsj.com/sports/football/aaron-rodgers-steelers-thanksgiving-9e9ba621",
-      "summary": "",
-      "storyKey": null,
+      "title": "Michigan Crisis Deepens as It Rescinds $17 Million Contract Offer to New Athletic Director",
+      "url": "https://www.wsj.com/sports/football/michigan-trev-alberts-athletic-director-8624f11c",
+      "summary": "Michigan rescinds $17 million contract offer to new athletic director amid deepening program crisis.",
+      "storyKey": "athletic+director+michigan",
       "source": "WSJ"
     }
   ],
-  "research": [
-    {
-      "firm": "Morgan Stanley",
-      "show": "Thoughts on the Market",
-      "title": "Holiday Shopping in 2026: Higher Spending, Fewer Bags",
-      "url": "https://podcasts.apple.com/us/podcast/holiday-shopping-in-2026-higher-spending-fewer-bags/id1466686717?i=1000804068385&uo=4",
-      "published": "2026-11-25T21:00:00+00:00",
-      "kind": "podcast",
-      "duration": "4 min",
-      "summary": "Our Head of U.S. Thematic Research Michelle Weaver discusses how inflation and AI are affecting consumer spending this holiday season. Read more insights from Morgan Stanley."
-    }
-  ]
+  "research": []
 }
