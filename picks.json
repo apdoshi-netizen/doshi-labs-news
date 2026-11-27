@@ -1,14 +1,14 @@
 {
   "date": "2026-11-27",
-  "generatedAt": "2026-11-27T15:03:10.483254+00:00",
+  "generatedAt": "2026-11-27T18:57:38.424031+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "New Tariffs on China Risk Undermining Trade Truce With U.S.",
-      "url": "https://www.wsj.com/world/new-tariffs-on-china-could-undermine-trade-truce-with-u-s-bf43adcf",
-      "summary": "New tariffs on China threaten to undermine the recent U.S.-China trade truce, risking renewed friction.",
-      "storyKey": "china+tariffs+trade",
+      "title": "U.S. Set to Raise Tariffs on China, EU and Others",
+      "url": "https://www.wsj.com/economy/trade/u-s-set-to-raise-tariffs-on-china-eu-and-others-e991efdb",
+      "summary": "U.S. set to raise tariffs on China, EU and others, a broad trade-policy shift affecting global markets.",
+      "storyKey": "tariffs+trade+us",
       "source": "WSJ"
     },
     {
@@ -16,7 +16,7 @@
       "label": "Micro",
       "title": "Lumibird Shares Surge After Thales Targets Majority Stake in $483 Million Laser Deal",
       "url": "https://www.wsj.com/business/deals/lumibird-shares-surge-after-thales-targets-majority-stake-in-483-million-laser-deal-48d6e693",
-      "summary": "Thales targets majority stake in Lumibird via $483 million laser deal, shares surge.",
+      "summary": "Thales targets majority stake in Lumibird in a $483 million laser deal, shares surge.",
       "storyKey": "lumibird+thales",
       "source": "WSJ"
     },
@@ -25,28 +25,39 @@
       "label": "Op-Ed",
       "title": "Opinion | America Hits the Brakes on AI",
       "url": "https://www.wsj.com/opinion/america-hits-the-brakes-on-ai-84a63996",
-      "summary": "Opinion argues America is pulling back on AI development, a policy critique with economic stakes.",
-      "storyKey": "ai+brakes+policy",
+      "summary": "Opinion argues America is pulling back on AI despite its economic and strategic importance.",
+      "storyKey": "ai+america+brakes",
       "source": "WSJ"
     },
     {
       "slot": "Tech",
       "label": "Tech",
-      "title": "Saudi Engineer Accused of Bugging OpenAI to Be Released on $1 Million Bond",
-      "url": "https://www.wsj.com/tech/saudi-engineer-accused-of-bugging-openai-to-be-released-on-1-million-bond-954f048e",
-      "summary": "Saudi engineer accused of bugging OpenAI released on $1 million bond, notable tech security case.",
-      "storyKey": "espionage+openai",
+      "title": "The AI Boom Looks Alive and Well in Asia",
+      "url": "https://www.wsj.com/tech/ai/the-ai-boom-looks-alive-and-well-in-asia-59841697",
+      "summary": "The AI boom remains strong in Asia, countering fears of a broader tech slowdown.",
+      "storyKey": "ai+asia+boom",
       "source": "WSJ"
     },
     {
       "slot": "Sports",
       "label": "Sports",
-      "title": "Michigan Crisis Deepens as It Rescinds $17 Million Contract Offer to New Athletic Director",
-      "url": "https://www.wsj.com/sports/football/michigan-trev-alberts-athletic-director-8624f11c",
-      "summary": "Michigan rescinds $17 million contract offer to new athletic director amid deepening program crisis.",
-      "storyKey": "athletic+director+michigan",
+      "title": "They Call Him Bazooka Joe—and He Just Blew Up the Dallas Cowboys’ Season",
+      "url": "https://www.wsj.com/sports/football/joe-milton-eagles-cowboys-22c44f1e",
+      "summary": "Report details how a player nicknamed Bazooka Joe upended the Dallas Cowboys’ season.",
+      "storyKey": "bazooka+cowboys+joe",
       "source": "WSJ"
     }
   ],
-  "research": []
+  "research": [
+    {
+      "firm": "Morgan Stanley",
+      "show": "Thoughts on the Market",
+      "title": "Giving Thanks After a Bumpy Year in Markets",
+      "url": "https://podcasts.apple.com/us/podcast/giving-thanks-after-a-bumpy-year-in-markets/id1466686717?i=1000804405128&uo=4",
+      "published": "2026-11-27T15:00:00+00:00",
+      "kind": "podcast",
+      "duration": "4 min",
+      "summary": "This Thanksgiving weekend, our Global Head of Fixed Income Research Andrew Sheets talks about the origins of the holiday, what investors should be grateful for and the outlook for the year ahead. Read more insights from Morgan Stanley."
+    }
+  ]
 }

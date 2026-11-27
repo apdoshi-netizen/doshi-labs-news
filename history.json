@@ -563,9 +563,9 @@
   ],
   "2026-11-27": [
     {
-      "title": "New Tariffs on China Risk Undermining Trade Truce With U.S.",
-      "url": "https://www.wsj.com/world/new-tariffs-on-china-could-undermine-trade-truce-with-u-s-bf43adcf",
-      "storyKey": "china+tariffs+trade"
+      "title": "U.S. Set to Raise Tariffs on China, EU and Others",
+      "url": "https://www.wsj.com/economy/trade/u-s-set-to-raise-tariffs-on-china-eu-and-others-e991efdb",
+      "storyKey": "tariffs+trade+us"
     },
     {
       "title": "Lumibird Shares Surge After Thales Targets Majority Stake in $483 Million Laser Deal",
@@ -575,17 +575,17 @@
     {
       "title": "Opinion | America Hits the Brakes on AI",
       "url": "https://www.wsj.com/opinion/america-hits-the-brakes-on-ai-84a63996",
-      "storyKey": "ai+brakes+policy"
+      "storyKey": "ai+america+brakes"
     },
     {
-      "title": "Saudi Engineer Accused of Bugging OpenAI to Be Released on $1 Million Bond",
-      "url": "https://www.wsj.com/tech/saudi-engineer-accused-of-bugging-openai-to-be-released-on-1-million-bond-954f048e",
-      "storyKey": "espionage+openai"
+      "title": "The AI Boom Looks Alive and Well in Asia",
+      "url": "https://www.wsj.com/tech/ai/the-ai-boom-looks-alive-and-well-in-asia-59841697",
+      "storyKey": "ai+asia+boom"
     },
     {
-      "title": "Michigan Crisis Deepens as It Rescinds $17 Million Contract Offer to New Athletic Director",
-      "url": "https://www.wsj.com/sports/football/michigan-trev-alberts-athletic-director-8624f11c",
-      "storyKey": "athletic+director+michigan"
+      "title": "They Call Him Bazooka Joe—and He Just Blew Up the Dallas Cowboys’ Season",
+      "url": "https://www.wsj.com/sports/football/joe-milton-eagles-cowboys-22c44f1e",
+      "storyKey": "bazooka+cowboys+joe"
     }
   ],
   "_research": {
@@ -660,6 +660,8 @@
     "2026-11-26": [
       "https://podcasts.apple.com/us/podcast/holiday-shopping-in-2026-higher-spending-fewer-bags/id1466686717?i=1000804068385&uo=4"
     ],
-    "2026-11-27": []
+    "2026-11-27": [
+      "https://podcasts.apple.com/us/podcast/giving-thanks-after-a-bumpy-year-in-markets/id1466686717?i=1000804405128&uo=4"
+    ]
   }
 }
