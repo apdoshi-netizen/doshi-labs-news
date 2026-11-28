@@ -1,12 +1,12 @@
 {
   "date": "2026-11-28",
-  "generatedAt": "2026-11-28T14:10:51.651190+00:00",
+  "generatedAt": "2026-11-28T17:31:20.813011+00:00",
   "picks": [
     {
       "slot": "Macro",
       "label": "Macro",
-      "title": "EU Inks Trade Deal With Indonesia to Cut Tariffs, Catalyze Investment",
-      "url": "https://www.wsj.com/economy/trade/eu-inks-trade-deal-with-indonesia-to-cut-tariffs-catalyze-investment-9810d41f",
+      "title": "Saudi Engineer Accused of Bugging OpenAI to Be Released on $1 Million Bond",
+      "url": "https://www.wsj.com/tech/saudi-engineer-accused-of-bugging-openai-to-be-released-on-1-million-bond-954f048e",
       "summary": "",
       "storyKey": null,
       "source": "WSJ"
@@ -14,10 +14,10 @@
     {
       "slot": "Industry / Company / Transaction",
       "label": "Micro",
-      "title": "BAE Systems Secures $6 Billion in Combat-Vehicle Contracts For Several European Nations",
-      "url": "https://www.wsj.com/business/bae-systems-secures-6-billion-in-combat-vehicle-contracts-for-several-european-nations-2205c760",
-      "summary": "BAE Systems secures $6 billion in combat-vehicle contracts for several European nations.",
-      "storyKey": "bae+contracts+systems",
+      "title": "Analog Devices Profit, Revenue Rise but Forecast Is Mixed",
+      "url": "https://www.wsj.com/business/earnings/analog-devices-profit-revenue-rise-as-industrial-data-center-demand-surges-3dfef138",
+      "summary": "Analog Devices reports rising profit and revenue but gives a mixed forecast for investors.",
+      "storyKey": "analog+devices+earnings",
       "source": "WSJ"
     },
     {
@@ -25,7 +25,7 @@
       "label": "Op-Ed",
       "title": "Opinion | Nvidia and Failing U.S. Export Controls",
       "url": "https://www.wsj.com/opinion/nvidia-chips-u-s-export-controls-china-jensen-huang-c457c915",
-      "summary": "Opinion argues U.S. export controls on Nvidia chips to China are failing.",
+      "summary": "Opinion argues U.S. export controls on Nvidia chips are failing to curb China's AI ambitions.",
       "storyKey": "controls+export+nvidia",
       "source": "WSJ"
     },
@@ -34,7 +34,7 @@
       "label": "Tech",
       "title": "Cisco, OpenAI Launch Project to Safeguard Agentic AI",
       "url": "https://www.wsj.com/tech/cisco-openai-launch-project-to-safeguard-agentic-ai-f48e6420",
-      "summary": "Cisco and OpenAI launch project to safeguard agentic AI systems.",
+      "summary": "Cisco and OpenAI launch a joint project to safeguard agentic AI systems from security risks.",
       "storyKey": "agentic+cisco+openai",
       "source": "WSJ"
     },
@@ -43,10 +43,21 @@
       "label": "Sports",
       "title": "A Family Feud as Big as Texas Hangs Over Houston’s NFL Team",
       "url": "https://www.wsj.com/sports/football/houston-texans-mcnair-family-feud-6ac45e98",
-      "summary": "Family feud over ownership stakes hangs over Houston's NFL franchise.",
+      "summary": "A family ownership feud is reportedly roiling Houston's NFL franchise, raising governance concerns.",
       "storyKey": "feud+houston+nfl",
       "source": "WSJ"
     }
   ],
-  "research": []
+  "research": [
+    {
+      "firm": "Morgan Stanley",
+      "show": "Thoughts on the Market",
+      "title": "A New Season of “What Should I Do With My Money?”",
+      "url": "https://podcasts.apple.com/us/podcast/a-new-season-of-what-should-i-do-with-my-money/id1466686717?i=1000804558462&uo=4",
+      "published": "2026-11-28T14:00:00+00:00",
+      "kind": "podcast",
+      "duration": "4 min",
+      "summary": "Morgan Stanley Wealth Management's “What Should I Do With My Money?” is back with a new season tackling more advanced topics like founder liquidity and accessing private markets. In this excerpt, client Gus and his longtime advisor Erik explain how they used an exchange fund to diversify his family's concentrated stock position while deferring taxes, and why they're now pairing it with a long-short strategy to harvest losses. Listen to the episode here."
+    }
+  ]
 }

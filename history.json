@@ -563,14 +563,14 @@
   ],
   "2026-11-28": [
     {
-      "title": "EU Inks Trade Deal With Indonesia to Cut Tariffs, Catalyze Investment",
-      "url": "https://www.wsj.com/economy/trade/eu-inks-trade-deal-with-indonesia-to-cut-tariffs-catalyze-investment-9810d41f",
+      "title": "Saudi Engineer Accused of Bugging OpenAI to Be Released on $1 Million Bond",
+      "url": "https://www.wsj.com/tech/saudi-engineer-accused-of-bugging-openai-to-be-released-on-1-million-bond-954f048e",
       "storyKey": null
     },
     {
-      "title": "BAE Systems Secures $6 Billion in Combat-Vehicle Contracts For Several European Nations",
-      "url": "https://www.wsj.com/business/bae-systems-secures-6-billion-in-combat-vehicle-contracts-for-several-european-nations-2205c760",
-      "storyKey": "bae+contracts+systems"
+      "title": "Analog Devices Profit, Revenue Rise but Forecast Is Mixed",
+      "url": "https://www.wsj.com/business/earnings/analog-devices-profit-revenue-rise-as-industrial-data-center-demand-surges-3dfef138",
+      "storyKey": "analog+devices+earnings"
     },
     {
       "title": "Opinion | Nvidia and Failing U.S. Export Controls",
@@ -660,6 +660,8 @@
     "2026-11-27": [
       "https://podcasts.apple.com/us/podcast/giving-thanks-after-a-bumpy-year-in-markets/id1466686717?i=1000804405128&uo=4"
     ],
-    "2026-11-28": []
+    "2026-11-28": [
+      "https://podcasts.apple.com/us/podcast/a-new-season-of-what-should-i-do-with-my-money/id1466686717?i=1000804558462&uo=4"
+    ]
   }
 }
