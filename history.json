@@ -1,31 +1,4 @@
 {
-  "2026-11-06": [
-    {
-      "title": "Solid Jobs Report Leaves Inflation, Markets to Settle Fed’s December Call",
-      "url": "https://www.wsj.com/economy/central-banking/solid-jobs-report-leaves-inflation-markets-to-settle-feds-december-call-7738799e",
-      "storyKey": "december+fed+jobs"
-    },
-    {
-      "title": "Firefly Aerospace Inks $1.3 Billion Deal With AST SpaceMobile for Rocket Engines",
-      "url": "https://www.wsj.com/business/firefly-aerospace-inks-1-3-billion-deal-with-ast-spacemobile-for-rocket-engines-eb7e3ea1",
-      "storyKey": "astspacemobile+firefly"
-    },
-    {
-      "title": "Opinion | Politics Shakes Up the Markets",
-      "url": "https://www.wsj.com/opinion/tech-selloff-economy-politics-2e789982",
-      "storyKey": "markets+politics"
-    },
-    {
-      "title": "AI Companies Scramble to Navigate a World Hostile to Data Centers",
-      "url": "https://www.wsj.com/tech/ai/ai-companies-scramble-to-navigate-a-world-hostile-to-data-centers-c6023a14",
-      "storyKey": "ai+datacenters"
-    },
-    {
-      "title": "The $5 Billion Golf League You Never Watched Is Gone. Here’s Why It Flopped.",
-      "url": "https://www.wsj.com/sports/golf/liv-golf-mickelson-dechambeau-rahm-c53a4bb4",
-      "storyKey": "collapse+golf+liv"
-    }
-  ],
   "2026-11-07": [
     {
       "title": "Hiring Defied Expectations With 165,000 Jobs Added in October",
@@ -588,10 +561,34 @@
       "storyKey": "bazooka+cowboys+joe"
     }
   ],
+  "2026-11-28": [
+    {
+      "title": "EU Inks Trade Deal With Indonesia to Cut Tariffs, Catalyze Investment",
+      "url": "https://www.wsj.com/economy/trade/eu-inks-trade-deal-with-indonesia-to-cut-tariffs-catalyze-investment-9810d41f",
+      "storyKey": null
+    },
+    {
+      "title": "BAE Systems Secures $6 Billion in Combat-Vehicle Contracts For Several European Nations",
+      "url": "https://www.wsj.com/business/bae-systems-secures-6-billion-in-combat-vehicle-contracts-for-several-european-nations-2205c760",
+      "storyKey": "bae+contracts+systems"
+    },
+    {
+      "title": "Opinion | Nvidia and Failing U.S. Export Controls",
+      "url": "https://www.wsj.com/opinion/nvidia-chips-u-s-export-controls-china-jensen-huang-c457c915",
+      "storyKey": "controls+export+nvidia"
+    },
+    {
+      "title": "Cisco, OpenAI Launch Project to Safeguard Agentic AI",
+      "url": "https://www.wsj.com/tech/cisco-openai-launch-project-to-safeguard-agentic-ai-f48e6420",
+      "storyKey": "agentic+cisco+openai"
+    },
+    {
+      "title": "A Family Feud as Big as Texas Hangs Over Houston’s NFL Team",
+      "url": "https://www.wsj.com/sports/football/houston-texans-mcnair-family-feud-6ac45e98",
+      "storyKey": "feud+houston+nfl"
+    }
+  ],
   "_research": {
-    "2026-11-06": [
-      "https://podcasts.apple.com/us/podcast/a-credit-perspective-on-the-ai-buildout/id1466686717?i=1000800120242&uo=4"
-    ],
     "2026-11-07": [
       "https://podcasts.apple.com/us/podcast/lseg-ceo-david-schwimmer-on-where-global-capital-is-moving/id1373320104?i=1000800288851&uo=4",
       "https://podcasts.apple.com/us/podcast/the-us-midterms-reshaping-the-stock-market/id1683802600?i=1000800290458&uo=4",
@@ -662,6 +659,7 @@
     ],
     "2026-11-27": [
       "https://podcasts.apple.com/us/podcast/giving-thanks-after-a-bumpy-year-in-markets/id1466686717?i=1000804405128&uo=4"
-    ]
+    ],
+    "2026-11-28": []
   }
 }
